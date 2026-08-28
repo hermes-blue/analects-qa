@@ -1,0 +1,24 @@
+{
+  "book":"팔일편","range":"11-15","type":"core_candidates","chapters":[
+    {"chapter":11,"candidates":[
+      {"id":"A","headline":"의식의 참뜻을 알면 그 뒤의 정치 질서까지 보인다","subtitle":"","score":10},
+      {"id":"B","headline":"큰 제사의 원리는 천하의 질서를 읽는 열쇠가 된다","subtitle":"","score":9},
+      {"id":"C","headline":"공자님은 잘못된 제사를 두고 쉽게 안다고 말하지 않았다","subtitle":"","score":8}],"selected":"A"},
+    {"chapter":12,"candidates":[
+      {"id":"A","headline":"제사는 대신 처리하는 절차가 아니라 직접 참여하는 공경이다","subtitle":"","score":10},
+      {"id":"B","headline":"없는 사람을 앞에 모신 듯해야 제사가 살아난다","subtitle":"","score":9},
+      {"id":"C","headline":"의례의 의미는 당사자의 진실한 참여에서 생긴다","subtitle":"","score":9}],"selected":"A"},
+    {"chapter":13,"candidates":[
+      {"id":"A","headline":"누구에게 아첨할지를 계산하는 순간 이미 길을 잃는다","subtitle":"","score":10},
+      {"id":"B","headline":"권력자에게 잘 보여도 근본의 도리를 어기면 소용없다","subtitle":"","score":9},
+      {"id":"C","headline":"더 큰 질서를 거스른 잘못은 아첨으로 덮을 수 없다","subtitle":"","score":9}],"selected":"A"},
+    {"chapter":14,"candidates":[
+      {"id":"A","headline":"좋은 전통은 앞선 시대의 장점을 이어받아 더 다듬는다","subtitle":"","score":10},
+      {"id":"B","headline":"주나라 문화의 힘은 이전 두 시대를 보고 고친 데 있었다","subtitle":"","score":9},
+      {"id":"C","headline":"공자님은 가장 잘 다듬어진 주나라의 예를 따르고자 했다","subtitle":"","score":9}],"selected":"A"},
+    {"chapter":15,"candidates":[
+      {"id":"A","headline":"아는 사람일수록 중요한 자리에서는 더 확인하고 묻는다","subtitle":"","score":10},
+      {"id":"B","headline":"예를 안다는 것은 아는 체하지 않는 태도까지 포함한다","subtitle":"","score":9},
+      {"id":"C","headline":"묻는 것이 무지가 아니라 신중함일 때도 있다","subtitle":"","score":9}],"selected":"A"}
+  ]
+}
