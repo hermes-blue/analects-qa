@@ -1,0 +1,14 @@
+{
+  "book":"자장편",
+  "range":"21-25",
+  "status":"production",
+  "rule_branch":"track/issues",
+  "chapter_mapping":"논어집주 25장 배열",
+  "chapters":[
+    {"chapter":21,"title":"君子之過也 如日月之食焉","actual_issue_count":0,"candidates":[]},
+    {"chapter":22,"title":"衛公孫朝問於子貢曰 仲尼焉學","actual_issue_count":0,"candidates":[]},
+    {"chapter":23,"title":"叔孫武叔曰子貢賢於仲尼","actual_issue_count":0,"candidates":[],"note":"夫子之云의 夫子는 숙손무숙을 가리킨다는 전통 주석이 안정적이며, ‘자공이 공자보다 낫다는 말이 맞다’는 뜻으로 읽는 강한 이설은 확인하지 못함"},
+    {"chapter":24,"title":"叔孫武叔毀仲尼","actual_issue_count":0,"candidates":[]},
+    {"chapter":25,"title":"陳子禽謂子貢曰 子爲恭也 仲尼豈賢於子乎","actual_issue_count":0,"candidates":[]}
+  ]
+}
