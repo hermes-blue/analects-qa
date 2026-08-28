@@ -1,0 +1,28 @@
+{
+  "book":"헌문편",
+  "range":"36-40",
+  "type":"expanded_issue_candidates",
+  "source_policy":"supplement-only",
+  "chapters":[
+    {
+      "chapter":36,
+      "existing_strong_issue":false,
+      "expanded_candidates":[
+        {
+          "id":"ly-14-36-x1",
+          "type":"본문 속 논쟁형",
+          "basis":"본문 직접 대립",
+          "headline":"나를 해친 사람에게도 덕으로 갚아야 할까?",
+          "side_a":"누군가는 원한까지 덕으로 갚는 것이 더 높은 도덕인지 묻습니다. 해를 선으로 되돌려 관계를 넘어서는 선택입니다.",
+          "side_b":"공자님은 그러면 덕에는 무엇으로 갚겠느냐고 되묻습니다. 원한에는 감정적 보복도 무조건적 용서도 아닌 ‘바름’으로 대응하고, 덕에는 덕으로 보답해야 선악의 기준이 유지된다고 봅니다.",
+          "score":10
+        }
+      ],
+      "selected":"ly-14-36-x1"
+    },
+    {"chapter":37,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"알아주는 사람이 없다는 탄식과 하늘·사람을 원망하지 않는 태도의 긴장은 문답 카드에서 이미 직접 다룸"},
+    {"chapter":38,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"모함한 사람을 권력으로 제거할 수 있는데도 하지 않은 이유와 命의 의미는 문답 1~3번에서 충분히 설명됨"},
+    {"chapter":39,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"세상·나라·낯빛·말을 피하는 단계적 은둔 기준은 설명형 내용이 중심이고 문답과 중복됨"},
+    {"chapter":40,"existing_strong_issue":true,"existing_issue_ref":"쟁점후보/heonmun/36-40.json","expanded_candidates":[],"selected":null}
+  ]
+}
