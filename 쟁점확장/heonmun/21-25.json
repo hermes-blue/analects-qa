@@ -1,0 +1,28 @@
+{
+  "book":"헌문편",
+  "range":"21-25",
+  "type":"expanded_issue_candidates",
+  "source_policy":"supplement-only",
+  "chapters":[
+    {"chapter":21,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"큰말과 실천의 책임을 연결하는 뜻은 문답 카드와 중복됨"},
+    {
+      "chapter":22,
+      "existing_strong_issue":false,
+      "expanded_candidates":[
+        {
+          "id":"ly-14-22-x1",
+          "type":"현실 선택형",
+          "basis":"역사·제도 맥락",
+          "headline":"벼슬에서 물러난 뒤에도 국가의 큰 잘못에 말할 책임이 남을까?",
+          "question":"공자님은 이미 관직에서 물러난 상태였는데도 다른 나라에서 군주 시해가 일어나자 목욕재계까지 하고 토벌을 청합니다. ‘내 일이 아니다’라고 물러서지 않은 이유는 무엇일까요?",
+          "answer_frame":"공자님은 자신이 대부를 지낸 사람이라는 과거의 공적 지위가 일정한 책임을 남긴다고 봤습니다. 결정권은 없어도 중대한 정치 질서의 붕괴를 공식 절차로 보고할 책임까지 사라진 것은 아니라고 판단한 것입니다. 결과를 만들 권한과 문제를 제기할 책임을 구분한 장면입니다.",
+          "score":9
+        }
+      ],
+      "selected":"ly-14-22-x1"
+    },
+    {"chapter":23,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"충성은 복종이 아니라 필요하면 임금에게 거슬러 간하는 것이라는 역설은 문답 카드가 이미 직접 다룸"},
+    {"chapter":24,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"군자와 소인의 배움 방향을 원리와 이익의 차이로 설명하는 내용은 문답과 중복됨"},
+    {"chapter":25,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"‘자기를 위한 공부’가 이기적 공부가 아니라 자기 수양을 위한 공부라는 오해 교정은 문답 1~3번에서 이미 충분히 설명됨"}
+  ]
+}
