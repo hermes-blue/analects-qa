@@ -1,0 +1,7 @@
+{
+  "book":"술이편","range":"36-38","type":"expanded_issue_candidates","source_policy":"supplement-only","chapters":[
+    {"chapter":36,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"사치와 지나친 검소함을 모두 흠으로 보되 둘 중 덜 해로운 쪽을 고르는 구조는 현재 문답이 이미 충분히 다룸"},
+    {"chapter":37,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"군자와 소인의 마음 상태를 성격보다 삶의 기준 차이로 읽는 점은 현재 문답이 이미 직접 설명함"},
+    {"chapter":38,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"온화함과 엄격함, 위엄과 사나움, 공손함과 편안함의 조화라는 역설은 현재 문답이 이미 세 쌍을 모두 설명함"}
+  ]
+}
