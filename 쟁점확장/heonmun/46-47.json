@@ -1,0 +1,10 @@
+{
+  "book":"헌문편",
+  "range":"46-47",
+  "type":"expanded_issue_candidates",
+  "source_policy":"supplement-only",
+  "chapters":[
+    {"chapter":46,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"원양을 거칠게 꾸짖고 지팡이로 친 장면은 현대 규범에 그대로 적용할 수 없다는 시대 맥락까지 문답 카드에서 이미 직접 다룸"},
+    {"chapter":47,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"어린 심부름꾼의 능력보다 겸손·예의·성장의 순서를 먼저 본다는 교육적 긴장은 흥미롭지만 현재 문답 1~3번이 그대로 설명하고 있어 별도 카드로 반복하지 않음"}
+  ]
+}
