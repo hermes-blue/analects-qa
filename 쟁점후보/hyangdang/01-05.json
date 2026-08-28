@@ -1,0 +1,9 @@
+{
+  "book":"향당편","range":"1-5","chapter_mapping":"논어집주 27장 배열","status":"production","rule_branch":"track/issues","chapters":[
+    {"chapter":1,"title":"孔子於鄕黨 恂恂如也","actual_issue_count":0,"candidates":[],"note":"恂恂·逡逡·遜遜의 이문은 있으나 뜻이 모두 공손하고 조심스러운 모습에 가까워 강한 쟁점으로 만들지 않음"},
+    {"chapter":2,"title":"朝與下大夫言 侃侃如也","actual_issue_count":0,"candidates":[],"note":"상·하대부 및 조정 공간의 제도 설명은 풍부하지만 행동 의미가 크게 갈리지 않음"},
+    {"chapter":3,"title":"君召使擯 色勃如也","actual_issue_count":0,"candidates":[],"note":"擯의 인원·절차 차이는 있으나 초보자에게 유의미한 해석 대립은 아님"},
+    {"chapter":4,"title":"入公門 鞠躬如也 如不容","actual_issue_count":0,"candidates":[],"note":"문·계단·자리의 예법 설명은 구체적이나 경쟁 독법이 약함"},
+    {"chapter":5,"title":"執圭 鞠躬如也 如不勝","actual_issue_count":0,"candidates":[],"note":"圭와 외교 의례의 세부 제도는 확인되지만 강한 VS는 선별하지 않음"}
+  ]
+}
