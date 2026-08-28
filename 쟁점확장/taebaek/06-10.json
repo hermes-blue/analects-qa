@@ -1,0 +1,12 @@
+{
+  "book":"태백편","range":"06-10","type":"expanded_issue_candidates","source_policy":"supplement-only","chapters":[
+    {"chapter":6,"existing_strong_issue":false,"expanded_candidates":[
+      {"id":"ly-08-06-x1","type":"개념 범위형","basis":"전통 주석","headline":"‘백 리의 명’을 맡긴다는 건 나라의 명령일까, 백성의 운명일까?","side_a":"한 독법은 제후국의 중요한 정령과 국가 운영을 맡길 수 있다는 뜻으로 봅니다. 공적인 명령권을 맡겨도 흔들리지 않는 사람이라는 평가입니다.","side_b":"다른 옛 독법은 한 나라 백성의 생명과 운명을 맡긴다는 쪽으로 넓혀 읽습니다. 둘 다 큰 신뢰를 말하지만 맡기는 대상의 성격이 달라집니다.","score":8,"note":"두 독법의 존재는 기존 고주 검토에서 확인했지만 반대편 개인 주석가 이름은 현전 자료에서 특정하지 못해 학자 대 학자 카드가 아닌 범위형으로 제시"},
+      {"id":"ly-08-06-x2","type":"현실 선택형","basis":"본문 내부 구조","headline":"평소 능력보다 ‘큰일 앞에서 뜻을 빼앗기지 않음’이 더 중요한 이유는 뭘까?","side_a":"작은 일에서는 능력과 말솜씨가 사람을 평가하는 기준이 되기 쉽습니다.","side_b":"이 장은 어린 후계자와 나라의 중대사를 맡기고 위기에서도 뜻이 흔들리지 않는지를 최종 기준으로 둡니다. 신뢰는 평시보다 위기에서 검증된다는 구조입니다.","score":8}
+    ],"selected":"ly-08-06-x1"},
+    {"chapter":7,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"큰 책임·먼 길·죽을 때까지의 지속이라는 구조는 현재 문답이 이미 충분히 설명함"},
+    {"chapter":8,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"시에서 마음을 일으키고 예로 서며 음악으로 완성한다는 단계 구조는 현재 문답이 이미 직접 다룸"},
+    {"chapter":9,"existing_strong_issue":true,"existing_issue_ref":"쟁점후보/taebaek/06-10.json","expanded_candidates":[],"selected":null},
+    {"chapter":10,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"용기와 도덕적 분노도 지나치면 혼란을 만든다는 공통 구조는 현재 문답이 이미 충분히 다룸"}
+  ]
+}
