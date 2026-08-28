@@ -1,0 +1,61 @@
+{
+  "book":"안연편",
+  "range":"16-20",
+  "type":"expanded_issue_candidates",
+  "source_policy":"supplement-only",
+  "chapters":[
+    {
+      "chapter":16,
+      "existing_strong_issue":false,
+      "expanded_candidates":[],
+      "selected":null,
+      "note":"남의 좋은 일을 이루게 돕고 악한 일을 막는다는 중심 뜻은 문답과 중복도가 높아 별도 쟁점을 만들지 않음"
+    },
+    {
+      "chapter":17,
+      "existing_strong_issue":false,
+      "expanded_candidates":[],
+      "selected":null,
+      "note":"통치자가 먼저 바르게 서야 한다는 본보기 정치의 핵심은 18~19장과 함께 읽을 수 있으나, 해당 장간 질문은 18장 카드로 집중함"
+    },
+    {
+      "chapter":18,
+      "existing_strong_issue":false,
+      "expanded_candidates":[
+        {
+          "id":"ly-12-18-x1",
+          "type":"장간 긴장형",
+          "basis":"장간 비교",
+          "headline":"도둑이 많아도 왜 공자님은 먼저 통치자를 고치라고 했을까?",
+          "question":"17장에서는 정치가 바름이라고 하고, 18장에서는 도둑 문제를 계강자의 욕심과 연결하며, 19장에서는 사람을 죽여 교정하려는 발상까지 막습니다. 왜 처벌보다 지도자의 태도를 반복해서 먼저 문제 삼을까요?",
+          "answer_frame":"세 장을 이어 읽으면 공자님의 정치 원리가 선명해집니다. 아래 사람의 잘못을 처벌하는 것보다 권력을 가진 사람이 어떤 욕망과 기준을 보여 주는지가 사회의 풍속을 먼저 만든다는 관점입니다. 개인 책임을 없애는 말이 아니라 정치 책임의 방향을 위에서부터 묻는 구조입니다.",
+          "score":10
+        }
+      ],
+      "selected":"ly-12-18-x1"
+    },
+    {
+      "chapter":19,
+      "existing_strong_issue":false,
+      "expanded_candidates":[
+        {
+          "id":"ly-12-19-x1",
+          "type":"본문 속 논쟁형",
+          "basis":"본문 직접 대립",
+          "headline":"나쁜 사람을 없애면 좋은 사회가 될까?",
+          "side_a":"계강자는 무도한 사람을 죽여 바른 사람들을 이루게 하는 강한 처벌을 해결책으로 제안합니다.",
+          "side_b":"공자님은 정치를 위해 사람을 죽일 필요가 없다고 반박하고, 윗사람의 덕이 바람처럼 아래의 행동을 바꾸는 교화를 대안으로 제시합니다.",
+          "score":10
+        }
+      ],
+      "selected":"ly-12-19-x1"
+    },
+    {
+      "chapter":20,
+      "existing_strong_issue":false,
+      "expanded_candidates":[],
+      "selected":null,
+      "note":"실제 덕으로 통달한 사람과 겉으로 명성만 난 사람의 차이는 이미 문답 카드에서 충분히 다루고 있어 확장하지 않음"
+    }
+  ]
+}
