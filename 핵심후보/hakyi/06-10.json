@@ -1,0 +1,24 @@
+{
+  "book":"학이편","range":"6-10","type":"core_candidates","chapters":[
+    {"chapter":6,"candidates":[
+      {"id":"A","headline":"배움은 생활의 기본을 갖추는 데서 시작된다","subtitle":"","score":10},
+      {"id":"B","headline":"글을 배우기 전에 사람답게 행동하는 법부터 익힌다","subtitle":"","score":9},
+      {"id":"C","headline":"공부는 책 밖의 태도와 떨어져 있지 않다","subtitle":"","score":9}],"selected":"A"},
+    {"chapter":7,"candidates":[
+      {"id":"A","headline":"배웠다는 말보다 관계에서 드러나는 태도가 먼저다","subtitle":"","score":10},
+      {"id":"B","headline":"사람을 대하는 태도가 곧 배움의 수준을 보여준다","subtitle":"","score":9},
+      {"id":"C","headline":"책을 많이 읽었는지보다 삶에서 어떻게 행동하는지가 중요하다","subtitle":"","score":9}],"selected":"A"},
+    {"chapter":8,"candidates":[
+      {"id":"A","headline":"배움에는 가볍지 않은 태도가 필요하다","subtitle":"","score":9},
+      {"id":"B","headline":"사람의 무게는 겉으로 힘주는 데서 생기지 않는다","subtitle":"진중함과 배움이 함께 가야 합니다.","score":9},
+      {"id":"C","headline":"배움도 관계도 가벼운 마음으로는 오래 서기 어렵다","subtitle":"","score":8}],"selected":"B"},
+    {"chapter":9,"candidates":[
+      {"id":"A","headline":"죽은 이를 정성껏 기억하는 풍속이 사람 마음도 두텁게 한다","subtitle":"","score":10},
+      {"id":"B","headline":"장례와 추모는 산 사람의 마음까지 바꾼다","subtitle":"","score":9},
+      {"id":"C","headline":"멀어진 사람을 잊지 않는 태도가 공동체의 마음을 깊게 한다","subtitle":"","score":9}],"selected":"A"},
+    {"chapter":10,"candidates":[
+      {"id":"A","headline":"공자님은 캐묻기보다 신뢰를 얻어 이야기를 들었다","subtitle":"","score":10},
+      {"id":"B","headline":"정보를 얻는 방식에도 사람의 품격이 드러난다","subtitle":"공자님은 억지로 묻기보다 사람들이 먼저 말하게 했습니다.","score":9},
+      {"id":"C","headline":"사람들은 편안히 말할 수 있는 사람에게 먼저 마음을 연다","subtitle":"","score":8}],"selected":"A"}
+  ]
+}
