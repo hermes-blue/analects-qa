@@ -1,0 +1,12 @@
+{
+  "book":"옹야편","range":"11-15","type":"expanded_issue_candidates","source_policy":"supplement-only","mapping_note":"기존 쟁점 번호와 앱 번호가 어긋나는 곳은 원문으로 대응","chapters":[
+    {"chapter":11,"existing_strong_issue":true,"existing_issue_ref":"쟁점후보/ongya/11-15.json","expanded_candidates":[],"selected":null},
+    {"chapter":12,"existing_strong_issue":true,"existing_issue_ref":"쟁점후보/ongya/11-15.json","expanded_candidates":[],"selected":null},
+    {"chapter":13,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"위험한 후미를 지키고도 공을 숨긴 맹지반의 용기와 겸손의 결합은 현재 문답이 이미 직접 다룸"},
+    {"chapter":14,"existing_strong_issue":false,"expanded_candidates":[
+      {"id":"ly-06-14-x1","type":"시대·제도 맥락형","basis":"본문 내부 구조","headline":"말솜씨와 외모가 없으면 살아남기 어렵다는 말—공자님의 추천일까, 사회 비판일까?","side_a":"문장만 떼어 읽으면 공자님이 세상에서 성공하려면 말재주와 외모를 갖추라고 충고한 것처럼 들릴 수 있습니다.","side_b":"실제로는 덕보다 말과 외모가 더 유리하게 작동하는 당시 풍조를 탄식한 말입니다. 생존 전략을 추천한 것이 아니라 평가 기준이 뒤집힌 사회를 비판합니다.","score":10},
+      {"id":"ly-06-14-x2","type":"오해 교정형","basis":"본문 내부 구조","headline":"공자님은 잘생기고 말 잘하는 사람을 싫어했을까?","side_a":"축타의 언변과 송조의 외모를 문제 삼으니 능력 자체를 싫어한 것처럼 보일 수 있습니다.","side_b":"문제는 그런 장점이 덕과 실질을 대신해 사람의 운명을 좌우하는 데 있습니다. 외모와 표현력이 아니라 그것이 평가의 전부가 되는 상황을 겨냥합니다.","score":9}
+    ],"selected":"ly-06-14-x1"},
+    {"chapter":15,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"문은 반드시 지나면서 삶의 바른 길은 외면한다는 비유의 역설은 현재 문답이 이미 충분히 설명함"}
+  ]
+}
