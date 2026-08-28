@@ -1,0 +1,14 @@
+{
+  "book":"위령공편",
+  "range":"26-30",
+  "status":"production",
+  "rule_branch":"track/issues",
+  "chapter_mapping":"현재 앱 42장 배열",
+  "chapters":[
+    {"chapter":26,"title":"吾猶及史之闕文也","actual_issue_count":0,"candidates":[],"note":"‘有馬者借人乘之’에는 말 훈련·공유 등 이설이 있으나, 반대편을 개인명까지 확실히 특정해 최종 VS로 세우기 어려워 보류"},
+    {"chapter":27,"title":"巧言亂德 小不忍則亂大謀","actual_issue_count":0,"candidates":[]},
+    {"chapter":28,"title":"衆惡之 必察焉 衆好之 必察焉","actual_issue_count":0,"candidates":[]},
+    {"chapter":29,"title":"人能弘道 非道弘人","actual_issue_count":0,"candidates":[]},
+    {"chapter":30,"title":"過而不改 是謂過矣","actual_issue_count":0,"candidates":[]}
+  ]
+}
