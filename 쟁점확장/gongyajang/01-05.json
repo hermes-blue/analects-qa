@@ -1,0 +1,9 @@
+{
+  "book":"공야장편","range":"01-05","type":"expanded_issue_candidates","source_policy":"supplement-only","chapters":[
+    {"chapter":1,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"감옥 경력과 실제 죄를 구분해 사람을 평가한다는 흥미로운 장면이지만 현재 문답이 바로 그 질문을 충분히 다루어 확장 쟁점으로 반복하지 않음"},
+    {"chapter":2,"existing_strong_issue":true,"existing_issue_ref":"쟁점후보/gongyajang/01-05.json","expanded_candidates":[],"selected":null},
+    {"chapter":3,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"개인의 훌륭함과 그를 길러 낸 환경의 관계는 흥미롭지만 현재 문답의 핵심 설명과 중복이 큼"},
+    {"chapter":4,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"‘군자는 그릇이 아니다’와 자공을 귀한 그릇에 비유한 긴장은 이미 현재 문답에서 직접 질문·설명하고 있어 별도 확장 쟁점으로 반복하지 않음"},
+    {"chapter":5,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"어진 사람에게 말재주가 꼭 필요한가라는 본문 논쟁은 흥미롭지만 현재 문답이 동일한 갈등을 충분히 풀고 있어 보류"}
+  ]
+}
