@@ -1,0 +1,27 @@
+{
+  "book":"학이편",
+  "range":"1-5",
+  "type":"core_candidates",
+  "chapters":[
+    {"chapter":1,"candidates":[
+      {"id":"A","headline":"배움은 남의 인정보다 먼저다","subtitle":"","score":10},
+      {"id":"B","headline":"배우고 익히는 기쁨은 남의 평가에 달리지 않는다","subtitle":"","score":9},
+      {"id":"C","headline":"알아주지 않아도 흔들리지 않는 데까지가 배움이다","subtitle":"","score":9}],"selected":"A"},
+    {"chapter":2,"candidates":[
+      {"id":"A","headline":"사람을 대하는 법은 가장 가까운 관계에서 시작된다","subtitle":"","score":10},
+      {"id":"B","headline":"큰 덕도 가족을 대하는 태도에서 시작된다","subtitle":"","score":9},
+      {"id":"C","headline":"가까운 사람을 공경하는 일이 바깥의 관계로 이어진다","subtitle":"","score":9}],"selected":"A"},
+    {"chapter":3,"candidates":[
+      {"id":"A","headline":"듣기 좋은 말보다 진심이 먼저다","subtitle":"","score":10},
+      {"id":"B","headline":"말과 표정을 꾸미는 데 마음까지 따라오는 것은 아니다","subtitle":"","score":9},
+      {"id":"C","headline":"사람을 얻으려는 꾸밈은 어진 마음과 멀어지기 쉽다","subtitle":"","score":8}],"selected":"A"},
+    {"chapter":4,"candidates":[
+      {"id":"A","headline":"남을 보기 전에 자신부터 점검한다","subtitle":"","score":10},
+      {"id":"B","headline":"맡은 일과 관계와 배움을 매일 돌아본다","subtitle":"","score":9},
+      {"id":"C","headline":"반성은 막연한 후회가 아니라 구체적인 자기 점검이다","subtitle":"","score":9}],"selected":"A"},
+    {"chapter":5,"candidates":[
+      {"id":"A","headline":"좋은 정치는 백성의 삶을 함부로 흔들지 않는다","subtitle":"","score":10},
+      {"id":"B","headline":"나라를 다스릴수록 신중함과 절제가 먼저다","subtitle":"","score":9},
+      {"id":"C","headline":"백성을 움직일 때는 그들의 삶과 때까지 살펴야 한다","subtitle":"","score":9}],"selected":"A"}
+  ]
+}
