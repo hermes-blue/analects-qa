@@ -1,0 +1,49 @@
+{
+  "book":"자로편",
+  "range":"01-05",
+  "type":"expanded_issue_candidates",
+  "source_policy":"supplement-only",
+  "chapters":[
+    {"chapter":1,"existing_strong_issue":true,"existing_issue_ref":"쟁점후보/jaro/01-05.json","expanded_candidates":[],"selected":null},
+    {
+      "chapter":2,
+      "existing_strong_issue":false,
+      "expanded_candidates":[
+        {
+          "id":"ly-13-02-x1",
+          "type":"현실 선택형",
+          "basis":"본문 직접 대립",
+          "headline":"내가 아는 인재만 추천해도 괜찮을까?",
+          "question":"중궁은 ‘어진 사람을 등용하라’는 말을 듣고, 누가 어진 사람인지 어떻게 다 알 수 있느냐고 되묻습니다. 내가 아는 사람만 골라 쓰면 편파적이지 않을까요?",
+          "answer_frame":"공자님은 먼저 자신이 실제로 아는 좋은 사람부터 올리라고 합니다. 자신이 모르는 인재까지 한 사람이 독점적으로 찾아내려 하지 말고, 다른 사람들이 또 그들을 발굴할 것이라고 봅니다. 인재 등용을 개인의 전지적 판단이 아니라 여러 사람의 추천이 이어지는 구조로 본 대목입니다.",
+          "score":9
+        }
+      ],
+      "selected":"ly-13-02-x1"
+    },
+    {"chapter":3,"existing_strong_issue":true,"existing_issue_ref":"쟁점후보/jaro/01-05.json","expanded_candidates":[],"selected":null},
+    {
+      "chapter":4,
+      "existing_strong_issue":false,
+      "expanded_candidates":[
+        {
+          "id":"ly-13-04-x1",
+          "type":"오해 교정형",
+          "basis":"본문 내부 구조",
+          "headline":"공자님은 농사를 배우려는 번지를 왜 꾸짖었을까? 농업을 낮춰 본 걸까?",
+          "question":"번지가 곡식과 채소 재배를 배우겠다고 하자 공자님은 자신은 농부보다 못 가르친다고 하고, 뒤에서는 번지를 ‘소인’이라고까지 합니다. 농업 기술을 천하게 본 말일까요?",
+          "answer_frame":"이 장의 초점은 농업의 가치 자체보다 ‘정치를 배우는 사람이 무엇을 먼저 배워야 하는가’에 있습니다. 공자님은 통치자가 생산 기술을 직접 익히는 것보다 예·의·신으로 사람들이 안심하고 생산할 수 있는 질서를 만드는 일을 자기 역할로 보았습니다. 다만 고대의 신분·직분 관념이 배경에 있다는 점도 지워서는 안 됩니다.",
+          "score":10
+        }
+      ],
+      "selected":"ly-13-04-x1"
+    },
+    {
+      "chapter":5,
+      "existing_strong_issue":false,
+      "expanded_candidates":[],
+      "selected":null,
+      "note":"시경 암기와 실제 정치·외교 적용의 차이는 현재 문답 카드가 이미 핵심 쟁점을 직접 다루므로 중복 생성하지 않음"
+    }
+  ]
+}
