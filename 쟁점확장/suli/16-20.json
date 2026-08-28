@@ -1,0 +1,9 @@
+{
+  "book":"술이편","range":"16-20","type":"expanded_issue_candidates","source_policy":"supplement-only","chapters":[
+    {"chapter":16,"existing_strong_issue":true,"existing_issue_ref":"쟁점후보/suli/16-20.json","expanded_candidates":[],"selected":null},
+    {"chapter":17,"existing_strong_issue":true,"existing_issue_ref":"쟁점후보/suli/16-20.json","expanded_candidates":[],"selected":null},
+    {"chapter":18,"existing_strong_issue":true,"existing_issue_ref":"쟁점후보/suli/16-20.json","expanded_candidates":[],"selected":null},
+    {"chapter":19,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"공자님이 자신을 거창한 칭호가 아니라 배움에 몰두하는 생활 모습으로 설명한 장면은 흥미롭지만 현재 문답이 이미 직접 다룸"},
+    {"chapter":20,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"타고난 앎보다 옛것을 부지런히 배워 얻은 앎을 강조하는 자기평가는 현재 문답에 충분히 설명되어 있음"}
+  ]
+}
