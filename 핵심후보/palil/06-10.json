@@ -1,0 +1,24 @@
+{
+  "book":"팔일편","range":"6-10","type":"core_candidates","chapters":[
+    {"chapter":6,"candidates":[
+      {"id":"A","headline":"예를 어긴 제사는 신에게 바치는 정성이 될 수 없다","subtitle":"","score":10},
+      {"id":"B","headline":"권한을 넘긴 제사는 공경이 아니라 참칭이다","subtitle":"","score":9},
+      {"id":"C","headline":"잘못된 일을 가까이서 돕는 사람에게도 막을 책임이 있다","subtitle":"","score":9}],"selected":"A"},
+    {"chapter":7,"candidates":[
+      {"id":"A","headline":"경쟁보다 중요한 것은 경쟁하는 방식이다","subtitle":"","score":10},
+      {"id":"B","headline":"이겨야 하는 순간에도 상대에 대한 예를 잃지 않는다","subtitle":"","score":9},
+      {"id":"C","headline":"승부가 있어도 원망까지 남길 필요는 없다","subtitle":"","score":8}],"selected":"A"},
+    {"chapter":8,"candidates":[
+      {"id":"A","headline":"꾸밈보다 먼저 갖춰져야 할 것은 바탕이다","subtitle":"","score":10},
+      {"id":"B","headline":"형식은 사람의 바탕이 있을 때 비로소 빛난다","subtitle":"","score":9},
+      {"id":"C","headline":"자하는 그림의 비유에서 예의 원리까지 끌어냈다","subtitle":"","score":9}],"selected":"A"},
+    {"chapter":9,"candidates":[
+      {"id":"A","headline":"전통을 안다는 것과 그것을 증명할 수 있다는 것은 다르다","subtitle":"","score":10},
+      {"id":"B","headline":"기억보다 문헌과 증언이 있어야 역사를 입증할 수 있다","subtitle":"","score":9},
+      {"id":"C","headline":"근거가 부족하면 아는 것도 함부로 단정하지 않는다","subtitle":"","score":9}],"selected":"A"},
+    {"chapter":10,"candidates":[
+      {"id":"A","headline":"형식만 남은 큰 의식은 보고 싶지 않을 만큼 예에서 멀어진다","subtitle":"","score":10},
+      {"id":"B","headline":"제사를 중요하게 여겼기에 잘못된 제사를 더 견디기 어려웠다","subtitle":"","score":9},
+      {"id":"C","headline":"의식의 규모보다 본래의 뜻과 질서가 먼저다","subtitle":"","score":9}],"selected":"A"}
+  ]
+}
