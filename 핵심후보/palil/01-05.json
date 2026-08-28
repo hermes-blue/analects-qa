@@ -1,0 +1,24 @@
+{
+  "book":"팔일편","range":"1-5","type":"core_candidates","chapters":[
+    {"chapter":1,"candidates":[
+      {"id":"A","headline":"예의 형식은 곧 권한과 질서를 드러낸다","subtitle":"계씨가 천자급 춤을 쓴 일은 단순한 의식 문제가 아니었습니다.","score":10},
+      {"id":"B","headline":"자기 자리에 맞지 않는 예를 쓰는 것은 권한을 넘는 일이다","subtitle":"","score":9},
+      {"id":"C","headline":"춤 하나에도 정치 질서가 걸려 있었다","subtitle":"","score":9}],"selected":"A"},
+    {"chapter":2,"candidates":[
+      {"id":"A","headline":"천자의 노래를 대부의 집에서 부르면 예의 뜻도 사라진다","subtitle":"","score":10},
+      {"id":"B","headline":"예는 화려하게 따라 한다고 자기 것이 되지 않는다","subtitle":"","score":9},
+      {"id":"C","headline":"의식의 격식은 쓰는 사람의 지위와 맞아야 한다","subtitle":"","score":9}],"selected":"A"},
+    {"chapter":3,"candidates":[
+      {"id":"A","headline":"사람을 생각하는 마음이 빠지면 예와 음악은 껍데기만 남는다","subtitle":"","score":10},
+      {"id":"B","headline":"형식보다 먼저 있어야 할 것은 사람을 대하는 마음이다","subtitle":"","score":9},
+      {"id":"C","headline":"예를 지키는 손보다 그 예를 움직이는 마음이 먼저다","subtitle":"","score":9}],"selected":"A"},
+    {"chapter":4,"candidates":[
+      {"id":"A","headline":"화려함보다 진심이 예의 근본에 가깝다","subtitle":"","score":10},
+      {"id":"B","headline":"장례는 매끄러운 절차보다 실제 슬픔이 먼저다","subtitle":"","score":9},
+      {"id":"C","headline":"형식이 본래의 마음을 가려서는 안 된다","subtitle":"","score":9}],"selected":"A"},
+    {"chapter":5,"candidates":[
+      {"id":"A","headline":"중원의 문제는 나라가 없어진 것이 아니라 질서가 무너진 데 있었다","subtitle":"","score":10},
+      {"id":"B","headline":"겉으로 나라가 남아 있어도 군주다운 권위가 사라질 수 있다","subtitle":"","score":9},
+      {"id":"C","headline":"팔일편 초반의 예법 논쟁은 결국 무너진 권력 질서 이야기다","subtitle":"","score":9}],"selected":"A"}
+  ]
+}
