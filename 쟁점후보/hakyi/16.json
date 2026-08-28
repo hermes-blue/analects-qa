@@ -1,0 +1,23 @@
+{
+  "book": "학이편",
+  "range": "16",
+  "status": "pilot-complete",
+  "rule_branch": "track/issues",
+  "chapters": [
+    {
+      "chapter": 16,
+      "title": "不患人之不己知 患不知人也",
+      "actual_issue_count": 0,
+      "candidates": [],
+      "note": "‘남이 나를 알아주지 않는 것보다 내가 남을 제대로 알아보지 못하는 것을 걱정하라’는 큰 뜻에서 초보자용으로 만들 만큼 선명한 주석가 간 VS를 확인하기 어렵습니다. 1장과의 호응은 문답·구조 설명에 더 가깝기 때문에 쟁점으로 만들지 않았습니다."
+    }
+  ],
+  "pilot_review": {
+    "selected_count": 0,
+    "empty_chapters": [16],
+    "findings": [
+      "편의 처음과 끝이 서로 호응한다는 구조적 설명만으로는 학자 간 쟁점이 되지 않음",
+      "확실한 VS가 없으면 마지막 장이라도 비워 두는 원칙을 유지함"
+    ]
+  }
+}
