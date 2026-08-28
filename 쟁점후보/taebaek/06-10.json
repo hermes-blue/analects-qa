@@ -1,0 +1,54 @@
+{
+  "book": "태백편",
+  "range": "6-10",
+  "status": "production",
+  "rule_branch": "track/issues",
+  "chapters": [
+    {"chapter": 6, "title": "可以託六尺之孤 可以寄百里之命", "actual_issue_count": 0, "candidates": [], "note": "百里之命을 정령으로 볼지 백성의 생명으로 볼지 다른 설이 있으나 반대편 개인 주석가를 특정하기 어려워 최종 쟁점에서 제외"},
+    {"chapter": 7, "title": "士不可以不弘毅 任重而道遠", "actual_issue_count": 0, "candidates": [], "note": "고주와 집주의 차이가 크지 않음"},
+    {"chapter": 8, "title": "興於詩 立於禮 成於樂", "actual_issue_count": 0, "candidates": [], "note": "시·예·악의 기능 설명에는 차이가 있으나 대립 카드로 만들 정도로 장면이 달라지지 않음"},
+    {
+      "chapter": 9,
+      "title": "民可使由之 不可使知之",
+      "actual_issue_count": 1,
+      "candidates": [
+        {
+          "id": "ly-08-09-c1",
+          "issue": "民의 대상",
+          "headline": "‘일반 백성’ vs ‘배우는 제자들’",
+          "sides": [
+            {
+              "scholar": "정현(鄭玄)",
+              "text": "民을 보통 백성으로 봅니다. 임금은 백성이 바른 길을 따르게 할 수는 있어도, 그 이치의 처음과 끝까지 모두 알게 하기는 어렵다고 풉니다."
+            },
+            {
+              "scholar": "능명개(凌鳴喈) 《논어해의》",
+              "text": "앞 장의 詩·禮·樂 교육과 이어 읽어 民을 제자들까지 가리키는 말로 봅니다. 그러면 정치 통치론보다 ‘배우되 깊은 원리까지 깨닫는 사람은 적다’는 교육 장면이 됩니다."
+            }
+          ],
+          "score": 10,
+          "selected": true
+        },
+        {
+          "id": "ly-08-09-c2",
+          "issue": "장면의 성격",
+          "headline": "‘백성을 어떻게 다스릴까’ vs ‘제자를 어떻게 가르칠까’",
+          "sides": [
+            {
+              "scholar": "정현(鄭玄)",
+              "text": "왕이 백성을 교화하는 원칙으로 읽습니다."
+            },
+            {
+              "scholar": "능명개(凌鳴喈)",
+              "text": "바로 앞의 詩·禮·樂 학습과 연결해 교육 현장의 말로 읽습니다."
+            }
+          ],
+          "score": 9,
+          "selected": false,
+          "reject_reason": "c1과 같은 실제 쟁점이며 c1이 民이 누구인지부터 보여 줘 더 쉬움"
+        }
+      ]
+    },
+    {"chapter": 10, "title": "好勇疾貧亂也 人而不仁疾之已甚亂也", "actual_issue_count": 0, "candidates": [], "note": "핵심 의미가 안정적이어서 빈 배열 유지"}
+  ]
+}
