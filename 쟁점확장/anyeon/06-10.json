@@ -1,0 +1,61 @@
+{
+  "book":"안연편",
+  "range":"06-10",
+  "type":"expanded_issue_candidates",
+  "source_policy":"supplement-only",
+  "chapters":[
+    {
+      "chapter":6,
+      "existing_strong_issue":false,
+      "expanded_candidates":[],
+      "selected":null,
+      "note":"반복되는 비방과 자극적 호소에 흔들리지 않는 판단이라는 핵심은 문답 카드에서 이미 충분히 설명되어 별도 확장 쟁점을 만들지 않음"
+    },
+    {
+      "chapter":7,
+      "existing_strong_issue":false,
+      "expanded_candidates":[
+        {
+          "id":"ly-12-07-x1",
+          "type":"현실 선택형",
+          "basis":"본문 내부 구조",
+          "headline":"굶주림보다 신뢰가 더 먼저일 수 있을까?",
+          "question":"공자님은 군사력도, 식량도 포기할 수 있지만 백성의 신뢰만은 마지막까지 버릴 수 없다고 합니다. 실제 생존 위기에서도 신뢰가 식량보다 더 근본일까요?",
+          "answer_frame":"이 말은 식량이 중요하지 않다는 뜻이 아닙니다. 공동체가 오래 버티려면 자원뿐 아니라 구성원이 통치와 약속을 믿고 함께 움직일 기반이 필요하다는 우선순위의 주장입니다. 그래서 이 장은 ‘국가를 끝까지 서 있게 하는 마지막 조건이 무엇인가’라는 질문을 남깁니다.",
+          "score":9
+        }
+      ],
+      "selected":"ly-12-07-x1"
+    },
+    {
+      "chapter":8,
+      "existing_strong_issue":false,
+      "expanded_candidates":[
+        {
+          "id":"ly-12-08-x1",
+          "type":"본문 속 논쟁형",
+          "basis":"본문 직접 대립",
+          "headline":"사람은 속만 좋으면 될까, 겉의 표현도 본질일까?",
+          "side_a":"극자성은 군자에게 중요한 것은 진실한 본바탕뿐이며 꾸밈과 형식은 없어도 된다고 봅니다.",
+          "side_b":"자공은 형식과 표현을 떼어 버리면 본바탕의 차이도 드러나지 않는다며, 문과 질이 함께 있어야 한다고 반박합니다.",
+          "score":10
+        }
+      ],
+      "selected":"ly-12-08-x1"
+    },
+    {
+      "chapter":9,
+      "existing_strong_issue":false,
+      "expanded_candidates":[],
+      "selected":null,
+      "note":"재정난에서 세금을 더 걷기보다 백성을 먼저 넉넉하게 해야 한다는 정치적 긴장은 흥미롭지만 현재 문답 카드의 1~3번과 거의 그대로 겹쳐 보류"
+    },
+    {
+      "chapter":10,
+      "existing_strong_issue":false,
+      "expanded_candidates":[],
+      "selected":null,
+      "note":"좋아하고 미워하는 감정이 판단을 뒤집는다는 미혹의 구조는 문답 카드와 중복도가 높아 보류"
+    }
+  ]
+}
