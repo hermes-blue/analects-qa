@@ -1,0 +1,12 @@
+{
+  "book":"옹야편","range":"21-25","type":"expanded_issue_candidates","source_policy":"supplement-only","chapters":[
+    {"chapter":21,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"물·산 비유와 ‘어진 사람은 오래 산다’의 비문자적 의미는 현재 문답이 이미 충분히 다룸"},
+    {"chapter":22,"existing_strong_issue":false,"expanded_candidates":[
+      {"id":"ly-06-22-x1","type":"역사·인물 평가형","basis":"본문 내부 구조","headline":"나라를 바꾸는 일은 혁명일까, 남아 있는 좋은 전통을 되살리는 일일까?","side_a":"‘한 번 변하면 도에 이른다’는 말을 급격한 체제 교체처럼 읽을 수 있습니다.","side_b":"공자님은 제나라와 노나라에 이미 남아 있는 서로 다른 전통의 수준을 전제로 말합니다. 완전히 새로 만드는 것보다 남은 좋은 기반을 바로잡아 한 단계씩 회복하는 변화에 가깝습니다.","score":9},
+      {"id":"ly-06-22-x2","type":"장간 긴장형","basis":"본문 내부 구조","headline":"노나라는 주례의 나라였는데 왜 또 ‘한 번 변해야’ 했을까?","side_a":"노나라는 주공의 전통을 간직한 나라라 공자님에게 이상에 가까운 곳으로 평가됩니다.","side_b":"그럼에도 현실의 노나라는 아직 도 그 자체가 아니었습니다. 좋은 전통을 가진 것과 실제로 바르게 운영되는 것은 다른 문제라는 평가입니다.","score":9}
+    ],"selected":"ly-06-22-x2"},
+    {"chapter":23,"existing_strong_issue":true,"existing_issue_ref":"쟁점후보/ongya/21-25.json","expanded_candidates":[],"selected":null},
+    {"chapter":24,"existing_strong_issue":true,"existing_issue_ref":"쟁점후보/ongya/21-25.json","expanded_candidates":[],"selected":null},
+    {"chapter":25,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"넓게 배우는 것과 예로 자신을 단속하는 것의 균형은 현재 문답이 이미 직접 설명함"}
+  ]
+}
