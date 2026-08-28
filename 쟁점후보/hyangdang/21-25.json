@@ -1,0 +1,20 @@
+{
+  "book":"향당편","range":"21-25","chapter_mapping":"논어집주 27장 배열","status":"production","rule_branch":"track/issues","chapters":[
+    {"chapter":21,"title":"見齊衰者 雖狎必變","actual_issue_count":0,"candidates":[],"note":"상복·瞽者에 대한 몸가짐 설명은 안정적임"},
+    {"chapter":22,"title":"凶服者式之 式負版者","actual_issue_count":0,"candidates":[],"note":"負版者의 정체에 여러 설이 있으나 현재 확인 근거에서 초보자용으로 확실한 두 개인 주석가를 대립시키기 어려워 제외"},
+    {"chapter":23,"title":"有盛饌 必變色而作","actual_issue_count":0,"candidates":[],"note":"盛饌에 대한 공경이라는 핵심이 안정적임"},
+    {"chapter":24,"title":"迅雷風烈必變","actual_issue_count":0,"candidates":[],"note":"자연 현상에 대한 경외라는 풀이 외에 강한 경쟁 독법 없음"},
+    {"chapter":25,"title":"升車 必正立執綏","actual_issue_count":1,"candidates":[
+      {"id":"ly-10-25-c1","issue":"車中不內顧 이문","headline":"‘수레 안에서는 뒤돌아보지 않았다’ vs ‘수레 안에서 안쪽을 돌아보았다’","sides":[
+        {"scholar":"주희(朱熹) 《논어집주》의 통행 본문","text":"‘車中不內顧’로 읽어 수레 안에서는 뒤를 돌아보지 않았다고 풉니다. 이동 중에도 시선을 절제했다는 행동 규칙이 됩니다."},
+        {"scholar":"포함(包咸)이 따른 《노론》 계통 — 노문초(盧文弨) 고증","text":"古本에는 不이 없이 ‘車中內顧’였다고 봅니다. 그러면 오히려 수레 안에서 시선을 안쪽으로 돌려 스스로 몸가짐을 살폈다는 행동이 됩니다."
+        }
+      ],"score":10,"selected":true},
+      {"id":"ly-10-25-c2","issue":"不 한 글자","headline":"‘하지 않는다’ vs ‘한다’","sides":[
+        {"scholar":"주희(朱熹)","text":"不을 살려 ‘안쪽으로 돌아보지 않는다’고 읽습니다."},
+        {"scholar":"노문초(盧文弨)","text":"《노론》·한대 인용을 근거로 不이 후대에 더해졌다고 보고 ‘안쪽을 돌아본다’고 읽습니다."
+        }
+      ],"score":9,"selected":false,"reject_reason":"c1이 행동 변화와 판본 근거를 더 구체적으로 보여 줌"}
+    ]}
+  ]
+}
