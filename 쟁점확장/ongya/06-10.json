@@ -1,0 +1,12 @@
+{
+  "book":"옹야편","range":"06-10","type":"expanded_issue_candidates","source_policy":"supplement-only","mapping_note":"기존 쟁점 파일과 앱 장 번호가 일부 어긋나므로 원문으로 대응","chapters":[
+    {"chapter":6,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"세 제자의 서로 다른 정치적 강점을 역할에 맞게 쓰는 문제는 현재 문답이 이미 충분히 다룸"},
+    {"chapter":7,"existing_strong_issue":true,"existing_issue_ref":"쟁점후보/ongya/06-10.json","expanded_candidates":[],"selected":null},
+    {"chapter":8,"existing_strong_issue":false,"expanded_candidates":[
+      {"id":"ly-06-08-x1","type":"문장 안 긴장형","basis":"본문 내부 구조","headline":"덕 있는 사람이 큰 병에 걸리면 ‘덕이 보답받는다’는 믿음은 어떻게 될까?","side_a":"백우는 공자님이 높이 평가한 제자입니다. 덕과 현실의 결과가 맞아야 한다고 기대하면 이런 사람에게 큰 병이 온 장면은 설명하기 어렵습니다.","side_b":"공자님은 그 부조리를 억지로 도덕적 보상으로 설명하지 않고 ‘명’이라 탄식합니다. 좋은 사람됨과 좋은 결과가 항상 일치하지 않는 현실을 그대로 인정하는 장면입니다.","score":10},
+      {"id":"ly-06-08-x2","type":"역사·인물 평가형","basis":"본문 내부 구조","headline":"공자님은 불행을 당한 사람에게 ‘네 탓’이라고 돌렸을까?","side_a":"도덕적 세계관을 강하게 읽으면 불행을 당한 이유도 개인의 잘못에서 찾기 쉽습니다.","side_b":"백우의 병 앞에서 공자님은 오히려 ‘이런 사람이 이런 병을 얻다니’라고 거듭 안타까워합니다. 불행을 곧 도덕적 실패의 증거로 보지 않습니다.","score":9}
+    ],"selected":"ly-06-08-x1"},
+    {"chapter":9,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"가난 자체가 아니라 가치의 근거를 어디에 두는지가 핵심이라는 점은 현재 문답이 이미 직접 다룸"},
+    {"chapter":10,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"진짜 한계와 시작도 하기 전의 자기 포기를 구분하는 긴장은 현재 문답이 이미 충분히 설명함"}
+  ]
+}
