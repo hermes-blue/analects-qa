@@ -1,0 +1,55 @@
+{
+  "book":"자장편",
+  "range":"6-10",
+  "status":"production",
+  "rule_branch":"track/issues",
+  "chapter_mapping":"논어집주 25장 배열",
+  "chapters":[
+    {
+      "chapter":6,
+      "title":"博學而篤志 切問而近思 仁在其中矣",
+      "actual_issue_count":1,
+      "candidates":[
+        {
+          "id":"ly-19-06-c1",
+          "issue":"篤志의 志 뜻",
+          "headline":"‘배운 것을 깊이 기억한다’ vs ‘뜻을 굳게 세운다’",
+          "sides":[
+            {
+              "scholar":"공안국(孔安國) — 《논어집해》 인용",
+              "text":"志를 識, 곧 ‘기억하다’의 뜻으로 읽습니다. 그러면 널리 배우고 그 내용을 깊이 기억해 두라는 공부법이 됩니다."
+            },
+            {
+              "scholar":"주희(朱熹) 《논어집주》",
+              "text":"志를 그대로 ‘뜻’으로 읽습니다. 넓게 배우되 자신이 향하는 뜻은 굳고 두텁게 세우라는 말이 됩니다."
+            }
+          ],
+          "score":10,
+          "selected":true
+        },
+        {
+          "id":"ly-19-06-c2",
+          "issue":"博學과 篤志의 조합",
+          "headline":"‘많이 배우고 잘 기억하기’ vs ‘많이 배우되 뜻은 흔들리지 않기’",
+          "sides":[
+            {
+              "scholar":"공안국(孔安國)",
+              "text":"두 구절을 지식의 넓이와 기억의 깊이로 묶습니다."
+            },
+            {
+              "scholar":"주희(朱熹)",
+              "text":"배움의 넓이와 삶의 방향을 함께 말한 것으로 봅니다. 많이 배우는 것과 뜻을 굳게 하는 것이 짝을 이룹니다."
+            }
+          ],
+          "score":9,
+          "selected":false,
+          "reject_reason":"c1이 志 한 글자의 해석 차이를 더 선명하게 보여 줌"
+        }
+      ]
+    },
+    {"chapter":7,"title":"百工居肆以成其事 君子學以致其道","actual_issue_count":0,"candidates":[]},
+    {"chapter":8,"title":"小人之過也必文","actual_issue_count":0,"candidates":[]},
+    {"chapter":9,"title":"君子有三變 望之儼然 即之也溫 聽其言也厲","actual_issue_count":0,"candidates":[]},
+    {"chapter":10,"title":"君子信而後勞其民 信而後諫","actual_issue_count":0,"candidates":[]}
+  ]
+}
