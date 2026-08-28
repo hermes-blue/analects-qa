@@ -1,0 +1,9 @@
+{
+  "book":"공야장편","range":"11-15","type":"expanded_issue_candidates","source_policy":"supplement-only","chapters":[
+    {"chapter":11,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"겉의 기세와 욕망에 흔들리지 않는 내적 강직함의 차이는 흥미롭지만 현재 문답이 이미 동일 대비를 충분히 다룸"},
+    {"chapter":12,"existing_strong_issue":true,"existing_issue_ref":"쟁점후보/gongyajang/11-15.json","expanded_candidates":[],"selected":null},
+    {"chapter":13,"existing_strong_issue":true,"existing_issue_ref":"쟁점후보/gongyajang/11-15.json","expanded_candidates":[],"selected":null},
+    {"chapter":14,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"새 지식을 더 듣는 것보다 이미 배운 것을 실천하는 자로의 태도는 현재 문답이 직접 다루고 있어 중복을 피함"},
+    {"chapter":15,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"영리한 사람도 아랫사람에게 묻기를 부끄러워하지 않아야 한다는 역설은 흥미롭지만 기존 문답이 이미 그대로 설명함"}
+  ]
+}
