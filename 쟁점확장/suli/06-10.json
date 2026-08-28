@@ -1,0 +1,9 @@
+{
+  "book":"술이편","range":"06-10","type":"expanded_issue_candidates","source_policy":"supplement-only","chapters":[
+    {"chapter":6,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"큰 방향·덕·인·기예의 우선순위는 현재 문답이 이미 구조적으로 설명함"},
+    {"chapter":7,"existing_strong_issue":true,"existing_issue_ref":"쟁점후보/suli/06-10.json","expanded_candidates":[],"selected":null},
+    {"chapter":8,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"학습자가 먼저 고민해야 한다는 공자님의 교육법과 ‘다시 설명하지 않는다’의 범위는 현재 문답이 이미 직접 다룸"},
+    {"chapter":9,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"상가에서 적게 먹은 행동을 단순 식사 규칙이 아니라 타인의 슬픔에 맞춘 절제로 읽는 핵심은 현재 문답과 중복됨"},
+    {"chapter":10,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"울었던 날 노래하지 않은 일을 감정 억압이 아니라 감정의 진정성으로 읽는 문제는 현재 문답이 충분히 다룸"}
+  ]
+}
