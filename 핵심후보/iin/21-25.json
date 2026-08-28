@@ -1,0 +1,24 @@
+{
+  "book":"이인편","range":"21-25","type":"core_candidates","chapters":[
+    {"chapter":21,"candidates":[
+      {"id":"A","headline":"부모의 나이를 안다는 것은 함께할 시간이 유한함을 아는 일이다","subtitle":"","score":10},
+      {"id":"B","headline":"부모의 나이는 기쁨과 이별의 두려움을 함께 떠올리게 한다","subtitle":"","score":9},
+      {"id":"C","headline":"숫자를 기억하는 것보다 남은 시간을 의식하는 마음이 중요하다","subtitle":"","score":9}],"selected":"A"},
+    {"chapter":22,"candidates":[
+      {"id":"A","headline":"말보다 행동이 뒤처지는 일을 부끄러워한다","subtitle":"","score":10},
+      {"id":"B","headline":"감당하지 못할 말은 쉽게 꺼내지 않는다","subtitle":"","score":9},
+      {"id":"C","headline":"말의 크기보다 실제 행동이 따라갈 수 있는지가 먼저다","subtitle":"","score":9}],"selected":"A"},
+    {"chapter":23,"candidates":[
+      {"id":"A","headline":"지나치지 않게 자신을 줄이면 큰 실수도 줄어든다","subtitle":"","score":10},
+      {"id":"B","headline":"절제는 실수를 완전히 없애지는 못해도 지나침을 막아준다","subtitle":"","score":9},
+      {"id":"C","headline":"욕심과 행동을 한 번 더 줄이는 태도가 위험을 낮춘다","subtitle":"","score":9}],"selected":"A"},
+    {"chapter":24,"candidates":[
+      {"id":"A","headline":"말은 신중하게, 행동은 민첩하게 한다","subtitle":"","score":10},
+      {"id":"B","headline":"장담은 늦추고 해야 할 일은 미루지 않는다","subtitle":"","score":9},
+      {"id":"C","headline":"말보다 실제로 해내는 사람이 더 믿을 만하다","subtitle":"","score":9}],"selected":"A"},
+    {"chapter":25,"candidates":[
+      {"id":"A","headline":"꾸준한 덕은 결국 뜻을 함께하는 사람을 만든다","subtitle":"","score":10},
+      {"id":"B","headline":"덕은 사람을 억지로 모으지 않아도 신뢰를 낳는다","subtitle":"","score":9},
+      {"id":"C","headline":"좋은 삶은 혼자 끝나지 않고 결국 이웃을 만든다","subtitle":"","score":9}],"selected":"A"}
+  ]
+}
