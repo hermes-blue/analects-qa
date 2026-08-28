@@ -1,0 +1,28 @@
+{
+  "book":"헌문편",
+  "range":"06-10",
+  "type":"expanded_issue_candidates",
+  "source_policy":"supplement-only",
+  "chapters":[
+    {"chapter":6,"existing_strong_issue":true,"existing_issue_ref":"쟁점후보/heonmun/06-10.json","expanded_candidates":[],"selected":null},
+    {"chapter":7,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"군자도 일시적으로 인에서 벗어날 수 있지만 소인은 아직 인의 방향에 서지 못했다는 구분은 문답 카드와 직접 중복됨"},
+    {"chapter":8,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"사랑이 반드시 편안하게 해주는 것만은 아니고 충성에는 듣기 싫은 충고도 포함된다는 역설은 문답 1~3번이 이미 충분히 다룸"},
+    {"chapter":9,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"외교문서를 네 사람이 단계별로 완성하는 협업 구조는 흥미롭지만 문답·역사 맥락 카드에 적합하고 별도의 긴장은 약함"},
+    {
+      "chapter":10,
+      "existing_strong_issue":false,
+      "expanded_candidates":[
+        {
+          "id":"ly-14-10-x1",
+          "type":"장간 긴장형",
+          "basis":"인물 행적 비교",
+          "headline":"공자님은 관중을 낮게 본 걸까, 높게 본 걸까?",
+          "question":"팔일편에서는 관중을 ‘그릇이 작다’고 하고 예를 모른다고 비판합니다. 그런데 헌문편에서는 그의 정치적 공정함과 큰 공을 거듭 높게 평가합니다. 같은 사람을 왜 이렇게 다르게 말할까요?",
+          "answer_frame":"공자님의 인물평은 한 번의 총점으로 끝나지 않습니다. 관중의 사치와 예법 위반은 비판하면서도, 제환공을 도와 제후를 규합하고 큰 혼란을 막은 정치적 공로는 별도로 인정합니다. 한 사람의 덕목·실책·공적을 서로 다른 기준으로 나눠 평가한 사례입니다.",
+          "score":10
+        }
+      ],
+      "selected":"ly-14-10-x1"
+    }
+  ]
+}
