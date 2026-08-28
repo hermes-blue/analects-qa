@@ -1,0 +1,9 @@
+{
+  "book":"술이편","range":"01-05","type":"expanded_issue_candidates","source_policy":"supplement-only","chapters":[
+    {"chapter":1,"existing_strong_issue":true,"existing_issue_ref":"쟁점후보/suli/01-05.json","expanded_candidates":[],"selected":null},
+    {"chapter":2,"existing_strong_issue":true,"existing_issue_ref":"쟁점후보/suli/01-05.json","expanded_candidates":[],"selected":null},
+    {"chapter":3,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"공자님의 네 걱정이 모두 ‘알고도 실제로 바꾸지 못함’에 모인다는 구조는 현재 문답이 이미 충분히 설명함"},
+    {"chapter":4,"existing_strong_issue":true,"existing_issue_ref":"쟁점후보/suli/01-05.json","expanded_candidates":[],"selected":null},
+    {"chapter":5,"existing_strong_issue":true,"existing_issue_ref":"쟁점후보/suli/01-05.json","expanded_candidates":[],"selected":null}
+  ]
+}
