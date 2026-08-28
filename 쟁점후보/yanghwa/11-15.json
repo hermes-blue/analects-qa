@@ -1,0 +1,14 @@
+{
+  "book":"양화편",
+  "range":"11-15",
+  "status":"production",
+  "rule_branch":"track/issues",
+  "chapter_mapping":"논어집주 26장 배열",
+  "chapters":[
+    {"chapter":11,"title":"禮云禮云 玉帛云乎哉","actual_issue_count":0,"candidates":[]},
+    {"chapter":12,"title":"色厲而內荏","actual_issue_count":0,"candidates":[]},
+    {"chapter":13,"title":"鄕原 德之賊也","actual_issue_count":0,"candidates":[],"note":"鄕原의 구체적 성격은 맹자에서 크게 확장되지만 이 장 자체의 주석 간 대립보다는 개념 설명에 가까움"},
+    {"chapter":14,"title":"道聽而塗說 德之棄也","actual_issue_count":0,"candidates":[]},
+    {"chapter":15,"title":"鄙夫可與事君也與哉","actual_issue_count":0,"candidates":[]}
+  ]
+}
