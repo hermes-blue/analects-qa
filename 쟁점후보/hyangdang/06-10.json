@@ -1,0 +1,27 @@
+{
+  "book":"향당편","range":"6-10","chapter_mapping":"논어집주 27장 배열","status":"production","rule_branch":"track/issues","chapters":[
+    {"chapter":6,"title":"君子不以紺緅飾","actual_issue_count":0,"candidates":[],"note":"색채·염색법에 다양한 고증은 있으나 본문 행동을 뒤집는 명확한 양자 대립은 없음"},
+    {"chapter":7,"title":"齊 必有明衣 布","actual_issue_count":1,"candidates":[
+      {"id":"ly-10-07-c1","issue":"齊必變食","headline":"‘재계 때 술·매운 채소를 끊는다’ vs ‘평소보다 더 성대한 음식을 차린다’","sides":[
+        {"scholar":"주희(朱熹) 《논어집주》","text":"變食을 평소 식사를 삼가는 쪽으로 풉니다. 재계 때 술을 마시지 않고 파·마늘 같은 자극적인 채소를 먹지 않는다는 설명입니다."},
+        {"scholar":"능서(凌曙) 《전고핵》","text":"오히려 ‘평소보다 성대한 음식으로 바꾼다’고 봅니다. 중요한 제사를 앞둔 공경을 음식의 격을 높이는 방식으로 드러낸다는 설명입니다."}
+      ],"score":10,"selected":true},
+      {"id":"ly-10-07-c2","issue":"變食의 방향","headline":"‘덜 먹고 삼간다’ vs ‘더 정성스럽게 차린다’","sides":[
+        {"scholar":"주희(朱熹)","text":"재계 식단을 금기와 절제로 설명합니다."},
+        {"scholar":"능서(凌曙)","text":"재계 식단을 평소보다 성대하게 바꾸는 의례로 설명합니다."}
+      ],"score":9,"selected":false,"reject_reason":"c1과 같은 실제 쟁점이며 c1이 무엇을 먹고 안 먹는지 더 구체적임"}
+    ]},
+    {"chapter":8,"title":"食不厭精 膾不厭細","actual_issue_count":0,"candidates":[],"note":"‘不厭’의 표현 차이는 있으나 주희도 ‘반드시 정미만 고집한다는 뜻은 아니다’라고 제한해 실제 대립이 과장될 수 있어 제외"},
+    {"chapter":9,"title":"食不語 寢不言","actual_issue_count":0,"candidates":[],"note":"語와 言의 세부 구별 외에 강한 이견 없음"},
+    {"chapter":10,"title":"雖疏食菜羹 瓜祭 必齊如也","actual_issue_count":1,"candidates":[
+      {"id":"ly-10-10-c1","issue":"瓜/必 이문","headline":"‘오이를 먼저 올려 제사한다’ vs ‘거친 식사라도 반드시 제사한다’","sides":[
+        {"scholar":"주희(朱熹) 《논어집주》의 통행 본문","text":"瓜祭로 읽습니다. 거친 밥과 채소국을 먹을 때에도 오이 같은 음식을 조금 떼어 먼저 올리는 식사 의례를 행한 장면이 됩니다."},
+        {"scholar":"육덕명(陸德明) 《경전석문》이 전한 《노론》","text":"瓜가 아니라 必로 적힌 판본을 전합니다. 그러면 ‘거친 밥과 채소국이라도 반드시 제사를 올리고 반드시 엄숙했다’는 문장이 됩니다."}
+      ],"score":9,"selected":true},
+      {"id":"ly-10-10-c2","issue":"식사 의례의 대상","headline":"‘특정 음식 瓜를 올린다’ vs ‘음식이 소박해도 무조건 祭한다’","sides":[
+        {"scholar":"주희(朱熹)","text":"본문의 瓜를 살려 특정 식물 음식까지 제물로 올린 장면으로 읽습니다."},
+        {"scholar":"육덕명(陸德明)","text":"魯論의 必자를 따르면 음식 종류보다 ‘반드시 행한다’는 의무가 핵심이 됩니다."}
+      ],"score":8,"selected":false,"reject_reason":"c1이 판본 차이와 행동 변화를 더 직접적으로 보여 줌"}
+    ]}
+  ]
+}
