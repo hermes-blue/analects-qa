@@ -1,0 +1,28 @@
+{
+  "book":"헌문편",
+  "range":"41-45",
+  "type":"expanded_issue_candidates",
+  "source_policy":"supplement-only",
+  "chapters":[
+    {"chapter":41,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"‘안 될 줄 알면서도 한다’는 공자님 평가의 긴장은 42장과 묶은 장간 카드에서 다룸"},
+    {
+      "chapter":42,
+      "existing_strong_issue":false,
+      "expanded_candidates":[
+        {
+          "id":"ly-14-42-x1",
+          "type":"장간 긴장형",
+          "basis":"장간 비교",
+          "headline":"안 될 줄 알아도 끝까지 해야 할까, 형편에 맞춰 물러날 줄 알아야 할까?",
+          "question":"41장에서는 공자님이 ‘안 될 줄 알면서도 하는 사람’으로 묘사됩니다. 그런데 바로 다음 장의 삼태기 멘 사람은 물이 깊고 얕음에 맞춰 건너듯 세상 형편에 맞게 처신하라고 비판하고, 공자님도 그 말을 어느 정도 인정합니다. 어느 쪽이 공자님의 태도일까요?",
+          "answer_frame":"두 장은 단순한 모순이라기보다 공자님의 삶에 있는 긴장을 보여 줍니다. 상황을 읽고 나아가고 물러나는 지혜는 인정하지만, 그것이 ‘옳다고 여기는 일을 아예 포기하는 이유’가 되지는 않습니다. 방법은 유연할 수 있어도 책임 자체는 쉽게 버리지 않는 쪽에 무게가 있습니다.",
+          "score":10
+        }
+      ],
+      "selected":"ly-14-42-x1"
+    },
+    {"chapter":43,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"군주가 상중에 직접 정사를 줄여도 관료 조직이 기능한다는 제도적 의미는 문답 카드에서 이미 직접 다룸"},
+    {"chapter":44,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"통치자의 예와 백성의 자발적 협력을 연결하는 내용은 문답과 중복됨"},
+    {"chapter":45,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"군자의 책임이 자기 수양에서 사람과 백성의 평안으로 확장되는 구조는 문답 1~3번에서 충분히 설명됨"}
+  ]
+}
