@@ -1,0 +1,55 @@
+{
+  "book":"자장편",
+  "range":"16-20",
+  "status":"production",
+  "rule_branch":"track/issues",
+  "chapter_mapping":"논어집주 25장 배열",
+  "chapters":[
+    {"chapter":16,"title":"堂堂乎張也 難與並爲仁矣","actual_issue_count":0,"candidates":[]},
+    {"chapter":17,"title":"人未有自致者也 必也親喪乎","actual_issue_count":0,"candidates":[]},
+    {
+      "chapter":18,
+      "title":"孟莊子之孝也 其他可能也",
+      "actual_issue_count":1,
+      "candidates":[
+        {
+          "id":"ly-19-18-c1",
+          "issue":"아버지의 신하와 정치를 안 바꾼 이유",
+          "headline":"‘나쁜 점이 있어도 상중에는 안 바꾼다’ vs ‘아버지의 좋은 정치를 이어간다’",
+          "sides":[
+            {
+              "scholar":"마융(馬融) — 《논어집해》 인용",
+              "text":"상중에는 아버지의 신하나 정치에 좋지 않은 점이 있어도 차마 바로 바꾸지 않는 것이 효라고 풉니다. 핵심은 부모가 남긴 것을 3년 동안 손대지 않는 데 있습니다."
+            },
+            {
+              "scholar":"주희(朱熹) 《논어집주》",
+              "text":"맹장자의 아버지 맹헌자가 본래 현명했기 때문에 그 좋은 신하와 정치를 계속 지킨 것이 효라고 봅니다. 잘못된 정책까지 그대로 두라는 뜻은 아닙니다."
+            }
+          ],
+          "score":10,
+          "selected":true
+        },
+        {
+          "id":"ly-19-18-c2",
+          "issue":"不改의 기준",
+          "headline":"‘부모가 남겼으니 보존’ vs ‘좋은 유산이므로 보존’",
+          "sides":[
+            {
+              "scholar":"마융(馬融)",
+              "text":"좋고 나쁨을 떠나 상중에는 아버지의 체제를 바꾸지 않는 데 무게를 둡니다."
+            },
+            {
+              "scholar":"주희(朱熹)",
+              "text":"보존할 가치가 있는 훌륭한 신하와 정치였기 때문에 이어간 것으로 봅니다."
+            }
+          ],
+          "score":9,
+          "selected":false,
+          "reject_reason":"c1이 ‘나쁜 것도 보존하는가’라는 실제 차이를 더 선명하게 보여 줌"
+        }
+      ]
+    },
+    {"chapter":19,"title":"孟氏使陽膚爲士師 問於曾子","actual_issue_count":0,"candidates":[]},
+    {"chapter":20,"title":"紂之不善 不如是之甚也","actual_issue_count":0,"candidates":[]}
+  ]
+}
