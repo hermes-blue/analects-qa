@@ -1,0 +1,12 @@
+{
+  "book":"옹야편","range":"16-20","type":"expanded_issue_candidates","source_policy":"supplement-only","chapters":[
+    {"chapter":16,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"본바탕과 표현의 조화를 정확히 반반 섞는 것으로 오해하지 말아야 한다는 점은 현재 문답이 이미 다룸"},
+    {"chapter":17,"existing_strong_issue":true,"existing_issue_ref":"쟁점후보/ongya/16-20.json","expanded_candidates":[],"selected":null},
+    {"chapter":18,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"알기·좋아하기·즐기기의 지속성 차이는 현재 문답이 이미 단계별로 설명함"},
+    {"chapter":19,"existing_strong_issue":false,"expanded_candidates":[
+      {"id":"ly-06-19-x1","type":"적용 한계형","basis":"본문 내부 구조","headline":"사람 수준에 맞춰 가르치면 ‘차별 교육’이 되는 걸까?","side_a":"높은 내용을 어떤 사람에게는 말하고 어떤 사람에게는 바로 말하지 않는다면 교육 기회를 차별하는 것처럼 보일 수 있습니다.","side_b":"이 장의 기준은 신분이 아니라 현재의 이해와 준비 정도입니다. 영원히 배제하라는 것이 아니라 같은 내용을 같은 순서와 깊이로 가르치지 않는 맞춤형 교육에 가깝습니다.","score":10},
+      {"id":"ly-06-19-x2","type":"현실 선택형","basis":"본문 내부 구조","headline":"어려운 진실은 누구에게나 바로 말해야 할까, 준비될 때까지 기다려야 할까?","side_a":"중요한 가르침이라면 누구에게나 즉시 알려 주는 것이 공평해 보입니다.","side_b":"공자님은 이해할 준비가 없을 때 너무 높은 내용을 바로 주면 오히려 혼란을 만들 수 있다고 봅니다. 내용의 가치와 전달 시점을 분리합니다.","score":9}
+    ],"selected":"ly-06-19-x1"},
+    {"chapter":20,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"귀신을 공경하되 인간의 도리를 먼저 하라는 현실 우선 원칙은 현재 문답이 이미 직접 다룸"}
+  ]
+}
