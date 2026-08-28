@@ -1,0 +1,14 @@
+{
+  "book": "위령공편",
+  "range": "6-10",
+  "status": "production",
+  "rule_branch": "track/issues",
+  "chapter_mapping": "현재 앱 42장 배열",
+  "chapters": [
+    {"chapter":6,"title":"子張問行","actual_issue_count":0,"candidates":[],"note":"忠信·篤敬과 蠻貊의 설명은 주석 간 핵심 장면이 크게 갈리지 않아 제외"},
+    {"chapter":7,"title":"直哉史魚 君子哉蘧伯玉","actual_issue_count":0,"candidates":[],"note":"사어의 곧음과 거백옥의 출처를 대비하는 기본 독법이 안정적임"},
+    {"chapter":8,"title":"可與言而不與之言 失人","actual_issue_count":0,"candidates":[]},
+    {"chapter":9,"title":"志士仁人 無求生以害仁","actual_issue_count":0,"candidates":[]},
+    {"chapter":10,"title":"工欲善其事 必先利其器","actual_issue_count":0,"candidates":[],"note":"器의 비유와 현자·인자 교유의 연결은 분명하나 실제 VS로 만들 만한 명명된 이설이 약함"}
+  ]
+}
