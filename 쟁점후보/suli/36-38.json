@@ -1,0 +1,29 @@
+{
+  "book": "술이편",
+  "range": "36-38",
+  "status": "production",
+  "rule_branch": "track/issues",
+  "chapters": [
+    {
+      "chapter": 36,
+      "title": "奢則不孫 儉則固 與其不孫也寧固",
+      "actual_issue_count": 0,
+      "candidates": [],
+      "note": "奢·儉·固의 설명은 고주와 집주가 대체로 같은 방향이어서 강한 쟁점 없음"
+    },
+    {
+      "chapter": 37,
+      "title": "君子坦蕩蕩 小人長戚戚",
+      "actual_issue_count": 0,
+      "candidates": [],
+      "note": "군자와 소인의 마음 상태에 대한 전통 해석이 크게 갈리지 않아 빈 배열 유지"
+    },
+    {
+      "chapter": 38,
+      "title": "子溫而厲 威而不猛 恭而安",
+      "actual_issue_count": 0,
+      "candidates": [],
+      "note": "기록 주체를 증자로 보는 설 등은 있으나 문장 자체의 의미를 바꾸는 해석 대립은 아니어서 제외"
+    }
+  ]
+}
