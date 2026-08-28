@@ -1,0 +1,30 @@
+{
+  "book":"자로편",
+  "range":"16-20",
+  "type":"expanded_issue_candidates",
+  "source_policy":"supplement-only",
+  "chapters":[
+    {"chapter":16,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"가까운 백성의 만족과 먼 사람의 자발적 유입을 함께 보는 정치 기준은 문답 카드에서 충분히 설명됨"},
+    {"chapter":17,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"조급함과 작은 이익이 큰일을 망친다는 현실 선택은 흥미롭지만 현재 문답이 거의 같은 질문을 직접 다루므로 보류"},
+    {
+      "chapter":18,
+      "existing_strong_issue":true,
+      "existing_issue_ref":"쟁점후보/jaro/16-20.json",
+      "expanded_candidates":[
+        {
+          "id":"ly-13-18-x1",
+          "type":"현실 선택형",
+          "basis":"본문 직접 대립",
+          "headline":"아버지의 범죄를 고발하는 것이 정직일까, 숨겨 주는 것이 정직일까?",
+          "side_a":"섭공은 아버지가 양을 훔치자 아들이 고발한 사람을 ‘곧은 사람’의 사례로 내세웁니다. 사실과 공적 규범을 가족 관계보다 앞에 둔 판단입니다.",
+          "side_b":"공자님은 오히려 아버지와 자식이 서로 숨겨 주는 관계 속에 곧음이 있다고 답합니다. 고대 유교에서는 정직을 사실 공개 하나로만 보지 않고 가족의 의리와 책임까지 함께 판단한 것입니다.",
+          "score":10,
+          "nonduplicate_reason":"기존 강한 쟁점은 ‘直躬이 성품 묘사인가 특정 인물 이름인가’라는 문헌·인물 비정 문제입니다. 이 확장 카드는 본문 안에서 섭공과 공자님이 직접 맞서는 ‘법적 정직과 가족 의리의 충돌’을 다루므로 축이 완전히 다릅니다."
+        }
+      ],
+      "selected":"ly-13-18-x1"
+    },
+    {"chapter":19,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"문화권이 달라져도 공손·성실·충실을 버리지 않는다는 적용 범위는 문답에서 이미 직접 설명되어 별도 확장 없음"},
+    {"chapter":20,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"선비의 여러 단계와 수치심·외교 책임의 기준은 설명형 카드에 적합하며 별도의 살아 있는 쟁점은 약함"}
+  ]
+}
