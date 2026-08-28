@@ -1,0 +1,10 @@
+{
+  "book":"옹야편","range":"26-28","type":"expanded_issue_candidates","source_policy":"supplement-only","chapters":[
+    {"chapter":26,"existing_strong_issue":true,"existing_issue_ref":"쟁점후보/ongya/26-28.json","expanded_candidates":[],"selected":null},
+    {"chapter":27,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"중용이 기계적 중간값이나 타협이 아니라는 핵심 오해는 현재 문답이 이미 직접 다룸"},
+    {"chapter":28,"existing_strong_issue":false,"expanded_candidates":[
+      {"id":"ly-06-28-x1","type":"개념 범위형","basis":"본문 내부 구조","headline":"모든 사람을 구제해야만 ‘어진 사람’이라고 부를 수 있을까?","side_a":"자공은 백성에게 널리 베풀고 많은 사람을 구제하는 사람을 어진 사람이라 부를 수 있는지 묻습니다. 기준을 매우 크게 잡은 질문입니다.","side_b":"공자님은 그 정도라면 오히려 성인의 일에 가깝다고 선을 긋고, 인의 실천은 ‘내가 서고 싶듯 남도 서게 하는 것’처럼 가까운 데서 시작한다고 돌립니다. 인을 불가능할 만큼 거대한 성과와 동일시하지 않습니다.","score":10},
+      {"id":"ly-06-28-x2","type":"현실 선택형","basis":"본문 내부 구조","headline":"큰 선행과 가까운 사람을 돕는 일, 인의 출발은 어디일까?","side_a":"많은 사람을 한꺼번에 구제하는 일은 가장 크고 눈에 띄는 선행입니다.","side_b":"공자님은 자기 마음을 가까운 비유로 삼아 옆 사람을 세우는 데서 인의 실천을 찾습니다. 규모보다 시작점의 현실성을 강조합니다.","score":9}
+    ],"selected":"ly-06-28-x1"}
+  ]
+}
