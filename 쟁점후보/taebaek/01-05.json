@@ -1,0 +1,54 @@
+{
+  "book": "태백편",
+  "range": "1-5",
+  "status": "production",
+  "rule_branch": "track/issues",
+  "chapters": [
+    {
+      "chapter": 1,
+      "title": "泰伯其可謂至德也已矣 三以天下讓",
+      "actual_issue_count": 1,
+      "candidates": [
+        {
+          "id": "ly-08-01-c1",
+          "issue": "三讓",
+          "headline": "‘정말 세 번 양보했다’ vs ‘끝까지 완전히 양보했다’",
+          "sides": [
+            {
+              "scholar": "정현(鄭玄)",
+              "text": "三讓을 실제 세 단계로 풉니다. 태백이 떠나고, 아버지 상에도 돌아오지 않고, 끝내 머리와 몸을 오나라 풍속대로 바꾸어 왕위로 돌아갈 길을 끊었다고 봅니다."
+            },
+            {
+              "scholar": "금이상(金履祥) 《통감전편》",
+              "text": "三을 꼭 세 사건으로 세지 않습니다. 예에서 세 번 사양하면 ‘끝까지 사양한 것’이 되듯, 천하를 완전히 포기했다는 뜻으로 봅니다."
+            }
+          ],
+          "score": 10,
+          "selected": true
+        },
+        {
+          "id": "ly-08-01-c2",
+          "issue": "三以天下讓",
+          "headline": "‘세 장면을 복원한다’ vs ‘숫자보다 완전한 사양이 핵심’",
+          "sides": [
+            {
+              "scholar": "정현(鄭玄)",
+              "text": "태백의 행동을 세 장면으로 나누어 역사적 사건처럼 설명합니다."
+            },
+            {
+              "scholar": "금이상(金履祥)",
+              "text": "세부 사건을 억지로 셋으로 맞추기보다 ‘끝까지 물러났다’는 예법의 표현으로 읽습니다."
+            }
+          ],
+          "score": 9,
+          "selected": false,
+          "reject_reason": "c1과 같은 실제 쟁점이며 c1이 두 독법의 차이를 더 구체적으로 보여 줌"
+        }
+      ]
+    },
+    {"chapter": 2, "title": "恭而無禮則勞 慎而無禮則葸", "actual_issue_count": 0, "candidates": [], "note": "고주·집주를 비교했으나 카드로 만들 만큼 장면이 달라지는 확실한 이견은 선별하지 않음"},
+    {"chapter": 3, "title": "曾子有疾 啟予足啟予手", "actual_issue_count": 0, "candidates": [], "note": "핵심 해석 차이가 작아 빈 배열 유지"},
+    {"chapter": 4, "title": "曾子有疾 孟敬子問之", "actual_issue_count": 0, "candidates": [], "note": "籩豆·有司 등의 세부 설명은 있으나 초보자가 체감할 강한 대립은 없음"},
+    {"chapter": 5, "title": "以能問於不能 以多問於寡", "actual_issue_count": 0, "candidates": [], "note": "吾友를 안회로 보는 고주가 있으나 경쟁하는 확실한 인물설을 확인하지 못해 제외"}
+  ]
+}
