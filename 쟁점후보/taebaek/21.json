@@ -1,0 +1,15 @@
+{
+  "book": "태백편",
+  "range": "21",
+  "status": "production",
+  "rule_branch": "track/issues",
+  "chapters": [
+    {
+      "chapter": 21,
+      "title": "禹吾無間然矣",
+      "actual_issue_count": 0,
+      "candidates": [],
+      "note": "菲飲食·卑宮室·溝洫의 역사적 설명은 있으나 고주와 집주 사이에 카드로 만들 만큼 강한 대립을 확인하지 못함"
+    }
+  ]
+}
