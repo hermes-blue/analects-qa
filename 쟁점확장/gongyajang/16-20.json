@@ -1,0 +1,9 @@
+{
+  "book":"공야장편","range":"16-20","type":"expanded_issue_candidates","source_policy":"supplement-only","chapters":[
+    {"chapter":16,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"자산의 개인적 공손함과 공적 통치 능력을 함께 평가하는 구조는 흥미롭지만 현재 문답이 이미 직접 다룸"},
+    {"chapter":17,"existing_strong_issue":true,"existing_issue_ref":"쟁점후보/gongyajang/16-20.json","expanded_candidates":[],"selected":null},
+    {"chapter":18,"existing_strong_issue":true,"existing_issue_ref":"쟁점후보/gongyajang/16-20.json","expanded_candidates":[],"selected":null},
+    {"chapter":19,"existing_strong_issue":true,"existing_issue_ref":"쟁점후보/gongyajang/16-20.json","expanded_candidates":[],"selected":null},
+    {"chapter":20,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"‘생각은 많을수록 좋은가’라는 긴장은 매우 흥미롭지만 현재 문답이 바로 그 문제를 충분히 설명하고 있어 중복을 피함"}
+  ]
+}
