@@ -1,0 +1,28 @@
+{
+  "book":"헌문편",
+  "range":"11-15",
+  "type":"expanded_issue_candidates",
+  "source_policy":"supplement-only",
+  "chapters":[
+    {"chapter":11,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"가난 속 무원망과 부유 속 무교만의 난이도 비교는 문답 카드와 중복됨"},
+    {"chapter":12,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"좋은 인품과 직무 적합성이 다를 수 있다는 핵심은 문답에서 이미 직접 다룸"},
+    {
+      "chapter":13,
+      "existing_strong_issue":false,
+      "expanded_candidates":[
+        {
+          "id":"ly-14-13-x1",
+          "type":"문장 안 긴장형",
+          "basis":"본문 내부 구조",
+          "headline":"공자님은 왜 ‘완성된 사람’의 기준을 말하다가 곧바로 낮췄을까?",
+          "question":"처음에는 지혜·무욕·용기·재능·예악을 모두 갖춘 사람을 성인이라고 설명합니다. 그런데 곧 ‘오늘날의 성인이라면 꼭 그 정도까지는 필요 없다’며 훨씬 현실적인 기준을 제시합니다. 이상을 포기한 걸까요?",
+          "answer_frame":"앞부분은 여러 장점을 두루 갖춘 높은 이상형이고, 뒷부분은 현실에서 최소한 놓치지 말아야 할 핵심선을 제시한 것으로 볼 수 있습니다. 공자님은 최고의 이상과 현실에서 인정할 수 있는 도덕적 기준을 한 문장 안에서 구분합니다. 기준을 버린 것이 아니라 층위를 나눈 것입니다.",
+          "score":10
+        }
+      ],
+      "selected":"ly-14-13-x1"
+    },
+    {"chapter":14,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"무표정·침묵 자체가 덕이 아니라 때에 맞는 말·웃음·취함이 중요하다는 오해 교정은 문답 카드에서 충분히 설명됨"},
+    {"chapter":15,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"직접 협박하지 않아도 권력 구조로 상대를 압박하면 협박과 같을 수 있다는 핵심은 문답 1~3번에서 이미 다룸"}
+  ]
+}
