@@ -1,0 +1,15 @@
+{
+  "book":"위령공편",
+  "range":"31-35",
+  "status":"production",
+  "rule_branch":"track/issues",
+  "chapter_mapping":"현재 앱 42장 배열",
+  "textual_variant_note":"《논어석문》 계열에는 34장 뒤에 학이편의 ‘父在觀其志 父沒觀其行’이 다시 들어간 판본이 있으나, 정현 계열과 황간·형병본에는 없어 현재 앱 배열에는 별도 장으로 넣지 않음",
+  "chapters":[
+    {"chapter":31,"title":"吾嘗終日不食 終夜不寢 以思","actual_issue_count":0,"candidates":[]},
+    {"chapter":32,"title":"君子謀道不謀食","actual_issue_count":0,"candidates":[]},
+    {"chapter":33,"title":"知及之 仁不能守之","actual_issue_count":0,"candidates":[]},
+    {"chapter":34,"title":"君子不可小知 而可大受也","actual_issue_count":0,"candidates":[],"note":"小知·大受의 설명은 왕숙 계열과 집주가 큰 틀에서 일치해 VS로 만들지 않음"},
+    {"chapter":35,"title":"民之於仁也 甚於水火","actual_issue_count":0,"candidates":[]}
+  ]
+}
