@@ -1,0 +1,20 @@
+{
+  "book":"위정편","range":"21-24","type":"core_candidates","chapters":[
+    {"chapter":21,"candidates":[
+      {"id":"A","headline":"정치는 관직에 있을 때만 시작되는 일이 아니다","subtitle":"가정에서 지키는 질서와 책임도 사회를 만드는 바탕입니다.","score":10},
+      {"id":"B","headline":"가까운 관계를 바로 세우는 일도 정치의 한 부분이다","subtitle":"","score":9},
+      {"id":"C","headline":"공적인 질서는 집 안의 태도와도 이어져 있다","subtitle":"","score":9}],"selected":"A"},
+    {"chapter":22,"candidates":[
+      {"id":"A","headline":"신뢰가 없으면 관계도 함께 움직일 수 없다","subtitle":"","score":10},
+      {"id":"B","headline":"사람 사이를 굴러가게 하는 작은 연결 장치가 신뢰다","subtitle":"","score":9},
+      {"id":"C","headline":"능력이 있어도 믿을 수 없으면 함께 일을 하기 어렵다","subtitle":"","score":9}],"selected":"A"},
+    {"chapter":23,"candidates":[
+      {"id":"A","headline":"미래는 과거의 계승과 변화 방식을 보면 짐작할 수 있다","subtitle":"","score":10},
+      {"id":"B","headline":"새 시대도 이전 제도를 모두 버리고 시작하지는 않는다","subtitle":"","score":9},
+      {"id":"C","headline":"역사를 알면 무엇이 이어지고 무엇이 바뀔지 보인다","subtitle":"","score":9}],"selected":"A"},
+    {"chapter":24,"candidates":[
+      {"id":"A","headline":"해서는 안 될 일에 비굴하지 말고 해야 할 옳은 일에서는 물러서지 않는다","subtitle":"","score":10},
+      {"id":"B","headline":"이익 앞에서 아첨하지 않고 옳은 일 앞에서 겁먹지 않는다","subtitle":"","score":9},
+      {"id":"C","headline":"옳음을 알면서도 하지 않는 것은 용기의 부족이다","subtitle":"","score":9}],"selected":"A"}
+  ]
+}
