@@ -1,0 +1,12 @@
+{
+  "book":"이인편","range":"01-05","type":"expanded_issue_candidates","source_policy":"supplement-only","chapters":[
+    {"chapter":1,"existing_strong_issue":true,"existing_issue_ref":"쟁점후보/iin/01-05.json","expanded_candidates":[],"selected":null},
+    {"chapter":2,"existing_strong_issue":true,"existing_issue_ref":"쟁점후보/iin/01-05.json","expanded_candidates":[],"selected":null},
+    {"chapter":3,"existing_strong_issue":true,"existing_issue_ref":"쟁점후보/iin/01-05.json","expanded_candidates":[],"selected":null},
+    {"chapter":4,"existing_strong_issue":true,"existing_issue_ref":"쟁점후보/iin/01-05.json","expanded_candidates":[],"selected":null},
+    {"chapter":5,"existing_strong_issue":false,"expanded_candidates":[
+      {"id":"ly-04-05-x1","type":"오해 교정형","basis":"본문 내부 구조","headline":"공자님은 부자가 되고 싶은 마음 자체를 나쁘다고 봤을까?","side_a":"부귀를 경계하는 구절만 모아 읽으면 유교가 욕망 자체를 부정하는 금욕주의처럼 보일 수 있습니다.","side_b":"이 장은 부와 귀함은 ‘사람이 원하는 것’이라고 먼저 인정합니다. 문제는 욕망의 존재가 아니라 그것을 얻고 가난에서 벗어나는 방법이 올바른가입니다.","score":10},
+      {"id":"ly-04-05-x2","type":"현실 선택형","basis":"본문 내부 구조","headline":"가난을 벗어날 기회가 부당한 방법뿐이라면 잡아야 할까?","side_a":"가난은 누구나 피하고 싶으니 현실적 기회가 오면 방법보다 결과가 급할 수 있습니다.","side_b":"공자님은 부당한 방법만 가능하다면 가난을 감수하겠다고 합니다. 부귀를 싫어해서가 아니라 결과보다 방법을 앞세운 선택입니다.","score":9}
+    ],"selected":"ly-04-05-x1"}
+  ]
+}
