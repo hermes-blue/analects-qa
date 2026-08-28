@@ -1,0 +1,9 @@
+{
+  "book":"공야장편","range":"21-25","type":"expanded_issue_candidates","source_policy":"supplement-only","chapters":[
+    {"chapter":21,"existing_strong_issue":true,"existing_issue_ref":"쟁점후보/gongyajang/21-25.json","expanded_candidates":[],"selected":null},
+    {"chapter":22,"existing_strong_issue":true,"existing_issue_ref":"쟁점후보/gongyajang/21-25.json","expanded_candidates":[],"selected":null},
+    {"chapter":23,"existing_strong_issue":true,"existing_issue_ref":"쟁점후보/gongyajang/21-25.json","expanded_candidates":[],"selected":null},
+    {"chapter":24,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"남을 돕는 선의와 자기 형편을 꾸미지 않는 정직의 긴장은 흥미롭지만 현재 문답이 이미 동일 문제를 직접 다룸"},
+    {"chapter":25,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"겉으로 친한 척하면서 속으로 원망하는 관계의 위선 문제는 현재 문답에 충분히 드러나 확장 쟁점은 보류"}
+  ]
+}
