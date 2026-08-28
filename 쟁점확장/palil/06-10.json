@@ -1,0 +1,18 @@
+{
+  "book":"팔일편","range":"06-10","type":"expanded_issue_candidates","source_policy":"supplement-only","chapters":[
+    {"chapter":6,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"부당한 태산 제사와 염유의 보좌 책임은 기존 문답이 충분히 다룸"},
+    {"chapter":7,"existing_strong_issue":false,"expanded_candidates":[
+      {"id":"ly-03-07-x1","type":"문장 안 긴장형","basis":"본문 직접 대립","headline":"군자는 다투지 않는다면서 왜 활쏘기 승부는 괜찮다고 했을까?","side_a":"첫 문장만 보면 군자는 경쟁 자체를 피해야 하는 사람처럼 보입니다.","side_b":"곧바로 활쏘기 승부가 예외로 나옵니다. 공자님이 문제 삼은 것은 승부의 존재보다 상대를 모욕하거나 규칙을 깨는 경쟁 방식입니다.","score":10},
+      {"id":"ly-03-07-x2","type":"적용 한계형","basis":"적용 범위 검토","headline":"‘경쟁하지 말라’는 말을 모든 승부에 적용해도 될까?","side_a":"군자무소쟁을 경쟁 자체의 부정으로 넓히면 시험·운동·정치적 경쟁까지 모두 나쁘게 됩니다.","side_b":"본문은 예를 갖춘 활쏘기를 직접 남겨 둡니다. 경쟁은 가능하지만 상대 존중과 승패를 받아들이는 방식에 조건이 붙습니다.","score":9}
+    ],"selected":"ly-03-07-x1"},
+    {"chapter":8,"existing_strong_issue":true,"existing_issue_ref":"쟁점후보/palil/06-10.json","expanded_candidates":[],"selected":null},
+    {"chapter":9,"existing_strong_issue":false,"expanded_candidates":[
+      {"id":"ly-03-09-x1","type":"역사·인물 평가형","basis":"본문 내부 구조","headline":"전통을 알고 있다는 것과 역사적으로 증명할 수 있다는 것은 같은 걸까?","side_a":"공자님은 하·은의 예를 말할 수 있다고 자신합니다. 전승과 학습을 통해 옛 제도를 알고 있다는 뜻입니다.","side_b":"그러나 문헌과 증언할 사람이 부족하니 충분히 입증하지 못한다고 선을 긋습니다. ‘내가 안다’와 ‘남에게 증명할 근거가 있다’를 구분하는 학문 태도가 드러납니다.","score":10},
+      {"id":"ly-03-09-x2","type":"오해 교정형","basis":"본문 내부 구조","headline":"공자님은 옛 제도를 믿기만 한 전통주의자였을까?","side_a":"고대를 높였다는 점만 보면 오래된 전통을 그대로 믿었다고 생각하기 쉽습니다.","side_b":"이 장에서는 기록과 살아 있는 증언이 부족하면 ‘충분히 증명할 수 없다’고 말합니다. 전통 존중과 증거 요구가 동시에 나타납니다.","score":9}
+    ],"selected":"ly-03-09-x1"},
+    {"chapter":10,"existing_strong_issue":false,"expanded_candidates":[
+      {"id":"ly-03-10-x1","type":"문장 안 긴장형","basis":"본문 내부 구조","headline":"제사를 중시한 공자님은 왜 큰 제사를 ‘보고 싶지 않다’고 했을까?","side_a":"공자님은 제사와 예를 매우 중요하게 여겼으니 큰 의례일수록 끝까지 지켜볼 것처럼 보입니다.","side_b":"오히려 본뜻과 질서가 무너진 의식이라면 화려한 형식만 남은 장면을 거부합니다. 제사를 싫어해서가 아니라 제사를 중요하게 여겼기 때문에 생긴 거부입니다.","score":10},
+      {"id":"ly-03-10-x2","type":"현실 선택형","basis":"본문 내부 구조","headline":"형식이 틀어진 의례는 끝까지 지킬까, 거부할까?","side_a":"전통을 보존하려면 불완전하더라도 의례를 계속 행해야 한다는 생각이 가능합니다.","side_b":"이 장의 공자님은 잘못된 큰 제사의 진행을 더 보고 싶지 않다고 합니다. 형식 보존보다 그 형식의 정당한 질서를 우선하는 장면입니다.","score":9}
+    ],"selected":"ly-03-10-x1"}
+  ]
+}
