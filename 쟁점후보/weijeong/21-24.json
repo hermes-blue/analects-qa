@@ -1,0 +1,41 @@
+{
+  "book": "위정편",
+  "range": "21-24",
+  "status": "production",
+  "rule_branch": "track/issues",
+  "chapters": [
+    {
+      "chapter": 21,
+      "title": "子奚不爲政",
+      "actual_issue_count": 0,
+      "candidates": [],
+      "note": "효와 우애의 실천도 정치와 연결된다는 기본 독법에서 초보자용 강한 이견은 확인하지 못했습니다."
+    },
+    {
+      "chapter": 22,
+      "title": "人而無信 不知其可也",
+      "actual_issue_count": 0,
+      "candidates": [],
+      "note": "수레의 輗·軏 비유와 信의 의미는 세부 설명은 많지만 강한 해석 대립은 없어 비웠습니다."
+    },
+    {
+      "chapter": 23,
+      "title": "殷因於夏禮 所損益可知也",
+      "actual_issue_count": 0,
+      "candidates": [],
+      "note": "마융은 계승되는 것을 삼강오상, 바뀌는 것을 문질·삼통으로 구체화하고 주희도 이를 받아 설명합니다. 역사적 설명은 흥미롭지만 서로 맞서는 독법은 아니므로 쟁점으로 만들지 않았습니다."
+    },
+    {
+      "chapter": 24,
+      "title": "非其鬼而祭之 諂也 見義不爲 無勇也",
+      "actual_issue_count": 0,
+      "candidates": [],
+      "note": "제사와 義·勇의 배경 설명은 가능하지만, 현재 확인한 주석에서 카드로 만들 만큼 선명한 VS는 확인하지 못했습니다."
+    }
+  ],
+  "review": {
+    "selected_count": 0,
+    "empty_chapters": [21, 22, 23, 24],
+    "note": "편의 마지막 네 장은 정보가 없어서가 아니라, 설명과 실제 학자 간 이견을 구분한 결과 모두 빈 장으로 유지했습니다."
+  }
+}
