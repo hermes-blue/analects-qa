@@ -1,0 +1,9 @@
+{
+  "book":"태백편","range":"01-05","type":"expanded_issue_candidates","source_policy":"supplement-only","chapters":[
+    {"chapter":1,"existing_strong_issue":true,"existing_issue_ref":"쟁점후보/taebaek/01-05.json","expanded_candidates":[],"selected":null},
+    {"chapter":2,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"좋은 성향도 예의 조절이 없으면 폐단이 된다는 네 대비는 현재 문답이 이미 충분히 다룸"},
+    {"chapter":3,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"부모에게 받은 몸을 평생 훼손하지 않는다는 고대 효의 신체관은 현재 문답이 구체적으로 설명함"},
+    {"chapter":4,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"죽음을 앞둔 증자의 마지막 충고가 세부 제례보다 몸가짐·얼굴빛·말을 우선한다는 구조는 현재 문답과 중복이 큼"},
+    {"chapter":5,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"능력이 있어도 묻고, 가진 것이 있어도 비워 두는 겸손의 역설은 현재 문답이 이미 직접 다룸"}
+  ]
+}
