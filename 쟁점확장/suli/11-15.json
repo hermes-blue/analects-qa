@@ -1,0 +1,12 @@
+{
+  "book":"술이편","range":"11-15","type":"expanded_issue_candidates","source_policy":"supplement-only","chapters":[
+    {"chapter":11,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"나아감·물러남의 균형과 무모한 용기보다 신중한 용기를 높이는 두 대목은 현재 문답이 이미 충분히 설명함"},
+    {"chapter":12,"existing_strong_issue":true,"existing_issue_ref":"쟁점후보/suli/11-15.json","expanded_candidates":[],"selected":null},
+    {"chapter":13,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"재계·전쟁·질병을 실제 위험이 큰 일로 특별히 삼갔다는 점은 현재 문답과 중복이 큼"},
+    {"chapter":14,"existing_strong_issue":true,"existing_issue_ref":"쟁점후보/suli/11-15.json","expanded_candidates":[],"selected":null},
+    {"chapter":15,"existing_strong_issue":false,"expanded_candidates":[
+      {"id":"ly-07-15-x1","type":"본문 속 논쟁형","basis":"본문 내부 구조","headline":"자공은 왜 ‘위나라 군주를 돕겠습니까?’라고 직접 묻지 않고 옛 왕자 이야기를 꺼냈을까?","side_a":"직접 질문하면 공자님의 정치적 입장을 바로 들을 수 있었을 것입니다.","side_b":"자공은 왕위를 양보한 백이·숙제에 대한 평가를 먼저 묻고 그 기준을 현재 위나라의 부자 왕위 갈등에 적용합니다. 스승의 원칙을 사례에서 추론하는 간접 질문 방식입니다.","score":9},
+      {"id":"ly-07-15-x2","type":"현실 선택형","basis":"역사·제도 맥락","headline":"정치적 현실과 왕위 계승의 명분이 충돌하면 어느 쪽을 따를까?","side_a":"현실적으로 이미 군주가 된 사람을 돕는 것이 국가 안정에는 유리할 수 있습니다.","side_b":"자공은 백이·숙제의 왕위 양보를 통해 공자님이 정통성과 명분을 얼마나 중요하게 보는지 떠봅니다. 단순한 효율보다 ‘누가 어떤 자격으로 다스리는가’가 문제입니다.","score":8}
+    ],"selected":"ly-07-15-x1"}
+  ]
+}
