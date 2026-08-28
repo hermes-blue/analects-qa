@@ -1,0 +1,24 @@
+{
+  "book":"위정편","range":"11-15","type":"core_candidates","chapters":[
+    {"chapter":11,"candidates":[
+      {"id":"A","headline":"옛것을 제대로 익혀야 새것도 보인다","subtitle":"","score":10},
+      {"id":"B","headline":"복습은 되풀이가 아니라 새로운 이해를 만드는 일이다","subtitle":"","score":9},
+      {"id":"C","headline":"아는 것을 다시 보며 새 의미를 끌어낼 수 있어야 남을 가르칠 수 있다","subtitle":"","score":9}],"selected":"A"},
+    {"chapter":12,"candidates":[
+      {"id":"A","headline":"사람을 한 가지 기능에만 가두지 않는다","subtitle":"","score":10},
+      {"id":"B","headline":"잘 쓰이는 도구보다 넓게 판단하는 사람이 되어야 한다","subtitle":"","score":9},
+      {"id":"C","headline":"전문성만으로 사람 전체를 설명할 수는 없다","subtitle":"","score":9}],"selected":"A"},
+    {"chapter":13,"candidates":[
+      {"id":"A","headline":"말보다 행동이 먼저다","subtitle":"","score":10},
+      {"id":"B","headline":"먼저 해보고 그다음에 말한다","subtitle":"","score":9},
+      {"id":"C","headline":"행동이 앞서야 말에도 무게가 생긴다","subtitle":"","score":9}],"selected":"A"},
+    {"chapter":14,"candidates":[
+      {"id":"A","headline":"두루 어울리되 편을 가르지 않는다","subtitle":"","score":10},
+      {"id":"B","headline":"가까운 사람과도 공정함을 잃지 않는다","subtitle":"","score":9},
+      {"id":"C","headline":"사람을 사사로운 편보다 원칙으로 대한다","subtitle":"","score":9}],"selected":"A"},
+    {"chapter":15,"candidates":[
+      {"id":"A","headline":"배움과 생각은 따로 갈 수 없다","subtitle":"","score":10},
+      {"id":"B","headline":"배우기만 해도 막히고 생각만 해도 위태롭다","subtitle":"","score":9},
+      {"id":"C","headline":"지식을 받아들이는 일과 스스로 따져보는 일이 함께 가야 한다","subtitle":"","score":9}],"selected":"A"}
+  ]
+}
