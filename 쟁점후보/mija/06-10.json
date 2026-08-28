@@ -1,0 +1,56 @@
+{
+  "book":"미자편",
+  "range":"6-10",
+  "status":"production",
+  "rule_branch":"track/issues",
+  "chapter_mapping":"논어집주 11장 배열",
+  "chapters":[
+    {"chapter":6,"title":"長沮桀溺耦而耕","actual_issue_count":0,"candidates":[],"note":"辟人·辟世의 대립은 본문 속 인물들의 논쟁이며 후대 주석가의 독법 대립이 아니므로 제외"},
+    {"chapter":7,"title":"子路從而後 遇丈人","actual_issue_count":0,"candidates":[]},
+    {
+      "chapter":8,
+      "title":"逸民 伯夷叔齊虞仲夷逸朱張柳下惠少連",
+      "actual_issue_count":1,
+      "candidates":[
+        {
+          "id":"ly-18-08-c1",
+          "issue":"朱張은 사람 이름인가",
+          "headline":"‘朱張이라는 은자 한 명’ vs ‘사람 이름이 아닐 수 있다’",
+          "sides":[
+            {
+              "scholar":"왕필(王弼)",
+              "text":"朱張을 실제 인물 이름으로 보고, 자를 子弓이라고까지 풉니다. 그러면 이 대목은 일곱 은자의 이름을 그대로 나열한 목록이 됩니다."
+            },
+            {
+              "scholar":"송상봉(宋翔鳳)",
+              "text":"정현 계열 본문의 ‘侏張’을 근거로, 朱張이 사람 이름이 아니라 어떤 상태를 나타내는 말일 가능성을 제기합니다. 그러면 목록의 인원 구성 자체가 달라집니다."
+            }
+          ],
+          "score":8,
+          "selected":true,
+          "note":"송상봉의 해석은 후대 고증설이며 확정된 결론으로 쓰지 않음"
+        },
+        {
+          "id":"ly-18-08-c2",
+          "issue":"逸民 목록의 인원 구성",
+          "headline":"‘일곱 명의 인물 명단’ vs ‘일부는 인명이 아닐 가능성’",
+          "sides":[
+            {
+              "scholar":"왕필(王弼)",
+              "text":"伯夷부터 少連까지를 모두 각각의 인물로 봅니다. 朱張 역시 그중 한 명입니다."
+            },
+            {
+              "scholar":"송상봉(宋翔鳳)",
+              "text":"朱張을 인명이 아닌 표현으로 읽어, 전통적인 ‘일곱 명 명단’ 자체를 다시 봅니다."
+            }
+          ],
+          "score":7,
+          "selected":false,
+          "reject_reason":"c1이 문제되는 이름 하나를 직접 보여 주어 더 이해하기 쉬움"
+        }
+      ]
+    },
+    {"chapter":9,"title":"太師摯適齊 亞飯干適楚","actual_issue_count":0,"candidates":[],"note":"악관의 직책과 이동지는 고증 차이가 있으나 장면을 뒤집는 강한 VS는 확인하지 못함"},
+    {"chapter":10,"title":"周公謂魯公曰 君子不施其親","actual_issue_count":0,"candidates":[]}
+  ]
+}
