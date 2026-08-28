@@ -1,0 +1,12 @@
+{
+  "book":"술이편","range":"31-35","type":"expanded_issue_candidates","source_policy":"supplement-only","chapters":[
+    {"chapter":31,"existing_strong_issue":true,"existing_issue_ref":"쟁점후보/suli/31-35.json","expanded_candidates":[],"selected":null},
+    {"chapter":32,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"좋은 노래를 다시 듣고 정확히 익힌 뒤 화답하는 학습 순서는 현재 문답이 이미 충분히 설명함"},
+    {"chapter":33,"existing_strong_issue":true,"existing_issue_ref":"쟁점후보/suli/31-35.json","expanded_candidates":[],"selected":null},
+    {"chapter":34,"existing_strong_issue":false,"expanded_candidates":[
+      {"id":"ly-07-34-x1","type":"인물 평가형","basis":"본문 직접 대립","headline":"공자님이 ‘나는 성인도 인자도 아니다’라고 했는데 제자는 왜 바로 그 말을 믿지 않았을까?","side_a":"공자님은 자신을 완성된 성인이나 인자라고 부르지 않고, 다만 노력과 가르침을 멈추지 않는다고 낮춥니다.","side_b":"공서화는 오히려 ‘바로 그것이 우리가 따라갈 수 없는 점’이라고 답합니다. 자기평가의 겸손과 타인이 본 실제 성취 사이의 간격이 드러나는 장면입니다.","score":9},
+      {"id":"ly-07-34-x2","type":"문장 안 긴장형","basis":"본문 직접 대립","headline":"완성되지 않았다고 말하는 사람을 왜 제자들은 더 높게 봤을까?","side_a":"보통 완성된 사람이라면 자신이 어느 경지에 올랐다고 말할 법합니다.","side_b":"공자님은 계속하는 노력 자체를 자기 특징으로 말하고, 제자들은 바로 그 ‘끝나지 않는 과정’을 가장 높은 경지처럼 봅니다.","score":8}
+    ],"selected":"ly-07-34-x1"},
+    {"chapter":35,"existing_strong_issue":true,"existing_issue_ref":"쟁점후보/suli/31-35.json","expanded_candidates":[],"selected":null}
+  ]
+}
