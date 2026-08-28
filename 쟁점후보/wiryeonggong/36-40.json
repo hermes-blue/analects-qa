@@ -1,0 +1,55 @@
+{
+  "book":"위령공편",
+  "range":"36-40",
+  "status":"production",
+  "rule_branch":"track/issues",
+  "chapter_mapping":"현재 앱 42장 배열",
+  "chapters":[
+    {"chapter":36,"title":"當仁 不讓於師","actual_issue_count":0,"candidates":[]},
+    {"chapter":37,"title":"君子貞而不諒","actual_issue_count":0,"candidates":[],"note":"諒을 작은 신의·융통성 없는 약속으로 보는 전통 해석이 대체로 이어져 강한 VS 없음"},
+    {"chapter":38,"title":"事君 敬其事而後其食","actual_issue_count":0,"candidates":[]},
+    {
+      "chapter":39,
+      "title":"有教無類",
+      "actual_issue_count":1,
+      "candidates":[
+        {
+          "id":"ly-15-39-c1",
+          "issue":"無類가 가리키는 것",
+          "headline":"‘누구든 가르친다’ vs ‘가르치면 악한 부류로 고정하지 않는다’",
+          "sides":[
+            {
+              "scholar":"마융(馬融) — 《논어집해》 인용",
+              "text":"사람의 신분이나 부류를 따져 교육에서 빼지 않는다는 뜻으로 풉니다. 핵심은 ‘누가 배울 수 있는가’에 있습니다."
+            },
+            {
+              "scholar":"주희(朱熹) 《논어집주》",
+              "text":"사람이 선악의 다른 부류처럼 보이는 것은 기질과 습관 때문이라고 봅니다. 교육으로 다시 선해질 수 있으니, 한 번 악한 부류라고 정해 버리지 말라는 뜻에 더 무게를 둡니다."
+            }
+          ],
+          "score":9,
+          "selected":true
+        },
+        {
+          "id":"ly-15-39-c2",
+          "issue":"이 장의 초점",
+          "headline":"‘교육 기회의 문을 연다’ vs ‘교육이 사람의 부류를 바꾼다’",
+          "sides":[
+            {
+              "scholar":"마융(馬融)",
+              "text":"귀천이나 출신을 이유로 교육 대상을 가르지 않는 쪽입니다. 누구에게 가르침을 줄 것인가가 중심입니다."
+            },
+            {
+              "scholar":"주희(朱熹)",
+              "text":"교육을 받으면 사람이 본래의 선으로 돌아갈 수 있다고 봅니다. 처음 보이는 성향만으로 사람을 영원히 같은 부류에 묶지 않는 쪽입니다."
+            }
+          ],
+          "score":8,
+          "selected":false,
+          "reject_reason":"c1이 無類의 두 독법을 더 직접적으로 보여 줌"
+        }
+      ]
+    },
+    {"chapter":40,"title":"道不同 不相爲謀","actual_issue_count":0,"candidates":[]}
+  ]
+}
