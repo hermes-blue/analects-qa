@@ -1,0 +1,18 @@
+{
+  "book":"이인편","range":"16-20","type":"expanded_issue_candidates","source_policy":"supplement-only","chapters":[
+    {"chapter":16,"existing_strong_issue":true,"existing_issue_ref":"쟁점후보/iin/16-20.json","expanded_candidates":[],"selected":null},
+    {"chapter":17,"existing_strong_issue":false,"expanded_candidates":[
+      {"id":"ly-04-17-x1","type":"문장 안 긴장형","basis":"본문 내부 구조","headline":"좋은 사람만 배움의 재료일까?","side_a":"어진 사람을 보면 그 수준에 이르려 하라는 앞문장은 좋은 본보기를 따라 배우는 방식입니다.","side_b":"바로 뒤에는 좋지 않은 사람을 봐도 자기 안에 같은 문제가 없는지 살피라고 합니다. 본받을 사람과 경계할 사람 모두가 자기 수양의 자료가 됩니다.","score":9},
+      {"id":"ly-04-17-x2","type":"인물 평가형","basis":"본문 내부 구조","headline":"남의 잘못을 보면 그 사람을 평가할까, 나부터 돌아볼까?","side_a":"좋지 않은 행동을 보면 잘못한 사람을 비판하는 데 시선이 머물기 쉽습니다.","side_b":"공자님은 그 장면을 자기 점검으로 돌립니다. 타인의 잘못을 보고도 최종 질문은 ‘나에게도 이것이 있는가’가 됩니다.","score":8}
+    ],"selected":"ly-04-17-x1"},
+    {"chapter":18,"existing_strong_issue":true,"existing_issue_ref":"쟁점후보/iin/16-20.json","expanded_candidates":[],"selected":null},
+    {"chapter":19,"existing_strong_issue":false,"expanded_candidates":[
+      {"id":"ly-04-19-x1","type":"적용 한계형","basis":"현대적 오해 교정","headline":"부모님이 살아 계시면 멀리 떠나면 안 된다는 여행 금지 규칙일까?","side_a":"문장을 그대로 규칙으로 옮기면 부모 생존 중에는 장거리 여행이나 이주 자체가 잘못이 됩니다.","side_b":"뒤의 ‘떠난다면 행선지가 있어야 한다’가 조건을 붙입니다. 핵심은 거리 자체보다 돌봄 책임과 자신의 소재를 알려 부모의 불안을 줄이는 데 있습니다.","score":10},
+      {"id":"ly-04-19-x2","type":"시대·제도 맥락형","basis":"역사·제도 맥락","headline":"휴대전화가 없던 시대의 ‘효’는 왜 행선지까지 포함했을까?","side_a":"오늘날에는 멀리 있어도 바로 연락할 수 있어 위치를 알리는 일이 쉬워졌습니다.","side_b":"고대에는 한 번 멀리 떠나면 소식과 돌봄이 끊길 위험이 컸습니다. 그래서 어디에 있는지 알 수 있게 하는 것 자체가 부모를 안심시키는 책임이 됩니다.","score":9}
+    ],"selected":"ly-04-19-x1"},
+    {"chapter":20,"existing_strong_issue":false,"expanded_candidates":[
+      {"id":"ly-04-20-x1","type":"장간 긴장형","basis":"장간 비교","headline":"같은 ‘아버지의 도를 삼 년 바꾸지 않는다’는 말이 왜 논어에 두 번 나올까?","side_a":"학이편 11장에도 거의 같은 문장이 있어 내용만 보면 단순 중복처럼 보입니다.","side_b":"논어에는 중요하게 전승된 말이 서로 다른 편에 반복되는 경우가 있습니다. 이 장은 새로운 교훈을 억지로 만들기보다, 논어가 여러 전승을 묶어 편집된 책이라는 흔적을 보여 주는 사례로 볼 수 있습니다.","score":8},
+      {"id":"ly-04-20-x2","type":"오해 교정형","basis":"장간 비교","headline":"반복된 구절은 편집 실수일까?","side_a":"현대 책이라면 같은 문장이 두 번 실린 것을 편집 오류로 생각하기 쉽습니다.","side_b":"논어는 여러 제자 계통의 전승을 모은 텍스트라 같은 말이 다른 맥락에 중복될 수 있습니다. 반복 자체가 전승의 흔적일 수 있습니다.","score":8}
+    ],"selected":"ly-04-20-x1"}
+  ]
+}
