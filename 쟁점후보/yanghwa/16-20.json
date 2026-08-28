@@ -1,0 +1,14 @@
+{
+  "book":"양화편",
+  "range":"16-20",
+  "status":"production",
+  "rule_branch":"track/issues",
+  "chapter_mapping":"논어집주 26장 배열",
+  "chapters":[
+    {"chapter":16,"title":"古者民有三疾 今也或是之亡也","actual_issue_count":0,"candidates":[]},
+    {"chapter":17,"title":"巧言令色 鮮矣仁","actual_issue_count":0,"candidates":[],"note":"학이편 동일 구절과 중복되므로 새 쟁점 카드 생성하지 않음"},
+    {"chapter":18,"title":"惡紫之奪朱也","actual_issue_count":0,"candidates":[]},
+    {"chapter":19,"title":"予欲無言","actual_issue_count":0,"candidates":[],"note":"天何言哉를 둘러싼 철학적 확장은 많지만 초보자용 구체적 VS보다 문답·개념 카드에 가까워 제외"},
+    {"chapter":20,"title":"孺悲欲見孔子","actual_issue_count":0,"candidates":[],"note":"공자님이 만나지 않은 이유는 여러 추정이 가능하지만 확실한 근거가 부족해 억지 쟁점 금지"}
+  ]
+}
