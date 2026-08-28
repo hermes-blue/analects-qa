@@ -1,0 +1,24 @@
+{
+  "book":"팔일편","range":"16-20","type":"core_candidates","chapters":[
+    {"chapter":16,"candidates":[
+      {"id":"A","headline":"경쟁의 기준을 타고난 힘에만 두지 않는다","subtitle":"","score":10},
+      {"id":"B","headline":"힘보다 자세와 규칙을 지키는 능력을 본다","subtitle":"","score":9},
+      {"id":"C","headline":"사람마다 다른 힘보다 누구나 닦을 수 있는 기준이 공정하다","subtitle":"","score":9}],"selected":"A"},
+    {"chapter":17,"candidates":[
+      {"id":"A","headline":"형식 하나가 사라지면 본뜻을 되살릴 마지막 단서도 사라질 수 있다","subtitle":"","score":10},
+      {"id":"B","headline":"자공은 양을 아꼈고 공자님은 남아 있는 예의 흔적을 아꼈다","subtitle":"","score":9},
+      {"id":"C","headline":"낡은 형식도 전통의 기억을 붙드는 역할을 할 때가 있다","subtitle":"","score":9}],"selected":"A"},
+    {"chapter":18,"candidates":[
+      {"id":"A","headline":"정당한 예를 다하는 것과 아첨은 겉모습이 비슷해도 전혀 다르다","subtitle":"","score":10},
+      {"id":"B","headline":"시대의 기준이 낮아지면 정상적인 예도 아첨처럼 보일 수 있다","subtitle":"","score":9},
+      {"id":"C","headline":"공손함의 기준은 이익이 아니라 예에 있어야 한다","subtitle":"","score":9}],"selected":"A"},
+    {"chapter":19,"candidates":[
+      {"id":"A","headline":"바른 군신 관계는 한쪽의 복종만으로 만들어지지 않는다","subtitle":"","score":10},
+      {"id":"B","headline":"군주는 예로 대하고 신하는 맡은 책임을 다한다","subtitle":"","score":9},
+      {"id":"C","headline":"권위에는 존중이, 충성에는 책임이 함께 있어야 한다","subtitle":"","score":9}],"selected":"A"},
+    {"chapter":20,"candidates":[
+      {"id":"A","headline":"좋은 감정도 지나치지 않을 때 오래 아름답다","subtitle":"","score":10},
+      {"id":"B","headline":"기쁨도 슬픔도 없애는 것이 아니라 절도 있게 표현한다","subtitle":"","score":9},
+      {"id":"C","headline":"감정의 깊이와 감정에 휩쓸리는 것은 같은 일이 아니다","subtitle":"","score":9}],"selected":"A"}
+  ]
+}
