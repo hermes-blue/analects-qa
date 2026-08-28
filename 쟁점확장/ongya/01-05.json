@@ -1,0 +1,9 @@
+{
+  "book":"옹야편","range":"01-05","type":"expanded_issue_candidates","source_policy":"supplement-only","mapping_note":"앱 main/data의 장 배열을 기준으로 하며 기존 쟁점 파일의 번호와 어긋나는 곳은 원문 내용으로 대응함","chapters":[
+    {"chapter":1,"existing_strong_issue":true,"existing_issue_ref":"쟁점후보/ongya/01-05.json","expanded_candidates":[],"selected":null,"note":"앱 1장은 기존 쟁점 파일의 ‘남면’과 ‘자상백자’ 두 대목을 함께 포함함"},
+    {"chapter":2,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"안회의 호학을 감정·행동 변화로 평가한다는 점은 현재 문답이 이미 충분히 설명함"},
+    {"chapter":3,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"자화와 원사의 두 사례가 만드는 ‘형편에 맞는 분배’의 긴장은 흥미롭지만 현재 문답의 3번째 문답이 이미 정확히 종합함"},
+    {"chapter":4,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"출신과 현재 자질을 구분하라는 소 비유는 현재 문답이 이미 핵심 오해와 적용을 충분히 다룸"},
+    {"chapter":5,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"순간적 실천과 지속적 실천의 차이는 현재 문답이 직접 다루고 있어 중복을 피함"}
+  ]
+}
