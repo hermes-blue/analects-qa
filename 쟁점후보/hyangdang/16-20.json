@@ -1,0 +1,20 @@
+{
+  "book":"향당편","range":"16-20","chapter_mapping":"논어집주 27장 배열","status":"production","rule_branch":"track/issues","chapters":[
+    {"chapter":16,"title":"廄焚 子退朝 曰傷人乎 不問馬","actual_issue_count":1,"candidates":[
+      {"id":"ly-10-16-c1","issue":"傷人乎不問馬의 구두","headline":"‘사람만 묻고 말은 묻지 않았다’ vs ‘사람이 다쳤나 묻고, 말도 물었다’","sides":[
+        {"scholar":"형병(邢昺) 《논어주소》","text":"‘傷人乎?’에서 끊고 ‘不問馬’를 기록자의 말로 봅니다. 공자님은 사람이 다쳤는지만 묻고 말의 피해는 묻지 않았다는 유명한 장면이 됩니다."},
+        {"scholar":"육덕명(陸德明) 《경전석문》이 전한 다른 구두","text":"‘傷人乎不?’에서 不를 ‘아닌가?’의 否처럼 끊는 독법을 전합니다. 그러면 뒤의 問馬는 ‘말도 물었다’가 되어 행동이 정반대로 달라집니다."
+        }
+      ],"score":10,"selected":true},
+      {"id":"ly-10-16-c2","issue":"不의 소속","headline":"‘不問馬’의 不인가 vs ‘傷人乎不’의 不인가","sides":[
+        {"scholar":"형병(邢昺)","text":"不을 뒤의 問馬에 붙여 ‘말은 묻지 않았다’고 읽습니다."},
+        {"scholar":"육덕명(陸德明)","text":"다른 독법에서는 不을 앞 질문에 붙여 ‘사람이 다쳤는가, 아닌가?’로 읽습니다."
+        }
+      ],"score":9,"selected":false,"reject_reason":"c1이 실제 행동까지 어떻게 뒤집히는지 더 쉽게 보여 줌"}
+    ]},
+    {"chapter":17,"title":"君賜食 必正席先嘗之","actual_issue_count":0,"candidates":[],"note":"군주 하사품 처리의 예법 설명은 안정적임"},
+    {"chapter":18,"title":"朋友死 無所歸 曰於我殯","actual_issue_count":0,"candidates":[],"note":"殯의 세부 범위 차이는 있으나 핵심 장면이 크게 갈리지 않음"},
+    {"chapter":19,"title":"朋友之饋 雖車馬 非祭肉不拜","actual_issue_count":0,"candidates":[],"note":"祭肉에 절한 이유의 설명 차이는 있으나 강한 A vs B로 만들지 않음"},
+    {"chapter":20,"title":"寢不尸 居不容","actual_issue_count":0,"candidates":[],"note":"寢·居 자세의 전통 풀이가 안정적임"}
+  ]
+}
