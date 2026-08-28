@@ -1,0 +1,13 @@
+{
+  "book":"학이편",
+  "range":"01-05",
+  "type":"expanded_issue_candidates",
+  "source_policy":"supplement-only",
+  "chapters":[
+    {"chapter":1,"existing_strong_issue":true,"existing_issue_ref":"쟁점후보/hakyi/01-05.json","expanded_candidates":[],"selected":null},
+    {"chapter":2,"existing_strong_issue":true,"existing_issue_ref":"쟁점후보/hakyi/01-05.json","expanded_candidates":[],"selected":null},
+    {"chapter":3,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"‘말을 잘하는 것’과 ‘아첨’의 구분은 중요하지만 현재 문답 카드가 이미 충분히 설명하고 있어 별도 확장 쟁점으로 만들면 중복이 큼"},
+    {"chapter":4,"existing_strong_issue":true,"existing_issue_ref":"쟁점후보/hakyi/01-05.json","expanded_candidates":[],"selected":null},
+    {"chapter":5,"existing_strong_issue":true,"existing_issue_ref":"쟁점후보/hakyi/01-05.json","expanded_candidates":[],"selected":null}
+  ]
+}
