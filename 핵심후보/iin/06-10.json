@@ -1,0 +1,24 @@
+{
+  "book":"이인편","range":"6-10","type":"core_candidates","chapters":[
+    {"chapter":6,"candidates":[
+      {"id":"A","headline":"어진 삶은 능력이 없어서 못 하는 일이 아니라 실제로 힘쓰느냐의 문제다","subtitle":"","score":10},
+      {"id":"B","headline":"선을 좋아하는 힘과 잘못을 멀리하는 힘이 함께 필요하다","subtitle":"","score":9},
+      {"id":"C","headline":"하루라도 진심으로 힘써 보는 데서 실천은 시작된다","subtitle":"","score":9}],"selected":"A"},
+    {"chapter":7,"candidates":[
+      {"id":"A","headline":"사람의 잘못에도 그 사람의 평소 방향이 드러난다","subtitle":"","score":10},
+      {"id":"B","headline":"허물의 모양을 보면 그 사람이 무엇을 좇는지 보일 때가 있다","subtitle":"","score":9},
+      {"id":"C","headline":"실수 하나보다 어떤 이유로 그런 실수를 했는지가 더 중요하다","subtitle":"","score":9}],"selected":"A"},
+    {"chapter":8,"candidates":[
+      {"id":"A","headline":"어떻게 살아야 하는지 깨닫는 일은 오래 사는 것보다 더 근본적이다","subtitle":"","score":10},
+      {"id":"B","headline":"삶의 방향을 분명히 깨닫는 순간은 생명의 길이보다 무겁다","subtitle":"","score":9},
+      {"id":"C","headline":"좋은 가르침을 듣는 데서 끝나지 않고 삶의 길로 받아들여야 한다","subtitle":"","score":8}],"selected":"A"},
+    {"chapter":9,"candidates":[
+      {"id":"A","headline":"배움을 말하면서 가난한 겉모습을 부끄러워하면 기준이 아직 흔들리고 있다","subtitle":"","score":10},
+      {"id":"B","headline":"체면보다 무엇을 더 중요하게 여길지가 먼저다","subtitle":"","score":9},
+      {"id":"C","headline":"좋은 옷보다 삶의 기준을 더 소중히 여길 수 있어야 한다","subtitle":"","score":9}],"selected":"A"},
+    {"chapter":10,"candidates":[
+      {"id":"A","headline":"미리 편을 정하지 말고 그때 무엇이 옳은지를 본다","subtitle":"","score":10},
+      {"id":"B","headline":"사람이나 이익보다 마땅함을 판단의 기준으로 둔다","subtitle":"","score":9},
+      {"id":"C","headline":"무조건 해야 한다와 절대 안 된다는 고집보다 상황의 옳음을 살핀다","subtitle":"","score":9}],"selected":"A"}
+  ]
+}
