@@ -1,0 +1,16 @@
+{
+  "book":"학이편",
+  "range":"06-10",
+  "type":"expanded_issue_candidates",
+  "source_policy":"supplement-only",
+  "chapters":[
+    {"chapter":6,"existing_strong_issue":true,"existing_issue_ref":"쟁점후보/hakyi/06-10.json","expanded_candidates":[],"selected":null},
+    {"chapter":7,"existing_strong_issue":true,"existing_issue_ref":"쟁점후보/hakyi/06-10.json","expanded_candidates":[],"selected":null},
+    {"chapter":8,"existing_strong_issue":true,"existing_issue_ref":"쟁점후보/hakyi/06-10.json","expanded_candidates":[],"selected":null},
+    {"chapter":9,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"장례·제사와 사회 풍속의 연결은 흥미롭지만 현재 문답이 핵심 질문을 이미 직접 다루어 확장 쟁점으로 반복하지 않음"},
+    {"chapter":10,"existing_strong_issue":false,"expanded_candidates":[
+      {"id":"ly-01-10-x1","type":"본문 속 논쟁형","basis":"본문 직접 대립","headline":"공자님은 정치 정보를 캐물은 걸까, 사람들이 먼저 말한 걸까?","side_a":"자금의 질문은 공자님도 다른 사람들처럼 각 나라의 정사를 일부러 알아낸 것인지 묻습니다. 결과만 보면 어디를 가든 정치 이야기를 들었습니다.","side_b":"자공은 방식이 달랐다고 답합니다. 온화함과 공손함 때문에 사람들이 스스로 말했으므로, 같은 ‘정보를 얻음’이라도 캐묻는 것과 신뢰로 듣는 것은 다르다는 것입니다.","score":9},
+      {"id":"ly-01-10-x2","type":"인물 평가형","basis":"본문 내부 구조","headline":"정치 감각은 질문을 많이 해서 생길까, 사람들이 말하고 싶게 해서 생길까?","side_a":"보통은 정보를 많이 모으는 능력을 정치 감각으로 생각하기 쉽습니다.","side_b":"이 장은 공자님의 경우 정보 수집 기술보다 상대가 먼저 마음을 열게 하는 태도를 앞세웁니다. 정치적 앎의 출발을 관계의 신뢰에서 보는 장면입니다.","score":8}
+    ],"selected":"ly-01-10-x1"}
+  ]
+}
