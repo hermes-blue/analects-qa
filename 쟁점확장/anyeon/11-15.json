@@ -1,0 +1,61 @@
+{
+  "book":"안연편",
+  "range":"11-15",
+  "type":"expanded_issue_candidates",
+  "source_policy":"supplement-only",
+  "chapters":[
+    {
+      "chapter":11,
+      "existing_strong_issue":false,
+      "expanded_candidates":[
+        {
+          "id":"ly-12-11-x1",
+          "type":"오해 교정형",
+          "basis":"역사·제도 맥락",
+          "headline":"‘임금은 임금답게’는 신하에게만 복종을 요구하는 말일까?",
+          "question":"군군신신부부자자라는 말은 흔히 위계질서를 강조하는 문장으로 읽힙니다. 그런데 첫 책임은 왜 ‘임금이 임금다워야 한다’는 데서 시작할까요?",
+          "answer_frame":"이 문장은 아랫사람에게만 역할을 요구하지 않습니다. 임금·신하·부모·자식 모두가 이름에 걸맞은 책임을 져야 질서가 성립한다는 상호적 구조입니다. 제경공에게 한 답이라는 점에서는 통치자 자신에게도 정치적 책임을 돌리는 말이 됩니다.",
+          "score":9
+        }
+      ],
+      "selected":"ly-12-11-x1"
+    },
+    {
+      "chapter":12,
+      "existing_strong_issue":false,
+      "expanded_candidates":[
+        {
+          "id":"ly-12-12-x1",
+          "type":"오해 교정형",
+          "basis":"전통 주석",
+          "headline":"자로는 정말 한쪽 말만 듣고 재판을 끝냈을까?",
+          "question":"‘한마디로 송사를 판결했다’는 표현은 오늘 눈으로 보면 위험하게 들립니다. 공자님은 성급한 재판을 칭찬한 걸까요?",
+          "answer_frame":"전통 주석은 자로가 한쪽 진술만으로도 핵심을 분별할 만큼 결단과 신뢰가 컸다는 식으로 풀이해 왔습니다. 이 표현을 현대 재판 절차의 원칙으로 곧바로 옮기기보다, 자로의 판단력과 약속을 미루지 않는 성품을 과장해 칭찬한 인물평으로 보는 편이 안전합니다.",
+          "score":8
+        }
+      ],
+      "selected":"ly-12-12-x1"
+    },
+    {
+      "chapter":13,
+      "existing_strong_issue":false,
+      "expanded_candidates":[],
+      "selected":null,
+      "note":"재판을 잘하는 것보다 분쟁이 생기지 않는 사회가 낫다는 역설은 흥미롭지만 문답 카드에서 ‘갈등을 억지로 숨기라는 뜻인가’까지 이미 직접 다루므로 보류"
+    },
+    {
+      "chapter":14,
+      "existing_strong_issue":false,
+      "expanded_candidates":[],
+      "selected":null,
+      "note":"정치의 핵심을 지속성과 성실성으로 잡는 내용은 현재 문답과 겹쳐 별도 쟁점 없음"
+    },
+    {
+      "chapter":15,
+      "existing_strong_issue":false,
+      "expanded_candidates":[],
+      "selected":null,
+      "note":"옹야편의 동일 구절과 중복되며, 확장 쟁점도 반복 생산하지 않음"
+    }
+  ]
+}
