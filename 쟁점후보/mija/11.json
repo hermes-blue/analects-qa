@@ -1,0 +1,52 @@
+{
+  "book":"미자편",
+  "range":"11",
+  "status":"production",
+  "rule_branch":"track/issues",
+  "chapter_mapping":"논어집주 11장 배열",
+  "chapters":[
+    {
+      "chapter":11,
+      "title":"周有八士 伯達伯适仲突仲忽叔夜叔夏季隨季騧",
+      "actual_issue_count":1,
+      "candidates":[
+        {
+          "id":"ly-18-11-c1",
+          "issue":"주나라 여덟 선비는 어느 시대 사람인가",
+          "headline":"‘문왕 무렵’ vs ‘선왕 때’",
+          "sides":[
+            {
+              "scholar":"가규(賈逵)",
+              "text":"여덟 선비를 문왕 때 사람으로 봅니다. 《한서·고금인표》의 배치도 이른 시기로 보는 전승과 잘 맞습니다."
+            },
+            {
+              "scholar":"마융(馬融)",
+              "text":"반대로 주 선왕 때 사람으로 풉니다. 같은 여덟 이름을 두고 활동 시기가 수백 년 가까이 달라지는 셈입니다."
+            }
+          ],
+          "score":9,
+          "selected":true,
+          "note":"정현은 성왕 때라는 제3의 설을 전함"
+        },
+        {
+          "id":"ly-18-11-c2",
+          "issue":"八士의 시대",
+          "headline":"‘주 왕조 초창기의 인재’ vs ‘훨씬 뒤 선왕 시대의 인재’",
+          "sides":[
+            {
+              "scholar":"가규(賈逵)",
+              "text":"문왕과 가까운 주 왕조 초기 인물들로 봅니다."
+            },
+            {
+              "scholar":"마융(馬融)",
+              "text":"주 왕조 중후기의 선왕 시기 인물들로 봅니다."
+            }
+          ],
+          "score":8,
+          "selected":false,
+          "reject_reason":"c1이 학자 이름과 시대 차이를 더 정확히 보여 줌"
+        }
+      ]
+    }
+  ]
+}
