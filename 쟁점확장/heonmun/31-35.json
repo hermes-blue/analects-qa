@@ -1,0 +1,28 @@
+{
+  "book":"헌문편",
+  "range":"31-35",
+  "type":"expanded_issue_candidates",
+  "source_policy":"supplement-only",
+  "chapters":[
+    {"chapter":31,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"남을 평가할 겨를보다 자기 수양이 급하다는 반어적 경계는 문답 카드와 중복됨"},
+    {"chapter":32,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"외부 인정보다 실제 능력과 덕을 걱정하라는 뜻은 다른 편에도 반복되며 문답과 중복됨"},
+    {"chapter":33,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"근거 없이 의심하지 않되 실제 속임수는 빨리 알아차리라는 균형은 흥미롭지만 문답 1~3번이 이미 정확히 다룸"},
+    {
+      "chapter":34,
+      "existing_strong_issue":false,
+      "expanded_candidates":[
+        {
+          "id":"ly-14-34-x1",
+          "type":"본문 속 논쟁형",
+          "basis":"본문 직접 대립",
+          "headline":"세상이 받아주지 않는데도 계속 정치에 뛰어드는 건 집착일까, 책임일까?",
+          "side_a":"미생묘는 공자님이 제후들을 찾아다니며 계속 세상을 바꾸려 하는 모습을 보고, 쉬지 못하고 돌아다니며 사람들의 인정을 구하는 것 아니냐고 비꼽니다.",
+          "side_b":"공자님은 아첨하려는 것이 아니라 굳어 버린 현실과 완고함을 싫어하기 때문에 계속 말하고 움직인다고 답합니다. 실패가 반복되어도 현실 참여 자체를 포기하지 않는 입장입니다.",
+          "score":10
+        }
+      ],
+      "selected":"ly-14-34-x1"
+    },
+    {"chapter":35,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"천리마도 힘보다 품성을 평가한다는 비유는 재능과 인격의 구분으로 문답 카드에서 충분히 설명됨"}
+  ]
+}
