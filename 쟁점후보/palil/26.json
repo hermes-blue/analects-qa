@@ -1,0 +1,20 @@
+{
+  "book": "팔일편",
+  "range": "26",
+  "status": "production",
+  "rule_branch": "track/issues",
+  "chapters": [
+    {
+      "chapter": 26,
+      "title": "居上不寬 爲禮不敬 臨喪不哀",
+      "actual_issue_count": 0,
+      "candidates": [],
+      "note": "윗자리에 있으면서 너그럽지 않고, 예를 행하면서 공경하지 않고, 상을 당해 슬퍼하지 않는 태도를 비판한다는 중심 뜻에서 강한 주석 이견은 확인하지 못했습니다."
+    }
+  ],
+  "review": {
+    "selected_count": 0,
+    "empty_chapters": [26],
+    "note": "강한 VS가 없어 빈 장으로 유지했습니다."
+  }
+}
