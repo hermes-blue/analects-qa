@@ -1,0 +1,28 @@
+{
+  "book":"헌문편",
+  "range":"16-20",
+  "type":"expanded_issue_candidates",
+  "source_policy":"supplement-only",
+  "chapters":[
+    {"chapter":16,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"두 패자의 성공보다 수단의 정당성을 따로 평가한다는 핵심은 문답 카드에서 이미 충분히 다룸"},
+    {
+      "chapter":17,
+      "existing_strong_issue":false,
+      "expanded_candidates":[
+        {
+          "id":"ly-14-17-x1",
+          "type":"본문 속 논쟁형",
+          "basis":"본문 직접 대립",
+          "headline":"주군을 따라 죽지 않은 관중은 불충한가, 더 큰 책임을 택한 것인가?",
+          "side_a":"자로와 이어지는 자공의 질문은 관중이 자기 주군 공자 규를 따라 죽지 않고 오히려 제환공을 섬긴 일을 충절의 실패로 봅니다. 개인적 신의와 주군에 대한 의리를 기준으로 삼은 판단입니다.",
+          "side_b":"공자님은 관중이 살아서 제후를 규합하고 전쟁과 혼란을 줄인 공을 더 크게 봅니다. 한 사람을 따라 죽는 작은 신의보다 많은 사람을 살리고 질서를 지킨 공공적 책임을 높게 평가합니다.",
+          "score":10
+        }
+      ],
+      "selected":"ly-14-17-x1"
+    },
+    {"chapter":18,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"자공이 같은 관중의 충절 문제를 다시 제기하는 장으로, 17장의 확장 카드가 17~18장의 논쟁을 함께 포괄하므로 중복 생성하지 않음"},
+    {"chapter":19,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"자기 신하의 능력을 인정해 같은 대부 반열에 올린 인재 등용 사례는 문답 카드와 중복되어 별도 쟁점 없음"},
+    {"chapter":20,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"무도한 군주 아래에서도 유능한 신하가 국가 기능을 지탱할 수 있다는 현실적 관찰은 문답 1~3번이 이미 직접 다룸"}
+  ]
+}
