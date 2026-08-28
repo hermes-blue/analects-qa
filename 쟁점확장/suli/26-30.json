@@ -1,0 +1,12 @@
+{
+  "book":"술이편","range":"26-30","type":"expanded_issue_candidates","source_policy":"supplement-only","chapters":[
+    {"chapter":26,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"성인→군자, 선인→한결같은 사람으로 현실적 기준을 낮춰 가는 구조는 현재 문답이 이미 충분히 다룸"},
+    {"chapter":27,"existing_strong_issue":true,"existing_issue_ref":"쟁점후보/suli/26-30.json","expanded_candidates":[],"selected":null},
+    {"chapter":28,"existing_strong_issue":false,"expanded_candidates":[
+      {"id":"ly-07-28-x1","type":"장간 긴장형","basis":"장간 비교","headline":"공자님은 배워서 얻는 앎을 강조하면서 왜 여기서는 ‘한 단계 아래’라고 했을까?","side_a":"20장에서 공자님은 자신이 태어나면서 아는 사람이 아니라 옛것을 부지런히 배워 얻은 사람이라고 분명히 말합니다.","side_b":"28장에서는 많이 듣고 보고 골라 배우는 앎을 ‘그다음 수준’이라고 표현합니다. 타고난 앎을 이상적 기준으로 인정하되, 자신이 실제로 택한 길은 검증 가능한 학습과 관찰이었다는 긴장이 생깁니다.","score":10},
+      {"id":"ly-07-28-x2","type":"인물 평가형","basis":"장간 비교","headline":"‘최고의 앎’이 아니라면 공자님은 왜 학습의 길을 자기 방식으로 내세웠을까?","side_a":"전통의 위계에서는 타고나면서 아는 것이 더 높은 경지로 놓입니다.","side_b":"하지만 공자님 자신의 설명은 모르면서 만들어 내지 않고 많이 듣고 보는 태도에 집중합니다. 현실의 배움에서는 출발점보다 방법의 정직성이 더 중요하게 드러납니다.","score":9}
+    ],"selected":"ly-07-28-x1","note":"기존 강한 쟁점 파일에는 이름을 특정하지 못한 복수 독법 후보가 있으나 selected된 강한 카드가 없어 확장 검토 대상으로 포함"},
+    {"chapter":29,"existing_strong_issue":true,"existing_issue_ref":"쟁점후보/suli/26-30.json","expanded_candidates":[],"selected":null},
+    {"chapter":30,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"인을 원하면 가까이 있다는 말이 즉시 완성된 인격을 뜻하지 않는다는 오해는 현재 문답이 이미 직접 다룸"}
+  ]
+}
