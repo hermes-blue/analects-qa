@@ -1,0 +1,12 @@
+{
+  "book":"이인편","range":"21-25","type":"expanded_issue_candidates","source_policy":"supplement-only","chapters":[
+    {"chapter":21,"existing_strong_issue":false,"expanded_candidates":[
+      {"id":"ly-04-21-x1","type":"문장 안 긴장형","basis":"본문 직접 대립","headline":"부모님의 나이는 왜 동시에 기쁨과 두려움이 될까?","side_a":"나이가 많아진다는 것은 그만큼 오래 함께했다는 뜻이어서 기쁜 일입니다.","side_b":"동시에 남은 시간이 줄어든다는 사실을 더 선명하게 느끼게 합니다. 효의 감정이 감사와 상실의 두 방향을 동시에 품는 장입니다.","score":10},
+      {"id":"ly-04-21-x2","type":"현실 선택형","basis":"본문 내부 구조","headline":"오래 사신 것을 기뻐할까, 이별이 가까움을 두려워할까?","side_a":"기쁨만 보면 현재 함께 있는 시간을 축하하게 됩니다.","side_b":"두려움까지 함께 느끼면 그 시간이 유한하다는 사실도 잊지 않게 됩니다. 공자님은 둘 중 하나를 지우지 않습니다.","score":9}
+    ],"selected":"ly-04-21-x1"},
+    {"chapter":22,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"말보다 행동이 뒤처질까 부끄러워 말을 신중히 한다는 의미가 기존 문답과 겹쳐 확장 쟁점은 보류"},
+    {"chapter":23,"existing_strong_issue":true,"existing_issue_ref":"쟁점후보/iin/21-25.json","expanded_candidates":[],"selected":null},
+    {"chapter":24,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"말은 신중하고 행동은 민첩해야 한다는 대비가 선명하지만 22장 및 기존 문답과 정보 중복이 커 보류"},
+    {"chapter":25,"existing_strong_issue":true,"existing_issue_ref":"쟁점후보/iin/21-25.json","expanded_candidates":[],"selected":null}
+  ]
+}
