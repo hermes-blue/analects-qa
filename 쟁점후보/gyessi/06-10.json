@@ -1,0 +1,14 @@
+{
+  "book":"계씨편",
+  "range":"6-10",
+  "status":"production",
+  "rule_branch":"track/issues",
+  "chapter_mapping":"논어집주 14장 배열",
+  "chapters":[
+    {"chapter":6,"title":"侍於君子有三愆","actual_issue_count":0,"candidates":[]},
+    {"chapter":7,"title":"君子有三戒","actual_issue_count":0,"candidates":[]},
+    {"chapter":8,"title":"君子有三畏","actual_issue_count":0,"candidates":[],"note":"天命의 철학적 설명 차이는 있으나 초보자에게 장면이 바뀌는 구체적 VS로는 약해 제외"},
+    {"chapter":9,"title":"生而知之者上也","actual_issue_count":0,"candidates":[]},
+    {"chapter":10,"title":"君子有九思","actual_issue_count":0,"candidates":[]}
+  ]
+}
