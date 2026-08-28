@@ -1,0 +1,95 @@
+{
+  "book": "태백편",
+  "range": "11-15",
+  "status": "production",
+  "rule_branch": "track/issues",
+  "chapters": [
+    {"chapter": 11, "title": "如有周公之才之美 使驕且吝", "actual_issue_count": 0, "candidates": [], "note": "驕·吝의 세부 풀이 차이는 있으나 장 전체 의미가 크게 갈리지 않음"},
+    {
+      "chapter": 12,
+      "title": "三年學 不至於穀 不易得也",
+      "actual_issue_count": 1,
+      "candidates": [
+        {
+          "id": "ly-08-12-c1",
+          "issue": "穀",
+          "headline": "‘3년 공부해도 善에 못 이른다’ vs ‘3년 공부해도 녹봉을 바라지 않는다’",
+          "sides": [
+            {
+              "scholar": "공안국(孔安國) — 《논어집해》 인용",
+              "text": "穀을 ‘善’으로 풉니다. 3년을 배워도 아직 선에 이르지 못하는 경우가 있다는 말로 읽어, 공부가 쉽게 완성되지 않는다는 경계가 됩니다."
+            },
+            {
+              "scholar": "정현(鄭玄)",
+              "text": "穀을 ‘녹봉’으로 풉니다. 오래 공부하면서도 벼슬과 월급에 마음이 가지 않는 사람은 드물다는 뜻이 되어, 공부의 목적 자체가 달라집니다."
+            }
+          ],
+          "score": 10,
+          "selected": true
+        },
+        {
+          "id": "ly-08-12-c2",
+          "issue": "chapter_message",
+          "headline": "‘공부해도 善은 어렵다’ vs ‘공부를 출세 수단으로 삼지 말라’",
+          "sides": [
+            {
+              "scholar": "공안국(孔安國)",
+              "text": "문제는 학문의 성취가 더디다는 데 있습니다."
+            },
+            {
+              "scholar": "정현(鄭玄)",
+              "text": "문제는 학문을 녹봉과 출세로 바꾸려는 마음에 있습니다."
+            }
+          ],
+          "score": 9,
+          "selected": false,
+          "reject_reason": "c1이 穀 한 글자가 장 전체를 어떻게 바꾸는지 더 구체적으로 보여 줌"
+        }
+      ]
+    },
+    {"chapter": 13, "title": "篤信好學 守死善道", "actual_issue_count": 0, "candidates": [], "note": "출처 판단의 세부 설명은 있으나 뚜렷한 VS를 만들지 않음"},
+    {"chapter": 14, "title": "不在其位 不謀其政", "actual_issue_count": 0, "candidates": [], "note": "핵심 독법이 안정적임"},
+    {
+      "chapter": 15,
+      "title": "師摯之始 關雎之亂 洋洋乎盈耳哉",
+      "actual_issue_count": 1,
+      "candidates": [
+        {
+          "id": "ly-08-15-c1",
+          "issue": "關雎之亂",
+          "headline": "‘흐트러진 음악을 바로잡았다’ vs ‘음악의 마지막 악장’",
+          "sides": [
+            {
+              "scholar": "정현(鄭玄)",
+              "text": "亂을 실제로 어지러워진 음악으로 봅니다. 정악이 무너진 시대에 악사 지가 《관저》의 소리를 알아보고 다시 정리했다고 풉니다."
+            },
+            {
+              "scholar": "능정감(凌廷堪) 《예경석례》",
+              "text": "亂은 ‘혼란’이 아니라 악곡의 마지막 부분이라고 봅니다. 그러면 공자님은 음악이 처음부터 마지막까지 잘 갖추어진 소리를 듣고 감탄한 장면이 됩니다."
+            }
+          ],
+          "score": 10,
+          "selected": true
+        },
+        {
+          "id": "ly-08-15-c2",
+          "issue": "亂의 음악 용어 여부",
+          "headline": "‘망가진 正樂의 복구’ vs ‘정상적인 합주 피날레’",
+          "sides": [
+            {
+              "scholar": "정현(鄭玄)",
+              "text": "시대가 흐트러뜨린 음악을 악사 지가 바로잡았다는 역사적 장면으로 읽습니다."
+            },
+            {
+              "scholar": "능정감(凌廷堪)",
+              "text": "始와 亂을 ‘시작과 끝’이라는 짝으로 보아 정상적인 연주 절차를 말한 것으로 읽습니다."
+            }
+          ],
+          "score": 9,
+          "selected": false,
+          "reject_reason": "c1과 같은 쟁점이며 c1이 亂의 뜻 차이를 초보자에게 더 직접적으로 보여 줌"
+        }
+      ]
+    }
+  ]
+}
