@@ -1,0 +1,13 @@
+{
+  "book":"헌문편",
+  "range":"26-30",
+  "type":"expanded_issue_candidates",
+  "source_policy":"supplement-only",
+  "chapters":[
+    {"chapter":26,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"거백옥의 수양과 사신의 과장 없는 전달을 함께 칭찬하는 장면은 문답에서 충분히 설명됨"},
+    {"chapter":27,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"태백편의 동일 구절과 중복되며, 직분 밖의 무책임한 간섭을 경계한다는 오해 교정도 문답 카드가 직접 다룸"},
+    {"chapter":28,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"직분 질서가 지나치게 보수적으로 읽힐 수 있다는 적용 한계까지 문답 1~3번에서 이미 다루고 있어 중복하지 않음"},
+    {"chapter":29,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"말이 행동을 앞서지 않게 하라는 뜻은 21장 및 현재 문답과 중복됨"},
+    {"chapter":30,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"공자님의 실제 자기평가인지 겸손한 표현인지라는 질문은 흥미롭지만 문답 2번에서 이미 명시적으로 다루므로 보류"}
+  ]
+}
