@@ -1,0 +1,55 @@
+{
+  "book":"양화편",
+  "range":"21-25",
+  "status":"production",
+  "rule_branch":"track/issues",
+  "chapter_mapping":"논어집주 26장 배열",
+  "chapters":[
+    {"chapter":21,"title":"宰我問三年之喪","actual_issue_count":0,"candidates":[],"note":"재아와 공자님의 대립은 본문 속 논쟁이지 후대 주석가의 독법 대립이 아니므로 쟁점 카드에서 별도 생성하지 않음"},
+    {"chapter":22,"title":"飽食終日 無所用心","actual_issue_count":0,"candidates":[]},
+    {"chapter":23,"title":"子路曰君子尚勇乎","actual_issue_count":0,"candidates":[]},
+    {"chapter":24,"title":"子貢曰君子亦有惡乎","actual_issue_count":0,"candidates":[]},
+    {
+      "chapter":25,
+      "title":"唯女子與小人爲難養也",
+      "actual_issue_count":1,
+      "candidates":[
+        {
+          "id":"ly-17-25-c1",
+          "issue":"小人은 누구를 가리키는가",
+          "headline":"‘도덕적으로 비열한 사람’ vs ‘집안의 하인·아랫사람’",
+          "sides":[
+            {
+              "scholar":"유보남(劉寶楠) 《논어정의》",
+              "text":"小人을 앞에서 나온 鄕原·鄙夫 같은 부류와 연결합니다. 즉 신분보다 행동이 비열하고 도덕 기준이 낮은 사람을 가리키는 쪽입니다."
+            },
+            {
+              "scholar":"주희(朱熹) 《논어집주》",
+              "text":"여기서 小人은 일반적인 ‘악인’이 아니라 僕隷, 곧 가까이 두고 부리는 하인이나 아랫사람이라고 좁혀 풉니다. 그래서 이 장을 집안의 臣妾을 대하는 문제로 읽습니다."
+            }
+          ],
+          "score":10,
+          "selected":true
+        },
+        {
+          "id":"ly-17-25-c2",
+          "issue":"近之·遠之가 벌어지는 관계",
+          "headline":"‘도덕적으로 나쁜 사람과의 거리’ vs ‘가까이 부리는 사람과의 거리’",
+          "sides":[
+            {
+              "scholar":"유보남(劉寶楠)",
+              "text":"小人을 鄕原·鄙夫 같은 유형으로 보므로, 가까이하거나 멀리할 때 생기는 문제도 도덕적으로 좋지 않은 사람과의 관계가 됩니다."
+            },
+            {
+              "scholar":"주희(朱熹)",
+              "text":"小人을 하인·아랫사람으로 보기 때문에, 핵심은 일상에서 가까이 두는 사람을 너무 풀어주지도 너무 박대하지도 않는 거리 조절이 됩니다."
+            }
+          ],
+          "score":9,
+          "selected":false,
+          "reject_reason":"c1이 小人의 대상 자체가 달라지는 점을 더 직접적으로 보여 줌"
+        }
+      ]
+    }
+  ]
+}
