@@ -1,0 +1,61 @@
+{
+  "book":"안연편",
+  "range":"01-05",
+  "type":"expanded_issue_candidates",
+  "source_policy":"supplement-only",
+  "chapters":[
+    {
+      "chapter":1,
+      "existing_strong_issue":true,
+      "existing_issue_ref":"쟁점후보/anyeon/01-05.json",
+      "expanded_candidates":[],
+      "selected":null
+    },
+    {
+      "chapter":2,
+      "existing_strong_issue":false,
+      "expanded_candidates":[
+        {
+          "id":"ly-12-02-x1",
+          "type":"장간 긴장형",
+          "basis":"장간 비교",
+          "headline":"같은 ‘인’을 물었는데 왜 제자마다 답이 다를까?",
+          "question":"안회에게는 자신을 이겨 예로 돌아가라고 하고, 중궁에게는 사람을 큰손님처럼 대하라고 하며, 사마우에게는 말을 삼가라고 합니다. 같은 인을 두고 답이 왜 이렇게 달라질까요?",
+          "answer_frame":"공자님은 인을 한 문장짜리 정의로만 가르치지 않았습니다. 제자의 기질과 부족한 지점에 따라 같은 덕의 서로 다른 실천 입구를 제시한 것으로 읽을 수 있습니다.",
+          "score":10
+        }
+      ],
+      "selected":"ly-12-02-x1"
+    },
+    {
+      "chapter":3,
+      "existing_strong_issue":false,
+      "expanded_candidates":[],
+      "selected":null,
+      "note":"사마우의 급한 말버릇에 맞춘 맞춤형 답이라는 흥미는 있으나 2장의 장간 비교 카드에 함께 포괄되어 별도 중복 생성을 하지 않음"
+    },
+    {
+      "chapter":4,
+      "existing_strong_issue":false,
+      "expanded_candidates":[],
+      "selected":null,
+      "note":"‘군자는 걱정과 두려움이 없다’는 표현의 오해 가능성은 있으나 현재 문답 카드가 이미 감정 부정이 아니라 내면의 거리낌 문제라고 충분히 설명하고 있어 확장 카드로 반복하지 않음"
+    },
+    {
+      "chapter":5,
+      "existing_strong_issue":false,
+      "expanded_candidates":[
+        {
+          "id":"ly-12-05-x1",
+          "type":"역사·인물 평가형",
+          "basis":"역사·제도 맥락",
+          "headline":"사마우에게 형제가 있었는데 왜 ‘나만 형제가 없다’고 했을까?",
+          "question":"전승상 사마우에게는 실제 형제가 있었는데도 그는 자신만 형제가 없다고 탄식합니다. 이 말은 단순한 가족 수를 말한 걸까요?",
+          "answer_frame":"사마우의 형제 관계에는 정치적 갈등과 불안이 얽혀 있었습니다. 그래서 여기의 탄식은 혈연상 형제가 전혀 없다는 뜻이라기보다, 의지하고 함께할 ‘형제다운 형제’를 잃은 처지를 말한 것으로 이해할 여지가 큽니다.",
+          "score":9
+        }
+      ],
+      "selected":"ly-12-05-x1"
+    }
+  ]
+}
