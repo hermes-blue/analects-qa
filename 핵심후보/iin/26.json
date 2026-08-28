@@ -1,0 +1,8 @@
+{
+  "book":"이인편","range":"26","type":"core_candidates","chapters":[
+    {"chapter":26,"candidates":[
+      {"id":"A","headline":"옳은 충고도 때와 정도를 잃으면 관계를 망칠 수 있다","subtitle":"","score":10},
+      {"id":"B","headline":"말해야 할 때 말하되 받아들이지 않는데 끝없이 몰아붙이지 않는다","subtitle":"","score":9},
+      {"id":"C","headline":"관계마다 충고를 건네는 방식도 달라야 한다","subtitle":"","score":9}],"selected":"A"}
+  ]
+}
