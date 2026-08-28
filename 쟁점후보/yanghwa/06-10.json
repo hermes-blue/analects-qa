@@ -1,0 +1,14 @@
+{
+  "book":"양화편",
+  "range":"6-10",
+  "status":"production",
+  "rule_branch":"track/issues",
+  "chapter_mapping":"논어집주 26장 배열",
+  "chapters":[
+    {"chapter":6,"title":"子張問仁於孔子","actual_issue_count":0,"candidates":[]},
+    {"chapter":7,"title":"佛肸召 子欲往","actual_issue_count":0,"candidates":[],"note":"불힐의 신분·중모 위치에 고증 차이가 있으나 초보자 카드에서 장 의미를 크게 바꾸는 VS로는 약함"},
+    {"chapter":8,"title":"六言六蔽","actual_issue_count":0,"candidates":[]},
+    {"chapter":9,"title":"小子何莫學夫詩","actual_issue_count":0,"candidates":[]},
+    {"chapter":10,"title":"女爲周南召南矣乎","actual_issue_count":0,"candidates":[]}
+  ]
+}
