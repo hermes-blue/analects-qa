@@ -1,0 +1,13 @@
+{
+  "book":"자로편",
+  "range":"06-10",
+  "type":"expanded_issue_candidates",
+  "source_policy":"supplement-only",
+  "chapters":[
+    {"chapter":6,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"지도자의 모범과 명령의 신뢰 문제는 문답 카드와 직접 중복되어 보류"},
+    {"chapter":7,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"노나라와 위나라의 정치가 닮았다는 짧은 역사평은 흥미로운 추가 쟁점을 만들기보다 역사 배경 카드에 적합함"},
+    {"chapter":8,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"재산이 늘어도 욕망의 기준을 끝없이 올리지 않는 공자 형의 태도는 문답에서 충분히 설명되어 별도 쟁점 없음"},
+    {"chapter":9,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"부유하게 한 뒤 가르친다는 경제·교육의 순서는 흥미롭지만 문답 1~3번이 바로 이 긴장을 이미 다루고 있어 중복하지 않음"},
+    {"chapter":10,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"1년의 기본 정비와 3년의 성과라는 시간 구분은 문답에서 충분히 설명되어 확장 카드로 만들지 않음"}
+  ]
+}
