@@ -1,0 +1,24 @@
+{
+  "book":"위정편","range":"6-10","type":"core_candidates","chapters":[
+    {"chapter":6,"candidates":[
+      {"id":"A","headline":"효는 부모에게 불필요한 걱정을 끼치지 않는 데서도 드러난다","subtitle":"","score":10},
+      {"id":"B","headline":"부모가 걱정해야 할 일은 피할 수 없는 것뿐이어야 한다","subtitle":"","score":9},
+      {"id":"C","headline":"자기 몸과 행실을 지키는 일도 부모를 위한 책임이다","subtitle":"","score":9}],"selected":"A"},
+    {"chapter":7,"candidates":[
+      {"id":"A","headline":"부모를 먹여 모시는 것만으로는 효가 완성되지 않는다","subtitle":"공경이 빠지면 봉양은 겉모양에 그칩니다.","score":10},
+      {"id":"B","headline":"효를 가르는 것은 돈보다 공경이다","subtitle":"","score":9},
+      {"id":"C","headline":"돌봄에는 존중이 함께 있어야 한다","subtitle":"","score":9}],"selected":"A"},
+    {"chapter":8,"candidates":[
+      {"id":"A","headline":"부모를 섬길 때 가장 어려운 것은 마음이 얼굴에 드러나는 순간이다","subtitle":"","score":10},
+      {"id":"B","headline":"일을 대신해 주는 것보다 싫은 내색 없이 공경하는 일이 더 어렵다","subtitle":"","score":9},
+      {"id":"C","headline":"효는 행동뿐 아니라 표정과 태도에서도 드러난다","subtitle":"","score":9}],"selected":"A"},
+    {"chapter":9,"candidates":[
+      {"id":"A","headline":"조용히 듣는 사람도 행동으로 충분히 이해를 보여줄 수 있다","subtitle":"","score":10},
+      {"id":"B","headline":"말이 적다고 생각이 없는 것은 아니다","subtitle":"안회는 배운 뜻을 실제 행동에서 보여주었습니다.","score":9},
+      {"id":"C","headline":"이해는 대답보다 삶에서 더 분명하게 드러날 때가 있다","subtitle":"","score":9}],"selected":"A"},
+    {"chapter":10,"candidates":[
+      {"id":"A","headline":"사람은 한 번의 행동보다 반복되는 선택에서 더 잘 보인다","subtitle":"","score":10},
+      {"id":"B","headline":"무엇을 했는지보다 왜 그렇게 했고 무엇을 편안해하는지도 본다","subtitle":"","score":9},
+      {"id":"C","headline":"사람을 알려면 행동과 과정과 습관을 함께 봐야 한다","subtitle":"","score":9}],"selected":"A"}
+  ]
+}
