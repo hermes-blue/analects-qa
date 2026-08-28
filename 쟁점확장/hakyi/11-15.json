@@ -1,0 +1,19 @@
+{
+  "book":"학이편",
+  "range":"11-15",
+  "type":"expanded_issue_candidates",
+  "source_policy":"supplement-only",
+  "chapters":[
+    {"chapter":11,"existing_strong_issue":true,"existing_issue_ref":"쟁점후보/hakyi/11-15.json","expanded_candidates":[],"selected":null},
+    {"chapter":12,"existing_strong_issue":true,"existing_issue_ref":"쟁점후보/hakyi/11-15.json","expanded_candidates":[],"selected":null},
+    {"chapter":13,"existing_strong_issue":true,"existing_issue_ref":"쟁점후보/hakyi/11-15.json","expanded_candidates":[],"selected":null},
+    {"chapter":14,"existing_strong_issue":false,"expanded_candidates":[
+      {"id":"ly-01-14-x1","type":"개념 범위형","basis":"본문 내부 구조","headline":"배우기를 좋아한다는 건 책을 많이 읽는다는 뜻일까?","side_a":"오늘날에는 ‘학문을 좋아한다’고 하면 먼저 책과 지식을 떠올리기 쉽습니다.","side_b":"이 장은 먹고사는 편안함에 매이지 않고, 일은 민첩하게 하며, 말을 삼가고, 더 나은 사람에게 가서 자신을 바로잡는 태도까지 함께 묶습니다. 배움의 범위가 생활 전체로 넓습니다.","score":9},
+      {"id":"ly-01-14-x2","type":"오해 교정형","basis":"현대적 오해 교정","headline":"불편하게 살아야 공부를 잘하는 걸까?","side_a":"‘배부름과 편안함을 구하지 않는다’만 떼어 읽으면 일부러 고생해야 한다는 금욕주의처럼 보일 수 있습니다.","side_b":"본문의 초점은 고생 자체가 아니라 우선순위입니다. 편안함을 최고 목표로 삼지 않고 배움과 자기 교정을 앞세우라는 말입니다.","score":8}
+    ],"selected":"ly-01-14-x1"},
+    {"chapter":15,"existing_strong_issue":false,"expanded_candidates":[
+      {"id":"ly-01-15-x1","type":"문장 안 긴장형","basis":"본문 직접 대립","headline":"잘못을 안 하는 것과 좋은 삶을 즐기는 것은 같은 단계일까?","side_a":"자공의 첫 기준은 가난해도 아첨하지 않고 부유해도 교만하지 않는 것입니다. 해로운 행동을 억제하는 데 초점이 있습니다.","side_b":"공자님은 한 단계 더 나아가 가난 속에서도 즐거움을 잃지 않고 부유해도 예를 좋아하는 모습을 제시합니다. ‘나쁜 일을 피함’에서 ‘좋은 것을 좋아함’으로 기준이 바뀝니다.","score":10},
+      {"id":"ly-01-15-x2","type":"본문 속 논쟁형","basis":"본문 내부 구조","headline":"자공의 답은 맞았는데 왜 공자님은 한 단계 더 올렸을까?","side_a":"자공의 기준도 이미 훌륭합니다. 가난과 부라는 조건에 끌려 아첨하거나 교만하지 않기 때문입니다.","side_b":"공자님은 거기서 멈추지 않고 즐거움과 예를 적극적으로 좋아하는 상태를 더 높게 봅니다. 이 장은 ‘충분히 괜찮음’과 ‘더 잘 다듬음’을 구분합니다.","score":9}
+    ],"selected":"ly-01-15-x1"}
+  ]
+}
