@@ -1,0 +1,24 @@
+{
+  "book":"이인편","range":"11-15","type":"core_candidates","chapters":[
+    {"chapter":11,"candidates":[
+      {"id":"A","headline":"사람의 차이는 무엇을 먼저 마음에 두느냐에서 드러난다","subtitle":"","score":10},
+      {"id":"B","headline":"원칙을 먼저 떠올리는 사람과 편안함을 먼저 찾는 사람은 다르다","subtitle":"","score":9},
+      {"id":"C","headline":"행동보다 앞서 마음이 머무는 곳이 사람을 가른다","subtitle":"","score":9}],"selected":"A"},
+    {"chapter":12,"candidates":[
+      {"id":"A","headline":"자기 이익만 좇으면 결국 주변의 원망을 쌓게 된다","subtitle":"","score":10},
+      {"id":"B","headline":"이익 자체보다 이익을 판단의 유일한 기준으로 삼는 것이 문제다","subtitle":"","score":9},
+      {"id":"C","headline":"내 몫만 키우는 선택은 관계를 오래 버티게 하지 못한다","subtitle":"","score":9}],"selected":"A"},
+    {"chapter":13,"candidates":[
+      {"id":"A","headline":"정치는 서로의 자리를 인정하는 데서 안정된다","subtitle":"","score":10},
+      {"id":"B","headline":"권력을 다투기보다 예와 양보로 자리를 지키는 것이 먼저다","subtitle":"","score":9},
+      {"id":"C","headline":"예는 의식이 아니라 실제 관계를 움직여야 한다","subtitle":"","score":9}],"selected":"A"},
+    {"chapter":14,"candidates":[
+      {"id":"A","headline":"자리를 얻는 것보다 그 자리를 감당할 사람이 되는 것이 먼저다","subtitle":"","score":10},
+      {"id":"B","headline":"알아주지 않는다고 걱정하기보다 알아줄 만한 사람이 되려 한다","subtitle":"","score":9},
+      {"id":"C","headline":"지위와 평판보다 실력과 덕을 먼저 준비한다","subtitle":"","score":9}],"selected":"A"},
+    {"chapter":15,"candidates":[
+      {"id":"A","headline":"공자님의 많은 가르침은 자신에게 성실하고 남을 헤아리는 한 흐름으로 이어진다","subtitle":"","score":10},
+      {"id":"B","headline":"자기 책임과 타인에 대한 헤아림이 공자님의 실천을 관통한다","subtitle":"","score":9},
+      {"id":"C","headline":"수많은 가르침 뒤에는 하나로 이어지는 실천 원리가 있다","subtitle":"","score":9}],"selected":"A"}
+  ]
+}
