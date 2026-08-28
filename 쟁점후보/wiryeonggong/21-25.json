@@ -1,0 +1,14 @@
+{
+  "book":"위령공편",
+  "range":"21-25",
+  "status":"production",
+  "rule_branch":"track/issues",
+  "chapter_mapping":"현재 앱 42장 배열",
+  "chapters":[
+    {"chapter":21,"title":"君子求諸己 小人求諸人","actual_issue_count":0,"candidates":[]},
+    {"chapter":22,"title":"君子矜而不爭 群而不黨","actual_issue_count":0,"candidates":[]},
+    {"chapter":23,"title":"君子不以言擧人 不以人廢言","actual_issue_count":0,"candidates":[]},
+    {"chapter":24,"title":"己所不欲 勿施於人","actual_issue_count":0,"candidates":[],"note":"안연편의 동일 핵심 구절에서 다룰 수 있는 해석 쟁점과 겹쳐 새 카드 생성하지 않음"},
+    {"chapter":25,"title":"吾之於人也 誰毀誰譽","actual_issue_count":0,"candidates":[],"note":"毀譽를 사적 호오가 아닌 검증된 평가로 본다는 핵심은 주석 간 크게 갈리지 않음"}
+  ]
+}
