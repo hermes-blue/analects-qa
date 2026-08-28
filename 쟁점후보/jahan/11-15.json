@@ -1,0 +1,18 @@
+{
+  "book":"자한편","range":"11-15","status":"production","rule_branch":"track/issues","chapters":[
+    {"chapter":11,"title":"顏淵喟然歎曰仰之彌高 鑽之彌堅","actual_issue_count":0,"candidates":[],"note":"卓爾·末由 등의 철학적 설명 차이는 있으나 구체적 장면이 크게 달라지지 않아 제외"},
+    {"chapter":12,"title":"子疾病 子路使門人爲臣","actual_issue_count":0,"candidates":[],"note":"병의 정도와 장례 예법 설명은 있으나 강한 경쟁 독법 없음"},
+    {"chapter":13,"title":"有美玉於斯 韞匵而藏諸 求善賈而沽諸","actual_issue_count":1,"candidates":[
+      {"id":"ly-09-13-c1","issue":"善賈","headline":"‘좋은 값을 기다린다’ vs ‘좋은 상인을 기다린다’","sides":[
+        {"scholar":"주희(朱熹) 《논어집주》","text":"賈를 ‘값’으로 읽습니다. 공자님은 옥처럼 자신을 아무 값에 내놓지 않고, 제대로 알아주는 좋은 값을 기다린다는 비유가 됩니다."},
+        {"scholar":"오규 소라이(荻生徂徠) 《논어징》","text":"賈를 ‘상인’으로 읽습니다. 옥의 가치를 알아보고 거래할 줄 아는 좋은 상인을 기다린다는 뜻이 되어, 기다리는 대상이 ‘가격’에서 ‘사람’으로 바뀝니다."}
+      ],"score":10,"selected":true},
+      {"id":"ly-09-13-c2","issue":"我待賈者也","headline":"‘제값을 기다린다’ vs ‘제대로 알아볼 사람을 기다린다’","sides":[
+        {"scholar":"주희(朱熹)","text":"자신을 헐값에 내놓지 않고 합당한 대우를 기다린다는 쪽입니다."},
+        {"scholar":"오규 소라이(荻生徂徠)","text":"옥을 감정하고 팔 수 있는 사람, 곧 자신을 알아볼 군주를 기다린다는 쪽입니다."}
+      ],"score":9,"selected":false,"reject_reason":"c1과 동일 쟁점이며 c1이 賈의 글자 차이를 더 직접적으로 보여 줌"}
+    ]},
+    {"chapter":14,"title":"子欲居九夷 或曰陋如之何","actual_issue_count":0,"candidates":[],"note":"九夷의 지리·민족 비정은 다양하지만 본문 핵심을 바꾸는 확실한 양자 대립으로 정리하기 어려워 제외"},
+    {"chapter":15,"title":"吾自衛反魯 然後樂正 雅頌各得其所","actual_issue_count":0,"candidates":[],"note":"樂正의 구체 작업 범위에는 추정이 많아 확실한 주석 대립만 남기는 원칙에 따라 비움"}
+  ]
+}
