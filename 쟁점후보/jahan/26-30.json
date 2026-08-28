@@ -1,0 +1,9 @@
+{
+  "book":"자한편","range":"26-30","status":"production","rule_branch":"track/issues","chapters":[
+    {"chapter":26,"title":"三軍可奪帥也 匹夫不可奪志也","actual_issue_count":0,"candidates":[],"note":"군제 규모 설명은 있으나 핵심 비유의 독법은 안정적임"},
+    {"chapter":27,"title":"衣敝縕袍 與衣狐貉者立而不恥者","actual_issue_count":0,"candidates":[],"note":"不忮不求 구절을 별장으로 나누는 판본 차이는 있으나 의미 자체를 크게 바꾸지 않아 제외"},
+    {"chapter":28,"title":"歲寒 然後知松柏之後彫也","actual_issue_count":0,"candidates":[],"note":"後彫의 어휘 설명 외에 강한 이견 없음"},
+    {"chapter":29,"title":"知者不惑 仁者不憂 勇者不懼","actual_issue_count":0,"candidates":[],"note":"삼덕의 배열·관계 설명은 있으나 실제 장면 대립이 아님"},
+    {"chapter":30,"title":"可與共學 未可與適道 可與適道 未可與立","actual_issue_count":0,"candidates":[],"note":"權의 의미는 저울질·권변으로 안정적이며 카드로 만들 강한 경쟁 독법을 확인하지 못함"}
+  ]
+}
