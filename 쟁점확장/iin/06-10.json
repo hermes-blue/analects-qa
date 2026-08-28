@@ -1,0 +1,12 @@
+{
+  "book":"이인편","range":"06-10","type":"expanded_issue_candidates","source_policy":"supplement-only","chapters":[
+    {"chapter":6,"existing_strong_issue":true,"existing_issue_ref":"쟁점후보/iin/06-10.json","expanded_candidates":[],"selected":null},
+    {"chapter":7,"existing_strong_issue":true,"existing_issue_ref":"쟁점후보/iin/06-10.json","expanded_candidates":[],"selected":null},
+    {"chapter":8,"existing_strong_issue":false,"expanded_candidates":[
+      {"id":"ly-04-08-x1","type":"개념 범위형","basis":"전통 주석","headline":"‘아침에 도를 들으면 저녁에 죽어도 좋다’—내가 깨닫는 걸까, 세상에 도가 행해졌다는 소식일까?","side_a":"오늘날에는 보통 내가 삶의 도리를 깨닫는 순간으로 읽습니다. 개인의 깨달음이 생명보다 중요하다는 뜻이 됩니다.","side_b":"현전 고주에는 ‘세상에 도가 행해졌다는 소식을 듣는다’는 옛 독법도 전합니다. 그러면 개인의 깨달음보다 바른 정치가 현실에 실현되었다는 소식을 들으면 여한이 없다는 말이 됩니다.","score":10,"note":"두 번째 독법은 현전 《논어집해》에 전하지만 개인 주석가 이름이 보존되지 않은 옛설이므로 학자 대 학자 카드가 아니라 독법 범위 카드로 제시"},
+      {"id":"ly-04-08-x2","type":"적용 한계형","basis":"본문 내부 구조","headline":"이 구절은 죽음을 가볍게 여기라는 말일까?","side_a":"‘저녁에 죽어도 좋다’를 문자 그대로 행동 명령처럼 읽으면 생명을 경시하는 말이 됩니다.","side_b":"핵심은 죽음을 추구하는 데 있지 않고 도를 아는 가치가 얼마나 결정적인지를 극단적으로 강조하는 데 있습니다.","score":8}
+    ],"selected":"ly-04-08-x1"},
+    {"chapter":9,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"물질적 체면보다 도를 앞세우라는 의미는 기존 문답과 중복이 커 별도 확장 쟁점은 보류"},
+    {"chapter":10,"existing_strong_issue":true,"existing_issue_ref":"쟁점후보/iin/06-10.json","expanded_candidates":[],"selected":null}
+  ]
+}
