@@ -1,0 +1,24 @@
+{
+  "book":"학이편","range":"11-15","type":"core_candidates","chapters":[
+    {"chapter":11,"candidates":[
+      {"id":"A","headline":"부모가 떠난 뒤에도 곧바로 모든 것을 뒤집지 않는다","subtitle":"","score":10},
+      {"id":"B","headline":"상중에는 선친의 뜻을 성급히 바꾸지 않는다","subtitle":"","score":9},
+      {"id":"C","headline":"효는 부모가 떠난 뒤의 행동에서도 드러난다","subtitle":"","score":8}],"selected":"A"},
+    {"chapter":12,"candidates":[
+      {"id":"A","headline":"조화도 기준이 없으면 무너진다","subtitle":"","score":10},
+      {"id":"B","headline":"잘 지내는 것만으로는 충분하지 않다","subtitle":"조화에는 지켜야 할 선과 절도가 필요합니다.","score":9},
+      {"id":"C","headline":"화목함과 규범은 서로를 지탱해야 한다","subtitle":"","score":9}],"selected":"A"},
+    {"chapter":13,"candidates":[
+      {"id":"A","headline":"약속도 옳은 약속이어야 지킬 가치가 있다","subtitle":"","score":10},
+      {"id":"B","headline":"신의와 공손함도 옳음의 기준 안에 있어야 한다","subtitle":"","score":9},
+      {"id":"C","headline":"무조건 지키는 것보다 무엇을 지키는지가 먼저다","subtitle":"","score":9}],"selected":"A"},
+    {"chapter":14,"candidates":[
+      {"id":"A","headline":"편안함보다 배움과 자기 교정을 앞세운다","subtitle":"","score":10},
+      {"id":"B","headline":"배우는 사람은 안락함보다 자신을 바로잡는 데 마음을 둔다","subtitle":"","score":9},
+      {"id":"C","headline":"좋아하는 공부는 생활 태도에서 먼저 드러난다","subtitle":"","score":8}],"selected":"A"},
+    {"chapter":15,"candidates":[
+      {"id":"A","headline":"배움은 한 단계에서 멈추지 않고 더 다듬는 일이다","subtitle":"","score":10},
+      {"id":"B","headline":"괜찮은 수준에 머물지 않고 더 나은 쪽으로 나아간다","subtitle":"","score":9},
+      {"id":"C","headline":"들은 뜻을 다른 가르침과 연결할 때 배움이 깊어진다","subtitle":"","score":9}],"selected":"A"}
+  ]
+}
