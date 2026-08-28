@@ -1,0 +1,12 @@
+{
+  "book":"위정편","range":"11-15","type":"expanded_issue_candidates","source_policy":"supplement-only","chapters":[
+    {"chapter":11,"existing_strong_issue":true,"existing_issue_ref":"쟁점후보/weijeong/11-15.json","expanded_candidates":[],"selected":null},
+    {"chapter":12,"existing_strong_issue":false,"expanded_candidates":[
+      {"id":"ly-02-12-x1","type":"적용 한계형","basis":"적용 범위 검토","headline":"‘군자는 그릇이 아니다’는 전문성을 버리라는 뜻일까?","side_a":"그릇은 한 가지 용도에 특화되어 있으니 이 말을 ‘한 분야 전문가가 되지 말라’고 읽기 쉽습니다.","side_b":"본문의 비판 대상은 전문성 자체보다 한 기능에 갇혀 전체 원리와 책임을 보지 못하는 상태입니다. 전문 기술을 갖되 그 기술만이 사람 전체가 되지는 말라는 쪽에 가깝습니다.","score":10},
+      {"id":"ly-02-12-x2","type":"개념 범위형","basis":"본문 내부 구조","headline":"전문가와 군자는 서로 반대되는 사람일까?","side_a":"전문가는 한 기능을 깊게 파는 사람이라 그릇 비유와 닮아 보입니다.","side_b":"군자는 기능을 버리는 사람이 아니라 상황 전체를 보고 판단할 수 있는 사람입니다. 전문성과 넓은 판단은 함께 갈 수 있습니다.","score":9}
+    ],"selected":"ly-02-12-x1"},
+    {"chapter":13,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"말보다 행동이 먼저라는 대비가 분명하지만 기존 문답과 거의 같은 정보가 되어 확장 쟁점은 보류"},
+    {"chapter":14,"existing_strong_issue":true,"existing_issue_ref":"쟁점후보/weijeong/11-15.json","expanded_candidates":[],"selected":null},
+    {"chapter":15,"existing_strong_issue":true,"existing_issue_ref":"쟁점후보/weijeong/11-15.json","expanded_candidates":[],"selected":null}
+  ]
+}
