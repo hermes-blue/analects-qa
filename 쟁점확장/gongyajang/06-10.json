@@ -1,0 +1,12 @@
+{
+  "book":"공야장편","range":"06-10","type":"expanded_issue_candidates","source_policy":"supplement-only","chapters":[
+    {"chapter":6,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"벼슬 기회보다 자기 준비와 확신을 앞세운다는 긴장은 흥미롭지만 현재 문답에서 동일 질문을 충분히 다룸"},
+    {"chapter":7,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"공자님의 바다 발언이 실제 계획인지 탄식인지, 자로의 용기와 성급함의 긴장은 현재 문답이 이미 직접 다룸"},
+    {"chapter":8,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"실무 능력과 도덕적 완성을 구분한다는 핵심이 현재 문답에 이미 선명해 별도 확장 쟁점은 보류"},
+    {"chapter":9,"existing_strong_issue":true,"existing_issue_ref":"쟁점후보/gongyajang/06-10.json","expanded_candidates":[],"selected":null},
+    {"chapter":10,"existing_strong_issue":false,"expanded_candidates":[
+      {"id":"ly-05-10-x1","type":"인물 평가형","basis":"본문 내부 구조","headline":"한 제자의 행동이 공자님의 ‘사람 보는 법’까지 바꿨을까?","side_a":"공자님은 이전에는 사람의 말을 들으면 그 말에 맞게 행동할 것이라고 믿었다고 회고합니다.","side_b":"재여의 말과 행동이 어긋난 일을 겪은 뒤에는 말을 듣고 실제 행동까지 함께 보겠다고 합니다. 한 사람의 사례가 평가 기준 자체를 더 엄격하게 만든 장면입니다.","score":10},
+      {"id":"ly-05-10-x2","type":"오해 교정형","basis":"본문 내부 구조","headline":"재여는 ‘낮잠 한 번’ 때문에 썩은 나무가 된 걸까?","side_a":"사건만 떼면 낮잠을 잔 학생에게 지나치게 심한 꾸지람처럼 보입니다.","side_b":"뒤 문장이 핵심을 밝혀 줍니다. 공자님이 문제 삼은 것은 말과 실제 생활이 어긋나는 사람을 어떻게 판단할 것인가였습니다.","score":9}
+    ],"selected":"ly-05-10-x1"}
+  ]
+}
