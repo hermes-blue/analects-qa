@@ -1,0 +1,15 @@
+{
+  "book":"이인편","range":"11-15","type":"expanded_issue_candidates","source_policy":"supplement-only","chapters":[
+    {"chapter":11,"existing_strong_issue":true,"existing_issue_ref":"쟁점후보/iin/11-15.json","expanded_candidates":[],"selected":null},
+    {"chapter":12,"existing_strong_issue":true,"existing_issue_ref":"쟁점후보/iin/11-15.json","expanded_candidates":[],"selected":null},
+    {"chapter":13,"existing_strong_issue":false,"expanded_candidates":[
+      {"id":"ly-04-13-x1","type":"적용 한계형","basis":"본문 내부 구조","headline":"예와 양보만 있으면 정말 나라가 저절로 다스려질까?","side_a":"‘예와 양보로 나라를 다스리면 무슨 어려움이 있겠는가’만 보면 정책과 제도가 없어도 된다는 말처럼 들립니다.","side_b":"본문의 초점은 기술을 없애는 데 있지 않습니다. 권력을 가진 사람들이 서로의 몫과 역할을 인정하지 않으면 어떤 제도도 형식만 남는다는 정치의 바탕을 말합니다.","score":9},
+      {"id":"ly-04-13-x2","type":"개념 범위형","basis":"본문 내부 구조","headline":"여기서 ‘양보’는 착하게 자기 몫을 포기하라는 뜻일까?","side_a":"일상어의 양보는 내가 가질 것을 상대에게 내주는 행동처럼 들립니다.","side_b":"이 장의 양보는 자기 분수를 지키고 상대의 정당한 역할과 몫을 인정하는 정치적 절제까지 포함합니다. 무조건 물러서는 태도와는 다릅니다.","score":8}
+    ],"selected":"ly-04-13-x1"},
+    {"chapter":14,"existing_strong_issue":false,"expanded_candidates":[
+      {"id":"ly-04-14-x1","type":"문장 안 긴장형","basis":"본문 내부 구조","headline":"자리가 없어서 못 하는 걸까, 그 자리에 설 준비가 안 된 걸까?","side_a":"사람은 원하는 지위가 없으면 기회를 주지 않는 세상을 먼저 탓하기 쉽습니다.","side_b":"공자님은 걱정의 순서를 뒤집습니다. 자리를 얻는 문제보다 그 자리를 감당할 능력과 덕이 있는지, 남이 알아줄 만한 사람이 되어 있는지를 먼저 묻습니다.","score":10},
+      {"id":"ly-04-14-x2","type":"장간 긴장형","basis":"장간 비교","headline":"‘남이 알아주지 않아도 괜찮다’와 ‘알아줄 만한 사람이 되라’는 모순일까?","side_a":"논어는 여러 번 남이 알아주지 않는 것을 걱정하지 말라고 합니다.","side_b":"이 장은 인정 욕구를 버리라고만 하지 않고, 실제로 인정받을 만한 실질을 갖추라고 덧붙입니다. 평판을 좇지 않는 것과 평판 받을 자격을 기르는 것은 다른 문제입니다.","score":9}
+    ],"selected":"ly-04-14-x1"},
+    {"chapter":15,"existing_strong_issue":true,"existing_issue_ref":"쟁점후보/iin/11-15.json","expanded_candidates":[],"selected":null}
+  ]
+}
