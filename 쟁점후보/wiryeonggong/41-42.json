@@ -1,0 +1,11 @@
+{
+  "book":"위령공편",
+  "range":"41-42",
+  "status":"production",
+  "rule_branch":"track/issues",
+  "chapter_mapping":"현재 앱 42장 배열",
+  "chapters":[
+    {"chapter":41,"title":"辭達而已矣","actual_issue_count":0,"candidates":[],"note":"辭의 목적을 뜻 전달로 보는 전통 해석이 안정적임"},
+    {"chapter":42,"title":"師冕見","actual_issue_count":0,"candidates":[],"note":"맹인 악사를 돕는 相의 예로 보는 해석이 주석 간 크게 갈리지 않음"}
+  ]
+}
