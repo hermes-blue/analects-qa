@@ -1,0 +1,18 @@
+{
+  "book":"자한편","range":"16-20","status":"production","rule_branch":"track/issues","chapters":[
+    {"chapter":16,"title":"出則事公卿 入則事父兄","actual_issue_count":0,"candidates":[],"note":"何有於我哉의 겸양 설명 외에 강한 이견 없음"},
+    {"chapter":17,"title":"逝者如斯夫 不舍晝夜","actual_issue_count":1,"candidates":[
+      {"id":"ly-09-17-c1","issue":"逝者","headline":"‘흘러가 버리는 모든 것’ vs ‘쉼 없는 천지의 변화’","sides":[
+        {"scholar":"포함(包咸) — 《논어집해》 인용","text":"逝者를 ‘지나가 버리는 모든 것’으로 봅니다. 강물이 흐르듯 세상의 일도 계속 지나간다는 데 초점이 있습니다."},
+        {"scholar":"주희(朱熹) 《논어집주》","text":"단순한 세월 탄식보다 천지의 변화가 한순간도 멈추지 않는 모습을 본 말로 풉니다. 그래서 배우는 사람도 밤낮 끊임없이 자신을 닦아야 한다는 쪽으로 이어집니다."}
+      ],"score":9,"selected":true},
+      {"id":"ly-09-17-c2","issue":"chapter_focus","headline":"‘지나감에 대한 탄식’ vs ‘멈추지 말라는 공부의 경계’","sides":[
+        {"scholar":"포함(包咸)","text":"강물처럼 모든 것이 흘러간다는 ‘지나감’ 자체를 앞세웁니다."},
+        {"scholar":"주희(朱熹)","text":"강의 흐름을 끊이지 않는 道의 움직임으로 보고, 학자가 잠시도 공부를 끊지 말라는 뜻을 강조합니다."}
+      ],"score":8,"selected":false,"reject_reason":"c1과 같은 쟁점이며 c1이 원문의 대상이 무엇인지 더 직접적으로 보여 줌"}
+    ]},
+    {"chapter":18,"title":"吾未見好德如好色者也","actual_issue_count":0,"candidates":[],"note":"史記의 위나라 사건과 연결하는 설명은 있으나 본문 자체의 대립 독법으로 보기는 어려워 제외"},
+    {"chapter":19,"title":"譬如爲山 未成一簣 止吾止也","actual_issue_count":0,"candidates":[],"note":"비유 방향이 명확해 강한 이견 없음"},
+    {"chapter":20,"title":"語之而不惰者 其回也與","actual_issue_count":0,"candidates":[],"note":"핵심 독법이 안정적임"}
+  ]
+}
