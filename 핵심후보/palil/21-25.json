@@ -1,0 +1,24 @@
+{
+  "book":"팔일편","range":"21-25","type":"core_candidates","chapters":[
+    {"chapter":21,"candidates":[
+      {"id":"A","headline":"돌이킬 수 없는 일을 붙들고 책망하기보다 다음 판단을 바로잡는다","subtitle":"","score":10},
+      {"id":"B","headline":"이미 지나간 잘못보다 앞으로 같은 잘못을 막는 일이 중요하다","subtitle":"","score":9},
+      {"id":"C","headline":"끝난 일을 소용없이 들추는 것과 반성은 다르다","subtitle":"","score":9}],"selected":"A"},
+    {"chapter":22,"candidates":[
+      {"id":"A","headline":"큰 공적이 있어도 생활의 절제와 예법까지 완전한 것은 아니다","subtitle":"관중의 정치적 공과 예법에 대한 평가는 따로 보았습니다.","score":10},
+      {"id":"B","headline":"성공한 정치가라고 모든 덕까지 갖춘 것은 아니다","subtitle":"","score":9},
+      {"id":"C","headline":"형식을 많이 갖춘다고 예를 아는 것은 아니다","subtitle":"","score":9}],"selected":"A"},
+    {"chapter":23,"candidates":[
+      {"id":"A","headline":"좋은 음악은 서로 다른 소리가 분명하면서도 하나로 어우러진다","subtitle":"","score":10},
+      {"id":"B","headline":"조화는 차이를 없애는 것이 아니라 질서 있게 함께 놓는 일이다","subtitle":"","score":9},
+      {"id":"C","headline":"좋은 음악은 모이고 어울리고 또렷해지며 끝까지 이어진다","subtitle":"","score":9}],"selected":"A"},
+    {"chapter":24,"candidates":[
+      {"id":"A","headline":"공자님의 떠돎을 실패가 아니라 세상을 깨울 역할로 본 사람이 있었다","subtitle":"","score":10},
+      {"id":"B","headline":"어지러운 세상일수록 공자님의 가르침이 더 필요하다고 보았다","subtitle":"","score":9},
+      {"id":"C","headline":"의봉인은 공자님을 세상에 울리는 큰 방울에 비유했다","subtitle":"","score":9}],"selected":"A"},
+    {"chapter":25,"candidates":[
+      {"id":"A","headline":"아름다운 작품과 옳은 배경은 같은 기준이 아니다","subtitle":"","score":10},
+      {"id":"B","headline":"예술적으로 훌륭해도 그 과정까지 완전하다고 볼 수는 없다","subtitle":"","score":9},
+      {"id":"C","headline":"공자님은 음악의 아름다움과 도덕적 완성도를 따로 보았다","subtitle":"","score":9}],"selected":"A"}
+  ]
+}
