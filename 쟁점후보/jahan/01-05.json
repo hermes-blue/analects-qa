@@ -1,0 +1,18 @@
+{
+  "book":"자한편","range":"1-5","status":"production","rule_branch":"track/issues","chapters":[
+    {"chapter":1,"title":"子罕言利與命與仁","actual_issue_count":0,"candidates":[],"note":"利·命·仁을 모두 罕言에 거는 전통 독법은 안정적이며, 仁이 실제로 자주 보인다는 문제는 설명 차이이지 확실한 VS로 만들지 않음"},
+    {"chapter":2,"title":"達巷黨人曰大哉孔子 博學而無所成名","actual_issue_count":1,"candidates":[
+      {"id":"ly-09-02-c1","issue":"達巷黨人의 정체","headline":"‘달항 마을의 어떤 사람’ vs ‘일곱 살 항탁’","sides":[
+        {"scholar":"정현(鄭玄)","text":"達巷을 마을 이름으로 보고, 그 마을 사람이 공자님을 평한 것으로 풉니다. 말한 사람의 개인 이름은 중요하지 않은 장면입니다."},
+        {"scholar":"맹강(孟康) — 《한서》 주석","text":"그 사람을 항탁(項橐)이라고 특정합니다. 후대 전승에서는 어린 항탁이 공자님과 문답한 인물로까지 이어져, 익명의 마을 사람이 유명한 소년으로 바뀝니다."}
+      ],"score":10,"selected":true},
+      {"id":"ly-09-02-c2","issue":"speaker_identity","headline":"‘익명의 칭찬’ vs ‘항탁이라는 전설적 소년의 말’","sides":[
+        {"scholar":"정현(鄭玄)","text":"黨人을 그저 그 지역 사람으로 읽습니다."},
+        {"scholar":"맹강(孟康)","text":"古論 계통을 따라 항탁이라는 인물로 읽습니다. 이후 ‘항탁이 공자님의 스승이 되었다’는 설화와 연결됩니다."}
+      ],"score":9,"selected":false,"reject_reason":"c1과 같은 쟁점이며 c1이 인물 변화가 더 직접적임"}
+    ]},
+    {"chapter":3,"title":"麻冕禮也 今也純儉 吾從衆","actual_issue_count":0,"candidates":[],"note":"麻冕·純·拜下의 제도 설명은 있으나 강한 상반 독법은 없음"},
+    {"chapter":4,"title":"子絕四 毋意毋必毋固毋我","actual_issue_count":0,"candidates":[],"note":"네 항목의 연결 방식에는 설명 차이가 있으나 초보자용 쟁점으로 만들 만큼 큰 차이는 아님"},
+    {"chapter":5,"title":"子畏於匡 文王既沒文不在茲乎","actual_issue_count":0,"candidates":[],"note":"匡 사건의 세부 전승 차이는 있으나 본문 의미를 바꾸는 확실한 주석 대립은 선별하지 않음"}
+  ]
+}
