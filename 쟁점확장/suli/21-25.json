@@ -1,0 +1,9 @@
+{
+  "book":"술이편","range":"21-25","type":"expanded_issue_candidates","source_policy":"supplement-only","chapters":[
+    {"chapter":21,"existing_strong_issue":true,"existing_issue_ref":"쟁점후보/suli/21-25.json","expanded_candidates":[],"selected":null},
+    {"chapter":22,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"좋은 사람에게서는 본받고 좋지 않은 사람에게서는 자신을 고친다는 양방향 배움은 현재 문답이 이미 충분히 다룸"},
+    {"chapter":23,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"하늘이 준 사명에 대한 확신과 현실적 위험이 무관하다는 구분은 현재 문답이 이미 직접 설명함"},
+    {"chapter":24,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"비밀 교설이 아니라 일상의 행동 전체가 공개된 가르침이라는 문제는 현재 문답이 이미 직접 다룸"},
+    {"chapter":25,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"문헌·행동·성실·신뢰를 함께 가르쳤다는 네 교육축은 현재 문답과 중복이 큼"}
+  ]
+}
