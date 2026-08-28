@@ -1,0 +1,12 @@
+{
+  "book":"위정편","range":"01-05","type":"expanded_issue_candidates","source_policy":"supplement-only","chapters":[
+    {"chapter":1,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"덕치와 북극성 비유는 중요하지만 기존 문답이 법·제도 부정이 아니라는 오해까지 충분히 다루어 별도 확장 쟁점은 만들지 않음"},
+    {"chapter":2,"existing_strong_issue":false,"expanded_candidates":[
+      {"id":"ly-02-02-x1","type":"개념 범위형","basis":"본문 내부 구조","headline":"사랑·풍자·정치가 뒤섞인 시 삼백 편을 정말 한마디로 묶을 수 있을까?","side_a":"시경의 내용은 사랑, 전쟁, 정치 비판, 제사처럼 매우 다양합니다. 그래서 ‘생각에 사특함이 없다’는 말이 모든 작품의 줄거리를 하나로 만든다는 뜻은 아닙니다.","side_b":"공자님은 내용이 아니라 시가 마음을 드러내는 바탕의 진실성을 하나의 기준으로 묶습니다. 다양성을 지우기보다 서로 다른 시를 읽는 공통 렌즈를 제시한 것으로 볼 수 있습니다.","score":9},
+      {"id":"ly-02-02-x2","type":"오해 교정형","basis":"현대적 오해 교정","headline":"‘나쁜 생각을 하지 말라’는 도덕 훈계일까?","side_a":"글자만 보면 머릿속의 불순한 생각을 없애라는 명령처럼 읽히기 쉽습니다.","side_b":"이 장은 시경 전체를 평하는 말입니다. 다양한 감정 표현 속에서도 거짓되거나 비뚤어진 마음에 빠지지 않는다는 작품의 성격을 압축한 말로 보는 편이 자연스럽습니다.","score":8}
+    ],"selected":"ly-02-02-x1"},
+    {"chapter":3,"existing_strong_issue":true,"existing_issue_ref":"쟁점후보/weijeong/01-05.json","expanded_candidates":[],"selected":null},
+    {"chapter":4,"existing_strong_issue":true,"existing_issue_ref":"쟁점후보/weijeong/01-05.json","expanded_candidates":[],"selected":null},
+    {"chapter":5,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"‘무위’가 부모 말에 무조건 복종한다는 뜻이 아니라 예를 어기지 말라는 뜻이라는 핵심은 기존 문답에 이미 충분히 드러남"}
+  ]
+}
