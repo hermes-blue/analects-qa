@@ -1,0 +1,45 @@
+{
+  "book":"안연편",
+  "range":"21-24",
+  "type":"expanded_issue_candidates",
+  "source_policy":"supplement-only",
+  "chapters":[
+    {
+      "chapter":21,
+      "existing_strong_issue":false,
+      "expanded_candidates":[],
+      "selected":null,
+      "note":"자기 잘못부터 고치고 분노에 판단을 빼앗기지 말라는 구조는 문답 카드와 충분히 겹쳐 보류"
+    },
+    {
+      "chapter":22,
+      "existing_strong_issue":false,
+      "expanded_candidates":[
+        {
+          "id":"ly-12-22-x1",
+          "type":"문장 안 긴장형",
+          "basis":"본문 내부 구조",
+          "headline":"사람을 사랑하면서도 사람을 가려 써야 할까?",
+          "question":"공자님은 인을 ‘사람을 사랑하는 것’이라고 하면서, 지혜를 설명할 때는 곧은 사람을 골라 등용하라고 합니다. 모두를 사랑하는 태도와 사람을 분별해 맡기는 판단은 충돌하지 않을까요?",
+          "answer_frame":"이 장에서는 사랑과 분별을 같은 것으로 만들지 않습니다. 사람에 대한 기본적인 관심은 넓게 두되, 공적인 책임과 자리는 실제 덕과 능력을 알아보고 맡겨야 한다는 두 기준이 함께 놓입니다. 인과 지가 서로 보완되는 장면으로 읽을 수 있습니다.",
+          "score":9
+        }
+      ],
+      "selected":"ly-12-22-x1"
+    },
+    {
+      "chapter":23,
+      "existing_strong_issue":false,
+      "expanded_candidates":[],
+      "selected":null,
+      "note":"친구에게 충고하되 받아들이지 않으면 멈춘다는 관계의 경계가 매우 흥미롭지만 현재 문답 카드 3개가 바로 이 질문을 충분히 다루고 있어 중복하지 않음"
+    },
+    {
+      "chapter":24,
+      "existing_strong_issue":false,
+      "expanded_candidates":[],
+      "selected":null,
+      "note":"학문으로 친구를 만나고 친구로 인을 돕는다는 의미는 안정적이며 별도 쟁점보다 핵심·문답 카드에 적합함"
+    }
+  ]
+}
