@@ -1,0 +1,8 @@
+{
+  "book":"팔일편","range":"26","type":"expanded_issue_candidates","source_policy":"supplement-only","chapters":[
+    {"chapter":26,"existing_strong_issue":false,"expanded_candidates":[
+      {"id":"ly-03-26-x1","type":"문장 안 긴장형","basis":"본문 내부 구조","headline":"같은 행동도 ‘마음’이 빠지면 완전히 다른 행동이 될까?","side_a":"높은 자리에 앉기, 예식을 수행하기, 장례에 참석하기는 겉으로 보면 모두 필요한 형식을 갖춘 행동입니다.","side_b":"공자님은 각각에 너그러움·공경·슬픔이 없으면 그 외형을 볼 가치가 없다고 말합니다. 역할마다 반드시 따라야 할 내면이 따로 있다는 구조입니다.","score":9},
+      {"id":"ly-03-26-x2","type":"개념 범위형","basis":"본문 내부 구조","headline":"예는 행동일까, 그 행동을 움직이는 마음까지 포함할까?","side_a":"예를 절차와 몸가짐으로만 보면 형식이 맞는지가 핵심입니다.","side_b":"이 장은 같은 형식이라도 공경과 슬픔이 빠지면 실패라고 봅니다. 예의 평가 범위를 겉모습에서 마음까지 넓힙니다.","score":8}
+    ],"selected":"ly-03-26-x1"}
+  ]
+}
