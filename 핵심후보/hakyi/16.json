@@ -1,0 +1,8 @@
+{
+  "book":"학이편","range":"16","type":"core_candidates","chapters":[
+    {"chapter":16,"candidates":[
+      {"id":"A","headline":"남이 나를 몰라주는 것보다 내가 사람을 잘못 보는 것을 걱정한다","subtitle":"","score":10},
+      {"id":"B","headline":"인정받는 일보다 사람을 제대로 알아보는 일이 먼저다","subtitle":"","score":9},
+      {"id":"C","headline":"남의 평가보다 내 판단을 더 엄격하게 돌아본다","subtitle":"","score":9}],"selected":"A"}
+  ]
+}
