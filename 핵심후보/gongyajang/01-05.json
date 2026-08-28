@@ -1,0 +1,24 @@
+{
+  "book":"공야장편","range":"1-5","type":"core_candidates","chapters":[
+    {"chapter":1,"candidates":[
+      {"id":"A","headline":"처벌받은 기록만으로 사람의 죄와 인품을 단정하지 않는다","subtitle":"","score":10},
+      {"id":"B","headline":"감옥에 있었다는 사실보다 실제 잘못이 있었는지를 본다","subtitle":"","score":9},
+      {"id":"C","headline":"사회적 낙인보다 사람의 실제 책임을 먼저 따진다","subtitle":"","score":9}],"selected":"A"},
+    {"chapter":2,"candidates":[
+      {"id":"A","headline":"좋은 때에는 쓰이고 나쁜 때에는 화를 피할 줄 아는 사람을 높이 봤다","subtitle":"","score":10},
+      {"id":"B","headline":"능력만큼 중요한 것은 어지러운 시대에도 자신을 지키는 신중함이다","subtitle":"","score":9},
+      {"id":"C","headline":"상황이 바뀌어도 무너지지 않는 처신이 신뢰를 만든다","subtitle":"","score":9}],"selected":"A"},
+    {"chapter":3,"candidates":[
+      {"id":"A","headline":"훌륭한 사람 뒤에는 그를 길러낸 좋은 사람과 환경이 있다","subtitle":"","score":10},
+      {"id":"B","headline":"한 사람의 덕도 혼자서 만들어지는 것은 아니다","subtitle":"","score":9},
+      {"id":"C","headline":"좋은 공동체는 좋은 사람을 길러낸 흔적을 남긴다","subtitle":"","score":9}],"selected":"A"},
+    {"chapter":4,"candidates":[
+      {"id":"A","headline":"뛰어난 재능이 있어도 사람 전체가 완성된 것은 아니다","subtitle":"자공은 귀한 인재로 인정받았지만 특정한 쓰임을 가진 사람으로 평가됐습니다.","score":10},
+      {"id":"B","headline":"아주 값진 재능과 넓은 인격은 같은 말이 아니다","subtitle":"","score":9},
+      {"id":"C","headline":"자공은 귀한 인재였지만 한 가지 쓰임을 넘어서는 과제가 남아 있었다","subtitle":"","score":9}],"selected":"A"},
+    {"chapter":5,"candidates":[
+      {"id":"A","headline":"말을 잘하는 것은 어진 사람의 필수 조건이 아니다","subtitle":"","score":10},
+      {"id":"B","headline":"대화에서 이기는 재주보다 사람을 대하는 마음이 먼저다","subtitle":"","score":9},
+      {"id":"C","headline":"빠른 말솜씨가 덕을 대신해 주지는 못한다","subtitle":"","score":9}],"selected":"A"}
+  ]
+}
