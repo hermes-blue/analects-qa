@@ -1,0 +1,7 @@
+{
+  "book":"공야장편","range":"26-28","type":"expanded_issue_candidates","source_policy":"supplement-only","chapters":[
+    {"chapter":26,"existing_strong_issue":true,"existing_issue_ref":"쟁점후보/gongyajang/26-28.json","expanded_candidates":[],"selected":null},
+    {"chapter":27,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"자기 잘못을 엄정하게 돌아보는 것과 감정적 자책을 구분하는 문제는 현재 문답이 이미 직접 다룸"},
+    {"chapter":28,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"공자님의 차별점이 타고난 충신보다 호학에 있다는 흥미로운 자기평가는 현재 문답이 충분히 설명함"}
+  ]
+}
