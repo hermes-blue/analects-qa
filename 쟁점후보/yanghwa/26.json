@@ -1,0 +1,10 @@
+{
+  "book":"양화편",
+  "range":"26",
+  "status":"production",
+  "rule_branch":"track/issues",
+  "chapter_mapping":"논어집주 26장 배열",
+  "chapters":[
+    {"chapter":26,"title":"年四十而見惡焉 其終也已","actual_issue_count":0,"candidates":[],"note":"四十·見惡의 풀이에 세부 차이는 있으나 장면을 바꾸는 강한 이설은 확인하지 못함"}
+  ]
+}
