@@ -1,0 +1,43 @@
+{
+  "book":"자로편",
+  "range":"21-25",
+  "type":"expanded_issue_candidates",
+  "source_policy":"supplement-only",
+  "chapters":[
+    {
+      "chapter":21,
+      "existing_strong_issue":false,
+      "expanded_candidates":[
+        {
+          "id":"ly-13-21-x1",
+          "type":"장간 긴장형",
+          "basis":"장간 비교",
+          "headline":"‘지나침도 모자람과 같다’면서 왜 공자님은 치우친 사람을 택했을까?",
+          "question":"선진편에서는 지나침과 모자람이 모두 문제라고 했습니다. 그런데 여기서는 중도를 걷는 사람을 얻지 못하면 뜻이 지나치게 큰 ‘광’과 스스로를 엄격히 제한하는 ‘견’을 택하겠다고 합니다. 모순일까요?",
+          "answer_frame":"광과 견을 완성된 이상으로 본 것이 아니라, 가르쳐 다듬을 수 있는 분명한 장점을 가진 사람으로 본 것입니다. 가운데가 없을 때 무색무취한 사람보다 ‘앞으로 나아가는 힘’이나 ‘하지 않을 선’을 가진 사람을 교육의 재료로 택한 셈입니다. 이상과 교육 가능한 출발점을 구분한 대목입니다.",
+          "score":10
+        }
+      ],
+      "selected":"ly-13-21-x1"
+    },
+    {"chapter":22,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"꾸준함이 기술과 덕 모두의 조건이라는 뜻은 문답 카드에서 충분히 설명됨"},
+    {"chapter":23,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"화이부동의 기본 의미는 유명하지만 현재 문답이 차이와 조화의 관계를 직접 다루고 있어 질문을 억지로 늘리지 않음"},
+    {
+      "chapter":24,
+      "existing_strong_issue":false,
+      "expanded_candidates":[
+        {
+          "id":"ly-13-24-x1",
+          "type":"적용 한계형",
+          "basis":"적용 범위 검토",
+          "headline":"누군가에게 미움받는다는 사실이 오히려 ‘좋은 사람’의 증거일까?",
+          "question":"공자님은 모두의 호감보다 좋은 사람이 좋아하고 나쁜 사람이 미워하는 평가를 낫다고 합니다. 그렇다면 ‘나를 싫어하는 사람이 있으니 내가 원칙적인 사람’이라고 역으로 판단해도 될까요?",
+          "answer_frame":"그렇게 뒤집어 읽을 수는 없습니다. 이 장의 핵심은 인기의 총량이 아니라 ‘누가 어떤 이유로 평가하는가’를 보라는 데 있습니다. 미움을 받는 사실 자체가 덕의 증거가 아니라, 평가자의 성품과 평가 이유까지 살펴야 한다는 말입니다.",
+          "score":9
+        }
+      ],
+      "selected":"ly-13-24-x1"
+    },
+    {"chapter":25,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"함께 일하기 쉬움과 비위를 맞추기 어려움의 대비, 적재적소의 인사는 문답에서 이미 충분히 설명되어 확장하지 않음"}
+  ]
+}
