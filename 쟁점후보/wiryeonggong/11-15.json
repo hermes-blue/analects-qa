@@ -1,0 +1,14 @@
+{
+  "book": "위령공편",
+  "range": "11-15",
+  "status": "production",
+  "rule_branch": "track/issues",
+  "chapter_mapping": "현재 앱 42장 배열",
+  "chapters": [
+    {"chapter":11,"title":"顏淵問爲邦","actual_issue_count":0,"candidates":[],"note":"夏時·殷輅·周冕·韶舞의 취지는 분명하며 명명된 주석가 사이의 강한 대립은 확인하지 못함"},
+    {"chapter":12,"title":"人無遠慮 必有近憂","actual_issue_count":0,"candidates":[]},
+    {"chapter":13,"title":"吾未見好德如好色者也","actual_issue_count":0,"candidates":[],"note":"자한편의 동일 구절에서 다룰 수 있는 쟁점과 중복되므로 새 카드 생성하지 않음"},
+    {"chapter":14,"title":"臧文仲其竊位者與","actual_issue_count":0,"candidates":[],"note":"柳下惠를 알고도 추천하지 않았다는 기본 독법 외에 초보자용 VS로 올릴 만한 확실한 이설이 약함"},
+    {"chapter":15,"title":"躬自厚而薄責於人","actual_issue_count":0,"candidates":[]}
+  ]
+}
