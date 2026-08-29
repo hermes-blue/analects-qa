@@ -1,0 +1,55 @@
+{
+  "book":"위령공편",
+  "range":"16-20",
+  "type":"expanded_issue_candidates",
+  "source_policy":"supplement-only",
+  "chapter_mapping":"논어집주 42장 배열",
+  "chapters":[
+    {
+      "chapter":16,
+      "existing_strong_issue":false,
+      "expanded_candidates":[],
+      "selected":null,
+      "note":"학습자가 먼저 문제를 고민해야 한다는 핵심은 문답 카드와 중복도가 높아 비움"
+    },
+    {
+      "chapter":17,
+      "existing_strong_issue":false,
+      "expanded_candidates":[],
+      "selected":null,
+      "note":"잡담 자체를 금지한 것이 아니라는 적용 한계가 문답 카드에서 이미 직접 처리됨"
+    },
+    {
+      "chapter":18,
+      "existing_strong_issue":false,
+      "expanded_candidates":[],
+      "selected":null,
+      "note":"의·예·겸손·신의 연결 구조는 흥미롭지만 별도의 대립이나 긴장보다는 해설 성격이 강해 비움"
+    },
+    {
+      "chapter":19,
+      "existing_strong_issue":false,
+      "expanded_candidates":[],
+      "selected":null,
+      "note":"바로 다음 20장과의 장간 긴장을 20장 카드 하나로 통합해 중복을 피함"
+    },
+    {
+      "chapter":20,
+      "existing_strong_issue":true,
+      "existing_issue_ref":"쟁점후보/wiryeonggong/16-20.json",
+      "expanded_candidates":[
+        {
+          "id":"ly-15-20-x1",
+          "type":"장간 긴장형",
+          "basis":"장간 비교",
+          "headline":"남이 알아주지 않는 걸 걱정하지 말라면서, 왜 바로 다음 장에서는 이름이 남지 않을까 걱정할까?",
+          "side_a":"19장은 군자가 걱정할 것은 남이 자신을 알아주지 않는 일이 아니라 자기에게 능력이 없는 것이라고 말합니다. 외부의 평판을 좇지 말라는 뜻처럼 읽힙니다.",
+          "side_b":"그런데 20장은 죽을 때까지 이름이 일컬어지지 않는 것을 걱정한다고 합니다. 여기서 ‘이름’은 당장의 인기보다 평생 이름 붙일 만한 실질과 성취가 있었는지를 묻는 말로 읽으면 두 장이 연결됩니다.",
+          "score":10,
+          "nonduplicate_reason":"기존 강한 쟁점은 20장의 ‘名不稱’ 자체를 후세의 명성으로 볼지 삶의 실질로 볼지에 관한 학설 대립이다. 이 확장 카드는 19장과 20장을 나란히 놓았을 때 생기는 표면적 모순과 그 해소를 다루므로 축이 다르다."
+        }
+      ],
+      "selected":"ly-15-20-x1"
+    }
+  ]
+}
