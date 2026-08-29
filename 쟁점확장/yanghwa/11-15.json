@@ -1,0 +1,29 @@
+{
+  "book":"양화편",
+  "range":"11-15",
+  "type":"expanded_issue_candidates",
+  "source_policy":"supplement-only",
+  "chapter_mapping":"논어집주 26장 배열",
+  "chapters":[
+    {
+      "chapter":11,
+      "existing_strong_issue":false,
+      "expanded_candidates":[
+        {
+          "id":"ly-17-11-x1",
+          "type":"문장 안 긴장형",
+          "basis":"장간 비교",
+          "headline":"예의 형식을 그렇게 중시한 공자님이 왜 여기서는 ‘옥과 비단이 예의 전부냐’고 했을까?",
+          "side_a":"향당편을 비롯한 여러 장에서 공자님은 옷·자리·절·제사 절차까지 아주 세밀하게 지킵니다. 예의 형식은 실제로 중요했습니다.",
+          "side_b":"그런데 이 장은 옥과 비단만 갖췄다고 예가 되고 종과 북만 울린다고 음악이 되는 것은 아니라고 못 박습니다. 형식을 버리라는 뜻이 아니라, 형식이 공경과 질서를 표현하지 못하면 껍데기만 남는다는 긴장입니다.",
+          "score":10
+        }
+      ],
+      "selected":"ly-17-11-x1"
+    },
+    {"chapter":12,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"겉의 위엄과 내면의 약함이 어긋나는 비판은 문답 카드와 직접 중복됨"},
+    {"chapter":13,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"향원의 위험성과 모두에게 잘 보이는 사람의 문제는 문답 카드 및 자로편의 평판 장과 겹쳐 추가하지 않음"},
+    {"chapter":14,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"듣자마자 소화하지 않고 퍼뜨리는 태도의 문제는 문답 카드에서 이미 충분히 다뤄짐"},
+    {"chapter":15,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"지위 집착이 판단을 무너뜨리는 심리 구조가 명확하고 별도 해석 긴장축은 약함"}
+  ]
+}
