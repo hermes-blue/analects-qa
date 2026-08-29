@@ -1,0 +1,62 @@
+{
+  "book":"위령공편",
+  "range":"1-5",
+  "type":"expanded_issue_candidates",
+  "source_policy":"supplement-only",
+  "chapter_mapping":"논어집주 42장 배열",
+  "chapters":[
+    {
+      "chapter":1,
+      "existing_strong_issue":false,
+      "expanded_candidates":[
+        {
+          "id":"ly-15-01-x1",
+          "type":"현실 선택형",
+          "basis":"본문 내부 구조",
+          "headline":"전쟁을 묻는 군주에게 예를 말한 건 현실 회피일까, 정치의 우선순위를 세운 걸까?",
+          "side_a":"위령공은 당장 군대를 움직이는 기술을 묻습니다. 국가가 위기에 처했다면 군사 지식도 현실 정치의 일부라고 볼 수 있습니다.",
+          "side_b":"공자님은 군진보다 제사와 예를 자신의 배움이라고 답하고 다음 날 떠납니다. 통치의 근본이 무력 기술보다 정치의 정당성과 질서에 있다고 선을 그은 장면으로 읽을 수 있습니다.",
+          "score":9
+        }
+      ],
+      "selected":"ly-15-01-x1"
+    },
+    {
+      "chapter":2,
+      "existing_strong_issue":true,
+      "existing_issue_ref":"쟁점후보/wiryeonggong/01-05.json",
+      "expanded_candidates":[],
+      "selected":null
+    },
+    {
+      "chapter":3,
+      "existing_strong_issue":false,
+      "expanded_candidates":[
+        {
+          "id":"ly-15-03-x1",
+          "type":"장간 긴장형",
+          "basis":"장간 비교",
+          "headline":"같은 ‘하나로 꿰뚫는다’인데, 이 장과 이인편의 뜻은 똑같을까?",
+          "question":"이인편에서는 증자가 공자님의 도를 충과 서로 풀었지만, 여기서는 자공에게 많은 지식을 외운 사람이 아니라 하나로 꿰는 사람이라고 말합니다. 두 장의 ‘하나’는 같은 내용을 반복한 것일까요?",
+          "answer_frame":"전통 주석은 두 장을 서로 보완해 읽으면서도 초점을 달리 잡기도 합니다. 이 장은 흩어진 지식을 하나의 원리로 이해하는 쪽이 두드러지고, 이인편은 그 원리가 실제 관계와 행동에서 어떻게 나타나는지를 더 선명하게 보여 줍니다.",
+          "score":9
+        }
+      ],
+      "selected":"ly-15-03-x1"
+    },
+    {
+      "chapter":4,
+      "existing_strong_issue":false,
+      "expanded_candidates":[],
+      "selected":null,
+      "note":"짧은 탄식 자체는 흥미롭지만 문답 카드와 겹치지 않으면서 별도의 긴장을 만들 근거가 약해 비움"
+    },
+    {
+      "chapter":5,
+      "existing_strong_issue":false,
+      "expanded_candidates":[],
+      "selected":null,
+      "note":"무위를 방치로 오해하지 말아야 한다는 쟁점은 중요하지만 현재 문답 카드에서 이미 직접 다루므로 중복을 피함"
+    }
+  ]
+}
