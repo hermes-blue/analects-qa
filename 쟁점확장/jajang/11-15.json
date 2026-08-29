@@ -1,0 +1,29 @@
+{
+  "book":"자장편",
+  "range":"11-15",
+  "type":"expanded_issue_candidates",
+  "source_policy":"supplement-only",
+  "chapter_mapping":"논어집주 25장 배열",
+  "chapters":[
+    {"chapter":11,"existing_strong_issue":true,"existing_issue_ref":"쟁점후보/jajang/11-15.json","expanded_candidates":[],"selected":null},
+    {
+      "chapter":12,
+      "existing_strong_issue":false,
+      "expanded_candidates":[
+        {
+          "id":"ly-19-12-x1",
+          "type":"본문 속 논쟁형",
+          "basis":"본문 직접 대립",
+          "headline":"기초부터 차근차근 배울까, 기초에 머물다 본질을 놓칠까?",
+          "side_a":"자하는 배움에는 순서가 있으므로 처음 배우는 사람에게 청소·응대·몸가짐 같은 가까운 일부터 가르쳐야 한다고 봅니다. 기초를 건너뛰고 바로 깊은 공부로 갈 수는 없다는 입장입니다.",
+          "side_b":"자유는 자하의 제자들이 그런 말단의 실천만 익히고 더 깊은 근본으로 들어가지 못한 듯하다고 비판합니다. 기초 교육이 본질로 이어지지 않으면 형식 훈련에 머물 수 있다는 경계입니다.",
+          "score":10
+        }
+      ],
+      "selected":"ly-19-12-x1"
+    },
+    {"chapter":13,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"공부와 공직 실무가 서로 보완된다는 구조가 명확하고 문답 카드와 중복도가 높아 비움"},
+    {"chapter":14,"existing_strong_issue":true,"existing_issue_ref":"쟁점후보/jajang/11-15.json","expanded_candidates":[],"selected":null},
+    {"chapter":15,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"어려운 일을 해내는 능력과 仁의 완성을 구분하는 긴장은 흥미롭지만 현재 문답 카드가 바로 그 질문을 직접 다루고 있어 별도 확장 카드로 중복하지 않음"}
+  ]
+}
