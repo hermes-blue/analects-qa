@@ -1,0 +1,44 @@
+{
+  "book":"양화편",
+  "range":"16-20",
+  "type":"expanded_issue_candidates",
+  "source_policy":"supplement-only",
+  "chapter_mapping":"논어집주 26장 배열",
+  "chapters":[
+    {"chapter":16,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"옛 결함과 후대의 위선을 비교하는 핵심이 문답 카드에서 충분히 설명되어 별도 확장 쟁점 없음"},
+    {"chapter":17,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"학이편 동일 구절과 중복되어 추가하지 않음"},
+    {"chapter":18,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"유행 자체가 아니라 바른 기준을 밀어내는 현상을 비판한다는 적용 한계가 문답 카드와 중복됨"},
+    {
+      "chapter":19,
+      "existing_strong_issue":false,
+      "expanded_candidates":[
+        {
+          "id":"ly-17-19-x1",
+          "type":"본문 속 논쟁형",
+          "basis":"본문 직접 대립",
+          "headline":"가르침은 말로 전해야 할까, 말하지 않아도 삶으로 전해질까?",
+          "side_a":"자공은 공자님이 말하지 않으면 제자들이 무엇을 배워 후대에 전하겠느냐고 걱정합니다. 전승에는 분명한 말과 설명이 필요하다는 입장입니다.",
+          "side_b":"공자님은 하늘이 아무 말도 하지 않아도 사계절이 운행하고 만물이 자란다고 답합니다. 가장 근본적인 가르침은 설명보다 실제 작용과 삶 자체에서 드러날 수 있다는 쪽입니다.",
+          "score":10
+        }
+      ],
+      "selected":"ly-17-19-x1"
+    },
+    {
+      "chapter":20,
+      "existing_strong_issue":false,
+      "expanded_candidates":[
+        {
+          "id":"ly-17-20-x1",
+          "type":"문장 안 긴장형",
+          "basis":"본문 내부 구조",
+          "headline":"병이라며 만나지 않더니, 왜 심부름꾼이 나가자 일부러 노래했을까?",
+          "question":"공자님은 유비가 만나려 하자 병이 있다고 전하게 합니다. 그런데 심부름꾼이 문을 나서자 일부러 거문고를 타고 노래해 자신이 멀쩡하다는 사실을 들려줍니다.",
+          "answer_frame":"본문은 왜 유비를 만나지 않았는지 설명하지 않습니다. 다만 단순히 핑계를 숨기려 했다면 노래할 이유가 없으므로, ‘만날 수 없어서’가 아니라 ‘지금은 만나지 않겠다’는 뜻을 일부러 알린 행동으로 보입니다. 정확한 교육적 이유까지는 단정하지 않고 이 이상한 행동 자체를 쟁점으로 남기는 것이 안전합니다.",
+          "score":9
+        }
+      ],
+      "selected":"ly-17-20-x1"
+    }
+  ]
+}
