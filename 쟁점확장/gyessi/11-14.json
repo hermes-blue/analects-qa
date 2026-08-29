@@ -1,0 +1,30 @@
+{
+  "book":"계씨편",
+  "range":"11-14",
+  "type":"expanded_issue_candidates",
+  "source_policy":"supplement-only",
+  "chapter_mapping":"논어집주 14장 배열",
+  "chapters":[
+    {"chapter":11,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"선을 좇고 악을 피하며 출처의 이상을 말하는 흐름은 문답 카드와 겹치며 별도의 구체적 쟁점은 약함"},
+    {"chapter":12,"existing_strong_issue":true,"existing_issue_ref":"쟁점후보/gyessi/11-14.json","expanded_candidates":[],"selected":null},
+    {"chapter":13,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"아들에게 비밀 가르침을 주었는지에 대한 본문의 의심과 해소가 문답 카드에서 이미 직접 다뤄져 중복 제외"},
+    {
+      "chapter":14,
+      "existing_strong_issue":true,
+      "existing_issue_ref":"쟁점후보/gyessi/11-14.json",
+      "expanded_candidates":[
+        {
+          "id":"ly-16-14-x1",
+          "type":"역사·인물 평가형",
+          "basis":"전통 주석",
+          "headline":"계씨편 마지막의 이 호칭 규정, 정말 공자님의 말일까?",
+          "question":"앞 장들에서는 정치·수양·교육을 말하다가 마지막에 갑자기 제후의 아내를 어떻게 부르는지가 길게 나옵니다. 이 기록은 공자님의 직접 가르침일까요, 당시 예법을 적어 둔 별도 자료일까요?",
+          "answer_frame":"전통 주석에서도 이 장의 성격을 확정하기 어렵다는 문제의식이 남아 있습니다. 내용 자체는 고대 호칭 관례를 보여 주지만, 왜 논어에 들어왔는지와 공자님의 직접 발언인지까지는 단정하기 어렵습니다. 이 장은 논어가 한 번에 쓰인 단일 저술이 아니라 여러 전승을 모은 책이라는 점을 생각하게 합니다.",
+          "score":9,
+          "nonduplicate_reason":"기존 강한 쟁점은 ‘寡小君’이라는 호칭을 누가 말하는지에 관한 의례 해석이다. 이 확장 카드는 장 전체의 출처와 편집 성격을 묻기 때문에 쟁점 축이 다르다."
+        }
+      ],
+      "selected":"ly-16-14-x1"
+    }
+  ]
+}
