@@ -1,0 +1,44 @@
+{
+  "book":"계씨편",
+  "range":"6-10",
+  "type":"expanded_issue_candidates",
+  "source_policy":"supplement-only",
+  "chapter_mapping":"논어집주 14장 배열",
+  "chapters":[
+    {"chapter":6,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"말할 때·침묵할 때·상대를 살필 때의 구분이 문답 카드에서 이미 충분히 설명됨"},
+    {"chapter":7,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"생애 단계마다 경계할 욕망이 다르다는 분류는 별도의 본문 긴장보다 해설 성격이 강해 비움"},
+    {
+      "chapter":8,
+      "existing_strong_issue":false,
+      "expanded_candidates":[
+        {
+          "id":"ly-16-08-x1",
+          "type":"장간 긴장형",
+          "basis":"장간 비교",
+          "headline":"군자는 세 가지를 두려워해야 한다는데, ‘용자는 두려워하지 않는다’는 말과 모순 아닐까?",
+          "side_a":"계씨편은 군자가 하늘의 명, 큰 덕을 지닌 사람, 성인의 말을 두려워한다고 합니다. 무엇을 두려워해야 하는지 아는 태도가 덕의 일부입니다.",
+          "side_b":"다른 장에서는 용기 있는 사람은 두려워하지 않는다고 말합니다. 여기서 없애야 할 두려움은 옳은 일을 앞둔 비겁함이고, 남겨야 할 두려움은 자기보다 큰 도덕적 기준을 가볍게 여기지 않는 경외라고 구분하면 두 말이 함께 성립합니다.",
+          "score":10
+        }
+      ],
+      "selected":"ly-16-08-x1"
+    },
+    {
+      "chapter":9,
+      "existing_strong_issue":false,
+      "expanded_candidates":[
+        {
+          "id":"ly-16-09-x1",
+          "type":"장간 긴장형",
+          "basis":"장간 비교",
+          "headline":"태어나면서 아는 사람이 최고라면, 공자님은 왜 자신이 그런 사람이 아니라고 했을까?",
+          "side_a":"이 장은 태어나면서 아는 사람을 가장 높은 유형으로 놓고, 배워서 아는 사람과 곤궁한 뒤 배우는 사람을 그다음에 둡니다.",
+          "side_b":"그런데 술이편에서 공자님은 자신을 ‘태어나면서 안 사람이 아니라 옛것을 좋아해 부지런히 구한 사람’이라고 말합니다. 타고난 최고 등급을 인정하면서도 자신의 길은 학습과 탐구였다고 밝힌 점에서, 논어의 실제 교육 메시지는 출발점보다 배우는 태도에 더 가까워집니다.",
+          "score":10
+        }
+      ],
+      "selected":"ly-16-09-x1"
+    },
+    {"chapter":10,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"아홉 가지 자기 점검의 의미가 명확하고 별도 쟁점보다 실천 목록 성격이 강함"}
+  ]
+}
