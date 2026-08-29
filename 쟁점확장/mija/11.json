@@ -1,0 +1,10 @@
+{
+  "book":"미자편",
+  "range":"11",
+  "type":"expanded_issue_candidates",
+  "source_policy":"supplement-only",
+  "chapter_mapping":"논어집주 11장 배열",
+  "chapters":[
+    {"chapter":11,"existing_strong_issue":true,"existing_issue_ref":"쟁점후보/mija/11.json","expanded_candidates":[],"selected":null}
+  ]
+}
