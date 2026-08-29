@@ -1,0 +1,14 @@
+{
+  "book":"위령공편",
+  "range":"21-25",
+  "type":"expanded_issue_candidates",
+  "source_policy":"supplement-only",
+  "chapter_mapping":"논어집주 42장 배열",
+  "chapters":[
+    {"chapter":21,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"자기 책임과 무조건적 자기 탓을 구분하는 적용 한계가 문답 카드에 이미 명시되어 있어 중복 제외"},
+    {"chapter":22,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"함께 어울림과 파벌의 차이는 문답 카드가 충분히 다루고 있어 별도 확장 쟁점 없음"},
+    {"chapter":23,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"사람 평가와 의견 평가를 분리한다는 본문의 역설은 흥미롭지만 문답 카드와 사실상 동일해 비움"},
+    {"chapter":24,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"안연편의 관련 구절 및 현재 문답 카드와 중복되므로 추가하지 않음"},
+    {"chapter":25,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"근거 없이 헐뜯거나 칭찬하지 않고 검증된 평가를 한다는 의미가 문답 카드와 겹쳐 비움"}
+  ]
+}
