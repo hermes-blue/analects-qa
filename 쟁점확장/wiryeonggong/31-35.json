@@ -1,0 +1,44 @@
+{
+  "book":"위령공편",
+  "range":"31-35",
+  "type":"expanded_issue_candidates",
+  "source_policy":"supplement-only",
+  "chapter_mapping":"논어집주 42장 배열",
+  "chapters":[
+    {
+      "chapter":31,
+      "existing_strong_issue":false,
+      "expanded_candidates":[
+        {
+          "id":"ly-15-31-x1",
+          "type":"장간 긴장형",
+          "basis":"장간 비교",
+          "headline":"‘배우고 생각하라’면서 왜 여기서는 하루 종일 생각하는 것보다 배우는 게 낫다고 했을까?",
+          "side_a":"위정편에서는 배우기만 하고 생각하지 않아도 문제이고, 생각만 하고 배우지 않아도 위험하다고 말합니다. 배움과 생각을 서로 보완하는 두 축으로 둡니다.",
+          "side_b":"여기서는 공자님이 먹지도 자지도 않고 혼자 생각해 본 뒤 ‘배우는 것만 못했다’고 합니다. 생각 자체를 낮춘 것이 아니라, 배움과 검증 없이 혼자 사색만 밀어붙이는 방식의 한계를 강조한 것으로 읽으면 두 장이 연결됩니다.",
+          "score":10
+        }
+      ],
+      "selected":"ly-15-31-x1"
+    },
+    {"chapter":32,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"생계를 무시하라는 뜻이 아니라 도를 우선하라는 적용 한계가 문답 카드에서 이미 다뤄짐"},
+    {"chapter":33,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"능력·덕·위엄·예의 단계 구조는 해설 성격이 강하고 별도의 충돌축이 약해 비움"},
+    {"chapter":34,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"전문 기능과 큰 책임의 구분이 문답 카드와 충분히 겹쳐 추가하지 않음"},
+    {
+      "chapter":35,
+      "existing_strong_issue":false,
+      "expanded_candidates":[
+        {
+          "id":"ly-15-35-x1",
+          "type":"장간 긴장형",
+          "basis":"장간 비교",
+          "headline":"仁을 지키다 목숨을 버릴 수 있다면서, 왜 ‘仁을 밟아 죽은 사람은 없다’고 했을까?",
+          "side_a":"9장은 생존 때문에 仁을 해치지 말고 필요하면 몸을 버려 仁을 이룬다고까지 말합니다. 仁을 지키는 선택이 죽음과 연결될 수 있습니다.",
+          "side_b":"35장은 물과 불은 잘못 디디면 사람을 죽이지만 仁 자체를 실천하다가 仁 때문에 죽는 것은 본 적이 없다고 말합니다. 仁이 본질적으로 사람을 해치는 길은 아니지만, 외부 상황 때문에 그것을 지키다 희생될 수 있다는 차이로 읽으면 모순이 풀립니다.",
+          "score":10
+        }
+      ],
+      "selected":"ly-15-35-x1"
+    }
+  ]
+}
