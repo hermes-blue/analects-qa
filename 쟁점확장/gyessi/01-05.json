@@ -1,0 +1,14 @@
+{
+  "book":"계씨편",
+  "range":"1-5",
+  "type":"expanded_issue_candidates",
+  "source_policy":"supplement-only",
+  "chapter_mapping":"논어집주 14장 배열",
+  "chapters":[
+    {"chapter":1,"existing_strong_issue":true,"existing_issue_ref":"쟁점후보/gyessi/01-05.json","expanded_candidates":[],"selected":null},
+    {"chapter":2,"existing_strong_issue":true,"existing_issue_ref":"쟁점후보/gyessi/01-05.json","expanded_candidates":[],"selected":null},
+    {"chapter":3,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"앞 장의 권력 하강 원리를 노나라 역사에 적용한 사례이며 현재 문답 카드가 그 구조를 직접 설명하고 있어 추가하지 않음"},
+    {"chapter":4,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"좋은 친구와 해로운 친구의 기준이 명확하고 별도의 해석 긴장보다 실천 분류 성격이 강해 비움"},
+    {"chapter":5,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"즐거움 자체를 금지한 것이 아니라 즐거움의 대상을 가린다는 적용 한계가 문답 카드와 중복됨"}
+  ]
+}
