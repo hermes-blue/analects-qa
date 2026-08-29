@@ -1,0 +1,14 @@
+{
+  "book":"미자편",
+  "range":"1-5",
+  "type":"expanded_issue_candidates",
+  "source_policy":"supplement-only",
+  "chapter_mapping":"논어집주 11장 배열",
+  "chapters":[
+    {"chapter":1,"existing_strong_issue":true,"existing_issue_ref":"쟁점후보/mija/01-05.json","expanded_candidates":[],"selected":null},
+    {"chapter":2,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"유하혜의 출처 판단과 평가문 탈락 가능성은 문답 카드에서 이미 다뤄져 중복 제외"},
+    {"chapter":3,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"높은 예우보다 실제 정치적 쓰임을 중시한 장면이 명확하고 문답 카드와 겹침"},
+    {"chapter":4,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"여악 자체보다 통치자의 직무유기가 문제라는 오해 교정이 문답 카드에 이미 포함됨"},
+    {"chapter":5,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"은둔과 현실 참여의 큰 쟁점은 6장에서 본문 속 직접 논쟁으로 더 선명하게 다루기로 하고 여기서는 중복하지 않음"}
+  ]
+}
