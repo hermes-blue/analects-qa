@@ -1,0 +1,26 @@
+{
+  "book":"위령공편",
+  "range":"41-42",
+  "type":"expanded_issue_candidates",
+  "source_policy":"supplement-only",
+  "chapter_mapping":"논어집주 42장 배열",
+  "chapters":[
+    {"chapter":41,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"표현의 아름다움보다 뜻 전달이 우선이라는 적용 한계가 문답 카드에서 이미 처리됨"},
+    {
+      "chapter":42,
+      "existing_strong_issue":false,
+      "expanded_candidates":[
+        {
+          "id":"ly-15-42-x1",
+          "type":"개념 범위형",
+          "basis":"본문 직접 장면",
+          "headline":"예의란 모두를 똑같이 대하는 걸까, 필요한 사람에게 다르게 돕는 걸까?",
+          "question":"공자님은 눈이 보이지 않는 악사에게 계단과 자리, 참석자가 누구인지 하나씩 말해 줍니다. 다른 손님에게는 하지 않을 특별한 안내입니다.",
+          "answer_frame":"이 장의 예는 사람을 형식적으로 똑같이 대하는 데 있지 않습니다. 상대의 처지를 보고 그가 실제로 참여할 수 있도록 필요한 도움을 더하는 것이 오히려 마땅한 대우가 될 수 있음을 보여 줍니다.",
+          "score":9
+        }
+      ],
+      "selected":"ly-15-42-x1"
+    }
+  ]
+}
