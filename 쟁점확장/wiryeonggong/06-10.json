@@ -1,0 +1,62 @@
+{
+  "book":"위령공편",
+  "range":"6-10",
+  "type":"expanded_issue_candidates",
+  "source_policy":"supplement-only",
+  "chapter_mapping":"논어집주 42장 배열",
+  "chapters":[
+    {
+      "chapter":6,
+      "existing_strong_issue":false,
+      "expanded_candidates":[
+        {
+          "id":"ly-15-06-x1",
+          "type":"적용 한계형",
+          "basis":"본문 내부 구조",
+          "headline":"공자님의 덕은 같은 문화권에서만 통할까?",
+          "question":"공자님은 믿음 있는 말과 공경스러운 행동이면 ‘오랑캐의 나라’에서도 통한다고 말합니다. 예와 관습이 다른 곳에서도 같은 기준이 작동한다는 뜻일까요?",
+          "answer_frame":"이 장은 적어도 충실함과 공경 같은 관계의 기본을 특정 지역의 관습보다 넓은 기준으로 놓습니다. 모든 예법이 어디서나 똑같다는 말은 아니지만, 사람 사이의 신뢰를 만드는 핵심 태도에는 보편성이 있다고 본 셈입니다.",
+          "score":8
+        }
+      ],
+      "selected":"ly-15-06-x1"
+    },
+    {
+      "chapter":7,
+      "existing_strong_issue":false,
+      "expanded_candidates":[
+        {
+          "id":"ly-15-07-x1",
+          "type":"현실 선택형",
+          "basis":"본문 내부 구조",
+          "headline":"끝까지 곧게 버틸까, 때가 나쁘면 물러날까?",
+          "side_a":"사어는 나라에 도가 있든 없든 화살처럼 곧았다고 칭찬받습니다. 상황이 나쁘다는 이유로 원칙을 바꾸지 않는 강직함입니다.",
+          "side_b":"거백옥은 나라에 도가 없으면 재능과 지위를 거두어 숨길 줄 알았고 공자님은 그를 ‘군자’라고 부릅니다. 같은 무도한 시대라도 곧게 맞서는 것과 물러나는 것 모두 덕이 될 수 있다는 긴장이 생깁니다.",
+          "score":10
+        }
+      ],
+      "selected":"ly-15-07-x1"
+    },
+    {
+      "chapter":8,
+      "existing_strong_issue":false,
+      "expanded_candidates":[],
+      "selected":null,
+      "note":"사람과 말의 때를 가린다는 핵심은 문답 카드에서 충분히 다루고 있어 확장 카드로 중복하지 않음"
+    },
+    {
+      "chapter":9,
+      "existing_strong_issue":false,
+      "expanded_candidates":[],
+      "selected":null,
+      "note":"살신성인의 현대 적용 한계는 중요한 쟁점이지만 현재 문답 카드가 이미 직접 경계하고 있어 중복 제외"
+    },
+    {
+      "chapter":10,
+      "existing_strong_issue":false,
+      "expanded_candidates":[],
+      "selected":null,
+      "note":"도구 비유와 좋은 사람을 가까이한다는 의미가 문답 카드와 거의 겹쳐 추가하지 않음"
+    }
+  ]
+}
