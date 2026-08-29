@@ -1,0 +1,29 @@
+{
+  "book":"자장편",
+  "range":"21-25",
+  "type":"expanded_issue_candidates",
+  "source_policy":"supplement-only",
+  "chapter_mapping":"논어집주 25장 배열",
+  "chapters":[
+    {"chapter":21,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"군자의 잘못과 공개적 수정이라는 핵심이 문답 카드에서 충분히 다뤄짐"},
+    {"chapter":22,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"공자님에게 고정된 한 스승이 없었다는 배움의 개방성이 명확하고 별도 긴장축은 약함"},
+    {"chapter":23,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"‘자공이 공자보다 낫다’는 오해와 담장 비유가 문답 카드에서 직접 해소되어 별도 쟁점으로 반복하지 않음"},
+    {"chapter":24,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"공자 비방에 대한 자공의 반박이 선명하고 25장과 함께 묶어 장간 카드로 처리함"},
+    {
+      "chapter":25,
+      "existing_strong_issue":false,
+      "expanded_candidates":[
+        {
+          "id":"ly-19-25-x1",
+          "type":"장간 긴장형",
+          "basis":"장간 비교",
+          "headline":"자장편 마지막은 왜 세 장 연속 자공이 공자님을 변호하는 장면으로 끝날까?",
+          "question":"23장에서는 ‘자공이 공자보다 낫다’는 평가를 반박하고, 24장에서는 공자님을 헐뜯는 숙손무숙을 비판하며, 25장에서는 다시 자공이 공자님의 경지는 쉽게 미칠 수 없다고 설명합니다.",
+          "answer_frame":"세 장을 함께 읽으면 자공 개인의 겸손만이 아니라, 공자님을 직접 보지 못했거나 깊이를 알지 못한 사람들이 제자를 스승보다 높이거나 스승을 깎아내리는 상황에 제자들이 어떻게 대응했는지가 드러납니다. 자장편 후반은 공자 사후의 평가와 제자 집단의 스승 이해 문제까지 보여 주는 자료로 읽을 수 있습니다.",
+          "score":9
+        }
+      ],
+      "selected":"ly-19-25-x1"
+    }
+  ]
+}
