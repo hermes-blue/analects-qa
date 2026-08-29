@@ -1,0 +1,44 @@
+{
+  "book":"자장편",
+  "range":"16-20",
+  "type":"expanded_issue_candidates",
+  "source_policy":"supplement-only",
+  "chapter_mapping":"논어집주 25장 배열",
+  "chapters":[
+    {
+      "chapter":16,
+      "existing_strong_issue":false,
+      "expanded_candidates":[
+        {
+          "id":"ly-19-16-x1",
+          "type":"문장 안 긴장형",
+          "basis":"본문 내부 구조",
+          "headline":"당당함은 장점일까, 오히려 仁을 가로막는 약점일까?",
+          "side_a":"증자는 자장의 모습이 크고 당당하다고 인정합니다. 높은 뜻과 기개가 겉으로도 분명한 사람이라는 평가입니다.",
+          "side_b":"하지만 바로 이어 ‘함께 仁을 하기 어렵다’고 말합니다. 같은 당당함이 지나치면 타인과 함께 배우고 서로 보완하는 데 방해가 될 수 있어, 한 성향이 장점과 약점을 동시에 만드는 장면입니다.",
+          "score":9
+        }
+      ],
+      "selected":"ly-19-16-x1"
+    },
+    {"chapter":17,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"부모상에서 인간의 진심이 가장 극진하게 드러난다는 뜻은 문답 카드와 겹치며 별도 논쟁축은 약함"},
+    {"chapter":18,"existing_strong_issue":true,"existing_issue_ref":"쟁점후보/jajang/16-20.json","expanded_candidates":[],"selected":null},
+    {"chapter":19,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"범죄자의 개인 책임과 잘못된 통치 배경을 함께 보라는 긴장은 흥미롭지만 현재 문답 카드가 이미 직접 다루고 있어 중복 제외"},
+    {
+      "chapter":20,
+      "existing_strong_issue":false,
+      "expanded_candidates":[
+        {
+          "id":"ly-19-20-x1",
+          "type":"역사·인물 평가형",
+          "basis":"본문 직접 주장",
+          "headline":"폭군은 정말 기록된 만큼 모든 악을 저질렀을까?",
+          "question":"자공은 주왕이 악한 군주였다는 사실 자체를 부정하지 않으면서도, 후대에 전해진 모든 악행이 실제로 그에게 있었던 것은 아닐 수 있다고 말합니다.",
+          "answer_frame":"한 사람의 악명이 굳어지면 확인되지 않은 잘못까지 그 이름 아래 모일 수 있다는 역사 인식입니다. 이 장의 흥미는 주왕을 변호하는 데 있지 않고, 이미 나쁜 사람으로 판정된 대상에게 사실 이상의 악을 덧붙이는 인간의 평가 방식을 경계한다는 데 있습니다.",
+          "score":10
+        }
+      ],
+      "selected":"ly-19-20-x1"
+    }
+  ]
+}
