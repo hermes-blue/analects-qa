@@ -1,0 +1,14 @@
+{
+  "book":"자장편",
+  "range":"1-5",
+  "type":"expanded_issue_candidates",
+  "source_policy":"supplement-only",
+  "chapter_mapping":"논어집주 25장 배열",
+  "chapters":[
+    {"chapter":1,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"위기·이익·제사·상례의 네 기준이 명확하고 별도의 긴장축은 약함"},
+    {"chapter":2,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"덕의 넓이와 도에 대한 믿음의 깊이를 함께 요구하는 장으로, 문답 카드와 충분히 겹침"},
+    {"chapter":3,"existing_strong_issue":true,"existing_issue_ref":"쟁점후보/jajang/01-05.json","expanded_candidates":[],"selected":null},
+    {"chapter":4,"existing_strong_issue":true,"existing_issue_ref":"쟁점후보/jajang/01-05.json","expanded_candidates":[],"selected":null},
+    {"chapter":5,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"새로 배우기와 잊지 않기의 균형이 명확해 추가 쟁점보다 핵심·문답 카드에 적합"}
+  ]
+}
