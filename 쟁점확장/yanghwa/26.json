@@ -1,0 +1,10 @@
+{
+  "book":"양화편",
+  "range":"26",
+  "type":"expanded_issue_candidates",
+  "source_policy":"supplement-only",
+  "chapter_mapping":"논어집주 26장 배열",
+  "chapters":[
+    {"chapter":26,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"마흔을 변화 가능성의 절대 마감선으로 읽으면 안 된다는 적용 한계가 문답 카드에서 이미 직접 다뤄져 중복 제외"}
+  ]
+}
