@@ -1,0 +1,14 @@
+{
+  "book":"자장편",
+  "range":"6-10",
+  "type":"expanded_issue_candidates",
+  "source_policy":"supplement-only",
+  "chapter_mapping":"논어집주 25장 배열",
+  "chapters":[
+    {"chapter":6,"existing_strong_issue":true,"existing_issue_ref":"쟁점후보/jajang/06-10.json","expanded_candidates":[],"selected":null},
+    {"chapter":7,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"장인의 작업장과 군자의 학습 환경 비유는 의미가 안정적이며 문답 카드와 겹침"},
+    {"chapter":8,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"잘못보다 변명으로 꾸미는 태도를 더 경계한다는 핵심이 명확함"},
+    {"chapter":9,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"엄숙함·온화함·엄정한 말의 공존은 설명형 카드에 적합하고 별도 쟁점은 약함"},
+    {"chapter":10,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"명령과 간언 모두 신뢰가 먼저라는 관계 원리가 명확해 억지 대립을 만들지 않음"}
+  ]
+}
