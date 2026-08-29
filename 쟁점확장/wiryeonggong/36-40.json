@@ -1,0 +1,29 @@
+{
+  "book":"위령공편",
+  "range":"36-40",
+  "type":"expanded_issue_candidates",
+  "source_policy":"supplement-only",
+  "chapter_mapping":"논어집주 42장 배열",
+  "chapters":[
+    {"chapter":36,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"스승 존중과 도덕적 주체성의 관계가 문답 카드에 이미 직접 설명되어 있어 중복 제외"},
+    {
+      "chapter":37,
+      "existing_strong_issue":false,
+      "expanded_candidates":[
+        {
+          "id":"ly-15-37-x1",
+          "type":"현실 선택형",
+          "basis":"본문 내부 구조",
+          "headline":"잘못된 약속도 끝까지 지켜야 신의일까?",
+          "side_a":"약속을 바꾸지 않는 태도는 보통 믿음직함으로 평가됩니다. 이미 한 말을 뒤집으면 신뢰를 잃을 수 있습니다.",
+          "side_b":"하지만 이 장은 군자가 큰 원칙은 굳게 지키되 작은 신의에 얽매이지 않는다고 말합니다. 약속 자체가 더 큰 옳음을 해치게 되면 ‘끝까지 지킴’이 오히려 고집이 될 수 있다는 긴장입니다.",
+          "score":9
+        }
+      ],
+      "selected":"ly-15-37-x1"
+    },
+    {"chapter":38,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"직무를 녹봉보다 앞세운다는 의미가 명확하고 별도의 해석 긴장은 약함"},
+    {"chapter":39,"existing_strong_issue":true,"existing_issue_ref":"쟁점후보/wiryeonggong/36-40.json","expanded_candidates":[],"selected":null},
+    {"chapter":40,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"근본 가치의 차이와 단순 의견 차이를 구분해야 한다는 적용 한계가 문답 카드와 중복됨"}
+  ]
+}
