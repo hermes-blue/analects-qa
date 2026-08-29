@@ -1,0 +1,29 @@
+{
+  "book":"양화편",
+  "range":"6-10",
+  "type":"expanded_issue_candidates",
+  "source_policy":"supplement-only",
+  "chapter_mapping":"논어집주 26장 배열",
+  "chapters":[
+    {"chapter":6,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"다섯 덕목의 관계는 문답 카드와 개념 설명에 가까워 별도 확장 쟁점 없음"},
+    {
+      "chapter":7,
+      "existing_strong_issue":false,
+      "expanded_candidates":[
+        {
+          "id":"ly-17-07-x1",
+          "type":"역사·인물 평가형",
+          "basis":"장간 비교",
+          "headline":"공자님은 왜 반란 세력의 부름에 두 번이나 ‘가려 했다’고 기록됐을까?",
+          "question":"5장에서는 공산불요, 7장에서는 불힐이 반란 중에 공자님을 부르자 모두 ‘가고자 했다’고 적혀 있습니다. 명분을 중시한 공자님과 어울리지 않아 보이는 이 반복을 어떻게 이해해야 할까요?",
+          "answer_frame":"본문은 공자님이 반란 자체를 승인했다고 말하지 않습니다. 오히려 자신이 들어가도 잘못에 물들지 않고, 주어진 자리를 바른 정치로 돌릴 수 있다는 강한 출사 의지를 드러냅니다. 다만 실제로 두 곳 모두 가지 않았다는 점까지 함께 보아야 하며, 이 장들은 공자님의 현실 참여 의지가 얼마나 강했는지를 불편하게 보여 주는 자료이기도 합니다.",
+          "score":10
+        }
+      ],
+      "selected":"ly-17-07-x1"
+    },
+    {"chapter":8,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"좋은 덕목도 배움이 없으면 폐단이 된다는 역설이 문답 카드에서 이미 충분히 다뤄짐"},
+    {"chapter":9,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"시의 기능 네 가지와 자연 지식의 의미가 안정적이며 별도 대립축은 약함"},
+    {"chapter":10,"existing_strong_issue":false,"expanded_candidates":[],"selected":null,"note":"아들에게 특별 교육을 주지 않았다는 내용은 계씨편 13장과 현재 문답 카드에서 이미 다뤄 중복 제외"}
+  ]
+}
