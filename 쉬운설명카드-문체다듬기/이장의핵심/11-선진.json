@@ -1,229 +1,291 @@
 {
-  "schema_version": "1.0",
-  "scope": "이 장의 핵심",
-  "source": {
-    "repository": "hermes-blue/analects",
-    "branch": "트랙/뉴코퍼스",
-    "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
-    "path": "1차완성본/쉬운설명카드/11-선진.html",
-    "blob_sha": "816ad65fdf62c262291949e5551e4676aa25b7b7",
-    "selector": "article.card > .big > p.hx",
-    "identity": "article.card의 id 그대로 사용"
-  },
-  "book_number": 11,
   "book_name": "선진",
+  "book_number": 11,
   "cards": [
     {
-      "id": "ly-11-01",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 1,
+      "id": "ly-11-01",
       "original": "형식이 더 세련되어도 본래 정신이 흐려지면 오히려 소박한 쪽을 택한다",
-      "revised": "형식이 더 세련되어도 본래 정신이 흐려지면 오히려 소박한 쪽을 택한다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "형식이 더 세련되어도 본래 정신이 흐려지면 오히려 소박한 쪽을 택한다",
+      "reason": "조건과 시제를 맞추고 군더더기 정리",
+      "revised": "형식이 더 세련되었더라도 본래 정신이 흐려졌다면 소박한 쪽을 택한다",
+      "revision_round": 2
     },
     {
-      "id": "ly-11-02",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 2,
+      "id": "ly-11-02",
       "original": "제자들은 한 줄의 서열보다 서로 다른 강점으로 기억된다",
-      "revised": "제자들은 한 줄의 서열보다 서로 다른 강점으로 기억된다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "제자들은 한 줄의 서열보다 서로 다른 강점으로 기억된다",
+      "reason": "한 줄의 서열이라는 어색한 명사 연결 정리",
+      "revised": "제자들은 한 줄로 세운 서열보다 저마다 다른 강점으로 기억된다",
+      "revision_round": 2
     },
     {
-      "id": "ly-11-03",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 3,
+      "id": "ly-11-03",
       "original": "너무 잘 알아듣는 제자는 스승에게 질문과 논쟁의 자극을 덜 줄 수도 있다",
-      "revised": "너무 잘 알아듣는 제자는 스승에게 질문과 논쟁의 자극을 덜 줄 수도 있다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "너무 잘 알아듣는 제자는 스승에게 질문과 논쟁의 자극을 덜 줄 수도 있다",
+      "reason": "질문과 논쟁의 자극을 준다는 명사형 나열 풀기",
+      "revised": "너무 잘 알아듣는 제자는 질문하거나 논쟁하며 스승을 자극하는 일이 적을 수도 있다",
+      "revision_round": 2
     },
     {
-      "id": "ly-11-04",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 4,
+      "id": "ly-11-04",
       "original": "가까운 가족과 바깥 사람의 평가가 함께 맞을 때 행실의 일관성이 더 분명해진다",
-      "revised": "가까운 가족과 바깥 사람의 평가가 같을 때 행실의 일관성이 더 분명해진다",
-      "changed": true,
-      "reason": "‘평가가 함께 맞을 때’를 자연스럽게 다듬었다."
+      "previous_revision": "가까운 가족과 바깥 사람의 평가가 같을 때 행실의 일관성이 더 분명해진다",
+      "reason": "행실의 일관성이라는 추상 명사 풀기",
+      "revised": "가족과 바깥사람의 평가가 같으면 행실도 한결같음을 더 분명히 알 수 있다",
+      "revision_round": 2
     },
     {
-      "id": "ly-11-05",
+      "changed": false,
       "chapter": 5,
+      "id": "ly-11-05",
       "original": "한 번 내뱉은 말은 되돌리기 어려우니 말하기 전에 더 신중해야 한다",
-      "revised": "한 번 내뱉은 말은 되돌리기 어려우니 말하기 전에 더 신중해야 한다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
+      "revised": "한 번 내뱉은 말은 되돌리기 어려우니 말하기 전에 더 신중해야 한다"
     },
     {
-      "id": "ly-11-06",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 6,
+      "id": "ly-11-06",
       "original": "배움을 좋아한다는 것은 많이 아는 것보다 계속 고치고 살아내는 데 가깝다",
-      "revised": "배움을 좋아한다는 것은 많이 아는 것보다 계속 고치고 살아내는 데 가깝다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "배움을 좋아한다는 것은 많이 아는 것보다 계속 고치고 살아내는 데 가깝다",
+      "reason": "고치고 살아낸다는 생략된 동작 연결 정리",
+      "revised": "배움을 좋아한다는 것은 많이 알기보다 배운 대로 살며 계속 자신을 고치는 데 가깝다",
+      "revision_round": 2
     },
     {
-      "id": "ly-11-07",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 7,
+      "id": "ly-11-07",
       "original": "아끼는 마음이 커도 장례의 분수와 공적인 책임까지 무너뜨릴 수는 없다",
-      "revised": "아끼는 마음이 커도 장례의 분수와 공적인 책임까지 무너뜨릴 수는 없다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "아끼는 마음이 커도 장례의 분수와 공적인 책임까지 무너뜨릴 수는 없다",
+      "reason": "분수와 책임을 무너뜨린다는 어색한 결합 정리",
+      "revised": "아무리 아껴도 장례에서 지켜야 할 분수와 공적인 책임까지 저버릴 수는 없다",
+      "revision_round": 2
     },
     {
-      "id": "ly-11-08",
+      "changed": true,
       "chapter": 8,
+      "id": "ly-11-08",
       "original": "안회가 죽자 공자님은 하늘이 나를 무너뜨렸다고 탄식했다",
-      "revised": "안회가 죽자 공자님은 하늘이 자신을 무너뜨렸다고 탄식하셨다",
-      "changed": true,
-      "reason": "간접 인용의 인칭과 서술어 높임을 맞췄다."
+      "reason": "간접 인용의 인칭과 서술어 높임을 맞췄다.",
+      "revised": "안회가 죽자 공자님은 하늘이 자신을 무너뜨렸다고 탄식하셨다"
     },
     {
-      "id": "ly-11-09",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 9,
+      "id": "ly-11-09",
       "original": "예를 지키는 사람도 사랑하는 이를 잃으면 깊이 무너질 수 있다",
-      "revised": "예를 지키는 사람도 사랑하는 이를 잃으면 깊이 무너질 수 있다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "예를 지키는 사람도 사랑하는 이를 잃으면 깊이 무너질 수 있다",
+      "reason": "깊이 무너진다는 어색한 수식 정리",
+      "revised": "예를 지키는 사람도 사랑하는 이를 잃으면 깊은 슬픔에 무너질 수 있다",
+      "revision_round": 2
     },
     {
-      "id": "ly-11-10",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 10,
+      "id": "ly-11-10",
       "original": "사랑을 크게 표현하는 것과 그 사람답게 보내는 것은 같은 일이 아니다",
-      "revised": "사랑을 크게 표현하는 것과 그 사람답게 보내는 것은 같은 일이 아니다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "사랑을 크게 표현하는 것과 그 사람답게 보내는 것은 같은 일이 아니다",
+      "reason": "그 사람답게 보낸다는 모호한 수식 풀기",
+      "revised": "사랑을 크게 표현한다고 그 사람에게 걸맞게 보내 주는 것은 아니다",
+      "revision_round": 2
     },
     {
-      "id": "ly-11-11",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 11,
+      "id": "ly-11-11",
       "original": "알기 어려운 죽음과 귀신보다 먼저 지금의 삶과 사람에게 책임을 다한다",
-      "revised": "알기 어려운 죽음과 귀신보다 먼저 지금의 삶과 사람에게 책임을 다한다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "알기 어려운 죽음과 귀신보다 먼저 지금의 삶과 사람에게 책임을 다한다",
+      "reason": "어려운 대상과 책임을 직접 비교하는 어순 정리",
+      "revised": "죽음과 귀신처럼 알기 어려운 문제에 앞서 지금의 삶과 사람에게 책임을 다한다",
+      "revision_round": 2
     },
     {
-      "id": "ly-11-12",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 12,
+      "id": "ly-11-12",
       "original": "좋은 교육은 제자를 똑같이 만들지 않고 각자 기질을 살펴 다듬는다",
-      "revised": "좋은 교육은 제자를 똑같이 만들지 않고 각자 기질을 살펴 다듬는다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "좋은 교육은 제자를 똑같이 만들지 않고 각자 기질을 살펴 다듬는다",
+      "reason": "다듬는 대상과 행위 연결 정리",
+      "revised": "좋은 교육은 제자를 똑같이 만들지 않고 저마다의 기질을 살펴 다듬어 준다",
+      "revision_round": 2
     },
     {
-      "id": "ly-11-13",
+      "changed": false,
       "chapter": 13,
+      "id": "ly-11-13",
       "original": "새로 바꾸는 것이 언제나 발전은 아니며 변화에는 충분한 이유가 필요하다",
-      "revised": "새로 바꾸는 것이 언제나 발전은 아니며 변화에는 충분한 이유가 필요하다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
+      "revised": "새로 바꾸는 것이 언제나 발전은 아니며 변화에는 충분한 이유가 필요하다"
     },
     {
-      "id": "ly-11-14",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 14,
+      "id": "ly-11-14",
       "original": "상당히 잘해도 가장 깊은 경지까지는 더 다듬을 것이 남을 수 있다",
-      "revised": "상당히 잘해도 가장 깊은 경지까지는 더 다듬을 것이 남을 수 있다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "상당히 잘해도 가장 깊은 경지까지는 더 다듬을 것이 남을 수 있다",
+      "reason": "경지까지는이라는 압축된 수식 풀기",
+      "revised": "상당히 잘하더라도 가장 깊은 경지에 이르려면 더 다듬어야 할 것이 남을 수 있다",
+      "revision_round": 2
     },
     {
-      "id": "ly-11-15",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 15,
+      "id": "ly-11-15",
       "original": "지나침도 모자람도 알맞음을 놓친다는 점에서는 같은 문제다",
-      "revised": "지나침도 모자람도 알맞음을 놓친다는 점에서는 같은 문제다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "지나침도 모자람도 알맞음을 놓친다는 점에서는 같은 문제다",
+      "reason": "지나침·모자람·알맞음의 명사형 연쇄 풀기",
+      "revised": "지나쳐도 모자라도 알맞지 않다는 점에서는 마찬가지다",
+      "revision_round": 2
     },
     {
-      "id": "ly-11-16",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 16,
+      "id": "ly-11-16",
       "original": "능력을 권력자의 사익을 키우는 데 쓰면 그 능력도 비판의 대상이 된다",
-      "revised": "능력을 권력자의 사익을 키우는 데 쓰면 그 능력도 비판의 대상이 된다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "능력을 권력자의 사익을 키우는 데 쓰면 그 능력도 비판의 대상이 된다",
+      "reason": "사익과 비판의 대상이라는 딱딱한 명사형 풀기",
+      "revised": "능력을 권력자의 사사로운 이익을 키우는 데 쓴다면 그 능력도 비판받는다",
+      "revision_round": 2
     },
     {
-      "id": "ly-11-17",
+      "changed": false,
       "chapter": 17,
+      "id": "ly-11-17",
       "original": "사람마다 약점이 다르니 같은 방식으로 가르칠 수는 없다",
-      "revised": "사람마다 약점이 다르니 같은 방식으로 가르칠 수는 없다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
+      "revised": "사람마다 약점이 다르니 같은 방식으로 가르칠 수는 없다"
     },
     {
-      "id": "ly-11-18",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 18,
+      "id": "ly-11-18",
       "original": "같은 재주라도 한쪽은 도를 좇고 한쪽은 재물에 밝다",
-      "revised": "같은 재주라도 한쪽은 도를 좇고 한쪽은 재물에 밝다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "같은 재주라도 한쪽은 도를 좇고 한쪽은 재물에 밝다",
+      "reason": "한쪽으로 사람을 지칭하는 표현 정리",
+      "revised": "재주가 같아도 어떤 사람은 도를 좇고 어떤 사람은 재물에 밝다",
+      "revision_round": 2
     },
     {
-      "id": "ly-11-19",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 19,
+      "id": "ly-11-19",
       "original": "좋은 성품만으로는 충분하지 않고 깊어지려면 배움과 수양이 필요하다",
-      "revised": "좋은 성품만으로는 충분하지 않고 깊어지려면 배움과 수양이 필요하다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "좋은 성품만으로는 충분하지 않고 깊어지려면 배움과 수양이 필요하다",
+      "reason": "주체 없이 깊어진다는 표현 정리",
+      "revised": "좋은 성품만으로는 충분하지 않으며 더 깊이 닦으려면 배움과 수양이 필요하다",
+      "revision_round": 2
     },
     {
-      "id": "ly-11-20",
+      "changed": false,
       "chapter": 20,
+      "id": "ly-11-20",
       "original": "진지한 말투와 점잖은 표정만으로 사람의 됨됨이를 판단하지 않는다",
-      "revised": "진지한 말투와 점잖은 표정만으로 사람의 됨됨이를 판단하지 않는다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
+      "revised": "진지한 말투와 점잖은 표정만으로 사람의 됨됨이를 판단하지 않는다"
     },
     {
-      "id": "ly-11-21",
+      "changed": false,
       "chapter": 21,
+      "id": "ly-11-21",
       "original": "같은 질문에도 사람의 기질이 다르면 필요한 답은 달라질 수 있다",
-      "revised": "같은 질문에도 사람의 기질이 다르면 필요한 답은 달라질 수 있다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
+      "revised": "같은 질문에도 사람의 기질이 다르면 필요한 답은 달라질 수 있다"
     },
     {
-      "id": "ly-11-22",
+      "changed": true,
       "chapter": 22,
+      "id": "ly-11-22",
       "original": "늦게 온 안회를 걱정하자 스승이 계신데 어찌 죽겠냐고 답했다",
-      "revised": "늦게 온 안회를 걱정하자 안회는 스승이 계신데 어찌 죽겠느냐고 답했다",
-      "changed": true,
-      "reason": "답한 주체를 명시하고 간접 인용의 말끝을 다듬었다."
+      "reason": "답한 주체를 명시하고 간접 인용의 말끝을 다듬었다.",
+      "revised": "늦게 온 안회를 걱정하자 안회는 스승이 계신데 어찌 죽겠느냐고 답했다"
     },
     {
-      "id": "ly-11-23",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 23,
+      "id": "ly-11-23",
       "original": "큰 신하는 능력보다 원칙이 무너지면 자리를 떠날 수 있는 사람이다",
-      "revised": "큰 신하는 능력보다 원칙이 무너지면 자리를 떠날 수 있는 사람이다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "큰 신하는 능력보다 원칙이 무너지면 자리를 떠날 수 있는 사람이다",
+      "reason": "큰 신하와 능력보다라는 어긋난 비교 풀기",
+      "revised": "훌륭한 신하는 능력만 뛰어난 사람이 아니라 원칙이 무너지면 자리를 떠날 줄 아는 사람이다",
+      "revision_round": 2
     },
     {
-      "id": "ly-11-24",
-      "chapter": 24,
-      "original": "현장 배움도 중요하나 준비 전에 큰 책임부터 맡기면 해칠 수 있다",
-      "revised": "현장에서 배우는 것도 중요하나 준비가 되기 전에 큰 책임부터 맡기면 해칠 수 있다",
+      "approval_status": "approved",
       "changed": true,
-      "reason": "‘현장 배움’, ‘준비 전에’를 자연스럽게 풀었다."
+      "chapter": 24,
+      "id": "ly-11-24",
+      "original": "현장 배움도 중요하나 준비 전에 큰 책임부터 맡기면 해칠 수 있다",
+      "previous_revision": "현장에서 배우는 것도 중요하나 준비가 되기 전에 큰 책임부터 맡기면 해칠 수 있다",
+      "reason": "준비 전과 해칠 수 있다는 생략된 연결 정리",
+      "revised": "현장에서 배우는 것도 중요하지만 준비 없이 큰 책임부터 맡기면 해를 끼칠 수 있다",
+      "revision_round": 2
     },
     {
-      "id": "ly-11-25",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 25,
+      "id": "ly-11-25",
       "original": "가장 큰 포부는 권력이 아니라 사람들이 어울려 사는 일상이다",
-      "revised": "가장 큰 포부는 권력이 아니라 사람들이 어울려 사는 일상이다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "가장 큰 포부는 권력이 아니라 사람들이 어울려 사는 일상이다",
+      "reason": "포부와 일상을 동일시하는 서술 정리",
+      "revised": "가장 큰 포부는 권력을 얻는 데 있지 않고 사람들이 어울려 사는 일상에 있다",
+      "revision_round": 2
     }
   ],
-  "self_review": {
-    "reviewed": 25,
-    "changed": 4,
-    "unchanged": 21,
-    "content_review_performed": false,
+  "previous_self_review": {
     "assessment": "25개 중 4개를 수정했다. 대화의 주체와 인칭을 분명히 했으나 사건이나 감정 설명은 덧붙이지 않았다. ‘큰 신하는 능력보다’는 비교 내용을 새로 정해야 하므로 보존했다.",
     "carry_forward_to_next_book": "인칭과 말끝은 조정하되 실제 대화의 발언 내용은 바꾸지 않는다.",
+    "changed": 4,
+    "content_review_performed": false,
     "held_for_meaning_preservation": [
       "23장 ‘큰 신하는 능력보다’는 비교 대상의 재해석 없이 보존."
     ],
-    "reviewer": "이 대화의 작성자 자체 평가; 외부 독립 검수 아님"
+    "reviewed": 25,
+    "reviewer": "이 대화의 작성자 자체 평가; 외부 독립 검수 아님",
+    "unchanged": 21
+  },
+  "schema_version": "2.0",
+  "scope": "이 장의 핵심",
+  "self_review": {
+    "assessment": "사용자가 승인한 2차 제안을 그대로 수정본에 반영. 이번 반영 과정에서 새 문체 변경은 하지 않음.",
+    "changed": 20,
+    "content_review_performed": false,
+    "reviewed": 25,
+    "round_2_approved_applied": 18,
+    "unchanged": 5
+  },
+  "source": {
+    "blob_sha": "816ad65fdf62c262291949e5551e4676aa25b7b7",
+    "branch": "트랙/뉴코퍼스",
+    "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+    "identity": "article.card의 id 그대로 사용",
+    "path": "1차완성본/쉬운설명카드/11-선진.html",
+    "repository": "hermes-blue/analects",
+    "selector": "article.card > .big > p.hx"
   }
 }
