@@ -1,12 +1,12 @@
 {
-  "processed": 100,
-  "rewritten": 98,
-  "unchanged_in_output": 21,
+  "processed": 200,
+  "rewritten": 198,
+  "unchanged_in_output": 7,
   "pending_source": [
     "ly-01-11",
     "ly-03-21"
   ],
-  "batch_reviews": 20,
+  "batch_reviews": 40,
   "all_non_target_fields_preserved": true,
   "duplicate_openings": 0,
   "length_review": []
