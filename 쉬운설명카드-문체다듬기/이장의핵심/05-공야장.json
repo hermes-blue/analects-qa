@@ -1,243 +1,299 @@
 {
-  "schema_version": "1.0",
-  "scope": "이 장의 핵심",
-  "source": {
-    "repository": "hermes-blue/analects",
-    "branch": "트랙/뉴코퍼스",
-    "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
-    "path": "1차완성본/쉬운설명카드/05-공야장.html",
-    "blob_sha": "222e20ea42d90cf5c8d49d5cd063fbba6b37b8c7",
-    "selector": "article.card > .big > p.hx",
-    "identity": "article.card의 id 그대로 사용"
-  },
-  "book_number": 5,
   "book_name": "공야장",
+  "book_number": 5,
   "cards": [
     {
-      "id": "ly-05-01",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 1,
+      "id": "ly-05-01",
       "original": "처벌받은 기록만으로 사람의 죄와 인품을 단정하지 않는다",
-      "revised": "처벌받은 기록만으로 사람의 죄와 인품을 단정하지 않는다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "처벌받은 기록만으로 사람의 죄와 인품을 단정하지 않는다",
+      "reason": "기록만으로라는 명사형을 자연스럽게 풀기",
+      "revised": "처벌받은 기록만 보고 그 사람의 죄나 인품을 단정하지 않는다",
+      "revision_round": 2
     },
     {
-      "id": "ly-05-02",
+      "changed": false,
       "chapter": 2,
+      "id": "ly-05-02",
       "original": "훌륭한 사람 뒤에는 그를 길러낸 좋은 사람과 환경이 있다",
-      "revised": "훌륭한 사람 뒤에는 그를 길러낸 좋은 사람과 환경이 있다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
+      "revised": "훌륭한 사람 뒤에는 그를 길러낸 좋은 사람과 환경이 있다"
     },
     {
-      "id": "ly-05-03",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 3,
+      "id": "ly-05-03",
       "original": "뛰어난 재능이 있어도 사람 전체가 완성된 것은 아니다",
-      "revised": "뛰어난 재능이 있어도 사람 전체가 완성된 것은 아니다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "뛰어난 재능이 있어도 사람 전체가 완성된 것은 아니다",
+      "reason": "사람 전체가 완성된다는 어색한 표현 정리",
+      "revised": "뛰어난 재능이 있다고 사람됨까지 완성된 것은 아니다",
+      "revision_round": 2
     },
     {
-      "id": "ly-05-04",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 4,
+      "id": "ly-05-04",
       "original": "말을 잘하는 것은 어진 사람의 필수 조건이 아니다",
-      "revised": "말을 잘하는 것은 어진 사람의 필수 조건이 아니다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "말을 잘하는 것은 어진 사람의 필수 조건이 아니다",
+      "reason": "필수 조건이라는 명사형 풀기",
+      "revised": "어진 사람이라고 반드시 말을 잘해야 하는 것은 아니다",
+      "revision_round": 2
     },
     {
-      "id": "ly-05-05",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 5,
+      "id": "ly-05-05",
       "original": "기회가 왔다고 준비되지 않은 채 서둘러 나아가지는 않는다",
-      "revised": "기회가 왔다고 준비되지 않은 채 서둘러 나아가지는 않는다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "기회가 왔다고 준비되지 않은 채 서둘러 나아가지는 않는다",
+      "reason": "부정형과 조건절의 호흡 정리",
+      "revised": "기회가 왔더라도 준비가 안 됐다면 서둘러 나아가지 않는다",
+      "revision_round": 2
     },
     {
-      "id": "ly-05-06",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 6,
+      "id": "ly-05-06",
       "original": "용기는 큰 장점이지만 상황을 헤아리지 않으면 성급함이 된다",
-      "revised": "용기는 큰 장점이지만 상황을 헤아리지 않으면 성급함이 된다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "용기는 큰 장점이지만 상황을 헤아리지 않으면 성급함이 된다",
+      "reason": "용기가 성급함이 된다는 명사 대비 풀기",
+      "revised": "용기는 큰 장점이지만 상황을 헤아리지 않고 발휘하면 성급한 행동이 된다",
+      "revision_round": 2
     },
     {
-      "id": "ly-05-07",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 7,
+      "id": "ly-05-07",
       "original": "일을 잘하는 능력과 사람됨의 완성은 같은 평가가 아니다",
-      "revised": "일을 잘하는 능력과 사람됨의 완성은 서로 다른 기준으로 평가한다",
-      "changed": true,
-      "reason": "능력과 완성이 ‘평가’라는 어색한 호응을 다듬었다."
+      "previous_revision": "일을 잘하는 능력과 사람됨의 완성은 서로 다른 기준으로 평가한다",
+      "reason": "능력과 완성이라는 추상 명사 나열 풀기",
+      "revised": "일을 얼마나 잘하는지와 사람됨이 얼마나 갖춰졌는지는 따로 평가한다",
+      "revision_round": 2
     },
     {
-      "id": "ly-05-08",
+      "changed": false,
       "chapter": 8,
+      "id": "ly-05-08",
       "original": "자기보다 나은 사람을 알아보는 것도 큰 능력이다",
-      "revised": "자기보다 나은 사람을 알아보는 것도 큰 능력이다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
+      "revised": "자기보다 나은 사람을 알아보는 것도 큰 능력이다"
     },
     {
-      "id": "ly-05-09",
+      "changed": false,
       "chapter": 9,
+      "id": "ly-05-09",
       "original": "사람의 말은 행동으로 확인해야 한다",
-      "revised": "사람의 말은 행동으로 확인해야 한다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
+      "revised": "사람의 말은 행동으로 확인해야 한다"
     },
     {
-      "id": "ly-05-10",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 10,
+      "id": "ly-05-10",
       "original": "진짜 강함은 욕심에 끌려가지 않는 힘이다",
-      "revised": "진짜 강함은 욕심에 끌려가지 않는 힘이다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "진짜 강함은 욕심에 끌려가지 않는 힘이다",
+      "reason": "강함을 힘으로 정의하는 동어반복 정리",
+      "revised": "욕심에 끌려가지 않을 수 있어야 진정으로 강한 사람이다",
+      "revision_round": 2
     },
     {
-      "id": "ly-05-11",
+      "changed": false,
       "chapter": 11,
+      "id": "ly-05-11",
       "original": "좋은 원칙을 말하는 것과 끝까지 실천하는 것은 다르다",
-      "revised": "좋은 원칙을 말하는 것과 끝까지 실천하는 것은 다르다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
+      "revised": "좋은 원칙을 말하는 것과 끝까지 실천하는 것은 다르다"
     },
     {
-      "id": "ly-05-12",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 12,
+      "id": "ly-05-12",
       "original": "깊은 문제일수록 함부로 자주 말하지 않는다",
-      "revised": "깊은 문제일수록 함부로 자주 말하지 않는다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "깊은 문제일수록 함부로 자주 말하지 않는다",
+      "reason": "깊은 문제라는 추상적인 표현 풀기",
+      "revised": "깊이 생각해야 할 문제일수록 함부로 자주 입에 올리지 않는다",
+      "revision_round": 2
     },
     {
-      "id": "ly-05-13",
+      "changed": false,
       "chapter": 13,
+      "id": "ly-05-13",
       "original": "새로 배우는 것보다 이미 배운 것을 행동으로 옮기는 일이 먼저다",
-      "revised": "새로 배우는 것보다 이미 배운 것을 행동으로 옮기는 일이 먼저다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
+      "revised": "새로 배우는 것보다 이미 배운 것을 행동으로 옮기는 일이 먼저다"
     },
     {
-      "id": "ly-05-14",
+      "changed": false,
       "chapter": 14,
+      "id": "ly-05-14",
       "original": "똑똑한 사람일수록 누구에게든 배울 줄 알아야 한다",
-      "revised": "똑똑한 사람일수록 누구에게든 배울 줄 알아야 한다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
+      "revised": "똑똑한 사람일수록 누구에게든 배울 줄 알아야 한다"
     },
     {
-      "id": "ly-05-15",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 15,
+      "id": "ly-05-15",
       "original": "좋은 정치가는 자기 몸가짐과 백성을 대하는 태도가 따로 놀지 않는다",
-      "revised": "좋은 정치가는 자기 몸가짐과 백성을 대하는 태도가 따로 놀지 않는다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "좋은 정치가는 자기 몸가짐과 백성을 대하는 태도가 따로 놀지 않는다",
+      "reason": "태도가 따로 논다는 거친 비유 정리",
+      "revised": "좋은 정치가는 몸가짐에서나 백성을 대할 때나 한결같다",
+      "revision_round": 2
     },
     {
-      "id": "ly-05-16",
+      "changed": true,
       "chapter": 16,
+      "id": "ly-05-16",
       "original": "좋은 관계는 오래되어도 상대를 가볍게 여기지 않는다",
-      "revised": "좋은 관계에서는 오래 사귀어도 상대를 가볍게 여기지 않는다",
-      "changed": true,
-      "reason": "‘관계는 상대를 여기지 않는다’의 호응을 바로잡았다."
+      "reason": "‘관계는 상대를 여기지 않는다’의 호응을 바로잡았다.",
+      "revised": "좋은 관계에서는 오래 사귀어도 상대를 가볍게 여기지 않는다"
     },
     {
-      "id": "ly-05-17",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 17,
+      "id": "ly-05-17",
       "original": "지혜롭다는 명성도 자기 분수를 모르면 흔들린다",
-      "revised": "지혜롭다는 명성도 자기 분수를 모르면 흔들린다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "지혜롭다는 명성도 자기 분수를 모르면 흔들린다",
+      "reason": "명성이 흔들린다는 추상적 비유 풀기",
+      "revised": "자기 분수를 모르면 지혜롭다는 평판도 지키기 어렵다",
+      "revision_round": 2
     },
     {
-      "id": "ly-05-18",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 18,
+      "id": "ly-05-18",
       "original": "한 가지 훌륭한 덕만으로 사람 전체를 완성됐다고 단정하지 않는다",
-      "revised": "한 가지 훌륭한 덕만으로 그 사람이 완성됐다고 단정하지 않는다",
-      "changed": true,
-      "reason": "‘사람 전체를 완성됐다고’의 조사와 호응을 다듬었다."
+      "previous_revision": "한 가지 훌륭한 덕만으로 그 사람이 완성됐다고 단정하지 않는다",
+      "reason": "사람 전체의 완성이라는 압축된 표현 풀기",
+      "revised": "한 가지 훌륭한 덕을 지녔다고 사람됨까지 완성됐다고 단정하지 않는다",
+      "revision_round": 2
     },
     {
-      "id": "ly-05-19",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 19,
+      "id": "ly-05-19",
       "original": "신중함도 지나치면 결단을 늦추는 계산이 된다",
-      "revised": "신중함도 지나치면 결단을 늦추는 계산이 된다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "신중함도 지나치면 결단을 늦추는 계산이 된다",
+      "reason": "신중함이 계산이 된다는 명사 대비 풀기",
+      "revised": "지나치게 신중하면 계산만 하다가 결단이 늦어진다",
+      "revision_round": 2
     },
     {
-      "id": "ly-05-20",
+      "changed": false,
       "chapter": 20,
+      "id": "ly-05-20",
       "original": "어지러운 시대에는 영리해 보이는 것보다 자신과 원칙을 지키는 일이 더 어렵다",
-      "revised": "어지러운 시대에는 영리해 보이는 것보다 자신과 원칙을 지키는 일이 더 어렵다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
+      "revised": "어지러운 시대에는 영리해 보이는 것보다 자신과 원칙을 지키는 일이 더 어렵다"
     },
     {
-      "id": "ly-05-21",
-      "chapter": 21,
-      "original": "큰 뜻과 재능도 다듬지 않으면 완성되지 않는다",
-      "revised": "큰 뜻과 재능도 다듬지 않으면 완성되지 않는다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
-    },
-    {
-      "id": "ly-05-22",
-      "chapter": 22,
-      "original": "지난 잘못을 영원히 붙들지 않을 때 원망도 줄어든다",
-      "revised": "지난 잘못을 영원히 붙들지 않을 때 원망도 줄어든다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
-    },
-    {
-      "id": "ly-05-23",
-      "chapter": 23,
-      "original": "작은 친절도 사실을 꾸미면 정직함과 멀어질 수 있다",
-      "revised": "작은 친절도 사실을 꾸미면 정직함과 멀어질 수 있다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
-    },
-    {
-      "id": "ly-05-24",
-      "chapter": 24,
-      "original": "속으로 원망하면서 겉으로 친한 척하는 것은 부끄러운 일이다",
-      "revised": "속으로 원망하면서 겉으로 친한 척하는 것은 부끄러운 일이다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
-    },
-    {
-      "id": "ly-05-25",
-      "chapter": 25,
-      "original": "공자님의 뜻은 자기 성취보다 주변 사람을 편안하게 하는 데까지 넓어진다",
-      "revised": "공자님의 뜻은 자신의 성취를 넘어 주변 사람을 편안하게 하는 데까지 미친다",
+      "approval_status": "approved",
       "changed": true,
-      "reason": "‘보다 … 데까지 넓어진다’의 어색한 연결을 다듬었다."
+      "chapter": 21,
+      "id": "ly-05-21",
+      "original": "큰 뜻과 재능도 다듬지 않으면 완성되지 않는다",
+      "previous_revision": "큰 뜻과 재능도 다듬지 않으면 완성되지 않는다",
+      "reason": "뜻과 재능을 함께 다듬는 문장 연결 정리",
+      "revised": "큰 뜻을 품고 재능을 갖췄어도 다듬어야 완성된다",
+      "revision_round": 2
     },
     {
-      "id": "ly-05-26",
+      "approval_status": "approved",
+      "changed": true,
+      "chapter": 22,
+      "id": "ly-05-22",
+      "original": "지난 잘못을 영원히 붙들지 않을 때 원망도 줄어든다",
+      "previous_revision": "지난 잘못을 영원히 붙들지 않을 때 원망도 줄어든다",
+      "reason": "잘못을 영원히 붙든다는 과장된 비유 풀기",
+      "revised": "지난 잘못을 언제까지나 들추지 않으면 원망도 줄어든다",
+      "revision_round": 2
+    },
+    {
+      "approval_status": "approved",
+      "changed": true,
+      "chapter": 23,
+      "id": "ly-05-23",
+      "original": "작은 친절도 사실을 꾸미면 정직함과 멀어질 수 있다",
+      "previous_revision": "작은 친절도 사실을 꾸미면 정직함과 멀어질 수 있다",
+      "reason": "친절 자체를 주어로 삼은 연결 정리",
+      "revised": "작은 친절을 베풀 때도 사실을 꾸미면 정직함과 멀어질 수 있다",
+      "revision_round": 2
+    },
+    {
+      "changed": false,
+      "chapter": 24,
+      "id": "ly-05-24",
+      "original": "속으로 원망하면서 겉으로 친한 척하는 것은 부끄러운 일이다",
+      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
+      "revised": "속으로 원망하면서 겉으로 친한 척하는 것은 부끄러운 일이다"
+    },
+    {
+      "changed": true,
+      "chapter": 25,
+      "id": "ly-05-25",
+      "original": "공자님의 뜻은 자기 성취보다 주변 사람을 편안하게 하는 데까지 넓어진다",
+      "reason": "‘보다 … 데까지 넓어진다’의 어색한 연결을 다듬었다.",
+      "revised": "공자님의 뜻은 자신의 성취를 넘어 주변 사람을 편안하게 하는 데까지 미친다"
+    },
+    {
+      "changed": false,
       "chapter": 26,
+      "id": "ly-05-26",
       "original": "잘못을 알아차리는 것보다 변명 없이 자기 책임으로 받아들이는 일이 더 어렵다",
-      "revised": "잘못을 알아차리는 것보다 변명 없이 자기 책임으로 받아들이는 일이 더 어렵다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
+      "revised": "잘못을 알아차리는 것보다 변명 없이 자기 책임으로 받아들이는 일이 더 어렵다"
     },
     {
-      "id": "ly-05-27",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 27,
+      "id": "ly-05-27",
       "original": "타고난 것보다 계속 배우는 태도가 사람을 가른다",
-      "revised": "타고난 것보다 계속 배우는 태도가 사람을 가른다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "타고난 것보다 계속 배우는 태도가 사람을 가른다",
+      "reason": "사람을 가른다는 표현과 생략된 비교 대상 정리",
+      "revised": "타고난 바탕보다 꾸준히 배우는 태도에서 사람의 차이가 드러난다",
+      "revision_round": 2
     }
   ],
-  "self_review": {
-    "reviewed": 27,
-    "changed": 4,
-    "unchanged": 23,
-    "content_review_performed": false,
+  "previous_self_review": {
     "assessment": "27개 중 4개를 수정했다. 능력과 인품을 나누는 기존 판단을 유지하고, 추상명사가 행위의 주체처럼 쓰인 문장을 정리했다.",
     "carry_forward_to_next_book": "‘관계는’, ‘교육은’ 같은 주어가 뒤 동사와 맞지 않을 때 조사나 주어만 최소한으로 조정한다.",
+    "changed": 4,
+    "content_review_performed": false,
     "held_for_meaning_preservation": [],
-    "reviewer": "이 대화의 작성자 자체 평가; 외부 독립 검수 아님"
+    "reviewed": 27,
+    "reviewer": "이 대화의 작성자 자체 평가; 외부 독립 검수 아님",
+    "unchanged": 23
+  },
+  "schema_version": "2.0",
+  "scope": "이 장의 핵심",
+  "self_review": {
+    "assessment": "사용자가 승인한 2차 제안을 그대로 수정본에 반영. 이번 반영 과정에서 새 문체 변경은 하지 않음.",
+    "changed": 18,
+    "content_review_performed": false,
+    "reviewed": 27,
+    "round_2_approved_applied": 16,
+    "unchanged": 9
+  },
+  "source": {
+    "blob_sha": "222e20ea42d90cf5c8d49d5cd063fbba6b37b8c7",
+    "branch": "트랙/뉴코퍼스",
+    "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+    "identity": "article.card의 id 그대로 사용",
+    "path": "1차완성본/쉬운설명카드/05-공야장.html",
+    "repository": "hermes-blue/analects",
+    "selector": "article.card > .big > p.hx"
   }
 }
