@@ -1,5 +1,5 @@
 {
-  "apply_safety": "ID와 원문이 모두 일치할 때만 수정문을 적용한다. 원문이 달라졌으면 자동으로 덮어쓰지 않는다.",
+  "apply_safety": "id·scope·index·field/side·label과 original이 모두 일치할 때만 changed:true인 수정문을 적용한다. 원문이 달라졌으면 덮어쓰지 않는다. 한자 표제·인용·이미지·HTML 구조와 다른 텍스트는 보존한다.",
   "criteria": [
     "잘 읽히는 문장은 보존한다.",
     "뜻이 유지되고 읽기가 분명히 편해지는 경우만 수정한다.",
@@ -8,14 +8,31 @@
     "단정·추정·조건·비교·부정의 강도를 보존한다.",
     "의심되는 내용은 고치지 않는다. 꼭 필요한 경우에만 비고에 적는다.",
     "수정 건수 목표를 두지 않는다.",
-    "원본 HTML을 변경하지 않고 별도 JSON에 원문과 수정문을 함께 보존한다."
+    "원본 HTML을 변경하지 않고 별도 JSON에 원문과 수정문을 함께 보존한다.",
+    "한자 표제어와 독음, 질문의 전제, 학자 이름과 인용문, 쟁점 제목은 보존한다.",
+    "교정 후 뜻의 주체나 범위가 달라질 가능성이 보이면 해당 수정을 취소한다."
   ],
+  "field_mapping": {
+    "問": {
+      "identity": "카드 id + 문답 순번 index(1부터) + field(질문/답변)",
+      "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
+    },
+    "語": {
+      "identity": "카드 id + 단어 순번 index(1부터) + label",
+      "selector": "article.card details.st1 .w > p:not(.wh)"
+    },
+    "說": {
+      "identity": "카드 id + 쟁점 순번 index(1부터) + 견해 순번 side(1부터) + heading + label",
+      "selector": "article.card details.st3 .js .side > p"
+    }
+  },
   "passes": [
     "이 장의 핵심",
     "語 한자 풀이",
     "問 의문",
     "說 쟁점"
   ],
+  "remaining_sections_method": "語·問·說 전 항목을 문체 패턴으로 검색한 뒤 후보 문장의 표현과 문맥을 확인하는 선별 교정. 전 문장 정독 교열이나 내용 검증을 의미하지 않는다.",
   "scope": "문장 표현만 가볍게 다듬기. 내용 검수와 해석 수정은 하지 않는다.",
   "workflow": "한 항목을 학이부터 요왈까지 모두 검토한다. 각 편을 마치면 자체 평가를 기록하고 다음 편에 적용한다."
 }
