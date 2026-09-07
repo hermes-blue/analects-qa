@@ -27,10 +27,17 @@
       "chapter": 3,
       "id": "ly-02-03",
       "original": "벌을 피하게 하는 것보다 스스로 부끄러움을 알게 하는 정치가 깊다",
-      "previous_revision": "벌을 피하게 하는 것보다 스스로 부끄러움을 알게 하는 정치가 깊다",
-      "reason": "깊다는 평가의 서술 연결 정리",
-      "revised": "벌만 피하게 하는 정치보다 스스로 부끄러움을 알게 하는 정치가 더 깊이 작용한다",
-      "revision_round": 2
+      "previous_revision": "벌만 피하게 하는 정치보다 스스로 부끄러움을 알게 하는 정치가 더 깊이 작용한다",
+      "reason": "정치가 깊이 작용한다는 추상적 서술 풀기",
+      "revised": "벌만 피하게 하는 정치보다 스스로 부끄러움을 알게 하는 정치가 사람에게 더 깊이 영향을 준다",
+      "revision_round": 3,
+      "revision_history": [
+        {
+          "revision_round": 2,
+          "revised": "벌만 피하게 하는 정치보다 스스로 부끄러움을 알게 하는 정치가 더 깊이 작용한다",
+          "reason": "깊다는 평가의 서술 연결 정리"
+        }
+      ]
     },
     {
       "approval_status": "approved",
@@ -120,10 +127,17 @@
       "chapter": 12,
       "id": "ly-02-12",
       "original": "사람을 한 가지 기능에만 가두지 않는다",
-      "previous_revision": "사람을 한 가지 기능에만 가두지 않는다",
-      "reason": "기능에 가둔다는 압축된 비유 풀기",
-      "revised": "사람을 한 가지 기능만 하는 존재로 가두지 않는다",
-      "revision_round": 2
+      "previous_revision": "사람을 한 가지 기능만 하는 존재로 가두지 않는다",
+      "reason": "존재로 가둔다는 어색한 비유를 정확한 동사로 정리",
+      "revised": "사람을 한 가지 기능만 하는 존재로 한정하지 않는다",
+      "revision_round": 3,
+      "revision_history": [
+        {
+          "revision_round": 2,
+          "revised": "사람을 한 가지 기능만 하는 존재로 가두지 않는다",
+          "reason": "기능에 가둔다는 압축된 비유 풀기"
+        }
+      ]
     },
     {
       "changed": false,
@@ -252,15 +266,16 @@
     "reviewer": "이 대화의 작성자 자체 평가; 외부 독립 검수 아님",
     "unchanged": 20
   },
-  "schema_version": "2.0",
+  "schema_version": "3.0",
   "scope": "이 장의 핵심",
   "self_review": {
-    "assessment": "사용자가 승인한 2차 제안을 그대로 수정본에 반영. 이번 반영 과정에서 새 문체 변경은 하지 않음.",
+    "assessment": "3차 제안 중 사용자가 승인한 문장을 그대로 수정본에 반영. 제안이 없던 문장은 유지. 내용 검수는 하지 않음.",
     "changed": 17,
     "content_review_performed": false,
     "reviewed": 24,
     "round_2_approved_applied": 15,
-    "unchanged": 7
+    "unchanged": 7,
+    "round_3_approved_applied": 2
   },
   "source": {
     "blob_sha": "c298f413ceb0d7f682002ee317d58f9ee9e0e448",
@@ -270,5 +285,13 @@
     "path": "1차완성본/쉬운설명카드/02-위정.html",
     "repository": "hermes-blue/analects",
     "selector": "article.card > .big > p.hx"
+  },
+  "round_2_self_review": {
+    "assessment": "사용자가 승인한 2차 제안을 그대로 수정본에 반영. 이번 반영 과정에서 새 문체 변경은 하지 않음.",
+    "changed": 17,
+    "content_review_performed": false,
+    "reviewed": 24,
+    "round_2_approved_applied": 15,
+    "unchanged": 7
   }
 }
