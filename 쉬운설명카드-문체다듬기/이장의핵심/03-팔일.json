@@ -90,12 +90,22 @@
       "revised": "전통을 안다는 것과 그것을 증명할 수 있다는 것은 다르다"
     },
     {
-      "changed": false,
+      "changed": true,
       "chapter": 10,
       "id": "ly-03-10",
       "original": "형식만 남은 큰 의식은 보고 싶지 않을 만큼 예에서 멀어진다",
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
-      "revised": "형식만 남은 큰 의식은 보고 싶지 않을 만큼 예에서 멀어진다"
+      "reason": "의식과 예 사이의 거리를 보고 싶은 정도로 재는 듯한 결합 정리",
+      "revised": "형식만 남은 큰 의식은 예의 뜻에서 멀어져 보고 싶지 않을 지경이다",
+      "revision_history": [
+        {
+          "revision_round": 1,
+          "revised": "형식만 남은 큰 의식은 보고 싶지 않을 만큼 예에서 멀어진다",
+          "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+        }
+      ],
+      "previous_revision": "형식만 남은 큰 의식은 보고 싶지 않을 만큼 예에서 멀어진다",
+      "revision_round": 3,
+      "approval_status": "approved"
     },
     {
       "approval_status": "approved",
@@ -201,10 +211,17 @@
       "chapter": 21,
       "id": "ly-03-21",
       "original": "돌이킬 수 없는 일을 붙들고 책망하기보다 다음 판단을 바로잡는다",
-      "previous_revision": "돌이킬 수 없는 일을 붙들고 책망하기보다 다음 판단을 바로잡는다",
-      "reason": "일을 붙드는 비유와 다음 판단이라는 명사형 풀기",
-      "revised": "돌이킬 수 없는 일을 계속 책망하기보다 다음에는 바르게 판단한다",
-      "revision_round": 2
+      "previous_revision": "돌이킬 수 없는 일을 계속 책망하기보다 다음에는 바르게 판단한다",
+      "reason": "일을 직접 책망한다는 어색한 목적어 연결 정리",
+      "revised": "돌이킬 수 없는 일을 두고 계속 책망하기보다 다음에는 바르게 판단한다",
+      "revision_round": 3,
+      "revision_history": [
+        {
+          "revision_round": 2,
+          "revised": "돌이킬 수 없는 일을 계속 책망하기보다 다음에는 바르게 판단한다",
+          "reason": "일을 붙드는 비유와 다음 판단이라는 명사형 풀기"
+        }
+      ]
     },
     {
       "approval_status": "approved",
@@ -269,15 +286,16 @@
     "reviewer": "이 대화의 작성자 자체 평가; 외부 독립 검수 아님",
     "unchanged": 22
   },
-  "schema_version": "2.0",
+  "schema_version": "3.0",
   "scope": "이 장의 핵심",
   "self_review": {
-    "assessment": "사용자가 승인한 2차 제안을 그대로 수정본에 반영. 이번 반영 과정에서 새 문체 변경은 하지 않음.",
-    "changed": 18,
+    "assessment": "3차 제안 중 사용자가 승인한 문장을 그대로 수정본에 반영. 제안이 없던 문장은 유지. 내용 검수는 하지 않음.",
+    "changed": 19,
     "content_review_performed": false,
     "reviewed": 26,
     "round_2_approved_applied": 16,
-    "unchanged": 8
+    "unchanged": 7,
+    "round_3_approved_applied": 2
   },
   "source": {
     "blob_sha": "a569dc24bc1cdff4db47200f0cefeab8df87d605",
@@ -287,5 +305,13 @@
     "path": "1차완성본/쉬운설명카드/03-팔일.html",
     "repository": "hermes-blue/analects",
     "selector": "article.card > .big > p.hx"
+  },
+  "round_2_self_review": {
+    "assessment": "사용자가 승인한 2차 제안을 그대로 수정본에 반영. 이번 반영 과정에서 새 문체 변경은 하지 않음.",
+    "changed": 18,
+    "content_review_performed": false,
+    "reviewed": 26,
+    "round_2_approved_applied": 16,
+    "unchanged": 8
   }
 }
