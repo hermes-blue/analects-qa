@@ -1,237 +1,284 @@
 {
-  "schema_version": "1.0",
-  "scope": "이 장의 핵심",
-  "source": {
-    "repository": "hermes-blue/analects",
-    "branch": "트랙/뉴코퍼스",
-    "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
-    "path": "1차완성본/쉬운설명카드/04-이인.html",
-    "blob_sha": "f392e8b176615e6c7c0afffbfb04618d24a2a853",
-    "selector": "article.card > .big > p.hx",
-    "identity": "article.card의 id 그대로 사용"
-  },
-  "book_number": 4,
   "book_name": "이인",
+  "book_number": 4,
   "cards": [
     {
-      "id": "ly-04-01",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 1,
+      "id": "ly-04-01",
       "original": "어떤 사람들 곁에서 사느냐도 삶의 방향을 만든다",
-      "revised": "어떤 사람들 곁에서 사느냐도 삶의 방향을 만든다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "어떤 사람들 곁에서 사느냐도 삶의 방향을 만든다",
+      "reason": "삶의 방향을 만든다는 어색한 결합 정리",
+      "revised": "어떤 사람들 곁에서 사느냐에 따라 삶의 방향도 달라진다",
+      "revision_round": 2
     },
     {
-      "id": "ly-04-02",
+      "changed": false,
       "chapter": 2,
+      "id": "ly-04-02",
       "original": "좋을 때도 힘들 때도 자신을 잃지 않게 하는 기준이 필요하다",
-      "revised": "좋을 때도 힘들 때도 자신을 잃지 않게 하는 기준이 필요하다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
+      "revised": "좋을 때도 힘들 때도 자신을 잃지 않게 하는 기준이 필요하다"
     },
     {
-      "id": "ly-04-03",
+      "changed": false,
       "chapter": 3,
+      "id": "ly-04-03",
       "original": "어진 사람은 무조건 모두를 좋아하는 사람이 아니다",
-      "revised": "어진 사람은 무조건 모두를 좋아하는 사람이 아니다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
+      "revised": "어진 사람은 무조건 모두를 좋아하는 사람이 아니다"
     },
     {
-      "id": "ly-04-04",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 4,
+      "id": "ly-04-04",
       "original": "삶의 방향을 어디에 두느냐가 먼저다",
-      "revised": "삶의 방향을 어디에 두느냐가 먼저다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "삶의 방향을 어디에 두느냐가 먼저다",
+      "reason": "삶의 방향을 어디에 둔다는 추상적 표현 풀기",
+      "revised": "어떻게 살 것인지부터 정해야 한다",
+      "revision_round": 2
     },
     {
-      "id": "ly-04-05",
+      "changed": false,
       "chapter": 5,
+      "id": "ly-04-05",
       "original": "원하는 것을 얻는 방법이 그 결과보다 중요하다",
-      "revised": "원하는 것을 얻는 방법이 그 결과보다 중요하다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
+      "revised": "원하는 것을 얻는 방법이 그 결과보다 중요하다"
     },
     {
-      "id": "ly-04-06",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 6,
+      "id": "ly-04-06",
       "original": "어진 삶은 능력이 없어서 못 하는 일이 아니라 실제로 힘쓰느냐의 문제다",
-      "revised": "어진 삶은 능력이 없어서 못 하는 일이 아니라 실제로 힘쓰느냐의 문제다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "어진 삶은 능력이 없어서 못 하는 일이 아니라 실제로 힘쓰느냐의 문제다",
+      "reason": "어진 삶은 문제라는 명사형 연결 풀기",
+      "revised": "어진 삶을 살 수 있느냐는 능력보다 실제로 얼마나 힘쓰느냐에 달려 있다",
+      "revision_round": 2
     },
     {
-      "id": "ly-04-07",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 7,
+      "id": "ly-04-07",
       "original": "사람의 잘못에도 그 사람의 평소 방향이 드러난다",
-      "revised": "사람의 잘못에도 그 사람의 평소 방향이 드러난다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "사람의 잘못에도 그 사람의 평소 방향이 드러난다",
+      "reason": "사람의 평소 방향이라는 모호한 비유 풀기",
+      "revised": "잘못을 저질렀을 때도 그 사람이 평소 무엇을 추구했는지 드러난다",
+      "revision_round": 2
     },
     {
-      "id": "ly-04-08",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 8,
+      "id": "ly-04-08",
       "original": "어떻게 살아야 하는지 깨닫는 일은 오래 사는 것보다 더 근본적이다",
-      "revised": "어떻게 살아야 하는지 깨닫는 일은 오래 사는 것보다 더 근본적이다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "어떻게 살아야 하는지 깨닫는 일은 오래 사는 것보다 더 근본적이다",
+      "reason": "비교의 어순을 정리해 문장의 호흡 다듬기",
+      "revised": "오래 사는 것보다 어떻게 살아야 하는지 깨닫는 일이 더 근본적이다",
+      "revision_round": 2
     },
     {
-      "id": "ly-04-09",
+      "changed": true,
       "chapter": 9,
+      "id": "ly-04-09",
       "original": "배움을 말하면서 가난한 겉모습을 부끄러워하면 기준이 아직 흔들리고 있다",
-      "revised": "배움을 말하면서 가난해 보이는 것을 부끄러워하면 기준이 아직 흔들리고 있다",
-      "changed": true,
-      "reason": "‘가난한 겉모습’을 쉬운 표현으로 풀었다."
+      "reason": "‘가난한 겉모습’을 쉬운 표현으로 풀었다.",
+      "revised": "배움을 말하면서 가난해 보이는 것을 부끄러워하면 기준이 아직 흔들리고 있다"
     },
     {
-      "id": "ly-04-10",
+      "changed": false,
       "chapter": 10,
+      "id": "ly-04-10",
       "original": "미리 편을 정하지 말고 그때 무엇이 옳은지를 본다",
-      "revised": "미리 편을 정하지 말고 그때 무엇이 옳은지를 본다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
+      "revised": "미리 편을 정하지 말고 그때 무엇이 옳은지를 본다"
     },
     {
-      "id": "ly-04-11",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 11,
+      "id": "ly-04-11",
       "original": "사람의 차이는 무엇을 먼저 마음에 두느냐에서 드러난다",
-      "revised": "사람의 차이는 무엇을 먼저 마음에 두느냐에서 드러난다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "사람의 차이는 무엇을 먼저 마음에 두느냐에서 드러난다",
+      "reason": "차이가 어디에서 드러난다는 추상적 서술 정리",
+      "revised": "무엇을 먼저 마음에 두느냐에 따라 사람은 달라진다",
+      "revision_round": 2
     },
     {
-      "id": "ly-04-12",
+      "changed": true,
       "chapter": 12,
+      "id": "ly-04-12",
       "original": "자기 이익만 좇으면 결국 주변의 원망을 쌓게 된다",
-      "revised": "자기 이익만 좇으면 결국 주변 사람들의 원망을 사게 된다",
-      "changed": true,
-      "reason": "‘주변의 원망을 쌓다’를 자연스러운 결합인 ‘주변 사람들의 원망을 사다’로 바꾸었다."
+      "reason": "‘주변의 원망을 쌓다’를 자연스러운 결합인 ‘주변 사람들의 원망을 사다’로 바꾸었다.",
+      "revised": "자기 이익만 좇으면 결국 주변 사람들의 원망을 사게 된다"
     },
     {
-      "id": "ly-04-13",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 13,
+      "id": "ly-04-13",
       "original": "정치는 서로의 자리를 인정하는 데서 안정된다",
-      "revised": "정치는 서로의 자리를 인정하는 데서 안정된다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "정치는 서로의 자리를 인정하는 데서 안정된다",
+      "reason": "안정되는 데서라는 연결을 자연스럽게 정리",
+      "revised": "서로의 자리를 인정할 때 정치도 안정된다",
+      "revision_round": 2
     },
     {
-      "id": "ly-04-14",
+      "changed": false,
       "chapter": 14,
+      "id": "ly-04-14",
       "original": "자리를 얻는 것보다 그 자리를 감당할 사람이 되는 것이 먼저다",
-      "revised": "자리를 얻는 것보다 그 자리를 감당할 사람이 되는 것이 먼저다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
+      "revised": "자리를 얻는 것보다 그 자리를 감당할 사람이 되는 것이 먼저다"
     },
     {
-      "id": "ly-04-15",
+      "changed": true,
       "chapter": 15,
+      "id": "ly-04-15",
       "original": "공자님의 가르침은 나에게 성실하고 남을 헤아리는 하나로 통한다",
-      "revised": "공자님의 가르침은 자신에게 성실하고 남을 헤아린다는 하나의 원리로 통한다",
-      "changed": true,
-      "reason": "‘헤아리는 하나’의 빠진 명사와 인칭 호응을 보완했다. 기존 핵심의 해석은 유지했다."
+      "reason": "‘헤아리는 하나’의 빠진 명사와 인칭 호응을 보완했다. 기존 핵심의 해석은 유지했다.",
+      "revised": "공자님의 가르침은 자신에게 성실하고 남을 헤아린다는 하나의 원리로 통한다"
     },
     {
-      "id": "ly-04-16",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 16,
+      "id": "ly-04-16",
       "original": "사람은 무엇을 먼저 따지는가에서 갈린다",
-      "revised": "사람은 무엇을 먼저 따지는가에서 갈린다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "사람은 무엇을 먼저 따지는가에서 갈린다",
+      "reason": "사람이 갈린다는 거친 분류 비유 풀기",
+      "revised": "무엇을 먼저 따지는지를 보면 그 사람을 알 수 있다",
+      "revision_round": 2
     },
     {
-      "id": "ly-04-17",
+      "changed": false,
       "chapter": 17,
+      "id": "ly-04-17",
       "original": "좋은 사람에게서는 닮을 점을, 부족한 사람에게서는 내 허물을 찾는다",
-      "revised": "좋은 사람에게서는 닮을 점을, 부족한 사람에게서는 내 허물을 찾는다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
+      "revised": "좋은 사람에게서는 닮을 점을, 부족한 사람에게서는 내 허물을 찾는다"
     },
     {
-      "id": "ly-04-18",
-      "chapter": 18,
-      "original": "부모의 잘못도 말하되 관계의 공경까지 버리지는 않는다",
-      "revised": "부모의 잘못도 말씀드리되 공경하는 마음까지 버리지는 않는다",
       "changed": true,
-      "reason": "‘관계의 공경’을 자연스럽게 풀고 부모에게 하는 말의 높임을 맞췄다."
+      "chapter": 18,
+      "id": "ly-04-18",
+      "original": "부모의 잘못도 말하되 관계의 공경까지 버리지는 않는다",
+      "reason": "‘관계의 공경’을 자연스럽게 풀고 부모에게 하는 말의 높임을 맞췄다.",
+      "revised": "부모의 잘못도 말씀드리되 공경하는 마음까지 버리지는 않는다"
     },
     {
-      "id": "ly-04-19",
+      "changed": false,
       "chapter": 19,
+      "id": "ly-04-19",
       "original": "멀리 떠날 때도 부모가 걱정하지 않게 해야 한다",
-      "revised": "멀리 떠날 때도 부모가 걱정하지 않게 해야 한다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
+      "revised": "멀리 떠날 때도 부모가 걱정하지 않게 해야 한다"
     },
     {
-      "id": "ly-04-20",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 20,
+      "id": "ly-04-20",
       "original": "부모가 떠난 뒤에는 좋은 유산을 성급히 뒤집지 않는다",
-      "revised": "부모가 떠난 뒤에는 좋은 유산을 성급히 뒤집지 않는다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "부모가 떠난 뒤에는 좋은 유산을 성급히 뒤집지 않는다",
+      "reason": "떠남과 유산을 뒤집는다는 결합 정리",
+      "revised": "부모가 돌아가신 뒤에도 좋은 유산을 성급히 바꾸지 않는다",
+      "revision_round": 2
     },
     {
-      "id": "ly-04-21",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 21,
+      "id": "ly-04-21",
       "original": "부모의 나이를 안다는 것은 함께할 시간이 유한함을 아는 일이다",
-      "revised": "부모의 나이를 안다는 것은 함께할 시간이 유한함을 아는 일이다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "부모의 나이를 안다는 것은 함께할 시간이 유한함을 아는 일이다",
+      "reason": "시간의 유한함이라는 추상어를 풀기",
+      "revised": "부모의 나이를 헤아리며 함께할 시간이 끝없이 남아 있지는 않음을 안다",
+      "revision_round": 2
     },
     {
-      "id": "ly-04-22",
+      "changed": false,
       "chapter": 22,
+      "id": "ly-04-22",
       "original": "말보다 행동이 뒤처지는 일을 부끄러워한다",
-      "revised": "말보다 행동이 뒤처지는 일을 부끄러워한다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
+      "revised": "말보다 행동이 뒤처지는 일을 부끄러워한다"
     },
     {
-      "id": "ly-04-23",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 23,
+      "id": "ly-04-23",
       "original": "지나치지 않게 자신을 줄이면 큰 실수도 줄어든다",
-      "revised": "지나치지 않게 자신을 줄이면 큰 실수도 줄어든다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "지나치지 않게 자신을 줄이면 큰 실수도 줄어든다",
+      "reason": "자신을 줄인다는 어색한 직역투 풀기",
+      "revised": "스스로 지나치지 않도록 절제하면 큰 실수도 줄어든다",
+      "revision_round": 2
     },
     {
-      "id": "ly-04-24",
+      "changed": false,
       "chapter": 24,
+      "id": "ly-04-24",
       "original": "말은 신중하게, 행동은 민첩하게 한다",
-      "revised": "말은 신중하게, 행동은 민첩하게 한다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
+      "revised": "말은 신중하게, 행동은 민첩하게 한다"
     },
     {
-      "id": "ly-04-25",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 25,
+      "id": "ly-04-25",
       "original": "꾸준한 덕은 결국 뜻을 함께하는 사람을 만든다",
-      "revised": "꾸준한 덕은 결국 뜻을 함께하는 사람을 만든다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "꾸준한 덕은 결국 뜻을 함께하는 사람을 만든다",
+      "reason": "덕이 사람을 만든다는 부자연스러운 주어 정리",
+      "revised": "꾸준히 덕을 닦으면 결국 뜻을 함께하는 사람이 생긴다",
+      "revision_round": 2
     },
     {
-      "id": "ly-04-26",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 26,
+      "id": "ly-04-26",
       "original": "옳은 충고도 때와 정도를 잃으면 관계를 망칠 수 있다",
-      "revised": "옳은 충고도 때와 정도를 잃으면 관계를 망칠 수 있다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "옳은 충고도 때와 정도를 잃으면 관계를 망칠 수 있다",
+      "reason": "때와 정도를 잃는다는 비유 풀기",
+      "revised": "옳은 충고도 때를 잘못 잡거나 지나치게 하면 관계를 망칠 수 있다",
+      "revision_round": 2
     }
   ],
-  "self_review": {
-    "reviewed": 26,
-    "changed": 4,
-    "unchanged": 22,
-    "content_review_performed": false,
+  "previous_self_review": {
     "assessment": "26개 중 4개를 수정했다. ‘유한함’처럼 다소 딱딱해도 문장 전체가 잘 읽히는 표현은 보존했다. 핵심에 이미 담긴 해석을 다른 칸의 해석으로 교체하지 않았다.",
     "carry_forward_to_next_book": "추상어가 있다는 이유만으로 고치지 않는다. 명사 결합이나 조사·호응이 실제로 어색한 경우에 집중한다.",
+    "changed": 4,
+    "content_review_performed": false,
     "held_for_meaning_preservation": [
       "23장 ‘자신을 줄이면’, 25장 ‘꾸준한 덕’은 뜻을 특정해 다시 쓰지 않고 보존."
     ],
-    "reviewer": "이 대화의 작성자 자체 평가; 외부 독립 검수 아님"
+    "reviewed": 26,
+    "reviewer": "이 대화의 작성자 자체 평가; 외부 독립 검수 아님",
+    "unchanged": 22
+  },
+  "schema_version": "2.0",
+  "scope": "이 장의 핵심",
+  "self_review": {
+    "assessment": "사용자가 승인한 2차 제안을 그대로 수정본에 반영. 이번 반영 과정에서 새 문체 변경은 하지 않음.",
+    "changed": 17,
+    "content_review_performed": false,
+    "reviewed": 26,
+    "round_2_approved_applied": 13,
+    "unchanged": 9
+  },
+  "source": {
+    "blob_sha": "f392e8b176615e6c7c0afffbfb04618d24a2a853",
+    "branch": "트랙/뉴코퍼스",
+    "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+    "identity": "article.card의 id 그대로 사용",
+    "path": "1차완성본/쉬운설명카드/04-이인.html",
+    "repository": "hermes-blue/analects",
+    "selector": "article.card > .big > p.hx"
   }
 }
