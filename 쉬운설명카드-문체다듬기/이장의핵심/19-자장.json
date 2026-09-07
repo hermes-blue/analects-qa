@@ -1,227 +1,301 @@
 {
-  "schema_version": "1.0",
-  "scope": "이 장의 핵심",
-  "source": {
-    "repository": "hermes-blue/analects",
-    "branch": "트랙/뉴코퍼스",
-    "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
-    "path": "1차완성본/쉬운설명카드/19-자장.html",
-    "blob_sha": "50679eceddd3d454aa9f88bdecb4c2f3e1704622",
-    "selector": "article.card > .big > p.hx",
-    "identity": "article.card의 id 그대로 사용"
-  },
-  "book_number": 19,
   "book_name": "자장",
+  "book_number": 19,
   "cards": [
     {
-      "id": "ly-19-01",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 1,
+      "id": "ly-19-01",
       "original": "삶의 큰 고비마다 무엇을 먼저 생각해야 하는지가 선비를 가른다",
-      "revised": "삶의 큰 고비마다 무엇을 먼저 생각해야 하는지가 선비를 가른다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "삶의 큰 고비마다 무엇을 먼저 생각해야 하는지가 선비를 가른다",
+      "reason": "생각해야 하는지가 선비를 가른다는 어색한 결합 정리",
+      "revised": "삶의 큰 고비마다 무엇을 먼저 생각하느냐에 따라 선비의 됨됨이가 드러난다",
+      "revision_round": 2
     },
     {
-      "id": "ly-19-02",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 2,
+      "id": "ly-19-02",
       "original": "덕은 넓게 펼치고 도에 대한 믿음은 깊게 가져야 실제 힘이 생긴다",
-      "revised": "덕은 넓게 펼치고 도에 대한 믿음은 깊게 가져야 실제 힘이 생긴다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "덕은 넓게 펼치고 도에 대한 믿음은 깊게 가져야 실제 힘이 생긴다",
+      "reason": "믿음을 깊게 가진다는 추상적 표현 풀기",
+      "revised": "덕을 널리 펴고 도를 깊이 믿어야 실제 힘을 발휘한다",
+      "revision_round": 2
     },
     {
-      "id": "ly-19-03",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 3,
+      "id": "ly-19-03",
       "original": "사람을 넓게 받아들이되 해로운 관계까지 분별 없이 품을 필요는 없다",
-      "revised": "사람을 넓게 받아들이되 해로운 관계까지 분별 없이 품을 필요는 없다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "사람을 넓게 받아들이되 해로운 관계까지 분별 없이 품을 필요는 없다",
+      "reason": "관계를 품는다는 비유와 분별 없이의 호흡 정리",
+      "revised": "사람을 널리 받아들이되 해로운 관계까지 무턱대고 받아들일 필요는 없다",
+      "revision_round": 2
     },
     {
-      "id": "ly-19-04",
+      "changed": false,
       "chapter": 4,
+      "id": "ly-19-04",
       "original": "전문 기술은 가치가 있지만 그것만으로 삶과 사회 전체를 설명할 수는 없다",
-      "revised": "전문 기술은 가치가 있지만 그것만으로 삶과 사회 전체를 설명할 수는 없다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
+      "revised": "전문 기술은 가치가 있지만 그것만으로 삶과 사회 전체를 설명할 수는 없다"
     },
     {
-      "id": "ly-19-05",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 5,
+      "id": "ly-19-05",
       "original": "배움은 새것을 더하면서 이미 익힌 것을 잃지 않는 과정이다",
-      "revised": "배움은 새것을 더하면서 이미 익힌 것을 잃지 않는 과정이다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "배움은 새것을 더하면서 이미 익힌 것을 잃지 않는 과정이다",
+      "reason": "새것을 더한다는 추상적인 표현 풀기",
+      "revised": "배움은 새로운 것을 익히면서 이미 배운 것도 잊지 않는 일이다",
+      "revision_round": 2
     },
     {
-      "id": "ly-19-06",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 6,
+      "id": "ly-19-06",
       "original": "넓게 배우되 뜻은 굳게 두고 질문은 자기 삶 가까이에서 시작한다",
-      "revised": "넓게 배우되 뜻은 굳게 두고 질문은 자기 삶 가까이에서 시작한다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "넓게 배우되 뜻은 굳게 두고 질문은 자기 삶 가까이에서 시작한다",
+      "reason": "뜻을 두는다는 결합과 질문의 출발이라는 명사형 정리",
+      "revised": "넓게 배우되 뜻을 굳게 지키고 자기 삶에 가까운 일부터 묻는다",
+      "revision_round": 2
     },
     {
-      "id": "ly-19-07",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 7,
+      "id": "ly-19-07",
       "original": "장인이 작업장에 머물듯 군자도 꾸준히 배움의 자리에 있어야 한다",
-      "revised": "장인이 작업장에 머물듯 군자도 꾸준히 배움의 자리에 있어야 한다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "장인이 작업장에 머물듯 군자도 꾸준히 배움의 자리에 있어야 한다",
+      "reason": "배움의 자리에 있다는 중첩된 비유 정리",
+      "revised": "장인이 작업장에 머물듯 군자도 꾸준히 배워야 한다",
+      "revision_round": 2
     },
     {
-      "id": "ly-19-08",
+      "changed": false,
       "chapter": 8,
+      "id": "ly-19-08",
       "original": "잘못보다 더 위험한 것은 변명으로 잘못을 꾸미는 일이다",
-      "revised": "잘못보다 더 위험한 것은 변명으로 잘못을 꾸미는 일이다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
+      "revised": "잘못보다 더 위험한 것은 변명으로 잘못을 꾸미는 일이다"
     },
     {
-      "id": "ly-19-09",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 9,
+      "id": "ly-19-09",
       "original": "군자는 멀리서 엄숙하고 가까이서는 따뜻하며 말은 분명하다",
-      "revised": "군자는 멀리서 엄숙하고 가까이서는 따뜻하며 말은 분명하다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "군자는 멀리서 엄숙하고 가까이서는 따뜻하며 말은 분명하다",
+      "reason": "관찰자의 시점이 빠진 수식 정리",
+      "revised": "군자는 멀리서 보면 엄숙하고 가까이서 보면 따뜻하며 말은 분명하다",
+      "revision_round": 2
     },
     {
-      "id": "ly-19-10",
+      "changed": false,
       "chapter": 10,
+      "id": "ly-19-10",
       "original": "명령도 충고도 먼저 신뢰가 있어야 뜻이 제대로 전달된다",
-      "revised": "명령도 충고도 먼저 신뢰가 있어야 뜻이 제대로 전달된다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
+      "revised": "명령도 충고도 먼저 신뢰가 있어야 뜻이 제대로 전달된다"
     },
     {
-      "id": "ly-19-11",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 11,
+      "id": "ly-19-11",
       "original": "큰 원칙은 넘지 말되 작은 부분의 불완전함까지 같은 무게로 보지는 않는다",
-      "revised": "큰 원칙은 넘지 말되 작은 부분의 불완전함까지 같은 무게로 보지는 않는다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "큰 원칙은 넘지 말되 작은 부분의 불완전함까지 같은 무게로 보지는 않는다",
+      "reason": "불완전함을 같은 무게로 본다는 추상어 풀기",
+      "revised": "큰 원칙은 어기지 않되 작은 부분이 미흡하다고 똑같이 무겁게 보지는 않는다",
+      "revision_round": 2
     },
     {
-      "id": "ly-19-12",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 12,
+      "id": "ly-19-12",
       "original": "기초 예절과 깊은 원리는 경쟁하지 않고 순서대로 이어져야 한다",
-      "revised": "기초 예절과 깊은 원리는 경쟁하지 않고 순서대로 이어져야 한다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "기초 예절과 깊은 원리는 경쟁하지 않고 순서대로 이어져야 한다",
+      "reason": "예절과 원리가 경쟁한다는 어색한 주어 정리",
+      "revised": "기초 예절과 깊은 원리를 서로 경쟁시키지 않고 차례로 이어 가야 한다",
+      "revision_round": 2
     },
     {
-      "id": "ly-19-13",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 13,
+      "id": "ly-19-13",
       "original": "공부와 실무는 서로를 끊는 것이 아니라 번갈아 깊게 만드는 관계이다",
-      "revised": "공부와 실무는 서로 끊어지는 것이 아니라 번갈아 서로를 깊게 하는 관계다",
-      "changed": true,
-      "reason": "‘서로를 끊다’의 호응을 고치고 뒤의 대상을 분명히 했다."
+      "previous_revision": "공부와 실무는 서로 끊어지는 것이 아니라 번갈아 서로를 깊게 하는 관계다",
+      "reason": "관계라는 명사로 끝나는 정의 구문 정리",
+      "revised": "공부와 실무는 서로 끊어져 있지 않고 번갈아 서로를 깊게 해 준다",
+      "revision_round": 2
     },
     {
-      "id": "ly-19-14",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 14,
+      "id": "ly-19-14",
       "original": "상례의 중심은 화려한 형식보다 진실한 슬픔에 있다",
-      "revised": "상례의 중심은 화려한 형식보다 진실한 슬픔에 있다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "상례의 중심은 화려한 형식보다 진실한 슬픔에 있다",
+      "reason": "상례의 중심이라는 압축된 명사 풀기",
+      "revised": "상을 치를 때는 화려한 형식보다 진실한 슬픔이 중심이 되어야 한다",
+      "revision_round": 2
     },
     {
-      "id": "ly-19-15",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 15,
+      "id": "ly-19-15",
       "original": "어려운 일을 해내는 능력과 사람을 향한 깊은 어짐은 같은 것이 아니다",
-      "revised": "어려운 일을 해내는 능력과 사람을 향한 깊은 어짐은 같은 것이 아니다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "어려운 일을 해내는 능력과 사람을 향한 깊은 어짐은 같은 것이 아니다",
+      "reason": "능력과 어짐의 명사형 비교 풀기",
+      "revised": "어려운 일을 해내는 능력과 사람을 대하는 깊은 어짊은 다르다",
+      "revision_round": 2
     },
     {
-      "id": "ly-19-16",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 16,
+      "id": "ly-19-16",
       "original": "겉으로 큰 기세가 있어도 다른 사람과 함께 어짐을 이루는 힘은 별개이다",
-      "revised": "겉으로 큰 기세가 있어도 다른 사람과 함께 어짐을 이루는 힘은 별개이다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "겉으로 큰 기세가 있어도 다른 사람과 함께 어짐을 이루는 힘은 별개이다",
+      "reason": "큰 기세와 별개라는 어색한 정의 정리",
+      "revised": "겉으로 기세가 당당한지와 남과 함께 어짊을 이룰 수 있는지는 따로 보아야 한다",
+      "revision_round": 2
     },
     {
-      "id": "ly-19-17",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 17,
+      "id": "ly-19-17",
       "original": "부모를 잃은 슬픔에서는 꾸미지 않은 인간의 진심이 가장 깊게 드러난다",
-      "revised": "부모를 잃은 슬픔에서는 꾸미지 않은 인간의 진심이 가장 깊게 드러난다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "부모를 잃은 슬픔에서는 꾸미지 않은 인간의 진심이 가장 깊게 드러난다",
+      "reason": "슬픔에서 인간의 진심이 드러난다는 명사형 정리",
+      "revised": "부모를 잃고 슬퍼할 때 꾸밈없는 진심이 가장 깊게 드러난다",
+      "revision_round": 2
     },
     {
-      "id": "ly-19-18",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 18,
+      "id": "ly-19-18",
       "original": "앞사람이 세운 것을 함부로 바꾸지 않는 것도 어려운 효도다",
-      "revised": "앞사람이 세운 것을 함부로 바꾸지 않는 것도 어려운 효도다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "앞사람이 세운 것을 함부로 바꾸지 않는 것도 어려운 효도다",
+      "reason": "어려운 효도라는 생략된 연결 정리",
+      "revised": "앞선 사람이 세운 것을 함부로 바꾸지 않는 것 역시 실천하기 어려운 효도다",
+      "revision_round": 2
     },
     {
-      "id": "ly-19-19",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 19,
+      "id": "ly-19-19",
       "original": "죄를 밝혀 기뻐하기보다 왜 그런 지경에 이르렀는지 먼저 보아야 한다",
-      "revised": "죄를 밝혀 기뻐하기보다 왜 그런 지경에 이르렀는지 먼저 보아야 한다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "죄를 밝혀 기뻐하기보다 왜 그런 지경에 이르렀는지 먼저 보아야 한다",
+      "reason": "죄를 밝혀 기뻐한다는 인과의 호흡 정리",
+      "revised": "죄를 밝혀냈다고 기뻐하기보다 왜 그런 지경에 이르렀는지부터 살펴야 한다",
+      "revision_round": 2
     },
     {
-      "id": "ly-19-20",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 20,
+      "id": "ly-19-20",
       "original": "한 번 악명이 굳으면 실제보다 더 많은 잘못이 그 사람에게 덧붙을 수 있다",
-      "revised": "한 번 악명이 굳으면 실제보다 더 많은 잘못이 그 사람에게 덧붙을 수 있다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "한 번 악명이 굳으면 실제보다 더 많은 잘못이 그 사람에게 덧붙을 수 있다",
+      "reason": "잘못이 사람에게 덧붙는다는 수동 비유 풀기",
+      "revised": "한번 악명이 굳어지면 실제로 저지른 것보다 더 많은 잘못을 뒤집어쓸 수 있다",
+      "revision_round": 2
     },
     {
-      "id": "ly-19-21",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 21,
+      "id": "ly-19-21",
       "original": "군자의 차이는 실수가 없는 데보다 잘못을 숨기지 않고 고치는 데 있다",
-      "revised": "군자의 차이는 실수가 없는 데보다 잘못을 숨기지 않고 고치는 데 있다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "군자의 차이는 실수가 없는 데보다 잘못을 숨기지 않고 고치는 데 있다",
+      "reason": "차이가 데에 있다는 추상적 정의 정리",
+      "revised": "군자는 실수가 없어서가 아니라 잘못을 숨기지 않고 고친다는 점에서 다르다",
+      "revision_round": 2
     },
     {
-      "id": "ly-19-22",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 22,
+      "id": "ly-19-22",
       "original": "정해진 스승 하나보다 세상 곳곳이 스승이다",
-      "revised": "정해진 스승 한 사람보다 세상 곳곳이 스승이다",
-      "changed": true,
-      "reason": "사람을 세는 말 ‘하나’를 ‘한 사람’으로 다듬었다."
+      "previous_revision": "정해진 스승 한 사람보다 세상 곳곳이 스승이다",
+      "reason": "곳곳이 스승이라는 압축된 비유 풀기",
+      "revised": "스승을 한 사람으로 한정하지 않고 세상 곳곳에서 배운다",
+      "revision_round": 2
     },
     {
-      "id": "ly-19-23",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 23,
+      "id": "ly-19-23",
       "original": "눈에 잘 보이는 재능이 더 깊은 사람보다 커 보일 수 있다",
-      "revised": "눈에 잘 보이는 재능을 가진 사람이 더 깊은 사람보다 커 보일 수 있다",
+      "previous_revision": "눈에 잘 보이는 재능을 가진 사람이 더 깊은 사람보다 커 보일 수 있다",
+      "reason": "사람이 커 보인다는 모호한 비교 정리",
+      "revised": "재능이 눈에 잘 띄는 사람이 속이 더 깊은 사람보다 대단해 보일 수 있다",
+      "revision_round": 2
+    },
+    {
+      "approval_status": "approved",
       "changed": true,
-      "reason": "‘재능’과 ‘사람’의 어긋난 비교를 문맥에 맞게 사람끼리의 비교로 다듬었다."
-    },
-    {
-      "id": "ly-19-24",
       "chapter": 24,
+      "id": "ly-19-24",
       "original": "큰 사람의 가치는 비방으로 줄지 않고 비방한 사람의 안목만 드러난다",
-      "revised": "큰 사람의 가치는 비방으로 줄지 않고 비방한 사람의 안목만 드러난다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "큰 사람의 가치는 비방으로 줄지 않고 비방한 사람의 안목만 드러난다",
+      "reason": "큰 사람과 가치의 수동 서술 정리",
+      "revised": "훌륭한 사람을 비방해도 그 가치는 줄지 않고 비방한 사람의 안목만 드러난다",
+      "revision_round": 2
     },
     {
-      "id": "ly-19-25",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 25,
+      "id": "ly-19-25",
       "original": "사람을 평가하는 한마디가 오히려 말한 사람의 안목을 보여 준다",
-      "revised": "사람을 평가하는 한마디가 오히려 말한 사람의 안목을 보여 준다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "사람을 평가하는 한마디가 오히려 말한 사람의 안목을 보여 준다",
+      "reason": "한마디가 보여준다는 상투적인 주어 정리",
+      "revised": "누군가를 평가하는 한마디에서 오히려 말한 사람의 안목이 드러난다",
+      "revision_round": 2
     }
   ],
-  "self_review": {
-    "reviewed": 25,
-    "changed": 3,
-    "unchanged": 22,
-    "content_review_performed": false,
+  "previous_self_review": {
     "assessment": "25개 중 3개를 수정했다. 명사와 서술어의 호응, 사람을 세는 말, 비교 대상을 정리했다. ‘안목을 보여 준다’ 등 자연스러운 문장은 보존했다.",
     "carry_forward_to_next_book": "같은 기준으로 요왈편을 검토한다. 마지막 편이라고 말투를 특별히 바꾸거나 결론을 덧붙이지 않는다.",
+    "changed": 3,
+    "content_review_performed": false,
     "held_for_meaning_preservation": [],
-    "reviewer": "이 대화의 작성자 자체 평가; 외부 독립 검수 아님"
+    "reviewed": 25,
+    "reviewer": "이 대화의 작성자 자체 평가; 외부 독립 검수 아님",
+    "unchanged": 22
+  },
+  "schema_version": "2.0",
+  "scope": "이 장의 핵심",
+  "self_review": {
+    "assessment": "사용자가 승인한 2차 제안을 그대로 수정본에 반영. 이번 반영 과정에서 새 문체 변경은 하지 않음.",
+    "changed": 22,
+    "content_review_performed": false,
+    "reviewed": 25,
+    "round_2_approved_applied": 22,
+    "unchanged": 3
+  },
+  "source": {
+    "blob_sha": "50679eceddd3d454aa9f88bdecb4c2f3e1704622",
+    "branch": "트랙/뉴코퍼스",
+    "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+    "identity": "article.card의 id 그대로 사용",
+    "path": "1차완성본/쉬운설명카드/19-자장.html",
+    "repository": "hermes-blue/analects",
+    "selector": "article.card > .big > p.hx"
   }
 }
