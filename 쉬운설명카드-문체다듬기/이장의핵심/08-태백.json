@@ -225,15 +225,16 @@
     "reviewer": "이 대화의 작성자 자체 평가; 외부 독립 검수 아님",
     "unchanged": 17
   },
-  "schema_version": "2.0",
+  "schema_version": "3.0",
   "scope": "이 장의 핵심",
   "self_review": {
-    "assessment": "사용자가 승인한 2차 제안을 그대로 수정본에 반영. 이번 반영 과정에서 새 문체 변경은 하지 않음.",
+    "assessment": "3차 제안 중 사용자가 승인한 문장을 그대로 수정본에 반영. 제안이 없던 문장은 유지. 내용 검수는 하지 않음.",
     "changed": 15,
     "content_review_performed": false,
     "reviewed": 21,
     "round_2_approved_applied": 14,
-    "unchanged": 6
+    "unchanged": 6,
+    "round_3_approved_applied": 0
   },
   "source": {
     "blob_sha": "2e1d6800360c25a2104b4ec5cd1ae44b588154c6",
@@ -243,5 +244,13 @@
     "path": "1차완성본/쉬운설명카드/08-태백.html",
     "repository": "hermes-blue/analects",
     "selector": "article.card > .big > p.hx"
+  },
+  "round_2_self_review": {
+    "assessment": "사용자가 승인한 2차 제안을 그대로 수정본에 반영. 이번 반영 과정에서 새 문체 변경은 하지 않음.",
+    "changed": 15,
+    "content_review_performed": false,
+    "reviewed": 21,
+    "round_2_approved_applied": 14,
+    "unchanged": 6
   }
 }
