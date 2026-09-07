@@ -1,197 +1,247 @@
 {
-  "schema_version": "1.0",
-  "scope": "이 장의 핵심",
-  "source": {
-    "repository": "hermes-blue/analects",
-    "branch": "트랙/뉴코퍼스",
-    "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
-    "path": "1차완성본/쉬운설명카드/08-태백.html",
-    "blob_sha": "2e1d6800360c25a2104b4ec5cd1ae44b588154c6",
-    "selector": "article.card > .big > p.hx",
-    "identity": "article.card의 id 그대로 사용"
-  },
-  "book_number": 8,
   "book_name": "태백",
+  "book_number": 8,
   "cards": [
     {
-      "id": "ly-08-01",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 1,
+      "id": "ly-08-01",
       "original": "큰 권력을 양보하고도 그 공마저 드러내지 않는다",
-      "revised": "큰 권력을 양보하고도 그 공마저 드러내지 않는다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "큰 권력을 양보하고도 그 공마저 드러내지 않는다",
+      "reason": "공을 드러낸다는 추상적 표현 다듬기",
+      "revised": "큰 권력을 양보하고도 자신의 공을 내세우지 않는다",
+      "revision_round": 2
     },
     {
-      "id": "ly-08-02",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 2,
+      "id": "ly-08-02",
       "original": "좋은 성품도 알맞은 기준이 없으면 지나쳐서 해가 될 수 있다",
-      "revised": "좋은 성품도 알맞은 기준이 없으면 지나쳐서 해가 될 수 있다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "좋은 성품도 알맞은 기준이 없으면 지나쳐서 해가 될 수 있다",
+      "reason": "기준의 쓰임과 조건절 연결 정리",
+      "revised": "좋은 성품도 알맞게 조절할 기준이 없으면 지나쳐 해가 될 수 있다",
+      "revision_round": 2
     },
     {
-      "id": "ly-08-03",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 3,
+      "id": "ly-08-03",
       "original": "몸과 행실을 평생 조심해 지키는 것이 마지막에 남는다",
-      "revised": "몸과 행실을 평생 조심해 지키는 것이 마지막에 남는다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "몸과 행실을 평생 조심해 지키는 것이 마지막에 남는다",
+      "reason": "것이 마지막에 남는다는 호흡 정리",
+      "revised": "평생 몸과 행실을 조심해 지켜 온 것이 마지막까지 남는다",
+      "revision_round": 2
     },
     {
-      "id": "ly-08-04",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 4,
+      "id": "ly-08-04",
       "original": "지도자가 직접 붙들 것은 세부 절차보다 자기 몸가짐과 말의 태도다",
-      "revised": "지도자가 직접 붙들 것은 세부 절차보다 자기 몸가짐과 말하는 태도다",
-      "changed": true,
-      "reason": "‘말의 태도’를 ‘말하는 태도’로 다듬었다."
+      "previous_revision": "지도자가 직접 붙들 것은 세부 절차보다 자기 몸가짐과 말하는 태도다",
+      "reason": "세부 절차와 붙든다는 어색한 표현 풀기",
+      "revised": "지도자가 직접 챙겨야 할 것은 세세한 절차보다 자신의 몸가짐과 말하는 태도다",
+      "revision_round": 2
     },
     {
-      "id": "ly-08-05",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 5,
+      "id": "ly-08-05",
       "original": "많이 알고 잘해도 다른 사람에게 배울 자리를 남겨 둔다",
-      "revised": "많이 알고 잘해도 다른 사람에게 배울 자리를 남겨 둔다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "많이 알고 잘해도 다른 사람에게 배울 자리를 남겨 둔다",
+      "reason": "배울 자리를 남긴다는 비유 정리",
+      "revised": "많이 알고 잘하더라도 남에게 배울 여지는 남겨 둔다",
+      "revision_round": 2
     },
     {
-      "id": "ly-08-06",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 6,
+      "id": "ly-08-06",
       "original": "큰 위기와 이해관계 앞에서도 뜻을 빼앗기지 않는 사람이 진짜 믿을 만하다",
-      "revised": "큰 위기와 이해관계 앞에서도 뜻을 빼앗기지 않는 사람이 진짜 믿을 만하다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "큰 위기와 이해관계 앞에서도 뜻을 빼앗기지 않는 사람이 진짜 믿을 만하다",
+      "reason": "뜻을 빼앗긴다는 표현과 평가의 호흡 정리",
+      "revised": "큰 위기나 이해관계 앞에서도 뜻을 빼앗기지 않는 사람이라야 정말 믿을 수 있다",
+      "revision_round": 2
     },
     {
-      "id": "ly-08-07",
+      "changed": false,
       "chapter": 7,
+      "id": "ly-08-07",
       "original": "큰 책임을 오래 짊어지려면 마음은 넓고 뜻은 쉽게 꺾이지 않아야 한다",
-      "revised": "큰 책임을 오래 짊어지려면 마음은 넓고 뜻은 쉽게 꺾이지 않아야 한다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
+      "revised": "큰 책임을 오래 짊어지려면 마음은 넓고 뜻은 쉽게 꺾이지 않아야 한다"
     },
     {
-      "id": "ly-08-08",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 8,
+      "id": "ly-08-08",
       "original": "마음은 시로 깨우고 행동은 예로 세우며 조화는 음악에서 완성한다",
-      "revised": "마음은 시로 깨우고 행동은 예로 세우며 조화는 음악에서 완성한다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "마음은 시로 깨우고 행동은 예로 세우며 조화는 음악에서 완성한다",
+      "reason": "세 절의 어순을 맞추고 행동을 세운다는 연결 정리",
+      "revised": "시로 마음을 깨우고 예로 행동의 기준을 세우며 음악으로 조화를 완성한다",
+      "revision_round": 2
     },
     {
-      "id": "ly-08-09",
+      "changed": false,
       "chapter": 9,
+      "id": "ly-08-09",
       "original": "백성을 무지하게 만들라는 말로만 읽기는 어렵다",
-      "revised": "백성을 무지하게 만들라는 말로만 읽기는 어렵다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
+      "revised": "백성을 무지하게 만들라는 말로만 읽기는 어렵다"
     },
     {
-      "id": "ly-08-10",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 10,
+      "id": "ly-08-10",
       "original": "용기와 도덕적 분노도 지나치면 오히려 혼란을 만들 수 있다",
-      "revised": "용기와 도덕적 분노도 지나치면 오히려 혼란을 만들 수 있다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "용기와 도덕적 분노도 지나치면 오히려 혼란을 만들 수 있다",
+      "reason": "혼란을 만든다는 결합과 조사 정리",
+      "revised": "용기나 도덕적 분노도 지나치면 오히려 혼란을 일으킬 수 있다",
+      "revision_round": 2
     },
     {
-      "id": "ly-08-11",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 11,
+      "id": "ly-08-11",
       "original": "재능이 아무리 뛰어나도 교만과 인색함이 붙으면 사람의 가치는 무너진다",
-      "revised": "재능이 아무리 뛰어나도 교만하고 인색하면 사람의 가치는 무너진다",
-      "changed": true,
-      "reason": "‘교만과 인색함이 붙으면’을 자연스러운 서술로 풀었다."
+      "previous_revision": "재능이 아무리 뛰어나도 교만하고 인색하면 사람의 가치는 무너진다",
+      "reason": "사람의 가치를 평가하는 주어를 분명하게 정리",
+      "revised": "재능이 아무리 뛰어나도 교만하고 인색하면 그 사람의 가치가 무너진다",
+      "revision_round": 2
     },
     {
-      "id": "ly-08-12",
+      "changed": false,
       "chapter": 12,
+      "id": "ly-08-12",
       "original": "오래 공부해도 출세와 수입만 바라보지 않는 사람은 드물다",
-      "revised": "오래 공부해도 출세와 수입만 바라보지 않는 사람은 드물다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
+      "revised": "오래 공부해도 출세와 수입만 바라보지 않는 사람은 드물다"
     },
     {
-      "id": "ly-08-13",
+      "changed": false,
       "chapter": 13,
+      "id": "ly-08-13",
       "original": "나아갈 때와 물러날 때를 권력이 아니라 원칙으로 판단한다",
-      "revised": "나아갈 때와 물러날 때를 권력이 아니라 원칙으로 판단한다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
+      "revised": "나아갈 때와 물러날 때를 권력이 아니라 원칙으로 판단한다"
     },
     {
-      "id": "ly-08-14",
+      "changed": false,
       "chapter": 14,
+      "id": "ly-08-14",
       "original": "권한이 없는 일에 결정권부터 행사하지 않는다",
-      "revised": "권한이 없는 일에 결정권부터 행사하지 않는다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
+      "revised": "권한이 없는 일에 결정권부터 행사하지 않는다"
     },
     {
-      "id": "ly-08-15",
+      "changed": false,
       "chapter": 15,
+      "id": "ly-08-15",
       "original": "좋은 음악은 여러 소리가 어우러져 귀를 가득 채운다",
-      "revised": "좋은 음악은 여러 소리가 어우러져 귀를 가득 채운다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
+      "revised": "좋은 음악은 여러 소리가 어우러져 귀를 가득 채운다"
     },
     {
-      "id": "ly-08-16",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 16,
+      "id": "ly-08-16",
       "original": "큰 뜻도 정직함이 없으면 제멋대로 흐를 수 있다",
-      "revised": "큰 뜻도 정직함이 없으면 제멋대로 흐를 수 있다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "큰 뜻도 정직함이 없으면 제멋대로 흐를 수 있다",
+      "reason": "뜻이 제멋대로 흐른다는 비유 풀기",
+      "revised": "큰 뜻을 품었어도 정직하지 않으면 제멋대로 행동할 수 있다",
+      "revision_round": 2
     },
     {
-      "id": "ly-08-17",
+      "changed": true,
       "chapter": 17,
+      "id": "ly-08-17",
       "original": "배움은 따라잡는 일만큼 이미 얻은 것을 놓치지 않는 일도 중요하다",
-      "revised": "배움에서는 따라잡는 일만큼 이미 얻은 것을 놓치지 않는 일도 중요하다",
-      "changed": true,
-      "reason": "주제와 뒤 문장의 관계가 분명하도록 조사만 고쳤다."
+      "reason": "주제와 뒤 문장의 관계가 분명하도록 조사만 고쳤다.",
+      "revised": "배움에서는 따라잡는 일만큼 이미 얻은 것을 놓치지 않는 일도 중요하다"
     },
     {
-      "id": "ly-08-18",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 18,
+      "id": "ly-08-18",
       "original": "큰 권력을 가졌어도 그것을 자기 소유처럼 여기지 않는 태도가 더 크다",
-      "revised": "큰 권력을 가졌어도 그것을 자기 소유처럼 여기지 않는 태도가 더 크다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "큰 권력을 가졌어도 그것을 자기 소유처럼 여기지 않는 태도가 더 크다",
+      "reason": "태도가 더 크다는 미완성 비유 풀기",
+      "revised": "큰 권력을 가졌어도 자기 소유로 여기지 않는 태도가 더 훌륭하다",
+      "revision_round": 2
     },
     {
-      "id": "ly-08-19",
-      "chapter": 19,
-      "original": "최고의 정치는 한 가지 업적보다 넓고 공평한 질서 전체로 드러난다",
-      "revised": "최고의 정치는 한 가지 업적보다 넓고 공평한 질서 전체로 드러난다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
-    },
-    {
-      "id": "ly-08-20",
-      "chapter": 20,
-      "original": "좋은 정치는 훌륭한 군주 한 사람만으로 만들어지지 않는다",
-      "revised": "좋은 정치는 훌륭한 군주 한 사람만으로 만들어지지 않는다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
-    },
-    {
-      "id": "ly-08-21",
-      "chapter": 21,
-      "original": "자기 생활은 아끼되 공적인 책임에는 아끼지 않는다",
-      "revised": "자기 생활에는 아끼되 공적인 책임을 다하는 데는 아끼지 않는다",
+      "approval_status": "approved",
       "changed": true,
-      "reason": "‘생활은 아끼다’, ‘책임에는 아끼다’의 어색한 결합을 다듬었다."
+      "chapter": 19,
+      "id": "ly-08-19",
+      "original": "최고의 정치는 한 가지 업적보다 넓고 공평한 질서 전체로 드러난다",
+      "previous_revision": "최고의 정치는 한 가지 업적보다 넓고 공평한 질서 전체로 드러난다",
+      "reason": "최고의 정치와 질서 전체라는 딱딱한 명사 정리",
+      "revised": "가장 훌륭한 정치는 하나의 업적보다 넓고 공평한 질서 전반에서 드러난다",
+      "revision_round": 2
+    },
+    {
+      "approval_status": "approved",
+      "changed": true,
+      "chapter": 20,
+      "id": "ly-08-20",
+      "original": "좋은 정치는 훌륭한 군주 한 사람만으로 만들어지지 않는다",
+      "previous_revision": "좋은 정치는 훌륭한 군주 한 사람만으로 만들어지지 않는다",
+      "reason": "정치가 만들어진다는 수동 구문 정리",
+      "revised": "훌륭한 군주 한 사람만 있다고 좋은 정치가 이루어지지는 않는다",
+      "revision_round": 2
+    },
+    {
+      "approval_status": "approved",
+      "changed": true,
+      "chapter": 21,
+      "id": "ly-08-21",
+      "original": "자기 생활은 아끼되 공적인 책임에는 아끼지 않는다",
+      "previous_revision": "자기 생활에는 아끼되 공적인 책임을 다하는 데는 아끼지 않는다",
+      "reason": "아끼되와 다하는 데는의 호흡 정리",
+      "revised": "자신의 생활에는 아끼지만 공적인 책임을 다할 때는 아끼지 않는다",
+      "revision_round": 2
     }
   ],
-  "self_review": {
-    "reviewed": 21,
-    "changed": 4,
-    "unchanged": 17,
-    "content_review_performed": false,
+  "previous_self_review": {
     "assessment": "21개 중 4개를 수정했다. 말의 의미와 비교 강도는 유지했다. ‘태도가 더 크다’처럼 풀어 쓰면 새 평가를 넣게 되는 문장은 보존했다.",
     "carry_forward_to_next_book": "비유가 다소 추상적이어도 문법만으로 해결되지 않으면 그대로 둔다.",
+    "changed": 4,
+    "content_review_performed": false,
     "held_for_meaning_preservation": [
       "18장 ‘태도가 더 크다’는 의미를 특정하지 않고 보존."
     ],
-    "reviewer": "이 대화의 작성자 자체 평가; 외부 독립 검수 아님"
+    "reviewed": 21,
+    "reviewer": "이 대화의 작성자 자체 평가; 외부 독립 검수 아님",
+    "unchanged": 17
+  },
+  "schema_version": "2.0",
+  "scope": "이 장의 핵심",
+  "self_review": {
+    "assessment": "사용자가 승인한 2차 제안을 그대로 수정본에 반영. 이번 반영 과정에서 새 문체 변경은 하지 않음.",
+    "changed": 15,
+    "content_review_performed": false,
+    "reviewed": 21,
+    "round_2_approved_applied": 14,
+    "unchanged": 6
+  },
+  "source": {
+    "blob_sha": "2e1d6800360c25a2104b4ec5cd1ae44b588154c6",
+    "branch": "트랙/뉴코퍼스",
+    "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+    "identity": "article.card의 id 그대로 사용",
+    "path": "1차완성본/쉬운설명카드/08-태백.html",
+    "repository": "hermes-blue/analects",
+    "selector": "article.card > .big > p.hx"
   }
 }
