@@ -9,6 +9,20 @@
         "유형": "한문 오자 의심",
         "조각": 2,
         "현재원문": "彼聞皋陶作獄，必將曰：「皋陶山。」"
+      },
+      {
+        "n": 10,
+        "근거URL": [
+          "https://www2.iath.virginia.edu/saxon/servlet/SaxonServlet?chunk.id=d2.57&doc.lang=chinese&source=xwomen%2Ftexts%2Flunheng.xml&style=xwomen%2Fxsl%2Fdynaxml.xsl&toc.depth=1&toc.id=d2.88",
+          "https://www.shidianguji.com/zh/mid-page/7621677890719940658"
+        ],
+        "대조원문": "皋陶也",
+        "대조출전": "논형 사단편(謝短篇)",
+        "반영": "보호 필드 보존. 교정안 별도 기록",
+        "유형": "출전 편명 및 글자 대조",
+        "조각": 2,
+        "현재원문": "皋陶山",
+        "현재출전": "논형 문공편"
       }
     ],
     "분량": [
@@ -31,7 +45,18 @@
     ],
     "사료조각수": 2,
     "식별자원본일치": true,
-    "추가원문확인": []
+    "추가원문확인": [
+      {
+        "url": "https://www2.iath.virginia.edu/saxon/servlet/SaxonServlet?chunk.id=d2.57&doc.lang=chinese&source=xwomen%2Ftexts%2Flunheng.xml&style=xwomen%2Fxsl%2Fdynaxml.xsl&toc.depth=1&toc.id=d2.88",
+        "조각": 2,
+        "확인": "사단편 출전 및 皋陶也 글자 대조"
+      },
+      {
+        "url": "https://www.shidianguji.com/zh/mid-page/7621677890719940658",
+        "조각": 2,
+        "확인": "사단편 출전 및 皋陶也 글자 대조"
+      }
+    ]
   },
   "수정내역": [
     {
@@ -119,7 +144,7 @@
     "규칙파일": "people-chatgpt/source-fragments/집필기준.md",
     "기준원본커밋": "ef23919759fb969d3ac8b2d29422ebc81c9e5767",
     "반영방법": "이름·한자이름과 사료조각 배열 순서로 매칭. 제목·한줄만 교체. 출전·덩이 보호 필드와 다른 탭은 유지.",
-    "버전": "1.0",
+    "버전": "1.1",
     "앱반영상태": "별도 검토본",
     "원본blob": "d95645050811cdabd40189fcd5b643eb78112610",
     "원본인물배열번호": 9,
