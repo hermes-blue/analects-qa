@@ -1,235 +1,303 @@
 {
-  "schema_version": "1.0",
-  "scope": "이 장의 핵심",
-  "source": {
-    "repository": "hermes-blue/analects",
-    "branch": "트랙/뉴코퍼스",
-    "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
-    "path": "1차완성본/쉬운설명카드/17-양화.html",
-    "blob_sha": "88f7f3985bfa2b3ed1b79972b1ea15ec3aa8dd5a",
-    "selector": "article.card > .big > p.hx",
-    "identity": "article.card의 id 그대로 사용"
-  },
-  "book_number": 17,
   "book_name": "양화",
+  "book_number": 17,
   "cards": [
     {
-      "id": "ly-17-01",
+      "changed": false,
       "chapter": 1,
+      "id": "ly-17-01",
       "original": "싫은 사람에게도 예는 지키되 그 뜻까지 따르지는 않는다",
-      "revised": "싫은 사람에게도 예는 지키되 그 뜻까지 따르지는 않는다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
+      "revised": "싫은 사람에게도 예는 지키되 그 뜻까지 따르지는 않는다"
     },
     {
-      "id": "ly-17-02",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 2,
+      "id": "ly-17-02",
       "original": "사람은 처음보다 반복된 습관 때문에 더 크게 달라진다",
-      "revised": "사람은 반복된 습관 때문에 처음보다 더 크게 달라진다",
-      "changed": true,
-      "reason": "단어를 추가하거나 빼지 않고 비교 표현의 위치만 옮겼다."
+      "previous_revision": "사람은 반복된 습관 때문에 처음보다 더 크게 달라진다",
+      "reason": "반복된 습관이라는 명사형 풀기",
+      "revised": "사람은 습관을 거듭하면서 처음보다 더 크게 달라진다",
+      "revision_round": 2
     },
     {
-      "id": "ly-17-03",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 3,
+      "id": "ly-17-03",
       "original": "바뀌지 않는 사람은 양끝의 예외일 뿐, 대부분은 그 사이에 있다",
-      "revised": "바뀌지 않는 사람은 양끝의 예외일 뿐, 대부분은 그 사이에 있다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "바뀌지 않는 사람은 양끝의 예외일 뿐, 대부분은 그 사이에 있다",
+      "reason": "양끝의 예외라는 어색한 결합 정리",
+      "revised": "끝내 바뀌지 않는 사람은 양극단의 예외이며 대부분은 그 사이에 있다",
+      "revision_round": 2
     },
     {
-      "id": "ly-17-04",
+      "changed": false,
       "chapter": 4,
+      "id": "ly-17-04",
       "original": "작은 곳이라고 좋은 가르침을 아낄 이유는 없다",
-      "revised": "작은 곳이라고 좋은 가르침을 아낄 이유는 없다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
+      "revised": "작은 곳이라고 좋은 가르침을 아낄 이유는 없다"
     },
     {
-      "id": "ly-17-05",
+      "changed": false,
       "chapter": 5,
+      "id": "ly-17-05",
       "original": "부르는 사람이 누구든 바른 정치를 펼칠 수 있는지를 먼저 본다",
-      "revised": "부르는 사람이 누구든 바른 정치를 펼칠 수 있는지를 먼저 본다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
+      "revised": "부르는 사람이 누구든 바른 정치를 펼칠 수 있는지를 먼저 본다"
     },
     {
-      "id": "ly-17-06",
-      "chapter": 6,
-      "original": "공경·너그러움·믿음·부지런함·베풂 다섯이 어짊을 이룬다",
-      "revised": "공경·너그러움·믿음·부지런함·베풂 다섯이 어짊을 이룬다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
-    },
-    {
-      "id": "ly-17-07",
-      "chapter": 7,
-      "original": "단단하면 갈아도 닳지 않고 희면 검은 물에도 물들지 않는다",
-      "revised": "단단하면 갈아도 닳지 않고 희면 검은 물에도 물들지 않는다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
-    },
-    {
-      "id": "ly-17-08",
-      "chapter": 8,
-      "original": "좋은 덕목도 배우지 않으면 폐단으로 바뀔 수 있다",
-      "revised": "좋은 덕목도 배우지 않으면 폐단으로 바뀔 수 있다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
-    },
-    {
-      "id": "ly-17-09",
-      "chapter": 9,
-      "original": "시를 배우면 마음과 세상과 관계와 자연을 함께 배운다",
-      "revised": "시를 배우면 마음과 세상과 관계와 자연을 함께 배운다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
-    },
-    {
-      "id": "ly-17-10",
-      "chapter": 10,
-      "original": "기본적인 시의 교양이 없으면 가까운 관계에서도 앞이 막힐 수 있다",
-      "revised": "기본적인 시의 교양이 없으면 가까운 관계에서도 앞이 막힐 수 있다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
-    },
-    {
-      "id": "ly-17-11",
-      "chapter": 11,
-      "original": "예와 음악은 값비싼 물건과 악기만 갖춘다고 완성되지 않는다",
-      "revised": "예와 음악은 값비싼 물건과 악기만 갖춘다고 완성되지 않는다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
-    },
-    {
-      "id": "ly-17-12",
-      "chapter": 12,
-      "original": "겉으로 강해 보여도 안에 원칙이 없으면 위엄이 아니다",
-      "revised": "겉으로 강해 보여도 안에 원칙이 없으면 위엄이 아니다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
-    },
-    {
-      "id": "ly-17-13",
-      "chapter": 13,
-      "original": "모두에게 좋은 사람처럼 보이는 태도가 오히려 도덕 기준을 흐릴 수 있다",
-      "revised": "모두에게 좋은 사람처럼 보이는 태도가 오히려 도덕 기준을 흐릴 수 있다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
-    },
-    {
-      "id": "ly-17-14",
-      "chapter": 14,
-      "original": "들은 것을 소화하기 전에 떠벌리면 지식은 늘어도 사람은 바뀌지 않는다",
-      "revised": "들은 것을 소화하기 전에 떠벌리면 지식은 늘어도 사람은 바뀌지 않는다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
-    },
-    {
-      "id": "ly-17-15",
-      "chapter": 15,
-      "original": "자리를 얻고 잃는 데 매이면 결국 원칙보다 자기 보존을 먼저 보게 된다",
-      "revised": "자리를 얻고 잃는 데 매이면 결국 원칙보다 자신을 지키는 일을 먼저 생각하게 된다",
+      "approval_status": "approved",
       "changed": true,
-      "reason": "‘자기 보존을 먼저 보다’를 일상적인 동작 표현으로 풀었다."
+      "chapter": 6,
+      "id": "ly-17-06",
+      "original": "공경·너그러움·믿음·부지런함·베풂 다섯이 어짊을 이룬다",
+      "previous_revision": "공경·너그러움·믿음·부지런함·베풂 다섯이 어짊을 이룬다",
+      "reason": "다섯 덕목의 명사 나열을 행동으로 풀기",
+      "revised": "공경하고 너그럽게 대하며 믿음을 지키고 부지런히 힘쓰고 베푸는 다섯 가지가 어짊을 이룬다",
+      "revision_round": 2
     },
     {
-      "id": "ly-17-16",
+      "changed": false,
+      "chapter": 7,
+      "id": "ly-17-07",
+      "original": "단단하면 갈아도 닳지 않고 희면 검은 물에도 물들지 않는다",
+      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
+      "revised": "단단하면 갈아도 닳지 않고 희면 검은 물에도 물들지 않는다"
+    },
+    {
+      "approval_status": "approved",
+      "changed": true,
+      "chapter": 8,
+      "id": "ly-17-08",
+      "original": "좋은 덕목도 배우지 않으면 폐단으로 바뀔 수 있다",
+      "previous_revision": "좋은 덕목도 배우지 않으면 폐단으로 바뀔 수 있다",
+      "reason": "폐단으로 바뀐다는 한자어 중심 표현 풀기",
+      "revised": "좋은 덕목도 배우지 않으면 오히려 해가 될 수 있다",
+      "revision_round": 2
+    },
+    {
+      "approval_status": "approved",
+      "changed": true,
+      "chapter": 9,
+      "id": "ly-17-09",
+      "original": "시를 배우면 마음과 세상과 관계와 자연을 함께 배운다",
+      "previous_revision": "시를 배우면 마음과 세상과 관계와 자연을 함께 배운다",
+      "reason": "관계가 나열된 부분의 대상을 분명하게 정리",
+      "revised": "시를 배우며 마음과 세상, 사람 사이의 관계와 자연을 함께 배운다",
+      "revision_round": 2
+    },
+    {
+      "approval_status": "approved",
+      "changed": true,
+      "chapter": 10,
+      "id": "ly-17-10",
+      "original": "기본적인 시의 교양이 없으면 가까운 관계에서도 앞이 막힐 수 있다",
+      "previous_revision": "기본적인 시의 교양이 없으면 가까운 관계에서도 앞이 막힐 수 있다",
+      "reason": "관계에서 앞이 막힌다는 추상적 비유 풀기",
+      "revised": "시에 관한 기본 교양이 없으면 가까운 사람과의 관계에서도 어려움을 겪을 수 있다",
+      "revision_round": 2
+    },
+    {
+      "approval_status": "approved",
+      "changed": true,
+      "chapter": 11,
+      "id": "ly-17-11",
+      "original": "예와 음악은 값비싼 물건과 악기만 갖춘다고 완성되지 않는다",
+      "previous_revision": "예와 음악은 값비싼 물건과 악기만 갖춘다고 완성되지 않는다",
+      "reason": "주제와 조건절의 어순 정리",
+      "revised": "값비싼 물건과 악기를 갖췄다고 예와 음악이 완성되는 것은 아니다",
+      "revision_round": 2
+    },
+    {
+      "approval_status": "approved",
+      "changed": true,
+      "chapter": 12,
+      "id": "ly-17-12",
+      "original": "겉으로 강해 보여도 안에 원칙이 없으면 위엄이 아니다",
+      "previous_revision": "겉으로 강해 보여도 안에 원칙이 없으면 위엄이 아니다",
+      "reason": "겉모습과 위엄을 바로 동일시하는 서술 정리",
+      "revised": "겉으로 강해 보여도 마음속에 원칙이 없다면 위엄이 있다고 할 수 없다",
+      "revision_round": 2
+    },
+    {
+      "approval_status": "approved",
+      "changed": true,
+      "chapter": 13,
+      "id": "ly-17-13",
+      "original": "모두에게 좋은 사람처럼 보이는 태도가 오히려 도덕 기준을 흐릴 수 있다",
+      "previous_revision": "모두에게 좋은 사람처럼 보이는 태도가 오히려 도덕 기준을 흐릴 수 있다",
+      "reason": "좋은 사람처럼 보이는 태도라는 어색한 수식 정리",
+      "revised": "모두에게 좋은 사람처럼 보이는 태도가 오히려 옳고 그름의 기준을 흐릴 수 있다",
+      "revision_round": 2
+    },
+    {
+      "approval_status": "approved",
+      "changed": true,
+      "chapter": 14,
+      "id": "ly-17-14",
+      "original": "들은 것을 소화하기 전에 떠벌리면 지식은 늘어도 사람은 바뀌지 않는다",
+      "previous_revision": "들은 것을 소화하기 전에 떠벌리면 지식은 늘어도 사람은 바뀌지 않는다",
+      "reason": "소화한다는 상투적인 비유 풀기",
+      "revised": "들은 것을 제대로 이해하기 전에 떠벌리면 지식은 늘어도 사람은 바뀌지 않는다",
+      "revision_round": 2
+    },
+    {
+      "approval_status": "approved",
+      "changed": true,
+      "chapter": 15,
+      "id": "ly-17-15",
+      "original": "자리를 얻고 잃는 데 매이면 결국 원칙보다 자기 보존을 먼저 보게 된다",
+      "previous_revision": "자리를 얻고 잃는 데 매이면 결국 원칙보다 자신을 지키는 일을 먼저 생각하게 된다",
+      "reason": "매인다는 표현과 명사형 연결 정리",
+      "revised": "자리를 얻거나 잃는 일에 매달리면 원칙보다 자신을 지키는 일을 먼저 생각하게 된다",
+      "revision_round": 2
+    },
+    {
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 16,
+      "id": "ly-17-16",
       "original": "거친 결함보다 교묘하게 변질된 결함이 더 위험하다",
-      "revised": "거친 결함보다 교묘하게 변질된 결함이 더 위험하다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "거친 결함보다 교묘하게 변질된 결함이 더 위험하다",
+      "reason": "거친 결함이라는 압축된 수식 풀기",
+      "revised": "거칠게 드러나는 결함보다 교묘하게 변질된 결함이 더 위험하다",
+      "revision_round": 2
     },
     {
-      "id": "ly-17-17",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 17,
+      "id": "ly-17-17",
       "original": "말과 표정을 잘 꾸미는 것과 진실한 어짐은 다르다",
-      "revised": "말과 표정을 잘 꾸미는 것과 진실한 어짐은 다르다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "말과 표정을 잘 꾸미는 것과 진실한 어짐은 다르다",
+      "reason": "꾸밈과 어짐을 비교하는 명사형 정리",
+      "revised": "말과 표정을 잘 꾸미는 것과 진실로 어진 것은 다르다",
+      "revision_round": 2
     },
     {
-      "id": "ly-17-18",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 18,
+      "id": "ly-17-18",
       "original": "인기 있는 것이 바른 기준을 밀어내는 순간을 경계한다",
-      "revised": "인기 있는 것이 바른 기준을 밀어내는 순간을 경계한다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "인기 있는 것이 바른 기준을 밀어내는 순간을 경계한다",
+      "reason": "인기 있는 것이 기준을 밀어낸다는 비유 풀기",
+      "revised": "인기를 앞세우다가 바른 기준이 밀려나지 않도록 경계한다",
+      "revision_round": 2
     },
     {
-      "id": "ly-17-19",
+      "changed": false,
       "chapter": 19,
+      "id": "ly-17-19",
       "original": "하늘은 말하지 않아도 사철이 돌고 만물이 자란다",
-      "revised": "하늘은 말하지 않아도 사철이 돌고 만물이 자란다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
+      "revised": "하늘은 말하지 않아도 사철이 돌고 만물이 자란다"
     },
     {
-      "id": "ly-17-20",
+      "changed": false,
       "chapter": 20,
+      "id": "ly-17-20",
       "original": "직접 꾸짖는 대신 스스로 깨닫게 하는 것도 가르침이다",
-      "revised": "직접 꾸짖는 대신 스스로 깨닫게 하는 것도 가르침이다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
+      "revised": "직접 꾸짖는 대신 스스로 깨닫게 하는 것도 가르침이다"
     },
     {
-      "id": "ly-17-21",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 21,
+      "id": "ly-17-21",
       "original": "상례의 길이는 달력이 아니라 마음이 편안한지로 정한다",
-      "revised": "상례의 길이는 달력이 아니라 마음이 편안한지로 정한다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "상례의 길이는 달력이 아니라 마음이 편안한지로 정한다",
+      "reason": "상례의 길이라는 명사형과 판단 수단의 연결 정리",
+      "revised": "상을 치르는 기간은 달력으로 정하지 않고 마음이 편안한지를 살펴 정한다",
+      "revision_round": 2
     },
     {
-      "id": "ly-17-22",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 22,
+      "id": "ly-17-22",
       "original": "생각 없이 시간 보내느니 규칙 있는 놀이에라도 마음 쓰는 편이 낫다",
-      "revised": "생각 없이 시간 보내느니 규칙 있는 놀이에라도 마음 쓰는 편이 낫다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "생각 없이 시간 보내느니 규칙 있는 놀이에라도 마음 쓰는 편이 낫다",
+      "reason": "시간 보내느니라는 조사 생략과 놀이에 마음 쓴다는 연결 정리",
+      "revised": "생각 없이 시간을 보내느니 규칙이 있는 놀이라도 하며 마음을 쓰는 편이 낫다",
+      "revision_round": 2
     },
     {
-      "id": "ly-17-23",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 23,
+      "id": "ly-17-23",
       "original": "용기는 옳음의 기준이 없으면 반란이나 약탈의 힘이 될 수 있다",
-      "revised": "용기는 옳음의 기준이 없으면 반란이나 약탈의 힘이 될 수 있다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "용기는 옳음의 기준이 없으면 반란이나 약탈의 힘이 될 수 있다",
+      "reason": "옳음의 기준과 약탈의 힘이라는 명사형 풀기",
+      "revised": "용기도 옳고 그름을 가릴 기준이 없으면 반란이나 약탈에 쓰일 수 있다",
+      "revision_round": 2
     },
     {
-      "id": "ly-17-24",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 24,
+      "id": "ly-17-24",
       "original": "어짐은 모든 행동을 좋게 봐주는 태도가 아니다",
-      "revised": "어짐은 모든 행동을 좋게 봐주는 태도가 아니다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "어짐은 모든 행동을 좋게 봐주는 태도가 아니다",
+      "reason": "어짐과 태도를 비교하는 명사형 정의 정리",
+      "revised": "어진 사람이라고 모든 행동을 좋게 봐주는 것은 아니다",
+      "revision_round": 2
     },
     {
-      "id": "ly-17-25",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 25,
+      "id": "ly-17-25",
       "original": "이 구절을 오늘날 모든 여성에게 일반화해 읽어서는 안 된다",
-      "revised": "이 구절을 오늘날 모든 여성에게 일반화해 읽어서는 안 된다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "이 구절을 오늘날 모든 여성에게 일반화해 읽어서는 안 된다",
+      "reason": "일반화해 읽는다는 딱딱한 표현 풀기",
+      "revised": "이 구절이 오늘날 모든 여성에게도 해당한다고 읽어서는 안 된다",
+      "revision_round": 2
     },
     {
-      "id": "ly-17-26",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 26,
+      "id": "ly-17-26",
       "original": "오랜 세월 고치지 않은 습관은 시간이 갈수록 바꾸기 어려워진다",
-      "revised": "오랜 세월 고치지 않은 습관은 시간이 갈수록 바꾸기 어려워진다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "오랜 세월 고치지 않은 습관은 시간이 갈수록 바꾸기 어려워진다",
+      "reason": "오랜 세월이라는 수식의 호흡 정리",
+      "revised": "오랫동안 고치지 않은 습관은 시간이 갈수록 바꾸기 어려워진다",
+      "revision_round": 2
     }
   ],
-  "self_review": {
-    "reviewed": 26,
-    "changed": 2,
-    "unchanged": 24,
-    "content_review_performed": false,
+  "previous_self_review": {
     "assessment": "26개 중 2개를 수정했다. 단순한 어순 수정으로 해결되는 문장은 그 정도에서 멈췄다. ‘어짐’과 ‘어짊’ 등 표기 통일을 별도 목표로 삼지 않았다.",
     "carry_forward_to_next_book": "핵심 문장이 잘 읽히면 건너뛴다. 표현 통일을 위해 추가 수정을 만들지 않는다.",
+    "changed": 2,
+    "content_review_performed": false,
     "held_for_meaning_preservation": [],
-    "reviewer": "이 대화의 작성자 자체 평가; 외부 독립 검수 아님"
+    "reviewed": 26,
+    "reviewer": "이 대화의 작성자 자체 평가; 외부 독립 검수 아님",
+    "unchanged": 24
+  },
+  "schema_version": "2.0",
+  "scope": "이 장의 핵심",
+  "self_review": {
+    "assessment": "사용자가 승인한 2차 제안을 그대로 수정본에 반영. 이번 반영 과정에서 새 문체 변경은 하지 않음.",
+    "changed": 20,
+    "content_review_performed": false,
+    "reviewed": 26,
+    "round_2_approved_applied": 20,
+    "unchanged": 6
+  },
+  "source": {
+    "blob_sha": "88f7f3985bfa2b3ed1b79972b1ea15ec3aa8dd5a",
+    "branch": "트랙/뉴코퍼스",
+    "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+    "identity": "article.card의 id 그대로 사용",
+    "path": "1차완성본/쉬운설명카드/17-양화.html",
+    "repository": "hermes-blue/analects",
+    "selector": "article.card > .big > p.hx"
   }
 }
