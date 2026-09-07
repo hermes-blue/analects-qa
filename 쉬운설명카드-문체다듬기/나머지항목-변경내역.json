@@ -1,0 +1,3616 @@
+{
+  "schema_version": "1.1",
+  "scope": "語·問·說 문체 수정",
+  "total_changed": 124,
+  "by_scope": {
+    "問": {
+      "book_count": 20,
+      "changed": 47,
+      "labels_preserved": true,
+      "order_preserved": true,
+      "originals_match_records": true,
+      "text_fields": 3072,
+      "unchanged": 3025,
+      "unique_cards": 498
+    },
+    "語": {
+      "book_count": 20,
+      "changed": 55,
+      "labels_preserved": true,
+      "order_preserved": true,
+      "originals_match_records": true,
+      "text_fields": 2311,
+      "unchanged": 2256,
+      "unique_cards": 498
+    },
+    "說": {
+      "book_count": 20,
+      "changed": 22,
+      "labels_preserved": true,
+      "order_preserved": true,
+      "originals_match_records": true,
+      "text_fields": 1040,
+      "unchanged": 1018,
+      "unique_cards": 498
+    }
+  },
+  "content_review_performed": false,
+  "apply_rule": "id·scope·index·field 또는 side·label과 original이 현재 원본에 모두 일치하는 항목만 revised로 적용. 카드 전체를 대체하지 않음.",
+  "entries": [
+    {
+      "book": 1,
+      "changed": true,
+      "id": "ly-01-01",
+      "index": 3,
+      "key": "ly-01-01:語:3",
+      "label": "朋붕",
+      "original": "朋은 오늘날의 친구 일반이라기보다 같은 배움과 뜻을 나누는 벗에 가깝습니다. 멀리서 찾아온다는 말은 자신의 공부가 다른 사람과 통하고 있음을 보여주는 장면입니다.",
+      "reason": "딱딱한 명사 결합·어순·호응을 문맥의 뜻을 유지하며 다듬음.",
+      "revised": "朋은 오늘날 흔히 말하는 친구보다는 같은 배움과 뜻을 나누는 벗에 가깝습니다. 멀리서 찾아오는 벗의 모습은 자신의 공부가 다른 사람과 통하고 있음을 보여줍니다.",
+      "scope": "語",
+      "source": {
+        "blob_sha": "c33214e810660bb771b07a02630a71d805ce36bd",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/01-학이.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "학이",
+      "replacements": [
+        [
+          "오늘날의 친구 일반이라기보다",
+          "오늘날 흔히 말하는 친구보다는"
+        ],
+        [
+          "멀리서 찾아온다는 말은 자신의 공부가 다른 사람과 통하고 있음을 보여주는 장면입니다.",
+          "멀리서 찾아오는 벗의 모습은 자신의 공부가 다른 사람과 통하고 있음을 보여줍니다."
+        ]
+      ]
+    },
+    {
+      "book": 1,
+      "changed": true,
+      "id": "ly-01-02",
+      "index": 4,
+      "key": "ly-01-02:語:4",
+      "label": "務本무본",
+      "original": "君子가 ‘근본에 힘쓴다’는 말입니다. 눈앞의 결과를 직접 좇기보다 행동을 낳는 바탕부터 바로 세운다는 뜻이며, 이 장에서는 그 구체적인 근본으로 孝弟가 제시됩니다.",
+      "reason": "딱딱한 명사 결합·어순·호응을 문맥의 뜻을 유지하며 다듬음.",
+      "revised": "君子가 ‘근본에 힘쓴다’는 말입니다. 눈앞의 결과를 직접 좇기보다 행동을 낳는 바탕부터 바로 세운다는 뜻이며, 이 장에서 말하는 그 근본은 孝弟입니다.",
+      "scope": "語",
+      "source": {
+        "blob_sha": "c33214e810660bb771b07a02630a71d805ce36bd",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/01-학이.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "학이",
+      "replacements": [
+        [
+          "이 장에서는 그 구체적인 근본으로 孝弟가 제시됩니다.",
+          "이 장에서 말하는 그 근본은 孝弟입니다."
+        ]
+      ]
+    },
+    {
+      "book": 1,
+      "changed": true,
+      "id": "ly-01-04",
+      "index": 2,
+      "key": "ly-01-04:語:2",
+      "label": "爲人謀위인모",
+      "original": "남을 위해 일을 도모한다는 뜻입니다. 자기 일만 잘했는지가 아니라 다른 사람의 일을 맡았을 때 얼마나 성실했는지를 반성 대상으로 삼는다는 점에서 忠과 연결됩니다.",
+      "reason": "딱딱한 명사 결합·어순·호응을 문맥의 뜻을 유지하며 다듬음.",
+      "revised": "남을 위해 일을 도모한다는 뜻입니다. 자기 일만 잘했는지가 아니라 다른 사람의 일을 맡았을 때 얼마나 성실했는지 돌아본다는 점에서 忠과 연결됩니다.",
+      "scope": "語",
+      "source": {
+        "blob_sha": "c33214e810660bb771b07a02630a71d805ce36bd",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/01-학이.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "학이",
+      "replacements": [
+        [
+          "얼마나 성실했는지를 반성 대상으로 삼는다는 점에서",
+          "얼마나 성실했는지 돌아본다는 점에서"
+        ]
+      ]
+    },
+    {
+      "book": 1,
+      "changed": true,
+      "id": "ly-01-05",
+      "index": 2,
+      "key": "ly-01-05:語:2",
+      "label": "敬事而信경사이신",
+      "original": "정사의 일을 신중하게 처리하고 백성에게 믿음을 주라는 말입니다. 능숙한 행정보다 맡은 일을 가볍게 여기지 않는 태도와 정치적 신뢰를 함께 요구합니다.",
+      "reason": "딱딱한 명사 결합·어순·호응을 문맥의 뜻을 유지하며 다듬음.",
+      "revised": "나랏일을 신중하게 처리하고 백성에게 믿음을 주라는 말입니다. 능숙한 행정보다 맡은 일을 가볍게 여기지 않는 태도와 정치적 신뢰를 함께 요구합니다.",
+      "scope": "語",
+      "source": {
+        "blob_sha": "c33214e810660bb771b07a02630a71d805ce36bd",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/01-학이.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "학이",
+      "replacements": [
+        [
+          "정사의 일을",
+          "나랏일을"
+        ]
+      ]
+    },
+    {
+      "book": 1,
+      "changed": true,
+      "id": "ly-01-05",
+      "index": 4,
+      "key": "ly-01-05:語:4",
+      "label": "愛人애인",
+      "original": "오늘날의 연애 의미가 아니라 사람을 아끼고 돌본다는 뜻입니다. 국가 운영에서 재정과 제도만 보는 것이 아니라 그 영향을 받는 사람을 함께 생각해야 한다는 요구입니다.",
+      "reason": "딱딱한 명사 결합·어순·호응을 문맥의 뜻을 유지하며 다듬음.",
+      "revised": "오늘날 말하는 연애의 뜻이 아니라 사람을 아끼고 돌본다는 뜻입니다. 국가 운영에서 재정과 제도만 보는 것이 아니라 그 영향을 받는 사람을 함께 생각해야 한다는 요구입니다.",
+      "scope": "語",
+      "source": {
+        "blob_sha": "c33214e810660bb771b07a02630a71d805ce36bd",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/01-학이.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "학이",
+      "replacements": [
+        [
+          "오늘날의 연애 의미가 아니라",
+          "오늘날 말하는 연애의 뜻이 아니라"
+        ]
+      ]
+    },
+    {
+      "book": 1,
+      "changed": true,
+      "id": "ly-01-06",
+      "index": 3,
+      "key": "ly-01-06:語:3",
+      "label": "泛愛衆범애중",
+      "original": "사람을 널리 사랑하라는 말입니다. 특정한 가까운 사람에게만 잘하는 데서 멈추지 않고, 관계의 범위를 여러 사람에게까지 넓혀야 한다는 뜻으로 이어집니다.",
+      "reason": "딱딱한 명사 결합·어순·호응을 문맥의 뜻을 유지하며 다듬음.",
+      "revised": "사람을 널리 사랑하라는 말입니다. 가까운 몇몇 사람에게만 잘하는 데서 멈추지 않고, 관계의 범위를 여러 사람에게까지 넓혀야 한다는 뜻으로 이어집니다.",
+      "scope": "語",
+      "source": {
+        "blob_sha": "c33214e810660bb771b07a02630a71d805ce36bd",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/01-학이.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "학이",
+      "replacements": [
+        [
+          "특정한 가까운 사람에게만",
+          "가까운 몇몇 사람에게만"
+        ]
+      ]
+    },
+    {
+      "book": 1,
+      "changed": true,
+      "id": "ly-01-07",
+      "index": 2,
+      "key": "ly-01-07:語:2",
+      "label": "竭其力갈기력",
+      "original": "부모를 섬길 때 자기 힘을 다한다는 말입니다. 효를 감정이나 형식적 예절에만 두지 않고, 실제로 할 수 있는 힘과 정성을 아끼지 않는 행동으로 나타냅니다.",
+      "reason": "가능한 만큼 힘과 정성을 다한다는 뜻을 유지하며 어색한 연결을 다듬음.",
+      "revised": "부모를 섬길 때 자기 힘을 다한다는 말입니다. 효를 감정이나 형식적 예절에만 두지 않고, 실제로 자신이 할 수 있는 만큼 힘과 정성을 다하는 행동으로 나타냅니다.",
+      "scope": "語",
+      "source": {
+        "blob_sha": "c33214e810660bb771b07a02630a71d805ce36bd",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/01-학이.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "학이",
+      "replacements": [
+        [
+          "실제로 할 수 있는 힘과 정성을 아끼지 않는 행동으로 나타냅니다.",
+          "실제로 자신이 할 수 있는 만큼 힘과 정성을 다하는 행동으로 나타냅니다."
+        ]
+      ]
+    },
+    {
+      "book": 1,
+      "changed": true,
+      "id": "ly-01-09",
+      "index": 2,
+      "key": "ly-01-09:語:2",
+      "label": "追遠추원",
+      "original": "오래전에 세상을 떠난 조상을 잊지 않고 기억하고 제사한다는 뜻입니다. 눈앞의 관계가 끝난 뒤에도 은혜와 뿌리를 돌아보는 마음을 이어가는 행위입니다.",
+      "reason": "딱딱한 명사 결합·어순·호응을 문맥의 뜻을 유지하며 다듬음.",
+      "revised": "오래전에 세상을 떠난 조상을 잊지 않고 기억하며 제사를 지낸다는 뜻입니다. 눈앞의 관계가 끝난 뒤에도 은혜와 뿌리를 돌아보는 마음을 이어가는 행위입니다.",
+      "scope": "語",
+      "source": {
+        "blob_sha": "c33214e810660bb771b07a02630a71d805ce36bd",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/01-학이.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "학이",
+      "replacements": [
+        [
+          "잊지 않고 기억하고 제사한다는",
+          "잊지 않고 기억하며 제사를 지낸다는"
+        ]
+      ]
+    },
+    {
+      "book": 1,
+      "changed": true,
+      "id": "ly-01-10",
+      "index": 1,
+      "key": "ly-01-10:語:1",
+      "label": "聞其政문기정",
+      "original": "공자님이 어느 나라에 가든 그 나라의 정치를 듣게 된다는 말입니다. 단순한 정보 수집이 아니라, 사람들이 스스로 정치 이야기를 전해 줄 만큼 신뢰를 얻는 모습을 말합니다.",
+      "reason": "딱딱한 명사 결합·어순·호응을 문맥의 뜻을 유지하며 다듬음.",
+      "revised": "공자님이 어느 나라에 가든 그 나라의 정치 이야기를 듣게 된다는 말입니다. 단순한 정보 수집이 아니라, 사람들이 스스로 정치 이야기를 전해 줄 만큼 신뢰를 얻는 모습을 말합니다.",
+      "scope": "語",
+      "source": {
+        "blob_sha": "c33214e810660bb771b07a02630a71d805ce36bd",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/01-학이.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "학이",
+      "replacements": [
+        [
+          "그 나라의 정치를 듣게 된다는",
+          "그 나라의 정치 이야기를 듣게 된다는"
+        ]
+      ]
+    },
+    {
+      "book": 1,
+      "changed": true,
+      "id": "ly-01-14",
+      "index": 4,
+      "key": "ly-01-14:語:4",
+      "label": "慎於言신어언",
+      "original": "말은 신중하게 하라는 뜻입니다. 행동은 민첩하게 하되 말은 가볍게 앞세우지 않는 대비를 통해, 실천과 발언의 속도를 다르게 가져야 함을 보여줍니다.",
+      "reason": "딱딱한 명사 결합·어순·호응을 문맥의 뜻을 유지하며 다듬음.",
+      "revised": "말은 신중하게 하라는 뜻입니다. 행동은 민첩하게 하되 말은 가볍게 앞세우지 않는 대비를 통해, 실천할 때와 말할 때의 속도가 달라야 함을 보여줍니다.",
+      "scope": "語",
+      "source": {
+        "blob_sha": "c33214e810660bb771b07a02630a71d805ce36bd",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/01-학이.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "학이",
+      "replacements": [
+        [
+          "실천과 발언의 속도를 다르게 가져야 함을",
+          "실천할 때와 말할 때의 속도가 달라야 함을"
+        ]
+      ]
+    },
+    {
+      "book": 2,
+      "changed": true,
+      "id": "ly-02-09",
+      "index": 2,
+      "key": "ly-02-09:語:2",
+      "label": "不違如愚불위여우",
+      "original": "공자님의 말을 거스르지 않아 마치 어리석어 보였다는 뜻입니다. 질문이나 반론이 적다고 해서 반드시 이해가 없는 것은 아니라는 장면을 만듭니다.",
+      "reason": "문맥의 뜻은 유지하고 명사 결합·직역식 표현을 자연스럽게 다듬음.",
+      "revised": "공자님의 말을 거스르지 않아 마치 어리석어 보였다는 뜻입니다. 질문이나 반론이 적다고 해서 반드시 이해하지 못한 것은 아님을 보여줍니다.",
+      "scope": "語",
+      "source": {
+        "blob_sha": "c298f413ceb0d7f682002ee317d58f9ee9e0e448",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/02-위정.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "위정",
+      "replacements": [
+        [
+          "질문이나 반론이 적다고 해서 반드시 이해가 없는 것은 아니라는 장면을 만듭니다.",
+          "질문이나 반론이 적다고 해서 반드시 이해하지 못한 것은 아님을 보여줍니다."
+        ]
+      ]
+    },
+    {
+      "book": 2,
+      "changed": true,
+      "id": "ly-02-11",
+      "index": 2,
+      "key": "ly-02-11:語:2",
+      "label": "故고",
+      "original": "여기서 故는 단순히 오래된 것 일반이 아니라 이미 배우고 알고 있는 내용입니다. 새 지식은 아무 바탕 없이 생기는 것이 아니라 기존 배움에서 출발한다는 뜻을 만듭니다.",
+      "reason": "문맥의 뜻은 유지하고 명사 결합·직역식 표현을 자연스럽게 다듬음.",
+      "revised": "여기서 故는 그저 오래된 것이 아니라 이미 배우고 알고 있는 내용입니다. 새 지식은 아무 바탕 없이 생기는 것이 아니라 기존 배움에서 출발한다는 뜻을 만듭니다.",
+      "scope": "語",
+      "source": {
+        "blob_sha": "c298f413ceb0d7f682002ee317d58f9ee9e0e448",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/02-위정.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "위정",
+      "replacements": [
+        [
+          "단순히 오래된 것 일반이 아니라",
+          "그저 오래된 것이 아니라"
+        ]
+      ]
+    },
+    {
+      "book": 2,
+      "changed": true,
+      "id": "ly-02-18",
+      "index": 5,
+      "key": "ly-02-18:語:5",
+      "label": "寡尤寡悔과우과회",
+      "original": "말에는 남의 탓과 비난을 받을 일이 적고, 행동에는 스스로 후회할 일이 적게 하라는 뜻입니다. 공자님은 출세보다 이런 신뢰의 축적을 관직에 이르는 길로 봅니다.",
+      "reason": "문맥의 뜻은 유지하고 명사 결합·직역식 표현을 자연스럽게 다듬음.",
+      "revised": "말에는 남의 탓과 비난을 받을 일이 적고, 행동에는 스스로 후회할 일이 적게 하라는 뜻입니다. 공자님은 출세보다 이렇게 신뢰를 쌓는 일을 관직에 이르는 길로 봅니다.",
+      "scope": "語",
+      "source": {
+        "blob_sha": "c298f413ceb0d7f682002ee317d58f9ee9e0e448",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/02-위정.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "위정",
+      "replacements": [
+        [
+          "이런 신뢰의 축적을",
+          "이렇게 신뢰를 쌓는 일을"
+        ]
+      ]
+    },
+    {
+      "book": 2,
+      "changed": true,
+      "id": "ly-02-20",
+      "index": 3,
+      "key": "ly-02-20:語:3",
+      "label": "忠충",
+      "original": "여기서 忠은 백성에게 강요하는 충성 구호가 아닙니다. 지도자가 먼저 孝와 慈를 실천할 때 백성이 마음을 다해 응답하는 관계의 결과로 제시됩니다.",
+      "reason": "문맥의 뜻은 유지하고 명사 결합·직역식 표현을 자연스럽게 다듬음.",
+      "revised": "여기서 忠은 백성에게 강요하는 충성 구호가 아닙니다. 지도자가 먼저 孝와 慈를 실천할 때 백성이 마음을 다해 응답한다는 뜻입니다.",
+      "scope": "語",
+      "source": {
+        "blob_sha": "c298f413ceb0d7f682002ee317d58f9ee9e0e448",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/02-위정.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "위정",
+      "replacements": [
+        [
+          "백성이 마음을 다해 응답하는 관계의 결과로 제시됩니다.",
+          "백성이 마음을 다해 응답한다는 뜻입니다."
+        ]
+      ]
+    },
+    {
+      "book": 3,
+      "changed": true,
+      "id": "ly-03-22",
+      "index": 5,
+      "key": "ly-03-22:語:5",
+      "label": "不知禮부지례",
+      "original": "관중조차 禮를 안다고 한다면 누가 禮를 모른다고 하겠느냐는 반문입니다. 공자님은 뛰어난 정치 능력과 禮에 맞는 행동을 별개의 평가 항목으로 구분합니다.",
+      "reason": "문맥의 뜻은 유지하고 명사 결합·직역식 표현을 자연스럽게 다듬음.",
+      "revised": "관중조차 禮를 안다고 한다면 누가 禮를 모른다고 하겠느냐는 반문입니다. 공자님은 뛰어난 정치 능력과 禮에 맞는 행동을 구분하여 따로 평가합니다.",
+      "scope": "語",
+      "source": {
+        "blob_sha": "a569dc24bc1cdff4db47200f0cefeab8df87d605",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/03-팔일.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "팔일",
+      "replacements": [
+        [
+          "별개의 평가 항목으로 구분합니다.",
+          "구분하여 따로 평가합니다."
+        ]
+      ]
+    },
+    {
+      "book": 3,
+      "changed": true,
+      "id": "ly-03-23",
+      "index": 1,
+      "key": "ly-03-23:語:1",
+      "label": "樂악",
+      "original": "여기서는 음악 일반보다 연주가 시작해 완성되는 구조를 말합니다. 공자님은 음악을 개별 음의 나열이 아니라 여러 소리가 질서 있게 모여 하나가 되는 과정으로 설명합니다.",
+      "reason": "문맥의 뜻은 유지하고 명사 결합·직역식 표현을 자연스럽게 다듬음.",
+      "revised": "여기서는 음악 전반보다는 연주가 시작되어 완성되는 과정을 말합니다. 공자님은 음악을 개별 음의 나열이 아니라 여러 소리가 질서 있게 모여 하나가 되는 과정으로 설명합니다.",
+      "scope": "語",
+      "source": {
+        "blob_sha": "a569dc24bc1cdff4db47200f0cefeab8df87d605",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/03-팔일.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "팔일",
+      "replacements": [
+        [
+          "음악 일반보다 연주가 시작해 완성되는 구조를",
+          "음악 전반보다는 연주가 시작되어 완성되는 과정을"
+        ]
+      ]
+    },
+    {
+      "book": 4,
+      "changed": true,
+      "id": "ly-04-02",
+      "index": 5,
+      "key": "ly-04-02:語:5",
+      "label": "利仁이인",
+      "original": "지혜로운 사람은 仁이 자신과 공동체에 이롭다는 것을 알고 실천한다는 뜻입니다. 仁者의 자연스러운 安仁과는 동기의 층위가 조금 다르게 제시됩니다.",
+      "reason": "문맥의 뜻은 유지하고 명사 결합·직역식 표현을 자연스럽게 다듬음.",
+      "revised": "지혜로운 사람은 仁이 자신과 공동체에 이롭다는 것을 알고 실천한다는 뜻입니다. 仁者의 자연스러운 安仁과는 그 동기에 조금 차이가 있습니다.",
+      "scope": "語",
+      "source": {
+        "blob_sha": "f392e8b176615e6c7c0afffbfb04618d24a2a853",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/04-이인.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "이인",
+      "replacements": [
+        [
+          "仁者의 자연스러운 安仁과는 동기의 층위가 조금 다르게 제시됩니다.",
+          "仁者의 자연스러운 安仁과는 그 동기에 조금 차이가 있습니다."
+        ]
+      ]
+    },
+    {
+      "book": 4,
+      "changed": true,
+      "id": "ly-04-16",
+      "index": 3,
+      "key": "ly-04-16:語:3",
+      "label": "喻於利유어리",
+      "original": "소인은 자기에게 돌아오는 이익에 밝다는 뜻입니다. 계산 능력 자체를 비난하기보다, 판단의 중심이 義가 아니라 사적 이익에 붙어 있는 상태를 대비합니다.",
+      "reason": "문맥의 뜻은 유지하고 명사 결합·직역식 표현을 자연스럽게 다듬음.",
+      "revised": "소인은 자기에게 돌아오는 이익에 밝다는 뜻입니다. 계산 능력 자체를 비난하기보다, 판단의 중심이 義가 아니라 사적 이익에 쏠려 있는 상태를 대비합니다.",
+      "scope": "語",
+      "source": {
+        "blob_sha": "f392e8b176615e6c7c0afffbfb04618d24a2a853",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/04-이인.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "이인",
+      "replacements": [
+        [
+          "사적 이익에 붙어 있는",
+          "사적 이익에 쏠려 있는"
+        ]
+      ]
+    },
+    {
+      "book": 4,
+      "changed": true,
+      "id": "ly-04-25",
+      "index": 5,
+      "key": "ly-04-25:語:5",
+      "label": "德不孤必有鄰덕불고필유린",
+      "original": "좋은 덕은 결국 공명하는 사람을 만든다는 유명한 구절입니다. 남의 인정을 먼저 좇지 않아도 바른 삶이 관계를 형성하는 힘을 가진다는 믿음을 담고 있습니다.",
+      "reason": "문맥의 뜻은 유지하고 명사 결합·직역식 표현을 자연스럽게 다듬음.",
+      "revised": "좋은 덕은 결국 공명하는 사람을 만든다는 유명한 구절입니다. 남의 인정을 먼저 좇지 않아도 바른 삶이 사람들과 관계를 맺는 힘이 된다는 믿음을 담고 있습니다.",
+      "scope": "語",
+      "source": {
+        "blob_sha": "f392e8b176615e6c7c0afffbfb04618d24a2a853",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/04-이인.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "이인",
+      "replacements": [
+        [
+          "바른 삶이 관계를 형성하는 힘을 가진다는",
+          "바른 삶이 사람들과 관계를 맺는 힘이 된다는"
+        ]
+      ]
+    },
+    {
+      "book": 5,
+      "changed": true,
+      "id": "ly-05-10",
+      "index": 1,
+      "key": "ly-05-10:語:1",
+      "label": "剛강",
+      "original": "여기서 剛은 성격이 거칠고 센 것이 아니라 욕심과 외부 유혹에 흔들리지 않는 내적인 굳셈을 가리킵니다. 공자님은 그런 사람을 좀처럼 보지 못했다고 말합니다.",
+      "reason": "문맥의 뜻은 유지하고 명사 결합·직역식 표현을 자연스럽게 다듬음.",
+      "revised": "여기서 剛은 성격이 거칠고 센 것이 아니라 욕심과 외부 유혹에 흔들리지 않는 마음의 굳셈을 가리킵니다. 공자님은 그런 사람을 좀처럼 보지 못했다고 말합니다.",
+      "scope": "語",
+      "source": {
+        "blob_sha": "222e20ea42d90cf5c8d49d5cd063fbba6b37b8c7",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/05-공야장.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "공야장",
+      "replacements": [
+        [
+          "내적인 굳셈",
+          "마음의 굳셈"
+        ]
+      ]
+    },
+    {
+      "book": 5,
+      "changed": true,
+      "id": "ly-05-10",
+      "index": 2,
+      "key": "ly-05-10:語:2",
+      "label": "申棖신정",
+      "original": "누군가 剛한 사람의 예로 든 인물입니다. 그러나 공자님은 신정에게 욕심이 많다고 보아, 겉의 강한 모습과 진짜 내적 굳셈을 구분합니다.",
+      "reason": "문맥의 뜻은 유지하고 명사 결합·직역식 표현을 자연스럽게 다듬음.",
+      "revised": "누군가 剛한 사람의 예로 든 인물입니다. 그러나 공자님은 신정에게 욕심이 많다고 보아, 겉의 강한 모습과 진정한 마음의 굳셈을 구분합니다.",
+      "scope": "語",
+      "source": {
+        "blob_sha": "222e20ea42d90cf5c8d49d5cd063fbba6b37b8c7",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/05-공야장.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "공야장",
+      "replacements": [
+        [
+          "진짜 내적 굳셈",
+          "진정한 마음의 굳셈"
+        ]
+      ]
+    },
+    {
+      "book": 5,
+      "changed": true,
+      "id": "ly-05-16",
+      "index": 1,
+      "key": "ly-05-16:語:1",
+      "label": "晏平仲안평중",
+      "original": "제나라의 명신 안영을 가리킵니다. 공자님은 그의 여러 정치 업적보다 사람과 오래 사귀어도 공경을 잃지 않는 관계의 태도를 특별히 칭찬합니다.",
+      "reason": "문맥의 뜻은 유지하고 명사 결합·직역식 표현을 자연스럽게 다듬음.",
+      "revised": "제나라의 명신 안영을 가리킵니다. 공자님은 그의 여러 정치 업적보다 사람과 오래 사귀어도 공경을 잃지 않는 태도를 특별히 칭찬합니다.",
+      "scope": "語",
+      "source": {
+        "blob_sha": "222e20ea42d90cf5c8d49d5cd063fbba6b37b8c7",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/05-공야장.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "공야장",
+      "replacements": [
+        [
+          "공경을 잃지 않는 관계의 태도를",
+          "공경을 잃지 않는 태도를"
+        ]
+      ]
+    },
+    {
+      "book": 5,
+      "changed": true,
+      "id": "ly-05-22",
+      "index": 4,
+      "key": "ly-05-22:語:4",
+      "label": "怨원",
+      "original": "다른 사람에게서 받는 원망을 말합니다. 옛 잘못을 오래 캐묻지 않으면 상대도 방어와 원한을 계속 키울 이유가 줄어든다는 관계의 결과로 제시됩니다.",
+      "reason": "문맥의 뜻은 유지하고 명사 결합·직역식 표현을 자연스럽게 다듬음.",
+      "revised": "다른 사람에게서 받는 원망을 말합니다. 옛 잘못을 오래 캐묻지 않으면 상대도 계속 자신을 방어하고 원한을 키울 이유가 줄어든다는 뜻입니다.",
+      "scope": "語",
+      "source": {
+        "blob_sha": "222e20ea42d90cf5c8d49d5cd063fbba6b37b8c7",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/05-공야장.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "공야장",
+      "replacements": [
+        [
+          "상대도 방어와 원한을 계속 키울 이유가 줄어든다는 관계의 결과로 제시됩니다.",
+          "상대도 계속 자신을 방어하고 원한을 키울 이유가 줄어든다는 뜻입니다."
+        ]
+      ]
+    },
+    {
+      "book": 5,
+      "changed": true,
+      "id": "ly-05-24",
+      "index": 5,
+      "key": "ly-05-24:語:5",
+      "label": "友其人우기인",
+      "original": "속으로는 미워하면서 겉으로 친하게 사귄다는 뜻입니다. 공자님은 관계의 표면적 매끄러움보다 안과 밖이 다른 거짓된 친밀함을 더 부끄러운 것으로 봅니다.",
+      "reason": "문맥의 뜻은 유지하고 명사 결합·직역식 표현을 자연스럽게 다듬음.",
+      "revised": "속으로는 미워하면서 겉으로 친하게 사귄다는 뜻입니다. 공자님은 겉으로 매끄러운 관계보다 안과 밖이 다른 거짓된 친밀함을 더 부끄러운 것으로 봅니다.",
+      "scope": "語",
+      "source": {
+        "blob_sha": "222e20ea42d90cf5c8d49d5cd063fbba6b37b8c7",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/05-공야장.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "공야장",
+      "replacements": [
+        [
+          "관계의 표면적 매끄러움",
+          "겉으로 매끄러운 관계"
+        ]
+      ]
+    },
+    {
+      "book": 5,
+      "changed": true,
+      "id": "ly-05-26",
+      "index": 2,
+      "key": "ly-05-26:語:2",
+      "label": "內自訟내자송",
+      "original": "자기 마음속에서 스스로를 따져 묻고 책망한다는 뜻입니다. 잘못을 발견한 뒤 변명하기보다 자신에게 책임을 묻는 내적 반성이 필요하다고 봅니다.",
+      "reason": "문맥의 뜻은 유지하고 명사 결합·직역식 표현을 자연스럽게 다듬음.",
+      "revised": "자기 마음속에서 스스로를 따져 묻고 책망한다는 뜻입니다. 잘못을 발견한 뒤 변명하기보다 자신에게 책임을 묻는 스스로 돌아보는 일이 필요하다고 봅니다.",
+      "scope": "語",
+      "source": {
+        "blob_sha": "222e20ea42d90cf5c8d49d5cd063fbba6b37b8c7",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/05-공야장.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "공야장",
+      "replacements": [
+        [
+          "내적 반성이 필요하다고",
+          "스스로 돌아보는 일이 필요하다고"
+        ]
+      ]
+    },
+    {
+      "book": 6,
+      "changed": true,
+      "id": "ly-06-01",
+      "index": 4,
+      "key": "ly-06-01:語:4",
+      "label": "居敬行簡거경행간",
+      "original": "마음의 바탕은 敬으로 삼고 일을 처리할 때는 간결하게 한다는 뜻입니다. 내면의 진지함이 있으면서 외적 절차는 불필요하게 복잡하지 않은 이상적 조합입니다.",
+      "reason": "뜻과 판단의 강도를 유지하며 명사형·직역식 서술·호응을 다듬음.",
+      "revised": "마음의 바탕은 敬으로 삼고 일을 처리할 때는 간결하게 한다는 뜻입니다. 마음은 진지하게 가지되 겉으로 드러나는 절차는 불필요하게 복잡하지 않은, 이상적인 조합입니다.",
+      "scope": "語",
+      "source": {
+        "blob_sha": "f5853d2851095f9bf9d03b017aa678d398a2c040",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/06-옹야.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "옹야",
+      "replacements": [
+        [
+          "내면의 진지함이 있으면서 외적 절차는 불필요하게 복잡하지 않은 이상적 조합입니다.",
+          "마음은 진지하게 가지되 겉으로 드러나는 절차는 불필요하게 복잡하지 않은, 이상적인 조합입니다."
+        ]
+      ]
+    },
+    {
+      "book": 6,
+      "changed": true,
+      "id": "ly-06-09",
+      "index": 2,
+      "key": "ly-06-09:語:2",
+      "label": "一瓢飲일표음",
+      "original": "표주박 하나에 담긴 물이라는 뜻입니다. 먹고사는 조건이 극도로 단순한 상황에서도 안회가 자신의 정신적 기쁨을 유지했다는 장면을 구체화합니다.",
+      "reason": "뜻과 판단의 강도를 유지하며 명사형·직역식 서술·호응을 다듬음.",
+      "revised": "표주박 하나에 담긴 물이라는 뜻입니다. 먹고사는 조건이 극도로 단순한 상황에서도 안회가 마음의 기쁨을 유지했음을 구체적으로 보여줍니다.",
+      "scope": "語",
+      "source": {
+        "blob_sha": "f5853d2851095f9bf9d03b017aa678d398a2c040",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/06-옹야.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "옹야",
+      "replacements": [
+        [
+          "먹고사는 조건이 극도로 단순한 상황에서도 안회가 자신의 정신적 기쁨을 유지했다는 장면을 구체화합니다.",
+          "먹고사는 조건이 극도로 단순한 상황에서도 안회가 마음의 기쁨을 유지했음을 구체적으로 보여줍니다."
+        ]
+      ]
+    },
+    {
+      "book": 6,
+      "changed": true,
+      "id": "ly-06-27",
+      "index": 2,
+      "key": "ly-06-27:語:2",
+      "label": "爲德위덕",
+      "original": "中庸을 하나의 德으로 평가하는 표현입니다. 판단 원칙만 아는 것이 아니라 그 알맞음을 삶에서 지속적으로 구현하는 사람의 성품이 되어야 합니다.",
+      "reason": "뜻과 판단의 강도를 유지하며 명사형·직역식 서술·호응을 다듬음.",
+      "revised": "中庸을 하나의 德으로 평가하는 표현입니다. 판단 원칙만 아는 것이 아니라 삶에서 꾸준히 알맞게 행동하는 성품을 갖춰야 합니다.",
+      "scope": "語",
+      "source": {
+        "blob_sha": "f5853d2851095f9bf9d03b017aa678d398a2c040",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/06-옹야.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "옹야",
+      "replacements": [
+        [
+          "판단 원칙만 아는 것이 아니라 그 알맞음을 삶에서 지속적으로 구현하는 사람의 성품이 되어야 합니다.",
+          "판단 원칙만 아는 것이 아니라 삶에서 꾸준히 알맞게 행동하는 성품을 갖춰야 합니다."
+        ]
+      ]
+    },
+    {
+      "book": 7,
+      "changed": true,
+      "id": "ly-07-02",
+      "index": 2,
+      "key": "ly-07-02:語:2",
+      "label": "識지",
+      "original": "여기서는 ‘알다’보다 마음에 새겨 잊지 않는다는 뜻으로 읽습니다. 듣고 흘려보내는 공부가 아니라 배운 내용을 안에 축적하는 힘을 말합니다.",
+      "reason": "뜻과 판단의 강도를 유지하며 명사형·직역식 서술·호응을 다듬음.",
+      "revised": "여기서는 ‘알다’보다 마음에 새겨 잊지 않는다는 뜻으로 읽습니다. 듣고 흘려보내는 공부가 아니라 배운 내용을 마음에 쌓아 가는 힘을 말합니다.",
+      "scope": "語",
+      "source": {
+        "blob_sha": "101d445b691af4fe769b64448011834773fc676c",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/07-술이.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "술이",
+      "replacements": [
+        [
+          "배운 내용을 안에 축적하는 힘",
+          "배운 내용을 마음에 쌓아 가는 힘"
+        ]
+      ]
+    },
+    {
+      "book": 7,
+      "changed": true,
+      "id": "ly-07-17",
+      "index": 3,
+      "key": "ly-07-17:語:3",
+      "label": "書서",
+      "original": "고대의 역사·정치 문서를 모은 『서』를 뜻합니다. 詩와 함께 공적인 교육의 핵심 텍스트였기 때문에 지역 사투리보다 정통적인 말로 읽는 것이 요구되었습니다.",
+      "reason": "뜻과 판단의 강도를 유지하며 명사형·직역식 서술·호응을 다듬음.",
+      "revised": "고대의 역사·정치 문서를 모은 『서』를 뜻합니다. 詩와 함께 공적인 교육의 핵심 문헌였기 때문에 지역 사투리보다 정통적인 말로 읽는 것이 요구되었습니다.",
+      "scope": "語",
+      "source": {
+        "blob_sha": "101d445b691af4fe769b64448011834773fc676c",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/07-술이.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "술이",
+      "replacements": [
+        [
+          "핵심 텍스트",
+          "핵심 문헌"
+        ]
+      ]
+    },
+    {
+      "book": 7,
+      "changed": true,
+      "id": "ly-07-30",
+      "index": 4,
+      "key": "ly-07-30:語:4",
+      "label": "丘也幸구야행",
+      "original": "‘나는 다행이다’라는 말입니다. 자신의 잘못이 드러나는 일을 체면 손상보다 바로잡을 기회로 받아들였다는 점에서 공자님의 자기교정 태도가 잘 드러납니다.",
+      "reason": "뜻과 판단의 강도를 유지하며 명사형·직역식 서술·호응을 다듬음.",
+      "revised": "‘나는 다행이다’라는 말입니다. 자신의 잘못이 드러나는 일을 체면이 깎이는 일보다는 바로잡을 기회로 받아들였다는 점에서 공자님이 스스로를 고치려는 태도가 잘 드러납니다.",
+      "scope": "語",
+      "source": {
+        "blob_sha": "101d445b691af4fe769b64448011834773fc676c",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/07-술이.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "술이",
+      "replacements": [
+        [
+          "체면 손상보다",
+          "체면이 깎이는 일보다는"
+        ],
+        [
+          "공자님의 자기교정 태도",
+          "공자님이 스스로를 고치려는 태도"
+        ]
+      ]
+    },
+    {
+      "book": 7,
+      "changed": true,
+      "id": "ly-07-36",
+      "index": 4,
+      "key": "ly-07-36:語:4",
+      "label": "小人소인",
+      "original": "단순히 사회적 신분이 낮은 사람보다 사사로운 이익에 끌리는 인간형을 가리킵니다. 외부 조건에 마음이 붙들리니 걱정도 끊이지 않는다는 구조입니다.",
+      "reason": "뜻과 판단의 강도를 유지하며 명사형·직역식 서술·호응을 다듬음.",
+      "revised": "단순히 사회적 신분이 낮은 사람보다 사사로운 이익에 끌리는 인간형을 가리킵니다. 외부 조건에 마음이 붙들리니 걱정도 끊이지 않는다는 뜻입니다.",
+      "scope": "語",
+      "source": {
+        "blob_sha": "101d445b691af4fe769b64448011834773fc676c",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/07-술이.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "술이",
+      "replacements": [
+        [
+          "걱정도 끊이지 않는다는 구조입니다.",
+          "걱정도 끊이지 않는다는 뜻입니다."
+        ]
+      ]
+    },
+    {
+      "book": 8,
+      "changed": true,
+      "id": "ly-08-04",
+      "index": 4,
+      "key": "ly-08-04:語:4",
+      "label": "動容貌동용모",
+      "original": "몸가짐과 모습을 움직이는 방식을 말합니다. 내면의 공경이 외적인 자세로 드러나야 거칠고 거만한 태도에서 멀어질 수 있다는 뜻입니다.",
+      "reason": "뜻과 판단의 강도를 유지하며 명사형·직역식 서술·호응을 다듬음.",
+      "revised": "몸가짐과 모습을 움직이는 방식을 말합니다. 공경하는 마음이 몸가짐으로 드러나야 거칠고 거만한 태도에서 멀어질 수 있다는 뜻입니다.",
+      "scope": "語",
+      "source": {
+        "blob_sha": "2e1d6800360c25a2104b4ec5cd1ae44b588154c6",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/08-태백.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "태백",
+      "replacements": [
+        [
+          "내면의 공경이 외적인 자세로",
+          "공경하는 마음이 몸가짐으로"
+        ]
+      ]
+    },
+    {
+      "book": 9,
+      "changed": true,
+      "id": "ly-09-10",
+      "index": 3,
+      "key": "ly-09-10:語:3",
+      "label": "鑽之彌堅찬지미견",
+      "original": "뚫고 들어갈수록 더욱 단단하다는 뜻입니다. 공자님의 도가 피상적인 설명 몇 개로 쉽게 관통되는 것이 아니라, 파고들수록 더 깊은 구조가 드러난다는 비유입니다.",
+      "reason": "뜻과 판단의 강도를 유지하며 명사형·직역식 서술·호응을 다듬음.",
+      "revised": "뚫고 들어갈수록 더욱 단단하다는 뜻입니다. 공자님의 도가 피상적인 설명 몇 개만으로 쉽게 이해할 수 있는 것이 아니라, 파고들수록 더 깊은 구조가 드러난다는 비유입니다.",
+      "scope": "語",
+      "source": {
+        "blob_sha": "575486d765f742fc9fdea0d92141603d4be1f322",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/09-자한.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "자한",
+      "replacements": [
+        [
+          "피상적인 설명 몇 개로 쉽게 관통되는 것이 아니라",
+          "피상적인 설명 몇 개만으로 쉽게 이해할 수 있는 것이 아니라"
+        ]
+      ]
+    },
+    {
+      "book": 9,
+      "changed": true,
+      "id": "ly-09-24",
+      "index": 5,
+      "key": "ly-09-24:語:5",
+      "label": "過則勿憚改과즉물탄개",
+      "original": "잘못이 생기면 고치기를 두려워하지 말라는 뜻입니다. 허물보다 더 큰 문제는 체면 때문에 알고도 수정하지 않는 것이므로, 자기교정을 덕의 핵심으로 둡니다.",
+      "reason": "뜻과 판단의 강도를 유지하며 명사형·직역식 서술·호응을 다듬음.",
+      "revised": "잘못이 생기면 고치기를 두려워하지 말라는 뜻입니다. 허물보다 더 큰 문제는 체면 때문에 알고도 수정하지 않는 것이므로, 자신의 잘못을 고치는 일을 덕의 핵심으로 둡니다.",
+      "scope": "語",
+      "source": {
+        "blob_sha": "575486d765f742fc9fdea0d92141603d4be1f322",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/09-자한.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "자한",
+      "replacements": [
+        [
+          "자기교정을 덕의 핵심으로 둡니다.",
+          "자신의 잘못을 고치는 일을 덕의 핵심으로 둡니다."
+        ]
+      ]
+    },
+    {
+      "book": 9,
+      "changed": true,
+      "id": "ly-09-28",
+      "index": 4,
+      "key": "ly-09-28:語:4",
+      "label": "知仁勇지인용",
+      "original": "지혜·仁·용기를 함께 묶어 읽을 수 있습니다. 판단의 힘, 마음의 방향, 실행의 힘이 서로 보완되어야 인격이 한쪽으로 치우치지 않는다는 구조입니다.",
+      "reason": "뜻과 판단의 강도를 유지하며 명사형·직역식 서술·호응을 다듬음.",
+      "revised": "지혜·仁·용기를 함께 묶어 읽을 수 있습니다. 판단의 힘, 마음의 방향, 실행의 힘이 서로 보완되어야 인격이 한쪽으로 치우치지 않는다는 뜻입니다.",
+      "scope": "語",
+      "source": {
+        "blob_sha": "575486d765f742fc9fdea0d92141603d4be1f322",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/09-자한.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "자한",
+      "replacements": [
+        [
+          "인격이 한쪽으로 치우치지 않는다는 구조입니다.",
+          "인격이 한쪽으로 치우치지 않는다는 뜻입니다."
+        ]
+      ]
+    },
+    {
+      "book": 10,
+      "changed": true,
+      "id": "ly-10-03",
+      "index": 1,
+      "key": "ly-10-03:語:1",
+      "label": "使擯사빈",
+      "original": "사신을 맞아 접빈 의례를 담당하게 한다는 뜻입니다. 개인 손님 안내가 아니라 국가를 대표하는 외교 역할이어서 표정과 몸짓까지 엄격한 예가 요구됩니다.",
+      "reason": "뜻과 판단의 강도를 유지하며 명사형·직역식 서술·호응을 다듬음.",
+      "revised": "사신을 맞아 접빈 의례를 담당하게 한다는 뜻입니다. 개인적으로 손님을 안내하는 일이 아니라 국가를 대표하는 외교 역할이어서 표정과 몸짓까지 엄격한 예가 요구됩니다.",
+      "scope": "語",
+      "source": {
+        "blob_sha": "096e28e98ea4c6569110a538191880a1ac6cede8",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/10-향당.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "향당",
+      "replacements": [
+        [
+          "개인 손님 안내가 아니라",
+          "개인적으로 손님을 안내하는 일이 아니라"
+        ]
+      ]
+    },
+    {
+      "book": 10,
+      "changed": true,
+      "id": "ly-10-17",
+      "index": 6,
+      "key": "ly-10-17:語:6",
+      "label": "時哉時哉시재시재",
+      "original": "때에 맞구나라는 감탄을 거듭한 말입니다. 단순히 좋은 계절이라는 뜻보다 나아가고 머무는 행동이 상황에 알맞다는 의미로 전통적으로 많이 읽습니다.",
+      "reason": "뜻과 판단의 강도를 유지하며 명사형·직역식 서술·호응을 다듬음.",
+      "revised": "때에 맞구나라는 감탄을 거듭한 말입니다. 단순히 좋은 계절이라는 뜻보다 나아가고 머무는 행동이 상황에 알맞다는 뜻으로 풀이하는 전통적 해석이 많습니다.",
+      "scope": "語",
+      "source": {
+        "blob_sha": "096e28e98ea4c6569110a538191880a1ac6cede8",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/10-향당.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "향당",
+      "replacements": [
+        [
+          "알맞다는 의미로 전통적으로 많이 읽습니다.",
+          "알맞다는 뜻으로 풀이하는 전통적 해석이 많습니다."
+        ]
+      ]
+    },
+    {
+      "book": 11,
+      "changed": true,
+      "id": "ly-11-11",
+      "index": 2,
+      "key": "ly-11-11:語:2",
+      "label": "未能事人미능사인",
+      "original": "아직 사람도 제대로 섬기지 못했다는 뜻입니다. 알기 어려운 귀신의 문제보다 눈앞의 인간관계와 책임을 먼저 해결해야 한다는 실천적 우선순위를 보여 줍니다.",
+      "reason": "기존 뜻을 유지하며 추상적 명사 결합과 호응을 자연스럽게 풀어 씀.",
+      "revised": "아직 사람도 제대로 섬기지 못했다는 뜻입니다. 알기 어려운 귀신의 문제보다 눈앞의 인간관계와 책임을 먼저 해결해야 한다는 실천의 순서를 보여 줍니다.",
+      "scope": "語",
+      "source": {
+        "blob_sha": "816ad65fdf62c262291949e5551e4676aa25b7b7",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/11-선진.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "선진",
+      "replacements": [
+        [
+          "실천적 우선순위를 보여 줍니다.",
+          "실천의 순서를 보여 줍니다."
+        ]
+      ]
+    },
+    {
+      "book": 11,
+      "changed": true,
+      "id": "ly-11-25",
+      "index": 4,
+      "key": "ly-11-25:語:4",
+      "label": "浴乎沂 風乎舞雩 詠而歸욕호기 풍호무우 영이귀",
+      "original": "기수에서 목욕하고 무우에서 바람 쐬며 노래하고 돌아오겠다는 증점의 포부입니다. 권력 성취보다 예악과 평화가 자연스럽게 이루어진 삶의 장면을 그립니다.",
+      "reason": "기존 뜻을 유지하며 추상적 명사 결합과 호응을 자연스럽게 풀어 씀.",
+      "revised": "기수에서 목욕하고 무우에서 바람 쐬며 노래하고 돌아오겠다는 증점의 포부입니다. 권력을 얻는 일보다 예악과 평화가 자연스럽게 이루어진 삶의 장면을 그립니다.",
+      "scope": "語",
+      "source": {
+        "blob_sha": "816ad65fdf62c262291949e5551e4676aa25b7b7",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/11-선진.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "선진",
+      "replacements": [
+        [
+          "권력 성취보다",
+          "권력을 얻는 일보다"
+        ]
+      ]
+    },
+    {
+      "book": 12,
+      "changed": true,
+      "id": "ly-12-04",
+      "index": 1,
+      "key": "ly-12-04:語:1",
+      "label": "不憂不懼불우불구",
+      "original": "근심하지 않고 두려워하지 않는다는 뜻입니다. 감정이 없다는 말보다 스스로 돌아보아 큰 잘못이 없을 때 생기는 내적인 안정감을 말합니다.",
+      "reason": "기존 뜻을 유지하며 추상적 명사 결합과 호응을 자연스럽게 풀어 씀.",
+      "revised": "근심하지 않고 두려워하지 않는다는 뜻입니다. 감정이 없다는 말보다 스스로 돌아보아 큰 잘못이 없을 때 생기는 마음의 안정감을 말합니다.",
+      "scope": "語",
+      "source": {
+        "blob_sha": "3bb3dcb4ca5735dac947735bf406fdafaae89bf5",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/12-안연.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "안연",
+      "replacements": [
+        [
+          "내적인 안정감",
+          "마음의 안정감"
+        ]
+      ]
+    },
+    {
+      "book": 12,
+      "changed": true,
+      "id": "ly-12-18",
+      "index": 2,
+      "key": "ly-12-18:語:2",
+      "label": "苟子之不欲구자지불욕",
+      "original": "당신이 탐욕을 부리지 않는다면이라는 뜻입니다. 백성의 절도를 요구하기 전에 권력자가 먼저 재물 욕심을 줄여야 한다는 정치적 자기책임을 강조합니다.",
+      "reason": "기존 뜻을 유지하며 추상적 명사 결합과 호응을 자연스럽게 풀어 씀.",
+      "revised": "당신이 탐욕을 부리지 않는다면이라는 뜻입니다. 백성의 절도를 요구하기 전에 권력자가 먼저 재물 욕심을 줄여야 한다는 정치에서 자신이 져야 할 책임을 강조합니다.",
+      "scope": "語",
+      "source": {
+        "blob_sha": "3bb3dcb4ca5735dac947735bf406fdafaae89bf5",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/12-안연.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "안연",
+      "replacements": [
+        [
+          "정치적 자기책임을 강조합니다.",
+          "정치에서 자신이 져야 할 책임을 강조합니다."
+        ]
+      ]
+    },
+    {
+      "book": 12,
+      "changed": true,
+      "id": "ly-12-21",
+      "index": 4,
+      "key": "ly-12-21:語:4",
+      "label": "攻其惡 無攻人之惡공기악 무공인지악",
+      "original": "자기의 잘못을 공격하고 남의 잘못만 공격하지 말라는 뜻입니다. 비판을 금지하기보다 수양의 우선순위를 자기교정에 두라는 말입니다.",
+      "reason": "기존 뜻을 유지하며 추상적 명사 결합과 호응을 자연스럽게 풀어 씀.",
+      "revised": "자기의 잘못을 공격하고 남의 잘못만 공격하지 말라는 뜻입니다. 비판을 금지하기보다 수양할 때 자신의 잘못을 고치는 일을 먼저 하라는 말입니다.",
+      "scope": "語",
+      "source": {
+        "blob_sha": "3bb3dcb4ca5735dac947735bf406fdafaae89bf5",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/12-안연.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "안연",
+      "replacements": [
+        [
+          "수양의 우선순위를 자기교정에 두라는",
+          "수양할 때 자신의 잘못을 고치는 일을 먼저 하라는"
+        ]
+      ]
+    },
+    {
+      "book": 13,
+      "changed": true,
+      "id": "ly-13-05",
+      "index": 2,
+      "key": "ly-13-05:語:2",
+      "label": "授之以政수지이정",
+      "original": "정사를 맡긴다는 뜻입니다. 공부한 내용을 현실의 행정 판단에 적용할 수 있는지가 학문의 실제 성과를 시험하는 장면입니다.",
+      "reason": "기존 뜻을 유지하며 추상적 명사 결합과 호응을 자연스럽게 풀어 씀.",
+      "revised": "정사를 맡긴다는 뜻입니다. 공부한 내용을 현실의 행정 판단에 적용할 수 있는지로 학문의 실제 성과를 시험합니다.",
+      "scope": "語",
+      "source": {
+        "blob_sha": "e9779822bb2b17ca431de651cab7e85168c58eb8",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/13-자로.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "자로",
+      "replacements": [
+        [
+          "공부한 내용을 현실의 행정 판단에 적용할 수 있는지가 학문의 실제 성과를 시험하는 장면입니다.",
+          "공부한 내용을 현실의 행정 판단에 적용할 수 있는지로 학문의 실제 성과를 시험합니다."
+        ]
+      ]
+    },
+    {
+      "book": 13,
+      "changed": true,
+      "id": "ly-13-26",
+      "index": 3,
+      "key": "ly-13-26:語:3",
+      "label": "泰태",
+      "original": "마음이 넓고 편안하며 안정된 상태를 가리킵니다. 이 장에서는 군자의 내면적 여유를 설명하는 말로 쓰입니다.",
+      "reason": "추상적인 관형 표현을 풀고 조사 중복을 피함.",
+      "revised": "마음이 넓고 편안하며 안정된 상태를 가리킵니다. 이 장에서는 군자가 지닌 마음의 여유를 설명하는 말로 쓰입니다.",
+      "scope": "語",
+      "source": {
+        "blob_sha": "e9779822bb2b17ca431de651cab7e85168c58eb8",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/13-자로.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "자로",
+      "replacements": [
+        [
+          "군자의 내면적 여유",
+          "군자가 지닌 마음의 여유"
+        ]
+      ]
+    },
+    {
+      "book": 14,
+      "changed": true,
+      "id": "ly-14-45",
+      "index": 5,
+      "key": "ly-14-45:語:5",
+      "label": "君子군자",
+      "original": "이 장의 군자는 자기만 잘 닦는 사람이 아니라 자신의 덕을 주변과 백성의 안정까지 확장하는 사람으로 그려집니다.",
+      "reason": "기존 뜻을 유지하며 추상적 명사 결합과 호응을 자연스럽게 풀어 씀.",
+      "revised": "이 장의 군자는 자기만 잘 닦는 사람이 아니라 자신의 덕이 주변 사람과 백성의 안정으로 이어지게 하는 사람으로 그려집니다.",
+      "scope": "語",
+      "source": {
+        "blob_sha": "1d5c9f60733d7c923dbcea667ed7b3893c8fdad1",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/14-헌문.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "헌문",
+      "replacements": [
+        [
+          "자신의 덕을 주변과 백성의 안정까지 확장하는 사람",
+          "자신의 덕이 주변 사람과 백성의 안정으로 이어지게 하는 사람"
+        ]
+      ]
+    },
+    {
+      "book": 15,
+      "changed": true,
+      "id": "ly-15-02",
+      "index": 1,
+      "key": "ly-15-02:語:1",
+      "label": "多學而識之다학이지지",
+      "original": "많이 배우고 그것을 기억한다는 뜻입니다. 자공은 공자님의 지혜를 많은 지식의 축적으로 이해했지만, 공자님은 더 근본적인 원리를 말합니다.",
+      "reason": "기존 뜻을 유지하며 추상적 명사 결합과 호응을 자연스럽게 풀어 씀.",
+      "revised": "많이 배우고 그것을 기억한다는 뜻입니다. 자공은 공자님의 지혜를 많은 지식을 쌓은 결과로 이해했지만, 공자님은 더 근본적인 원리를 말합니다.",
+      "scope": "語",
+      "source": {
+        "blob_sha": "bf4095ccec09b5c2b5f74960dd33fde8da5220be",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/15-위령공.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "위령공",
+      "replacements": [
+        [
+          "많은 지식의 축적으로",
+          "많은 지식을 쌓은 결과로"
+        ]
+      ]
+    },
+    {
+      "book": 15,
+      "changed": true,
+      "id": "ly-15-20",
+      "index": 4,
+      "key": "ly-15-20:語:4",
+      "label": "小人소인",
+      "original": "문제가 생기면 먼저 남의 탓과 요구로 돌리는 사람을 뜻합니다. 책임의 방향이 군자와 반대로 설정됩니다.",
+      "reason": "기존 뜻을 유지하며 추상적 명사 결합과 호응을 자연스럽게 풀어 씀.",
+      "revised": "문제가 생기면 먼저 남을 탓하고 남에게 요구부터 하는 사람을 뜻합니다. 책임의 방향이 군자와 반대로 설정됩니다.",
+      "scope": "語",
+      "source": {
+        "blob_sha": "bf4095ccec09b5c2b5f74960dd33fde8da5220be",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/15-위령공.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "위령공",
+      "replacements": [
+        [
+          "문제가 생기면 먼저 남의 탓과 요구로 돌리는 사람을 뜻합니다.",
+          "문제가 생기면 먼저 남을 탓하고 남에게 요구부터 하는 사람을 뜻합니다."
+        ]
+      ]
+    },
+    {
+      "book": 15,
+      "changed": true,
+      "id": "ly-15-23",
+      "index": 4,
+      "key": "ly-15-23:語:4",
+      "label": "勿施於人물시어인",
+      "original": "그 일을 남에게 행하지 말라는 뜻입니다. 恕를 추상적 감정이 아니라 실제 행동의 제한 원칙으로 바꿔 줍니다.",
+      "reason": "행동을 제한하는 원칙이라는 뜻을 보존하며 명사형을 풀어 씀.",
+      "revised": "그 일을 남에게 행하지 말라는 뜻입니다. 恕를 추상적 감정이 아니라 실제 행동에서 지켜야 할 한계를 정하는 원칙으로 바꿔 줍니다.",
+      "scope": "語",
+      "source": {
+        "blob_sha": "bf4095ccec09b5c2b5f74960dd33fde8da5220be",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/15-위령공.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "위령공",
+      "replacements": [
+        [
+          "실제 행동의 제한 원칙으로",
+          "실제 행동에서 지켜야 할 한계를 정하는 원칙으로"
+        ]
+      ]
+    },
+    {
+      "book": 17,
+      "changed": true,
+      "id": "ly-17-06",
+      "index": 2,
+      "key": "ly-17-06:語:2",
+      "label": "恭則不侮공즉불모",
+      "original": "공손하면 남에게 모욕받지 않는다는 뜻입니다. 사람을 존중하는 태도가 관계의 기본적인 존중을 되돌려 받게 한다는 말입니다.",
+      "reason": "명사형 주어와 어색한 서술어 연결을 자연스럽게 바꿈.",
+      "revised": "공손하면 남에게 모욕받지 않는다는 뜻입니다. 사람을 존중하면 자신도 기본적인 존중을 되돌려 받는다는 말입니다.",
+      "scope": "語",
+      "source": {
+        "blob_sha": "88f7f3985bfa2b3ed1b79972b1ea15ec3aa8dd5a",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/17-양화.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "양화",
+      "replacements": [
+        [
+          "사람을 존중하는 태도가 관계의 기본적인 존중을 되돌려 받게 한다는 말입니다.",
+          "사람을 존중하면 자신도 기본적인 존중을 되돌려 받는다는 말입니다."
+        ]
+      ]
+    },
+    {
+      "book": 17,
+      "changed": true,
+      "id": "ly-17-15",
+      "index": 3,
+      "key": "ly-17-15:語:3",
+      "label": "患失之환실지",
+      "original": "이미 얻은 자리를 잃을까 두려워한다는 뜻입니다. 지위에 집착하면 원칙보다 자기 보존을 우선하게 됩니다.",
+      "reason": "추상적인 명사 표현을 풀어 씀.",
+      "revised": "이미 얻은 자리를 잃을까 두려워한다는 뜻입니다. 지위에 집착하면 원칙보다 자신을 지키는 일을 우선하게 됩니다.",
+      "scope": "語",
+      "source": {
+        "blob_sha": "88f7f3985bfa2b3ed1b79972b1ea15ec3aa8dd5a",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/17-양화.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "양화",
+      "replacements": [
+        [
+          "자기 보존을",
+          "자신을 지키는 일을"
+        ]
+      ]
+    },
+    {
+      "book": 18,
+      "changed": true,
+      "id": "ly-18-10",
+      "index": 4,
+      "key": "ly-18-10:語:4",
+      "label": "故舊無大故則不棄고구무대고즉불기",
+      "original": "오랜 관계의 사람은 큰 잘못이 없으면 버리지 않는다는 뜻입니다. 사람을 쉽게 갈아치우지 않는 신뢰와 지속성을 강조합니다.",
+      "reason": "어색한 관형 표현을 풀어 씀.",
+      "revised": "오래 관계를 맺어 온 사람은 큰 잘못이 없으면 버리지 않는다는 뜻입니다. 사람을 쉽게 갈아치우지 않는 신뢰와 지속성을 강조합니다.",
+      "scope": "語",
+      "source": {
+        "blob_sha": "bde47750b9af77d1aa01551f287341db7b5c2f9f",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/18-미자.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "미자",
+      "replacements": [
+        [
+          "오랜 관계의 사람은",
+          "오래 관계를 맺어 온 사람은"
+        ]
+      ]
+    },
+    {
+      "book": 19,
+      "changed": true,
+      "id": "ly-19-03",
+      "index": 5,
+      "key": "ly-19-03:語:5",
+      "label": "嘉善而矜不能가선이긍불능",
+      "original": "좋은 점은 칭찬하고 부족한 사람은 가엾게 여긴다는 뜻입니다. 능력 부족을 곧바로 배척하지 않는 인간관계의 여유를 말합니다.",
+      "reason": "배척하는 대상과 이유의 연결을 자연스럽게 함.",
+      "revised": "좋은 점은 칭찬하고 부족한 사람은 가엾게 여긴다는 뜻입니다. 능력이 부족하다고 곧바로 배척하지 않는 인간관계의 여유를 말합니다.",
+      "scope": "語",
+      "source": {
+        "blob_sha": "50679eceddd3d454aa9f88bdecb4c2f3e1704622",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/19-자장.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "자장",
+      "replacements": [
+        [
+          "능력 부족을 곧바로 배척하지 않는",
+          "능력이 부족하다고 곧바로 배척하지 않는"
+        ]
+      ]
+    },
+    {
+      "book": 19,
+      "changed": true,
+      "id": "ly-19-07",
+      "index": 4,
+      "key": "ly-19-07:語:4",
+      "label": "致其道치기도",
+      "original": "자기 道를 끝까지 밀고 나가 완성한다는 뜻입니다. 배움의 목표를 지식 축적보다 삶의 원리를 실제로 이루는 데 둡니다.",
+      "reason": "명사형 표현을 풀어 씀.",
+      "revised": "자기 道를 끝까지 밀고 나가 완성한다는 뜻입니다. 배움의 목표를 지식을 쌓는 일보다 삶의 원리를 실제로 이루는 데 둡니다.",
+      "scope": "語",
+      "source": {
+        "blob_sha": "50679eceddd3d454aa9f88bdecb4c2f3e1704622",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/19-자장.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "자장",
+      "replacements": [
+        [
+          "지식 축적보다",
+          "지식을 쌓는 일보다"
+        ]
+      ]
+    },
+    {
+      "book": 20,
+      "changed": true,
+      "id": "ly-20-03",
+      "index": 4,
+      "key": "ly-20-03:語:4",
+      "label": "不知言부지언",
+      "original": "사람의 말이 가진 뜻과 진위를 분별하지 못한다는 뜻입니다. 말의 표면만 듣지 않고 그 안의 의도와 사람됨을 알아보는 능력을 요구합니다.",
+      "reason": "직역투 표현을 자연스러운 말로 바꿈.",
+      "revised": "사람의 말이 가진 뜻과 진위를 분별하지 못한다는 뜻입니다. 겉으로 드러난 말만 듣지 않고 그 안의 의도와 사람됨을 알아보는 능력을 요구합니다.",
+      "scope": "語",
+      "source": {
+        "blob_sha": "aeb63caba882184daadb3a34286721a3b36ae62c",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/20-요왈.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "요왈",
+      "replacements": [
+        [
+          "말의 표면만 듣지 않고",
+          "겉으로 드러난 말만 듣지 않고"
+        ]
+      ]
+    },
+    {
+      "book": 1,
+      "changed": true,
+      "field": "답변",
+      "id": "ly-01-14",
+      "index": 2,
+      "key": "ly-01-14:問:2:a",
+      "label": "답변",
+      "original": "공자님에게 배움은 지식 습득만이 아니라 생활 태도와 자기 교정까지 포함합니다. 일에는 부지런하고 말은 신중하며, 자신의 잘못을 바로잡으려는 사람이 진짜 배우기를 좋아하는 사람입니다.",
+      "reason": "명사형 표현을 풀어 씀.",
+      "revised": "공자님에게 배움은 지식을 익히는 일뿐 아니라 생활 태도와 스스로 잘못을 고치는 일까지 포함합니다. 일에는 부지런하고 말은 신중하며, 자신의 잘못을 바로잡으려는 사람이 진짜 배우기를 좋아하는 사람입니다.",
+      "scope": "問",
+      "source": {
+        "blob_sha": "c33214e810660bb771b07a02630a71d805ce36bd",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/01-학이.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
+      },
+      "book_name": "학이",
+      "replacements": [
+        [
+          "지식 습득만이 아니라 생활 태도와 자기 교정까지",
+          "지식을 익히는 일뿐 아니라 생활 태도와 스스로 잘못을 고치는 일까지"
+        ]
+      ]
+    },
+    {
+      "book": 2,
+      "changed": true,
+      "field": "답변",
+      "id": "ly-02-07",
+      "index": 3,
+      "key": "ly-02-07:問:3:a",
+      "label": "답변",
+      "original": "‘敬’, 즉 공경입니다. 겉으로 같은 봉양을 해도 부모를 존중하는 마음과 태도가 있느냐에 따라 효의 의미가 달라진다고 보았습니다. 물질보다 관계의 태도를 강조한 장입니다.",
+      "reason": "앞 문장에 있는 대상을 밝혀 어색한 관형 표현을 다듬음.",
+      "revised": "‘敬’, 즉 공경입니다. 겉으로 같은 봉양을 해도 부모를 존중하는 마음과 태도가 있느냐에 따라 효의 의미가 달라진다고 보았습니다. 물질보다 부모를 대하는 태도를 강조한 장입니다.",
+      "scope": "問",
+      "source": {
+        "blob_sha": "c298f413ceb0d7f682002ee317d58f9ee9e0e448",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/02-위정.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
+      },
+      "book_name": "위정",
+      "replacements": [
+        [
+          "물질보다 관계의 태도를",
+          "물질보다 부모를 대하는 태도를"
+        ]
+      ]
+    },
+    {
+      "book": 2,
+      "changed": true,
+      "field": "질문",
+      "id": "ly-02-13",
+      "index": 2,
+      "key": "ly-02-13:問:2:q",
+      "label": "질문",
+      "original": "왜 공자님은 군자의 조건으로 말보다 행동의 순서를 강조했나요?",
+      "reason": "순서를 강조한다는 질문을 자연스럽게 풀어 씀.",
+      "revised": "왜 공자님은 군자의 조건으로 말보다 행동이 먼저라는 점을 강조했나요?",
+      "scope": "問",
+      "source": {
+        "blob_sha": "c298f413ceb0d7f682002ee317d58f9ee9e0e448",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/02-위정.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
+      },
+      "book_name": "위정",
+      "replacements": [
+        [
+          "말보다 행동의 순서를 강조했나요?",
+          "말보다 행동이 먼저라는 점을 강조했나요?"
+        ]
+      ]
+    },
+    {
+      "book": 2,
+      "changed": true,
+      "field": "답변",
+      "id": "ly-02-20",
+      "index": 1,
+      "key": "ly-02-20:問:1:a",
+      "label": "답변",
+      "original": "윗사람이 스스로 진중하고 단정하게 행동해야 백성도 그를 가볍게 여기지 않기 때문입니다. 명령으로 공경을 요구하기보다 통치자의 태도가 먼저 사람들의 반응을 만든다고 본 것입니다.",
+      "reason": "반응을 만든다는 어색한 표현을 다듬음.",
+      "revised": "윗사람이 스스로 진중하고 단정하게 행동해야 백성도 그를 가볍게 여기지 않기 때문입니다. 명령으로 공경을 요구하기보다 사람들이 먼저 통치자의 태도에 반응한다고 본 것입니다.",
+      "scope": "問",
+      "source": {
+        "blob_sha": "c298f413ceb0d7f682002ee317d58f9ee9e0e448",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/02-위정.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
+      },
+      "book_name": "위정",
+      "replacements": [
+        [
+          "통치자의 태도가 먼저 사람들의 반응을 만든다고",
+          "사람들이 먼저 통치자의 태도에 반응한다고"
+        ]
+      ]
+    },
+    {
+      "book": 3,
+      "changed": true,
+      "field": "답변",
+      "id": "ly-03-03",
+      "index": 3,
+      "key": "ly-03-03:問:3:a",
+      "label": "답변",
+      "original": "연결해서 읽을 수 있습니다. 앞의 두 장은 권세가들이 화려한 예를 참칭하는 모습을 보여 주고, 이 장은 仁 없는 예와 음악이 무슨 의미가 있느냐고 원리를 제시합니다.",
+      "reason": "인용된 물음과 서술어의 연결을 자연스럽게 함.",
+      "revised": "연결해서 읽을 수 있습니다. 앞의 두 장은 권세가들이 화려한 예를 참칭하는 모습을 보여 주고, 이 장은 仁 없는 예와 음악이 무슨 의미가 있느냐고 물으며 그 원리를 설명합니다.",
+      "scope": "問",
+      "source": {
+        "blob_sha": "a569dc24bc1cdff4db47200f0cefeab8df87d605",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/03-팔일.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
+      },
+      "book_name": "팔일",
+      "replacements": [
+        [
+          "仁 없는 예와 음악이 무슨 의미가 있느냐고 원리를 제시합니다.",
+          "仁 없는 예와 음악이 무슨 의미가 있느냐고 물으며 그 원리를 설명합니다."
+        ]
+      ]
+    },
+    {
+      "book": 3,
+      "changed": true,
+      "field": "답변",
+      "id": "ly-03-18",
+      "index": 3,
+      "key": "ly-03-18:問:3:a",
+      "label": "답변",
+      "original": "아닙니다. 공자님이 강조한 것은 ‘禮’에 맞게 섬기는 것입니다. 예는 군주에게도 신하를 대하는 의무를 요구하므로, 개인적 비굴함이나 무조건적 복종과는 구별해야 합니다.",
+      "reason": "의무를 요구한다는 중첩 표현을 풀어 씀.",
+      "revised": "아닙니다. 공자님이 강조한 것은 ‘禮’에 맞게 섬기는 것입니다. 예에 따르면 군주도 신하를 대할 때 지켜야 할 의무가 있으므로, 개인적 비굴함이나 무조건적 복종과는 구별해야 합니다.",
+      "scope": "問",
+      "source": {
+        "blob_sha": "a569dc24bc1cdff4db47200f0cefeab8df87d605",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/03-팔일.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
+      },
+      "book_name": "팔일",
+      "replacements": [
+        [
+          "예는 군주에게도 신하를 대하는 의무를 요구하므로",
+          "예에 따르면 군주도 신하를 대할 때 지켜야 할 의무가 있으므로"
+        ]
+      ]
+    },
+    {
+      "book": 3,
+      "changed": true,
+      "field": "답변",
+      "id": "ly-03-26",
+      "index": 3,
+      "key": "ly-03-26:問:3:a",
+      "label": "답변",
+      "original": "상례의 핵심 감정이 실제 슬픔에 있기 때문입니다. 높은 자리에서는 너그러움, 예에서는 공경, 상례에서는 슬픔처럼 각 상황에 반드시 있어야 할 내면이 빠지면 외형만으로는 사람을 평가할 수 없다는 뜻입니다.",
+      "reason": "추상적인 내면과 외형을 문맥에 맞게 풀어 씀.",
+      "revised": "상례의 핵심 감정이 실제 슬픔에 있기 때문입니다. 높은 자리에서는 너그러움, 예에서는 공경, 상례에서는 슬픔처럼 각 상황에서 반드시 갖춰야 할 마음이 없으면 겉모습만으로는 사람을 평가할 수 없다는 뜻입니다.",
+      "scope": "問",
+      "source": {
+        "blob_sha": "a569dc24bc1cdff4db47200f0cefeab8df87d605",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/03-팔일.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
+      },
+      "book_name": "팔일",
+      "replacements": [
+        [
+          "각 상황에 반드시 있어야 할 내면이 빠지면 외형만으로는",
+          "각 상황에서 반드시 갖춰야 할 마음이 없으면 겉모습만으로는"
+        ]
+      ]
+    },
+    {
+      "book": 4,
+      "changed": true,
+      "field": "답변",
+      "id": "ly-04-09",
+      "index": 2,
+      "key": "ly-04-09:問:2:a",
+      "label": "답변",
+      "original": "그 자체를 금지한 것은 아닙니다. 문제는 검소한 형편을 수치로 여기고 외적 조건 때문에 자신의 가치까지 낮다고 느끼는 태도입니다. 道를 지향한다면 체면보다 삶의 기준을 앞세워야 한다는 말입니다.",
+      "reason": "추상적인 한자어 표현을 풀어 씀.",
+      "revised": "그 자체를 금지한 것은 아닙니다. 문제는 검소한 형편을 수치로 여기고 겉으로 드러나는 조건 때문에 자신의 가치까지 낮다고 느끼는 태도입니다. 道를 지향한다면 체면보다 삶의 기준을 앞세워야 한다는 말입니다.",
+      "scope": "問",
+      "source": {
+        "blob_sha": "f392e8b176615e6c7c0afffbfb04618d24a2a853",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/04-이인.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
+      },
+      "book_name": "이인",
+      "replacements": [
+        [
+          "외적 조건 때문에",
+          "겉으로 드러나는 조건 때문에"
+        ]
+      ]
+    },
+    {
+      "book": 4,
+      "changed": true,
+      "field": "답변",
+      "id": "ly-04-15",
+      "index": 3,
+      "key": "ly-04-15:問:3:a",
+      "label": "답변",
+      "original": "參은 증자의 이름 曾參입니다. 증자가 ‘예’라는 뜻의 唯로 즉시 응답한 것은 공자님의 가르침을 깊이 이해해 짧은 말만으로도 뜻을 알아들었다는 장면으로 전통적으로 해석됩니다.",
+      "reason": "뜻을 알아들었다는 장면이라는 어색한 연결을 다듬음.",
+      "revised": "參은 증자의 이름 曾參입니다. 증자가 ‘예’라는 뜻의 唯로 즉시 응답한 것은 공자님의 가르침을 깊이 이해해 짧은 말만으로도 뜻을 알아들었음을 보여 준다고 전통적으로 해석합니다.",
+      "scope": "問",
+      "source": {
+        "blob_sha": "f392e8b176615e6c7c0afffbfb04618d24a2a853",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/04-이인.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
+      },
+      "book_name": "이인",
+      "replacements": [
+        [
+          "뜻을 알아들었다는 장면으로 전통적으로 해석됩니다.",
+          "뜻을 알아들었음을 보여 준다고 전통적으로 해석합니다."
+        ]
+      ]
+    },
+    {
+      "book": 4,
+      "changed": true,
+      "field": "답변",
+      "id": "ly-04-26",
+      "index": 3,
+      "key": "ly-04-26:問:3:a",
+      "label": "답변",
+      "original": "군주와 신하는 권력 차이가 있어 지나친 간언이 모욕이나 처벌로 돌아올 수 있고, 친구 사이에서는 강요가 관계의 거리감으로 이어지기 쉽기 때문입니다. 관계마다 충고의 방식도 달라야 한다는 뜻입니다.",
+      "reason": "추상적인 관계의 거리감을 행동과 반응으로 풀어 씀.",
+      "revised": "군주와 신하는 권력 차이가 있어 지나친 간언이 모욕이나 처벌로 돌아올 수 있고, 친구 사이에서는 강요하면 서로 거리감을 느끼기 쉽기 때문입니다. 관계마다 충고의 방식도 달라야 한다는 뜻입니다.",
+      "scope": "問",
+      "source": {
+        "blob_sha": "f392e8b176615e6c7c0afffbfb04618d24a2a853",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/04-이인.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
+      },
+      "book_name": "이인",
+      "replacements": [
+        [
+          "친구 사이에서는 강요가 관계의 거리감으로 이어지기 쉽기 때문입니다.",
+          "친구 사이에서는 강요하면 서로 거리감을 느끼기 쉽기 때문입니다."
+        ]
+      ]
+    },
+    {
+      "book": 5,
+      "changed": true,
+      "field": "답변",
+      "id": "ly-05-10",
+      "index": 1,
+      "key": "ly-05-10:問:1:a",
+      "label": "답변",
+      "original": "단순한 강한 성격이나 완고함이 아닙니다. 욕심과 외부 유혹에 흔들리지 않고 옳다고 판단한 바를 굳게 지키는 내적인 강직함을 뜻합니다. 그래서 욕심이 많은 사람과 구별됩니다.",
+      "reason": "추상적인 관형 표현을 다듬음.",
+      "revised": "단순한 강한 성격이나 완고함이 아닙니다. 욕심과 외부 유혹에 흔들리지 않고 옳다고 판단한 바를 굳게 지키는 마음의 강직함을 뜻합니다. 그래서 욕심이 많은 사람과 구별됩니다.",
+      "scope": "問",
+      "source": {
+        "blob_sha": "222e20ea42d90cf5c8d49d5cd063fbba6b37b8c7",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/05-공야장.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
+      },
+      "book_name": "공야장",
+      "replacements": [
+        [
+          "내적인 강직함을",
+          "마음의 강직함을"
+        ]
+      ]
+    },
+    {
+      "book": 5,
+      "changed": true,
+      "field": "답변",
+      "id": "ly-05-21",
+      "index": 1,
+      "key": "ly-05-21:問:1:a",
+      "label": "답변",
+      "original": "노나라에 있는 젊은 제자들이 뜻은 크고 재능도 드러나지만 아직 다듬어지지 않았다고 생각했기 때문입니다. 그들을 제대로 가르치고 완성시키는 일이 자신에게 필요하다고 느낀 장면입니다.",
+      "reason": "일이 자신에게 필요하다는 직역투 연결을 자연스럽게 함.",
+      "revised": "노나라에 있는 젊은 제자들이 뜻은 크고 재능도 드러나지만 아직 다듬어지지 않았다고 생각했기 때문입니다. 자신이 그들을 제대로 가르쳐 완성시켜야 한다고 느낀 장면입니다.",
+      "scope": "問",
+      "source": {
+        "blob_sha": "222e20ea42d90cf5c8d49d5cd063fbba6b37b8c7",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/05-공야장.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
+      },
+      "book_name": "공야장",
+      "replacements": [
+        [
+          "그들을 제대로 가르치고 완성시키는 일이 자신에게 필요하다고 느낀 장면입니다.",
+          "자신이 그들을 제대로 가르쳐 완성시켜야 한다고 느낀 장면입니다."
+        ]
+      ]
+    },
+    {
+      "book": 6,
+      "changed": true,
+      "field": "답변",
+      "id": "ly-06-09",
+      "index": 1,
+      "key": "ly-06-09:問:1:a",
+      "label": "답변",
+      "original": "즐거움의 근거를 재물이나 편안함에만 두지 않았기 때문입니다. 배우고 도를 실천하는 삶 자체에서 만족을 얻었기에 어려운 환경도 그의 내적 즐거움을 빼앗지 못했습니다.",
+      "reason": "내적이라는 추상어를 풀어 씀.",
+      "revised": "즐거움의 근거를 재물이나 편안함에만 두지 않았기 때문입니다. 배우고 도를 실천하는 삶 자체에서 만족을 얻었기에 어려운 환경도 그가 마음속으로 느끼는 즐거움을 빼앗지 못했습니다.",
+      "scope": "問",
+      "source": {
+        "blob_sha": "f5853d2851095f9bf9d03b017aa678d398a2c040",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/06-옹야.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
+      },
+      "book_name": "옹야",
+      "replacements": [
+        [
+          "그의 내적 즐거움을",
+          "그가 마음속으로 느끼는 즐거움을"
+        ]
+      ]
+    },
+    {
+      "book": 7,
+      "changed": true,
+      "field": "답변",
+      "id": "ly-07-02",
+      "index": 1,
+      "key": "ly-07-02:問:1:a",
+      "label": "답변",
+      "original": "단순 암기보다 배운 내용을 조용히 마음에 새기고 잊지 않는다는 뜻입니다. 겉으로 많이 말하기보다 배운 것을 내면에 축적해 자기 것으로 만드는 태도를 강조한 표현입니다.",
+      "reason": "내면에 축적한다는 명사 중심 표현을 풀어 씀.",
+      "revised": "단순 암기보다 배운 내용을 조용히 마음에 새기고 잊지 않는다는 뜻입니다. 겉으로 많이 말하기보다 배운 것을 마음속에 쌓아 자기 것으로 만드는 태도를 강조한 표현입니다.",
+      "scope": "問",
+      "source": {
+        "blob_sha": "101d445b691af4fe769b64448011834773fc676c",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/07-술이.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
+      },
+      "book_name": "술이",
+      "replacements": [
+        [
+          "배운 것을 내면에 축적해",
+          "배운 것을 마음속에 쌓아"
+        ]
+      ]
+    },
+    {
+      "book": 7,
+      "changed": true,
+      "field": "답변",
+      "id": "ly-07-06",
+      "index": 1,
+      "key": "ly-07-06:問:1:a",
+      "label": "답변",
+      "original": "삶의 큰 방향은 道에 두고, 행동의 근거는 德에 두며, 사람을 대하는 마음은 仁에 의지하고, 마지막으로 예·악·서·수 같은 여러 기예를 폭넓게 익히라는 구조입니다.",
+      "reason": "가르침을 구조라고 끝맺는 표현을 다듬음.",
+      "revised": "삶의 큰 방향은 道에 두고, 행동의 근거는 德에 두며, 사람을 대하는 마음은 仁에 의지하고, 마지막으로 예·악·서·수 같은 여러 기예를 폭넓게 익히라는 말입니다.",
+      "scope": "問",
+      "source": {
+        "blob_sha": "101d445b691af4fe769b64448011834773fc676c",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/07-술이.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
+      },
+      "book_name": "술이",
+      "replacements": [
+        [
+          "익히라는 구조입니다.",
+          "익히라는 말입니다."
+        ]
+      ]
+    },
+    {
+      "book": 7,
+      "changed": true,
+      "field": "답변",
+      "id": "ly-07-15",
+      "index": 1,
+      "key": "ly-07-15:問:1:a",
+      "label": "답변",
+      "original": "생활이 소박해도 자신이 옳다고 여기는 도와 삶의 기준을 지킬 수 있다면 내적인 즐거움은 사라지지 않는다고 본 것입니다. 행복의 근거를 재물에만 두지 않았습니다.",
+      "reason": "추상적인 관형 표현을 풀어 씀.",
+      "revised": "생활이 소박해도 자신이 옳다고 여기는 도와 삶의 기준을 지킬 수 있다면 마음속 즐거움은 사라지지 않는다고 본 것입니다. 행복의 근거를 재물에만 두지 않았습니다.",
+      "scope": "問",
+      "source": {
+        "blob_sha": "101d445b691af4fe769b64448011834773fc676c",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/07-술이.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
+      },
+      "book_name": "술이",
+      "replacements": [
+        [
+          "내적인 즐거움은",
+          "마음속 즐거움은"
+        ]
+      ]
+    },
+    {
+      "book": 7,
+      "changed": true,
+      "field": "답변",
+      "id": "ly-07-32",
+      "index": 3,
+      "key": "ly-07-32:問:3:a",
+      "label": "답변",
+      "original": "많이 배웠다고 곧 군자가 되는 것은 아니기 때문입니다. 공자님은 지식의 축적보다 배운 바를 몸으로 지속적으로 실천하는 것이 더 높은 기준이라고 본 것입니다.",
+      "reason": "명사형과 연속된 부사어를 자연스럽게 다듬음.",
+      "revised": "많이 배웠다고 곧 군자가 되는 것은 아니기 때문입니다. 공자님은 지식을 쌓는 일보다 배운 바를 몸으로 꾸준히 실천하는 것이 더 높은 기준이라고 본 것입니다.",
+      "scope": "問",
+      "source": {
+        "blob_sha": "101d445b691af4fe769b64448011834773fc676c",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/07-술이.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
+      },
+      "book_name": "술이",
+      "replacements": [
+        [
+          "지식의 축적보다",
+          "지식을 쌓는 일보다"
+        ],
+        [
+          "몸으로 지속적으로 실천하는 것이",
+          "몸으로 꾸준히 실천하는 것이"
+        ]
+      ]
+    },
+    {
+      "book": 8,
+      "changed": true,
+      "field": "답변",
+      "id": "ly-08-04",
+      "index": 2,
+      "key": "ly-08-04:問:2:a",
+      "label": "답변",
+      "original": "겉모습이 단순한 꾸밈이 아니라 내면의 공경과 절제가 밖으로 드러나는 통로라고 봤기 때문입니다. 몸가짐·얼굴빛·말투를 바르게 하면 난폭함과 거짓, 무례함에서 멀어집니다.",
+      "reason": "겉모습을 통로라고 부르는 어색한 비유를 다듬음.",
+      "revised": "겉모습이 단순한 꾸밈이 아니라 공경과 절제가 겉으로 드러나는 모습이라고 봤기 때문입니다. 몸가짐·얼굴빛·말투를 바르게 하면 난폭함과 거짓, 무례함에서 멀어집니다.",
+      "scope": "問",
+      "source": {
+        "blob_sha": "2e1d6800360c25a2104b4ec5cd1ae44b588154c6",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/08-태백.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
+      },
+      "book_name": "태백",
+      "replacements": [
+        [
+          "내면의 공경과 절제가 밖으로 드러나는 통로라고",
+          "공경과 절제가 겉으로 드러나는 모습이라고"
+        ]
+      ]
+    },
+    {
+      "book": 9,
+      "changed": true,
+      "field": "답변",
+      "id": "ly-09-15",
+      "index": 1,
+      "key": "ly-09-15:問:1:a",
+      "label": "답변",
+      "original": "그렇습니다. 공적인 자리에서는 맡은 관계의 예를 지키고, 집에서는 부모와 형을 공경하라는 뜻입니다. 삶의 영역이 달라도 책임과 예를 성실히 다하는 태도를 말합니다.",
+      "reason": "관계를 맡는다는 어색한 연결을 다듬음.",
+      "revised": "그렇습니다. 공적인 자리에서는 자신의 관계에 맞는 예를 지키고, 집에서는 부모와 형을 공경하라는 뜻입니다. 삶의 영역이 달라도 책임과 예를 성실히 다하는 태도를 말합니다.",
+      "scope": "問",
+      "source": {
+        "blob_sha": "575486d765f742fc9fdea0d92141603d4be1f322",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/09-자한.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
+      },
+      "book_name": "자한",
+      "replacements": [
+        [
+          "맡은 관계의 예를",
+          "자신의 관계에 맞는 예를"
+        ]
+      ]
+    },
+    {
+      "book": 9,
+      "changed": true,
+      "field": "답변",
+      "id": "ly-09-25",
+      "index": 2,
+      "key": "ly-09-25:問:2:a",
+      "label": "답변",
+      "original": "뜻은 마지막에는 자신의 내면적 선택에 달려 있기 때문입니다. 위협과 압박으로 행동을 강제할 수는 있어도, 스스로 지키려는 의지까지 완전히 빼앗을 수는 없다는 말입니다.",
+      "reason": "내면적 선택이라는 추상적인 표현을 풀어 씀.",
+      "revised": "뜻은 결국 자신이 마음속으로 무엇을 선택하느냐에 달려 있기 때문입니다. 위협과 압박으로 행동을 강제할 수는 있어도, 스스로 지키려는 의지까지 완전히 빼앗을 수는 없다는 말입니다.",
+      "scope": "問",
+      "source": {
+        "blob_sha": "575486d765f742fc9fdea0d92141603d4be1f322",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/09-자한.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
+      },
+      "book_name": "자한",
+      "replacements": [
+        [
+          "뜻은 마지막에는 자신의 내면적 선택에 달려 있기 때문입니다.",
+          "뜻은 결국 자신이 마음속으로 무엇을 선택하느냐에 달려 있기 때문입니다."
+        ]
+      ]
+    },
+    {
+      "book": 9,
+      "changed": true,
+      "field": "답변",
+      "id": "ly-09-28",
+      "index": 1,
+      "key": "ly-09-28:問:1:a",
+      "label": "답변",
+      "original": "모든 문제의 답을 즉시 안다는 뜻은 아닙니다. 사리를 살피고 판단하는 힘이 있어 중요한 선택에서 쉽게 미혹되지 않는다는 뜻입니다. 지식량보다 판단의 안정성이 핵심입니다.",
+      "reason": "명사형 비교를 동사로 풀어 씀.",
+      "revised": "모든 문제의 답을 즉시 안다는 뜻은 아닙니다. 사리를 살피고 판단하는 힘이 있어 중요한 선택에서 쉽게 미혹되지 않는다는 뜻입니다. 얼마나 많이 아느냐보다 흔들림 없이 판단하는 것이 핵심입니다.",
+      "scope": "問",
+      "source": {
+        "blob_sha": "575486d765f742fc9fdea0d92141603d4be1f322",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/09-자한.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
+      },
+      "book_name": "자한",
+      "replacements": [
+        [
+          "지식량보다 판단의 안정성이 핵심입니다.",
+          "얼마나 많이 아느냐보다 흔들림 없이 판단하는 것이 핵심입니다."
+        ]
+      ]
+    },
+    {
+      "book": 10,
+      "changed": true,
+      "field": "답변",
+      "id": "ly-10-03",
+      "index": 1,
+      "key": "ly-10-03:問:1:a",
+      "label": "답변",
+      "original": "외국 사신을 맞아 의식을 진행하고 말을 전하는 접빈 역할입니다. 단순 안내가 아니라 국가를 대표하는 외교 의례 담당이어서 몸짓과 말투까지 매우 엄격하게 요구되었습니다.",
+      "reason": "생략된 서술 관계와 엄격하게 요구된다는 표현을 자연스럽게 함.",
+      "revised": "외국 사신을 맞아 의식을 진행하고 말을 전하는 접빈 역할입니다. 단순히 안내하는 것이 아니라 국가를 대표해 외교 의례를 맡는 일이어서 몸짓과 말투까지 매우 엄격한 기준을 지켜야 했습니다.",
+      "scope": "問",
+      "source": {
+        "blob_sha": "096e28e98ea4c6569110a538191880a1ac6cede8",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/10-향당.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
+      },
+      "book_name": "향당",
+      "replacements": [
+        [
+          "단순 안내가 아니라 국가를 대표하는 외교 의례 담당이어서 몸짓과 말투까지 매우 엄격하게 요구되었습니다.",
+          "단순히 안내하는 것이 아니라 국가를 대표해 외교 의례를 맡는 일이어서 몸짓과 말투까지 매우 엄격한 기준을 지켜야 했습니다."
+        ]
+      ]
+    },
+    {
+      "book": 10,
+      "changed": true,
+      "field": "답변",
+      "id": "ly-10-07",
+      "index": 2,
+      "key": "ly-10-07:問:2:a",
+      "label": "답변",
+      "original": "평소 옷과 구별되는 깨끗한 옷을 갖추어 재계 상태를 분명히 했기 때문입니다. 외형을 바꾸는 일이 마음가짐까지 새롭게 하는 의례적 장치로 기능했습니다.",
+      "reason": "장치로 기능한다는 직역투를 풀어 씀.",
+      "revised": "평소 옷과 구별되는 깨끗한 옷을 갖추어 재계 상태를 분명히 했기 때문입니다. 겉모습을 바꾸는 의례를 통해 마음가짐까지 새롭게 했습니다.",
+      "scope": "問",
+      "source": {
+        "blob_sha": "096e28e98ea4c6569110a538191880a1ac6cede8",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/10-향당.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
+      },
+      "book_name": "향당",
+      "replacements": [
+        [
+          "외형을 바꾸는 일이 마음가짐까지 새롭게 하는 의례적 장치로 기능했습니다.",
+          "겉모습을 바꾸는 의례를 통해 마음가짐까지 새롭게 했습니다."
+        ]
+      ]
+    },
+    {
+      "book": 10,
+      "changed": true,
+      "field": "답변",
+      "id": "ly-10-15",
+      "index": 12,
+      "key": "ly-10-15:問:12:a",
+      "label": "답변",
+      "original": "음식의 양 자체보다 상대가 정성을 다해 마련한 대접을 존중한 것입니다. 받는 사람도 그 정성을 알아보고 자세를 바로 해야 관계의 예가 완성된다고 본 것입니다.",
+      "reason": "관계의 예가 완성된다는 추상적 표현을 다듬음.",
+      "revised": "음식의 양 자체보다 상대가 정성을 다해 마련한 대접을 존중한 것입니다. 받는 사람도 그 정성을 알아보고 자세를 바로 해야 서로 예를 온전히 갖추게 된다고 본 것입니다.",
+      "scope": "問",
+      "source": {
+        "blob_sha": "096e28e98ea4c6569110a538191880a1ac6cede8",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/10-향당.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
+      },
+      "book_name": "향당",
+      "replacements": [
+        [
+          "관계의 예가 완성된다고",
+          "서로 예를 온전히 갖추게 된다고"
+        ]
+      ]
+    },
+    {
+      "book": 11,
+      "changed": true,
+      "field": "답변",
+      "id": "ly-11-11",
+      "index": 3,
+      "key": "ly-11-11:問:3:a",
+      "label": "답변",
+      "original": "귀신과 제사를 무시한 것은 아닙니다. 다만 알 수 없는 것에 매달리기보다 사람과 삶의 도리를 먼저 해결해야 한다는 실천적 우선순위가 분명했습니다.",
+      "reason": "도리를 해결한다는 어색한 결합과 추상적인 끝맺음을 다듬음.",
+      "revised": "귀신과 제사를 무시한 것은 아닙니다. 다만 알 수 없는 것에 매달리기보다 사람과 삶의 도리를 실천하는 일을 먼저 해야 한다는 입장이 분명했습니다.",
+      "scope": "問",
+      "source": {
+        "blob_sha": "816ad65fdf62c262291949e5551e4676aa25b7b7",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/11-선진.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
+      },
+      "book_name": "선진",
+      "replacements": [
+        [
+          "사람과 삶의 도리를 먼저 해결해야 한다는 실천적 우선순위가 분명했습니다.",
+          "사람과 삶의 도리를 실천하는 일을 먼저 해야 한다는 입장이 분명했습니다."
+        ]
+      ]
+    },
+    {
+      "book": 13,
+      "changed": true,
+      "field": "답변",
+      "id": "ly-13-06",
+      "index": 2,
+      "key": "ly-13-06:問:2:a",
+      "label": "답변",
+      "original": "법적으로 효력이 없다는 뜻보다, 지도자가 스스로 지키지 않는 원칙을 남에게만 요구하면 신뢰를 잃어 실제 순응을 얻기 어렵다는 의미입니다.",
+      "reason": "순응을 얻는다는 직역투를 풀어 씀.",
+      "revised": "법적으로 효력이 없다는 뜻보다, 지도자가 스스로 지키지 않는 원칙을 남에게만 요구하면 신뢰를 잃어 실제로 사람들이 따르게 하기 어렵다는 의미입니다.",
+      "scope": "問",
+      "source": {
+        "blob_sha": "e9779822bb2b17ca431de651cab7e85168c58eb8",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/13-자로.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
+      },
+      "book_name": "자로",
+      "replacements": [
+        [
+          "실제 순응을 얻기 어렵다는",
+          "실제로 사람들이 따르게 하기 어렵다는"
+        ]
+      ]
+    },
+    {
+      "book": 13,
+      "changed": true,
+      "field": "답변",
+      "id": "ly-13-13",
+      "index": 2,
+      "key": "ly-13-13:問:2:a",
+      "label": "답변",
+      "original": "도덕적 설득력의 문제를 말합니다. 자신이 같은 잘못을 하면서 남에게만 기준을 요구하면 말이 힘을 잃으므로, 먼저 자신부터 바로잡아야 한다는 뜻입니다.",
+      "reason": "요구하는 행동을 밝혀 서술 연결을 다듬음.",
+      "revised": "도덕적 설득력의 문제를 말합니다. 자신이 같은 잘못을 하면서 남에게만 기준을 지키라고 요구하면 말이 힘을 잃으므로, 먼저 자신부터 바로잡아야 한다는 뜻입니다.",
+      "scope": "問",
+      "source": {
+        "blob_sha": "e9779822bb2b17ca431de651cab7e85168c58eb8",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/13-자로.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
+      },
+      "book_name": "자로",
+      "replacements": [
+        [
+          "남에게만 기준을 요구하면",
+          "남에게만 기준을 지키라고 요구하면"
+        ]
+      ]
+    },
+    {
+      "book": 13,
+      "changed": true,
+      "field": "답변",
+      "id": "ly-13-16",
+      "index": 3,
+      "key": "ly-13-16:問:3:a",
+      "label": "답변",
+      "original": "먼 사람을 끌어오기 전에 지금 함께 사는 백성을 만족시키는 것이 우선이기 때문입니다. 외형적 확장보다 내부의 신뢰와 생활 안정을 먼저 세우라는 뜻입니다.",
+      "reason": "명사형 나열과 안정을 세운다는 연결을 다듬음.",
+      "revised": "먼 사람을 끌어오기 전에 지금 함께 사는 백성을 만족시키는 것이 우선이기 때문입니다. 겉으로 규모를 키우기보다 내부의 신뢰를 쌓고 생활을 안정시키는 일을 먼저 하라는 뜻입니다.",
+      "scope": "問",
+      "source": {
+        "blob_sha": "e9779822bb2b17ca431de651cab7e85168c58eb8",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/13-자로.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
+      },
+      "book_name": "자로",
+      "replacements": [
+        [
+          "외형적 확장보다 내부의 신뢰와 생활 안정을 먼저 세우라는",
+          "겉으로 규모를 키우기보다 내부의 신뢰를 쌓고 생활을 안정시키는 일을 먼저 하라는"
+        ]
+      ]
+    },
+    {
+      "book": 13,
+      "changed": true,
+      "field": "답변",
+      "id": "ly-13-25",
+      "index": 2,
+      "key": "ly-13-25:問:2:a",
+      "label": "답변",
+      "original": "원칙보다 자기 기분과 이익을 중시해 함께 일할 때 요구가 까다롭지만, 마음에 드는 이익이나 아첨을 주면 쉽게 만족하기 때문입니다.",
+      "reason": "이익과 아첨에 각각 자연스러운 서술어를 연결.",
+      "revised": "원칙보다 자기 기분과 이익을 중시해 함께 일할 때 요구가 까다롭지만, 마음에 드는 이익을 주거나 아첨하면 쉽게 만족하기 때문입니다.",
+      "scope": "問",
+      "source": {
+        "blob_sha": "e9779822bb2b17ca431de651cab7e85168c58eb8",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/13-자로.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
+      },
+      "book_name": "자로",
+      "replacements": [
+        [
+          "마음에 드는 이익이나 아첨을 주면",
+          "마음에 드는 이익을 주거나 아첨하면"
+        ]
+      ]
+    },
+    {
+      "book": 14,
+      "changed": true,
+      "field": "답변",
+      "id": "ly-14-04",
+      "index": 3,
+      "key": "ly-14-04:問:3:a",
+      "label": "답변",
+      "original": "기준 자체를 바꾸라는 것이 아니라 표현 방식과 위험 관리 방식을 달리하라는 뜻입니다. 무도한 시대에도 행동의 바름은 유지하되 말은 더 신중하게 하라는 것입니다.",
+      "reason": "행동의 바름이라는 명사형 표현을 풀어 씀.",
+      "revised": "기준 자체를 바꾸라는 것이 아니라 표현 방식과 위험 관리 방식을 달리하라는 뜻입니다. 무도한 시대에도 바르게 행동하되 말은 더 신중하게 하라는 것입니다.",
+      "scope": "問",
+      "source": {
+        "blob_sha": "1d5c9f60733d7c923dbcea667ed7b3893c8fdad1",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/14-헌문.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
+      },
+      "book_name": "헌문",
+      "replacements": [
+        [
+          "행동의 바름은 유지하되",
+          "바르게 행동하되"
+        ]
+      ]
+    },
+    {
+      "book": 14,
+      "changed": true,
+      "field": "답변",
+      "id": "ly-14-11",
+      "index": 1,
+      "key": "ly-14-11:問:1:a",
+      "label": "답변",
+      "original": "가난은 생활의 제약과 불편을 직접 겪게 하므로 마음에 원망이 생기기 쉽기 때문입니다. 부유한 사람이 교만하지 않는 것보다 더 큰 내적 절제가 필요하다고 본 것입니다.",
+      "reason": "내적 절제를 동사로 풀어 씀.",
+      "revised": "가난은 생활의 제약과 불편을 직접 겪게 하므로 마음에 원망이 생기기 쉽기 때문입니다. 부유한 사람이 교만하지 않는 것보다 마음속으로 더 많이 절제해야 한다고 본 것입니다.",
+      "scope": "問",
+      "source": {
+        "blob_sha": "1d5c9f60733d7c923dbcea667ed7b3893c8fdad1",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/14-헌문.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
+      },
+      "book_name": "헌문",
+      "replacements": [
+        [
+          "더 큰 내적 절제가 필요하다고",
+          "마음속으로 더 많이 절제해야 한다고"
+        ]
+      ]
+    },
+    {
+      "book": 14,
+      "changed": true,
+      "field": "답변",
+      "id": "ly-14-15",
+      "index": 3,
+      "key": "ly-14-15:問:3:a",
+      "label": "답변",
+      "original": "적어도 겉으로 드러난 명분만으로 판단하지 않았다는 점은 분명합니다. 직접 협박하지 않았어도 상대가 압박을 느끼는 구조를 만들었다면 책임이 있다고 본 것입니다.",
+      "reason": "불필요하게 구조를 거치는 서술을 간단히 다듬음.",
+      "revised": "적어도 겉으로 드러난 명분만으로 판단하지 않았다는 점은 분명합니다. 직접 협박하지 않았어도 상대가 압박을 느끼게 했다면 책임이 있다고 본 것입니다.",
+      "scope": "問",
+      "source": {
+        "blob_sha": "1d5c9f60733d7c923dbcea667ed7b3893c8fdad1",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/14-헌문.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
+      },
+      "book_name": "헌문",
+      "replacements": [
+        [
+          "상대가 압박을 느끼는 구조를 만들었다면",
+          "상대가 압박을 느끼게 했다면"
+        ]
+      ]
+    },
+    {
+      "book": 14,
+      "changed": true,
+      "field": "답변",
+      "id": "ly-14-26",
+      "index": 3,
+      "key": "ly-14-26:問:3:a",
+      "label": "답변",
+      "original": "둘 다 있지만 장면의 결말은 사신의 적절한 대답을 특히 칭찬합니다. 주인의 수양을 과장 없이 전달한 말의 품격이 핵심 포인트입니다.",
+      "reason": "결말이 칭찬한다는 어색한 주어를 다듬음.",
+      "revised": "둘 다 있지만 장면의 끝에서는 사신의 적절한 대답을 특히 칭찬합니다. 주인의 수양을 과장 없이 전달한 말의 품격이 핵심 포인트입니다.",
+      "scope": "問",
+      "source": {
+        "blob_sha": "1d5c9f60733d7c923dbcea667ed7b3893c8fdad1",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/14-헌문.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
+      },
+      "book_name": "헌문",
+      "replacements": [
+        [
+          "장면의 결말은 사신의 적절한 대답을 특히 칭찬합니다.",
+          "장면의 끝에서는 사신의 적절한 대답을 특히 칭찬합니다."
+        ]
+      ]
+    },
+    {
+      "book": 15,
+      "changed": true,
+      "field": "답변",
+      "id": "ly-15-03",
+      "index": 2,
+      "key": "ly-15-03:問:2:a",
+      "label": "답변",
+      "original": "본문만으로 구체적 계기를 단정하기는 어렵습니다. 다만 행동력이 강한 자로에게 외적 용기만큼 덕의 깊은 이해가 중요하다는 점을 일깨운 말로 볼 수 있습니다.",
+      "reason": "명사 중심 표현을 동사로 풀어 씀.",
+      "revised": "본문만으로 구체적 계기를 단정하기는 어렵습니다. 다만 행동력이 강한 자로에게 겉으로 드러나는 용기만큼 덕을 깊이 이해하는 것이 중요하다는 점을 일깨운 말로 볼 수 있습니다.",
+      "scope": "問",
+      "source": {
+        "blob_sha": "bf4095ccec09b5c2b5f74960dd33fde8da5220be",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/15-위령공.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
+      },
+      "book_name": "위령공",
+      "replacements": [
+        [
+          "외적 용기만큼 덕의 깊은 이해가 중요하다는",
+          "겉으로 드러나는 용기만큼 덕을 깊이 이해하는 것이 중요하다는"
+        ]
+      ]
+    },
+    {
+      "book": 15,
+      "changed": true,
+      "field": "답변",
+      "id": "ly-15-05",
+      "index": 1,
+      "key": "ly-15-05:問:1:a",
+      "label": "답변",
+      "original": "어디서든 통하는 기본은 화려한 처세보다 믿을 만한 말과 성실한 행동이라고 보았기 때문입니다. 환경이 달라도 이 두 기준은 관계의 신뢰를 만듭니다.",
+      "reason": "기준이 신뢰를 만든다는 연결을 자연스럽게 함.",
+      "revised": "어디서든 통하는 기본은 화려한 처세보다 믿을 만한 말과 성실한 행동이라고 보았기 때문입니다. 환경이 달라도 이 두 기준을 지키면 서로 신뢰할 수 있습니다.",
+      "scope": "問",
+      "source": {
+        "blob_sha": "bf4095ccec09b5c2b5f74960dd33fde8da5220be",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/15-위령공.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
+      },
+      "book_name": "위령공",
+      "replacements": [
+        [
+          "이 두 기준은 관계의 신뢰를 만듭니다.",
+          "이 두 기준을 지키면 서로 신뢰할 수 있습니다."
+        ]
+      ]
+    },
+    {
+      "book": 15,
+      "changed": true,
+      "field": "답변",
+      "id": "ly-15-11",
+      "index": 2,
+      "key": "ly-15-11:問:2:a",
+      "label": "답변",
+      "original": "막연한 불안을 키우라는 뜻이 아니라 앞날의 결과와 위험을 미리 고려하는 신중함입니다. 걱정보다 판단의 시간 범위를 넓히라는 말에 가깝습니다.",
+      "reason": "추상적인 시간 범위를 풀어 씀.",
+      "revised": "막연한 불안을 키우라는 뜻이 아니라 앞날의 결과와 위험을 미리 고려하는 신중함입니다. 걱정하기보다 더 먼 앞날까지 생각해서 판단하라는 말에 가깝습니다.",
+      "scope": "問",
+      "source": {
+        "blob_sha": "bf4095ccec09b5c2b5f74960dd33fde8da5220be",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/15-위령공.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
+      },
+      "book_name": "위령공",
+      "replacements": [
+        [
+          "걱정보다 판단의 시간 범위를 넓히라는",
+          "걱정하기보다 더 먼 앞날까지 생각해서 판단하라는"
+        ]
+      ]
+    },
+    {
+      "book": 15,
+      "changed": true,
+      "field": "답변",
+      "id": "ly-15-24",
+      "index": 3,
+      "key": "ly-15-24:問:3:a",
+      "label": "답변",
+      "original": "옛 시대의 백성도 본래 곧은 도리에 따라 평가와 행동이 가능했다는 뜻으로 읽습니다. 공자님은 사람 판단의 기준을 사적인 호오보다 곧은 원칙에 두려 했습니다.",
+      "reason": "명사 연결과 어려운 한자어를 풀어 씀.",
+      "revised": "옛 시대의 백성도 본래 곧은 도리에 따라 평가와 행동이 가능했다는 뜻으로 읽습니다. 공자님은 사람을 판단하는 기준을 개인적인 좋고 싫음보다 곧은 원칙에 두려 했습니다.",
+      "scope": "問",
+      "source": {
+        "blob_sha": "bf4095ccec09b5c2b5f74960dd33fde8da5220be",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/15-위령공.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
+      },
+      "book_name": "위령공",
+      "replacements": [
+        [
+          "사람 판단의 기준을 사적인 호오보다",
+          "사람을 판단하는 기준을 개인적인 좋고 싫음보다"
+        ]
+      ]
+    },
+    {
+      "book": 15,
+      "changed": true,
+      "field": "답변",
+      "id": "ly-15-31",
+      "index": 3,
+      "key": "ly-15-31:問:3:a",
+      "label": "답변",
+      "original": "가난보다 더 근본적으로 걱정할 것은 자신이 바른 길을 배우고 실천하고 있는가라는 뜻입니다. 외적 조건보다 삶의 방향을 우선하라는 결론입니다.",
+      "reason": "추상적인 한자어를 풀어 씀.",
+      "revised": "가난보다 더 근본적으로 걱정할 것은 자신이 바른 길을 배우고 실천하고 있는가라는 뜻입니다. 겉으로 드러나는 조건보다 삶의 방향을 우선하라는 결론입니다.",
+      "scope": "問",
+      "source": {
+        "blob_sha": "bf4095ccec09b5c2b5f74960dd33fde8da5220be",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/15-위령공.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
+      },
+      "book_name": "위령공",
+      "replacements": [
+        [
+          "외적 조건보다",
+          "겉으로 드러나는 조건보다"
+        ]
+      ]
+    },
+    {
+      "book": 15,
+      "changed": true,
+      "field": "답변",
+      "id": "ly-15-38",
+      "index": 3,
+      "key": "ly-15-38:問:3:a",
+      "label": "답변",
+      "original": "교육을 귀족이나 특정 계층만의 특권으로 제한하지 않고, 배우려는 사람에게 열어 둔 태도를 보여 주기 때문입니다. 교육의 확장성을 상징하는 구절입니다.",
+      "reason": "확장성이라는 추상어를 풀어 씀.",
+      "revised": "교육을 귀족이나 특정 계층만의 특권으로 제한하지 않고, 배우려는 사람에게 열어 둔 태도를 보여 주기 때문입니다. 교육이 더 널리 이루어질 수 있음을 상징하는 구절입니다.",
+      "scope": "問",
+      "source": {
+        "blob_sha": "bf4095ccec09b5c2b5f74960dd33fde8da5220be",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/15-위령공.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
+      },
+      "book_name": "위령공",
+      "replacements": [
+        [
+          "교육의 확장성을 상징하는 구절입니다.",
+          "교육이 더 널리 이루어질 수 있음을 상징하는 구절입니다."
+        ]
+      ]
+    },
+    {
+      "book": 17,
+      "changed": true,
+      "field": "답변",
+      "id": "ly-17-08",
+      "index": 3,
+      "key": "ly-17-08:問:3:a",
+      "label": "답변",
+      "original": "지식 축적보다 덕이 언제 어떻게 바르게 작동해야 하는지 이치를 밝히는 공부에 가깝습니다. 좋은 의도도 기준과 분별이 없으면 오히려 해를 만들 수 있다는 것입니다.",
+      "reason": "명사형 표현을 풀어 씀.",
+      "revised": "지식을 쌓는 일보다 덕이 언제 어떻게 바르게 작동해야 하는지 이치를 밝히는 공부에 가깝습니다. 좋은 의도도 기준과 분별이 없으면 오히려 해를 만들 수 있다는 것입니다.",
+      "scope": "問",
+      "source": {
+        "blob_sha": "88f7f3985bfa2b3ed1b79972b1ea15ec3aa8dd5a",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/17-양화.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
+      },
+      "book_name": "양화",
+      "replacements": [
+        [
+          "지식 축적보다",
+          "지식을 쌓는 일보다"
+        ]
+      ]
+    },
+    {
+      "book": 17,
+      "changed": true,
+      "field": "답변",
+      "id": "ly-17-25",
+      "index": 2,
+      "key": "ly-17-25:問:2:a",
+      "label": "답변",
+      "original": "가까이하면 버릇없이 굴고 멀리하면 원망한다는 뜻입니다. 핵심 구조는 거리 조절이 어려운 관계를 말하지만, 이를 현대의 모든 여성에게 일반화하는 것은 타당하지 않습니다.",
+      "reason": "구조가 관계를 말한다는 어색한 연결을 다듬음.",
+      "revised": "가까이하면 버릇없이 굴고 멀리하면 원망한다는 뜻입니다. 핵심은 서로 거리를 조절하기 어려운 관계에 관한 말이지만, 이를 현대의 모든 여성에게 일반화하는 것은 타당하지 않습니다.",
+      "scope": "問",
+      "source": {
+        "blob_sha": "88f7f3985bfa2b3ed1b79972b1ea15ec3aa8dd5a",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/17-양화.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
+      },
+      "book_name": "양화",
+      "replacements": [
+        [
+          "핵심 구조는 거리 조절이 어려운 관계를 말하지만",
+          "핵심은 서로 거리를 조절하기 어려운 관계에 관한 말이지만"
+        ]
+      ]
+    },
+    {
+      "book": 18,
+      "changed": true,
+      "field": "답변",
+      "id": "ly-18-10",
+      "index": 1,
+      "key": "ly-18-10:問:1:a",
+      "label": "답변",
+      "original": "정치는 능력만으로 굴러가는 것이 아니라 신뢰와 관계의 지속성도 중요하다고 봤기 때문입니다. 특별한 잘못이 없는 친족과 옛사람을 함부로 끊지 말라는 뜻입니다.",
+      "reason": "관계의 지속성이라는 추상적 명사 표현을 풀어 씀.",
+      "revised": "정치는 능력만으로 굴러가는 것이 아니라 신뢰와 관계를 꾸준히 이어 가는 일도 중요하다고 봤기 때문입니다. 특별한 잘못이 없는 친족과 옛사람을 함부로 끊지 말라는 뜻입니다.",
+      "scope": "問",
+      "source": {
+        "blob_sha": "bde47750b9af77d1aa01551f287341db7b5c2f9f",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/18-미자.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
+      },
+      "book_name": "미자",
+      "replacements": [
+        [
+          "신뢰와 관계의 지속성도 중요하다고",
+          "신뢰와 관계를 꾸준히 이어 가는 일도 중요하다고"
+        ]
+      ]
+    },
+    {
+      "book": 18,
+      "changed": true,
+      "field": "답변",
+      "id": "ly-18-10",
+      "index": 3,
+      "key": "ly-18-10:問:3:a",
+      "label": "답변",
+      "original": "한 사람에게 모든 장점을 완벽하게 갖추기를 요구하지 말라는 뜻입니다. 사람마다 강점과 한계가 있으므로 필요한 덕과 능력을 보고 쓰되 완전무결함을 요구하지 않는 현실적인 인재관입니다.",
+      "reason": "요구 구문의 조사를 자연스럽게 다듬음.",
+      "revised": "한 사람에게 모든 장점을 완벽하게 갖추라고 요구하지 말라는 뜻입니다. 사람마다 강점과 한계가 있으므로 필요한 덕과 능력을 보고 쓰되 완전무결함을 요구하지 않는 현실적인 인재관입니다.",
+      "scope": "問",
+      "source": {
+        "blob_sha": "bde47750b9af77d1aa01551f287341db7b5c2f9f",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/18-미자.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
+      },
+      "book_name": "미자",
+      "replacements": [
+        [
+          "한 사람에게 모든 장점을 완벽하게 갖추기를 요구하지 말라는",
+          "한 사람에게 모든 장점을 완벽하게 갖추라고 요구하지 말라는"
+        ]
+      ]
+    },
+    {
+      "book": 19,
+      "changed": true,
+      "field": "답변",
+      "id": "ly-19-01",
+      "index": 2,
+      "key": "ly-19-01:問:2:a",
+      "label": "답변",
+      "original": "위기에서는 책임, 이익 앞에서는 義, 제사에서는 공경, 상례에서는 슬픔이 핵심이기 때문입니다. 삶의 큰 절목마다 무엇을 우선해야 하는지 압축해 제시한 것입니다.",
+      "reason": "낯선 한자어를 익숙한 말로 바꿈.",
+      "revised": "위기에서는 책임, 이익 앞에서는 義, 제사에서는 공경, 상례에서는 슬픔이 핵심이기 때문입니다. 삶의 중요한 대목마다 무엇을 우선해야 하는지 압축해 제시한 것입니다.",
+      "scope": "問",
+      "source": {
+        "blob_sha": "50679eceddd3d454aa9f88bdecb4c2f3e1704622",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/19-자장.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
+      },
+      "book_name": "자장",
+      "replacements": [
+        [
+          "삶의 큰 절목마다",
+          "삶의 중요한 대목마다"
+        ]
+      ]
+    },
+    {
+      "book": 19,
+      "changed": true,
+      "field": "답변",
+      "id": "ly-19-05",
+      "index": 1,
+      "key": "ly-19-05:問:1:a",
+      "label": "답변",
+      "original": "여기서는 無와 통하여 ‘아직 자신에게 없는 것’을 뜻합니다. 날마다 모르는 것 하나라도 새로 알아가라는 말로, 배움의 지속적인 확장을 강조합니다.",
+      "reason": "명사형 표현을 동사로 풀어 씀.",
+      "revised": "여기서는 無와 통하여 ‘아직 자신에게 없는 것’을 뜻합니다. 날마다 모르는 것 하나라도 새로 알아가라는 말로, 배움을 꾸준히 넓혀 가라고 강조합니다.",
+      "scope": "問",
+      "source": {
+        "blob_sha": "50679eceddd3d454aa9f88bdecb4c2f3e1704622",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/19-자장.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
+      },
+      "book_name": "자장",
+      "replacements": [
+        [
+          "배움의 지속적인 확장을 강조합니다.",
+          "배움을 꾸준히 넓혀 가라고 강조합니다."
+        ]
+      ]
+    },
+    {
+      "book": 19,
+      "changed": true,
+      "field": "답변",
+      "id": "ly-19-10",
+      "index": 2,
+      "key": "ly-19-10:問:2:a",
+      "label": "답변",
+      "original": "비판을 하지 말라는 뜻이 아니라 관계의 신뢰가 있어야 충고의 진의가 전달된다는 말입니다. 신뢰가 전혀 없으면 간언도 헐뜯음으로 오해되기 쉽습니다.",
+      "reason": "어색한 명사 연결을 다듬음.",
+      "revised": "비판을 하지 말라는 뜻이 아니라 서로 신뢰해야 충고의 진의가 전달된다는 말입니다. 신뢰가 전혀 없으면 간언도 헐뜯음으로 오해되기 쉽습니다.",
+      "scope": "問",
+      "source": {
+        "blob_sha": "50679eceddd3d454aa9f88bdecb4c2f3e1704622",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/19-자장.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
+      },
+      "book_name": "자장",
+      "replacements": [
+        [
+          "관계의 신뢰가 있어야",
+          "서로 신뢰해야"
+        ]
+      ]
+    },
+    {
+      "book": 19,
+      "changed": true,
+      "field": "답변",
+      "id": "ly-19-10",
+      "index": 3,
+      "key": "ly-19-10:問:3:a",
+      "label": "답변",
+      "original": "명령이든 충고든 먼저 관계의 신뢰가 필요하다는 것입니다. 내용이 옳은 것만으로 충분하지 않고, 상대가 그 뜻을 믿을 수 있는 관계를 만들어야 합니다.",
+      "reason": "명사 중심의 끝맺음을 풀어 씀.",
+      "revised": "명령이든 충고든 먼저 서로 신뢰해야 한다는 것입니다. 내용이 옳은 것만으로 충분하지 않고, 상대가 그 뜻을 믿을 수 있는 관계를 만들어야 합니다.",
+      "scope": "問",
+      "source": {
+        "blob_sha": "50679eceddd3d454aa9f88bdecb4c2f3e1704622",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/19-자장.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
+      },
+      "book_name": "자장",
+      "replacements": [
+        [
+          "먼저 관계의 신뢰가 필요하다는",
+          "먼저 서로 신뢰해야 한다는"
+        ]
+      ]
+    },
+    {
+      "book": 1,
+      "changed": true,
+      "heading": "‘하루에 여러 번’ vs ‘세 가지를 점검’三省",
+      "id": "ly-01-04",
+      "index": 1,
+      "key": "ly-01-04:說:1:2",
+      "label": "주희(朱熹) 《논어집주》",
+      "original": "뒤에 나오는 세 가지, 곧 남의 일을 맡은 태도·친구와의 신의·배운 것의 익힘을 날마다 점검했다고 봅니다.",
+      "reason": "나열한 항목 중 어색한 관형어와 명사형을 풀어 씀.",
+      "revised": "뒤에 나오는 세 가지, 곧 남의 일을 맡았을 때의 태도·친구와의 신의·배운 것을 얼마나 익혔는지를 날마다 점검했다고 봅니다.",
+      "scope": "說",
+      "side": 2,
+      "source": {
+        "blob_sha": "c33214e810660bb771b07a02630a71d805ce36bd",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/01-학이.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st3 .js .side > p"
+      },
+      "book_name": "학이",
+      "replacements": [
+        [
+          "남의 일을 맡은 태도·친구와의 신의·배운 것의 익힘을",
+          "남의 일을 맡았을 때의 태도·친구와의 신의·배운 것을 얼마나 익혔는지를"
+        ]
+      ]
+    },
+    {
+      "book": 2,
+      "changed": true,
+      "heading": "사랑·풍자·정치가 뒤섞인 시 삼백 편을 정말 한마디로 묶을 수 있을까?개념 범위형",
+      "id": "ly-02-02",
+      "index": 1,
+      "key": "ly-02-02:說:1:2",
+      "label": "이렇게도 보면",
+      "original": "공자님은 내용이 아니라 시가 마음을 드러내는 바탕의 진실성을 하나의 기준으로 묶습니다. 다양성을 지우기보다 서로 다른 시를 읽는 공통 렌즈를 제시한 것으로 볼 수 있습니다.",
+      "reason": "렌즈라는 직역투 비유를 관점으로 풀어 씀.",
+      "revised": "공자님은 내용이 아니라 시가 마음을 드러내는 바탕의 진실성을 하나의 기준으로 묶습니다. 다양성을 지우기보다 서로 다른 시를 읽을 때 공통으로 적용할 관점을 제시한 것으로 볼 수 있습니다.",
+      "scope": "說",
+      "side": 2,
+      "source": {
+        "blob_sha": "c298f413ceb0d7f682002ee317d58f9ee9e0e448",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/02-위정.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st3 .js .side > p"
+      },
+      "book_name": "위정",
+      "replacements": [
+        [
+          "서로 다른 시를 읽는 공통 렌즈를 제시한 것으로",
+          "서로 다른 시를 읽을 때 공통으로 적용할 관점을 제시한 것으로"
+        ]
+      ]
+    },
+    {
+      "book": 2,
+      "changed": true,
+      "heading": "벼슬 얻는 법을 물었는데 왜 공자님은 취업 요령을 알려주지 않았을까?본문 속 논쟁형",
+      "id": "ly-02-18",
+      "index": 1,
+      "key": "ly-02-18:說:1:2",
+      "label": "이렇게도 보면",
+      "original": "공자님은 많이 듣고 보되 의심스러운 말과 위험한 행동을 보류하라고 답합니다. 자리를 얻는 기술보다 ‘믿고 맡길 만한 사람’이 되는 것이 먼저라는 방향 전환입니다.",
+      "reason": "방향 전환으로 끝나는 명사 중심 서술을 풀어 씀.",
+      "revised": "공자님은 많이 듣고 보되 의심스러운 말과 위험한 행동을 보류하라고 답합니다. 자리를 얻는 기술보다 ‘믿고 맡길 만한 사람’이 되는 것이 먼저라고 이야기의 방향을 바꾼 것입니다.",
+      "scope": "說",
+      "side": 2,
+      "source": {
+        "blob_sha": "c298f413ceb0d7f682002ee317d58f9ee9e0e448",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/02-위정.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st3 .js .side > p"
+      },
+      "book_name": "위정",
+      "replacements": [
+        [
+          "자리를 얻는 기술보다 ‘믿고 맡길 만한 사람’이 되는 것이 먼저라는 방향 전환입니다.",
+          "자리를 얻는 기술보다 ‘믿고 맡길 만한 사람’이 되는 것이 먼저라고 이야기의 방향을 바꾼 것입니다."
+        ]
+      ]
+    },
+    {
+      "book": 3,
+      "changed": true,
+      "heading": "정상적인 예절이 왜 당시에는 ‘아첨’처럼 보였을까?시대·제도 맥락형",
+      "id": "ly-03-18",
+      "index": 1,
+      "key": "ly-03-18:說:1:2",
+      "label": "이렇게도 보면",
+      "original": "공자님의 기준에서는 그 행동이 원래 군신 관계의 정상적인 예였습니다. 시대의 관행이 낮아지면 정상적인 기준을 지키는 사람이 오히려 과해 보일 수 있다는 장면입니다.",
+      "reason": "조건의 변화는 그대로 두고 장면으로 끝나는 어색한 연결만 다듬음.",
+      "revised": "공자님의 기준에서는 그 행동이 원래 군신 관계의 정상적인 예였습니다. 시대의 관행이 낮아지면 정상적인 기준을 지키는 사람이 오히려 과해 보일 수 있음을 보여 줍니다.",
+      "scope": "說",
+      "side": 2,
+      "source": {
+        "blob_sha": "a569dc24bc1cdff4db47200f0cefeab8df87d605",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/03-팔일.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st3 .js .side > p"
+      },
+      "book_name": "팔일",
+      "replacements": [
+        [
+          "시대의 관행이 낮아지면 정상적인 기준을 지키는 사람이 오히려 과해 보일 수 있다는 장면입니다.",
+          "시대의 관행이 낮아지면 정상적인 기준을 지키는 사람이 오히려 과해 보일 수 있음을 보여 줍니다."
+        ]
+      ]
+    },
+    {
+      "book": 3,
+      "changed": true,
+      "heading": "같은 행동도 ‘마음’이 빠지면 완전히 다른 행동이 될까?문장 안 긴장형",
+      "id": "ly-03-26",
+      "index": 1,
+      "key": "ly-03-26:說:1:2",
+      "label": "이렇게도 보면",
+      "original": "공자님은 각각에 너그러움·공경·슬픔이 없으면 그 외형을 볼 가치가 없다고 말합니다. 역할마다 반드시 따라야 할 내면이 따로 있다는 구조입니다.",
+      "reason": "내면이 따른다는 연결과 구조라는 추상적 끝맺음을 다듬음.",
+      "revised": "공자님은 각각에 너그러움·공경·슬픔이 없으면 그 외형을 볼 가치가 없다고 말합니다. 역할마다 반드시 갖춰야 할 마음이 따로 있다는 뜻입니다.",
+      "scope": "說",
+      "side": 2,
+      "source": {
+        "blob_sha": "a569dc24bc1cdff4db47200f0cefeab8df87d605",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/03-팔일.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st3 .js .side > p"
+      },
+      "book_name": "팔일",
+      "replacements": [
+        [
+          "역할마다 반드시 따라야 할 내면이 따로 있다는 구조입니다.",
+          "역할마다 반드시 갖춰야 할 마음이 따로 있다는 뜻입니다."
+        ]
+      ]
+    },
+    {
+      "book": 4,
+      "changed": true,
+      "heading": "‘사람들이 좋아하고 싫어하는 바를 살핀다’ vs ‘내가 공정하게 좋아하고 싫어한다’能好人 能惡人",
+      "id": "ly-04-03",
+      "index": 1,
+      "key": "ly-04-03:說:1:1",
+      "label": "공안국(孔安國) — 《논어집해》 인용",
+      "original": "仁者가 사람들이 무엇을 좋아하고 싫어하는지를 제대로 살필 수 있다는 쪽으로 주석했습니다. 판단의 대상이 ‘사람들의 호오’에 놓입니다.",
+      "reason": "대상이 어디에 놓인다는 직역투를 간단히 다듬음.",
+      "revised": "仁者가 사람들이 무엇을 좋아하고 싫어하는지를 제대로 살필 수 있다는 쪽으로 주석했습니다. 판단하는 대상은 ‘사람들의 호오’입니다.",
+      "scope": "說",
+      "side": 1,
+      "source": {
+        "blob_sha": "f392e8b176615e6c7c0afffbfb04618d24a2a853",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/04-이인.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st3 .js .side > p"
+      },
+      "book_name": "이인",
+      "replacements": [
+        [
+          "판단의 대상이 ‘사람들의 호오’에 놓입니다.",
+          "판단하는 대상은 ‘사람들의 호오’입니다."
+        ]
+      ]
+    },
+    {
+      "book": 4,
+      "changed": true,
+      "heading": "‘그 하나가 곧 忠恕다’ vs ‘忠恕는 그 하나를 풀어 설명한 말이다’一以貫之·忠恕",
+      "id": "ly-04-15",
+      "index": 1,
+      "key": "ly-04-15:說:1:2",
+      "label": "주희(朱熹) 《논어집주》",
+      "original": "공자님의 ‘하나’는 더 근본적인 하나의 이치이고, 증자가 제자들이 이해하기 쉽게 그것을 忠과 恕라는 실천 언어로 풀어 주었다고 봅니다.",
+      "reason": "실천 언어라는 추상적 표현을 풀어 씀.",
+      "revised": "공자님의 ‘하나’는 더 근본적인 하나의 이치이고, 증자가 제자들이 이해하기 쉽게 그것을 忠과 恕라는 실천에 관한 말로 풀어 주었다고 봅니다.",
+      "scope": "說",
+      "side": 2,
+      "source": {
+        "blob_sha": "f392e8b176615e6c7c0afffbfb04618d24a2a853",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/04-이인.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st3 .js .side > p"
+      },
+      "book_name": "이인",
+      "replacements": [
+        [
+          "忠과 恕라는 실천 언어로",
+          "忠과 恕라는 실천에 관한 말로"
+        ]
+      ]
+    },
+    {
+      "book": 5,
+      "changed": true,
+      "heading": "‘공자님의 제자 남용’ vs ‘맹씨 집안의 남궁경숙’南容의 정체",
+      "id": "ly-05-01",
+      "index": 1,
+      "key": "ly-05-01:說:1:1",
+      "label": "왕숙(王肅) — 《논어집해》 인용",
+      "original": "남용을 공자님의 제자 남궁도(南宮縚), 자는 자용(子容)인 사람으로 봅니다. 공자님이 형의 딸을 시집보낸 제자라는 장면입니다.",
+      "reason": "제자라는 장면이라는 어색한 결합을 다듬음.",
+      "revised": "남용을 공자님의 제자 남궁도(南宮縚), 자는 자용(子容)인 사람으로 봅니다. 공자님이 형의 딸을 시집보낸 제자라는 설명입니다.",
+      "scope": "說",
+      "side": 1,
+      "source": {
+        "blob_sha": "222e20ea42d90cf5c8d49d5cd063fbba6b37b8c7",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/05-공야장.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st3 .js .side > p"
+      },
+      "book_name": "공야장",
+      "replacements": [
+        [
+          "공자님이 형의 딸을 시집보낸 제자라는 장면입니다.",
+          "공자님이 형의 딸을 시집보낸 제자라는 설명입니다."
+        ]
+      ]
+    },
+    {
+      "book": 5,
+      "changed": true,
+      "heading": "‘제자들이 멋대로 글을 만들어 바로잡아야 한다’ vs ‘이미 훌륭하게 배웠지만 다듬어 줄 스승이 필요하다’斐然成章·不知所以裁之",
+      "id": "ly-05-21",
+      "index": 1,
+      "key": "ly-05-21:說:1:2",
+      "label": "장식(張栻)·유보남(劉寶楠)",
+      "original": "斐然을 부정적으로 보지 않습니다. 제자들의 공부가 이미 볼 만한 모습을 이루었고, 이제 의리와 판단의 세밀한 부분을 공자님이 마무리해 줄 단계라고 봅니다.",
+      "reason": "중첩된 관형어의 연결을 다듬음.",
+      "revised": "斐然을 부정적으로 보지 않습니다. 제자들의 공부가 이미 볼 만한 모습을 이루었고, 이제 의리와 판단에서 세밀한 부분을 공자님이 마무리해 줄 단계라고 봅니다.",
+      "scope": "說",
+      "side": 2,
+      "source": {
+        "blob_sha": "222e20ea42d90cf5c8d49d5cd063fbba6b37b8c7",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/05-공야장.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st3 .js .side > p"
+      },
+      "book_name": "공야장",
+      "replacements": [
+        [
+          "의리와 판단의 세밀한 부분을",
+          "의리와 판단에서 세밀한 부분을"
+        ]
+      ]
+    },
+    {
+      "book": 7,
+      "changed": true,
+      "heading": "‘채소 음식’ vs ‘거친 곡식밥’疏食",
+      "id": "ly-07-15",
+      "index": 1,
+      "key": "ly-07-15:說:1:2",
+      "label": "주희(朱熹)·유보남(劉寶楠)",
+      "original": "疏를 ‘거칠다’로 읽어 정제하지 않은 곡식밥이라고 봅니다. 채소만 먹었다는 뜻이 아니라 질 낮은 밥을 먹었다는 장면입니다.",
+      "reason": "먹었다는 장면이라는 어색한 설명을 다듬음.",
+      "revised": "疏를 ‘거칠다’로 읽어 정제하지 않은 곡식밥이라고 봅니다. 채소만 먹었다는 뜻이 아니라 질 낮은 밥을 먹었다는 뜻입니다.",
+      "scope": "說",
+      "side": 2,
+      "source": {
+        "blob_sha": "101d445b691af4fe769b64448011834773fc676c",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/07-술이.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st3 .js .side > p"
+      },
+      "book_name": "술이",
+      "replacements": [
+        [
+          "질 낮은 밥을 먹었다는 장면입니다.",
+          "질 낮은 밥을 먹었다는 뜻입니다."
+        ]
+      ]
+    },
+    {
+      "book": 7,
+      "changed": true,
+      "heading": "공자님이 ‘나는 성인도 인자도 아니다’라고 했는데 제자는 왜 바로 그 말을 믿지 않았을까?인물 평가형",
+      "id": "ly-07-33",
+      "index": 1,
+      "key": "ly-07-33:說:1:2",
+      "label": "이렇게도 보면",
+      "original": "공서화는 오히려 ‘바로 그것이 우리가 따라갈 수 없는 점’이라고 답합니다. 자기평가의 겸손과 타인이 본 실제 성취 사이의 간격이 드러나는 장면입니다.",
+      "reason": "명사형 나열과 추상적인 간격을 풀어 씀.",
+      "revised": "공서화는 오히려 ‘바로 그것이 우리가 따라갈 수 없는 점’이라고 답합니다. 자신을 겸손하게 평가한 말과 다른 사람이 본 실제 성취 사이의 차이가 드러나는 장면입니다.",
+      "scope": "說",
+      "side": 2,
+      "source": {
+        "blob_sha": "101d445b691af4fe769b64448011834773fc676c",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/07-술이.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st3 .js .side > p"
+      },
+      "book_name": "술이",
+      "replacements": [
+        [
+          "자기평가의 겸손과 타인이 본 실제 성취 사이의 간격이",
+          "자신을 겸손하게 평가한 말과 다른 사람이 본 실제 성취 사이의 차이가"
+        ]
+      ]
+    },
+    {
+      "book": 8,
+      "changed": true,
+      "heading": "‘흐트러진 음악을 바로잡았다’ vs ‘음악의 마지막 악장’關雎之亂",
+      "id": "ly-08-15",
+      "index": 1,
+      "key": "ly-08-15:說:1:2",
+      "label": "능정감(凌廷堪) 《예경석례》",
+      "original": "亂은 ‘혼란’이 아니라 악곡의 마지막 부분이라고 봅니다. 그러면 공자님은 음악이 처음부터 마지막까지 잘 갖추어진 소리를 듣고 감탄한 장면이 됩니다.",
+      "reason": "주어와 서술어, 음악과 소리의 연결을 자연스럽게 함.",
+      "revised": "亂은 ‘혼란’이 아니라 악곡의 마지막 부분이라고 봅니다. 그러면 공자님이 처음부터 마지막까지 잘 갖추어진 음악 소리를 듣고 감탄한 장면이 됩니다.",
+      "scope": "說",
+      "side": 2,
+      "source": {
+        "blob_sha": "2e1d6800360c25a2104b4ec5cd1ae44b588154c6",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/08-태백.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st3 .js .side > p"
+      },
+      "book_name": "태백",
+      "replacements": [
+        [
+          "그러면 공자님은 음악이 처음부터 마지막까지 잘 갖추어진 소리를 듣고 감탄한 장면이 됩니다.",
+          "그러면 공자님이 처음부터 마지막까지 잘 갖추어진 음악 소리를 듣고 감탄한 장면이 됩니다."
+        ]
+      ]
+    },
+    {
+      "book": 10,
+      "changed": true,
+      "heading": "‘사람만 묻고 말은 묻지 않았다’ vs ‘사람이 다쳤나 묻고, 말도 물었다’傷人乎不問馬의 구두",
+      "id": "ly-10-12",
+      "index": 1,
+      "key": "ly-10-12:說:1:1",
+      "label": "형병(邢昺) 《논어주소》",
+      "original": "‘傷人乎?’에서 끊고 ‘不問馬’를 기록자의 말로 봅니다. 공자님은 사람이 다쳤는지만 묻고 말의 피해는 묻지 않았다는 유명한 장면이 됩니다.",
+      "reason": "장면을 꾸미는 절의 주격 조사를 자연스럽게 함.",
+      "revised": "‘傷人乎?’에서 끊고 ‘不問馬’를 기록자의 말로 봅니다. 공자님이 사람이 다쳤는지만 묻고 말의 피해는 묻지 않았다는 유명한 장면이 됩니다.",
+      "scope": "說",
+      "side": 1,
+      "source": {
+        "blob_sha": "096e28e98ea4c6569110a538191880a1ac6cede8",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/10-향당.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st3 .js .side > p"
+      },
+      "book_name": "향당",
+      "replacements": [
+        [
+          "공자님은 사람이 다쳤는지만 묻고",
+          "공자님이 사람이 다쳤는지만 묻고"
+        ]
+      ]
+    },
+    {
+      "book": 11,
+      "changed": true,
+      "heading": "‘치우치고 잘못을 꾸민다’ vs ‘몸가짐에 익숙하나 진실함이 적다’",
+      "id": "ly-11-17",
+      "index": 1,
+      "key": "ly-11-17:說:1:2",
+      "label": "주희(朱熹) 《논어집주》 — 《논어정의》 인용",
+      "original": "辟을 便辟으로 풀어, 자장이 절하고 행동하는 겉모습에는 익숙하지만 진실한 마음은 부족했다고 봅니다. 내면의 삿됨보다 겉치레에 치우친 태도를 지적한 풀이입니다.",
+      "reason": "명사형 표현을 풀어 씀.",
+      "revised": "辟을 便辟으로 풀어, 자장이 절하고 행동하는 겉모습에는 익숙하지만 진실한 마음은 부족했다고 봅니다. 마음이 삿되다는 점보다 겉치레에 치우친 태도를 지적한 풀이입니다.",
+      "scope": "說",
+      "side": 2,
+      "source": {
+        "blob_sha": "816ad65fdf62c262291949e5551e4676aa25b7b7",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/11-선진.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st3 .js .side > p"
+      },
+      "book_name": "선진",
+      "replacements": [
+        [
+          "내면의 삿됨보다",
+          "마음이 삿되다는 점보다"
+        ]
+      ]
+    },
+    {
+      "book": 12,
+      "changed": true,
+      "heading": "나쁜 사람을 없애면 좋은 사회가 될까?본문 속 논쟁형",
+      "id": "ly-12-19",
+      "index": 1,
+      "key": "ly-12-19:說:1:2",
+      "label": "이렇게도 보면",
+      "original": "공자님은 정치를 위해 사람을 죽일 필요가 없다고 반박하고, 윗사람의 덕이 바람처럼 아래의 행동을 바꾸는 교화를 대안으로 제시합니다.",
+      "reason": "아래라는 불완전한 지칭을 자연스럽게 다듬음.",
+      "revised": "공자님은 정치를 위해 사람을 죽일 필요가 없다고 반박하고, 윗사람의 덕이 바람처럼 아랫사람의 행동을 바꾸는 교화를 대안으로 제시합니다.",
+      "scope": "說",
+      "side": 2,
+      "source": {
+        "blob_sha": "3bb3dcb4ca5735dac947735bf406fdafaae89bf5",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/12-안연.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st3 .js .side > p"
+      },
+      "book_name": "안연",
+      "replacements": [
+        [
+          "아래의 행동을",
+          "아랫사람의 행동을"
+        ]
+      ]
+    },
+    {
+      "book": 13,
+      "changed": true,
+      "heading": "‘명령이 필요 없어진다’ vs ‘명령이 비로소 먹힌다’不令而行",
+      "id": "ly-13-06",
+      "index": 1,
+      "key": "ly-13-06:說:1:1",
+      "label": "정약용(丁若鏞) 《논어고금주》",
+      "original": "윗사람이 몸을 바르게 하면 백성이 저절로 본받으므로 따로 시키지 않아도 그대로 행해진다고 봅니다. 여기에 몸으로 보이는 가르침과 말로만 하는 가르침의 차이를 덧붙였습니다. 무게가 ‘아랫사람이 감화된다’ 쪽에 실립니다.",
+      "reason": "무게를 싣는다는 설명 비유를 간단히 풀어 씀.",
+      "revised": "윗사람이 몸을 바르게 하면 백성이 저절로 본받으므로 따로 시키지 않아도 그대로 행해진다고 봅니다. 여기에 몸으로 보이는 가르침과 말로만 하는 가르침의 차이를 덧붙였습니다. ‘아랫사람이 감화된다’는 점을 강조합니다.",
+      "scope": "說",
+      "side": 1,
+      "source": {
+        "blob_sha": "e9779822bb2b17ca431de651cab7e85168c58eb8",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/13-자로.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st3 .js .side > p"
+      },
+      "book_name": "자로",
+      "replacements": [
+        [
+          "무게가 ‘아랫사람이 감화된다’ 쪽에 실립니다.",
+          "‘아랫사람이 감화된다’는 점을 강조합니다."
+        ]
+      ]
+    },
+    {
+      "book": 13,
+      "changed": true,
+      "heading": "‘명령이 필요 없어진다’ vs ‘명령이 비로소 먹힌다’不令而行",
+      "id": "ly-13-06",
+      "index": 1,
+      "key": "ly-13-06:說:1:2",
+      "label": "양수달(楊樹達) 《논어소증》 — 《여씨춘추》 인용",
+      "original": "옛 기록에서 같은 말을 모아 이 구절을 명령이 통하게 되는 조건 쪽으로 읽습니다. 임금이 법을 세울 때 먼저 자기를 잣대로 삼기 때문에 그 명령이 천하에 행해지는 것이고, 백성에게 금한 것을 제 몸에는 행하지 않으면 나라가 망한다는 것입니다. 무게가 ‘윗사람의 말에 힘이 실린다’ 쪽에 실립니다.",
+      "reason": "실린다는 말이 겹치는 비유를 풀어 씀.",
+      "revised": "옛 기록에서 같은 말을 모아 이 구절을 명령이 통하게 되는 조건 쪽으로 읽습니다. 임금이 법을 세울 때 먼저 자기를 잣대로 삼기 때문에 그 명령이 천하에 행해지는 것이고, 백성에게 금한 것을 제 몸에는 행하지 않으면 나라가 망한다는 것입니다. ‘윗사람의 말에 힘이 실린다’는 점을 강조합니다.",
+      "scope": "說",
+      "side": 2,
+      "source": {
+        "blob_sha": "e9779822bb2b17ca431de651cab7e85168c58eb8",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/13-자로.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st3 .js .side > p"
+      },
+      "book_name": "자로",
+      "replacements": [
+        [
+          "무게가 ‘윗사람의 말에 힘이 실린다’ 쪽에 실립니다.",
+          "‘윗사람의 말에 힘이 실린다’는 점을 강조합니다."
+        ]
+      ]
+    },
+    {
+      "book": 13,
+      "changed": true,
+      "heading": "‘자유롭게 풀어져 느긋한 모습’ vs ‘속이 충실하여 바깥에 바라는 것이 없는 평안’",
+      "id": "ly-13-26",
+      "index": 1,
+      "key": "ly-13-26:說:1:2",
+      "label": "정약용(丁若鏞) 《논어고금주》",
+      "original": "泰를 마음속이 충실해 바깥에서 무엇을 구할 필요가 없는 상태로 풉니다. 겉으로 풀어져 보이는 태도라기보다 내면의 든든함에서 나오는 평안이라는 뜻입니다.",
+      "reason": "명사 중심 표현을 자연스럽게 풀어 씀.",
+      "revised": "泰를 마음속이 충실해 바깥에서 무엇을 구할 필요가 없는 상태로 풉니다. 겉으로 풀어져 보이는 태도라기보다 마음이 든든해서 느끼는 평안이라는 뜻입니다.",
+      "scope": "說",
+      "side": 2,
+      "source": {
+        "blob_sha": "e9779822bb2b17ca431de651cab7e85168c58eb8",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/13-자로.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st3 .js .side > p"
+      },
+      "book_name": "자로",
+      "replacements": [
+        [
+          "내면의 든든함에서 나오는",
+          "마음이 든든해서 느끼는"
+        ]
+      ]
+    },
+    {
+      "book": 16,
+      "changed": true,
+      "heading": "‘멀고 미세한 것까지 보고 들음’ vs ‘눈앞의 것을 마음 다해 정확히 봄’視思明 聽思聰",
+      "id": "ly-16-10",
+      "index": 1,
+      "key": "ly-16-10:說:1:1",
+      "label": "형병(邢昺) 《논어주소》",
+      "original": "明은 아주 작은 것도 보는 이루 같은 시력, 聰은 멀리 있는 소리도 듣는 사광 같은 청력을 생각하는 것이라고 풉니다. 보고 듣는 능력의 뛰어남에 무게를 둡니다.",
+      "reason": "명사형 중첩과 무게 비유를 풀어 씀.",
+      "revised": "明은 아주 작은 것도 보는 이루 같은 시력, 聰은 멀리 있는 소리도 듣는 사광 같은 청력을 생각하는 것이라고 풉니다. 보고 듣는 능력이 뛰어나다는 점을 강조합니다.",
+      "scope": "說",
+      "side": 1,
+      "source": {
+        "blob_sha": "f9f38eae5cb43cd4917fb77609c452524db16dc4",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/16-계씨.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st3 .js .side > p"
+      },
+      "book_name": "계씨",
+      "replacements": [
+        [
+          "보고 듣는 능력의 뛰어남에 무게를 둡니다.",
+          "보고 듣는 능력이 뛰어나다는 점을 강조합니다."
+        ]
+      ]
+    },
+    {
+      "book": 17,
+      "changed": true,
+      "heading": "‘길에서 들은 확인되지 않은 말을 퍼뜨림’ vs ‘방금 들은 말을 곧바로 다른 곳에서 옮김’道聽而塗說",
+      "id": "ly-17-14",
+      "index": 1,
+      "key": "ly-17-14:說:1:1",
+      "label": "형병(邢昺) 《논어주소》",
+      "original": "길에서 들은 말을 배우고 확인하지도 않은 채 전하면 틀리거나 근거 없는 내용이 많으므로 덕 있는 사람이 버린다고 풉니다. 들은 내용의 불확실함에 무게를 둡니다.",
+      "reason": "불확실함이라는 명사형을 풀어 씀.",
+      "revised": "길에서 들은 말을 배우고 확인하지도 않은 채 전하면 틀리거나 근거 없는 내용이 많으므로 덕 있는 사람이 버린다고 풉니다. 들은 내용이 불확실하다는 점을 강조합니다.",
+      "scope": "說",
+      "side": 1,
+      "source": {
+        "blob_sha": "88f7f3985bfa2b3ed1b79972b1ea15ec3aa8dd5a",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/17-양화.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st3 .js .side > p"
+      },
+      "book_name": "양화",
+      "replacements": [
+        [
+          "들은 내용의 불확실함에 무게를 둡니다.",
+          "들은 내용이 불확실하다는 점을 강조합니다."
+        ]
+      ]
+    },
+    {
+      "book": 19,
+      "changed": true,
+      "heading": "‘군자 일반’ vs ‘공자 한 사람’君子",
+      "id": "ly-19-09",
+      "index": 1,
+      "key": "ly-19-09:說:1:2",
+      "label": "정약용(丁若鏞) 《논어고금주》",
+      "original": "여기서 君子는 군자 일반이 아니라 자하가 직접 모셨던 공자를 가리킨다고 봅니다. 멀리서 본 모습, 가까이 대한 낯빛, 직접 들은 말에서 드러난 공자의 세 모습을 회고한 말로 풉니다.",
+      "reason": "일반이라는 딱딱한 표현을 일상적인 말로 바꿈.",
+      "revised": "여기서 君子는 흔히 말하는 군자가 아니라 자하가 직접 모셨던 공자를 가리킨다고 봅니다. 멀리서 본 모습, 가까이 대한 낯빛, 직접 들은 말에서 드러난 공자의 세 모습을 회고한 말로 풉니다.",
+      "scope": "說",
+      "side": 2,
+      "source": {
+        "blob_sha": "50679eceddd3d454aa9f88bdecb4c2f3e1704622",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/19-자장.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st3 .js .side > p"
+      },
+      "book_name": "자장",
+      "replacements": [
+        [
+          "군자 일반이 아니라",
+          "흔히 말하는 군자가 아니라"
+        ]
+      ]
+    },
+    {
+      "book": 19,
+      "changed": true,
+      "heading": "당당함은 장점일까, 오히려 仁을 가로막는 약점일까?문장 안 긴장형",
+      "id": "ly-19-16",
+      "index": 1,
+      "key": "ly-19-16:說:1:2",
+      "label": "이렇게도 보면",
+      "original": "하지만 바로 이어 ‘함께 仁을 하기 어렵다’고 말합니다. 같은 당당함이 지나치면 타인과 함께 배우고 서로 보완하는 데 방해가 될 수 있어, 한 성향이 장점과 약점을 동시에 만드는 장면입니다.",
+      "reason": "성향이 장점과 약점을 만든다는 결합을 자연스럽게 함.",
+      "revised": "하지만 바로 이어 ‘함께 仁을 하기 어렵다’고 말합니다. 같은 당당함이 지나치면 타인과 함께 배우고 서로 보완하는 데 방해가 될 수 있어, 한 성향이 장점과 약점으로 동시에 나타나는 장면입니다.",
+      "scope": "說",
+      "side": 2,
+      "source": {
+        "blob_sha": "50679eceddd3d454aa9f88bdecb4c2f3e1704622",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/19-자장.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st3 .js .side > p"
+      },
+      "book_name": "자장",
+      "replacements": [
+        [
+          "한 성향이 장점과 약점을 동시에 만드는 장면입니다.",
+          "한 성향이 장점과 약점으로 동시에 나타나는 장면입니다."
+        ]
+      ]
+    }
+  ]
+}
