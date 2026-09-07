@@ -1,165 +1,212 @@
 {
-  "schema_version": "1.0",
-  "scope": "이 장의 핵심",
-  "source": {
-    "repository": "hermes-blue/analects",
-    "branch": "트랙/뉴코퍼스",
-    "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
-    "path": "1차완성본/쉬운설명카드/10-향당.html",
-    "blob_sha": "096e28e98ea4c6569110a538191880a1ac6cede8",
-    "selector": "article.card > .big > p.hx",
-    "identity": "article.card의 id 그대로 사용"
-  },
-  "book_number": 10,
   "book_name": "향당",
+  "book_number": 10,
   "cards": [
     {
-      "id": "ly-10-01",
+      "changed": false,
       "chapter": 1,
+      "id": "ly-10-01",
       "original": "사적인 자리에서는 몸을 낮추고 공적인 자리에서는 책임 있게 말한다",
-      "revised": "사적인 자리에서는 몸을 낮추고 공적인 자리에서는 책임 있게 말한다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
+      "revised": "사적인 자리에서는 몸을 낮추고 공적인 자리에서는 책임 있게 말한다"
     },
     {
-      "id": "ly-10-02",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 2,
+      "id": "ly-10-02",
       "original": "상대를 존중하되 관계와 지위에 맞게 말의 결을 조절한다",
-      "revised": "상대를 존중하되 관계와 지위에 맞게 말의 결을 조절한다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "상대를 존중하되 관계와 지위에 맞게 말의 결을 조절한다",
+      "reason": "말의 결이라는 추상적인 비유 풀기",
+      "revised": "상대를 존중하면서 관계와 지위에 맞게 말투를 조절한다",
+      "revision_round": 2
     },
     {
-      "id": "ly-10-03",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 3,
+      "id": "ly-10-03",
       "original": "공적인 책임은 말뿐 아니라 표정과 걸음과 몸짓까지 바꾼다",
-      "revised": "공적인 책임은 말뿐 아니라 표정과 걸음과 몸짓까지 바꾼다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "공적인 책임은 말뿐 아니라 표정과 걸음과 몸짓까지 바꾼다",
+      "reason": "책임이 몸짓을 바꾼다는 사동형 풀기",
+      "revised": "공적인 책임을 맡으면 말뿐 아니라 표정과 걸음, 몸짓까지 달라진다",
+      "revision_round": 2
     },
     {
-      "id": "ly-10-04",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 4,
+      "id": "ly-10-04",
       "original": "공적인 공간에 들어갈 때는 그 공간이 요구하는 경계와 질서를 몸으로 지킨다",
-      "revised": "공적인 공간에 들어갈 때는 그 공간이 요구하는 경계와 질서를 몸으로 지킨다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "공적인 공간에 들어갈 때는 그 공간이 요구하는 경계와 질서를 몸으로 지킨다",
+      "reason": "공간이 요구하고 몸으로 지킨다는 추상적 표현 정리",
+      "revised": "공적인 공간에 들어갈 때는 그곳의 경계와 질서에 맞게 몸가짐을 조심한다",
+      "revision_round": 2
     },
     {
-      "id": "ly-10-05",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 5,
+      "id": "ly-10-05",
       "original": "국가를 대표하는 물건을 들 때는 그 물건보다 맡은 책임의 무게를 먼저 느낀다",
-      "revised": "국가를 대표하는 물건을 들 때는 그 물건보다 맡은 책임의 무게를 먼저 느낀다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "국가를 대표하는 물건을 들 때는 그 물건보다 맡은 책임의 무게를 먼저 느낀다",
+      "reason": "물건과 책임의 무게라는 불완전한 비교 정리",
+      "revised": "국가를 대표하는 물건을 들 때는 물건의 무게보다 맡은 책임을 먼저 무겁게 여긴다",
+      "revision_round": 2
     },
     {
-      "id": "ly-10-06",
+      "changed": true,
       "chapter": 6,
+      "id": "ly-10-06",
       "original": "검소함도 무조건 덜 갖추는 것이 아니라 상황에 맞는 복식을 지키는 일이다",
-      "revised": "검소함도 무조건 덜 갖추는 것이 아니라 상황에 맞는 옷차림을 지키는 일이다",
-      "changed": true,
-      "reason": "‘복식’을 일상적인 ‘옷차림’으로 바꾸었다."
+      "reason": "‘복식’을 일상적인 ‘옷차림’으로 바꾸었다.",
+      "revised": "검소함도 무조건 덜 갖추는 것이 아니라 상황에 맞는 옷차림을 지키는 일이다"
     },
     {
-      "id": "ly-10-07",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 7,
+      "id": "ly-10-07",
       "original": "중요한 일을 앞두면 마음만이 아니라 먹고 입고 자는 생활 전체를 바꿔 집중한다",
-      "revised": "중요한 일을 앞두면 마음만이 아니라 먹고 입고 자는 생활 전체를 바꿔 집중한다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "중요한 일을 앞두면 마음만이 아니라 먹고 입고 자는 생활 전체를 바꿔 집중한다",
+      "reason": "마음만이 아니라와 생활 전체의 나열 정리",
+      "revised": "중요한 일을 앞두면 마음가짐뿐 아니라 먹고 입고 자는 생활까지 바꾸어 집중한다",
+      "revision_round": 2
     },
     {
-      "id": "ly-10-08",
-      "chapter": 8,
-      "original": "예는 큰 의식보다 밥 먹고 잠드는 반복되는 습관에서도 드러난다",
-      "revised": "예는 큰 의식보다 밥 먹고 잠드는 반복되는 습관에서도 드러난다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
-    },
-    {
-      "id": "ly-10-09",
-      "chapter": 9,
-      "original": "큰 질서는 사소해 보이는 반복 습관에서부터 몸에 밴다",
-      "revised": "큰 질서는 사소해 보이는 반복 습관에서부터 몸에 밴다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
-    },
-    {
-      "id": "ly-10-10",
-      "chapter": 10,
-      "original": "일상적인 술자리에서도 연장자를 먼저 세우는 질서를 잊지 않는다",
-      "revised": "일상적인 술자리에서도 연장자를 먼저 세우는 질서를 잊지 않는다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
-    },
-    {
-      "id": "ly-10-11",
-      "chapter": 11,
-      "original": "상대가 눈앞에 없어도 존중하는 태도는 달라지지 않는다",
-      "revised": "상대가 눈앞에 없어도 존중하는 태도는 달라지지 않는다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
-    },
-    {
-      "id": "ly-10-12",
-      "chapter": 12,
-      "original": "사고가 나면 재산보다 사람이 다쳤는지를 먼저 묻는다",
-      "revised": "사고가 나면 재산보다 사람이 다쳤는지를 먼저 묻는다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
-    },
-    {
-      "id": "ly-10-13",
-      "chapter": 13,
-      "original": "공적인 호의는 가볍게 받지 않고 받은 것의 성격에 맞게 예로 답한다",
-      "revised": "공적인 호의는 가볍게 받지 않고 받은 것의 성격에 맞게 예로 답한다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
-    },
-    {
-      "id": "ly-10-14",
-      "chapter": 14,
-      "original": "친구가 가장 의지할 곳 없는 순간이라면 마지막까지 책임진다",
-      "revised": "친구가 가장 의지할 곳 없는 순간이라면 마지막까지 책임진다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
-    },
-    {
-      "id": "ly-10-15",
-      "chapter": 15,
-      "original": "예는 내 편한 상태보다 상대가 지금 어떤 상황에 놓였는지를 먼저 본다",
-      "revised": "예는 내가 편한지보다 상대가 지금 어떤 상황에 놓였는지를 먼저 본다",
+      "approval_status": "approved",
       "changed": true,
-      "reason": "‘내 편한 상태’를 뒤의 ‘어떤 상황에 놓였는지’와 호응하도록 풀었다."
+      "chapter": 8,
+      "id": "ly-10-08",
+      "original": "예는 큰 의식보다 밥 먹고 잠드는 반복되는 습관에서도 드러난다",
+      "previous_revision": "예는 큰 의식보다 밥 먹고 잠드는 반복되는 습관에서도 드러난다",
+      "reason": "비교와 추가 표현이 섞인 보다·에서도 연결을 비교 구문으로 정리",
+      "revised": "예는 큰 의식보다 날마다 밥 먹고 잠드는 습관에서 더 잘 드러난다",
+      "revision_round": 2
     },
     {
-      "id": "ly-10-16",
+      "approval_status": "approved",
+      "changed": true,
+      "chapter": 9,
+      "id": "ly-10-09",
+      "original": "큰 질서는 사소해 보이는 반복 습관에서부터 몸에 밴다",
+      "previous_revision": "큰 질서는 사소해 보이는 반복 습관에서부터 몸에 밴다",
+      "reason": "반복 습관에서 질서가 밴다는 명사형 연결 풀기",
+      "revised": "큰 질서도 사소해 보이는 습관을 되풀이하며 몸에 익힌다",
+      "revision_round": 2
+    },
+    {
+      "approval_status": "approved",
+      "changed": true,
+      "chapter": 10,
+      "id": "ly-10-10",
+      "original": "일상적인 술자리에서도 연장자를 먼저 세우는 질서를 잊지 않는다",
+      "previous_revision": "일상적인 술자리에서도 연장자를 먼저 세우는 질서를 잊지 않는다",
+      "reason": "연장자를 세우는 질서라는 추상적 표현 풀기",
+      "revised": "평소 술자리에서도 어른을 먼저 대우하는 순서를 잊지 않는다",
+      "revision_round": 2
+    },
+    {
+      "changed": false,
+      "chapter": 11,
+      "id": "ly-10-11",
+      "original": "상대가 눈앞에 없어도 존중하는 태도는 달라지지 않는다",
+      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
+      "revised": "상대가 눈앞에 없어도 존중하는 태도는 달라지지 않는다"
+    },
+    {
+      "changed": false,
+      "chapter": 12,
+      "id": "ly-10-12",
+      "original": "사고가 나면 재산보다 사람이 다쳤는지를 먼저 묻는다",
+      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
+      "revised": "사고가 나면 재산보다 사람이 다쳤는지를 먼저 묻는다"
+    },
+    {
+      "approval_status": "approved",
+      "changed": true,
+      "chapter": 13,
+      "id": "ly-10-13",
+      "original": "공적인 호의는 가볍게 받지 않고 받은 것의 성격에 맞게 예로 답한다",
+      "previous_revision": "공적인 호의는 가볍게 받지 않고 받은 것의 성격에 맞게 예로 답한다",
+      "reason": "호의를 받는다는 표현과 예로 답한다는 압축 구문 정리",
+      "revised": "공적인 호의를 가볍게 여기지 않고 받은 것의 성격에 맞게 예를 갖춰 답한다",
+      "revision_round": 2
+    },
+    {
+      "approval_status": "approved",
+      "changed": true,
+      "chapter": 14,
+      "id": "ly-10-14",
+      "original": "친구가 가장 의지할 곳 없는 순간이라면 마지막까지 책임진다",
+      "previous_revision": "친구가 가장 의지할 곳 없는 순간이라면 마지막까지 책임진다",
+      "reason": "친구가 순간이라는 어색한 연결 정리",
+      "revised": "친구에게 의지할 곳이 없을 때는 마지막까지 책임진다",
+      "revision_round": 2
+    },
+    {
+      "approval_status": "approved",
+      "changed": true,
+      "chapter": 15,
+      "id": "ly-10-15",
+      "original": "예는 내 편한 상태보다 상대가 지금 어떤 상황에 놓였는지를 먼저 본다",
+      "previous_revision": "예는 내가 편한지보다 상대가 지금 어떤 상황에 놓였는지를 먼저 본다",
+      "reason": "예가 본다는 비인칭 서술을 행동으로 풀기",
+      "revised": "예를 갖추려면 내가 편한지보다 상대의 처지를 먼저 살펴야 한다",
+      "revision_round": 2
+    },
+    {
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 16,
+      "id": "ly-10-16",
       "original": "평범한 이동 중에도 말과 몸짓이 부산해지지 않도록 절제한다",
-      "revised": "평범한 이동 중에도 말과 몸짓이 부산해지지 않도록 절제한다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "평범한 이동 중에도 말과 몸짓이 부산해지지 않도록 절제한다",
+      "reason": "평범한 이동 중이라는 직역투 정리",
+      "revised": "평소 오가는 길에서도 말과 몸짓이 부산해지지 않도록 절제한다",
+      "revision_round": 2
     },
     {
-      "id": "ly-10-17",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 17,
+      "id": "ly-10-17",
       "original": "좋은 행동은 무엇을 하느냐만큼 언제 하느냐도 중요하다",
-      "revised": "좋은 행동은 무엇을 하느냐만큼 언제 하느냐도 중요하다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "좋은 행동은 무엇을 하느냐만큼 언제 하느냐도 중요하다",
+      "reason": "행동이 중요하다는 주제와 서술 연결 정리",
+      "revised": "바르게 행동하려면 무엇을 하는지만큼 언제 하는지도 중요하다",
+      "revision_round": 2
     }
   ],
-  "self_review": {
-    "reviewed": 17,
-    "changed": 2,
-    "unchanged": 15,
-    "content_review_performed": false,
+  "previous_self_review": {
     "assessment": "17개 중 2개를 수정했다. ‘말의 결’, ‘책임의 무게’처럼 자연스럽게 읽히는 비유는 보존했다. ‘보다’와 ‘에서도’가 섞인 문장은 어느 관계를 택하느냐에 따라 뜻이 바뀔 수 있어 보존했다.",
     "carry_forward_to_next_book": "형식상 어색해도 비교·첨가 중 뜻을 새로 골라야 하는 문장은 손대지 않는다.",
+    "changed": 2,
+    "content_review_performed": false,
     "held_for_meaning_preservation": [
       "8장 ‘큰 의식보다 … 습관에서도’는 비교와 첨가의 의미 선택을 피하려 보존."
     ],
-    "reviewer": "이 대화의 작성자 자체 평가; 외부 독립 검수 아님"
+    "reviewed": 17,
+    "reviewer": "이 대화의 작성자 자체 평가; 외부 독립 검수 아님",
+    "unchanged": 15
+  },
+  "schema_version": "2.0",
+  "scope": "이 장의 핵심",
+  "self_review": {
+    "assessment": "사용자가 승인한 2차 제안을 그대로 수정본에 반영. 이번 반영 과정에서 새 문체 변경은 하지 않음.",
+    "changed": 14,
+    "content_review_performed": false,
+    "reviewed": 17,
+    "round_2_approved_applied": 13,
+    "unchanged": 3
+  },
+  "source": {
+    "blob_sha": "096e28e98ea4c6569110a538191880a1ac6cede8",
+    "branch": "트랙/뉴코퍼스",
+    "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+    "identity": "article.card의 id 그대로 사용",
+    "path": "1차완성본/쉬운설명카드/10-향당.html",
+    "repository": "hermes-blue/analects",
+    "selector": "article.card > .big > p.hx"
   }
 }
