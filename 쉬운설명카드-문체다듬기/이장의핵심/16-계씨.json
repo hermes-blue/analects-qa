@@ -1,139 +1,183 @@
 {
-  "schema_version": "1.0",
-  "scope": "이 장의 핵심",
-  "source": {
-    "repository": "hermes-blue/analects",
-    "branch": "트랙/뉴코퍼스",
-    "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
-    "path": "1차완성본/쉬운설명카드/16-계씨.html",
-    "blob_sha": "f9f38eae5cb43cd4917fb77609c452524db16dc4",
-    "selector": "article.card > .big > p.hx",
-    "identity": "article.card의 id 그대로 사용"
-  },
-  "book_number": 16,
   "book_name": "계씨",
+  "book_number": 16,
   "cards": [
     {
-      "id": "ly-16-01",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 1,
+      "id": "ly-16-01",
       "original": "바깥의 적보다 내부의 욕심과 책임 방기가 더 큰 위험일 수 있다",
-      "revised": "바깥의 적보다 내부의 욕심과 책임을 저버리는 태도가 더 큰 위험일 수 있다",
-      "changed": true,
-      "reason": "‘책임 방기’를 쉬운 표현으로 풀었다."
+      "previous_revision": "바깥의 적보다 내부의 욕심과 책임을 저버리는 태도가 더 큰 위험일 수 있다",
+      "reason": "내부의 욕심과 책임 방기라는 명사형 풀기",
+      "revised": "바깥의 적보다 안에서 욕심을 부리고 책임을 저버리는 일이 더 위험할 수 있다",
+      "revision_round": 2
     },
     {
-      "id": "ly-16-02",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 2,
+      "id": "ly-16-02",
       "original": "공적 권한이 아래로 사유화될수록 정치 질서는 더 빠르게 무너진다",
-      "revised": "공적 권한이 아래로 내려가 사유화될수록 정치 질서는 더 빠르게 무너진다",
-      "changed": true,
-      "reason": "‘아래로 사유화된다’에서 생략된 동작을 풀어 어색한 결합을 다듬었다."
+      "previous_revision": "공적 권한이 아래로 내려가 사유화될수록 정치 질서는 더 빠르게 무너진다",
+      "reason": "아래로 사유화된다는 중첩된 추상어 풀기",
+      "revised": "공적인 권한이 아래로 넘어가 개인의 소유가 될수록 정치 질서는 더 빨리 무너진다",
+      "revision_round": 2
     },
     {
-      "id": "ly-16-03",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 3,
+      "id": "ly-16-03",
       "original": "윗권한을 빼앗아 세운 힘은 결국 자기 아랫사람에게도 빼앗기기 쉽다",
-      "revised": "윗사람의 권한을 빼앗아 세운 힘은 결국 자기 아랫사람에게도 빼앗기기 쉽다",
-      "changed": true,
-      "reason": "‘윗권한’이라는 부자연스러운 말을 풀었다."
+      "previous_revision": "윗사람의 권한을 빼앗아 세운 힘은 결국 자기 아랫사람에게도 빼앗기기 쉽다",
+      "reason": "힘을 세운다는 어색한 결합 정리",
+      "revised": "윗사람의 권한을 빼앗아 얻은 힘은 결국 자신의 아랫사람에게도 빼앗기기 쉽다",
+      "revision_round": 2
     },
     {
-      "id": "ly-16-04",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 4,
+      "id": "ly-16-04",
       "original": "좋은 친구는 나를 편하게만 하는 사람보다 더 나은 사람으로 만드는 사람이다",
-      "revised": "좋은 친구는 나를 편하게만 하는 사람보다 더 나은 사람으로 만드는 사람이다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "좋은 친구는 나를 편하게만 하는 사람보다 더 나은 사람으로 만드는 사람이다",
+      "reason": "사람보다 사람이라는 반복과 사동 표현 정리",
+      "revised": "좋은 친구는 나를 편하게만 해 주기보다 더 나은 사람이 되도록 돕는다",
+      "revision_round": 2
     },
     {
-      "id": "ly-16-05",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 5,
+      "id": "ly-16-05",
       "original": "즐거움도 사람을 키우거나 흐트러뜨리는 방향이 있다",
-      "revised": "즐거움도 사람을 키우거나 흐트러뜨리는 방향이 있다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "즐거움도 사람을 키우거나 흐트러뜨리는 방향이 있다",
+      "reason": "즐거움의 방향이라는 모호한 비유 풀기",
+      "revised": "즐거움에도 사람을 자라게 하는 것이 있고 흐트러뜨리는 것이 있다",
+      "revision_round": 2
     },
     {
-      "id": "ly-16-06",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 6,
+      "id": "ly-16-06",
       "original": "말은 때를 놓쳐도, 앞질러도, 상대를 보지 않아도 어긋난다",
-      "revised": "말은 때를 놓쳐도, 앞질러도, 상대를 보지 않아도 어긋난다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "말은 때를 놓쳐도, 앞질러도, 상대를 보지 않아도 어긋난다",
+      "reason": "말이 때를 놓치고 앞지른다는 부자연스러운 주어 정리",
+      "revised": "말할 때를 놓치거나 앞서 나가거나 상대를 살피지 않으면 말도 어긋난다",
+      "revision_round": 2
     },
     {
-      "id": "ly-16-07",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 7,
+      "id": "ly-16-07",
       "original": "나이가 바뀌면 경계해야 할 욕망의 모습도 달라진다",
-      "revised": "나이가 바뀌면 경계해야 할 욕망의 모습도 달라진다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "나이가 바뀌면 경계해야 할 욕망의 모습도 달라진다",
+      "reason": "나이가 바뀐다는 결합과 욕망의 모습이라는 명사형 정리",
+      "revised": "나이가 들면 경계해야 할 욕망도 달라진다",
+      "revision_round": 2
     },
     {
-      "id": "ly-16-08",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 8,
+      "id": "ly-16-08",
       "original": "두려워할 것을 아는 것은 약함이 아니라 절제의 시작이다",
-      "revised": "두려워할 것을 아는 것은 약함이 아니라 절제의 시작이다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "두려워할 것을 아는 것은 약함이 아니라 절제의 시작이다",
+      "reason": "앎과 약함을 같은 문장에 겹친 정의 풀기",
+      "revised": "무엇을 두려워해야 하는지 안다고 약한 것은 아니며, 절제는 거기서 시작된다",
+      "revision_round": 2
     },
     {
-      "id": "ly-16-09",
+      "changed": true,
       "chapter": 9,
+      "id": "ly-16-09",
       "original": "가장 낮은 것은 늦게 배우는 사람이 아니라 어려워도 배우지 않는 사람이다",
-      "revised": "가장 낮게 평가되는 사람은 늦게 배우는 사람이 아니라 어려워도 배우지 않는 사람이다",
-      "changed": true,
-      "reason": "‘가장 낮은 것은 … 사람이다’의 호응을 자연스럽게 다듬었다."
+      "reason": "‘가장 낮은 것은 … 사람이다’의 호응을 자연스럽게 다듬었다.",
+      "revised": "가장 낮게 평가되는 사람은 늦게 배우는 사람이 아니라 어려워도 배우지 않는 사람이다"
     },
     {
-      "id": "ly-16-10",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 10,
+      "id": "ly-16-10",
       "original": "군자의 수양은 보고 듣고 말하고 행동하는 순간마다 자신을 점검하는 일이다",
-      "revised": "군자의 수양은 보고 듣고 말하고 행동하는 순간마다 자신을 점검하는 일이다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "군자의 수양은 보고 듣고 말하고 행동하는 순간마다 자신을 점검하는 일이다",
+      "reason": "수양은 점검하는 일이라는 명사형 정의 풀기",
+      "revised": "군자는 보고 듣고 말하고 행동할 때마다 자신을 돌아보며 수양한다",
+      "revision_round": 2
     },
     {
-      "id": "ly-16-11",
-      "chapter": 11,
-      "original": "선을 향한 마음과 악을 피하는 마음은 행동할 만큼 분명해야 한다",
-      "revised": "선을 향한 마음과 악을 피하는 마음은 행동할 만큼 분명해야 한다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
-    },
-    {
-      "id": "ly-16-12",
-      "chapter": 12,
-      "original": "사람을 오래 남기는 것은 재산보다 삶의 기준이다",
-      "revised": "사람을 오래 기억하게 하는 것은 재산보다 삶의 기준이다",
+      "approval_status": "approved",
       "changed": true,
-      "reason": "‘사람을 오래 남기다’를 문맥에서 뜻이 분명한 표현으로 풀었다."
+      "chapter": 11,
+      "id": "ly-16-11",
+      "original": "선을 향한 마음과 악을 피하는 마음은 행동할 만큼 분명해야 한다",
+      "previous_revision": "선을 향한 마음과 악을 피하는 마음은 행동할 만큼 분명해야 한다",
+      "reason": "행동할 만큼이라는 생략된 연결 정리",
+      "revised": "선을 따르고 악을 피하려는 마음은 실제 행동으로 이어질 만큼 분명해야 한다",
+      "revision_round": 2
     },
     {
-      "id": "ly-16-13",
+      "approval_status": "approved",
+      "changed": true,
+      "chapter": 12,
+      "id": "ly-16-12",
+      "original": "사람을 오래 남기는 것은 재산보다 삶의 기준이다",
+      "previous_revision": "사람을 오래 기억하게 하는 것은 재산보다 삶의 기준이다",
+      "reason": "사람이 오래 기억되는 까닭과 삶의 기준을 자연스럽게 연결",
+      "revised": "사람이 오래 기억되는 것은 재산보다 그가 지킨 삶의 기준 때문이다",
+      "revision_round": 2
+    },
+    {
+      "changed": false,
       "chapter": 13,
+      "id": "ly-16-13",
       "original": "아들이라고 따로 가르치는 것은 없다",
-      "revised": "아들이라고 따로 가르치는 것은 없다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
+      "revised": "아들이라고 따로 가르치는 것은 없다"
     },
     {
-      "id": "ly-16-14",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 14,
+      "id": "ly-16-14",
       "original": "같은 제후의 아내도 누가 누구에게 말하느냐에 따라 호칭이 달랐다",
-      "revised": "같은 제후의 아내도 누가 누구에게 말하느냐에 따라 호칭이 달랐다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "같은 제후의 아내도 누가 누구에게 말하느냐에 따라 호칭이 달랐다",
+      "reason": "호칭이라는 한자어와 조건절 정리",
+      "revised": "같은 제후의 아내라도 누가 누구에게 말하는지에 따라 부르는 이름이 달랐다",
+      "revision_round": 2
     }
   ],
-  "self_review": {
-    "reviewed": 14,
-    "changed": 5,
-    "unchanged": 9,
-    "content_review_performed": false,
+  "previous_self_review": {
     "assessment": "14개 중 5개를 수정했다. ‘방기’, ‘윗권한’과 어색한 서술 결합을 정리했다. 위험의 가능성과 정치 질서에 관한 기존 주장은 그대로 두었다.",
     "carry_forward_to_next_book": "어려운 한자어도 쉬운 대응 표현이 분명할 때만 바꾼다. ‘사유화’처럼 핵심 개념인 말은 임의로 삭제하지 않는다.",
+    "changed": 5,
+    "content_review_performed": false,
     "held_for_meaning_preservation": [],
-    "reviewer": "이 대화의 작성자 자체 평가; 외부 독립 검수 아님"
+    "reviewed": 14,
+    "reviewer": "이 대화의 작성자 자체 평가; 외부 독립 검수 아님",
+    "unchanged": 9
+  },
+  "schema_version": "2.0",
+  "scope": "이 장의 핵심",
+  "self_review": {
+    "assessment": "사용자가 승인한 2차 제안을 그대로 수정본에 반영. 이번 반영 과정에서 새 문체 변경은 하지 않음.",
+    "changed": 13,
+    "content_review_performed": false,
+    "reviewed": 14,
+    "round_2_approved_applied": 12,
+    "unchanged": 1
+  },
+  "source": {
+    "blob_sha": "f9f38eae5cb43cd4917fb77609c452524db16dc4",
+    "branch": "트랙/뉴코퍼스",
+    "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+    "identity": "article.card의 id 그대로 사용",
+    "path": "1차완성본/쉬운설명카드/16-계씨.html",
+    "repository": "hermes-blue/analects",
+    "selector": "article.card > .big > p.hx"
   }
 }
