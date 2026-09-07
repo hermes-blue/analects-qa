@@ -1,12 +1,10 @@
-# 사료카드 2단계 · 2차 수정 제안
+# 사료카드 2단계 · 2차 수정 완료
 
-**355장 모두 수정 전후 비교를 작성했습니다. 사용자 승인 전이며, 카드 본문은 그대로입니다.**
+**355개 수정 제안은 사용자 승인 후 `sourcecards-style-polish/`의 JSON에 반영했습니다.**
 
-- [전체 355장 — 현재 문장과 수정 제안 비교](proposed-changes-readable.md)
-- [우선 검토 136장만 비교](proposed-priority-readable.md)
+- [승인·반영된 355장 수정 전후 비교](proposed-changes-readable.md)
+- [우선 검토 136장 비교](proposed-priority-readable.md)
+- [반영 기록](application.json)
+- [현재 편별 JSON](../sourcecards-style-polish/)
 
-바뀐 부분을 양쪽 모두 굵게 표시했습니다. 우선 검토 136장과 적극 검토 219장을 합쳐 355장입니다. 기존 정보와 사료 안내 역할을 유지하고, 사용자 승인 후에만 카드 JSON에 반영합니다.
-
-처음 후보를 찾은 기록은 [후보와 검토 이유](candidates-readable.md)에 남겨 두었습니다. 현재 승인할 문장은 위의 수정 전후 비교에서 확인할 수 있습니다.
-
-`proposed-changes-audit.json`은 현재 문장·수정 제안·승인 상태를 기록한 검토 자료이며 앱에 적용할 카드 JSON이 아닙니다.
+위 비교표와 `proposed-changes-audit.json`의 미승인·미반영 표시는 **제안 당시의 기록**입니다. 현재 상태는 반영 완료입니다. 새로운 3차 수정안은 별도 승인을 받습니다.
