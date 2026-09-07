@@ -71,12 +71,22 @@
       "revised": "좋은 말도 누구에게 언제 하느냐를 가려야 한다"
     },
     {
-      "changed": false,
+      "changed": true,
       "chapter": 8,
       "id": "ly-15-08",
       "original": "살기 위해 지켜야 할 인간의 기준까지 버릴 수는 없다",
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
-      "revised": "살기 위해 지켜야 할 인간의 기준까지 버릴 수는 없다"
+      "reason": "살기 위해가 지켜야 할 기준을 꾸미는 것으로 오독될 수 있는 수식 정리",
+      "revised": "살려고 인간으로서 지켜야 할 기준까지 버릴 수는 없다",
+      "revision_history": [
+        {
+          "revision_round": 1,
+          "revised": "살기 위해 지켜야 할 인간의 기준까지 버릴 수는 없다",
+          "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+        }
+      ],
+      "previous_revision": "살기 위해 지켜야 할 인간의 기준까지 버릴 수는 없다",
+      "revision_round": 3,
+      "approval_status": "approved"
     },
     {
       "approval_status": "approved",
@@ -109,12 +119,22 @@
       "revision_round": 2
     },
     {
-      "changed": false,
+      "changed": true,
       "chapter": 12,
       "id": "ly-15-12",
       "original": "덕을 욕망만큼 강하게 좋아하는 사람은 드물다",
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
-      "revised": "덕을 욕망만큼 강하게 좋아하는 사람은 드물다"
+      "reason": "덕을 욕망만큼 좋아한다는 추상적인 비교 풀기",
+      "revised": "무언가를 간절히 바라듯 덕을 그만큼 좋아하는 사람은 드물다",
+      "revision_history": [
+        {
+          "revision_round": 1,
+          "revised": "덕을 욕망만큼 강하게 좋아하는 사람은 드물다",
+          "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+        }
+      ],
+      "previous_revision": "덕을 욕망만큼 강하게 좋아하는 사람은 드물다",
+      "revision_round": 3,
+      "approval_status": "approved"
     },
     {
       "approval_status": "approved",
@@ -122,10 +142,17 @@
       "chapter": 13,
       "id": "ly-15-13",
       "original": "인재를 알고도 세우지 않는다면 자리를 제대로 쓰는 것이 아니다",
-      "previous_revision": "인재를 알고도 세우지 않는다면 자리를 제대로 쓰는 것이 아니다",
-      "reason": "세운다는 모호한 비유와 자리의 주체 정리",
-      "revised": "인재를 알아보고도 기용하지 않는다면 자신의 자리를 제대로 쓰는 것이 아니다",
-      "revision_round": 2
+      "previous_revision": "인재를 알아보고도 기용하지 않는다면 자신의 자리를 제대로 쓰는 것이 아니다",
+      "reason": "자신의 자리를 쓴다는 부자연스러운 표현 풀기",
+      "revised": "인재를 알아보고도 기용하지 않는다면 그 자리에서 할 일을 제대로 하지 않는 것이다",
+      "revision_round": 3,
+      "revision_history": [
+        {
+          "revision_round": 2,
+          "revised": "인재를 알아보고도 기용하지 않는다면 자신의 자리를 제대로 쓰는 것이 아니다",
+          "reason": "세운다는 모호한 비유와 자리의 주체 정리"
+        }
+      ]
     },
     {
       "changed": false,
@@ -321,10 +348,17 @@
       "chapter": 33,
       "id": "ly-15-33",
       "original": "작은 재주보다 큰 책임을 맡겼을 때 사람의 그릇이 드러난다",
-      "previous_revision": "작은 재주보다 큰 책임을 맡겼을 때 사람의 그릇이 드러난다",
-      "reason": "주제를 먼저 제시해 비교의 호흡 정리",
-      "revised": "사람의 그릇은 작은 재주보다 큰 책임을 맡겼을 때 드러난다",
-      "revision_round": 2
+      "previous_revision": "사람의 그릇은 작은 재주보다 큰 책임을 맡겼을 때 드러난다",
+      "reason": "재주와 책임을 맡기는 때를 직접 비교한 비대칭 정리",
+      "revised": "사람의 그릇은 작은 재주를 볼 때보다 큰 책임을 맡겼을 때 드러난다",
+      "revision_round": 3,
+      "revision_history": [
+        {
+          "revision_round": 2,
+          "revised": "사람의 그릇은 작은 재주보다 큰 책임을 맡겼을 때 드러난다",
+          "reason": "주제를 먼저 제시해 비교의 호흡 정리"
+        }
+      ]
     },
     {
       "changed": false,
@@ -375,10 +409,17 @@
       "chapter": 39,
       "id": "ly-15-39",
       "original": "근본 방향이 다르면 같은 계획을 오래 함께 세우기 어렵다",
-      "previous_revision": "근본 방향이 다르면 같은 계획을 오래 함께 세우기 어렵다",
-      "reason": "근본 방향이라는 압축된 명사 풀기",
-      "revised": "근본적으로 향하는 곳이 다르면 같은 계획을 오래 함께 세우기 어렵다",
-      "revision_round": 2
+      "previous_revision": "근본적으로 향하는 곳이 다르면 같은 계획을 오래 함께 세우기 어렵다",
+      "reason": "근본적으로 향하는 곳이라는 우회적인 비유 정리",
+      "revised": "뜻이 근본적으로 다르면 같은 계획을 오래 함께 세우기 어렵다",
+      "revision_round": 3,
+      "revision_history": [
+        {
+          "revision_round": 2,
+          "revised": "근본적으로 향하는 곳이 다르면 같은 계획을 오래 함께 세우기 어렵다",
+          "reason": "근본 방향이라는 압축된 명사 풀기"
+        }
+      ]
     },
     {
       "approval_status": "approved",
@@ -413,15 +454,16 @@
     "reviewer": "이 대화의 작성자 자체 평가; 외부 독립 검수 아님",
     "unchanged": 35
   },
-  "schema_version": "2.0",
+  "schema_version": "3.0",
   "scope": "이 장의 핵심",
   "self_review": {
-    "assessment": "사용자가 승인한 2차 제안을 그대로 수정본에 반영. 이번 반영 과정에서 새 문체 변경은 하지 않음.",
-    "changed": 29,
+    "assessment": "3차 제안 중 사용자가 승인한 문장을 그대로 수정본에 반영. 제안이 없던 문장은 유지. 내용 검수는 하지 않음.",
+    "changed": 31,
     "content_review_performed": false,
     "reviewed": 41,
     "round_2_approved_applied": 24,
-    "unchanged": 12
+    "unchanged": 10,
+    "round_3_approved_applied": 5
   },
   "source": {
     "blob_sha": "bf4095ccec09b5c2b5f74960dd33fde8da5220be",
@@ -431,5 +473,13 @@
     "path": "1차완성본/쉬운설명카드/15-위령공.html",
     "repository": "hermes-blue/analects",
     "selector": "article.card > .big > p.hx"
+  },
+  "round_2_self_review": {
+    "assessment": "사용자가 승인한 2차 제안을 그대로 수정본에 반영. 이번 반영 과정에서 새 문체 변경은 하지 않음.",
+    "changed": 29,
+    "content_review_performed": false,
+    "reviewed": 41,
+    "round_2_approved_applied": 24,
+    "unchanged": 12
   }
 }
