@@ -16,10 +16,17 @@
       "chapter": 2,
       "id": "ly-09-02",
       "original": "한 가지 재주로 이름나지 않았다는 말이 오히려 공자님의 넓이를 보여준다",
-      "previous_revision": "한 가지 재주로 이름나지 않았다는 말이 오히려 공자님의 넓이를 보여준다",
-      "reason": "공자님의 넓이라는 어색한 추상 명사 풀기",
-      "revised": "한 가지 재주로 이름나지 않았다는 말은 오히려 공자님이 얼마나 폭넓은 분이셨는지 보여 준다",
-      "revision_round": 2
+      "previous_revision": "한 가지 재주로 이름나지 않았다는 말은 오히려 공자님이 얼마나 폭넓은 분이셨는지 보여 준다",
+      "reason": "폭넓은 분이라는 막연한 수식을 앞의 재주와 자연스럽게 연결",
+      "revised": "한 가지 재주로 이름나지 않았다는 말은 오히려 공자님이 여러 방면에 두루 능하셨음을 보여 준다",
+      "revision_round": 3,
+      "revision_history": [
+        {
+          "revision_round": 2,
+          "revised": "한 가지 재주로 이름나지 않았다는 말은 오히려 공자님이 얼마나 폭넓은 분이셨는지 보여 준다",
+          "reason": "공자님의 넓이라는 어색한 추상 명사 풀기"
+        }
+      ]
     },
     {
       "changed": false,
@@ -94,8 +101,18 @@
       "chapter": 10,
       "id": "ly-09-10",
       "original": "배우면 배울수록 끝이 아니라 더 높은 깊이가 보인다",
-      "reason": "‘높은 깊이’의 맞지 않는 수식 관계를 다듬었다.",
-      "revised": "배우면 배울수록 끝이 아니라 더 깊은 경지가 보인다"
+      "reason": "끝과 경지의 비교에서 생략된 서술어 보완",
+      "revised": "배우면 배울수록 끝이 보이기보다 더 깊은 경지가 보인다",
+      "revision_history": [
+        {
+          "revision_round": 1,
+          "revised": "배우면 배울수록 끝이 아니라 더 깊은 경지가 보인다",
+          "reason": "‘높은 깊이’의 맞지 않는 수식 관계를 다듬었다."
+        }
+      ],
+      "previous_revision": "배우면 배울수록 끝이 아니라 더 깊은 경지가 보인다",
+      "revision_round": 3,
+      "approval_status": "approved"
     },
     {
       "approval_status": "approved",
@@ -157,10 +174,17 @@
       "chapter": 17,
       "id": "ly-09-17",
       "original": "덕도 욕망처럼 강하게 좋아할 수 있어야 오래 실천된다",
-      "previous_revision": "덕도 욕망처럼 강하게 좋아할 수 있어야 오래 실천된다",
-      "reason": "덕이 실천된다는 수동형과 욕망처럼 좋아한다는 연결 정리",
-      "revised": "덕도 욕망의 대상처럼 간절히 좋아해야 오래 실천할 수 있다",
-      "revision_round": 2
+      "previous_revision": "덕도 욕망의 대상처럼 간절히 좋아해야 오래 실천할 수 있다",
+      "reason": "욕망의 대상처럼 간절히 좋아한다는 추상적 비교 정리",
+      "revised": "무언가를 간절히 바라듯 덕도 그만큼 좋아해야 오래 실천할 수 있다",
+      "revision_round": 3,
+      "revision_history": [
+        {
+          "revision_round": 2,
+          "revised": "덕도 욕망의 대상처럼 간절히 좋아해야 오래 실천할 수 있다",
+          "reason": "덕이 실천된다는 수동형과 욕망처럼 좋아한다는 연결 정리"
+        }
+      ]
     },
     {
       "approval_status": "approved",
@@ -208,8 +232,18 @@
       "chapter": 22,
       "id": "ly-09-22",
       "original": "젊은 사람은 지금보다 앞으로 어디까지 갈지를 알 수 없기에 함부로 낮출 수 없다",
-      "reason": "‘지금보다 앞으로 어디까지’의 어순과 ‘사람을 낮추다’의 표현을 다듬었다.",
-      "revised": "젊은 사람은 앞으로 지금보다 얼마나 더 나아갈지 알 수 없기에 함부로 낮춰 볼 수 없다"
+      "reason": "앞으로·지금보다·더가 겹친 수식 정리",
+      "revised": "젊은 사람이 앞으로 얼마나 더 나아갈지는 알 수 없으므로 함부로 낮춰 볼 수 없다",
+      "revision_history": [
+        {
+          "revision_round": 1,
+          "revised": "젊은 사람은 앞으로 지금보다 얼마나 더 나아갈지 알 수 없기에 함부로 낮춰 볼 수 없다",
+          "reason": "‘지금보다 앞으로 어디까지’의 어순과 ‘사람을 낮추다’의 표현을 다듬었다."
+        }
+      ],
+      "previous_revision": "젊은 사람은 앞으로 지금보다 얼마나 더 나아갈지 알 수 없기에 함부로 낮춰 볼 수 없다",
+      "revision_round": 3,
+      "approval_status": "approved"
     },
     {
       "approval_status": "approved",
@@ -306,15 +340,16 @@
     "reviewer": "이 대화의 작성자 자체 평가; 외부 독립 검수 아님",
     "unchanged": 27
   },
-  "schema_version": "2.0",
+  "schema_version": "3.0",
   "scope": "이 장의 핵심",
   "self_review": {
-    "assessment": "사용자가 승인한 2차 제안을 그대로 수정본에 반영. 이번 반영 과정에서 새 문체 변경은 하지 않음.",
+    "assessment": "3차 제안 중 사용자가 승인한 문장을 그대로 수정본에 반영. 제안이 없던 문장은 유지. 내용 검수는 하지 않음.",
     "changed": 20,
     "content_review_performed": false,
     "reviewed": 30,
     "round_2_approved_applied": 17,
-    "unchanged": 10
+    "unchanged": 10,
+    "round_3_approved_applied": 4
   },
   "source": {
     "blob_sha": "575486d765f742fc9fdea0d92141603d4be1f322",
@@ -324,5 +359,13 @@
     "path": "1차완성본/쉬운설명카드/09-자한.html",
     "repository": "hermes-blue/analects",
     "selector": "article.card > .big > p.hx"
+  },
+  "round_2_self_review": {
+    "assessment": "사용자가 승인한 2차 제안을 그대로 수정본에 반영. 이번 반영 과정에서 새 문체 변경은 하지 않음.",
+    "changed": 20,
+    "content_review_performed": false,
+    "reviewed": 30,
+    "round_2_approved_applied": 17,
+    "unchanged": 10
   }
 }
