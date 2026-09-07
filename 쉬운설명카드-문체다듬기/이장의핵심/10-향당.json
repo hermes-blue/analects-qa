@@ -59,8 +59,18 @@
       "chapter": 6,
       "id": "ly-10-06",
       "original": "검소함도 무조건 덜 갖추는 것이 아니라 상황에 맞는 복식을 지키는 일이다",
-      "reason": "‘복식’을 일상적인 ‘옷차림’으로 바꾸었다.",
-      "revised": "검소함도 무조건 덜 갖추는 것이 아니라 상황에 맞는 옷차림을 지키는 일이다"
+      "reason": "검소함을 옷차림을 지키는 일로 정의한 어색한 연결 정리",
+      "revised": "검소하게 입더라도 무조건 덜 갖출 것이 아니라 상황에 맞는 옷차림을 지켜야 한다",
+      "revision_history": [
+        {
+          "revision_round": 1,
+          "revised": "검소함도 무조건 덜 갖추는 것이 아니라 상황에 맞는 옷차림을 지키는 일이다",
+          "reason": "‘복식’을 일상적인 ‘옷차림’으로 바꾸었다."
+        }
+      ],
+      "previous_revision": "검소함도 무조건 덜 갖추는 것이 아니라 상황에 맞는 옷차림을 지키는 일이다",
+      "revision_round": 3,
+      "approval_status": "approved"
     },
     {
       "approval_status": "approved",
@@ -172,10 +182,17 @@
       "chapter": 17,
       "id": "ly-10-17",
       "original": "좋은 행동은 무엇을 하느냐만큼 언제 하느냐도 중요하다",
-      "previous_revision": "좋은 행동은 무엇을 하느냐만큼 언제 하느냐도 중요하다",
-      "reason": "행동이 중요하다는 주제와 서술 연결 정리",
-      "revised": "바르게 행동하려면 무엇을 하는지만큼 언제 하는지도 중요하다",
-      "revision_round": 2
+      "previous_revision": "바르게 행동하려면 무엇을 하는지만큼 언제 하는지도 중요하다",
+      "reason": "무엇을 하는지만큼이라는 번역투 비교 구문 정리",
+      "revised": "바르게 행동하려면 무엇을 하느냐 못지않게 언제 하느냐도 중요하다",
+      "revision_round": 3,
+      "revision_history": [
+        {
+          "revision_round": 2,
+          "revised": "바르게 행동하려면 무엇을 하는지만큼 언제 하는지도 중요하다",
+          "reason": "행동이 중요하다는 주제와 서술 연결 정리"
+        }
+      ]
     }
   ],
   "previous_self_review": {
@@ -190,15 +207,16 @@
     "reviewer": "이 대화의 작성자 자체 평가; 외부 독립 검수 아님",
     "unchanged": 15
   },
-  "schema_version": "2.0",
+  "schema_version": "3.0",
   "scope": "이 장의 핵심",
   "self_review": {
-    "assessment": "사용자가 승인한 2차 제안을 그대로 수정본에 반영. 이번 반영 과정에서 새 문체 변경은 하지 않음.",
+    "assessment": "3차 제안 중 사용자가 승인한 문장을 그대로 수정본에 반영. 제안이 없던 문장은 유지. 내용 검수는 하지 않음.",
     "changed": 14,
     "content_review_performed": false,
     "reviewed": 17,
     "round_2_approved_applied": 13,
-    "unchanged": 3
+    "unchanged": 3,
+    "round_3_approved_applied": 2
   },
   "source": {
     "blob_sha": "096e28e98ea4c6569110a538191880a1ac6cede8",
@@ -208,5 +226,13 @@
     "path": "1차완성본/쉬운설명카드/10-향당.html",
     "repository": "hermes-blue/analects",
     "selector": "article.card > .big > p.hx"
+  },
+  "round_2_self_review": {
+    "assessment": "사용자가 승인한 2차 제안을 그대로 수정본에 반영. 이번 반영 과정에서 새 문체 변경은 하지 않음.",
+    "changed": 14,
+    "content_review_performed": false,
+    "reviewed": 17,
+    "round_2_approved_applied": 13,
+    "unchanged": 3
   }
 }
