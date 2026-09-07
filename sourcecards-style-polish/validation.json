@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "books": 20,
+  "records": 498,
+  "changed_openings": 153,
+  "unchanged_openings": 345,
+  "other_values_unchanged": true,
+  "ids_and_order_unchanged": true,
+  "all_seven_pending_records_unchanged": true,
+  "remote_json_files_match_local": true,
+  "source_blob_changes_since_read": [],
+  "comparison_records_match_edits": true
+}
