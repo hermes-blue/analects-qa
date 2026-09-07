@@ -60,10 +60,17 @@
       "chapter": 6,
       "id": "ly-14-06",
       "original": "뛰어난 힘과 재주도 덕의 방향을 잃으면 좋은 삶을 보장하지 못한다",
-      "previous_revision": "뛰어난 힘과 재주도 덕의 방향을 잃으면 좋은 삶을 보장하지 못한다",
-      "reason": "덕의 방향을 잃는다는 비유 풀기",
-      "revised": "힘과 재주가 뛰어나도 덕을 향하지 않으면 좋은 삶을 보장받지 못한다",
-      "revision_round": 2
+      "previous_revision": "힘과 재주가 뛰어나도 덕을 향하지 않으면 좋은 삶을 보장받지 못한다",
+      "reason": "덕을 향한다는 추상적인 방향 비유 정리",
+      "revised": "힘과 재주가 뛰어나도 덕을 따르지 않으면 좋은 삶을 보장받지 못한다",
+      "revision_round": 3,
+      "revision_history": [
+        {
+          "revision_round": 2,
+          "revised": "힘과 재주가 뛰어나도 덕을 향하지 않으면 좋은 삶을 보장받지 못한다",
+          "reason": "덕의 방향을 잃는다는 비유 풀기"
+        }
+      ]
     },
     {
       "approval_status": "approved",
@@ -145,10 +152,17 @@
       "chapter": 14,
       "id": "ly-14-14",
       "original": "말과 행동을 아예 끊기보다 때에 맞게 조절하는 절제가 더 중요하다",
-      "previous_revision": "말과 행동을 아예 끊기보다 때에 맞게 조절하는 절제가 더 중요하다",
-      "reason": "조절하는 절제라는 중복 표현 정리",
-      "revised": "말과 행동을 아예 끊기보다 때에 맞게 절제하는 것이 더 중요하다",
-      "revision_round": 2
+      "previous_revision": "말과 행동을 아예 끊기보다 때에 맞게 절제하는 것이 더 중요하다",
+      "reason": "행동을 끊는다는 부자연스러운 결합 정리",
+      "revised": "말도 행동도 아예 하지 않기보다 때에 맞게 절제하는 것이 더 중요하다",
+      "revision_round": 3,
+      "revision_history": [
+        {
+          "revision_round": 2,
+          "revised": "말과 행동을 아예 끊기보다 때에 맞게 절제하는 것이 더 중요하다",
+          "reason": "조절하는 절제라는 중복 표현 정리"
+        }
+      ]
     },
     {
       "approval_status": "approved",
@@ -265,10 +279,17 @@
       "chapter": 26,
       "id": "ly-14-26",
       "original": "좋은 전달자는 주인을 과장해 칭찬하지 않고 핵심을 정확하고 품위 있게 전한다",
-      "previous_revision": "좋은 전달자는 주인을 과장해 칭찬하지 않고 핵심을 정확하고 품위 있게 전한다",
-      "reason": "좋은 전달자라는 직역투 명사 풀기",
-      "revised": "말을 잘 전하는 사람은 주인을 과장해 칭찬하지 않고 핵심을 정확하고 품위 있게 전달한다",
-      "revision_round": 2
+      "previous_revision": "말을 잘 전하는 사람은 주인을 과장해 칭찬하지 않고 핵심을 정확하고 품위 있게 전달한다",
+      "reason": "주인을 과장한다는 목적어·서술어 연결 정리",
+      "revised": "말을 잘 전하는 사람은 주인을 칭찬할 때도 과장하지 않고 핵심을 정확하고 품위 있게 전달한다",
+      "revision_round": 3,
+      "revision_history": [
+        {
+          "revision_round": 2,
+          "revised": "말을 잘 전하는 사람은 주인을 과장해 칭찬하지 않고 핵심을 정확하고 품위 있게 전달한다",
+          "reason": "좋은 전달자라는 직역투 명사 풀기"
+        }
+      ]
     },
     {
       "changed": false,
@@ -292,10 +313,17 @@
       "chapter": 29,
       "id": "ly-14-29",
       "original": "말이 행동보다 앞서 커지는 순간을 스스로 부끄러워할 줄 알아야 한다",
-      "previous_revision": "말이 행동보다 앞서 커지는 순간을 스스로 부끄러워할 줄 알아야 한다",
-      "reason": "말이 앞서 커지는 순간이라는 복합 비유 정리",
-      "revised": "말이 행동보다 앞서 커질 때는 스스로 부끄러워할 줄 알아야 한다",
-      "revision_round": 2
+      "previous_revision": "말이 행동보다 앞서 커질 때는 스스로 부끄러워할 줄 알아야 한다",
+      "reason": "말이 행동보다 앞서 커진다는 겹친 비유 정리",
+      "revised": "말만 앞서고 행동이 그에 미치지 못할 때는 스스로 부끄러워할 줄 알아야 한다",
+      "revision_round": 3,
+      "revision_history": [
+        {
+          "revision_round": 2,
+          "revised": "말이 행동보다 앞서 커질 때는 스스로 부끄러워할 줄 알아야 한다",
+          "reason": "말이 앞서 커지는 순간이라는 복합 비유 정리"
+        }
+      ]
     },
     {
       "changed": false,
@@ -338,10 +366,17 @@
       "chapter": 34,
       "id": "ly-14-34",
       "original": "세상이 굳어 있다고 포기하지 않고 사람을 설득하며 바꿀 가능성을 끝까지 찾는다",
-      "previous_revision": "세상이 굳어 있다고 포기하지 않고 사람을 설득하며 바꿀 가능성을 끝까지 찾는다",
-      "reason": "바꿀 가능성을 찾는다는 추상적인 표현 정리",
-      "revised": "세상이 굳어 있다고 포기하지 않고 사람을 설득하며 끝까지 바꿀 길을 찾는다",
-      "revision_round": 2
+      "previous_revision": "세상이 굳어 있다고 포기하지 않고 사람을 설득하며 끝까지 바꿀 길을 찾는다",
+      "reason": "세상이 굳어 있다는 추상적인 비유 풀기",
+      "revised": "세상이 좀처럼 바뀌지 않는다고 포기하지 않고 사람을 설득하며 끝까지 바꿀 길을 찾는다",
+      "revision_round": 3,
+      "revision_history": [
+        {
+          "revision_round": 2,
+          "revised": "세상이 굳어 있다고 포기하지 않고 사람을 설득하며 끝까지 바꿀 길을 찾는다",
+          "reason": "바꿀 가능성을 찾는다는 추상적인 표현 정리"
+        }
+      ]
     },
     {
       "approval_status": "approved",
@@ -360,10 +395,17 @@
       "chapter": 36,
       "id": "ly-14-36",
       "original": "잘못에는 공정함으로 갚고 베풂에는 베풂으로 갚는다",
-      "previous_revision": "잘못에는 공정함으로 갚고 베풂에는 베풂으로 갚는다",
-      "reason": "잘못을 공정함으로 갚는다는 직역투와 명사형 풀기",
-      "revised": "잘못은 공정하게 대하고 남이 베푼 일에는 나도 베풀어 갚는다",
-      "revision_round": 2
+      "previous_revision": "잘못은 공정하게 대하고 남이 베푼 일에는 나도 베풀어 갚는다",
+      "reason": "잘못을 대한다는 어색한 목적어 연결 정리",
+      "revised": "잘못에는 공정하게 대응하고 남이 베푼 일에는 나도 베풀어 갚는다",
+      "revision_round": 3,
+      "revision_history": [
+        {
+          "revision_round": 2,
+          "revised": "잘못은 공정하게 대하고 남이 베푼 일에는 나도 베풀어 갚는다",
+          "reason": "잘못을 공정함으로 갚는다는 직역투와 명사형 풀기"
+        }
+      ]
     },
     {
       "changed": false,
@@ -409,12 +451,22 @@
       "revised": "성공하기 어렵다는 것을 알아도 마땅히 해야 할 일이라면 포기하지 않는다"
     },
     {
-      "changed": false,
+      "changed": true,
       "chapter": 42,
       "id": "ly-14-42",
       "original": "물러나는 지혜와 끝까지 뜻을 놓지 않는 책임은 서로 다른 선택이다",
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
-      "revised": "물러나는 지혜와 끝까지 뜻을 놓지 않는 책임은 서로 다른 선택이다"
+      "reason": "지혜와 책임을 선택으로 직접 정의하는 명사형 연결 정리",
+      "revised": "지혜롭게 물러나는 것과 끝까지 뜻을 놓지 않고 책임을 다하는 것은 서로 다른 선택이다",
+      "revision_history": [
+        {
+          "revision_round": 1,
+          "revised": "물러나는 지혜와 끝까지 뜻을 놓지 않는 책임은 서로 다른 선택이다",
+          "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+        }
+      ],
+      "previous_revision": "물러나는 지혜와 끝까지 뜻을 놓지 않는 책임은 서로 다른 선택이다",
+      "revision_round": 3,
+      "approval_status": "approved"
     },
     {
       "approval_status": "approved",
@@ -481,15 +533,16 @@
     "reviewer": "이 대화의 작성자 자체 평가; 외부 독립 검수 아님",
     "unchanged": 41
   },
-  "schema_version": "2.0",
+  "schema_version": "3.0",
   "scope": "이 장의 핵심",
   "self_review": {
-    "assessment": "사용자가 승인한 2차 제안을 그대로 수정본에 반영. 이번 반영 과정에서 새 문체 변경은 하지 않음.",
-    "changed": 31,
+    "assessment": "3차 제안 중 사용자가 승인한 문장을 그대로 수정본에 반영. 제안이 없던 문장은 유지. 내용 검수는 하지 않음.",
+    "changed": 32,
     "content_review_performed": false,
     "reviewed": 47,
     "round_2_approved_applied": 30,
-    "unchanged": 16
+    "unchanged": 15,
+    "round_3_approved_applied": 7
   },
   "source": {
     "blob_sha": "1d5c9f60733d7c923dbcea667ed7b3893c8fdad1",
@@ -499,5 +552,13 @@
     "path": "1차완성본/쉬운설명카드/14-헌문.html",
     "repository": "hermes-blue/analects",
     "selector": "article.card > .big > p.hx"
+  },
+  "round_2_self_review": {
+    "assessment": "사용자가 승인한 2차 제안을 그대로 수정본에 반영. 이번 반영 과정에서 새 문체 변경은 하지 않음.",
+    "changed": 31,
+    "content_review_performed": false,
+    "reviewed": 47,
+    "round_2_approved_applied": 30,
+    "unchanged": 16
   }
 }
