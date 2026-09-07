@@ -1,0 +1,43 @@
+{
+  "상태": "20편 문체 경수정 및 보존 대조 완료",
+  "날짜": "2026-09-07",
+  "앱용장수": 498,
+  "수정장수": 184,
+  "유지장수": 314,
+  "부분수정건수": 201,
+  "검토묶음수": 109,
+  "별도보존장수": 1,
+  "기준커밋": "86e70e84e4f2122e9201bc94988181857e690717",
+  "기준원본19편변경여부": "업로드 직전 원본 blob SHA 대조 결과 변경 없음",
+  "본문JSON": [
+    "01-hakyi.json",
+    "02-wijeong.json",
+    "03-palil.json",
+    "04-iin.json",
+    "05-gongyajang.json",
+    "06-yongya.json",
+    "07-suli.json",
+    "08-taebaek.json",
+    "09-jahan.json",
+    "10-hyangdang.json",
+    "11-seonjin.json",
+    "12-anyeon.json",
+    "13-jaro.json",
+    "14-heonmun.json",
+    "15-wiryeonggong.json",
+    "16-gyessi.json",
+    "17-yanghwa.json",
+    "18-mija.json",
+    "19-jajang.json",
+    "20-yowal.json"
+  ],
+  "요왈출처": {
+    "경로": "docs/_검수/여는말과1단계교체/역검수/묶음/20.txt",
+    "브랜치": "트랙/뉴코퍼스",
+    "이유": "analects-qa/pilots/astra-prose에 요왈 JSON 없음",
+    "저장소": "hermes-blue/analects",
+    "추출": "[우리 원고 본문 ★전문] 이하. 문단·문장·경문·표제 그대로 추출.",
+    "파일SHA": "bd581402e92339728dbd77dd7cef23a0813ca949"
+  },
+  "주의": "기존 메타데이터의 상태·검수기록은 원본 작성 당시 정보. 이번 작업의 완료와 검사 결과는 이 파일 및 validation.json 기준. 앱 배포는 수행하지 않음."
+}
