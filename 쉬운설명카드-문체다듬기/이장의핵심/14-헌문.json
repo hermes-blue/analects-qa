@@ -1,405 +1,503 @@
 {
-  "schema_version": "1.0",
-  "scope": "이 장의 핵심",
-  "source": {
-    "repository": "hermes-blue/analects",
-    "branch": "트랙/뉴코퍼스",
-    "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
-    "path": "1차완성본/쉬운설명카드/14-헌문.html",
-    "blob_sha": "1d5c9f60733d7c923dbcea667ed7b3893c8fdad1",
-    "selector": "article.card > .big > p.hx",
-    "identity": "article.card의 id 그대로 사용"
-  },
-  "book_number": 14,
   "book_name": "헌문",
+  "book_number": 14,
   "cards": [
     {
-      "id": "ly-14-01",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 1,
+      "id": "ly-14-01",
       "original": "정치가 그릇된데 책임은 외면하고 자리와 보수만 지키는 것은 부끄럽다",
-      "revised": "정치가 그릇된데 책임은 외면하고 자리와 보수만 지키는 것은 부끄럽다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "정치가 그릇된데 책임은 외면하고 자리와 보수만 지키는 것은 부끄럽다",
+      "reason": "정치의 상태와 행동을 연결하는 호흡 정리",
+      "revised": "정치가 그릇되었는데도 책임은 외면하고 자리와 보수만 지키려 한다면 부끄러운 일이다",
+      "revision_round": 2
     },
     {
-      "id": "ly-14-02",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 2,
+      "id": "ly-14-02",
       "original": "나쁜 욕망을 억누르는 일은 어렵지만 그것만으로 완성된 어짊이 되는 것은 아니다",
-      "revised": "나쁜 욕망을 억누르는 일은 어렵지만 그것만으로 완성된 어짊이 되는 것은 아니다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "나쁜 욕망을 억누르는 일은 어렵지만 그것만으로 완성된 어짊이 되는 것은 아니다",
+      "reason": "완성된 어짊이 된다는 어색한 정의 풀기",
+      "revised": "나쁜 욕망을 억누르기는 어렵지만 그것만으로 어짊을 온전히 갖췄다고 할 수는 없다",
+      "revision_round": 2
     },
     {
-      "id": "ly-14-03",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 3,
+      "id": "ly-14-03",
       "original": "편안함이 삶의 최우선이 되면 옳은 일을 위해 감수해야 할 책임도 쉽게 놓치게 된다",
-      "revised": "편안함이 삶의 최우선이 되면 옳은 일을 위해 감수해야 할 책임도 쉽게 놓치게 된다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "편안함이 삶의 최우선이 되면 옳은 일을 위해 감수해야 할 책임도 쉽게 놓치게 된다",
+      "reason": "최우선과 감수해야 할 책임이라는 명사형 정리",
+      "revised": "편안하게 사는 일을 가장 앞세우면 옳은 일을 위해 져야 할 책임도 놓치기 쉽다",
+      "revision_round": 2
     },
     {
-      "id": "ly-14-04",
+      "changed": false,
       "chapter": 4,
+      "id": "ly-14-04",
       "original": "원칙을 지키되 위험한 시대엔 말도 신중히 조절할 수 있어야 한다",
-      "revised": "원칙을 지키되 위험한 시대엔 말도 신중히 조절할 수 있어야 한다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
+      "revised": "원칙을 지키되 위험한 시대엔 말도 신중히 조절할 수 있어야 한다"
     },
     {
-      "id": "ly-14-05",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 5,
+      "id": "ly-14-05",
       "original": "좋은 말과 큰 용기는 그 자체만으로 좋은 사람을 증명하지 못한다",
-      "revised": "좋은 말과 큰 용기는 그 자체만으로 좋은 사람임을 증명하지 못한다",
-      "changed": true,
-      "reason": "‘사람을 증명하다’를 ‘사람임을 증명하다’로 고쳤다."
+      "previous_revision": "좋은 말과 큰 용기는 그 자체만으로 좋은 사람임을 증명하지 못한다",
+      "reason": "말과 용기가 증명한다는 비인칭 서술 풀기",
+      "revised": "좋은 말을 하고 큰 용기를 보였다고 좋은 사람임이 증명되는 것은 아니다",
+      "revision_round": 2
     },
     {
-      "id": "ly-14-06",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 6,
+      "id": "ly-14-06",
       "original": "뛰어난 힘과 재주도 덕의 방향을 잃으면 좋은 삶을 보장하지 못한다",
-      "revised": "뛰어난 힘과 재주도 덕의 방향을 잃으면 좋은 삶을 보장하지 못한다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "뛰어난 힘과 재주도 덕의 방향을 잃으면 좋은 삶을 보장하지 못한다",
+      "reason": "덕의 방향을 잃는다는 비유 풀기",
+      "revised": "힘과 재주가 뛰어나도 덕을 향하지 않으면 좋은 삶을 보장받지 못한다",
+      "revision_round": 2
     },
     {
-      "id": "ly-14-07",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 7,
+      "id": "ly-14-07",
       "original": "군자도 흔들릴 수 있지만 중요한 것은 삶의 방향이 계속 어짊을 향하고 있는가이다",
-      "revised": "군자도 흔들릴 수 있지만 중요한 것은 삶의 방향이 계속 어짊을 향하고 있느냐다",
-      "changed": true,
-      "reason": "딱딱한 ‘있는가이다’의 말끝만 다듬었다."
+      "previous_revision": "군자도 흔들릴 수 있지만 중요한 것은 삶의 방향이 계속 어짊을 향하고 있느냐다",
+      "reason": "방향이 어짊을 향한다는 겹친 비유 풀기",
+      "revised": "군자도 흔들릴 수 있지만 중요한 것은 계속 어질게 살려고 하느냐다",
+      "revision_round": 2
     },
     {
-      "id": "ly-14-08",
+      "changed": false,
       "chapter": 8,
+      "id": "ly-14-08",
       "original": "참으로 아낀다면 힘든 일도 시키고 충실하다면 쓴소리도 한다",
-      "revised": "참으로 아낀다면 힘든 일도 시키고 충실하다면 쓴소리도 한다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
+      "revised": "참으로 아낀다면 힘든 일도 시키고 충실하다면 쓴소리도 한다"
     },
     {
-      "id": "ly-14-09",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 9,
+      "id": "ly-14-09",
       "original": "한 천재보다 역할 분담과 거듭된 협업이 좋은 결과를 낼 수 있다",
-      "revised": "천재 한 사람보다 역할 분담과 거듭된 협업이 좋은 결과를 낼 수 있다",
-      "changed": true,
-      "reason": "번역투인 ‘한 천재’의 어순을 다듬었다."
+      "previous_revision": "천재 한 사람보다 역할 분담과 거듭된 협업이 좋은 결과를 낼 수 있다",
+      "reason": "역할 분담과 협업이라는 명사형 나열 풀기",
+      "revised": "천재 한 사람이 하는 것보다 역할을 나누고 거듭 힘을 모으면 더 좋은 결과를 낼 수 있다",
+      "revision_round": 2
     },
     {
-      "id": "ly-14-10",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 10,
+      "id": "ly-14-10",
       "original": "좋은 정치는 강한 조치보다 상대도 납득할 공정한 결과로 평가한다",
-      "revised": "좋은 정치는 강한 조치보다 상대도 납득할 공정한 결과로 평가받는다",
-      "changed": true,
-      "reason": "평가 대상인 ‘정치’와 서술어의 호응을 맞췄다."
+      "previous_revision": "좋은 정치는 강한 조치보다 상대도 납득할 공정한 결과로 평가받는다",
+      "reason": "정치의 평가 대상을 대등한 절로 정리",
+      "revised": "정치를 잘했는지는 강한 조치를 취했느냐보다 상대도 납득할 만큼 공정한 결과를 냈느냐로 평가한다",
+      "revision_round": 2
     },
     {
-      "id": "ly-14-11",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 11,
+      "id": "ly-14-11",
       "original": "재산보다 어려운 형편에서 마음을 어떻게 지키는지가 더 큰 시험이다",
-      "revised": "재산보다 어려운 형편에서 마음을 어떻게 지키는지가 더 큰 시험이다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "재산보다 어려운 형편에서 마음을 어떻게 지키는지가 더 큰 시험이다",
+      "reason": "재산과 마음을 지키는지를 비교하는 비대칭 정리",
+      "revised": "재산을 얼마나 가졌는지보다 어려운 형편에서 마음을 어떻게 지키는지가 더 큰 시험이다",
+      "revision_round": 2
     },
     {
-      "id": "ly-14-12",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 12,
+      "id": "ly-14-12",
       "original": "좋은 사람이라고 모든 자리에 맞는 것은 아니며 인품과 직무 능력은 따로 봐야 한다",
-      "revised": "좋은 사람이라고 모든 자리에 맞는 것은 아니며 인품과 직무 능력은 따로 봐야 한다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "좋은 사람이라고 모든 자리에 맞는 것은 아니며 인품과 직무 능력은 따로 봐야 한다",
+      "reason": "직무 능력이라는 명사형 풀기",
+      "revised": "좋은 사람이라고 모든 자리에 맞지는 않으므로 인품과 일을 해낼 능력은 따로 봐야 한다",
+      "revision_round": 2
     },
     {
-      "id": "ly-14-13",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 13,
+      "id": "ly-14-13",
       "original": "완성된 사람은 이익 앞에서 옳음을 보고 위기에서 목숨을 건다",
-      "revised": "완성된 사람은 이익 앞에서 옳음을 보고 위기에서 목숨을 건다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "완성된 사람은 이익 앞에서 옳음을 보고 위기에서 목숨을 건다",
+      "reason": "완성된 사람과 옳음을 본다는 명사형 풀기",
+      "revised": "인격을 온전히 갖춘 사람은 이익 앞에서 무엇이 옳은지 살피고 위기에서는 목숨을 건다",
+      "revision_round": 2
     },
     {
-      "id": "ly-14-14",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 14,
+      "id": "ly-14-14",
       "original": "말과 행동을 아예 끊기보다 때에 맞게 조절하는 절제가 더 중요하다",
-      "revised": "말과 행동을 아예 끊기보다 때에 맞게 조절하는 절제가 더 중요하다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "말과 행동을 아예 끊기보다 때에 맞게 조절하는 절제가 더 중요하다",
+      "reason": "조절하는 절제라는 중복 표현 정리",
+      "revised": "말과 행동을 아예 끊기보다 때에 맞게 절제하는 것이 더 중요하다",
+      "revision_round": 2
     },
     {
-      "id": "ly-14-15",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 15,
+      "id": "ly-14-15",
       "original": "직접 협박하지 않았어도 거부하기 힘든 압박을 만들었다면 책임이 있다",
-      "revised": "직접 협박하지 않았어도 거부하기 힘든 압박을 만들었다면 책임이 있다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "직접 협박하지 않았어도 거부하기 힘든 압박을 만들었다면 책임이 있다",
+      "reason": "압박을 만든다는 직역투 정리",
+      "revised": "직접 협박하지 않았어도 거절하기 힘들 만큼 압박했다면 책임이 있다",
+      "revision_round": 2
     },
     {
-      "id": "ly-14-16",
+      "changed": false,
       "chapter": 16,
+      "id": "ly-14-16",
       "original": "같은 성공이라도 어떤 방법과 절차로 이루었는지는 따로 평가해야 한다",
-      "revised": "같은 성공이라도 어떤 방법과 절차로 이루었는지는 따로 평가해야 한다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
+      "revised": "같은 성공이라도 어떤 방법과 절차로 이루었는지는 따로 평가해야 한다"
     },
     {
-      "id": "ly-14-17",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 17,
+      "id": "ly-14-17",
       "original": "충절로 죽기보다 살아 많은 이를 이롭게 하는 책임이 더 클 수 있다",
-      "revised": "충절로 죽기보다 살아 많은 이를 이롭게 하는 책임이 더 클 수 있다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "충절로 죽기보다 살아 많은 이를 이롭게 하는 책임이 더 클 수 있다",
+      "reason": "충절로 죽는다는 조사와 책임 명사형 정리",
+      "revised": "충절을 지키려고 죽기보다 살아서 많은 사람을 이롭게 해야 할 책임이 더 클 수 있다",
+      "revision_round": 2
     },
     {
-      "id": "ly-14-18",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 18,
+      "id": "ly-14-18",
       "original": "작은 의리로 죽기보다 많은 이를 오래 이롭게 한 삶을 높이 평가한다",
-      "revised": "작은 의리로 죽기보다 많은 이를 오래 이롭게 한 삶을 높이 평가한다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "작은 의리로 죽기보다 많은 이를 오래 이롭게 한 삶을 높이 평가한다",
+      "reason": "의리로 죽는다는 어색한 조사 연결 정리",
+      "revised": "작은 의리를 지키려다 죽기보다 많은 사람을 오래 이롭게 한 삶을 높이 평가한다",
+      "revision_round": 2
     },
     {
-      "id": "ly-14-19",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 19,
+      "id": "ly-14-19",
       "original": "아랫사람도 능력을 인정해 함께 높은 자리에 세울 수 있어야 한다",
-      "revised": "아랫사람도 능력을 인정해 함께 높은 자리에 세울 수 있어야 한다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "아랫사람도 능력을 인정해 함께 높은 자리에 세울 수 있어야 한다",
+      "reason": "능력을 인정하는 대상과 세운다는 동작 연결 정리",
+      "revised": "아랫사람의 능력도 인정하고 함께 높은 자리에 세울 수 있어야 한다",
+      "revision_round": 2
     },
     {
-      "id": "ly-14-20",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 20,
+      "id": "ly-14-20",
       "original": "지도자가 부족해도 각 분야 인재들이 제 역할을 하면 무너지지 않는다",
-      "revised": "지도자가 부족해도 각 분야 인재들이 제 역할을 하면 무너지지 않는다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "지도자가 부족해도 각 분야 인재들이 제 역할을 하면 무너지지 않는다",
+      "reason": "각 분야 인재들이라는 압축된 수식 정리",
+      "revised": "지도자가 부족해도 분야마다 인재가 제 역할을 하면 무너지지 않는다",
+      "revision_round": 2
     },
     {
-      "id": "ly-14-21",
+      "changed": false,
       "chapter": 21,
+      "id": "ly-14-21",
       "original": "큰말을 쉽게 할수록 실제 행동이 그 말을 따라가기 어려워진다",
-      "revised": "큰말을 쉽게 할수록 실제 행동이 그 말을 따라가기 어려워진다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
+      "revised": "큰말을 쉽게 할수록 실제 행동이 그 말을 따라가기 어려워진다"
     },
     {
-      "id": "ly-14-22",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 22,
+      "id": "ly-14-22",
       "original": "결과가 받아들여지지 않아도 마땅히 보고하고 문제를 제기해야 할 책임은 남는다",
-      "revised": "결과가 받아들여지지 않아도 마땅히 보고하고 문제를 제기해야 할 책임은 남는다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "결과가 받아들여지지 않아도 마땅히 보고하고 문제를 제기해야 할 책임은 남는다",
+      "reason": "결과가 받아들여진다는 어색한 연결 정리",
+      "revised": "결과를 받아 주지 않더라도 마땅히 보고하고 문제를 제기할 책임은 남는다",
+      "revision_round": 2
     },
     {
-      "id": "ly-14-23",
+      "changed": false,
       "chapter": 23,
+      "id": "ly-14-23",
       "original": "충성은 비위 맞추기가 아니라 필요하면 불편한 진실도 말하는 일이다",
-      "revised": "충성은 비위 맞추기가 아니라 필요하면 불편한 진실도 말하는 일이다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
+      "revised": "충성은 비위 맞추기가 아니라 필요하면 불편한 진실도 말하는 일이다"
     },
     {
-      "id": "ly-14-24",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 24,
+      "id": "ly-14-24",
       "original": "같이 배우고 살아도 무엇을 향해 밝아지느냐에 따라 사람의 방향은 달라진다",
-      "revised": "같이 배우고 살아도 무엇을 향해 밝아지느냐에 따라 사람의 방향은 달라진다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "같이 배우고 살아도 무엇을 향해 밝아지느냐에 따라 사람의 방향은 달라진다",
+      "reason": "무엇을 향해 밝아진다는 중첩 비유 풀기",
+      "revised": "함께 배우고 살아도 무엇에 더 밝아지느냐에 따라 삶의 방향은 달라진다",
+      "revision_round": 2
     },
     {
-      "id": "ly-14-25",
+      "changed": false,
       "chapter": 25,
+      "id": "ly-14-25",
       "original": "남에게 보이기 위한 공부보다 나 자신을 실제로 바꾸는 공부가 먼저다",
-      "revised": "남에게 보이기 위한 공부보다 나 자신을 실제로 바꾸는 공부가 먼저다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
+      "revised": "남에게 보이기 위한 공부보다 나 자신을 실제로 바꾸는 공부가 먼저다"
     },
     {
-      "id": "ly-14-26",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 26,
+      "id": "ly-14-26",
       "original": "좋은 전달자는 주인을 과장해 칭찬하지 않고 핵심을 정확하고 품위 있게 전한다",
-      "revised": "좋은 전달자는 주인을 과장해 칭찬하지 않고 핵심을 정확하고 품위 있게 전한다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "좋은 전달자는 주인을 과장해 칭찬하지 않고 핵심을 정확하고 품위 있게 전한다",
+      "reason": "좋은 전달자라는 직역투 명사 풀기",
+      "revised": "말을 잘 전하는 사람은 주인을 과장해 칭찬하지 않고 핵심을 정확하고 품위 있게 전달한다",
+      "revision_round": 2
     },
     {
-      "id": "ly-14-27",
+      "changed": false,
       "chapter": 27,
+      "id": "ly-14-27",
       "original": "책임지지 않는 자리의 일을 함부로 결정하려 들지 않는다",
-      "revised": "책임지지 않는 자리의 일을 함부로 결정하려 들지 않는다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
+      "revised": "책임지지 않는 자리의 일을 함부로 결정하려 들지 않는다"
     },
     {
-      "id": "ly-14-28",
+      "changed": false,
       "chapter": 28,
+      "id": "ly-14-28",
       "original": "남의 일을 헤아리기 전에 먼저 내가 맡은 자리의 책임을 충분히 생각한다",
-      "revised": "남의 일을 헤아리기 전에 먼저 내가 맡은 자리의 책임을 충분히 생각한다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
+      "revised": "남의 일을 헤아리기 전에 먼저 내가 맡은 자리의 책임을 충분히 생각한다"
     },
     {
-      "id": "ly-14-29",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 29,
+      "id": "ly-14-29",
       "original": "말이 행동보다 앞서 커지는 순간을 스스로 부끄러워할 줄 알아야 한다",
-      "revised": "말이 행동보다 앞서 커지는 순간을 스스로 부끄러워할 줄 알아야 한다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "말이 행동보다 앞서 커지는 순간을 스스로 부끄러워할 줄 알아야 한다",
+      "reason": "말이 앞서 커지는 순간이라는 복합 비유 정리",
+      "revised": "말이 행동보다 앞서 커질 때는 스스로 부끄러워할 줄 알아야 한다",
+      "revision_round": 2
     },
     {
-      "id": "ly-14-30",
+      "changed": false,
       "chapter": 30,
+      "id": "ly-14-30",
       "original": "어진 마음과 지혜와 용기가 함께해야 삶이 한쪽으로 치우치지 않는다",
-      "revised": "어진 마음과 지혜와 용기가 함께해야 삶이 한쪽으로 치우치지 않는다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
+      "revised": "어진 마음과 지혜와 용기가 함께해야 삶이 한쪽으로 치우치지 않는다"
     },
     {
-      "id": "ly-14-31",
+      "changed": true,
       "chapter": 31,
+      "id": "ly-14-31",
       "original": "남의 장단점을 재는 데 쓰는 시간보다 내 부족함을 고치는 시간이 더 급하다",
-      "revised": "남의 장단점을 재는 데 시간을 쓰기보다 내 부족함을 고치는 일이 더 급하다",
-      "changed": true,
-      "reason": "‘시간이 급하다’의 어색한 호응을 고치고 비교 대상을 유지했다."
+      "reason": "‘시간이 급하다’의 어색한 호응을 고치고 비교 대상을 유지했다.",
+      "revised": "남의 장단점을 재는 데 시간을 쓰기보다 내 부족함을 고치는 일이 더 급하다"
     },
     {
-      "id": "ly-14-32",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 32,
+      "id": "ly-14-32",
       "original": "남이 몰라주는 것보다 알아줄 만한 능력과 덕이 없음을 더 걱정한다",
-      "revised": "남이 몰라주는 것보다 알아줄 만한 능력과 덕이 없음을 더 걱정한다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "남이 몰라주는 것보다 알아줄 만한 능력과 덕이 없음을 더 걱정한다",
+      "reason": "알아줄 만한 덕이 없다는 주체와 명사형 정리",
+      "revised": "남이 몰라주는 일보다 남이 알아줄 만한 능력과 덕이 자신에게 없는 것을 더 걱정한다",
+      "revision_round": 2
     },
     {
-      "id": "ly-14-33",
+      "changed": false,
       "chapter": 33,
+      "id": "ly-14-33",
       "original": "사람을 미리 의심하지 않되 실제 거짓은 빨리 알아볼 수 있어야 한다",
-      "revised": "사람을 미리 의심하지 않되 실제 거짓은 빨리 알아볼 수 있어야 한다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
+      "revised": "사람을 미리 의심하지 않되 실제 거짓은 빨리 알아볼 수 있어야 한다"
     },
     {
-      "id": "ly-14-34",
-      "chapter": 34,
-      "original": "세상이 굳어 있다고 포기하지 않고 사람을 설득하며 바꿀 가능성을 끝까지 찾는다",
-      "revised": "세상이 굳어 있다고 포기하지 않고 사람을 설득하며 바꿀 가능성을 끝까지 찾는다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
-    },
-    {
-      "id": "ly-14-35",
-      "chapter": 35,
-      "original": "눈에 띄는 재능보다 그 능력을 오래 믿고 맡길 수 있게 하는 사람됨이 더 중요하다",
-      "revised": "눈에 띄는 재능보다 그 능력을 오래 믿고 맡길 수 있게 하는 사람됨이 더 중요하다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
-    },
-    {
-      "id": "ly-14-36",
-      "chapter": 36,
-      "original": "잘못에는 공정함으로 갚고 베풂에는 베풂으로 갚는다",
-      "revised": "잘못에는 공정함으로 갚고 베풂에는 베풂으로 갚는다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
-    },
-    {
-      "id": "ly-14-37",
-      "chapter": 37,
-      "original": "하늘도 남도 탓하지 않고 낮은 데서 배워 높은 데로 오른다",
-      "revised": "하늘도 남도 탓하지 않고 낮은 데서 배워 높은 데로 오른다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
-    },
-    {
-      "id": "ly-14-38",
-      "chapter": 38,
-      "original": "해야 할 일은 하되 결과까지 내 힘으로 모두 통제할 수 있다고 생각하지 않는다",
-      "revised": "해야 할 일은 하되 결과까지 내 힘으로 모두 통제할 수 있다고 생각하지 않는다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
-    },
-    {
-      "id": "ly-14-39",
-      "chapter": 39,
-      "original": "정치를 떠나야 할 때도 세상 전체와 나라와 기색과 말의 위험을 단계적으로 살핀다",
-      "revised": "정치를 떠나야 할 때도 세상 전체와 나라와 기색과 말의 위험을 단계적으로 살핀다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
-    },
-    {
-      "id": "ly-14-40",
-      "chapter": 40,
-      "original": "세상을 피해 살았다는 일곱 사람의 이름은 전해지지 않아 확정할 수 없다",
-      "revised": "세상을 피해 살았다는 일곱 사람의 이름은 전해지지 않아 확정할 수 없다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
-    },
-    {
-      "id": "ly-14-41",
-      "chapter": 41,
-      "original": "성공하기 어렵다는 것을 알아도 마땅히 해야 할 일이라면 포기하지 않는다",
-      "revised": "성공하기 어렵다는 것을 알아도 마땅히 해야 할 일이라면 포기하지 않는다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
-    },
-    {
-      "id": "ly-14-42",
-      "chapter": 42,
-      "original": "물러나는 지혜와 끝까지 뜻을 놓지 않는 책임은 서로 다른 선택이다",
-      "revised": "물러나는 지혜와 끝까지 뜻을 놓지 않는 책임은 서로 다른 선택이다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
-    },
-    {
-      "id": "ly-14-43",
-      "chapter": 43,
-      "original": "임금 자리가 비어도 각자가 자기 일을 책임지면 국가는 계속 움직인다",
-      "revised": "임금 자리가 비어도 각자가 자기 일을 책임지면 국가는 계속 움직인다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
-    },
-    {
-      "id": "ly-14-44",
-      "chapter": 44,
-      "original": "사람을 움직이려면 명령하기 전에 위에서 먼저 존중과 질서를 지켜야 한다",
-      "revised": "사람을 움직이려면 명령하기 전에 위에서 먼저 존중과 질서를 지켜야 한다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
-    },
-    {
-      "id": "ly-14-45",
-      "chapter": 45,
-      "original": "자기 수양은 자신을 넘어 사람을 편안하게 하고 백성의 삶까지 향한다",
-      "revised": "자기 수양은 자신을 넘어 사람을 편안하게 하고 백성의 삶에까지 미친다",
+      "approval_status": "approved",
       "changed": true,
-      "reason": "‘삶까지 향한다’를 자연스러운 조사와 서술어로 다듬었다."
+      "chapter": 34,
+      "id": "ly-14-34",
+      "original": "세상이 굳어 있다고 포기하지 않고 사람을 설득하며 바꿀 가능성을 끝까지 찾는다",
+      "previous_revision": "세상이 굳어 있다고 포기하지 않고 사람을 설득하며 바꿀 가능성을 끝까지 찾는다",
+      "reason": "바꿀 가능성을 찾는다는 추상적인 표현 정리",
+      "revised": "세상이 굳어 있다고 포기하지 않고 사람을 설득하며 끝까지 바꿀 길을 찾는다",
+      "revision_round": 2
     },
     {
-      "id": "ly-14-46",
+      "approval_status": "approved",
+      "changed": true,
+      "chapter": 35,
+      "id": "ly-14-35",
+      "original": "눈에 띄는 재능보다 그 능력을 오래 믿고 맡길 수 있게 하는 사람됨이 더 중요하다",
+      "previous_revision": "눈에 띄는 재능보다 그 능력을 오래 믿고 맡길 수 있게 하는 사람됨이 더 중요하다",
+      "reason": "능력을 맡길 수 있게 한다는 어색한 결합 정리",
+      "revised": "눈에 띄는 재능보다 그 재능을 믿고 오래 일을 맡길 수 있는 사람됨이 더 중요하다",
+      "revision_round": 2
+    },
+    {
+      "approval_status": "approved",
+      "changed": true,
+      "chapter": 36,
+      "id": "ly-14-36",
+      "original": "잘못에는 공정함으로 갚고 베풂에는 베풂으로 갚는다",
+      "previous_revision": "잘못에는 공정함으로 갚고 베풂에는 베풂으로 갚는다",
+      "reason": "잘못을 공정함으로 갚는다는 직역투와 명사형 풀기",
+      "revised": "잘못은 공정하게 대하고 남이 베푼 일에는 나도 베풀어 갚는다",
+      "revision_round": 2
+    },
+    {
+      "changed": false,
+      "chapter": 37,
+      "id": "ly-14-37",
+      "original": "하늘도 남도 탓하지 않고 낮은 데서 배워 높은 데로 오른다",
+      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
+      "revised": "하늘도 남도 탓하지 않고 낮은 데서 배워 높은 데로 오른다"
+    },
+    {
+      "changed": false,
+      "chapter": 38,
+      "id": "ly-14-38",
+      "original": "해야 할 일은 하되 결과까지 내 힘으로 모두 통제할 수 있다고 생각하지 않는다",
+      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
+      "revised": "해야 할 일은 하되 결과까지 내 힘으로 모두 통제할 수 있다고 생각하지 않는다"
+    },
+    {
+      "approval_status": "approved",
+      "changed": true,
+      "chapter": 39,
+      "id": "ly-14-39",
+      "original": "정치를 떠나야 할 때도 세상 전체와 나라와 기색과 말의 위험을 단계적으로 살핀다",
+      "previous_revision": "정치를 떠나야 할 때도 세상 전체와 나라와 기색과 말의 위험을 단계적으로 살핀다",
+      "reason": "세계·나라·기색·위험의 비대칭 나열 정리",
+      "revised": "정치를 떠나야 할 때도 세상과 나라의 형편, 기색과 말에 담긴 위험을 차례로 살핀다",
+      "revision_round": 2
+    },
+    {
+      "changed": false,
+      "chapter": 40,
+      "id": "ly-14-40",
+      "original": "세상을 피해 살았다는 일곱 사람의 이름은 전해지지 않아 확정할 수 없다",
+      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
+      "revised": "세상을 피해 살았다는 일곱 사람의 이름은 전해지지 않아 확정할 수 없다"
+    },
+    {
+      "changed": false,
+      "chapter": 41,
+      "id": "ly-14-41",
+      "original": "성공하기 어렵다는 것을 알아도 마땅히 해야 할 일이라면 포기하지 않는다",
+      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
+      "revised": "성공하기 어렵다는 것을 알아도 마땅히 해야 할 일이라면 포기하지 않는다"
+    },
+    {
+      "changed": false,
+      "chapter": 42,
+      "id": "ly-14-42",
+      "original": "물러나는 지혜와 끝까지 뜻을 놓지 않는 책임은 서로 다른 선택이다",
+      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
+      "revised": "물러나는 지혜와 끝까지 뜻을 놓지 않는 책임은 서로 다른 선택이다"
+    },
+    {
+      "approval_status": "approved",
+      "changed": true,
+      "chapter": 43,
+      "id": "ly-14-43",
+      "original": "임금 자리가 비어도 각자가 자기 일을 책임지면 국가는 계속 움직인다",
+      "previous_revision": "임금 자리가 비어도 각자가 자기 일을 책임지면 국가는 계속 움직인다",
+      "reason": "국가가 움직인다는 표현을 일상적인 말로 정리",
+      "revised": "임금 자리가 비어도 각자 맡은 일을 책임지면 나라는 계속 돌아간다",
+      "revision_round": 2
+    },
+    {
+      "approval_status": "approved",
+      "changed": true,
+      "chapter": 44,
+      "id": "ly-14-44",
+      "original": "사람을 움직이려면 명령하기 전에 위에서 먼저 존중과 질서를 지켜야 한다",
+      "previous_revision": "사람을 움직이려면 명령하기 전에 위에서 먼저 존중과 질서를 지켜야 한다",
+      "reason": "위에서라는 모호한 주체와 움직인다는 비유 정리",
+      "revised": "사람을 따르게 하려면 명령하기 전에 윗사람부터 존중과 질서를 지켜야 한다",
+      "revision_round": 2
+    },
+    {
+      "approval_status": "approved",
+      "changed": true,
+      "chapter": 45,
+      "id": "ly-14-45",
+      "original": "자기 수양은 자신을 넘어 사람을 편안하게 하고 백성의 삶까지 향한다",
+      "previous_revision": "자기 수양은 자신을 넘어 사람을 편안하게 하고 백성의 삶에까지 미친다",
+      "reason": "자기 수양의 추상적 주어와 향한다는 비유 풀기",
+      "revised": "자신을 닦는 일은 자신에게서 그치지 않고 다른 사람을 편안하게 하며 백성의 삶에까지 미친다",
+      "revision_round": 2
+    },
+    {
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 46,
+      "id": "ly-14-46",
       "original": "오랜 친구라도 기본적인 예를 잃으면 친하다는 이유로 그냥 넘기지 않는다",
-      "revised": "오랜 친구라도 기본적인 예를 잃으면 친하다는 이유로 그냥 넘기지 않는다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "오랜 친구라도 기본적인 예를 잃으면 친하다는 이유로 그냥 넘기지 않는다",
+      "reason": "예를 잃는다는 결합을 동작으로 풀기",
+      "revised": "오랜 친구라도 기본적인 예를 지키지 않으면 친하다는 이유로 그냥 넘기지 않는다",
+      "revision_round": 2
     },
     {
-      "id": "ly-14-47",
-      "chapter": 47,
-      "original": "빨리 이루려는 마음은 제대로 배우려는 마음과 다르다",
-      "revised": "빨리 이루려는 마음은 제대로 배우려는 마음과 다르다",
       "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "chapter": 47,
+      "id": "ly-14-47",
+      "original": "빨리 이루려는 마음은 제대로 배우려는 마음과 다르다",
+      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
+      "revised": "빨리 이루려는 마음은 제대로 배우려는 마음과 다르다"
     }
   ],
-  "self_review": {
-    "reviewed": 47,
-    "changed": 6,
-    "unchanged": 41,
-    "content_review_performed": false,
+  "previous_self_review": {
     "assessment": "47개 중 6개를 수정했다. 번역투 어순과 호응을 고쳤고, 드러내는 주장과 가능성 표현은 보존했다. 긴 문장도 줄이는 것 자체를 목표로 삼지 않았다.",
     "carry_forward_to_next_book": "긴 문장은 길다는 이유만으로 줄이지 않는다. ‘그 자체만으로’, ‘계속’, ‘수 있다’ 등 한정 표현을 보존한다.",
+    "changed": 6,
+    "content_review_performed": false,
     "held_for_meaning_preservation": [
       "24장 ‘무엇을 향해 밝아지느냐’, 39장 ‘기색과 말의 위험’은 새 풀이를 덧붙이지 않고 보존."
     ],
-    "reviewer": "이 대화의 작성자 자체 평가; 외부 독립 검수 아님"
+    "reviewed": 47,
+    "reviewer": "이 대화의 작성자 자체 평가; 외부 독립 검수 아님",
+    "unchanged": 41
+  },
+  "schema_version": "2.0",
+  "scope": "이 장의 핵심",
+  "self_review": {
+    "assessment": "사용자가 승인한 2차 제안을 그대로 수정본에 반영. 이번 반영 과정에서 새 문체 변경은 하지 않음.",
+    "changed": 31,
+    "content_review_performed": false,
+    "reviewed": 47,
+    "round_2_approved_applied": 30,
+    "unchanged": 16
+  },
+  "source": {
+    "blob_sha": "1d5c9f60733d7c923dbcea667ed7b3893c8fdad1",
+    "branch": "트랙/뉴코퍼스",
+    "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+    "identity": "article.card의 id 그대로 사용",
+    "path": "1차완성본/쉬운설명카드/14-헌문.html",
+    "repository": "hermes-blue/analects",
+    "selector": "article.card > .big > p.hx"
   }
 }
