@@ -1,201 +1,936 @@
 {
-  "schema_version": "1.0",
-  "scope": "이 장의 핵심",
-  "status": "completed",
-  "reviewed": 498,
-  "changed": 69,
-  "unchanged": 429,
+  "apply_status": "별도 JSON 업로드 완료. 원본 HTML에는 적용하지 않음.",
+  "book_count": 20,
+  "card_count": 498,
   "content_review_performed": false,
+  "destination_branch": "main",
+  "destination_repository": "hermes-blue/analects-qa",
+  "folder": "쉬운설명카드-문체다듬기",
+  "next_passes": [],
+  "remaining_sections_checks": {
+    "book_count": 20,
+    "books": [
+      {
+        "book_number": 1,
+        "cards": 16,
+        "edited_fields": 12,
+        "id_order_preserved": true,
+        "labels_match": true,
+        "preview_only_selected_text_changes": true,
+        "source_originals_match": true,
+        "text_fields": 210
+      },
+      {
+        "book_number": 2,
+        "cards": 24,
+        "edited_fields": 9,
+        "id_order_preserved": true,
+        "labels_match": true,
+        "preview_only_selected_text_changes": true,
+        "source_originals_match": true,
+        "text_fields": 307
+      },
+      {
+        "book_number": 3,
+        "cards": 26,
+        "edited_fields": 7,
+        "id_order_preserved": true,
+        "labels_match": true,
+        "preview_only_selected_text_changes": true,
+        "source_originals_match": true,
+        "text_fields": 330
+      },
+      {
+        "book_number": 4,
+        "cards": 26,
+        "edited_fields": 8,
+        "id_order_preserved": true,
+        "labels_match": true,
+        "preview_only_selected_text_changes": true,
+        "source_originals_match": true,
+        "text_fields": 327
+      },
+      {
+        "book_number": 5,
+        "cards": 27,
+        "edited_fields": 10,
+        "id_order_preserved": true,
+        "labels_match": true,
+        "preview_only_selected_text_changes": true,
+        "source_originals_match": true,
+        "text_fields": 356
+      },
+      {
+        "book_number": 6,
+        "cards": 28,
+        "edited_fields": 4,
+        "id_order_preserved": true,
+        "labels_match": true,
+        "preview_only_selected_text_changes": true,
+        "source_originals_match": true,
+        "text_fields": 363
+      },
+      {
+        "book_number": 7,
+        "cards": 37,
+        "edited_fields": 10,
+        "id_order_preserved": true,
+        "labels_match": true,
+        "preview_only_selected_text_changes": true,
+        "source_originals_match": true,
+        "text_fields": 478
+      },
+      {
+        "book_number": 8,
+        "cards": 21,
+        "edited_fields": 3,
+        "id_order_preserved": true,
+        "labels_match": true,
+        "preview_only_selected_text_changes": true,
+        "source_originals_match": true,
+        "text_fields": 266
+      },
+      {
+        "book_number": 9,
+        "cards": 30,
+        "edited_fields": 6,
+        "id_order_preserved": true,
+        "labels_match": true,
+        "preview_only_selected_text_changes": true,
+        "source_originals_match": true,
+        "text_fields": 392
+      },
+      {
+        "book_number": 10,
+        "cards": 17,
+        "edited_fields": 6,
+        "id_order_preserved": true,
+        "labels_match": true,
+        "preview_only_selected_text_changes": true,
+        "source_originals_match": true,
+        "text_fields": 318
+      },
+      {
+        "book_number": 11,
+        "cards": 25,
+        "edited_fields": 4,
+        "id_order_preserved": true,
+        "labels_match": true,
+        "preview_only_selected_text_changes": true,
+        "source_originals_match": true,
+        "text_fields": 321
+      },
+      {
+        "book_number": 12,
+        "cards": 24,
+        "edited_fields": 4,
+        "id_order_preserved": true,
+        "labels_match": true,
+        "preview_only_selected_text_changes": true,
+        "source_originals_match": true,
+        "text_fields": 301
+      },
+      {
+        "book_number": 13,
+        "cards": 30,
+        "edited_fields": 9,
+        "id_order_preserved": true,
+        "labels_match": true,
+        "preview_only_selected_text_changes": true,
+        "source_originals_match": true,
+        "text_fields": 369
+      },
+      {
+        "book_number": 14,
+        "cards": 47,
+        "edited_fields": 5,
+        "id_order_preserved": true,
+        "labels_match": true,
+        "preview_only_selected_text_changes": true,
+        "source_originals_match": true,
+        "text_fields": 576
+      },
+      {
+        "book_number": 15,
+        "cards": 41,
+        "edited_fields": 9,
+        "id_order_preserved": true,
+        "labels_match": true,
+        "preview_only_selected_text_changes": true,
+        "source_originals_match": true,
+        "text_fields": 503
+      },
+      {
+        "book_number": 16,
+        "cards": 14,
+        "edited_fields": 1,
+        "id_order_preserved": true,
+        "labels_match": true,
+        "preview_only_selected_text_changes": true,
+        "source_originals_match": true,
+        "text_fields": 182
+      },
+      {
+        "book_number": 17,
+        "cards": 26,
+        "edited_fields": 5,
+        "id_order_preserved": true,
+        "labels_match": true,
+        "preview_only_selected_text_changes": true,
+        "source_originals_match": true,
+        "text_fields": 327
+      },
+      {
+        "book_number": 18,
+        "cards": 11,
+        "edited_fields": 3,
+        "id_order_preserved": true,
+        "labels_match": true,
+        "preview_only_selected_text_changes": true,
+        "source_originals_match": true,
+        "text_fields": 142
+      },
+      {
+        "book_number": 19,
+        "cards": 25,
+        "edited_fields": 8,
+        "id_order_preserved": true,
+        "labels_match": true,
+        "preview_only_selected_text_changes": true,
+        "source_originals_match": true,
+        "text_fields": 314
+      },
+      {
+        "book_number": 20,
+        "cards": 3,
+        "edited_fields": 1,
+        "id_order_preserved": true,
+        "labels_match": true,
+        "preview_only_selected_text_changes": true,
+        "source_originals_match": true,
+        "text_fields": 41
+      }
+    ],
+    "cards": 498,
+    "content_review_performed": false,
+    "edited_fields": 124,
+    "protected_han_characters_numbers_quotations_preserved": true,
+    "remote_book_files": 60,
+    "remote_book_json_roundtrip_match": true,
+    "text_fields": 6423
+  },
+  "schema_version": "1.1",
+  "scope": "이 장의 핵심 → 한자 풀이 → 의문 → 쟁점",
+  "source_branch": "트랙/뉴코퍼스",
   "source_commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
   "source_repository": "hermes-blue/analects",
-  "source_branch": "트랙/뉴코퍼스",
-  "destination_repository": "hermes-blue/analects-qa",
-  "destination_branch": "main",
-  "folder": "쉬운설명카드-문체다듬기",
-  "apply_status": "별도 JSON 업로드 완료. 원본 HTML에는 적용하지 않음.",
-  "checks": {
-    "unique_ids": 498,
-    "book_count": 20,
-    "source_originals_match": true,
-    "id_order_preserved": true,
-    "core_only_preview": true,
-    "remote_book_json_roundtrip_match": true
-  },
-  "books": [
+  "stages": [
     {
-      "book": "학이",
-      "reviewed": 16,
-      "changed": 2,
-      "source_match": true,
-      "id_order_match": true,
-      "preview_other_html_unchanged": true
+      "books": [
+        {
+          "book": "학이",
+          "changed": 2,
+          "id_order_match": true,
+          "preview_other_html_unchanged": true,
+          "reviewed": 16,
+          "source_match": true
+        },
+        {
+          "book": "위정",
+          "changed": 4,
+          "id_order_match": true,
+          "preview_other_html_unchanged": true,
+          "reviewed": 24,
+          "source_match": true
+        },
+        {
+          "book": "팔일",
+          "changed": 4,
+          "id_order_match": true,
+          "preview_other_html_unchanged": true,
+          "reviewed": 26,
+          "source_match": true
+        },
+        {
+          "book": "이인",
+          "changed": 4,
+          "id_order_match": true,
+          "preview_other_html_unchanged": true,
+          "reviewed": 26,
+          "source_match": true
+        },
+        {
+          "book": "공야장",
+          "changed": 4,
+          "id_order_match": true,
+          "preview_other_html_unchanged": true,
+          "reviewed": 27,
+          "source_match": true
+        },
+        {
+          "book": "옹야",
+          "changed": 3,
+          "id_order_match": true,
+          "preview_other_html_unchanged": true,
+          "reviewed": 28,
+          "source_match": true
+        },
+        {
+          "book": "술이",
+          "changed": 5,
+          "id_order_match": true,
+          "preview_other_html_unchanged": true,
+          "reviewed": 37,
+          "source_match": true
+        },
+        {
+          "book": "태백",
+          "changed": 4,
+          "id_order_match": true,
+          "preview_other_html_unchanged": true,
+          "reviewed": 21,
+          "source_match": true
+        },
+        {
+          "book": "자한",
+          "changed": 3,
+          "id_order_match": true,
+          "preview_other_html_unchanged": true,
+          "reviewed": 30,
+          "source_match": true
+        },
+        {
+          "book": "향당",
+          "changed": 2,
+          "id_order_match": true,
+          "preview_other_html_unchanged": true,
+          "reviewed": 17,
+          "source_match": true
+        },
+        {
+          "book": "선진",
+          "changed": 4,
+          "id_order_match": true,
+          "preview_other_html_unchanged": true,
+          "reviewed": 25,
+          "source_match": true
+        },
+        {
+          "book": "안연",
+          "changed": 4,
+          "id_order_match": true,
+          "preview_other_html_unchanged": true,
+          "reviewed": 24,
+          "source_match": true
+        },
+        {
+          "book": "자로",
+          "changed": 2,
+          "id_order_match": true,
+          "preview_other_html_unchanged": true,
+          "reviewed": 30,
+          "source_match": true
+        },
+        {
+          "book": "헌문",
+          "changed": 6,
+          "id_order_match": true,
+          "preview_other_html_unchanged": true,
+          "reviewed": 47,
+          "source_match": true
+        },
+        {
+          "book": "위령공",
+          "changed": 6,
+          "id_order_match": true,
+          "preview_other_html_unchanged": true,
+          "reviewed": 41,
+          "source_match": true
+        },
+        {
+          "book": "계씨",
+          "changed": 5,
+          "id_order_match": true,
+          "preview_other_html_unchanged": true,
+          "reviewed": 14,
+          "source_match": true
+        },
+        {
+          "book": "양화",
+          "changed": 2,
+          "id_order_match": true,
+          "preview_other_html_unchanged": true,
+          "reviewed": 26,
+          "source_match": true
+        },
+        {
+          "book": "미자",
+          "changed": 1,
+          "id_order_match": true,
+          "preview_other_html_unchanged": true,
+          "reviewed": 11,
+          "source_match": true
+        },
+        {
+          "book": "자장",
+          "changed": 3,
+          "id_order_match": true,
+          "preview_other_html_unchanged": true,
+          "reviewed": 25,
+          "source_match": true
+        },
+        {
+          "book": "요왈",
+          "changed": 1,
+          "id_order_match": true,
+          "preview_other_html_unchanged": true,
+          "reviewed": 3,
+          "source_match": true
+        }
+      ],
+      "changed": 69,
+      "checks": {
+        "book_count": 20,
+        "core_only_preview": true,
+        "id_order_preserved": true,
+        "remote_book_json_roundtrip_match": true,
+        "source_originals_match": true,
+        "unique_ids": 498
+      },
+      "reviewed": 498,
+      "scope": "이 장의 핵심",
+      "status": "completed",
+      "unchanged": 429
     },
     {
-      "book": "위정",
-      "reviewed": 24,
-      "changed": 4,
-      "source_match": true,
-      "id_order_match": true,
-      "preview_other_html_unchanged": true
+      "book_count": 20,
+      "changed": 55,
+      "labels_preserved": true,
+      "method": "전 항목에서 문체 패턴으로 후보를 찾아 후보 문장의 문맥을 확인하는 선별 교정.",
+      "name": "한자풀이",
+      "order_preserved": true,
+      "originals_match_records": true,
+      "scope": "語",
+      "self_reviews": [
+        {
+          "assessment": "학이편 한자 풀이를 읽어 후보를 정했다. ‘친구 일반’, ‘정사의 일’, ‘반성 대상으로 삼다’ 등 표현만 다듬었다. ‘구조를 만든다’도 구체적으로 풀려면 의미 판단이 필요한 경우는 보존했다.",
+          "book_number": 1,
+          "content_review_performed": false,
+          "edited_text_fields": 10,
+          "next_book_rule": "보여준다 일괄 삭제 금지. 특히 명사끼리 겹치거나 주어·서술어가 어긋난 문장을 선별한다.",
+          "scanned_text_fields": 74
+        },
+        {
+          "assessment": "‘이해가 없는 장면’, ‘신뢰의 축적’처럼 명사 결합이 어색한 표현을 풀었다. ‘공경’, ‘효’의 정의와 해석은 그대로 두었다.",
+          "book_number": 2,
+          "content_review_performed": false,
+          "edited_text_fields": 4,
+          "next_book_rule": "어려운 말 자체보다 어색한 결합을 우선한다. 학설의 차이·정도·부정 표현은 보존한다.",
+          "scanned_text_fields": 113
+        },
+        {
+          "assessment": "개념어와 학설은 보존하고 ‘음악 일반’, ‘연주가 시작해’만 쉬운 문장으로 정리했다.",
+          "book_number": 3,
+          "content_review_performed": false,
+          "edited_text_fields": 2,
+          "next_book_rule": "어려운 말 자체보다 어색한 결합을 우선한다. 학설의 차이·정도·부정 표현은 보존한다.",
+          "scanned_text_fields": 120
+        },
+        {
+          "assessment": "‘동기의 층위’와 부자연스러운 비유만 풀었다. 이해가 되더라도 추상어가 많다는 이유로 문장 전체를 다시 쓰지는 않았다.",
+          "book_number": 4,
+          "content_review_performed": false,
+          "edited_text_fields": 3,
+          "next_book_rule": "어려운 말 자체보다 어색한 결합을 우선한다. 학설의 차이·정도·부정 표현은 보존한다.",
+          "scanned_text_fields": 115
+        },
+        {
+          "assessment": "‘내적 굳셈’, ‘표면적 매끄러움’ 등 직역식 명사 표현을 다듬었다. 인물의 행동·감정에 새 설명은 보태지 않았다.",
+          "book_number": 5,
+          "content_review_performed": false,
+          "edited_text_fields": 6,
+          "next_book_rule": "어려운 말 자체보다 어색한 결합을 우선한다. 학설의 차이·정도·부정 표현은 보존한다.",
+          "scanned_text_fields": 134
+        },
+        {
+          "assessment": "‘장면을 구체화’, ‘알맞음을 구현’처럼 명사 중심 표현을 풀었다. 仁·道·중용 등의 개념어와 설명은 유지했다. 최종 대조에서 주체를 한쪽으로 좁힐 수 있는 지식 관련 교정 1건은 취소.",
+          "book_number": 6,
+          "content_review_performed": false,
+          "edited_text_fields": 3,
+          "next_book_rule": "문체 개선이 분명하지 않으면 원문 보존. 전문 개념·해석 차이·숫자·인명은 수정하지 않는다.",
+          "scanned_text_fields": 137
+        },
+        {
+          "assessment": "수정은 문장 일부에 한정했다. ‘체면 손상보다’의 비교 강도를 그대로 두고 풀어 썼다.",
+          "book_number": 7,
+          "content_review_performed": false,
+          "edited_text_fields": 4,
+          "next_book_rule": "문체 개선이 분명하지 않으면 원문 보존. 전문 개념·해석 차이·숫자·인명은 수정하지 않는다.",
+          "scanned_text_fields": 171
+        },
+        {
+          "assessment": "나머지 후보는 수양의 개념을 설명하는 문맥에서 무리 없이 읽혀 보존했다. 한자어를 모두 바꾸지 않았다.",
+          "book_number": 8,
+          "content_review_performed": false,
+          "edited_text_fields": 1,
+          "next_book_rule": "문체 개선이 분명하지 않으면 원문 보존. 전문 개념·해석 차이·숫자·인명은 수정하지 않는다.",
+          "scanned_text_fields": 98
+        },
+        {
+          "assessment": "‘도를 관통한다’, ‘자기교정’의 표현만 다듬었다. 지휘자와 뜻의 대비 및 해석상의 한정은 손대지 않았다.",
+          "book_number": 9,
+          "content_review_performed": false,
+          "edited_text_fields": 3,
+          "next_book_rule": "문체 개선이 분명하지 않으면 원문 보존. 전문 개념·해석 차이·숫자·인명은 수정하지 않는다.",
+          "scanned_text_fields": 146
+        },
+        {
+          "assessment": "옷차림·예식·장면 자체를 설명하는 말은 그대로 두고, 명사 연결과 직역식 서술만 고쳤다.",
+          "book_number": 10,
+          "content_review_performed": false,
+          "edited_text_fields": 2,
+          "next_book_rule": "문체 개선이 분명하지 않으면 원문 보존. 전문 개념·해석 차이·숫자·인명은 수정하지 않는다.",
+          "scanned_text_fields": 118
+        },
+        {
+          "assessment": "‘실천적 우선순위’, ‘권력 성취’를 쉬운 말로 다듬었다. 죽음과 귀신에 대한 기존 해석은 바꾸지 않았다.",
+          "book_number": 11,
+          "content_review_performed": false,
+          "edited_text_fields": 2,
+          "next_book_rule": "수정 전후의 행동 주체·대상·정도를 확인하고, 추정과 단정의 강도를 보존한다.",
+          "scanned_text_fields": 119
+        },
+        {
+          "assessment": "어려운 명사화를 풀되 ‘먼저’라는 순서와 자기 책임의 의미를 보존했다.",
+          "book_number": 12,
+          "content_review_performed": false,
+          "edited_text_fields": 3,
+          "next_book_rule": "수정 전후의 행동 주체·대상·정도를 확인하고, 추정과 단정의 강도를 보존한다.",
+          "scanned_text_fields": 109
+        },
+        {
+          "assessment": "‘시험하는 장면’의 어색한 호응을 고쳤다. 나머지 장면 묘사와 판단·개념 용어는 유지했다. 최종 대조에서 마음의 여유 앞 조사 중복을 정리.",
+          "book_number": 13,
+          "content_review_performed": false,
+          "edited_text_fields": 2,
+          "next_book_rule": "수정 전후의 행동 주체·대상·정도를 확인하고, 추정과 단정의 강도를 보존한다.",
+          "scanned_text_fields": 127
+        },
+        {
+          "assessment": "‘덕을 안정까지 확장한다’는 맞지 않는 결합을 풀었다. 사건·인물 판단은 추가하지 않았다.",
+          "book_number": 14,
+          "content_review_performed": false,
+          "edited_text_fields": 1,
+          "next_book_rule": "수정 전후의 행동 주체·대상·정도를 확인하고, 추정과 단정의 강도를 보존한다.",
+          "scanned_text_fields": 195
+        },
+        {
+          "assessment": "뜻이 분명한 ‘지식의 축적’, ‘남의 탓과 요구로 돌린다’ 등의 결합을 다듬었다. 원인과 해결을 다룬 다른 문장은 함부로 뜻을 정하지 않고 보존했다. 최종 대조에서 한계를 정하는 원칙이라는 뜻을 명시해 보존.",
+          "book_number": 15,
+          "content_review_performed": false,
+          "edited_text_fields": 3,
+          "next_book_rule": "수정 전후의 행동 주체·대상·정도를 확인하고, 추정과 단정의 강도를 보존한다.",
+          "scanned_text_fields": 165
+        },
+        {
+          "assessment": "후보 표현에서 의미를 건드리지 않고 개선할 부분을 찾지 못해 원문 유지.",
+          "book_number": 16,
+          "content_review_performed": false,
+          "edited_text_fields": 0,
+          "next_book_rule": "추상어 자체보다 주어와 서술어의 연결을 우선 확인.",
+          "scanned_text_fields": 69
+        },
+        {
+          "assessment": "존중하는 태도를 주어로 삼은 문장과 자기 보존이라는 명사 표현을 다듬음.",
+          "book_number": 17,
+          "content_review_performed": false,
+          "edited_text_fields": 2,
+          "next_book_rule": "어려운 명사를 풀어도 행위의 뜻과 판단 강도는 유지.",
+          "scanned_text_fields": 118
+        },
+        {
+          "assessment": "오랜 관계의 사람이라는 관형 표현만 다듬음.",
+          "book_number": 18,
+          "content_review_performed": false,
+          "edited_text_fields": 1,
+          "next_book_rule": "관계의 성격을 새로 규정하지 않고 문법적 연결만 개선.",
+          "scanned_text_fields": 54
+        },
+        {
+          "assessment": "능력 부족을 배척한다는 목적어와 지식 축적 표현을 다듬음.",
+          "book_number": 19,
+          "content_review_performed": false,
+          "edited_text_fields": 2,
+          "next_book_rule": "행위의 대상과 이유가 자연스럽게 연결되는지 확인.",
+          "scanned_text_fields": 114
+        },
+        {
+          "assessment": "말의 표면이라는 직역투만 풀어 씀.",
+          "book_number": 20,
+          "content_review_performed": false,
+          "edited_text_fields": 1,
+          "next_book_rule": "다음 의문 단계에서도 질문의 전제와 답변의 범위를 유지.",
+          "scanned_text_fields": 15
+        }
+      ],
+      "status": "completed_selective_style_pass",
+      "text_fields": 2311,
+      "unchanged": 2256,
+      "unique_cards": 498
     },
     {
-      "book": "팔일",
-      "reviewed": 26,
-      "changed": 4,
-      "source_match": true,
-      "id_order_match": true,
-      "preview_other_html_unchanged": true
+      "book_count": 20,
+      "changed": 47,
+      "labels_preserved": true,
+      "method": "전 항목에서 문체 패턴으로 후보를 찾아 후보 문장의 문맥을 확인하는 선별 교정.",
+      "name": "의문",
+      "order_preserved": true,
+      "originals_match_records": true,
+      "scope": "問",
+      "self_reviews": [
+        {
+          "assessment": "배움의 뜻풀이에서 지식 습득과 자기 교정을 일상적인 말로 풀어 씀.",
+          "book_number": 1,
+          "content_review_performed": false,
+          "edited_text_fields": 1,
+          "next_book_rule": "질문의 전제와 답변의 결론을 그대로 유지.",
+          "scanned_text_fields": 96
+        },
+        {
+          "assessment": "관계의 태도와 행동의 순서 등 뜻이 불분명하게 읽히는 명사 연결을 다듬음.",
+          "book_number": 2,
+          "content_review_performed": false,
+          "edited_text_fields": 3,
+          "next_book_rule": "대상을 풀어 쓸 때는 같은 답변에 명시된 대상만 사용.",
+          "scanned_text_fields": 144
+        },
+        {
+          "assessment": "물음에 원리를 제시한다는 연결과 의무를 요구한다는 표현을 다듬음.",
+          "book_number": 3,
+          "content_review_performed": false,
+          "edited_text_fields": 3,
+          "next_book_rule": "교정 후에도 공자님의 비판과 해석의 강도를 유지.",
+          "scanned_text_fields": 156
+        },
+        {
+          "assessment": "외적 조건과 관계의 거리감 등 딱딱한 표현을 풀고 장면으로 해석된다는 연결을 다듬음.",
+          "book_number": 4,
+          "content_review_performed": false,
+          "edited_text_fields": 3,
+          "next_book_rule": "전통 해석이라는 유보와 관계별 차이를 보존.",
+          "scanned_text_fields": 156
+        },
+        {
+          "assessment": "내적인 강직함과 자신에게 일이 필요하다는 어색한 연결을 다듬음.",
+          "book_number": 5,
+          "content_review_performed": false,
+          "edited_text_fields": 2,
+          "next_book_rule": "교사의 역할을 새로 설명하지 않고 기존 문장 안에서만 연결 개선.",
+          "scanned_text_fields": 168
+        },
+        {
+          "assessment": "내적 즐거움만 풀어 쓰고 의미가 분명한 기능·기준 표현은 유지.",
+          "book_number": 6,
+          "content_review_performed": false,
+          "edited_text_fields": 1,
+          "next_book_rule": "자연스러운 개념어까지 일괄 치환하지 않음.",
+          "scanned_text_fields": 168
+        },
+        {
+          "assessment": "내면에 축적, 지식의 축적을 풀어 쓰고 구조라는 불필요한 설명말을 다듬음.",
+          "book_number": 7,
+          "content_review_performed": false,
+          "edited_text_fields": 4,
+          "next_book_rule": "앞 편에서 정한 개념어 보존 원칙을 유지하며 문장 연결 중심으로 교정.",
+          "scanned_text_fields": 228
+        },
+        {
+          "assessment": "겉모습을 내면의 통로로 부르는 비유 한 곳을 다듬음.",
+          "book_number": 8,
+          "content_review_performed": false,
+          "edited_text_fields": 1,
+          "next_book_rule": "비유를 풀더라도 문장이 말하는 마음과 행동의 관계는 유지.",
+          "scanned_text_fields": 126
+        },
+        {
+          "assessment": "맡은 관계라는 연결을 고치고 내면적 선택·판단의 안정성을 풀어 씀.",
+          "book_number": 9,
+          "content_review_performed": false,
+          "edited_text_fields": 3,
+          "next_book_rule": "비교의 두 대상과 강조점은 유지.",
+          "scanned_text_fields": 186
+        },
+        {
+          "assessment": "의례적 장치로 기능한다는 표현과 엄격하게 요구된다는 서술을 풀어 씀.",
+          "book_number": 10,
+          "content_review_performed": false,
+          "edited_text_fields": 3,
+          "next_book_rule": "의례의 구체적 절차나 의미를 추가하지 않음.",
+          "scanned_text_fields": 162
+        },
+        {
+          "assessment": "도리를 해결한다는 표현을 실천하는 일로 다듬음.",
+          "book_number": 11,
+          "content_review_performed": false,
+          "edited_text_fields": 1,
+          "next_book_rule": "실천을 우선한다는 기존 입장의 범위를 유지.",
+          "scanned_text_fields": 150
+        },
+        {
+          "assessment": "선별 후보에서 뜻을 유지하면서 분명히 개선할 표현을 찾지 못해 유지.",
+          "book_number": 12,
+          "content_review_performed": false,
+          "edited_text_fields": 0,
+          "next_book_rule": "추상어가 있다는 이유만으로 문장을 바꾸지 않음.",
+          "scanned_text_fields": 144
+        },
+        {
+          "assessment": "순응을 얻다·기준을 요구하다·아첨을 주다 등 어색한 결합을 다듬음.",
+          "book_number": 13,
+          "content_review_performed": false,
+          "edited_text_fields": 4,
+          "next_book_rule": "여러 명사가 같은 서술어와 자연스럽게 연결되는지 확인.",
+          "scanned_text_fields": 180
+        },
+        {
+          "assessment": "행동의 바름과 내적 절제를 풀고 결말이 칭찬한다는 연결을 다듬음.",
+          "book_number": 14,
+          "content_review_performed": false,
+          "edited_text_fields": 4,
+          "next_book_rule": "문장에 없는 행위자를 새로 지정하지 않고 자연스럽게 표현.",
+          "scanned_text_fields": 282
+        },
+        {
+          "assessment": "판단의 시간 범위와 교육의 확장성 등 문체가 딱딱한 표현을 다듬음.",
+          "book_number": 15,
+          "content_review_performed": false,
+          "edited_text_fields": 6,
+          "next_book_rule": "가능성·비교·상징이라는 원문의 판단 강도 유지.",
+          "scanned_text_fields": 252
+        },
+        {
+          "assessment": "기존 문장 의미가 분명하고 후보 표현도 무리 없이 읽혀 유지.",
+          "book_number": 16,
+          "content_review_performed": false,
+          "edited_text_fields": 0,
+          "next_book_rule": "수정 수량보다 자연스러운 원문 보존을 우선.",
+          "scanned_text_fields": 84
+        },
+        {
+          "assessment": "지식 축적과 핵심 구조는 말한다는 연결을 다듬음.",
+          "book_number": 17,
+          "content_review_performed": false,
+          "edited_text_fields": 2,
+          "next_book_rule": "성별·계층에 관한 해석 범위와 유보 표현은 보존.",
+          "scanned_text_fields": 156
+        },
+        {
+          "assessment": "관계의 지속성과 요구 구문의 연결을 다듬음.",
+          "book_number": 18,
+          "content_review_performed": false,
+          "edited_text_fields": 2,
+          "next_book_rule": "인재를 평가하는 기존 기준을 바꾸지 않음.",
+          "scanned_text_fields": 66
+        },
+        {
+          "assessment": "절목·지속적인 확장·관계의 신뢰를 쉬운 말로 다듬음.",
+          "book_number": 19,
+          "content_review_performed": false,
+          "edited_text_fields": 4,
+          "next_book_rule": "학자 해석에 쓰인 내외 구분은 의미 판단이 필요하므로 유지.",
+          "scanned_text_fields": 150
+        },
+        {
+          "assessment": "문체 후보에서 안전하게 개선할 부분을 찾지 못해 유지.",
+          "book_number": 20,
+          "content_review_performed": false,
+          "edited_text_fields": 0,
+          "next_book_rule": "쟁점 단계에서는 학자 이름과 인용문, 해석의 유보를 보존.",
+          "scanned_text_fields": 18
+        }
+      ],
+      "status": "completed_selective_style_pass",
+      "text_fields": 3072,
+      "unchanged": 3025,
+      "unique_cards": 498
     },
     {
-      "book": "이인",
-      "reviewed": 26,
-      "changed": 4,
-      "source_match": true,
-      "id_order_match": true,
-      "preview_other_html_unchanged": true
-    },
-    {
-      "book": "공야장",
-      "reviewed": 27,
-      "changed": 4,
-      "source_match": true,
-      "id_order_match": true,
-      "preview_other_html_unchanged": true
-    },
-    {
-      "book": "옹야",
-      "reviewed": 28,
-      "changed": 3,
-      "source_match": true,
-      "id_order_match": true,
-      "preview_other_html_unchanged": true
-    },
-    {
-      "book": "술이",
-      "reviewed": 37,
-      "changed": 5,
-      "source_match": true,
-      "id_order_match": true,
-      "preview_other_html_unchanged": true
-    },
-    {
-      "book": "태백",
-      "reviewed": 21,
-      "changed": 4,
-      "source_match": true,
-      "id_order_match": true,
-      "preview_other_html_unchanged": true
-    },
-    {
-      "book": "자한",
-      "reviewed": 30,
-      "changed": 3,
-      "source_match": true,
-      "id_order_match": true,
-      "preview_other_html_unchanged": true
-    },
-    {
-      "book": "향당",
-      "reviewed": 17,
-      "changed": 2,
-      "source_match": true,
-      "id_order_match": true,
-      "preview_other_html_unchanged": true
-    },
-    {
-      "book": "선진",
-      "reviewed": 25,
-      "changed": 4,
-      "source_match": true,
-      "id_order_match": true,
-      "preview_other_html_unchanged": true
-    },
-    {
-      "book": "안연",
-      "reviewed": 24,
-      "changed": 4,
-      "source_match": true,
-      "id_order_match": true,
-      "preview_other_html_unchanged": true
-    },
-    {
-      "book": "자로",
-      "reviewed": 30,
-      "changed": 2,
-      "source_match": true,
-      "id_order_match": true,
-      "preview_other_html_unchanged": true
-    },
-    {
-      "book": "헌문",
-      "reviewed": 47,
-      "changed": 6,
-      "source_match": true,
-      "id_order_match": true,
-      "preview_other_html_unchanged": true
-    },
-    {
-      "book": "위령공",
-      "reviewed": 41,
-      "changed": 6,
-      "source_match": true,
-      "id_order_match": true,
-      "preview_other_html_unchanged": true
-    },
-    {
-      "book": "계씨",
-      "reviewed": 14,
-      "changed": 5,
-      "source_match": true,
-      "id_order_match": true,
-      "preview_other_html_unchanged": true
-    },
-    {
-      "book": "양화",
-      "reviewed": 26,
-      "changed": 2,
-      "source_match": true,
-      "id_order_match": true,
-      "preview_other_html_unchanged": true
-    },
-    {
-      "book": "미자",
-      "reviewed": 11,
-      "changed": 1,
-      "source_match": true,
-      "id_order_match": true,
-      "preview_other_html_unchanged": true
-    },
-    {
-      "book": "자장",
-      "reviewed": 25,
-      "changed": 3,
-      "source_match": true,
-      "id_order_match": true,
-      "preview_other_html_unchanged": true
-    },
-    {
-      "book": "요왈",
-      "reviewed": 3,
-      "changed": 1,
-      "source_match": true,
-      "id_order_match": true,
-      "preview_other_html_unchanged": true
+      "book_count": 20,
+      "changed": 22,
+      "labels_preserved": true,
+      "method": "전 항목에서 문체 패턴으로 후보를 찾아 후보 문장의 문맥을 확인하는 선별 교정.",
+      "name": "쟁점",
+      "order_preserved": true,
+      "originals_match_records": true,
+      "scope": "說",
+      "self_reviews": [
+        {
+          "assessment": "배운 것의 익힘을 풀고 점검 대상의 연결을 다듬음.",
+          "book_number": 1,
+          "content_review_performed": false,
+          "edited_text_fields": 1,
+          "next_book_rule": "학자 이름과 따옴표 안의 표현은 그대로 보존.",
+          "scanned_text_fields": 40
+        },
+        {
+          "assessment": "공통 렌즈 비유와 방향 전환이라는 끝맺음을 다듬음.",
+          "book_number": 2,
+          "content_review_performed": false,
+          "edited_text_fields": 2,
+          "next_book_rule": "비유가 나타내는 관점은 유지하며 풀어 씀.",
+          "scanned_text_fields": 50
+        },
+        {
+          "assessment": "내면·구조를 묶은 서술을 풀고 장면으로 끝나는 연결을 다듬음. 조건절의 변화는 원문 그대로 보존.",
+          "book_number": 3,
+          "content_review_performed": false,
+          "edited_text_fields": 2,
+          "next_book_rule": "일반 설명의 비유를 줄이되 해석의 결론은 유지.",
+          "scanned_text_fields": 54
+        },
+        {
+          "assessment": "대상이 놓인다는 서술과 실천 언어를 다듬음.",
+          "book_number": 4,
+          "content_review_performed": false,
+          "edited_text_fields": 2,
+          "next_book_rule": "주석의 용어와 해석 대상의 구분은 보존.",
+          "scanned_text_fields": 56
+        },
+        {
+          "assessment": "제자라는 장면이라는 결합과 연속된 관형 표현을 다듬음.",
+          "book_number": 5,
+          "content_review_performed": false,
+          "edited_text_fields": 2,
+          "next_book_rule": "인물 동일시와 성장 단계의 설명은 기존 해석 그대로 보존.",
+          "scanned_text_fields": 54
+        },
+        {
+          "assessment": "장면과 무게 표현이 문맥에서 자연스러워 선별 후보 유지.",
+          "book_number": 6,
+          "content_review_performed": false,
+          "edited_text_fields": 0,
+          "next_book_rule": "장면이라는 단어 자체를 제거하지 않고 어색한 결합만 수정.",
+          "scanned_text_fields": 58
+        },
+        {
+          "assessment": "자기평가의 겸손을 풀고 먹었다는 장면이라는 결합을 다듬음.",
+          "book_number": 7,
+          "content_review_performed": false,
+          "edited_text_fields": 2,
+          "next_book_rule": "평가 주체와 실제 성취를 비교하는 구도는 유지.",
+          "scanned_text_fields": 79
+        },
+        {
+          "assessment": "공자님은 장면이 된다는 문장 연결을 다듬음.",
+          "book_number": 8,
+          "content_review_performed": false,
+          "edited_text_fields": 1,
+          "next_book_rule": "가정적인 해석이라는 그러면의 조건은 유지.",
+          "scanned_text_fields": 42
+        },
+        {
+          "assessment": "전승의 층위는 전문적인 의미 구분에 해당하여 유지하고 나머지 후보도 보존.",
+          "book_number": 9,
+          "content_review_performed": false,
+          "edited_text_fields": 0,
+          "next_book_rule": "쉽게 풀려면 해석 판단이 필요한 용어는 수정하지 않음.",
+          "scanned_text_fields": 60
+        },
+        {
+          "assessment": "공자님은 장면이 된다는 연결에서 조사만 다듬음.",
+          "book_number": 10,
+          "content_review_performed": false,
+          "edited_text_fields": 1,
+          "next_book_rule": "상황을 나타내는 장면 표현 자체는 유지.",
+          "scanned_text_fields": 38
+        },
+        {
+          "assessment": "내면의 삿됨을 풀어 쓰되 삿됨과 겉치레의 비교는 유지.",
+          "book_number": 11,
+          "content_review_performed": false,
+          "edited_text_fields": 1,
+          "next_book_rule": "주석에서 대비한 뜻을 넓히거나 좁히지 않음.",
+          "scanned_text_fields": 52
+        },
+        {
+          "assessment": "위아래의 대비에서 사람을 가리키는 표현만 다듬음.",
+          "book_number": 12,
+          "content_review_performed": false,
+          "edited_text_fields": 1,
+          "next_book_rule": "교화와 제도 등에 관한 주석의 설명을 재해석하지 않음.",
+          "scanned_text_fields": 48
+        },
+        {
+          "assessment": "무게가 실린다와 말에 힘이 실린다의 중첩을 줄이고 내면의 든든함을 풀어 씀.",
+          "book_number": 13,
+          "content_review_performed": false,
+          "edited_text_fields": 3,
+          "next_book_rule": "따옴표 안의 해석 요약은 그대로 유지.",
+          "scanned_text_fields": 62
+        },
+        {
+          "assessment": "해석 대비에 쓰인 표현이 의미를 전달하고 있어 선별 후보 유지.",
+          "book_number": 14,
+          "content_review_performed": false,
+          "edited_text_fields": 0,
+          "next_book_rule": "학술적인 의미 구분을 단순한 문체 문제로 처리하지 않음.",
+          "scanned_text_fields": 99
+        },
+        {
+          "assessment": "장치가 실제 수레 부품을 가리키는 등 문맥상 자연스러운 표현은 보존.",
+          "book_number": 15,
+          "content_review_performed": false,
+          "edited_text_fields": 0,
+          "next_book_rule": "비유와 실제 사물 설명을 구별해 불필요한 치환 방지.",
+          "scanned_text_fields": 86
+        },
+        {
+          "assessment": "능력의 뛰어남에 무게를 둔다는 중첩 표현을 다듬음.",
+          "book_number": 16,
+          "content_review_performed": false,
+          "edited_text_fields": 1,
+          "next_book_rule": "이루·사광의 예시와 주석의 풀이 범위는 유지.",
+          "scanned_text_fields": 29
+        },
+        {
+          "assessment": "내용의 불확실함을 자연스러운 절로 풀어 씀.",
+          "book_number": 17,
+          "content_review_performed": false,
+          "edited_text_fields": 1,
+          "next_book_rule": "전언의 불확실성을 문제 삼는 원래 초점 유지.",
+          "scanned_text_fields": 53
+        },
+        {
+          "assessment": "해석상 가정이 들어간 장면 설명이 자연스러워 유지.",
+          "book_number": 18,
+          "content_review_performed": false,
+          "edited_text_fields": 0,
+          "next_book_rule": "인물 관계를 새로 확인하거나 고쳐 쓰지 않음.",
+          "scanned_text_fields": 22
+        },
+        {
+          "assessment": "군자 일반과 성향이 장단점을 만든다는 표현을 다듬음.",
+          "book_number": 19,
+          "content_review_performed": false,
+          "edited_text_fields": 2,
+          "next_book_rule": "특정 인물을 가리킨다는 주석과 장단점의 양면성을 유지.",
+          "scanned_text_fields": 50
+        },
+        {
+          "assessment": "현행 편·장 구성에 관한 표현은 명확하여 유지.",
+          "book_number": 20,
+          "content_review_performed": false,
+          "edited_text_fields": 0,
+          "next_book_rule": "전체 결과 대조에서 원문·식별자·학자 표기 보존을 확인.",
+          "scanned_text_fields": 8
+        }
+      ],
+      "status": "completed_selective_style_pass",
+      "text_fields": 1040,
+      "unchanged": 1018,
+      "unique_cards": 498
     }
   ],
-  "next_passes": [
-    {
-      "scope": "語 한자 풀이",
-      "status": "not_started"
-    },
-    {
-      "scope": "問 의문",
-      "status": "not_started"
-    },
-    {
-      "scope": "說 쟁점",
-      "status": "not_started"
-    }
-  ],
-  "assessment": "작성자의 자체 편집 평가. 69개는 문체 수정의 효과가 분명하다고 판단해 반영했고, 429개는 원문을 유지했다. 내용 검수·사료 대조·역사적 정확성 검증은 하지 않았다. 각 편에서 남긴 메모는 문체 수정 범위를 넘지 않기 위한 보존 사유다."
+  "status": "completed_selective_style_pass",
+  "total_changed_text_fields": 193
 }
