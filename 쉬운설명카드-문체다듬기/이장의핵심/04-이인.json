@@ -155,12 +155,22 @@
       "revision_round": 2
     },
     {
-      "changed": false,
+      "changed": true,
       "chapter": 17,
       "id": "ly-04-17",
       "original": "좋은 사람에게서는 닮을 점을, 부족한 사람에게서는 내 허물을 찾는다",
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
-      "revised": "좋은 사람에게서는 닮을 점을, 부족한 사람에게서는 내 허물을 찾는다"
+      "reason": "다른 사람에게서 내 허물을 찾는다는 압축된 연결 풀기",
+      "revised": "좋은 사람을 보면 닮을 점을 찾고 부족한 사람을 보면 내 허물을 살핀다",
+      "revision_history": [
+        {
+          "revision_round": 1,
+          "revised": "좋은 사람에게서는 닮을 점을, 부족한 사람에게서는 내 허물을 찾는다",
+          "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+        }
+      ],
+      "previous_revision": "좋은 사람에게서는 닮을 점을, 부족한 사람에게서는 내 허물을 찾는다",
+      "revision_round": 3,
+      "approval_status": "approved"
     },
     {
       "changed": true,
@@ -195,10 +205,17 @@
       "chapter": 21,
       "id": "ly-04-21",
       "original": "부모의 나이를 안다는 것은 함께할 시간이 유한함을 아는 일이다",
-      "previous_revision": "부모의 나이를 안다는 것은 함께할 시간이 유한함을 아는 일이다",
-      "reason": "시간의 유한함이라는 추상어를 풀기",
-      "revised": "부모의 나이를 헤아리며 함께할 시간이 끝없이 남아 있지는 않음을 안다",
-      "revision_round": 2
+      "previous_revision": "부모의 나이를 헤아리며 함께할 시간이 끝없이 남아 있지는 않음을 안다",
+      "reason": "시간이 끝없이 남아 있지는 않다는 겹친 부정 구문 정리",
+      "revised": "부모의 나이를 헤아리며 언제까지나 함께할 수는 없음을 안다",
+      "revision_round": 3,
+      "revision_history": [
+        {
+          "revision_round": 2,
+          "revised": "부모의 나이를 헤아리며 함께할 시간이 끝없이 남아 있지는 않음을 안다",
+          "reason": "시간의 유한함이라는 추상어를 풀기"
+        }
+      ]
     },
     {
       "changed": false,
@@ -262,15 +279,16 @@
     "reviewer": "이 대화의 작성자 자체 평가; 외부 독립 검수 아님",
     "unchanged": 22
   },
-  "schema_version": "2.0",
+  "schema_version": "3.0",
   "scope": "이 장의 핵심",
   "self_review": {
-    "assessment": "사용자가 승인한 2차 제안을 그대로 수정본에 반영. 이번 반영 과정에서 새 문체 변경은 하지 않음.",
-    "changed": 17,
+    "assessment": "3차 제안 중 사용자가 승인한 문장을 그대로 수정본에 반영. 제안이 없던 문장은 유지. 내용 검수는 하지 않음.",
+    "changed": 18,
     "content_review_performed": false,
     "reviewed": 26,
     "round_2_approved_applied": 13,
-    "unchanged": 9
+    "unchanged": 8,
+    "round_3_approved_applied": 2
   },
   "source": {
     "blob_sha": "f392e8b176615e6c7c0afffbfb04618d24a2a853",
@@ -280,5 +298,13 @@
     "path": "1차완성본/쉬운설명카드/04-이인.html",
     "repository": "hermes-blue/analects",
     "selector": "article.card > .big > p.hx"
+  },
+  "round_2_self_review": {
+    "assessment": "사용자가 승인한 2차 제안을 그대로 수정본에 반영. 이번 반영 과정에서 새 문체 변경은 하지 않음.",
+    "changed": 17,
+    "content_review_performed": false,
+    "reviewed": 26,
+    "round_2_approved_applied": 13,
+    "unchanged": 9
   }
 }
