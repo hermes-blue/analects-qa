@@ -1,0 +1,12 @@
+{
+  "processed": 40,
+  "rewritten": 39,
+  "unchanged_in_output": 1,
+  "pending_source": [
+    "ly-01-11"
+  ],
+  "batch_reviews": 8,
+  "all_non_target_fields_preserved": true,
+  "duplicate_openings": 0,
+  "length_review": []
+}
