@@ -1,14 +1,14 @@
 {
-  "applied": false,
-  "approval_status": "awaiting_user_approval",
+  "applied": true,
+  "approval_status": "approved",
   "books": [
     {
       "book_name": "학이",
       "book_number": 1,
       "cards": [
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 1,
           "id": "ly-01-01",
           "original": "배움은 남의 인정보다 먼저다",
@@ -18,8 +18,8 @@
           "proposed": "남에게 인정받는 것보다 배우는 일이 먼저다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 2,
           "id": "ly-01-02",
           "original": "사람을 대하는 법은 가장 가까운 관계에서 시작된다",
@@ -40,8 +40,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 4,
           "id": "ly-01-04",
           "original": "남을 보기 전에 자신부터 점검한다",
@@ -62,8 +62,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 6,
           "id": "ly-01-06",
           "original": "배움은 생활의 기본을 갖추는 데서 시작된다",
@@ -84,8 +84,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 8,
           "id": "ly-01-08",
           "original": "사람의 무게는 겉으로 힘주는 데서 생기지 않는다",
@@ -95,8 +95,8 @@
           "proposed": "사람의 진중함은 겉으로 무게를 잡는다고 생기지 않는다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 9,
           "id": "ly-01-09",
           "original": "죽은 이를 정성껏 기억하는 풍속이 사람 마음도 두텁게 한다",
@@ -117,8 +117,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 11,
           "id": "ly-01-11",
           "original": "부모가 떠난 뒤에도 곧바로 모든 것을 뒤집지 않는다",
@@ -139,8 +139,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 13,
           "id": "ly-01-13",
           "original": "약속도 옳은 약속이어야 지킬 가치가 있다",
@@ -161,8 +161,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 15,
           "id": "ly-01-15",
           "original": "배움은 한 단계에서 멈추지 않고 더 다듬는 일이다",
@@ -203,16 +203,16 @@
         "repository": "hermes-blue/analects",
         "selector": "article.card > .big > p.hx"
       },
-      "approval_status": "awaiting_user_approval",
-      "applied": false
+      "approval_status": "approved",
+      "applied": true
     },
     {
       "book_name": "위정",
       "book_number": 2,
       "cards": [
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 1,
           "id": "ly-02-01",
           "original": "좋은 정치는 억지로 끌지 않아도 사람들이 따르게 한다",
@@ -233,8 +233,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 3,
           "id": "ly-02-03",
           "original": "벌을 피하게 하는 것보다 스스로 부끄러움을 알게 하는 정치가 깊다",
@@ -244,8 +244,8 @@
           "proposed": "벌만 피하게 하는 정치보다 스스로 부끄러움을 알게 하는 정치가 더 깊이 작용한다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 4,
           "id": "ly-02-04",
           "original": "수양은 나이가 아니라 평생 쌓여 가는 과정이다",
@@ -266,8 +266,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 6,
           "id": "ly-02-06",
           "original": "효는 부모에게 불필요한 걱정을 끼치지 않는 데서도 드러난다",
@@ -277,8 +277,8 @@
           "proposed": "부모에게 쓸데없는 걱정을 끼치지 않는 것도 효도다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 7,
           "id": "ly-02-07",
           "original": "부모를 먹여 모시는 것만으로는 효가 완성되지 않는다",
@@ -288,8 +288,8 @@
           "proposed": "부모의 끼니를 챙겨 드린다고 효를 다한 것은 아니다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 8,
           "id": "ly-02-08",
           "original": "부모를 섬길 때 가장 어려운 것은 마음이 얼굴에 드러나는 순간이다",
@@ -299,8 +299,8 @@
           "proposed": "부모를 섬길 때는 얼굴에 드러나는 마음을 다스리기가 가장 어렵다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 9,
           "id": "ly-02-09",
           "original": "조용히 듣는 사람도 행동으로 충분히 이해를 보여줄 수 있다",
@@ -310,8 +310,8 @@
           "proposed": "조용히 듣는 사람도 자신이 이해한 바를 행동으로 충분히 보여 줄 수 있다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 10,
           "id": "ly-02-10",
           "original": "사람은 한 번의 행동보다 반복되는 선택에서 더 잘 보인다",
@@ -332,8 +332,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 12,
           "id": "ly-02-12",
           "original": "사람을 한 가지 기능에만 가두지 않는다",
@@ -365,8 +365,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 15,
           "id": "ly-02-15",
           "original": "배움과 생각은 따로 갈 수 없다",
@@ -387,8 +387,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 17,
           "id": "ly-02-17",
           "original": "아는 것과 모르는 것을 정확히 가르는 것이 진짜 앎이다",
@@ -409,8 +409,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 19,
           "id": "ly-02-19",
           "original": "사람을 어떻게 쓰느냐가 정치의 기준을 보여준다",
@@ -420,8 +420,8 @@
           "proposed": "누구에게 일을 맡기는지를 보면 그 정치의 기준을 알 수 있다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 20,
           "id": "ly-02-20",
           "original": "사람에게 요구하기 전에 윗사람이 먼저 본보기가 되어야 한다",
@@ -442,8 +442,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 22,
           "id": "ly-02-22",
           "original": "신뢰가 없으면 관계도 함께 움직일 수 없다",
@@ -464,8 +464,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 24,
           "id": "ly-02-24",
           "original": "해서는 안 될 일에 비굴하지 말고 해야 할 옳은 일에서는 물러서지 않는다",
@@ -495,16 +495,16 @@
         "repository": "hermes-blue/analects",
         "selector": "article.card > .big > p.hx"
       },
-      "approval_status": "awaiting_user_approval",
-      "applied": false
+      "approval_status": "approved",
+      "applied": true
     },
     {
       "book_name": "팔일",
       "book_number": 3,
       "cards": [
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 1,
           "id": "ly-03-01",
           "original": "예의 형식은 곧 권한과 질서를 드러낸다",
@@ -536,8 +536,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 4,
           "id": "ly-03-04",
           "original": "화려함보다 진심이 예의 근본에 가깝다",
@@ -547,8 +547,8 @@
           "proposed": "예의 근본은 화려함보다 진심에 가깝다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 5,
           "id": "ly-03-05",
           "original": "나라가 있느냐보다 질서가 서 있느냐가 먼저다",
@@ -558,8 +558,8 @@
           "proposed": "나라가 있는지보다 질서가 바로 서 있는지가 더 중요하다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 6,
           "id": "ly-03-06",
           "original": "예를 어긴 제사는 신에게 바치는 정성이 될 수 없다",
@@ -580,8 +580,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 8,
           "id": "ly-03-08",
           "original": "꾸밈보다 먼저 갖춰져야 할 것은 바탕이다",
@@ -613,8 +613,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 11,
           "id": "ly-03-11",
           "original": "의식의 참뜻을 알면 그 뒤의 정치 질서까지 보인다",
@@ -635,8 +635,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 13,
           "id": "ly-03-13",
           "original": "누구에게 아첨할지를 계산하는 순간 이미 길을 잃는다",
@@ -668,8 +668,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 16,
           "id": "ly-03-16",
           "original": "경쟁의 기준을 타고난 힘에만 두지 않는다",
@@ -690,8 +690,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 18,
           "id": "ly-03-18",
           "original": "정당한 예를 다하는 것과 아첨은 겉모습이 비슷해도 전혀 다르다",
@@ -701,8 +701,8 @@
           "proposed": "마땅히 예를 갖추는 것과 아첨은 겉으로 비슷해 보여도 전혀 다르다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 19,
           "id": "ly-03-19",
           "original": "바른 군신 관계는 한쪽의 복종만으로 만들어지지 않는다",
@@ -712,8 +712,8 @@
           "proposed": "한쪽이 복종하는 것만으로는 바른 군신 관계가 이루어지지 않는다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 20,
           "id": "ly-03-20",
           "original": "좋은 감정도 지나치지 않을 때 오래 아름답다",
@@ -723,8 +723,8 @@
           "proposed": "좋은 감정도 지나치지 않아야 오래도록 아름답다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 21,
           "id": "ly-03-21",
           "original": "돌이킬 수 없는 일을 붙들고 책망하기보다 다음 판단을 바로잡는다",
@@ -734,8 +734,8 @@
           "proposed": "돌이킬 수 없는 일을 계속 책망하기보다 다음에는 바르게 판단한다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 22,
           "id": "ly-03-22",
           "original": "큰 공적이 있어도 생활의 절제와 예법까지 완전한 것은 아니다",
@@ -745,8 +745,8 @@
           "proposed": "큰 공적을 세웠다고 생활을 절제하고 예법을 지키는 데도 빈틈이 없는 것은 아니다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 23,
           "id": "ly-03-23",
           "original": "좋은 음악은 서로 다른 소리가 분명하면서도 하나로 어우러진다",
@@ -767,8 +767,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 25,
           "id": "ly-03-25",
           "original": "아름다운 작품과 옳은 배경은 같은 기준이 아니다",
@@ -778,8 +778,8 @@
           "proposed": "작품의 아름다움과 그 배경의 옳고 그름은 따로 판단한다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 26,
           "id": "ly-03-26",
           "original": "자리에 맞는 마음이 빠지면 겉모양만으로는 충분하지 않다",
@@ -809,16 +809,16 @@
         "repository": "hermes-blue/analects",
         "selector": "article.card > .big > p.hx"
       },
-      "approval_status": "awaiting_user_approval",
-      "applied": false
+      "approval_status": "approved",
+      "applied": true
     },
     {
       "book_name": "이인",
       "book_number": 4,
       "cards": [
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 1,
           "id": "ly-04-01",
           "original": "어떤 사람들 곁에서 사느냐도 삶의 방향을 만든다",
@@ -850,8 +850,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 4,
           "id": "ly-04-04",
           "original": "삶의 방향을 어디에 두느냐가 먼저다",
@@ -872,8 +872,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 6,
           "id": "ly-04-06",
           "original": "어진 삶은 능력이 없어서 못 하는 일이 아니라 실제로 힘쓰느냐의 문제다",
@@ -883,8 +883,8 @@
           "proposed": "어진 삶을 살 수 있느냐는 능력보다 실제로 얼마나 힘쓰느냐에 달려 있다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 7,
           "id": "ly-04-07",
           "original": "사람의 잘못에도 그 사람의 평소 방향이 드러난다",
@@ -894,8 +894,8 @@
           "proposed": "잘못을 저질렀을 때도 그 사람이 평소 무엇을 추구했는지 드러난다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 8,
           "id": "ly-04-08",
           "original": "어떻게 살아야 하는지 깨닫는 일은 오래 사는 것보다 더 근본적이다",
@@ -927,8 +927,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 11,
           "id": "ly-04-11",
           "original": "사람의 차이는 무엇을 먼저 마음에 두느냐에서 드러난다",
@@ -949,8 +949,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 13,
           "id": "ly-04-13",
           "original": "정치는 서로의 자리를 인정하는 데서 안정된다",
@@ -982,8 +982,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 16,
           "id": "ly-04-16",
           "original": "사람은 무엇을 먼저 따지는가에서 갈린다",
@@ -1026,8 +1026,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 20,
           "id": "ly-04-20",
           "original": "부모가 떠난 뒤에는 좋은 유산을 성급히 뒤집지 않는다",
@@ -1037,8 +1037,8 @@
           "proposed": "부모가 돌아가신 뒤에도 좋은 유산을 성급히 바꾸지 않는다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 21,
           "id": "ly-04-21",
           "original": "부모의 나이를 안다는 것은 함께할 시간이 유한함을 아는 일이다",
@@ -1059,8 +1059,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 23,
           "id": "ly-04-23",
           "original": "지나치지 않게 자신을 줄이면 큰 실수도 줄어든다",
@@ -1081,8 +1081,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 25,
           "id": "ly-04-25",
           "original": "꾸준한 덕은 결국 뜻을 함께하는 사람을 만든다",
@@ -1092,8 +1092,8 @@
           "proposed": "꾸준히 덕을 닦으면 결국 뜻을 함께하는 사람이 생긴다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 26,
           "id": "ly-04-26",
           "original": "옳은 충고도 때와 정도를 잃으면 관계를 망칠 수 있다",
@@ -1123,16 +1123,16 @@
         "repository": "hermes-blue/analects",
         "selector": "article.card > .big > p.hx"
       },
-      "approval_status": "awaiting_user_approval",
-      "applied": false
+      "approval_status": "approved",
+      "applied": true
     },
     {
       "book_name": "공야장",
       "book_number": 5,
       "cards": [
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 1,
           "id": "ly-05-01",
           "original": "처벌받은 기록만으로 사람의 죄와 인품을 단정하지 않는다",
@@ -1153,8 +1153,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 3,
           "id": "ly-05-03",
           "original": "뛰어난 재능이 있어도 사람 전체가 완성된 것은 아니다",
@@ -1164,8 +1164,8 @@
           "proposed": "뛰어난 재능이 있다고 사람됨까지 완성된 것은 아니다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 4,
           "id": "ly-05-04",
           "original": "말을 잘하는 것은 어진 사람의 필수 조건이 아니다",
@@ -1175,8 +1175,8 @@
           "proposed": "어진 사람이라고 반드시 말을 잘해야 하는 것은 아니다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 5,
           "id": "ly-05-05",
           "original": "기회가 왔다고 준비되지 않은 채 서둘러 나아가지는 않는다",
@@ -1186,8 +1186,8 @@
           "proposed": "기회가 왔더라도 준비가 안 됐다면 서둘러 나아가지 않는다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 6,
           "id": "ly-05-06",
           "original": "용기는 큰 장점이지만 상황을 헤아리지 않으면 성급함이 된다",
@@ -1197,8 +1197,8 @@
           "proposed": "용기는 큰 장점이지만 상황을 헤아리지 않고 발휘하면 성급한 행동이 된다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 7,
           "id": "ly-05-07",
           "original": "일을 잘하는 능력과 사람됨의 완성은 같은 평가가 아니다",
@@ -1230,8 +1230,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 10,
           "id": "ly-05-10",
           "original": "진짜 강함은 욕심에 끌려가지 않는 힘이다",
@@ -1252,8 +1252,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 12,
           "id": "ly-05-12",
           "original": "깊은 문제일수록 함부로 자주 말하지 않는다",
@@ -1285,8 +1285,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 15,
           "id": "ly-05-15",
           "original": "좋은 정치가는 자기 몸가짐과 백성을 대하는 태도가 따로 놀지 않는다",
@@ -1307,8 +1307,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 17,
           "id": "ly-05-17",
           "original": "지혜롭다는 명성도 자기 분수를 모르면 흔들린다",
@@ -1318,8 +1318,8 @@
           "proposed": "자기 분수를 모르면 지혜롭다는 평판도 지키기 어렵다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 18,
           "id": "ly-05-18",
           "original": "한 가지 훌륭한 덕만으로 사람 전체를 완성됐다고 단정하지 않는다",
@@ -1329,8 +1329,8 @@
           "proposed": "한 가지 훌륭한 덕을 지녔다고 사람됨까지 완성됐다고 단정하지 않는다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 19,
           "id": "ly-05-19",
           "original": "신중함도 지나치면 결단을 늦추는 계산이 된다",
@@ -1351,8 +1351,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 21,
           "id": "ly-05-21",
           "original": "큰 뜻과 재능도 다듬지 않으면 완성되지 않는다",
@@ -1362,8 +1362,8 @@
           "proposed": "큰 뜻을 품고 재능을 갖췄어도 다듬어야 완성된다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 22,
           "id": "ly-05-22",
           "original": "지난 잘못을 영원히 붙들지 않을 때 원망도 줄어든다",
@@ -1373,8 +1373,8 @@
           "proposed": "지난 잘못을 언제까지나 들추지 않으면 원망도 줄어든다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 23,
           "id": "ly-05-23",
           "original": "작은 친절도 사실을 꾸미면 정직함과 멀어질 수 있다",
@@ -1417,8 +1417,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 27,
           "id": "ly-05-27",
           "original": "타고난 것보다 계속 배우는 태도가 사람을 가른다",
@@ -1448,16 +1448,16 @@
         "repository": "hermes-blue/analects",
         "selector": "article.card > .big > p.hx"
       },
-      "approval_status": "awaiting_user_approval",
-      "applied": false
+      "approval_status": "approved",
+      "applied": true
     },
     {
       "book_name": "옹야",
       "book_number": 6,
       "cards": [
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 1,
           "id": "ly-06-01",
           "original": "간결함도 공경하는 마음이 바탕에 있어야 한다",
@@ -1467,8 +1467,8 @@
           "proposed": "간결하게 하더라도 공경하는 마음은 갖춰야 한다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 2,
           "id": "ly-06-02",
           "original": "배움을 좋아한다는 것은 같은 잘못을 되풀이하지 않는 데서 드러난다",
@@ -1478,8 +1478,8 @@
           "proposed": "배움을 좋아하는지는 같은 잘못을 되풀이하지 않는 데서 드러난다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 3,
           "id": "ly-06-03",
           "original": "돕는 일도 형편과 필요에 맞아야 한다",
@@ -1522,8 +1522,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 7,
           "id": "ly-06-07",
           "original": "원칙에 맞지 않는 자리는 얻기보다 거절할 줄도 알아야 한다",
@@ -1544,8 +1544,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 9,
           "id": "ly-06-09",
           "original": "환경이 어려워도 삶의 중심 가치까지 빼앗길 필요는 없다",
@@ -1555,8 +1555,8 @@
           "proposed": "어려운 환경에서도 삶에서 가장 소중히 여기는 가치까지 빼앗길 필요는 없다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 10,
           "id": "ly-06-10",
           "original": "해보기도 전에 스스로 한계를 정하는 것은 힘이 부족한 것과 다르다",
@@ -1577,8 +1577,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 12,
           "id": "ly-06-12",
           "original": "정치에서 중요한 능력은 혼자 잘하는 것만이 아니라 좋은 사람을 알아보는 것이다",
@@ -1599,8 +1599,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 14,
           "id": "ly-06-14",
           "original": "말솜씨와 외모가 덕보다 힘을 쓰는 세상은 위태롭다",
@@ -1610,8 +1610,8 @@
           "proposed": "덕보다 말솜씨와 외모가 통하는 세상은 위태롭다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 15,
           "id": "ly-06-15",
           "original": "누구나 문을 통해 나가듯 삶에도 따라야 할 기본 길이 있다",
@@ -1621,8 +1621,8 @@
           "proposed": "누구나 문으로 나가듯 삶에도 따라야 할 기본적인 길이 있다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 16,
           "id": "ly-06-16",
           "original": "진실한 바탕과 세련된 표현은 함께 가야 한다",
@@ -1632,8 +1632,8 @@
           "proposed": "바탕은 진실해야 하고 표현은 세련되어야 한다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 17,
           "id": "ly-06-17",
           "original": "운 좋게 잘됐다는 결과가 잘못된 과정을 옳게 만들지는 않는다",
@@ -1654,8 +1654,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 19,
           "id": "ly-06-19",
           "original": "가르침도 받아들일 준비와 수준에 맞아야 한다",
@@ -1665,8 +1665,8 @@
           "proposed": "가르칠 때도 배우는 사람의 준비와 수준에 맞춰야 한다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 20,
           "id": "ly-06-20",
           "original": "알 수 없는 것보다 먼저 사람 사이에서 해야 할 일을 붙든다",
@@ -1709,8 +1709,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 24,
           "id": "ly-06-24",
           "original": "선한 마음은 무모함이 아니라 판단력과 함께 가야 한다",
@@ -1720,8 +1720,8 @@
           "proposed": "선한 마음을 지녔더라도 무모하게 나서지 않고 잘 판단해야 한다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 25,
           "id": "ly-06-25",
           "original": "넓게 배우고 행동은 분명한 기준으로 정돈한다",
@@ -1742,8 +1742,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 27,
           "id": "ly-06-27",
           "original": "알맞음은 가운데를 고르는 기술이 아니라 매번 지나침과 모자람을 피하는 힘이다",
@@ -1753,8 +1753,8 @@
           "proposed": "알맞게 한다는 것은 가운데만 고르는 요령이 아니라 매번 지나치지도 모자라지도 않게 하는 힘이다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 28,
           "id": "ly-06-28",
           "original": "나만 서는 데서 멈추지 않고 다른 사람도 설 수 있게 돕는다",
@@ -1784,16 +1784,16 @@
         "repository": "hermes-blue/analects",
         "selector": "article.card > .big > p.hx"
       },
-      "approval_status": "awaiting_user_approval",
-      "applied": false
+      "approval_status": "approved",
+      "applied": true
     },
     {
       "book_name": "술이",
       "book_number": 7,
       "cards": [
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 1,
           "id": "ly-07-01",
           "original": "새로 지어내기보다 옛 가르침의 뜻을 제대로 잇는다",
@@ -1825,8 +1825,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 4,
           "id": "ly-07-04",
           "original": "혼자 쉴 때의 모습이 그 사람의 바탕이다",
@@ -1847,8 +1847,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 6,
           "id": "ly-07-06",
           "original": "기술보다 먼저 삶의 방향과 사람을 대하는 기준을 세운다",
@@ -1858,8 +1858,8 @@
           "proposed": "기술을 익히기 전에 어떻게 살고 사람을 어떻게 대할지 기준부터 세운다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 7,
           "id": "ly-07-07",
           "original": "배우러 오는 사람은 출신과 재산으로 물리치지 않는다",
@@ -1869,8 +1869,8 @@
           "proposed": "배우러 온 사람을 출신이나 재산 때문에 물리치지 않는다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 8,
           "id": "ly-07-08",
           "original": "스승은 답을 먼저 주기보다 제자가 스스로 막힌 지점까지 생각하기를 기다린다",
@@ -1880,8 +1880,8 @@
           "proposed": "스승은 답부터 주지 않고 제자가 스스로 생각하다 막힐 때까지 기다린다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 9,
           "id": "ly-07-09",
           "original": "슬픔 곁에서는 자기 욕구도 자연스럽게 낮춘다",
@@ -1891,8 +1891,8 @@
           "proposed": "슬퍼하는 사람 곁에서는 자신의 욕구도 자연스럽게 자제한다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 10,
           "id": "ly-07-10",
           "original": "나아갈 때와 물러날 때를 아는 힘은 용기만큼 중요하다",
@@ -1902,8 +1902,8 @@
           "proposed": "용기만큼이나 언제 나아가고 물러날지 아는 것이 중요하다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 11,
           "id": "ly-07-11",
           "original": "부는 나쁜 것이 아니라 어떻게 얻느냐가 문제다",
@@ -1935,8 +1935,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 14,
           "id": "ly-07-14",
           "original": "공자님의 정치적 판단을 직접 묻기보다 그가 높인 옛사람의 선택에서 읽어냈다",
@@ -1968,8 +1968,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 17,
           "id": "ly-07-17",
           "original": "공적인 자리에서는 서로 통하는 말의 기준이 필요하다",
@@ -1990,8 +1990,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 19,
           "id": "ly-07-19",
           "original": "앎은 타고난 재주가 아니라 부지런히 찾아 배운 결과다",
@@ -2012,8 +2012,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 21,
           "id": "ly-07-21",
           "original": "좋은 사람에게서는 따라 배우고 부족한 사람에게서는 나를 고친다",
@@ -2056,8 +2056,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 25,
           "id": "ly-07-25",
           "original": "완벽한 사람을 못 만나도 한결같이 좋은 방향을 지키는 사람은 귀하다",
@@ -2067,8 +2067,8 @@
           "proposed": "완벽한 사람을 만나지 못하더라도 한결같이 바른길을 가는 사람은 귀하다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 26,
           "id": "ly-07-26",
           "original": "필요한 만큼만 취하고 무방비한 생명까지 노리지 않는다",
@@ -2078,8 +2078,8 @@
           "proposed": "필요한 만큼만 취하고 아무 방비도 없는 생명까지 노리지는 않는다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 27,
           "id": "ly-07-27",
           "original": "모르면서 만들어내기보다 많이 듣고 보고 좋은 것을 골라 배운다",
@@ -2089,8 +2089,8 @@
           "proposed": "모르는 것을 지어내지 않고 많이 듣고 보며 좋은 것을 골라 배운다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 28,
           "id": "ly-07-28",
           "original": "나쁜 출신과 과거보다 지금 앞으로 나아가려는 태도를 먼저 받아준다",
@@ -2100,8 +2100,8 @@
           "proposed": "출신이나 과거가 좋지 않더라도 지금 앞으로 나아가려는 태도를 먼저 받아 준다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 29,
           "id": "ly-07-29",
           "original": "어진 삶은 멀리 있는 경지가 아니라 지금 그렇게 살려는 마음에서 시작된다",
@@ -2144,8 +2144,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 33,
           "id": "ly-07-33",
           "original": "완성됐다고 자처하기보다 배우고 가르치기를 멈추지 않는다",
@@ -2155,8 +2155,8 @@
           "proposed": "다 이루었다고 자처하지 않고 배우고 가르치기를 멈추지 않는다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 34,
           "id": "ly-07-34",
           "original": "위기 때만 비는 기도보다 평소의 삶이 먼저 하늘 앞에 부끄럽지 않아야 한다",
@@ -2177,8 +2177,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 36,
           "id": "ly-07-36",
           "original": "마음의 편안함은 걱정 없는 성격보다 무엇을 기준으로 사느냐에서 나온다",
@@ -2219,16 +2219,16 @@
         "repository": "hermes-blue/analects",
         "selector": "article.card > .big > p.hx"
       },
-      "approval_status": "awaiting_user_approval",
-      "applied": false
+      "approval_status": "approved",
+      "applied": true
     },
     {
       "book_name": "태백",
       "book_number": 8,
       "cards": [
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 1,
           "id": "ly-08-01",
           "original": "큰 권력을 양보하고도 그 공마저 드러내지 않는다",
@@ -2238,8 +2238,8 @@
           "proposed": "큰 권력을 양보하고도 자신의 공을 내세우지 않는다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 2,
           "id": "ly-08-02",
           "original": "좋은 성품도 알맞은 기준이 없으면 지나쳐서 해가 될 수 있다",
@@ -2249,8 +2249,8 @@
           "proposed": "좋은 성품도 알맞게 조절할 기준이 없으면 지나쳐 해가 될 수 있다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 3,
           "id": "ly-08-03",
           "original": "몸과 행실을 평생 조심해 지키는 것이 마지막에 남는다",
@@ -2260,8 +2260,8 @@
           "proposed": "평생 몸과 행실을 조심해 지켜 온 것이 마지막까지 남는다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 4,
           "id": "ly-08-04",
           "original": "지도자가 직접 붙들 것은 세부 절차보다 자기 몸가짐과 말의 태도다",
@@ -2271,8 +2271,8 @@
           "proposed": "지도자가 직접 챙겨야 할 것은 세세한 절차보다 자신의 몸가짐과 말하는 태도다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 5,
           "id": "ly-08-05",
           "original": "많이 알고 잘해도 다른 사람에게 배울 자리를 남겨 둔다",
@@ -2282,8 +2282,8 @@
           "proposed": "많이 알고 잘하더라도 남에게 배울 여지는 남겨 둔다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 6,
           "id": "ly-08-06",
           "original": "큰 위기와 이해관계 앞에서도 뜻을 빼앗기지 않는 사람이 진짜 믿을 만하다",
@@ -2304,8 +2304,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 8,
           "id": "ly-08-08",
           "original": "마음은 시로 깨우고 행동은 예로 세우며 조화는 음악에서 완성한다",
@@ -2326,8 +2326,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 10,
           "id": "ly-08-10",
           "original": "용기와 도덕적 분노도 지나치면 오히려 혼란을 만들 수 있다",
@@ -2337,8 +2337,8 @@
           "proposed": "용기나 도덕적 분노도 지나치면 오히려 혼란을 일으킬 수 있다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 11,
           "id": "ly-08-11",
           "original": "재능이 아무리 뛰어나도 교만과 인색함이 붙으면 사람의 가치는 무너진다",
@@ -2392,8 +2392,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 16,
           "id": "ly-08-16",
           "original": "큰 뜻도 정직함이 없으면 제멋대로 흐를 수 있다",
@@ -2414,8 +2414,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 18,
           "id": "ly-08-18",
           "original": "큰 권력을 가졌어도 그것을 자기 소유처럼 여기지 않는 태도가 더 크다",
@@ -2425,8 +2425,8 @@
           "proposed": "큰 권력을 가졌어도 자기 소유로 여기지 않는 태도가 더 훌륭하다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 19,
           "id": "ly-08-19",
           "original": "최고의 정치는 한 가지 업적보다 넓고 공평한 질서 전체로 드러난다",
@@ -2436,8 +2436,8 @@
           "proposed": "가장 훌륭한 정치는 하나의 업적보다 넓고 공평한 질서 전반에서 드러난다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 20,
           "id": "ly-08-20",
           "original": "좋은 정치는 훌륭한 군주 한 사람만으로 만들어지지 않는다",
@@ -2447,8 +2447,8 @@
           "proposed": "훌륭한 군주 한 사람만 있다고 좋은 정치가 이루어지지는 않는다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 21,
           "id": "ly-08-21",
           "original": "자기 생활은 아끼되 공적인 책임에는 아끼지 않는다",
@@ -2478,8 +2478,8 @@
         "repository": "hermes-blue/analects",
         "selector": "article.card > .big > p.hx"
       },
-      "approval_status": "awaiting_user_approval",
-      "applied": false
+      "approval_status": "approved",
+      "applied": true
     },
     {
       "book_name": "자한",
@@ -2497,8 +2497,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 2,
           "id": "ly-09-02",
           "original": "한 가지 재주로 이름나지 않았다는 말이 오히려 공자님의 넓이를 보여준다",
@@ -2519,8 +2519,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 4,
           "id": "ly-09-04",
           "original": "추측이 확신이 되고 확신이 고집이 되기 전에 판단을 열어 둔다",
@@ -2530,8 +2530,8 @@
           "proposed": "추측이 확신으로, 확신이 고집으로 굳어지기 전에 판단의 여지를 남긴다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 5,
           "id": "ly-09-05",
           "original": "위기 속에서도 이어야 할 가르침에 대한 사명은 놓지 않는다",
@@ -2541,8 +2541,8 @@
           "proposed": "위기 속에서도 가르침을 이어 가야 한다는 사명은 놓지 않는다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 6,
           "id": "ly-09-06",
           "original": "여러 재주를 잘하는 것과 훌륭한 사람이 되는 것은 같은 문제가 아니다",
@@ -2574,8 +2574,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 9,
           "id": "ly-09-09",
           "original": "예는 나이와 서열만이 아니라 상대가 처한 상황까지 살피는 태도다",
@@ -2596,8 +2596,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 11,
           "id": "ly-09-11",
           "original": "높여 주려는 마음도 사실과 명분을 거스르는 형식이 되면 거짓이다",
@@ -2640,8 +2640,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 15,
           "id": "ly-09-15",
           "original": "도덕은 큰 말보다 관계와 애도와 절제 같은 일상에서 드러난다",
@@ -2662,8 +2662,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 17,
           "id": "ly-09-17",
           "original": "덕도 욕망처럼 강하게 좋아할 수 있어야 오래 실천된다",
@@ -2673,8 +2673,8 @@
           "proposed": "덕도 욕망의 대상처럼 간절히 좋아해야 오래 실천할 수 있다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 18,
           "id": "ly-09-18",
           "original": "거의 다 왔어도 멈추면 끝이 아니고 작은 한걸음도 시작하면 앞으로 간다",
@@ -2684,8 +2684,8 @@
           "proposed": "거의 다 왔어도 멈추면 끝낸 것이 아니며, 작은 한 걸음이라도 떼면 앞으로 나아간다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 19,
           "id": "ly-09-19",
           "original": "잘 배우는 사람은 듣고 끝내지 않고 그 뒤에도 게으르지 않는다",
@@ -2706,8 +2706,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 21,
           "id": "ly-09-21",
           "original": "좋은 시작과 눈에 띄는 재능만으로 마지막 열매가 보장되지는 않는다",
@@ -2728,8 +2728,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 23,
           "id": "ly-09-23",
           "original": "충고를 잘 듣는 것보다 듣고 실제로 바꾸는 일이 더 어렵고 중요하다",
@@ -2739,8 +2739,8 @@
           "proposed": "충고를 잘 듣기보다 들은 대로 실제로 바꾸는 일이 더 어렵고 중요하다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 24,
           "id": "ly-09-24",
           "original": "잘못이 생겼다면 체면보다 고치는 일을 먼저 두어야 한다",
@@ -2750,8 +2750,8 @@
           "proposed": "잘못했다면 체면을 생각하기보다 고치는 일을 앞세워야 한다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 25,
           "id": "ly-09-25",
           "original": "외부의 힘이 자리를 빼앗아도 마지막 뜻까지 대신 결정할 수는 없다",
@@ -2783,8 +2783,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 28,
           "id": "ly-09-28",
           "original": "바른 판단과 마음, 실행할 용기가 함께해야 사람됨이 치우치지 않는다",
@@ -2794,8 +2794,8 @@
           "proposed": "판단과 마음이 바르고 실천할 용기도 있어야 사람됨이 치우치지 않는다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 29,
           "id": "ly-09-29",
           "original": "같이 배우고 같은 길 가고 원칙에 서는 것은 저마다 다른 단계다",
@@ -2805,8 +2805,8 @@
           "proposed": "함께 배우고 같은 길을 가고 원칙을 지키는 것은 각각 다른 단계다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 30,
           "id": "ly-09-30",
           "original": "멀어서 못 한다는 말 뒤에 실제로는 뜻이 충분하지 않은 경우가 있다",
@@ -2836,8 +2836,8 @@
         "repository": "hermes-blue/analects",
         "selector": "article.card > .big > p.hx"
       },
-      "approval_status": "awaiting_user_approval",
-      "applied": false
+      "approval_status": "approved",
+      "applied": true
     },
     {
       "book_name": "향당",
@@ -2855,8 +2855,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 2,
           "id": "ly-10-02",
           "original": "상대를 존중하되 관계와 지위에 맞게 말의 결을 조절한다",
@@ -2866,8 +2866,8 @@
           "proposed": "상대를 존중하면서 관계와 지위에 맞게 말투를 조절한다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 3,
           "id": "ly-10-03",
           "original": "공적인 책임은 말뿐 아니라 표정과 걸음과 몸짓까지 바꾼다",
@@ -2877,8 +2877,8 @@
           "proposed": "공적인 책임을 맡으면 말뿐 아니라 표정과 걸음, 몸짓까지 달라진다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 4,
           "id": "ly-10-04",
           "original": "공적인 공간에 들어갈 때는 그 공간이 요구하는 경계와 질서를 몸으로 지킨다",
@@ -2888,8 +2888,8 @@
           "proposed": "공적인 공간에 들어갈 때는 그곳의 경계와 질서에 맞게 몸가짐을 조심한다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 5,
           "id": "ly-10-05",
           "original": "국가를 대표하는 물건을 들 때는 그 물건보다 맡은 책임의 무게를 먼저 느낀다",
@@ -2910,8 +2910,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 7,
           "id": "ly-10-07",
           "original": "중요한 일을 앞두면 마음만이 아니라 먹고 입고 자는 생활 전체를 바꿔 집중한다",
@@ -2921,8 +2921,8 @@
           "proposed": "중요한 일을 앞두면 마음가짐뿐 아니라 먹고 입고 자는 생활까지 바꾸어 집중한다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 8,
           "id": "ly-10-08",
           "original": "예는 큰 의식보다 밥 먹고 잠드는 반복되는 습관에서도 드러난다",
@@ -2932,8 +2932,8 @@
           "proposed": "예는 큰 의식보다 날마다 밥 먹고 잠드는 습관에서 더 잘 드러난다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 9,
           "id": "ly-10-09",
           "original": "큰 질서는 사소해 보이는 반복 습관에서부터 몸에 밴다",
@@ -2943,8 +2943,8 @@
           "proposed": "큰 질서도 사소해 보이는 습관을 되풀이하며 몸에 익힌다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 10,
           "id": "ly-10-10",
           "original": "일상적인 술자리에서도 연장자를 먼저 세우는 질서를 잊지 않는다",
@@ -2976,8 +2976,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 13,
           "id": "ly-10-13",
           "original": "공적인 호의는 가볍게 받지 않고 받은 것의 성격에 맞게 예로 답한다",
@@ -2987,8 +2987,8 @@
           "proposed": "공적인 호의를 가볍게 여기지 않고 받은 것의 성격에 맞게 예를 갖춰 답한다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 14,
           "id": "ly-10-14",
           "original": "친구가 가장 의지할 곳 없는 순간이라면 마지막까지 책임진다",
@@ -2998,8 +2998,8 @@
           "proposed": "친구에게 의지할 곳이 없을 때는 마지막까지 책임진다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 15,
           "id": "ly-10-15",
           "original": "예는 내 편한 상태보다 상대가 지금 어떤 상황에 놓였는지를 먼저 본다",
@@ -3009,8 +3009,8 @@
           "proposed": "예를 갖추려면 내가 편한지보다 상대의 처지를 먼저 살펴야 한다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 16,
           "id": "ly-10-16",
           "original": "평범한 이동 중에도 말과 몸짓이 부산해지지 않도록 절제한다",
@@ -3020,8 +3020,8 @@
           "proposed": "평소 오가는 길에서도 말과 몸짓이 부산해지지 않도록 절제한다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 17,
           "id": "ly-10-17",
           "original": "좋은 행동은 무엇을 하느냐만큼 언제 하느냐도 중요하다",
@@ -3051,16 +3051,16 @@
         "repository": "hermes-blue/analects",
         "selector": "article.card > .big > p.hx"
       },
-      "approval_status": "awaiting_user_approval",
-      "applied": false
+      "approval_status": "approved",
+      "applied": true
     },
     {
       "book_name": "선진",
       "book_number": 11,
       "cards": [
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 1,
           "id": "ly-11-01",
           "original": "형식이 더 세련되어도 본래 정신이 흐려지면 오히려 소박한 쪽을 택한다",
@@ -3070,8 +3070,8 @@
           "proposed": "형식이 더 세련되었더라도 본래 정신이 흐려졌다면 소박한 쪽을 택한다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 2,
           "id": "ly-11-02",
           "original": "제자들은 한 줄의 서열보다 서로 다른 강점으로 기억된다",
@@ -3081,8 +3081,8 @@
           "proposed": "제자들은 한 줄로 세운 서열보다 저마다 다른 강점으로 기억된다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 3,
           "id": "ly-11-03",
           "original": "너무 잘 알아듣는 제자는 스승에게 질문과 논쟁의 자극을 덜 줄 수도 있다",
@@ -3092,8 +3092,8 @@
           "proposed": "너무 잘 알아듣는 제자는 질문하거나 논쟁하며 스승을 자극하는 일이 적을 수도 있다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 4,
           "id": "ly-11-04",
           "original": "가까운 가족과 바깥 사람의 평가가 함께 맞을 때 행실의 일관성이 더 분명해진다",
@@ -3114,8 +3114,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 6,
           "id": "ly-11-06",
           "original": "배움을 좋아한다는 것은 많이 아는 것보다 계속 고치고 살아내는 데 가깝다",
@@ -3125,8 +3125,8 @@
           "proposed": "배움을 좋아한다는 것은 많이 알기보다 배운 대로 살며 계속 자신을 고치는 데 가깝다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 7,
           "id": "ly-11-07",
           "original": "아끼는 마음이 커도 장례의 분수와 공적인 책임까지 무너뜨릴 수는 없다",
@@ -3147,8 +3147,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 9,
           "id": "ly-11-09",
           "original": "예를 지키는 사람도 사랑하는 이를 잃으면 깊이 무너질 수 있다",
@@ -3158,8 +3158,8 @@
           "proposed": "예를 지키는 사람도 사랑하는 이를 잃으면 깊은 슬픔에 무너질 수 있다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 10,
           "id": "ly-11-10",
           "original": "사랑을 크게 표현하는 것과 그 사람답게 보내는 것은 같은 일이 아니다",
@@ -3169,8 +3169,8 @@
           "proposed": "사랑을 크게 표현한다고 그 사람에게 걸맞게 보내 주는 것은 아니다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 11,
           "id": "ly-11-11",
           "original": "알기 어려운 죽음과 귀신보다 먼저 지금의 삶과 사람에게 책임을 다한다",
@@ -3180,8 +3180,8 @@
           "proposed": "죽음과 귀신처럼 알기 어려운 문제에 앞서 지금의 삶과 사람에게 책임을 다한다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 12,
           "id": "ly-11-12",
           "original": "좋은 교육은 제자를 똑같이 만들지 않고 각자 기질을 살펴 다듬는다",
@@ -3202,8 +3202,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 14,
           "id": "ly-11-14",
           "original": "상당히 잘해도 가장 깊은 경지까지는 더 다듬을 것이 남을 수 있다",
@@ -3213,8 +3213,8 @@
           "proposed": "상당히 잘하더라도 가장 깊은 경지에 이르려면 더 다듬어야 할 것이 남을 수 있다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 15,
           "id": "ly-11-15",
           "original": "지나침도 모자람도 알맞음을 놓친다는 점에서는 같은 문제다",
@@ -3224,8 +3224,8 @@
           "proposed": "지나쳐도 모자라도 알맞지 않다는 점에서는 마찬가지다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 16,
           "id": "ly-11-16",
           "original": "능력을 권력자의 사익을 키우는 데 쓰면 그 능력도 비판의 대상이 된다",
@@ -3246,8 +3246,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 18,
           "id": "ly-11-18",
           "original": "같은 재주라도 한쪽은 도를 좇고 한쪽은 재물에 밝다",
@@ -3257,8 +3257,8 @@
           "proposed": "재주가 같아도 어떤 사람은 도를 좇고 어떤 사람은 재물에 밝다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 19,
           "id": "ly-11-19",
           "original": "좋은 성품만으로는 충분하지 않고 깊어지려면 배움과 수양이 필요하다",
@@ -3301,8 +3301,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 23,
           "id": "ly-11-23",
           "original": "큰 신하는 능력보다 원칙이 무너지면 자리를 떠날 수 있는 사람이다",
@@ -3312,8 +3312,8 @@
           "proposed": "훌륭한 신하는 능력만 뛰어난 사람이 아니라 원칙이 무너지면 자리를 떠날 줄 아는 사람이다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 24,
           "id": "ly-11-24",
           "original": "현장 배움도 중요하나 준비 전에 큰 책임부터 맡기면 해칠 수 있다",
@@ -3323,8 +3323,8 @@
           "proposed": "현장에서 배우는 것도 중요하지만 준비 없이 큰 책임부터 맡기면 해를 끼칠 수 있다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 25,
           "id": "ly-11-25",
           "original": "가장 큰 포부는 권력이 아니라 사람들이 어울려 사는 일상이다",
@@ -3354,16 +3354,16 @@
         "repository": "hermes-blue/analects",
         "selector": "article.card > .big > p.hx"
       },
-      "approval_status": "awaiting_user_approval",
-      "applied": false
+      "approval_status": "approved",
+      "applied": true
     },
     {
       "book_name": "안연",
       "book_number": 12,
       "cards": [
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 1,
           "id": "ly-12-01",
           "original": "어짊은 보고 듣고 말하고 행하는 순간마다 나를 다잡는 데서 나온다",
@@ -3373,8 +3373,8 @@
           "proposed": "보고 듣고 말하고 행동할 때마다 자신을 다잡으며 어짊을 기른다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 2,
           "id": "ly-12-02",
           "original": "내가 싫은 일을 남에게 강요하지 않는 데서 사람을 헤아리는 기준이 시작된다",
@@ -3395,8 +3395,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 4,
           "id": "ly-12-04",
           "original": "스스로 돌아보아 크게 부끄러운 일이 없을 때 마음의 불안도 줄어든다",
@@ -3417,8 +3417,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 6,
           "id": "ly-12-06",
           "original": "반복되는 험담과 자극적인 호소일수록 말의 세기보다 사실을 먼저 본다",
@@ -3439,8 +3439,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 8,
           "id": "ly-12-08",
           "original": "좋은 본바탕만으로 충분하지 않고 그것을 제대로 드러낼 표현도 필요하다",
@@ -3450,8 +3450,8 @@
           "proposed": "본바탕이 좋기만 해서는 부족하고 그것을 제대로 드러내는 표현도 필요하다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 9,
           "id": "ly-12-09",
           "original": "나라 살림이 어렵다고 백성을 더 가난하게 만들면 결국 나라의 기반도 약해진다",
@@ -3461,8 +3461,8 @@
           "proposed": "나라 살림이 어렵다고 백성을 더 가난하게 만들면 결국 나라의 바탕도 약해진다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 10,
           "id": "ly-12-10",
           "original": "좋아하고 미워하는 마음이 바뀌어도 옳고 그름까지 뒤집히면 미혹이다",
@@ -3472,8 +3472,8 @@
           "proposed": "좋아하고 미워하는 마음에 따라 옳고 그름까지 뒤집는다면 판단이 흐려진 것이다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 11,
           "id": "ly-12-11",
           "original": "자리의 이름만 갖는 것이 아니라 그 이름에 맞는 책임을 실제로 해야 질서가 선다",
@@ -3494,8 +3494,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 13,
           "id": "ly-12-13",
           "original": "분쟁을 잘 판결하는 것보다 분쟁이 생길 원인을 줄이는 정치가 더 근본적이다",
@@ -3505,8 +3505,8 @@
           "proposed": "다툼을 잘 판결하기보다 다툼이 생길 원인을 줄이는 정치가 더 근본적이다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 14,
           "id": "ly-12-14",
           "original": "정치는 한 번의 좋은 판단보다 오래 지치지 않고 책임 있게 실행하는 힘이 필요하다",
@@ -3516,8 +3516,8 @@
           "proposed": "정치에서는 한 번 잘 판단하는 것보다 오래도록 지치지 않고 책임 있게 실행하는 힘이 필요하다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 15,
           "id": "ly-12-15",
           "original": "널리 배우되 행동은 분명한 기준으로 묶어야 배움이 흩어지지 않는다",
@@ -3527,8 +3527,8 @@
           "proposed": "널리 배우되 행동은 분명한 기준에 맞춰야 배움이 흩어지지 않는다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 16,
           "id": "ly-12-16",
           "original": "좋은 관계는 상대의 선함을 키우고 잘못은 더 커지지 않게 막아 준다",
@@ -3538,8 +3538,8 @@
           "proposed": "좋은 관계에서는 상대의 선한 면을 키워 주고 잘못은 더 커지지 않게 막아 준다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 17,
           "id": "ly-12-17",
           "original": "남을 바로잡으려는 정치라면 지도자 자신이 먼저 바르게 서야 한다",
@@ -3549,8 +3549,8 @@
           "proposed": "정치로 남을 바로잡으려면 지도자 자신부터 바르게 살아야 한다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 18,
           "id": "ly-12-18",
           "original": "처벌만 보지 말고 윗사람이 만든 욕망과 풍조도 봐야 범죄를 줄인다",
@@ -3560,8 +3560,8 @@
           "proposed": "범죄를 줄이려면 처벌뿐 아니라 윗사람으로 인해 생긴 욕망과 풍조도 살펴야 한다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 19,
           "id": "ly-12-19",
           "original": "사람을 죽여 바르게 하기보다 지도자의 모범으로 사회의 방향을 바꾼다",
@@ -3593,8 +3593,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 22,
           "id": "ly-12-22",
           "original": "어짊은 사람을 사랑하는 것이고 지혜는 사람을 알아보는 것이다",
@@ -3604,8 +3604,8 @@
           "proposed": "어질다는 것은 사람을 사랑하는 것이고 지혜롭다는 것은 사람을 알아보는 것이다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 23,
           "id": "ly-12-23",
           "original": "친구의 잘못은 진심으로 말하되 받아들이지 않으면 억지로 바꾸려 들지 않는다",
@@ -3615,8 +3615,8 @@
           "proposed": "친구에게 잘못을 진심으로 말하되 받아들이지 않으면 억지로 바꾸려 들지 않는다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 24,
           "id": "ly-12-24",
           "original": "좋은 친구는 함께 배우고 서로의 부족함을 보완하며 더 나은 사람이 되게 한다",
@@ -3646,8 +3646,8 @@
         "repository": "hermes-blue/analects",
         "selector": "article.card > .big > p.hx"
       },
-      "approval_status": "awaiting_user_approval",
-      "applied": false
+      "approval_status": "approved",
+      "applied": true
     },
     {
       "book_name": "자로",
@@ -3665,8 +3665,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 2,
           "id": "ly-13-02",
           "original": "좋은 정치는 혼자 다 하지 않고 사람을 알아봐 알맞게 맡기는 일이다",
@@ -3676,8 +3676,8 @@
           "proposed": "정치를 잘하려면 혼자 다 하려 하지 말고 사람을 알아보아 알맞은 일을 맡겨야 한다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 3,
           "id": "ly-13-03",
           "original": "직책의 이름과 실제 책임이 어긋나면 말과 명령부터 정치 전체까지 흔들린다",
@@ -3687,8 +3687,8 @@
           "proposed": "직책의 이름과 실제 책임이 어긋나면 말과 명령에서부터 정치 전체가 흔들린다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 4,
           "id": "ly-13-04",
           "original": "좋은 정치는 기술보다 믿고 따를 기준을 위에서 먼저 세우는 데 있다",
@@ -3698,8 +3698,8 @@
           "proposed": "정치를 잘하려면 기술에 앞서 윗사람부터 믿고 따를 만한 기준을 세워야 한다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 5,
           "id": "ly-13-05",
           "original": "많이 외워도 현실에서 판단하고 말하는 데 못 쓰면 자기 것이 아니다",
@@ -3731,8 +3731,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 8,
           "id": "ly-13-08",
           "original": "집을 잘 산다는 것은 많이 가지는 것보다 가진 만큼 만족할 줄 아는 데 가깝다",
@@ -3742,8 +3742,8 @@
           "proposed": "집안 살림을 잘한다는 것은 많이 갖기보다 가진 만큼 만족할 줄 아는 데 가깝다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 9,
           "id": "ly-13-09",
           "original": "백성에게 도덕을 요구하기 전에 최소한의 생활 기반부터 안정시켜야 한다",
@@ -3786,8 +3786,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 13,
           "id": "ly-13-13",
           "original": "남을 바로잡으려면 그 기준을 자기 삶에서 먼저 지킬 수 있어야 한다",
@@ -3797,8 +3797,8 @@
           "proposed": "남을 바로잡으려면 자신부터 그 기준대로 살 수 있어야 한다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 14,
           "id": "ly-13-14",
           "original": "권력자의 집안일과 공적인 일을 같게 보면 정치의 경계가 무너진다",
@@ -3808,8 +3808,8 @@
           "proposed": "권력자의 집안일과 나랏일을 같게 여기면 정치에서 지켜야 할 선이 무너진다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 15,
           "id": "ly-13-15",
           "original": "반대하는 사람이 아무도 없는 권력은 편해 보이지만 잘못을 고칠 길도 함께 막힌다",
@@ -3819,8 +3819,8 @@
           "proposed": "아무도 반대하지 않는 권력은 편해 보이지만 잘못을 고칠 길도 막혀 버린다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 16,
           "id": "ly-13-16",
           "original": "먼 사람을 끌어오기 전에 지금 함께 사는 사람들이 만족하는 정치를 먼저 만든다",
@@ -3841,8 +3841,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 18,
           "id": "ly-13-18",
           "original": "정직은 사실을 말하는 것만이 아니라 관계에서 져야 할 책임까지 함께 묻는 문제다",
@@ -3852,8 +3852,8 @@
           "proposed": "정직을 따질 때는 사실을 말했는지뿐 아니라 사람 사이에서 져야 할 책임도 함께 물어야 한다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 19,
           "id": "ly-13-19",
           "original": "어디서든 공손하고 일에 성실하며 사람에게 진심을 다함이 어진 삶이다",
@@ -3863,8 +3863,8 @@
           "proposed": "어디서든 공손하고 일에 성실하며 사람에게 진심을 다하는 것이 어진 삶이다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 20,
           "id": "ly-13-20",
           "original": "선비의 첫 기준은 자기 행동을 스스로 부끄러워할 줄 아는 데 있다",
@@ -3885,8 +3885,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 22,
           "id": "ly-13-22",
           "original": "좋은 마음도 오래 지키지 못하면 덕이 되기 어렵다",
@@ -3896,8 +3896,8 @@
           "proposed": "좋은 마음을 오래 지키지 못하면 덕으로 이어지기 어렵다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 23,
           "id": "ly-13-23",
           "original": "의견이 달라도 함께 어울릴 수 있고 같은 말만 한다고 진짜 조화가 생기는 것은 아니다",
@@ -3929,8 +3929,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 26,
           "id": "ly-13-26",
           "original": "진짜 자신감은 남을 깔보는 교만보다 마음의 안정과 여유에 가깝다",
@@ -3940,8 +3940,8 @@
           "proposed": "진짜 자신감은 남을 깔보는 교만보다 안정되고 여유로운 마음에 가깝다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 27,
           "id": "ly-13-27",
           "original": "굳세고 꾸밈없고 말을 가볍게 하지 않는 성품은 어진 삶에 가까운 좋은 바탕이 된다",
@@ -3951,8 +3951,8 @@
           "proposed": "굳세고 꾸밈없으며 말을 가볍게 하지 않는 성품은 어진 삶에 가까이 가는 좋은 바탕이다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 28,
           "id": "ly-13-28",
           "original": "친구에게는 솔직한 권면으로 형제에게는 화목한 태도로 전할 수 있다",
@@ -3973,8 +3973,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 30,
           "id": "ly-13-30",
           "original": "준비시키지 않은 사람을 전쟁에 보내는 것은 통치자가 백성을 버리는 일이다",
@@ -4004,16 +4004,16 @@
         "repository": "hermes-blue/analects",
         "selector": "article.card > .big > p.hx"
       },
-      "approval_status": "awaiting_user_approval",
-      "applied": false
+      "approval_status": "approved",
+      "applied": true
     },
     {
       "book_name": "헌문",
       "book_number": 14,
       "cards": [
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 1,
           "id": "ly-14-01",
           "original": "정치가 그릇된데 책임은 외면하고 자리와 보수만 지키는 것은 부끄럽다",
@@ -4023,8 +4023,8 @@
           "proposed": "정치가 그릇되었는데도 책임은 외면하고 자리와 보수만 지키려 한다면 부끄러운 일이다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 2,
           "id": "ly-14-02",
           "original": "나쁜 욕망을 억누르는 일은 어렵지만 그것만으로 완성된 어짊이 되는 것은 아니다",
@@ -4034,8 +4034,8 @@
           "proposed": "나쁜 욕망을 억누르기는 어렵지만 그것만으로 어짊을 온전히 갖췄다고 할 수는 없다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 3,
           "id": "ly-14-03",
           "original": "편안함이 삶의 최우선이 되면 옳은 일을 위해 감수해야 할 책임도 쉽게 놓치게 된다",
@@ -4056,8 +4056,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 5,
           "id": "ly-14-05",
           "original": "좋은 말과 큰 용기는 그 자체만으로 좋은 사람을 증명하지 못한다",
@@ -4067,8 +4067,8 @@
           "proposed": "좋은 말을 하고 큰 용기를 보였다고 좋은 사람임이 증명되는 것은 아니다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 6,
           "id": "ly-14-06",
           "original": "뛰어난 힘과 재주도 덕의 방향을 잃으면 좋은 삶을 보장하지 못한다",
@@ -4078,8 +4078,8 @@
           "proposed": "힘과 재주가 뛰어나도 덕을 향하지 않으면 좋은 삶을 보장받지 못한다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 7,
           "id": "ly-14-07",
           "original": "군자도 흔들릴 수 있지만 중요한 것은 삶의 방향이 계속 어짊을 향하고 있는가이다",
@@ -4100,8 +4100,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 9,
           "id": "ly-14-09",
           "original": "한 천재보다 역할 분담과 거듭된 협업이 좋은 결과를 낼 수 있다",
@@ -4111,8 +4111,8 @@
           "proposed": "천재 한 사람이 하는 것보다 역할을 나누고 거듭 힘을 모으면 더 좋은 결과를 낼 수 있다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 10,
           "id": "ly-14-10",
           "original": "좋은 정치는 강한 조치보다 상대도 납득할 공정한 결과로 평가한다",
@@ -4122,8 +4122,8 @@
           "proposed": "정치를 잘했는지는 강한 조치를 취했느냐보다 상대도 납득할 만큼 공정한 결과를 냈느냐로 평가한다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 11,
           "id": "ly-14-11",
           "original": "재산보다 어려운 형편에서 마음을 어떻게 지키는지가 더 큰 시험이다",
@@ -4133,8 +4133,8 @@
           "proposed": "재산을 얼마나 가졌는지보다 어려운 형편에서 마음을 어떻게 지키는지가 더 큰 시험이다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 12,
           "id": "ly-14-12",
           "original": "좋은 사람이라고 모든 자리에 맞는 것은 아니며 인품과 직무 능력은 따로 봐야 한다",
@@ -4144,8 +4144,8 @@
           "proposed": "좋은 사람이라고 모든 자리에 맞지는 않으므로 인품과 일을 해낼 능력은 따로 봐야 한다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 13,
           "id": "ly-14-13",
           "original": "완성된 사람은 이익 앞에서 옳음을 보고 위기에서 목숨을 건다",
@@ -4155,8 +4155,8 @@
           "proposed": "인격을 온전히 갖춘 사람은 이익 앞에서 무엇이 옳은지 살피고 위기에서는 목숨을 건다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 14,
           "id": "ly-14-14",
           "original": "말과 행동을 아예 끊기보다 때에 맞게 조절하는 절제가 더 중요하다",
@@ -4166,8 +4166,8 @@
           "proposed": "말과 행동을 아예 끊기보다 때에 맞게 절제하는 것이 더 중요하다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 15,
           "id": "ly-14-15",
           "original": "직접 협박하지 않았어도 거부하기 힘든 압박을 만들었다면 책임이 있다",
@@ -4188,8 +4188,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 17,
           "id": "ly-14-17",
           "original": "충절로 죽기보다 살아 많은 이를 이롭게 하는 책임이 더 클 수 있다",
@@ -4199,8 +4199,8 @@
           "proposed": "충절을 지키려고 죽기보다 살아서 많은 사람을 이롭게 해야 할 책임이 더 클 수 있다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 18,
           "id": "ly-14-18",
           "original": "작은 의리로 죽기보다 많은 이를 오래 이롭게 한 삶을 높이 평가한다",
@@ -4210,8 +4210,8 @@
           "proposed": "작은 의리를 지키려다 죽기보다 많은 사람을 오래 이롭게 한 삶을 높이 평가한다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 19,
           "id": "ly-14-19",
           "original": "아랫사람도 능력을 인정해 함께 높은 자리에 세울 수 있어야 한다",
@@ -4221,8 +4221,8 @@
           "proposed": "아랫사람의 능력도 인정하고 함께 높은 자리에 세울 수 있어야 한다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 20,
           "id": "ly-14-20",
           "original": "지도자가 부족해도 각 분야 인재들이 제 역할을 하면 무너지지 않는다",
@@ -4243,8 +4243,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 22,
           "id": "ly-14-22",
           "original": "결과가 받아들여지지 않아도 마땅히 보고하고 문제를 제기해야 할 책임은 남는다",
@@ -4265,8 +4265,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 24,
           "id": "ly-14-24",
           "original": "같이 배우고 살아도 무엇을 향해 밝아지느냐에 따라 사람의 방향은 달라진다",
@@ -4287,8 +4287,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 26,
           "id": "ly-14-26",
           "original": "좋은 전달자는 주인을 과장해 칭찬하지 않고 핵심을 정확하고 품위 있게 전한다",
@@ -4320,8 +4320,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 29,
           "id": "ly-14-29",
           "original": "말이 행동보다 앞서 커지는 순간을 스스로 부끄러워할 줄 알아야 한다",
@@ -4353,8 +4353,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 32,
           "id": "ly-14-32",
           "original": "남이 몰라주는 것보다 알아줄 만한 능력과 덕이 없음을 더 걱정한다",
@@ -4375,8 +4375,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 34,
           "id": "ly-14-34",
           "original": "세상이 굳어 있다고 포기하지 않고 사람을 설득하며 바꿀 가능성을 끝까지 찾는다",
@@ -4386,8 +4386,8 @@
           "proposed": "세상이 굳어 있다고 포기하지 않고 사람을 설득하며 끝까지 바꿀 길을 찾는다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 35,
           "id": "ly-14-35",
           "original": "눈에 띄는 재능보다 그 능력을 오래 믿고 맡길 수 있게 하는 사람됨이 더 중요하다",
@@ -4397,8 +4397,8 @@
           "proposed": "눈에 띄는 재능보다 그 재능을 믿고 오래 일을 맡길 수 있는 사람됨이 더 중요하다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 36,
           "id": "ly-14-36",
           "original": "잘못에는 공정함으로 갚고 베풂에는 베풂으로 갚는다",
@@ -4430,8 +4430,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 39,
           "id": "ly-14-39",
           "original": "정치를 떠나야 할 때도 세상 전체와 나라와 기색과 말의 위험을 단계적으로 살핀다",
@@ -4474,8 +4474,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 43,
           "id": "ly-14-43",
           "original": "임금 자리가 비어도 각자가 자기 일을 책임지면 국가는 계속 움직인다",
@@ -4485,8 +4485,8 @@
           "proposed": "임금 자리가 비어도 각자 맡은 일을 책임지면 나라는 계속 돌아간다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 44,
           "id": "ly-14-44",
           "original": "사람을 움직이려면 명령하기 전에 위에서 먼저 존중과 질서를 지켜야 한다",
@@ -4496,8 +4496,8 @@
           "proposed": "사람을 따르게 하려면 명령하기 전에 윗사람부터 존중과 질서를 지켜야 한다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 45,
           "id": "ly-14-45",
           "original": "자기 수양은 자신을 넘어 사람을 편안하게 하고 백성의 삶까지 향한다",
@@ -4507,8 +4507,8 @@
           "proposed": "자신을 닦는 일은 자신에게서 그치지 않고 다른 사람을 편안하게 하며 백성의 삶에까지 미친다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 46,
           "id": "ly-14-46",
           "original": "오랜 친구라도 기본적인 예를 잃으면 친하다는 이유로 그냥 넘기지 않는다",
@@ -4549,8 +4549,8 @@
         "repository": "hermes-blue/analects",
         "selector": "article.card > .big > p.hx"
       },
-      "approval_status": "awaiting_user_approval",
-      "applied": false
+      "approval_status": "approved",
+      "applied": true
     },
     {
       "book_name": "위령공",
@@ -4568,8 +4568,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 2,
           "id": "ly-15-02",
           "original": "흩어진 지식은 하나의 원리로 꿰어질 때 힘을 가진다",
@@ -4579,8 +4579,8 @@
           "proposed": "흩어진 지식도 하나의 원리로 연결하면 힘을 발휘한다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 3,
           "id": "ly-15-03",
           "original": "덕을 말하는 사람보다 그 무게를 실제로 아는 사람은 드물다",
@@ -4590,8 +4590,8 @@
           "proposed": "덕을 말하는 사람에 비해 덕의 무게를 제대로 아는 사람은 드물다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 4,
           "id": "ly-15-04",
           "original": "자신을 바르게 하면 질서는 스스로 움직인다",
@@ -4612,8 +4612,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 6,
           "id": "ly-15-06",
           "original": "원칙을 지키는 곧음과 때를 알고 물러나는 지혜는 모두 군자다움이다",
@@ -4645,8 +4645,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 9,
           "id": "ly-15-09",
           "original": "좋은 뜻을 실천하려면 먼저 좋은 사람과 환경으로 자신을 다듬어야 한다",
@@ -4667,8 +4667,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 11,
           "id": "ly-15-11",
           "original": "멀리 내다보지 않으면 가까운 문제부터 생긴다",
@@ -4689,8 +4689,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 13,
           "id": "ly-15-13",
           "original": "인재를 알고도 세우지 않는다면 자리를 제대로 쓰는 것이 아니다",
@@ -4722,8 +4722,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 16,
           "id": "ly-15-16",
           "original": "함께 보내는 시간이 길어도 옳고 그름을 나누지 않으면 서로 성장하기 어렵다",
@@ -4733,8 +4733,8 @@
           "proposed": "오래 함께 지내도 옳고 그름을 함께 따지지 않으면 서로 성장하기 어렵다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 17,
           "id": "ly-15-17",
           "original": "옳음은 예로 실행하고 겸손과 신뢰로 완성해야 한다",
@@ -4744,8 +4744,8 @@
           "proposed": "옳은 일은 예에 맞게 실천하고 겸손과 신뢰로 완성해야 한다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 18,
           "id": "ly-15-18",
           "original": "알아주지 않는 것보다 실제로 해낼 힘이 없는 것을 걱정해야 한다",
@@ -4755,8 +4755,8 @@
           "proposed": "남이 알아주지 않는 것보다 실제로 해낼 힘이 자신에게 없는 것을 걱정해야 한다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 19,
           "id": "ly-15-19",
           "original": "당장의 유명세보다 평생 남길 만한 삶이 있는지를 걱정한다",
@@ -4777,8 +4777,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 21,
           "id": "ly-15-21",
           "original": "사람들과 어울리되 편 가르기에 판단을 맡기지 않는다",
@@ -4810,8 +4810,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 24,
           "id": "ly-15-24",
           "original": "칭찬과 비판은 호감이 아니라 확인된 근거에 따라야 한다",
@@ -4821,8 +4821,8 @@
           "proposed": "칭찬하거나 비판할 때는 호감이 아닌 확인된 근거를 따라야 한다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 25,
           "id": "ly-15-25",
           "original": "모르는 것은 아는 척하지 않고 빈칸으로 남기는 것도 정직이다",
@@ -4832,8 +4832,8 @@
           "proposed": "모르는 것을 아는 척하지 않고 빈칸으로 남겨 두는 것도 정직한 태도다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 26,
           "id": "ly-15-26",
           "original": "교묘한 말과 순간의 충동은 큰 판단을 무너뜨릴 수 있다",
@@ -4854,8 +4854,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 28,
           "id": "ly-15-28",
           "original": "좋은 원리는 사람의 실천을 통해서만 현실이 된다",
@@ -4876,8 +4876,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 30,
           "id": "ly-15-30",
           "original": "배우지 않고 생각만 하면 깊어지기 어렵다",
@@ -4887,8 +4887,8 @@
           "proposed": "배우지 않고 생각만 해서는 깊이 생각하기 어렵다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 31,
           "id": "ly-15-31",
           "original": "군자는 먹고사는 결과보다 어떤 길을 따를지를 더 먼저 걱정한다",
@@ -4898,8 +4898,8 @@
           "proposed": "군자는 먹고사는 형편보다 어떤 길을 따를지를 먼저 걱정한다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 32,
           "id": "ly-15-32",
           "original": "얻는 능력만으로는 부족하고 지킬 덕과 실행 방식까지 갖춰야 한다",
@@ -4909,8 +4909,8 @@
           "proposed": "얻을 능력만으로는 부족하며 지켜 낼 덕과 실행 방식도 갖춰야 한다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 33,
           "id": "ly-15-33",
           "original": "작은 재주보다 큰 책임을 맡겼을 때 사람의 그릇이 드러난다",
@@ -4964,8 +4964,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 38,
           "id": "ly-15-38",
           "original": "교육의 문은 출신과 부류를 이유로 미리 닫지 않는다",
@@ -4975,8 +4975,8 @@
           "proposed": "출신이나 부류를 이유로 배울 기회를 미리 막지 않는다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 39,
           "id": "ly-15-39",
           "original": "근본 방향이 다르면 같은 계획을 오래 함께 세우기 어렵다",
@@ -4986,8 +4986,8 @@
           "proposed": "근본적으로 향하는 곳이 다르면 같은 계획을 오래 함께 세우기 어렵다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 40,
           "id": "ly-15-40",
           "original": "좋은 말은 화려함보다 뜻이 정확히 통하는 것이 먼저다",
@@ -4997,8 +4997,8 @@
           "proposed": "말은 화려하게 꾸미기보다 뜻이 정확히 통하도록 해야 한다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 41,
           "id": "ly-15-41",
           "original": "배려는 상대에게 필요한 정보를 그 자리에서 정확히 건네는 행동이다",
@@ -5028,16 +5028,16 @@
         "repository": "hermes-blue/analects",
         "selector": "article.card > .big > p.hx"
       },
-      "approval_status": "awaiting_user_approval",
-      "applied": false
+      "approval_status": "approved",
+      "applied": true
     },
     {
       "book_name": "계씨",
       "book_number": 16,
       "cards": [
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 1,
           "id": "ly-16-01",
           "original": "바깥의 적보다 내부의 욕심과 책임 방기가 더 큰 위험일 수 있다",
@@ -5047,8 +5047,8 @@
           "proposed": "바깥의 적보다 안에서 욕심을 부리고 책임을 저버리는 일이 더 위험할 수 있다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 2,
           "id": "ly-16-02",
           "original": "공적 권한이 아래로 사유화될수록 정치 질서는 더 빠르게 무너진다",
@@ -5058,8 +5058,8 @@
           "proposed": "공적인 권한이 아래로 넘어가 개인의 소유가 될수록 정치 질서는 더 빨리 무너진다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 3,
           "id": "ly-16-03",
           "original": "윗권한을 빼앗아 세운 힘은 결국 자기 아랫사람에게도 빼앗기기 쉽다",
@@ -5069,8 +5069,8 @@
           "proposed": "윗사람의 권한을 빼앗아 얻은 힘은 결국 자신의 아랫사람에게도 빼앗기기 쉽다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 4,
           "id": "ly-16-04",
           "original": "좋은 친구는 나를 편하게만 하는 사람보다 더 나은 사람으로 만드는 사람이다",
@@ -5080,8 +5080,8 @@
           "proposed": "좋은 친구는 나를 편하게만 해 주기보다 더 나은 사람이 되도록 돕는다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 5,
           "id": "ly-16-05",
           "original": "즐거움도 사람을 키우거나 흐트러뜨리는 방향이 있다",
@@ -5091,8 +5091,8 @@
           "proposed": "즐거움에도 사람을 자라게 하는 것이 있고 흐트러뜨리는 것이 있다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 6,
           "id": "ly-16-06",
           "original": "말은 때를 놓쳐도, 앞질러도, 상대를 보지 않아도 어긋난다",
@@ -5102,8 +5102,8 @@
           "proposed": "말할 때를 놓치거나 앞서 나가거나 상대를 살피지 않으면 말도 어긋난다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 7,
           "id": "ly-16-07",
           "original": "나이가 바뀌면 경계해야 할 욕망의 모습도 달라진다",
@@ -5113,8 +5113,8 @@
           "proposed": "나이가 들면 경계해야 할 욕망도 달라진다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 8,
           "id": "ly-16-08",
           "original": "두려워할 것을 아는 것은 약함이 아니라 절제의 시작이다",
@@ -5135,8 +5135,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 10,
           "id": "ly-16-10",
           "original": "군자의 수양은 보고 듣고 말하고 행동하는 순간마다 자신을 점검하는 일이다",
@@ -5146,8 +5146,8 @@
           "proposed": "군자는 보고 듣고 말하고 행동할 때마다 자신을 돌아보며 수양한다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 11,
           "id": "ly-16-11",
           "original": "선을 향한 마음과 악을 피하는 마음은 행동할 만큼 분명해야 한다",
@@ -5157,8 +5157,8 @@
           "proposed": "선을 따르고 악을 피하려는 마음은 실제 행동으로 이어질 만큼 분명해야 한다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 12,
           "id": "ly-16-12",
           "original": "사람을 오래 남기는 것은 재산보다 삶의 기준이다",
@@ -5179,8 +5179,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 14,
           "id": "ly-16-14",
           "original": "같은 제후의 아내도 누가 누구에게 말하느냐에 따라 호칭이 달랐다",
@@ -5210,8 +5210,8 @@
         "repository": "hermes-blue/analects",
         "selector": "article.card > .big > p.hx"
       },
-      "approval_status": "awaiting_user_approval",
-      "applied": false
+      "approval_status": "approved",
+      "applied": true
     },
     {
       "book_name": "양화",
@@ -5229,8 +5229,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 2,
           "id": "ly-17-02",
           "original": "사람은 처음보다 반복된 습관 때문에 더 크게 달라진다",
@@ -5240,8 +5240,8 @@
           "proposed": "사람은 습관을 거듭하면서 처음보다 더 크게 달라진다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 3,
           "id": "ly-17-03",
           "original": "바뀌지 않는 사람은 양끝의 예외일 뿐, 대부분은 그 사이에 있다",
@@ -5273,8 +5273,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 6,
           "id": "ly-17-06",
           "original": "공경·너그러움·믿음·부지런함·베풂 다섯이 어짊을 이룬다",
@@ -5295,8 +5295,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 8,
           "id": "ly-17-08",
           "original": "좋은 덕목도 배우지 않으면 폐단으로 바뀔 수 있다",
@@ -5306,8 +5306,8 @@
           "proposed": "좋은 덕목도 배우지 않으면 오히려 해가 될 수 있다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 9,
           "id": "ly-17-09",
           "original": "시를 배우면 마음과 세상과 관계와 자연을 함께 배운다",
@@ -5317,8 +5317,8 @@
           "proposed": "시를 배우며 마음과 세상, 사람 사이의 관계와 자연을 함께 배운다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 10,
           "id": "ly-17-10",
           "original": "기본적인 시의 교양이 없으면 가까운 관계에서도 앞이 막힐 수 있다",
@@ -5328,8 +5328,8 @@
           "proposed": "시에 관한 기본 교양이 없으면 가까운 사람과의 관계에서도 어려움을 겪을 수 있다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 11,
           "id": "ly-17-11",
           "original": "예와 음악은 값비싼 물건과 악기만 갖춘다고 완성되지 않는다",
@@ -5339,8 +5339,8 @@
           "proposed": "값비싼 물건과 악기를 갖췄다고 예와 음악이 완성되는 것은 아니다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 12,
           "id": "ly-17-12",
           "original": "겉으로 강해 보여도 안에 원칙이 없으면 위엄이 아니다",
@@ -5350,8 +5350,8 @@
           "proposed": "겉으로 강해 보여도 마음속에 원칙이 없다면 위엄이 있다고 할 수 없다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 13,
           "id": "ly-17-13",
           "original": "모두에게 좋은 사람처럼 보이는 태도가 오히려 도덕 기준을 흐릴 수 있다",
@@ -5361,8 +5361,8 @@
           "proposed": "모두에게 좋은 사람처럼 보이는 태도가 오히려 옳고 그름의 기준을 흐릴 수 있다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 14,
           "id": "ly-17-14",
           "original": "들은 것을 소화하기 전에 떠벌리면 지식은 늘어도 사람은 바뀌지 않는다",
@@ -5372,8 +5372,8 @@
           "proposed": "들은 것을 제대로 이해하기 전에 떠벌리면 지식은 늘어도 사람은 바뀌지 않는다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 15,
           "id": "ly-17-15",
           "original": "자리를 얻고 잃는 데 매이면 결국 원칙보다 자기 보존을 먼저 보게 된다",
@@ -5383,8 +5383,8 @@
           "proposed": "자리를 얻거나 잃는 일에 매달리면 원칙보다 자신을 지키는 일을 먼저 생각하게 된다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 16,
           "id": "ly-17-16",
           "original": "거친 결함보다 교묘하게 변질된 결함이 더 위험하다",
@@ -5394,8 +5394,8 @@
           "proposed": "거칠게 드러나는 결함보다 교묘하게 변질된 결함이 더 위험하다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 17,
           "id": "ly-17-17",
           "original": "말과 표정을 잘 꾸미는 것과 진실한 어짐은 다르다",
@@ -5405,8 +5405,8 @@
           "proposed": "말과 표정을 잘 꾸미는 것과 진실로 어진 것은 다르다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 18,
           "id": "ly-17-18",
           "original": "인기 있는 것이 바른 기준을 밀어내는 순간을 경계한다",
@@ -5438,8 +5438,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 21,
           "id": "ly-17-21",
           "original": "상례의 길이는 달력이 아니라 마음이 편안한지로 정한다",
@@ -5449,8 +5449,8 @@
           "proposed": "상을 치르는 기간은 달력으로 정하지 않고 마음이 편안한지를 살펴 정한다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 22,
           "id": "ly-17-22",
           "original": "생각 없이 시간 보내느니 규칙 있는 놀이에라도 마음 쓰는 편이 낫다",
@@ -5460,8 +5460,8 @@
           "proposed": "생각 없이 시간을 보내느니 규칙이 있는 놀이라도 하며 마음을 쓰는 편이 낫다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 23,
           "id": "ly-17-23",
           "original": "용기는 옳음의 기준이 없으면 반란이나 약탈의 힘이 될 수 있다",
@@ -5471,8 +5471,8 @@
           "proposed": "용기도 옳고 그름을 가릴 기준이 없으면 반란이나 약탈에 쓰일 수 있다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 24,
           "id": "ly-17-24",
           "original": "어짐은 모든 행동을 좋게 봐주는 태도가 아니다",
@@ -5482,8 +5482,8 @@
           "proposed": "어진 사람이라고 모든 행동을 좋게 봐주는 것은 아니다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 25,
           "id": "ly-17-25",
           "original": "이 구절을 오늘날 모든 여성에게 일반화해 읽어서는 안 된다",
@@ -5493,8 +5493,8 @@
           "proposed": "이 구절이 오늘날 모든 여성에게도 해당한다고 읽어서는 안 된다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 26,
           "id": "ly-17-26",
           "original": "오랜 세월 고치지 않은 습관은 시간이 갈수록 바꾸기 어려워진다",
@@ -5524,16 +5524,16 @@
         "repository": "hermes-blue/analects",
         "selector": "article.card > .big > p.hx"
       },
-      "approval_status": "awaiting_user_approval",
-      "applied": false
+      "approval_status": "approved",
+      "applied": true
     },
     {
       "book_name": "미자",
       "book_number": 18,
       "cards": [
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 1,
           "id": "ly-18-01",
           "original": "같은 어짐도 처지에 따라 떠남·견딤·죽음처럼 다른 선택으로 나타날 수 있다",
@@ -5543,8 +5543,8 @@
           "proposed": "같은 어짊을 지녔어도 처지에 따라 떠나거나 견디거나 죽음을 택할 수 있다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 2,
           "id": "ly-18-02",
           "original": "어디에 있느냐보다 어디서도 원칙을 굽히지 않는 것이 문제다",
@@ -5554,8 +5554,8 @@
           "proposed": "어디에 있느냐보다 어디서든 원칙을 굽히지 않는다는 점이 문제다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 3,
           "id": "ly-18-03",
           "original": "높은 대우보다 실제로 쓰일 수 있는지가 더 중요하다",
@@ -5565,8 +5565,8 @@
           "proposed": "높은 대우를 받는 것보다 실제로 쓰일 수 있는지가 더 중요하다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 4,
           "id": "ly-18-04",
           "original": "향락 자체보다 그 때문에 공적 책임을 버리는 것이 문제다",
@@ -5598,8 +5598,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 7,
           "id": "ly-18-07",
           "original": "자기만 깨끗하게 살려다 사람 사이의 큰 책임까지 버려서는 안 된다",
@@ -5609,8 +5609,8 @@
           "proposed": "혼자 깨끗하게 살려다가 사람 사이에서 져야 할 큰 책임까지 버려서는 안 된다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 8,
           "id": "ly-18-08",
           "original": "나아감도 물러남도 한 가지 방식에 자신을 묶지 않는다",
@@ -5620,8 +5620,8 @@
           "proposed": "나아갈 때든 물러날 때든 한 가지 방식만 고집하지 않는다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 9,
           "id": "ly-18-09",
           "original": "음악을 맡은 사람들이 하나둘 떠나는 모습은 노나라 예악 질서의 붕괴를 보여 준다",
@@ -5631,8 +5631,8 @@
           "proposed": "음악을 맡은 사람들이 하나둘 떠나는 모습에서 노나라의 예악 질서가 무너지고 있음을 알 수 있다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 10,
           "id": "ly-18-10",
           "original": "사람을 쓸 때 한 사람에게 모든 장점을 다 요구해서는 안 된다",
@@ -5673,16 +5673,16 @@
         "repository": "hermes-blue/analects",
         "selector": "article.card > .big > p.hx"
       },
-      "approval_status": "awaiting_user_approval",
-      "applied": false
+      "approval_status": "approved",
+      "applied": true
     },
     {
       "book_name": "자장",
       "book_number": 19,
       "cards": [
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 1,
           "id": "ly-19-01",
           "original": "삶의 큰 고비마다 무엇을 먼저 생각해야 하는지가 선비를 가른다",
@@ -5692,8 +5692,8 @@
           "proposed": "삶의 큰 고비마다 무엇을 먼저 생각하느냐에 따라 선비의 됨됨이가 드러난다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 2,
           "id": "ly-19-02",
           "original": "덕은 넓게 펼치고 도에 대한 믿음은 깊게 가져야 실제 힘이 생긴다",
@@ -5703,8 +5703,8 @@
           "proposed": "덕을 널리 펴고 도를 깊이 믿어야 실제 힘을 발휘한다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 3,
           "id": "ly-19-03",
           "original": "사람을 넓게 받아들이되 해로운 관계까지 분별 없이 품을 필요는 없다",
@@ -5725,8 +5725,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 5,
           "id": "ly-19-05",
           "original": "배움은 새것을 더하면서 이미 익힌 것을 잃지 않는 과정이다",
@@ -5736,8 +5736,8 @@
           "proposed": "배움은 새로운 것을 익히면서 이미 배운 것도 잊지 않는 일이다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 6,
           "id": "ly-19-06",
           "original": "넓게 배우되 뜻은 굳게 두고 질문은 자기 삶 가까이에서 시작한다",
@@ -5747,8 +5747,8 @@
           "proposed": "넓게 배우되 뜻을 굳게 지키고 자기 삶에 가까운 일부터 묻는다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 7,
           "id": "ly-19-07",
           "original": "장인이 작업장에 머물듯 군자도 꾸준히 배움의 자리에 있어야 한다",
@@ -5769,8 +5769,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 9,
           "id": "ly-19-09",
           "original": "군자는 멀리서 엄숙하고 가까이서는 따뜻하며 말은 분명하다",
@@ -5791,8 +5791,8 @@
           "proposed": null
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 11,
           "id": "ly-19-11",
           "original": "큰 원칙은 넘지 말되 작은 부분의 불완전함까지 같은 무게로 보지는 않는다",
@@ -5802,8 +5802,8 @@
           "proposed": "큰 원칙은 어기지 않되 작은 부분이 미흡하다고 똑같이 무겁게 보지는 않는다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 12,
           "id": "ly-19-12",
           "original": "기초 예절과 깊은 원리는 경쟁하지 않고 순서대로 이어져야 한다",
@@ -5813,8 +5813,8 @@
           "proposed": "기초 예절과 깊은 원리를 서로 경쟁시키지 않고 차례로 이어 가야 한다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 13,
           "id": "ly-19-13",
           "original": "공부와 실무는 서로를 끊는 것이 아니라 번갈아 깊게 만드는 관계이다",
@@ -5824,8 +5824,8 @@
           "proposed": "공부와 실무는 서로 끊어져 있지 않고 번갈아 서로를 깊게 해 준다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 14,
           "id": "ly-19-14",
           "original": "상례의 중심은 화려한 형식보다 진실한 슬픔에 있다",
@@ -5835,8 +5835,8 @@
           "proposed": "상을 치를 때는 화려한 형식보다 진실한 슬픔이 중심이 되어야 한다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 15,
           "id": "ly-19-15",
           "original": "어려운 일을 해내는 능력과 사람을 향한 깊은 어짐은 같은 것이 아니다",
@@ -5846,8 +5846,8 @@
           "proposed": "어려운 일을 해내는 능력과 사람을 대하는 깊은 어짊은 다르다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 16,
           "id": "ly-19-16",
           "original": "겉으로 큰 기세가 있어도 다른 사람과 함께 어짐을 이루는 힘은 별개이다",
@@ -5857,8 +5857,8 @@
           "proposed": "겉으로 기세가 당당한지와 남과 함께 어짊을 이룰 수 있는지는 따로 보아야 한다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 17,
           "id": "ly-19-17",
           "original": "부모를 잃은 슬픔에서는 꾸미지 않은 인간의 진심이 가장 깊게 드러난다",
@@ -5868,8 +5868,8 @@
           "proposed": "부모를 잃고 슬퍼할 때 꾸밈없는 진심이 가장 깊게 드러난다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 18,
           "id": "ly-19-18",
           "original": "앞사람이 세운 것을 함부로 바꾸지 않는 것도 어려운 효도다",
@@ -5879,8 +5879,8 @@
           "proposed": "앞선 사람이 세운 것을 함부로 바꾸지 않는 것 역시 실천하기 어려운 효도다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 19,
           "id": "ly-19-19",
           "original": "죄를 밝혀 기뻐하기보다 왜 그런 지경에 이르렀는지 먼저 보아야 한다",
@@ -5890,8 +5890,8 @@
           "proposed": "죄를 밝혀냈다고 기뻐하기보다 왜 그런 지경에 이르렀는지부터 살펴야 한다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 20,
           "id": "ly-19-20",
           "original": "한 번 악명이 굳으면 실제보다 더 많은 잘못이 그 사람에게 덧붙을 수 있다",
@@ -5901,8 +5901,8 @@
           "proposed": "한번 악명이 굳어지면 실제로 저지른 것보다 더 많은 잘못을 뒤집어쓸 수 있다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 21,
           "id": "ly-19-21",
           "original": "군자의 차이는 실수가 없는 데보다 잘못을 숨기지 않고 고치는 데 있다",
@@ -5912,8 +5912,8 @@
           "proposed": "군자는 실수가 없어서가 아니라 잘못을 숨기지 않고 고친다는 점에서 다르다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 22,
           "id": "ly-19-22",
           "original": "정해진 스승 하나보다 세상 곳곳이 스승이다",
@@ -5923,8 +5923,8 @@
           "proposed": "스승을 한 사람으로 한정하지 않고 세상 곳곳에서 배운다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 23,
           "id": "ly-19-23",
           "original": "눈에 잘 보이는 재능이 더 깊은 사람보다 커 보일 수 있다",
@@ -5934,8 +5934,8 @@
           "proposed": "재능이 눈에 잘 띄는 사람이 속이 더 깊은 사람보다 대단해 보일 수 있다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 24,
           "id": "ly-19-24",
           "original": "큰 사람의 가치는 비방으로 줄지 않고 비방한 사람의 안목만 드러난다",
@@ -5945,8 +5945,8 @@
           "proposed": "훌륭한 사람을 비방해도 그 가치는 줄지 않고 비방한 사람의 안목만 드러난다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 25,
           "id": "ly-19-25",
           "original": "사람을 평가하는 한마디가 오히려 말한 사람의 안목을 보여 준다",
@@ -5976,16 +5976,16 @@
         "repository": "hermes-blue/analects",
         "selector": "article.card > .big > p.hx"
       },
-      "approval_status": "awaiting_user_approval",
-      "applied": false
+      "approval_status": "approved",
+      "applied": true
     },
     {
       "book_name": "요왈",
       "book_number": 20,
       "cards": [
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 1,
           "id": "ly-20-01",
           "original": "좋은 통치는 백성의 잘못까지 먼저 통치자의 책임과 연결해 묻는다",
@@ -5995,8 +5995,8 @@
           "proposed": "좋은 통치에서는 백성이 잘못했을 때도 통치자에게 어떤 책임이 있는지 먼저 묻는다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 2,
           "id": "ly-20-02",
           "original": "좋은 정치는 성과뿐 아니라 백성을 대하는 방식까지 바르게 해야 한다",
@@ -6006,8 +6006,8 @@
           "proposed": "정치를 잘하려면 성과를 내는 것뿐 아니라 백성을 대하는 방식도 바르게 해야 한다"
         },
         {
-          "applied": false,
-          "approval_status": "awaiting_user_approval",
+          "applied": true,
+          "approval_status": "approved",
           "chapter": 3,
           "id": "ly-20-03",
           "original": "논어는 한계를 알고 예로 서며 말을 분별해 사람을 아는 데서 끝난다",
@@ -6037,8 +6037,8 @@
         "repository": "hermes-blue/analects",
         "selector": "article.card > .big > p.hx"
       },
-      "approval_status": "awaiting_user_approval",
-      "applied": false
+      "approval_status": "approved",
+      "applied": true
     }
   ],
   "content_review_performed": false,
@@ -6061,5 +6061,8 @@
     "path": "쉬운설명카드-문체다듬기/이장의핵심-전체.json",
     "repository": "hermes-blue/analects-qa"
   },
-  "total_reviewed": 498
+  "total_reviewed": 498,
+  "applied_to_revision_json": true,
+  "source_html_applied": false,
+  "approval_note": "사용자가 이 대화에서 324개 전체 수정 및 수정본 반영을 지시함."
 }
