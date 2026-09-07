@@ -1,0 +1,159 @@
+{
+  "status": "source_available_cards_complete",
+  "source_baseline_commit": "ef23919759fb969d3ac8b2d29422ebc81c9e5767",
+  "total_books": 20,
+  "total_cards": 498,
+  "titles_rewritten": 491,
+  "openings_rewritten": 491,
+  "source_missing": [
+    "ly-01-11",
+    "ly-03-21",
+    "ly-08-17",
+    "ly-09-23",
+    "ly-13-14",
+    "ly-17-23",
+    "ly-19-12"
+  ],
+  "batch_reviews": 100,
+  "batch_sizes": "99 batches of 5; final batch of 3",
+  "all_non_target_fields_preserved": true,
+  "length_review_flags": 0,
+  "books": [
+    {
+      "file": "01-hakyi.json",
+      "total": 16,
+      "rewritten": 15,
+      "source_missing": [
+        "ly-01-11"
+      ]
+    },
+    {
+      "file": "02-wijeong.json",
+      "total": 24,
+      "rewritten": 24,
+      "source_missing": []
+    },
+    {
+      "file": "03-palil.json",
+      "total": 26,
+      "rewritten": 25,
+      "source_missing": [
+        "ly-03-21"
+      ]
+    },
+    {
+      "file": "04-iin.json",
+      "total": 26,
+      "rewritten": 26,
+      "source_missing": []
+    },
+    {
+      "file": "05-gongyajang.json",
+      "total": 27,
+      "rewritten": 27,
+      "source_missing": []
+    },
+    {
+      "file": "06-yongya.json",
+      "total": 28,
+      "rewritten": 28,
+      "source_missing": []
+    },
+    {
+      "file": "07-suli.json",
+      "total": 37,
+      "rewritten": 37,
+      "source_missing": []
+    },
+    {
+      "file": "08-taebaek.json",
+      "total": 21,
+      "rewritten": 20,
+      "source_missing": [
+        "ly-08-17"
+      ]
+    },
+    {
+      "file": "09-jahan.json",
+      "total": 30,
+      "rewritten": 29,
+      "source_missing": [
+        "ly-09-23"
+      ]
+    },
+    {
+      "file": "10-hyangdang.json",
+      "total": 17,
+      "rewritten": 17,
+      "source_missing": []
+    },
+    {
+      "file": "11-seonjin.json",
+      "total": 25,
+      "rewritten": 25,
+      "source_missing": []
+    },
+    {
+      "file": "12-anyeon.json",
+      "total": 24,
+      "rewritten": 24,
+      "source_missing": []
+    },
+    {
+      "file": "13-jaro.json",
+      "total": 30,
+      "rewritten": 29,
+      "source_missing": [
+        "ly-13-14"
+      ]
+    },
+    {
+      "file": "14-heonmun.json",
+      "total": 47,
+      "rewritten": 47,
+      "source_missing": []
+    },
+    {
+      "file": "15-wiryeonggong.json",
+      "total": 41,
+      "rewritten": 41,
+      "source_missing": []
+    },
+    {
+      "file": "16-gyessi.json",
+      "total": 14,
+      "rewritten": 14,
+      "source_missing": []
+    },
+    {
+      "file": "17-yanghwa.json",
+      "total": 26,
+      "rewritten": 25,
+      "source_missing": [
+        "ly-17-23"
+      ]
+    },
+    {
+      "file": "18-mija.json",
+      "total": 11,
+      "rewritten": 11,
+      "source_missing": []
+    },
+    {
+      "file": "19-jajang.json",
+      "total": 25,
+      "rewritten": 24,
+      "source_missing": [
+        "ly-19-12"
+      ]
+    },
+    {
+      "file": "20-yowal.json",
+      "total": 3,
+      "rewritten": 3,
+      "source_missing": []
+    }
+  ],
+  "source_limitations": "원문 부재 7장은 기존 두 필드를 유지하되 신규 원고에서 제외했다. 일부 본문의 발췌 생략, 번역·화자 불일치와 주석의 상반된 견해는 해당 묶음 평가에 기록했다. 이번 작업은 본문 교정이나 번역 정확성 인증이 아니다.",
+  "final_edit": "위령공35 여는말의 생략된 서술어를 분명히 하여 읽기 쉽게 다듬었다."
+}
