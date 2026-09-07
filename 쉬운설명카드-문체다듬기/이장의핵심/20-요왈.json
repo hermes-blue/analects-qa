@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0",
+  "scope": "이 장의 핵심",
+  "source": {
+    "repository": "hermes-blue/analects",
+    "branch": "트랙/뉴코퍼스",
+    "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+    "path": "1차완성본/쉬운설명카드/20-요왈.html",
+    "blob_sha": "aeb63caba882184daadb3a34286721a3b36ae62c",
+    "selector": "article.card > .big > p.hx",
+    "identity": "article.card의 id 그대로 사용"
+  },
+  "book_number": 20,
+  "book_name": "요왈",
+  "cards": [
+    {
+      "id": "ly-20-01",
+      "chapter": 1,
+      "original": "좋은 통치는 백성의 잘못까지 먼저 통치자의 책임과 연결해 묻는다",
+      "revised": "좋은 통치에서는 백성의 잘못까지 먼저 통치자의 책임과 연결해 묻는다",
+      "changed": true,
+      "reason": "‘통치는 … 묻는다’의 조사 호응만 다듬었다."
+    },
+    {
+      "id": "ly-20-02",
+      "chapter": 2,
+      "original": "좋은 정치는 성과뿐 아니라 백성을 대하는 방식까지 바르게 해야 한다",
+      "revised": "좋은 정치는 성과뿐 아니라 백성을 대하는 방식까지 바르게 해야 한다",
+      "changed": false,
+      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+    },
+    {
+      "id": "ly-20-03",
+      "chapter": 3,
+      "original": "논어는 한계를 알고 예로 서며 말을 분별해 사람을 아는 데서 끝난다",
+      "revised": "논어는 한계를 알고 예로 서며 말을 분별해 사람을 아는 데서 끝난다",
+      "changed": false,
+      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+    }
+  ],
+  "self_review": {
+    "reviewed": 3,
+    "changed": 1,
+    "unchanged": 2,
+    "content_review_performed": false,
+    "assessment": "3개 중 1개만 수정했다. 마지막 편의 의미나 전체 논어의 결말은 검수하지 않았다. 기존 핵심의 주장과 말끝을 유지했다.",
+    "carry_forward_to_next_book": "이 장의 핵심 회차를 끝낸다. 다음 한자 풀이 회차에서도 의미 보존·국소 수정·편별 자체 평가를 적용한다.",
+    "held_for_meaning_preservation": [],
+    "reviewer": "이 대화의 작성자 자체 평가; 외부 독립 검수 아님"
+  }
+}
