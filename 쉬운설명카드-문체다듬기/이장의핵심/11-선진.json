@@ -41,10 +41,17 @@
       "chapter": 4,
       "id": "ly-11-04",
       "original": "가까운 가족과 바깥 사람의 평가가 함께 맞을 때 행실의 일관성이 더 분명해진다",
-      "previous_revision": "가까운 가족과 바깥 사람의 평가가 같을 때 행실의 일관성이 더 분명해진다",
-      "reason": "행실의 일관성이라는 추상 명사 풀기",
-      "revised": "가족과 바깥사람의 평가가 같으면 행실도 한결같음을 더 분명히 알 수 있다",
-      "revision_round": 2
+      "previous_revision": "가족과 바깥사람의 평가가 같으면 행실도 한결같음을 더 분명히 알 수 있다",
+      "reason": "행실도 한결같음을이라는 어색한 명사절 연결 정리",
+      "revised": "가족과 바깥사람의 평가가 같으면 그 사람이 얼마나 한결같이 행동하는지 더 분명히 알 수 있다",
+      "revision_round": 3,
+      "revision_history": [
+        {
+          "revision_round": 2,
+          "revised": "가족과 바깥사람의 평가가 같으면 행실도 한결같음을 더 분명히 알 수 있다",
+          "reason": "행실의 일관성이라는 추상 명사 풀기"
+        }
+      ]
     },
     {
       "changed": false,
@@ -194,10 +201,17 @@
       "chapter": 19,
       "id": "ly-11-19",
       "original": "좋은 성품만으로는 충분하지 않고 깊어지려면 배움과 수양이 필요하다",
-      "previous_revision": "좋은 성품만으로는 충분하지 않고 깊어지려면 배움과 수양이 필요하다",
-      "reason": "주체 없이 깊어진다는 표현 정리",
-      "revised": "좋은 성품만으로는 충분하지 않으며 더 깊이 닦으려면 배움과 수양이 필요하다",
-      "revision_round": 2
+      "previous_revision": "좋은 성품만으로는 충분하지 않으며 더 깊이 닦으려면 배움과 수양이 필요하다",
+      "reason": "깊이 닦는 대상이 빠진 문장 보완",
+      "revised": "좋은 성품만으로는 충분하지 않으며 자신을 더 깊이 닦으려면 배움과 수양이 필요하다",
+      "revision_round": 3,
+      "revision_history": [
+        {
+          "revision_round": 2,
+          "revised": "좋은 성품만으로는 충분하지 않으며 더 깊이 닦으려면 배움과 수양이 필요하다",
+          "reason": "주체 없이 깊어진다는 표현 정리"
+        }
+      ]
     },
     {
       "changed": false,
@@ -251,10 +265,17 @@
       "chapter": 25,
       "id": "ly-11-25",
       "original": "가장 큰 포부는 권력이 아니라 사람들이 어울려 사는 일상이다",
-      "previous_revision": "가장 큰 포부는 권력이 아니라 사람들이 어울려 사는 일상이다",
-      "reason": "포부와 일상을 동일시하는 서술 정리",
-      "revised": "가장 큰 포부는 권력을 얻는 데 있지 않고 사람들이 어울려 사는 일상에 있다",
-      "revision_round": 2
+      "previous_revision": "가장 큰 포부는 권력을 얻는 데 있지 않고 사람들이 어울려 사는 일상에 있다",
+      "reason": "포부가 일상에 있다는 추상적인 서술을 행동으로 풀기",
+      "revised": "가장 큰 포부는 권력을 얻는 것이 아니라 사람들이 어울려 사는 일상을 이루는 것이다",
+      "revision_round": 3,
+      "revision_history": [
+        {
+          "revision_round": 2,
+          "revised": "가장 큰 포부는 권력을 얻는 데 있지 않고 사람들이 어울려 사는 일상에 있다",
+          "reason": "포부와 일상을 동일시하는 서술 정리"
+        }
+      ]
     }
   ],
   "previous_self_review": {
@@ -269,15 +290,16 @@
     "reviewer": "이 대화의 작성자 자체 평가; 외부 독립 검수 아님",
     "unchanged": 21
   },
-  "schema_version": "2.0",
+  "schema_version": "3.0",
   "scope": "이 장의 핵심",
   "self_review": {
-    "assessment": "사용자가 승인한 2차 제안을 그대로 수정본에 반영. 이번 반영 과정에서 새 문체 변경은 하지 않음.",
+    "assessment": "3차 제안 중 사용자가 승인한 문장을 그대로 수정본에 반영. 제안이 없던 문장은 유지. 내용 검수는 하지 않음.",
     "changed": 20,
     "content_review_performed": false,
     "reviewed": 25,
     "round_2_approved_applied": 18,
-    "unchanged": 5
+    "unchanged": 5,
+    "round_3_approved_applied": 3
   },
   "source": {
     "blob_sha": "816ad65fdf62c262291949e5551e4676aa25b7b7",
@@ -287,5 +309,13 @@
     "path": "1차완성본/쉬운설명카드/11-선진.html",
     "repository": "hermes-blue/analects",
     "selector": "article.card > .big > p.hx"
+  },
+  "round_2_self_review": {
+    "assessment": "사용자가 승인한 2차 제안을 그대로 수정본에 반영. 이번 반영 과정에서 새 문체 변경은 하지 않음.",
+    "changed": 20,
+    "content_review_performed": false,
+    "reviewed": 25,
+    "round_2_approved_applied": 18,
+    "unchanged": 5
   }
 }
