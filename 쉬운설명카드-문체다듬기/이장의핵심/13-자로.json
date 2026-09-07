@@ -1,269 +1,334 @@
 {
-  "schema_version": "1.0",
-  "scope": "이 장의 핵심",
-  "source": {
-    "repository": "hermes-blue/analects",
-    "branch": "트랙/뉴코퍼스",
-    "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
-    "path": "1차완성본/쉬운설명카드/13-자로.html",
-    "blob_sha": "e9779822bb2b17ca431de651cab7e85168c58eb8",
-    "selector": "article.card > .big > p.hx",
-    "identity": "article.card의 id 그대로 사용"
-  },
-  "book_number": 13,
   "book_name": "자로",
+  "book_number": 13,
   "cards": [
     {
-      "id": "ly-13-01",
+      "changed": false,
       "chapter": 1,
+      "id": "ly-13-01",
       "original": "백성에게 요구하기 전에 지도자가 먼저 행동하고 그 일을 꾸준히 이어 간다",
-      "revised": "백성에게 요구하기 전에 지도자가 먼저 행동하고 그 일을 꾸준히 이어 간다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
+      "revised": "백성에게 요구하기 전에 지도자가 먼저 행동하고 그 일을 꾸준히 이어 간다"
     },
     {
-      "id": "ly-13-02",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 2,
+      "id": "ly-13-02",
       "original": "좋은 정치는 혼자 다 하지 않고 사람을 알아봐 알맞게 맡기는 일이다",
-      "revised": "좋은 정치는 혼자 다 하지 않고 사람을 알아봐 알맞게 맡기는 일이다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "좋은 정치는 혼자 다 하지 않고 사람을 알아봐 알맞게 맡기는 일이다",
+      "reason": "정치가 알아봐 맡긴다는 명사형 정의 풀기",
+      "revised": "정치를 잘하려면 혼자 다 하려 하지 말고 사람을 알아보아 알맞은 일을 맡겨야 한다",
+      "revision_round": 2
     },
     {
-      "id": "ly-13-03",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 3,
+      "id": "ly-13-03",
       "original": "직책의 이름과 실제 책임이 어긋나면 말과 명령부터 정치 전체까지 흔들린다",
-      "revised": "직책의 이름과 실제 책임이 어긋나면 말과 명령부터 정치 전체까지 흔들린다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "직책의 이름과 실제 책임이 어긋나면 말과 명령부터 정치 전체까지 흔들린다",
+      "reason": "부터·까지의 중첩된 호흡 정리",
+      "revised": "직책의 이름과 실제 책임이 어긋나면 말과 명령에서부터 정치 전체가 흔들린다",
+      "revision_round": 2
     },
     {
-      "id": "ly-13-04",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 4,
+      "id": "ly-13-04",
       "original": "좋은 정치는 기술보다 믿고 따를 기준을 위에서 먼저 세우는 데 있다",
-      "revised": "좋은 정치는 기술보다 믿고 따를 기준을 위에서 먼저 세우는 데 있다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "좋은 정치는 기술보다 믿고 따를 기준을 위에서 먼저 세우는 데 있다",
+      "reason": "정치가 기술보다 기준에 있다는 어긋난 비교 풀기",
+      "revised": "정치를 잘하려면 기술에 앞서 윗사람부터 믿고 따를 만한 기준을 세워야 한다",
+      "revision_round": 2
     },
     {
-      "id": "ly-13-05",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 5,
+      "id": "ly-13-05",
       "original": "많이 외워도 현실에서 판단하고 말하는 데 못 쓰면 자기 것이 아니다",
-      "revised": "많이 외워도 현실에서 판단하고 말하는 데 못 쓰면 자기 것이 아니다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "많이 외워도 현실에서 판단하고 말하는 데 못 쓰면 자기 것이 아니다",
+      "reason": "현실에서 못 쓴다는 추상적인 표현 정리",
+      "revised": "많이 외웠더라도 실제로 판단하고 말할 때 쓰지 못하면 자기 것이 아니다",
+      "revision_round": 2
     },
     {
-      "id": "ly-13-06",
+      "changed": false,
       "chapter": 6,
+      "id": "ly-13-06",
       "original": "자신은 지키지 않는 원칙을 남에게만 요구하면 명령도 힘을 잃는다",
-      "revised": "자신은 지키지 않는 원칙을 남에게만 요구하면 명령도 힘을 잃는다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
+      "revised": "자신은 지키지 않는 원칙을 남에게만 요구하면 명령도 힘을 잃는다"
     },
     {
-      "id": "ly-13-07",
+      "changed": false,
       "chapter": 7,
+      "id": "ly-13-07",
       "original": "노나라와 위나라의 정치는 형제처럼 닮았다",
-      "revised": "노나라와 위나라의 정치는 형제처럼 닮았다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
+      "revised": "노나라와 위나라의 정치는 형제처럼 닮았다"
     },
     {
-      "id": "ly-13-08",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 8,
+      "id": "ly-13-08",
       "original": "집을 잘 산다는 것은 많이 가지는 것보다 가진 만큼 만족할 줄 아는 데 가깝다",
-      "revised": "집을 잘 산다는 것은 많이 가지는 것보다 가진 만큼 만족할 줄 아는 데 가깝다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "집을 잘 산다는 것은 많이 가지는 것보다 가진 만큼 만족할 줄 아는 데 가깝다",
+      "reason": "집을 잘 산다는 어색한 표현 풀기",
+      "revised": "집안 살림을 잘한다는 것은 많이 갖기보다 가진 만큼 만족할 줄 아는 데 가깝다",
+      "revision_round": 2
     },
     {
-      "id": "ly-13-09",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 9,
+      "id": "ly-13-09",
       "original": "백성에게 도덕을 요구하기 전에 최소한의 생활 기반부터 안정시켜야 한다",
-      "revised": "백성에게 도덕을 요구하기 전에 최소한의 생활 기반부터 안정시켜야 한다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "백성에게 도덕을 요구하기 전에 최소한의 생활 기반부터 안정시켜야 한다",
+      "reason": "최소한의 생활 기반이라는 추상어 풀기",
+      "revised": "백성에게 도덕을 요구하기 전에 최소한 먹고살 바탕부터 안정시켜야 한다",
+      "revision_round": 2
     },
     {
-      "id": "ly-13-10",
+      "changed": true,
       "chapter": 10,
+      "id": "ly-13-10",
       "original": "정치는 방향 잡기에도 시간이 들고 제도와 풍속 정착에는 더 걸린다",
-      "revised": "정치는 방향을 잡는 데도 시간이 들고 제도와 풍속이 자리 잡는 데는 더 걸린다",
-      "changed": true,
-      "reason": "‘방향 잡기’, ‘제도와 풍속 정착’을 동작으로 풀어 병렬 형식을 맞췄다."
+      "reason": "‘방향 잡기’, ‘제도와 풍속 정착’을 동작으로 풀어 병렬 형식을 맞췄다.",
+      "revised": "정치는 방향을 잡는 데도 시간이 들고 제도와 풍속이 자리 잡는 데는 더 걸린다"
     },
     {
-      "id": "ly-13-11",
+      "changed": false,
       "chapter": 11,
+      "id": "ly-13-11",
       "original": "오래 굳은 폭력과 악습은 좋은 지도자 한 사람의 명령만으로 바로 사라지지 않는다",
-      "revised": "오래 굳은 폭력과 악습은 좋은 지도자 한 사람의 명령만으로 바로 사라지지 않는다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
+      "revised": "오래 굳은 폭력과 악습은 좋은 지도자 한 사람의 명령만으로 바로 사라지지 않는다"
     },
     {
-      "id": "ly-13-12",
-      "chapter": 12,
-      "original": "이상적 지도자가 와도 습관과 풍속 변화에는 세대의 시간이 필요하다",
-      "revised": "이상적인 지도자가 와도 습관과 풍속이 바뀌려면 한 세대의 시간이 필요하다",
       "changed": true,
-      "reason": "‘습관과 풍속 변화’, ‘세대의 시간’을 자연스럽게 풀었다."
+      "chapter": 12,
+      "id": "ly-13-12",
+      "original": "이상적 지도자가 와도 습관과 풍속 변화에는 세대의 시간이 필요하다",
+      "reason": "‘습관과 풍속 변화’, ‘세대의 시간’을 자연스럽게 풀었다.",
+      "revised": "이상적인 지도자가 와도 습관과 풍속이 바뀌려면 한 세대의 시간이 필요하다"
     },
     {
-      "id": "ly-13-13",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 13,
+      "id": "ly-13-13",
       "original": "남을 바로잡으려면 그 기준을 자기 삶에서 먼저 지킬 수 있어야 한다",
-      "revised": "남을 바로잡으려면 그 기준을 자기 삶에서 먼저 지킬 수 있어야 한다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "남을 바로잡으려면 그 기준을 자기 삶에서 먼저 지킬 수 있어야 한다",
+      "reason": "기준을 자기 삶에서 지킨다는 구문 정리",
+      "revised": "남을 바로잡으려면 자신부터 그 기준대로 살 수 있어야 한다",
+      "revision_round": 2
     },
     {
-      "id": "ly-13-14",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 14,
+      "id": "ly-13-14",
       "original": "권력자의 집안일과 공적인 일을 같게 보면 정치의 경계가 무너진다",
-      "revised": "권력자의 집안일과 공적인 일을 같게 보면 정치의 경계가 무너진다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "권력자의 집안일과 공적인 일을 같게 보면 정치의 경계가 무너진다",
+      "reason": "공적인 일과 정치의 경계라는 추상적 표현 풀기",
+      "revised": "권력자의 집안일과 나랏일을 같게 여기면 정치에서 지켜야 할 선이 무너진다",
+      "revision_round": 2
     },
     {
-      "id": "ly-13-15",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 15,
+      "id": "ly-13-15",
       "original": "반대하는 사람이 아무도 없는 권력은 편해 보이지만 잘못을 고칠 길도 함께 막힌다",
-      "revised": "반대하는 사람이 아무도 없는 권력은 편해 보이지만 잘못을 고칠 길도 함께 막힌다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "반대하는 사람이 아무도 없는 권력은 편해 보이지만 잘못을 고칠 길도 함께 막힌다",
+      "reason": "반대하는 사람이 없다는 늘어진 수식 정리",
+      "revised": "아무도 반대하지 않는 권력은 편해 보이지만 잘못을 고칠 길도 막혀 버린다",
+      "revision_round": 2
     },
     {
-      "id": "ly-13-16",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 16,
+      "id": "ly-13-16",
       "original": "먼 사람을 끌어오기 전에 지금 함께 사는 사람들이 만족하는 정치를 먼저 만든다",
-      "revised": "먼 사람을 끌어오기 전에 지금 함께 사는 사람들이 만족하는 정치를 먼저 만든다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "먼 사람을 끌어오기 전에 지금 함께 사는 사람들이 만족하는 정치를 먼저 만든다",
+      "reason": "먼 사람과 정치를 만든다는 결합 정리",
+      "revised": "먼 곳의 사람을 불러들이기 전에 지금 함께 사는 사람부터 만족할 수 있게 다스린다",
+      "revision_round": 2
     },
     {
-      "id": "ly-13-17",
+      "changed": false,
       "chapter": 17,
+      "id": "ly-13-17",
       "original": "빨리 성과를 내고 작은 이익을 챙기려다 보면 더 큰 일을 놓칠 수 있다",
-      "revised": "빨리 성과를 내고 작은 이익을 챙기려다 보면 더 큰 일을 놓칠 수 있다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
+      "revised": "빨리 성과를 내고 작은 이익을 챙기려다 보면 더 큰 일을 놓칠 수 있다"
     },
     {
-      "id": "ly-13-18",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 18,
+      "id": "ly-13-18",
       "original": "정직은 사실을 말하는 것만이 아니라 관계에서 져야 할 책임까지 함께 묻는 문제다",
-      "revised": "정직은 사실을 말하는 것만이 아니라 관계에서 져야 할 책임까지 함께 묻는 문제다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "정직은 사실을 말하는 것만이 아니라 관계에서 져야 할 책임까지 함께 묻는 문제다",
+      "reason": "정직은 문제라는 명사형 정의 풀기",
+      "revised": "정직을 따질 때는 사실을 말했는지뿐 아니라 사람 사이에서 져야 할 책임도 함께 물어야 한다",
+      "revision_round": 2
     },
     {
-      "id": "ly-13-19",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 19,
+      "id": "ly-13-19",
       "original": "어디서든 공손하고 일에 성실하며 사람에게 진심을 다함이 어진 삶이다",
-      "revised": "어디서든 공손하고 일에 성실하며 사람에게 진심을 다함이 어진 삶이다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "어디서든 공손하고 일에 성실하며 사람에게 진심을 다함이 어진 삶이다",
+      "reason": "다함이라는 딱딱한 명사형 정리",
+      "revised": "어디서든 공손하고 일에 성실하며 사람에게 진심을 다하는 것이 어진 삶이다",
+      "revision_round": 2
     },
     {
-      "id": "ly-13-20",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 20,
+      "id": "ly-13-20",
       "original": "선비의 첫 기준은 자기 행동을 스스로 부끄러워할 줄 아는 데 있다",
-      "revised": "선비의 첫 기준은 자기 행동을 스스로 부끄러워할 줄 아는 데 있다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "선비의 첫 기준은 자기 행동을 스스로 부끄러워할 줄 아는 데 있다",
+      "reason": "첫 기준은 데에 있다는 추상적인 서술 풀기",
+      "revised": "선비라면 먼저 자신의 행동을 부끄러워할 줄 알아야 한다",
+      "revision_round": 2
     },
     {
-      "id": "ly-13-21",
+      "changed": false,
       "chapter": 21,
+      "id": "ly-13-21",
       "original": "균형 잡힌 사람이 없다면 뜻이 크거나 절제하는 사람과 함께한다",
-      "revised": "균형 잡힌 사람이 없다면 뜻이 크거나 절제하는 사람과 함께한다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
+      "revised": "균형 잡힌 사람이 없다면 뜻이 크거나 절제하는 사람과 함께한다"
     },
     {
-      "id": "ly-13-22",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 22,
+      "id": "ly-13-22",
       "original": "좋은 마음도 오래 지키지 못하면 덕이 되기 어렵다",
-      "revised": "좋은 마음도 오래 지키지 못하면 덕이 되기 어렵다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "좋은 마음도 오래 지키지 못하면 덕이 되기 어렵다",
+      "reason": "마음이 덕이 된다는 결합 정리",
+      "revised": "좋은 마음을 오래 지키지 못하면 덕으로 이어지기 어렵다",
+      "revision_round": 2
     },
     {
-      "id": "ly-13-23",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 23,
+      "id": "ly-13-23",
       "original": "의견이 달라도 함께 어울릴 수 있고 같은 말만 한다고 진짜 조화가 생기는 것은 아니다",
-      "revised": "의견이 달라도 함께 어울릴 수 있고 같은 말만 한다고 진짜 조화가 생기는 것은 아니다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "의견이 달라도 함께 어울릴 수 있고 같은 말만 한다고 진짜 조화가 생기는 것은 아니다",
+      "reason": "조화가 생긴다는 추상적 표현 정리",
+      "revised": "의견이 달라도 어울릴 수 있고, 같은 말만 한다고 참으로 조화를 이루는 것은 아니다",
+      "revision_round": 2
     },
     {
-      "id": "ly-13-24",
+      "changed": false,
       "chapter": 24,
+      "id": "ly-13-24",
       "original": "모두가 좋아한다고 좋은 사람은 아니며 누가 왜 좋아하는지도 봐야 한다",
-      "revised": "모두가 좋아한다고 좋은 사람은 아니며 누가 왜 좋아하는지도 봐야 한다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
+      "revised": "모두가 좋아한다고 좋은 사람은 아니며 누가 왜 좋아하는지도 봐야 한다"
     },
     {
-      "id": "ly-13-25",
+      "changed": false,
       "chapter": 25,
+      "id": "ly-13-25",
       "original": "원칙이 분명한 사람은 함께 일하기는 쉽지만 아첨으로 비위를 맞추기는 어렵다",
-      "revised": "원칙이 분명한 사람은 함께 일하기는 쉽지만 아첨으로 비위를 맞추기는 어렵다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
+      "revised": "원칙이 분명한 사람은 함께 일하기는 쉽지만 아첨으로 비위를 맞추기는 어렵다"
     },
     {
-      "id": "ly-13-26",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 26,
+      "id": "ly-13-26",
       "original": "진짜 자신감은 남을 깔보는 교만보다 마음의 안정과 여유에 가깝다",
-      "revised": "진짜 자신감은 남을 깔보는 교만보다 마음의 안정과 여유에 가깝다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "진짜 자신감은 남을 깔보는 교만보다 마음의 안정과 여유에 가깝다",
+      "reason": "자신감을 안정과 여유에 가깝다고 정의하는 연결 정리",
+      "revised": "진짜 자신감은 남을 깔보는 교만보다 안정되고 여유로운 마음에 가깝다",
+      "revision_round": 2
     },
     {
-      "id": "ly-13-27",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 27,
+      "id": "ly-13-27",
       "original": "굳세고 꾸밈없고 말을 가볍게 하지 않는 성품은 어진 삶에 가까운 좋은 바탕이 된다",
-      "revised": "굳세고 꾸밈없고 말을 가볍게 하지 않는 성품은 어진 삶에 가까운 좋은 바탕이 된다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "굳세고 꾸밈없고 말을 가볍게 하지 않는 성품은 어진 삶에 가까운 좋은 바탕이 된다",
+      "reason": "가까운 좋은 바탕이라는 겹친 수식 정리",
+      "revised": "굳세고 꾸밈없으며 말을 가볍게 하지 않는 성품은 어진 삶에 가까이 가는 좋은 바탕이다",
+      "revision_round": 2
     },
     {
-      "id": "ly-13-28",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 28,
+      "id": "ly-13-28",
       "original": "친구에게는 솔직한 권면으로 형제에게는 화목한 태도로 전할 수 있다",
-      "revised": "친구에게는 솔직한 권면으로 형제에게는 화목한 태도로 전할 수 있다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "친구에게는 솔직한 권면으로 형제에게는 화목한 태도로 전할 수 있다",
+      "reason": "전달 대상이 빠진 전한다는 서술과 권면 명사형 정리",
+      "revised": "친구에게는 솔직하게 권하고 형제에게는 화목하게 대할 수 있다",
+      "revision_round": 2
     },
     {
-      "id": "ly-13-29",
+      "changed": false,
       "chapter": 29,
+      "id": "ly-13-29",
       "original": "목숨을 거는 전쟁에 내보내려면 먼저 충분히 가르치고 준비시켜야 한다",
-      "revised": "목숨을 거는 전쟁에 내보내려면 먼저 충분히 가르치고 준비시켜야 한다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
+      "revised": "목숨을 거는 전쟁에 내보내려면 먼저 충분히 가르치고 준비시켜야 한다"
     },
     {
-      "id": "ly-13-30",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 30,
+      "id": "ly-13-30",
       "original": "준비시키지 않은 사람을 전쟁에 보내는 것은 통치자가 백성을 버리는 일이다",
-      "revised": "준비시키지 않은 사람을 전쟁에 보내는 것은 통치자가 백성을 버리는 일이다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "준비시키지 않은 사람을 전쟁에 보내는 것은 통치자가 백성을 버리는 일이다",
+      "reason": "길게 겹친 관형절 정리",
+      "revised": "준비도 시키지 않고 사람을 전쟁에 보내는 것은 통치자가 백성을 버리는 일이다",
+      "revision_round": 2
     }
   ],
-  "self_review": {
-    "reviewed": 30,
-    "changed": 2,
-    "unchanged": 28,
-    "content_review_performed": false,
+  "previous_self_review": {
     "assessment": "30개 중 2개를 수정했다. 두 문장 모두 시간에 관한 기존 주장과 비교를 유지했다. 주어·목적어를 보충하려면 의미 선택이 필요한 문장은 보존했다.",
     "carry_forward_to_next_book": "표현을 고치는 데 필요한 범위를 넘어 대상을 새로 정해야 하면 수정하지 않는다.",
+    "changed": 2,
+    "content_review_performed": false,
     "held_for_meaning_preservation": [
       "8장 ‘집을 잘 산다는 것’, 28장 ‘권면으로 … 전할 수 있다’는 뜻을 새로 규정하지 않고 보존."
     ],
-    "reviewer": "이 대화의 작성자 자체 평가; 외부 독립 검수 아님"
+    "reviewed": 30,
+    "reviewer": "이 대화의 작성자 자체 평가; 외부 독립 검수 아님",
+    "unchanged": 28
+  },
+  "schema_version": "2.0",
+  "scope": "이 장의 핵심",
+  "self_review": {
+    "assessment": "사용자가 승인한 2차 제안을 그대로 수정본에 반영. 이번 반영 과정에서 새 문체 변경은 하지 않음.",
+    "changed": 21,
+    "content_review_performed": false,
+    "reviewed": 30,
+    "round_2_approved_applied": 19,
+    "unchanged": 9
+  },
+  "source": {
+    "blob_sha": "e9779822bb2b17ca431de651cab7e85168c58eb8",
+    "branch": "트랙/뉴코퍼스",
+    "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+    "identity": "article.card의 id 그대로 사용",
+    "path": "1차완성본/쉬운설명카드/13-자로.html",
+    "repository": "hermes-blue/analects",
+    "selector": "article.card > .big > p.hx"
   }
 }
