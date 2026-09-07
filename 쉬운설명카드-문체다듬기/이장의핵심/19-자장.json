@@ -109,10 +109,17 @@
       "chapter": 11,
       "id": "ly-19-11",
       "original": "큰 원칙은 넘지 말되 작은 부분의 불완전함까지 같은 무게로 보지는 않는다",
-      "previous_revision": "큰 원칙은 넘지 말되 작은 부분의 불완전함까지 같은 무게로 보지는 않는다",
-      "reason": "불완전함을 같은 무게로 본다는 추상어 풀기",
-      "revised": "큰 원칙은 어기지 않되 작은 부분이 미흡하다고 똑같이 무겁게 보지는 않는다",
-      "revision_round": 2
+      "previous_revision": "큰 원칙은 어기지 않되 작은 부분이 미흡하다고 똑같이 무겁게 보지는 않는다",
+      "reason": "'작은 부분이 미흡하다고'의 늘어진 연결을 줄임.",
+      "revised": "큰 원칙은 어기지 않되 작은 부족함까지 똑같이 무겁게 보지는 않는다",
+      "revision_round": 3,
+      "revision_history": [
+        {
+          "revision_round": 2,
+          "revised": "큰 원칙은 어기지 않되 작은 부분이 미흡하다고 똑같이 무겁게 보지는 않는다",
+          "reason": "불완전함을 같은 무게로 본다는 추상어 풀기"
+        }
+      ]
     },
     {
       "approval_status": "approved",
@@ -120,10 +127,17 @@
       "chapter": 12,
       "id": "ly-19-12",
       "original": "기초 예절과 깊은 원리는 경쟁하지 않고 순서대로 이어져야 한다",
-      "previous_revision": "기초 예절과 깊은 원리는 경쟁하지 않고 순서대로 이어져야 한다",
-      "reason": "예절과 원리가 경쟁한다는 어색한 주어 정리",
-      "revised": "기초 예절과 깊은 원리를 서로 경쟁시키지 않고 차례로 이어 가야 한다",
-      "revision_round": 2
+      "previous_revision": "기초 예절과 깊은 원리를 서로 경쟁시키지 않고 차례로 이어 가야 한다",
+      "reason": "개념끼리 '경쟁시킨다'는 어색한 표현을 풀어 씀.",
+      "revised": "기초 예절과 깊은 원리 중 무엇이 더 나은지 따지기보다 차례로 이어 가야 한다",
+      "revision_round": 3,
+      "revision_history": [
+        {
+          "revision_round": 2,
+          "revised": "기초 예절과 깊은 원리를 서로 경쟁시키지 않고 차례로 이어 가야 한다",
+          "reason": "예절과 원리가 경쟁한다는 어색한 주어 정리"
+        }
+      ]
     },
     {
       "approval_status": "approved",
@@ -131,10 +145,17 @@
       "chapter": 13,
       "id": "ly-19-13",
       "original": "공부와 실무는 서로를 끊는 것이 아니라 번갈아 깊게 만드는 관계이다",
-      "previous_revision": "공부와 실무는 서로 끊어지는 것이 아니라 번갈아 서로를 깊게 하는 관계다",
-      "reason": "관계라는 명사로 끝나는 정의 구문 정리",
-      "revised": "공부와 실무는 서로 끊어져 있지 않고 번갈아 서로를 깊게 해 준다",
-      "revision_round": 2
+      "previous_revision": "공부와 실무는 서로 끊어져 있지 않고 번갈아 서로를 깊게 해 준다",
+      "reason": "공부와 실무가 '서로를 깊게 해 준다'는 추상적인 결합을 풀어 씀.",
+      "revised": "공부와 실무는 서로 이어져 있어 번갈아 하면 둘 다 더 깊이 익힐 수 있다",
+      "revision_round": 3,
+      "revision_history": [
+        {
+          "revision_round": 2,
+          "revised": "공부와 실무는 서로 끊어져 있지 않고 번갈아 서로를 깊게 해 준다",
+          "reason": "관계라는 명사로 끝나는 정의 구문 정리"
+        }
+      ]
     },
     {
       "approval_status": "approved",
@@ -142,10 +163,17 @@
       "chapter": 14,
       "id": "ly-19-14",
       "original": "상례의 중심은 화려한 형식보다 진실한 슬픔에 있다",
-      "previous_revision": "상례의 중심은 화려한 형식보다 진실한 슬픔에 있다",
-      "reason": "상례의 중심이라는 압축된 명사 풀기",
-      "revised": "상을 치를 때는 화려한 형식보다 진실한 슬픔이 중심이 되어야 한다",
-      "revision_round": 2
+      "previous_revision": "상을 치를 때는 화려한 형식보다 진실한 슬픔이 중심이 되어야 한다",
+      "reason": "'진실한 슬픔이 중심이 되어야 한다'를 자연스러운 말로 풀어 씀.",
+      "revised": "상을 치를 때는 화려한 형식보다 진심으로 슬퍼하는 마음을 앞세워야 한다",
+      "revision_round": 3,
+      "revision_history": [
+        {
+          "revision_round": 2,
+          "revised": "상을 치를 때는 화려한 형식보다 진실한 슬픔이 중심이 되어야 한다",
+          "reason": "상례의 중심이라는 압축된 명사 풀기"
+        }
+      ]
     },
     {
       "approval_status": "approved",
@@ -279,15 +307,16 @@
     "reviewer": "이 대화의 작성자 자체 평가; 외부 독립 검수 아님",
     "unchanged": 22
   },
-  "schema_version": "2.0",
+  "schema_version": "3.0",
   "scope": "이 장의 핵심",
   "self_review": {
-    "assessment": "사용자가 승인한 2차 제안을 그대로 수정본에 반영. 이번 반영 과정에서 새 문체 변경은 하지 않음.",
+    "assessment": "3차 제안 중 사용자가 승인한 문장을 그대로 수정본에 반영. 제안이 없던 문장은 유지. 내용 검수는 하지 않음.",
     "changed": 22,
     "content_review_performed": false,
     "reviewed": 25,
     "round_2_approved_applied": 22,
-    "unchanged": 3
+    "unchanged": 3,
+    "round_3_approved_applied": 4
   },
   "source": {
     "blob_sha": "50679eceddd3d454aa9f88bdecb4c2f3e1704622",
@@ -297,5 +326,13 @@
     "path": "1차완성본/쉬운설명카드/19-자장.html",
     "repository": "hermes-blue/analects",
     "selector": "article.card > .big > p.hx"
+  },
+  "round_2_self_review": {
+    "assessment": "사용자가 승인한 2차 제안을 그대로 수정본에 반영. 이번 반영 과정에서 새 문체 변경은 하지 않음.",
+    "changed": 22,
+    "content_review_performed": false,
+    "reviewed": 25,
+    "round_2_approved_applied": 22,
+    "unchanged": 3
   }
 }
