@@ -1,14 +1,15 @@
 {
-  "processed": 300,
-  "rewritten": 296,
-  "unchanged_in_output": 5,
+  "processed": 400,
+  "rewritten": 395,
+  "unchanged_in_output": 24,
   "pending_source": [
     "ly-01-11",
     "ly-03-21",
     "ly-08-17",
-    "ly-09-23"
+    "ly-09-23",
+    "ly-13-14"
   ],
-  "batch_reviews": 60,
+  "batch_reviews": 80,
   "all_non_target_fields_preserved": true,
   "duplicate_openings": 0,
   "length_review": []
