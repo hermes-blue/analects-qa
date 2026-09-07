@@ -135,8 +135,18 @@
       "chapter": 14,
       "id": "ly-01-14",
       "original": "편안함보다 배움과 자기 교정을 앞세운다",
-      "reason": "‘자기 교정’을 쉬운 동작 표현으로 바꾸었다.",
-      "revised": "편안함보다 배움과 자신을 바로잡는 일을 앞세운다"
+      "reason": "편안함·배움·바로잡는 일의 비대칭 나열을 동작으로 정리",
+      "revised": "편안히 지내기보다 배우고 자신을 바로잡는 일을 앞세운다",
+      "revision_history": [
+        {
+          "revision_round": 1,
+          "revised": "편안함보다 배움과 자신을 바로잡는 일을 앞세운다",
+          "reason": "‘자기 교정’을 쉬운 동작 표현으로 바꾸었다."
+        }
+      ],
+      "previous_revision": "편안함보다 배움과 자신을 바로잡는 일을 앞세운다",
+      "revision_round": 3,
+      "approval_status": "approved"
     },
     {
       "approval_status": "approved",
@@ -144,10 +154,17 @@
       "chapter": 15,
       "id": "ly-01-15",
       "original": "배움은 한 단계에서 멈추지 않고 더 다듬는 일이다",
-      "previous_revision": "배움은 한 단계에서 멈추지 않고 더 다듬는 일이다",
-      "reason": "한 단계라는 추상적 표현과 생략된 다듬는 대상 정리",
-      "revised": "배운 만큼에 머무르지 않고 계속 자신을 다듬어 간다",
-      "revision_round": 2
+      "previous_revision": "배운 만큼에 머무르지 않고 계속 자신을 다듬어 간다",
+      "reason": "배운 만큼에 머무른다는 어색한 조사 연결 정리",
+      "revised": "배운 데서 멈추지 않고 계속 자신을 다듬어 간다",
+      "revision_round": 3,
+      "revision_history": [
+        {
+          "revision_round": 2,
+          "revised": "배운 만큼에 머무르지 않고 계속 자신을 다듬어 간다",
+          "reason": "한 단계라는 추상적 표현과 생략된 다듬는 대상 정리"
+        }
+      ]
     },
     {
       "changed": false,
@@ -170,15 +187,16 @@
     "reviewer": "이 대화의 작성자 자체 평가; 외부 독립 검수 아님",
     "unchanged": 14
   },
-  "schema_version": "2.0",
+  "schema_version": "3.0",
   "scope": "이 장의 핵심",
   "self_review": {
-    "assessment": "사용자가 승인한 2차 제안을 그대로 수정본에 반영. 이번 반영 과정에서 새 문체 변경은 하지 않음.",
+    "assessment": "3차 제안 중 사용자가 승인한 문장을 그대로 수정본에 반영. 제안이 없던 문장은 유지. 내용 검수는 하지 않음.",
     "changed": 11,
     "content_review_performed": false,
     "reviewed": 16,
     "round_2_approved_applied": 9,
-    "unchanged": 5
+    "unchanged": 5,
+    "round_3_approved_applied": 2
   },
   "source": {
     "blob_sha": "c33214e810660bb771b07a02630a71d805ce36bd",
@@ -188,5 +206,13 @@
     "path": "1차완성본/쉬운설명카드/01-학이.html",
     "repository": "hermes-blue/analects",
     "selector": "article.card > .big > p.hx"
+  },
+  "round_2_self_review": {
+    "assessment": "사용자가 승인한 2차 제안을 그대로 수정본에 반영. 이번 반영 과정에서 새 문체 변경은 하지 않음.",
+    "changed": 11,
+    "content_review_performed": false,
+    "reviewed": 16,
+    "round_2_approved_applied": 9,
+    "unchanged": 5
   }
 }
