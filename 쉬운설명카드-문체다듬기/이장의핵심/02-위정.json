@@ -1,221 +1,274 @@
 {
-  "schema_version": "1.0",
-  "scope": "이 장의 핵심",
-  "source": {
-    "repository": "hermes-blue/analects",
-    "branch": "트랙/뉴코퍼스",
-    "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
-    "path": "1차완성본/쉬운설명카드/02-위정.html",
-    "blob_sha": "c298f413ceb0d7f682002ee317d58f9ee9e0e448",
-    "selector": "article.card > .big > p.hx",
-    "identity": "article.card의 id 그대로 사용"
-  },
-  "book_number": 2,
   "book_name": "위정",
+  "book_number": 2,
   "cards": [
     {
-      "id": "ly-02-01",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 1,
+      "id": "ly-02-01",
       "original": "좋은 정치는 억지로 끌지 않아도 사람들이 따르게 한다",
-      "revised": "좋은 정치는 억지로 끌지 않아도 사람들이 따르게 한다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "좋은 정치는 억지로 끌지 않아도 사람들이 따르게 한다",
+      "reason": "정치가 사람을 따르게 한다는 사동 표현 풀기",
+      "revised": "정치를 잘하면 억지로 이끌지 않아도 사람들이 따른다",
+      "revision_round": 2
     },
     {
-      "id": "ly-02-02",
+      "changed": false,
       "chapter": 2,
+      "id": "ly-02-02",
       "original": "수많은 시의 바탕에는 거짓되지 않은 마음이 있다",
-      "revised": "수많은 시의 바탕에는 거짓되지 않은 마음이 있다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
+      "revised": "수많은 시의 바탕에는 거짓되지 않은 마음이 있다"
     },
     {
-      "id": "ly-02-03",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 3,
+      "id": "ly-02-03",
       "original": "벌을 피하게 하는 것보다 스스로 부끄러움을 알게 하는 정치가 깊다",
-      "revised": "벌을 피하게 하는 것보다 스스로 부끄러움을 알게 하는 정치가 깊다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "벌을 피하게 하는 것보다 스스로 부끄러움을 알게 하는 정치가 깊다",
+      "reason": "깊다는 평가의 서술 연결 정리",
+      "revised": "벌만 피하게 하는 정치보다 스스로 부끄러움을 알게 하는 정치가 더 깊이 작용한다",
+      "revision_round": 2
     },
     {
-      "id": "ly-02-04",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 4,
+      "id": "ly-02-04",
       "original": "수양은 나이가 아니라 평생 쌓여 가는 과정이다",
-      "revised": "수양은 나이가 아니라 평생 쌓여 가는 과정이다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "수양은 나이가 아니라 평생 쌓여 가는 과정이다",
+      "reason": "나이와 과정을 직접 대조하는 어색함 정리",
+      "revised": "수양은 나이만 먹는다고 이루어지지 않으며 평생 쌓아 가야 한다",
+      "revision_round": 2
     },
     {
-      "id": "ly-02-05",
+      "changed": false,
       "chapter": 5,
+      "id": "ly-02-05",
       "original": "효는 무조건 복종하는 일이 아니라 끝까지 예를 지키는 일이다",
-      "revised": "효는 무조건 복종하는 일이 아니라 끝까지 예를 지키는 일이다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
+      "revised": "효는 무조건 복종하는 일이 아니라 끝까지 예를 지키는 일이다"
     },
     {
-      "id": "ly-02-06",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 6,
+      "id": "ly-02-06",
       "original": "효는 부모에게 불필요한 걱정을 끼치지 않는 데서도 드러난다",
-      "revised": "효는 부모에게 불필요한 걱정을 끼치지 않는 데서도 드러난다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "효는 부모에게 불필요한 걱정을 끼치지 않는 데서도 드러난다",
+      "reason": "불필요한 걱정과 드러난다는 표현을 일상어로 풀기",
+      "revised": "부모에게 쓸데없는 걱정을 끼치지 않는 것도 효도다",
+      "revision_round": 2
     },
     {
-      "id": "ly-02-07",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 7,
+      "id": "ly-02-07",
       "original": "부모를 먹여 모시는 것만으로는 효가 완성되지 않는다",
-      "revised": "부모의 끼니를 챙겨 드리는 것만으로는 효가 완성되지 않는다",
-      "changed": true,
-      "reason": "‘먹여 모시는’의 부자연스러운 결합을 일상적인 표현으로 바꾸었다."
+      "previous_revision": "부모의 끼니를 챙겨 드리는 것만으로는 효가 완성되지 않는다",
+      "reason": "완성되지 않는다는 추상적 끝맺음 정리",
+      "revised": "부모의 끼니를 챙겨 드린다고 효를 다한 것은 아니다",
+      "revision_round": 2
     },
     {
-      "id": "ly-02-08",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 8,
+      "id": "ly-02-08",
       "original": "부모를 섬길 때 가장 어려운 것은 마음이 얼굴에 드러나는 순간이다",
-      "revised": "부모를 섬길 때 가장 어려운 것은 마음이 얼굴에 드러나는 순간이다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "부모를 섬길 때 가장 어려운 것은 마음이 얼굴에 드러나는 순간이다",
+      "reason": "어려운 것은 순간이라는 어긋난 연결 정리",
+      "revised": "부모를 섬길 때는 얼굴에 드러나는 마음을 다스리기가 가장 어렵다",
+      "revision_round": 2
     },
     {
-      "id": "ly-02-09",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 9,
+      "id": "ly-02-09",
       "original": "조용히 듣는 사람도 행동으로 충분히 이해를 보여줄 수 있다",
-      "revised": "조용히 듣는 사람도 얼마나 이해했는지 행동으로 충분히 드러낼 수 있다",
-      "changed": true,
-      "reason": "‘이해를 보여줄 수 있다’를 풀어 쓰되 가능성의 정도를 유지했다."
+      "previous_revision": "조용히 듣는 사람도 얼마나 이해했는지 행동으로 충분히 드러낼 수 있다",
+      "reason": "이해의 정도를 단정하지 않으면서 명사형을 자연스럽게 풀기",
+      "revised": "조용히 듣는 사람도 자신이 이해한 바를 행동으로 충분히 보여 줄 수 있다",
+      "revision_round": 2
     },
     {
-      "id": "ly-02-10",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 10,
+      "id": "ly-02-10",
       "original": "사람은 한 번의 행동보다 반복되는 선택에서 더 잘 보인다",
-      "revised": "사람은 한 번의 행동보다 반복되는 선택에서 더 잘 보인다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "사람은 한 번의 행동보다 반복되는 선택에서 더 잘 보인다",
+      "reason": "사람이 보인다는 비유를 판단하는 동작으로 풀기",
+      "revised": "사람을 알려면 한 번의 행동보다 거듭하는 선택을 보아야 한다",
+      "revision_round": 2
     },
     {
-      "id": "ly-02-11",
+      "changed": false,
       "chapter": 11,
+      "id": "ly-02-11",
       "original": "옛것을 제대로 익혀야 새것도 보인다",
-      "revised": "옛것을 제대로 익혀야 새것도 보인다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
+      "revised": "옛것을 제대로 익혀야 새것도 보인다"
     },
     {
-      "id": "ly-02-12",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 12,
+      "id": "ly-02-12",
       "original": "사람을 한 가지 기능에만 가두지 않는다",
-      "revised": "사람을 한 가지 기능에만 가두지 않는다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "사람을 한 가지 기능에만 가두지 않는다",
+      "reason": "기능에 가둔다는 압축된 비유 풀기",
+      "revised": "사람을 한 가지 기능만 하는 존재로 가두지 않는다",
+      "revision_round": 2
     },
     {
-      "id": "ly-02-13",
+      "changed": false,
       "chapter": 13,
+      "id": "ly-02-13",
       "original": "말보다 행동이 먼저다",
-      "revised": "말보다 행동이 먼저다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
+      "revised": "말보다 행동이 먼저다"
     },
     {
-      "id": "ly-02-14",
+      "changed": false,
       "chapter": 14,
+      "id": "ly-02-14",
       "original": "두루 어울리되 편을 가르지 않는다",
-      "revised": "두루 어울리되 편을 가르지 않는다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
+      "revised": "두루 어울리되 편을 가르지 않는다"
     },
     {
-      "id": "ly-02-15",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 15,
+      "id": "ly-02-15",
       "original": "배움과 생각은 따로 갈 수 없다",
-      "revised": "배움과 생각은 따로 갈 수 없다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "배움과 생각은 따로 갈 수 없다",
+      "reason": "추상 명사의 분리 비유를 풀기",
+      "revised": "배우는 일과 생각하는 일은 함께 가야 한다",
+      "revision_round": 2
     },
     {
-      "id": "ly-02-16",
+      "changed": false,
       "chapter": 16,
+      "id": "ly-02-16",
       "original": "생각이 다르다는 이유만으로 모두 배척하라는 말은 아니다",
-      "revised": "생각이 다르다는 이유만으로 모두 배척하라는 말은 아니다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
+      "revised": "생각이 다르다는 이유만으로 모두 배척하라는 말은 아니다"
     },
     {
-      "id": "ly-02-17",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 17,
+      "id": "ly-02-17",
       "original": "아는 것과 모르는 것을 정확히 가르는 것이 진짜 앎이다",
-      "revised": "아는 것과 모르는 것을 정확히 가르는 것이 진짜 앎이다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "아는 것과 모르는 것을 정확히 가르는 것이 진짜 앎이다",
+      "reason": "앎을 가른다는 추상적 연결 정리",
+      "revised": "무엇을 알고 무엇을 모르는지 분명히 아는 것이 진짜 앎이다",
+      "revision_round": 2
     },
     {
-      "id": "ly-02-18",
+      "changed": false,
       "chapter": 18,
+      "id": "ly-02-18",
       "original": "벼슬을 얻는 요령보다 믿을 만한 사람이 되는 것이 먼저다",
-      "revised": "벼슬을 얻는 요령보다 믿을 만한 사람이 되는 것이 먼저다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
+      "revised": "벼슬을 얻는 요령보다 믿을 만한 사람이 되는 것이 먼저다"
     },
     {
-      "id": "ly-02-19",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 19,
+      "id": "ly-02-19",
       "original": "사람을 어떻게 쓰느냐가 정치의 기준을 보여준다",
-      "revised": "사람을 어떻게 쓰느냐가 정치의 기준을 보여준다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "사람을 어떻게 쓰느냐가 정치의 기준을 보여준다",
+      "reason": "사람을 쓴다는 표현과 보여준다는 서술 풀기",
+      "revised": "누구에게 일을 맡기는지를 보면 그 정치의 기준을 알 수 있다",
+      "revision_round": 2
     },
     {
-      "id": "ly-02-20",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 20,
+      "id": "ly-02-20",
       "original": "사람에게 요구하기 전에 윗사람이 먼저 본보기가 되어야 한다",
-      "revised": "사람에게 요구하기 전에 윗사람이 먼저 본보기가 되어야 한다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "사람에게 요구하기 전에 윗사람이 먼저 본보기가 되어야 한다",
+      "reason": "행위의 주체를 앞에 놓고 사람 반복 줄이기",
+      "revised": "윗사람은 남에게 요구하기 전에 먼저 본보기가 되어야 한다",
+      "revision_round": 2
     },
     {
-      "id": "ly-02-21",
+      "changed": true,
       "chapter": 21,
+      "id": "ly-02-21",
       "original": "정치는 관직에 있을 때만 시작되는 일이 아니다",
-      "revised": "정치는 관직에 오른 뒤에야 시작되는 일이 아니다",
-      "changed": true,
-      "reason": "‘관직에 있을 때만 시작되는’의 어색한 시간 표현을 다듬었다."
+      "reason": "‘관직에 있을 때만 시작되는’의 어색한 시간 표현을 다듬었다.",
+      "revised": "정치는 관직에 오른 뒤에야 시작되는 일이 아니다"
     },
     {
-      "id": "ly-02-22",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 22,
+      "id": "ly-02-22",
       "original": "신뢰가 없으면 관계도 함께 움직일 수 없다",
-      "revised": "신뢰가 없으면 관계도 함께 움직일 수 없다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "신뢰가 없으면 관계도 함께 움직일 수 없다",
+      "reason": "관계가 함께 움직인다는 어색한 비유 풀기",
+      "revised": "서로 믿지 못하면 함께 나아갈 수 없다",
+      "revision_round": 2
     },
     {
-      "id": "ly-02-23",
-      "chapter": 23,
-      "original": "미래는 과거의 계승과 변화 방식을 보면 짐작할 수 있다",
-      "revised": "과거에 무엇을 이어받고 어떻게 바꾸었는지 보면 미래도 짐작할 수 있다",
       "changed": true,
-      "reason": "‘계승과 변화 방식’을 동작 표현으로 풀고 어순을 정리했다."
+      "chapter": 23,
+      "id": "ly-02-23",
+      "original": "미래는 과거의 계승과 변화 방식을 보면 짐작할 수 있다",
+      "reason": "‘계승과 변화 방식’을 동작 표현으로 풀고 어순을 정리했다.",
+      "revised": "과거에 무엇을 이어받고 어떻게 바꾸었는지 보면 미래도 짐작할 수 있다"
     },
     {
-      "id": "ly-02-24",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 24,
+      "id": "ly-02-24",
       "original": "해서는 안 될 일에 비굴하지 말고 해야 할 옳은 일에서는 물러서지 않는다",
-      "revised": "해서는 안 될 일에 비굴하지 말고 해야 할 옳은 일에서는 물러서지 않는다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "해서는 안 될 일에 비굴하지 말고 해야 할 옳은 일에서는 물러서지 않는다",
+      "reason": "일에 비굴하다는 어색한 연결과 겹친 수식 정리",
+      "revised": "해서는 안 될 일에 비굴하게 매달리지 말고, 해야 할 옳은 일에서는 물러서지 않는다",
+      "revision_round": 2
     }
   ],
-  "self_review": {
-    "reviewed": 24,
-    "changed": 4,
-    "unchanged": 20,
-    "content_review_performed": false,
+  "previous_self_review": {
     "assessment": "24개 중 표현 개선이 분명한 4개만 수정했다. ‘정치가 깊다’, ‘관계도 함께 움직일 수 없다’는 새 해석을 넣을 위험이 있어 보존했다.",
     "carry_forward_to_next_book": "서술 대상이 분명할 때만 명사 표현을 풀고, 모호한 비유를 새 주장으로 바꾸지 않는다.",
+    "changed": 4,
+    "content_review_performed": false,
     "held_for_meaning_preservation": [
       "3장 ‘정치가 깊다’, 22장 ‘관계도 함께 움직일 수 없다’, 24장 ‘해서는 안 될 일에 비굴하지 말고’는 뜻을 새로 정하지 않고 보존."
     ],
-    "reviewer": "이 대화의 작성자 자체 평가; 외부 독립 검수 아님"
+    "reviewed": 24,
+    "reviewer": "이 대화의 작성자 자체 평가; 외부 독립 검수 아님",
+    "unchanged": 20
+  },
+  "schema_version": "2.0",
+  "scope": "이 장의 핵심",
+  "self_review": {
+    "assessment": "사용자가 승인한 2차 제안을 그대로 수정본에 반영. 이번 반영 과정에서 새 문체 변경은 하지 않음.",
+    "changed": 17,
+    "content_review_performed": false,
+    "reviewed": 24,
+    "round_2_approved_applied": 15,
+    "unchanged": 7
+  },
+  "source": {
+    "blob_sha": "c298f413ceb0d7f682002ee317d58f9ee9e0e448",
+    "branch": "트랙/뉴코퍼스",
+    "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+    "identity": "article.card의 id 그대로 사용",
+    "path": "1차완성본/쉬운설명카드/02-위정.html",
+    "repository": "hermes-blue/analects",
+    "selector": "article.card > .big > p.hx"
   }
 }
