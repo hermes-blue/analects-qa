@@ -336,8 +336,18 @@
       "chapter": 35,
       "id": "ly-07-35",
       "original": "사치도 지나친 검소도 흠이지만 오만보다 고루함이 낫다",
-      "reason": "‘지나친 검소’의 부자연스러운 명사 결합을 풀었다.",
-      "revised": "사치도 지나치게 검소한 것도 흠이지만 오만보다 고루함이 낫다"
+      "reason": "명사와 서술절을 섞어 나열한 표현을 대등하게 정리",
+      "revised": "사치스러운 것도 지나치게 검소한 것도 흠이지만 오만한 것보다는 고루한 편이 낫다",
+      "revision_history": [
+        {
+          "revision_round": 1,
+          "revised": "사치도 지나치게 검소한 것도 흠이지만 오만보다 고루함이 낫다",
+          "reason": "‘지나친 검소’의 부자연스러운 명사 결합을 풀었다."
+        }
+      ],
+      "previous_revision": "사치도 지나치게 검소한 것도 흠이지만 오만보다 고루함이 낫다",
+      "revision_round": 3,
+      "approval_status": "approved"
     },
     {
       "approval_status": "approved",
@@ -371,15 +381,16 @@
     "reviewer": "이 대화의 작성자 자체 평가; 외부 독립 검수 아님",
     "unchanged": 32
   },
-  "schema_version": "2.0",
+  "schema_version": "3.0",
   "scope": "이 장의 핵심",
   "self_review": {
-    "assessment": "사용자가 승인한 2차 제안을 그대로 수정본에 반영. 이번 반영 과정에서 새 문체 변경은 하지 않음.",
+    "assessment": "3차 제안 중 사용자가 승인한 문장을 그대로 수정본에 반영. 제안이 없던 문장은 유지. 내용 검수는 하지 않음.",
     "changed": 24,
     "content_review_performed": false,
     "reviewed": 37,
     "round_2_approved_applied": 20,
-    "unchanged": 13
+    "unchanged": 13,
+    "round_3_approved_applied": 1
   },
   "source": {
     "blob_sha": "101d445b691af4fe769b64448011834773fc676c",
@@ -389,5 +400,13 @@
     "path": "1차완성본/쉬운설명카드/07-술이.html",
     "repository": "hermes-blue/analects",
     "selector": "article.card > .big > p.hx"
+  },
+  "round_2_self_review": {
+    "assessment": "사용자가 승인한 2차 제안을 그대로 수정본에 반영. 이번 반영 과정에서 새 문체 변경은 하지 않음.",
+    "changed": 24,
+    "content_review_performed": false,
+    "reviewed": 37,
+    "round_2_approved_applied": 20,
+    "unchanged": 13
   }
 }
