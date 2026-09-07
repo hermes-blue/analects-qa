@@ -1,157 +1,192 @@
 {
-  "schema_version": "1.0",
-  "scope": "이 장의 핵심",
-  "source": {
-    "repository": "hermes-blue/analects",
-    "branch": "트랙/뉴코퍼스",
-    "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
-    "path": "1차완성본/쉬운설명카드/01-학이.html",
-    "blob_sha": "c33214e810660bb771b07a02630a71d805ce36bd",
-    "selector": "article.card > .big > p.hx",
-    "identity": "article.card의 id 그대로 사용"
-  },
-  "book_number": 1,
   "book_name": "학이",
+  "book_number": 1,
   "cards": [
     {
-      "id": "ly-01-01",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 1,
+      "id": "ly-01-01",
       "original": "배움은 남의 인정보다 먼저다",
-      "revised": "배움은 남의 인정보다 먼저다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "배움은 남의 인정보다 먼저다",
+      "reason": "추상 명사끼리의 비교를 동작으로 풀기",
+      "revised": "남에게 인정받는 것보다 배우는 일이 먼저다",
+      "revision_round": 2
     },
     {
-      "id": "ly-01-02",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 2,
+      "id": "ly-01-02",
       "original": "사람을 대하는 법은 가장 가까운 관계에서 시작된다",
-      "revised": "사람을 대하는 법은 가장 가까운 관계에서 시작된다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "사람을 대하는 법은 가장 가까운 관계에서 시작된다",
+      "reason": "관계에서 시작된다는 표현을 배운다는 말로 풀기",
+      "revised": "사람을 대하는 법은 가장 가까운 사람과의 관계에서 배운다",
+      "revision_round": 2
     },
     {
-      "id": "ly-01-03",
+      "changed": false,
       "chapter": 3,
+      "id": "ly-01-03",
       "original": "듣기 좋은 말보다 진심이 먼저다",
-      "revised": "듣기 좋은 말보다 진심이 먼저다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
+      "revised": "듣기 좋은 말보다 진심이 먼저다"
     },
     {
-      "id": "ly-01-04",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 4,
+      "id": "ly-01-04",
       "original": "남을 보기 전에 자신부터 점검한다",
-      "revised": "남을 보기 전에 자신부터 점검한다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "남을 보기 전에 자신부터 점검한다",
+      "reason": "점검이라는 딱딱한 말과 모호한 보기를 다듬기",
+      "revised": "남을 살피기 전에 자신부터 돌아본다",
+      "revision_round": 2
     },
     {
-      "id": "ly-01-05",
+      "changed": false,
       "chapter": 5,
+      "id": "ly-01-05",
       "original": "좋은 정치는 백성의 삶을 함부로 흔들지 않는다",
-      "revised": "좋은 정치는 백성의 삶을 함부로 흔들지 않는다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
+      "revised": "좋은 정치는 백성의 삶을 함부로 흔들지 않는다"
     },
     {
-      "id": "ly-01-06",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 6,
+      "id": "ly-01-06",
       "original": "배움은 생활의 기본을 갖추는 데서 시작된다",
-      "revised": "배움은 생활의 기본을 갖추는 데서 시작된다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "배움은 생활의 기본을 갖추는 데서 시작된다",
+      "reason": "시작된다는 상투적인 끝맺음을 간결하게 정리",
+      "revised": "배우려면 생활의 기본부터 갖춰야 한다",
+      "revision_round": 2
     },
     {
-      "id": "ly-01-07",
+      "changed": true,
       "chapter": 7,
+      "id": "ly-01-07",
       "original": "배웠다는 말보다 관계에서 드러나는 태도가 먼저다",
-      "revised": "배웠다는 말보다 사람을 대하는 태도가 먼저다",
-      "changed": true,
-      "reason": "‘관계에서 드러나는 태도’를 일상적인 표현으로 풀었다."
+      "reason": "‘관계에서 드러나는 태도’를 일상적인 표현으로 풀었다.",
+      "revised": "배웠다는 말보다 사람을 대하는 태도가 먼저다"
     },
     {
-      "id": "ly-01-08",
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 8,
+      "id": "ly-01-08",
       "original": "사람의 무게는 겉으로 힘주는 데서 생기지 않는다",
-      "revised": "사람의 무게는 겉으로 힘주는 데서 생기지 않는다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "사람의 무게는 겉으로 힘주는 데서 생기지 않는다",
+      "reason": "사람의 무게와 힘준다는 비유를 자연스럽게 연결",
+      "revised": "사람의 진중함은 겉으로 무게를 잡는다고 생기지 않는다",
+      "revision_round": 2
     },
     {
-      "id": "ly-01-09",
-      "chapter": 9,
-      "original": "죽은 이를 정성껏 기억하는 풍속이 사람 마음도 두텁게 한다",
-      "revised": "죽은 이를 정성껏 기억하는 풍속이 사람 마음도 두텁게 한다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
-    },
-    {
-      "id": "ly-01-10",
-      "chapter": 10,
-      "original": "따뜻하고 공손하면 캐묻지 않아도 사람들이 먼저 말한다",
-      "revised": "따뜻하고 공손하면 캐묻지 않아도 사람들이 먼저 말한다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
-    },
-    {
-      "id": "ly-01-11",
-      "chapter": 11,
-      "original": "부모가 떠난 뒤에도 곧바로 모든 것을 뒤집지 않는다",
-      "revised": "부모가 떠난 뒤에도 곧바로 모든 것을 뒤집지 않는다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
-    },
-    {
-      "id": "ly-01-12",
-      "chapter": 12,
-      "original": "조화도 기준이 없으면 무너진다",
-      "revised": "조화도 기준이 없으면 무너진다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
-    },
-    {
-      "id": "ly-01-13",
-      "chapter": 13,
-      "original": "약속도 옳은 약속이어야 지킬 가치가 있다",
-      "revised": "약속도 옳은 약속이어야 지킬 가치가 있다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
-    },
-    {
-      "id": "ly-01-14",
-      "chapter": 14,
-      "original": "편안함보다 배움과 자기 교정을 앞세운다",
-      "revised": "편안함보다 배움과 자신을 바로잡는 일을 앞세운다",
+      "approval_status": "approved",
       "changed": true,
-      "reason": "‘자기 교정’을 쉬운 동작 표현으로 바꾸었다."
+      "chapter": 9,
+      "id": "ly-01-09",
+      "original": "죽은 이를 정성껏 기억하는 풍속이 사람 마음도 두텁게 한다",
+      "previous_revision": "죽은 이를 정성껏 기억하는 풍속이 사람 마음도 두텁게 한다",
+      "reason": "기억하는 풍속과 마음이 두텁다는 표현을 풀기",
+      "revised": "죽은 이를 정성껏 기리는 풍속은 사람들의 마음도 너그럽게 한다",
+      "revision_round": 2
     },
     {
-      "id": "ly-01-15",
+      "changed": false,
+      "chapter": 10,
+      "id": "ly-01-10",
+      "original": "따뜻하고 공손하면 캐묻지 않아도 사람들이 먼저 말한다",
+      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
+      "revised": "따뜻하고 공손하면 캐묻지 않아도 사람들이 먼저 말한다"
+    },
+    {
+      "approval_status": "approved",
+      "changed": true,
+      "chapter": 11,
+      "id": "ly-01-11",
+      "original": "부모가 떠난 뒤에도 곧바로 모든 것을 뒤집지 않는다",
+      "previous_revision": "부모가 떠난 뒤에도 곧바로 모든 것을 뒤집지 않는다",
+      "reason": "떠난 뒤라는 완곡한 표현과 어순 정리",
+      "revised": "부모가 돌아가셨다고 곧바로 모든 것을 뒤집지는 않는다",
+      "revision_round": 2
+    },
+    {
+      "changed": false,
+      "chapter": 12,
+      "id": "ly-01-12",
+      "original": "조화도 기준이 없으면 무너진다",
+      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
+      "revised": "조화도 기준이 없으면 무너진다"
+    },
+    {
+      "approval_status": "approved",
+      "changed": true,
+      "chapter": 13,
+      "id": "ly-01-13",
+      "original": "약속도 옳은 약속이어야 지킬 가치가 있다",
+      "previous_revision": "약속도 옳은 약속이어야 지킬 가치가 있다",
+      "reason": "약속의 불필요한 반복 정리",
+      "revised": "약속도 옳은 것이어야 지킬 가치가 있다",
+      "revision_round": 2
+    },
+    {
+      "changed": true,
+      "chapter": 14,
+      "id": "ly-01-14",
+      "original": "편안함보다 배움과 자기 교정을 앞세운다",
+      "reason": "‘자기 교정’을 쉬운 동작 표현으로 바꾸었다.",
+      "revised": "편안함보다 배움과 자신을 바로잡는 일을 앞세운다"
+    },
+    {
+      "approval_status": "approved",
+      "changed": true,
       "chapter": 15,
+      "id": "ly-01-15",
       "original": "배움은 한 단계에서 멈추지 않고 더 다듬는 일이다",
-      "revised": "배움은 한 단계에서 멈추지 않고 더 다듬는 일이다",
-      "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "previous_revision": "배움은 한 단계에서 멈추지 않고 더 다듬는 일이다",
+      "reason": "한 단계라는 추상적 표현과 생략된 다듬는 대상 정리",
+      "revised": "배운 만큼에 머무르지 않고 계속 자신을 다듬어 간다",
+      "revision_round": 2
     },
     {
-      "id": "ly-01-16",
-      "chapter": 16,
-      "original": "남이 나를 몰라주는 것보다 내가 사람을 잘못 보는 것을 걱정한다",
-      "revised": "남이 나를 몰라주는 것보다 내가 사람을 잘못 보는 것을 걱정한다",
       "changed": false,
-      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존."
+      "chapter": 16,
+      "id": "ly-01-16",
+      "original": "남이 나를 몰라주는 것보다 내가 사람을 잘못 보는 것을 걱정한다",
+      "reason": "자연스럽게 읽히거나 문체만 고쳐 얻는 이점이 분명하지 않아 보존.",
+      "revised": "남이 나를 몰라주는 것보다 내가 사람을 잘못 보는 것을 걱정한다"
     }
   ],
-  "self_review": {
-    "reviewed": 16,
-    "changed": 2,
-    "unchanged": 14,
-    "content_review_performed": false,
+  "previous_self_review": {
     "assessment": "16개를 모두 읽고 2개만 수정했다. 비교 대상과 우선순위는 유지했다. 짧고 잘 읽히는 문장과, 더 고치려면 뜻을 새로 정해야 하는 비유 표현은 보존했다.",
     "carry_forward_to_next_book": "추상어는 기계적으로 없애지 않는다. 명사 표현을 쉬운 말로 풀어도 문장이 지나치게 늘지 않는 경우만 수정한다.",
+    "changed": 2,
+    "content_review_performed": false,
     "held_for_meaning_preservation": [
       "8장 ‘사람의 무게’, 9장 ‘마음도 두텁게’는 비유를 풀며 뜻을 좁힐 수 있어 보존."
     ],
-    "reviewer": "이 대화의 작성자 자체 평가; 외부 독립 검수 아님"
+    "reviewed": 16,
+    "reviewer": "이 대화의 작성자 자체 평가; 외부 독립 검수 아님",
+    "unchanged": 14
+  },
+  "schema_version": "2.0",
+  "scope": "이 장의 핵심",
+  "self_review": {
+    "assessment": "사용자가 승인한 2차 제안을 그대로 수정본에 반영. 이번 반영 과정에서 새 문체 변경은 하지 않음.",
+    "changed": 11,
+    "content_review_performed": false,
+    "reviewed": 16,
+    "round_2_approved_applied": 9,
+    "unchanged": 5
+  },
+  "source": {
+    "blob_sha": "c33214e810660bb771b07a02630a71d805ce36bd",
+    "branch": "트랙/뉴코퍼스",
+    "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+    "identity": "article.card의 id 그대로 사용",
+    "path": "1차완성본/쉬운설명카드/01-학이.html",
+    "repository": "hermes-blue/analects",
+    "selector": "article.card > .big > p.hx"
   }
 }
