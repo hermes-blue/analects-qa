@@ -1,23 +1,12 @@
 {
-  "apply_status": "이 장의 핵심 2차 제안 324개를 사용자 승인에 따라 수정본 JSON에 반영. 원본 HTML 미적용.",
+  "apply_status": "이 장의 핵심 3차 제안 40개를 사용자 승인에 따라 수정본 JSON에 모두 반영. 원본 HTML 미적용.",
   "book_count": 20,
   "card_count": 498,
   "content_review_performed": false,
   "destination_branch": "main",
   "destination_repository": "hermes-blue/analects-qa",
   "folder": "쉬운설명카드-문체다듬기",
-  "next_passes": [
-    {
-      "scope": "이 장의 핵심 3차",
-      "status": "awaiting_user_approval",
-      "reviewed": 498,
-      "proposed": 40,
-      "keep_current": 458,
-      "approval_required_for_apply": true,
-      "applied": false,
-      "folder": "이장의핵심-3차-승인대기"
-    }
-  ],
+  "next_passes": [],
   "remaining_sections_checks": {
     "book_count": 20,
     "books": [
@@ -243,143 +232,163 @@
           "changed": 11,
           "reviewed": 16,
           "round_2_applied": 9,
-          "unchanged": 5
+          "unchanged": 5,
+          "round_3_applied": 2
         },
         {
           "book": "위정",
           "changed": 17,
           "reviewed": 24,
           "round_2_applied": 15,
-          "unchanged": 7
+          "unchanged": 7,
+          "round_3_applied": 2
         },
         {
           "book": "팔일",
-          "changed": 18,
+          "changed": 19,
           "reviewed": 26,
           "round_2_applied": 16,
-          "unchanged": 8
+          "unchanged": 7,
+          "round_3_applied": 2
         },
         {
           "book": "이인",
-          "changed": 17,
+          "changed": 18,
           "reviewed": 26,
           "round_2_applied": 13,
-          "unchanged": 9
+          "unchanged": 8,
+          "round_3_applied": 2
         },
         {
           "book": "공야장",
           "changed": 18,
           "reviewed": 27,
           "round_2_applied": 16,
-          "unchanged": 9
+          "unchanged": 9,
+          "round_3_applied": 3
         },
         {
           "book": "옹야",
           "changed": 20,
           "reviewed": 28,
           "round_2_applied": 17,
-          "unchanged": 8
+          "unchanged": 8,
+          "round_3_applied": 2
         },
         {
           "book": "술이",
           "changed": 24,
           "reviewed": 37,
           "round_2_applied": 20,
-          "unchanged": 13
+          "unchanged": 13,
+          "round_3_applied": 1
         },
         {
           "book": "태백",
           "changed": 15,
           "reviewed": 21,
           "round_2_applied": 14,
-          "unchanged": 6
+          "unchanged": 6,
+          "round_3_applied": 0
         },
         {
           "book": "자한",
           "changed": 20,
           "reviewed": 30,
           "round_2_applied": 17,
-          "unchanged": 10
+          "unchanged": 10,
+          "round_3_applied": 4
         },
         {
           "book": "향당",
           "changed": 14,
           "reviewed": 17,
           "round_2_applied": 13,
-          "unchanged": 3
+          "unchanged": 3,
+          "round_3_applied": 2
         },
         {
           "book": "선진",
           "changed": 20,
           "reviewed": 25,
           "round_2_applied": 18,
-          "unchanged": 5
+          "unchanged": 5,
+          "round_3_applied": 3
         },
         {
           "book": "안연",
           "changed": 20,
           "reviewed": 24,
           "round_2_applied": 18,
-          "unchanged": 4
+          "unchanged": 4,
+          "round_3_applied": 0
         },
         {
           "book": "자로",
           "changed": 21,
           "reviewed": 30,
           "round_2_applied": 19,
-          "unchanged": 9
+          "unchanged": 9,
+          "round_3_applied": 1
         },
         {
           "book": "헌문",
-          "changed": 31,
+          "changed": 32,
           "reviewed": 47,
           "round_2_applied": 30,
-          "unchanged": 16
+          "unchanged": 15,
+          "round_3_applied": 7
         },
         {
           "book": "위령공",
-          "changed": 29,
+          "changed": 31,
           "reviewed": 41,
           "round_2_applied": 24,
-          "unchanged": 12
+          "unchanged": 10,
+          "round_3_applied": 5
         },
         {
           "book": "계씨",
           "changed": 13,
           "reviewed": 14,
           "round_2_applied": 12,
-          "unchanged": 1
+          "unchanged": 1,
+          "round_3_applied": 0
         },
         {
           "book": "양화",
           "changed": 20,
           "reviewed": 26,
           "round_2_applied": 20,
-          "unchanged": 6
+          "unchanged": 6,
+          "round_3_applied": 0
         },
         {
           "book": "미자",
           "changed": 8,
           "reviewed": 11,
           "round_2_applied": 8,
-          "unchanged": 3
+          "unchanged": 3,
+          "round_3_applied": 0
         },
         {
           "book": "자장",
           "changed": 22,
           "reviewed": 25,
           "round_2_applied": 22,
-          "unchanged": 3
+          "unchanged": 3,
+          "round_3_applied": 4
         },
         {
           "book": "요왈",
           "changed": 3,
           "reviewed": 3,
           "round_2_applied": 3,
-          "unchanged": 0
+          "unchanged": 0,
+          "round_3_applied": 0
         }
       ],
-      "changed": 361,
+      "changed": 366,
       "checks": {
         "book_count": 20,
         "core_only_preview": true,
@@ -389,11 +398,12 @@
         "unique_ids": 498
       },
       "reviewed": 498,
-      "revision_round": 2,
+      "revision_round": 3,
       "round_2_approved_applied": 324,
       "scope": "이 장의 핵심",
-      "status": "approved_round_2_applied",
-      "unchanged": 137
+      "status": "approved_round_3_applied",
+      "unchanged": 132,
+      "round_3_approved_applied": 40
     },
     {
       "book_count": 20,
@@ -925,5 +935,11 @@
     }
   ],
   "status": "completed_selective_style_pass",
-  "total_changed_text_fields": 485
+  "total_changed_text_fields": 490,
+  "last_completed_pass": {
+    "scope": "이 장의 핵심 3차",
+    "reviewed": 498,
+    "approved_applied": 40,
+    "status": "completed"
+  }
 }
