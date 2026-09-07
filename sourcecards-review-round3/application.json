@@ -1,0 +1,154 @@
+{
+  "작업": "사료카드 2단계 여는말 · 승인된 3차 제안 반영",
+  "승인근거": "사용자: 수정반영",
+  "반영전커밋": "dc99ed79455eac0c63a5d95927f14696c2604595",
+  "제안기준커밋": "a05f1397983659834846fa1caf3bec97465b3fdd",
+  "전체카드수": 498,
+  "이번반영수": 153,
+  "이번유지수": 345,
+  "여는말외변경": false,
+  "원본폴더변경": false,
+  "반영상태": "완료",
+  "편별반영": [
+    {
+      "편번호": 1,
+      "편이름": "학이",
+      "파일": "sourcecards-style-polish/01-hakyi.json",
+      "반영전SHA": "c01eb45681ffb7818956b5dc370269e6fe5c57e8",
+      "반영수": 4
+    },
+    {
+      "편번호": 2,
+      "편이름": "위정",
+      "파일": "sourcecards-style-polish/02-wijeong.json",
+      "반영전SHA": "be3fbfe03995ac774e07f73b65338e86113c60ce",
+      "반영수": 7
+    },
+    {
+      "편번호": 3,
+      "편이름": "팔일",
+      "파일": "sourcecards-style-polish/03-palil.json",
+      "반영전SHA": "b7f15178da03ed2e39f3e3dbb5acfea4338a554e",
+      "반영수": 8
+    },
+    {
+      "편번호": 4,
+      "편이름": "이인",
+      "파일": "sourcecards-style-polish/04-iin.json",
+      "반영전SHA": "e81b6437ab82fd360673a7859f067c186f9a30ef",
+      "반영수": 6
+    },
+    {
+      "편번호": 5,
+      "편이름": "공야장",
+      "파일": "sourcecards-style-polish/05-gongyajang.json",
+      "반영전SHA": "7571c2e0f890f0589b5dd61928ad71986eaa880f",
+      "반영수": 8
+    },
+    {
+      "편번호": 6,
+      "편이름": "옹야",
+      "파일": "sourcecards-style-polish/06-yongya.json",
+      "반영전SHA": "433951d3f3b3ece809e2726e3957b6e332418eb0",
+      "반영수": 10
+    },
+    {
+      "편번호": 7,
+      "편이름": "술이",
+      "파일": "sourcecards-style-polish/07-suli.json",
+      "반영전SHA": "2d6878db433e997eea0f1c8c86478db3eb0964cc",
+      "반영수": 12
+    },
+    {
+      "편번호": 8,
+      "편이름": "태백",
+      "파일": "sourcecards-style-polish/08-taebaek.json",
+      "반영전SHA": "f4ac747c887910f5af13028dc960d9e71dea166a",
+      "반영수": 5
+    },
+    {
+      "편번호": 9,
+      "편이름": "자한",
+      "파일": "sourcecards-style-polish/09-jahan.json",
+      "반영전SHA": "158d5cc1e80729e76168c799aced81db9c0982ea",
+      "반영수": 10
+    },
+    {
+      "편번호": 10,
+      "편이름": "향당",
+      "파일": "sourcecards-style-polish/10-hyangdang.json",
+      "반영전SHA": "5ce37ef72e836ebd41c618d623a12146b8099947",
+      "반영수": 5
+    },
+    {
+      "편번호": 11,
+      "편이름": "선진",
+      "파일": "sourcecards-style-polish/11-seonjin.json",
+      "반영전SHA": "601251672196f5807ddd48abafea259236898469",
+      "반영수": 9
+    },
+    {
+      "편번호": 12,
+      "편이름": "안연",
+      "파일": "sourcecards-style-polish/12-anyeon.json",
+      "반영전SHA": "1c7f90cbf04ea53c03f371b4d6d6ec864f389cf4",
+      "반영수": 11
+    },
+    {
+      "편번호": 13,
+      "편이름": "자로",
+      "파일": "sourcecards-style-polish/13-jaro.json",
+      "반영전SHA": "a3599e3e09bcaa960e9ffec999fb9f239be5bf2f",
+      "반영수": 9
+    },
+    {
+      "편번호": 14,
+      "편이름": "헌문",
+      "파일": "sourcecards-style-polish/14-heonmun.json",
+      "반영전SHA": "478c5c10b15da86e68eb27d5c9214444c7dd3cc8",
+      "반영수": 14
+    },
+    {
+      "편번호": 15,
+      "편이름": "위령공",
+      "파일": "sourcecards-style-polish/15-wiryeonggong.json",
+      "반영전SHA": "5d80d9072454bf436aa605367593c3f99286500d",
+      "반영수": 14
+    },
+    {
+      "편번호": 16,
+      "편이름": "계씨",
+      "파일": "sourcecards-style-polish/16-gyessi.json",
+      "반영전SHA": "9a70e03db6b440af97e2ebb2be4cba7df2c0dd56",
+      "반영수": 4
+    },
+    {
+      "편번호": 17,
+      "편이름": "양화",
+      "파일": "sourcecards-style-polish/17-yanghwa.json",
+      "반영전SHA": "bcaf0eaa278e01a245e477328e385208e67855f4",
+      "반영수": 6
+    },
+    {
+      "편번호": 18,
+      "편이름": "미자",
+      "파일": "sourcecards-style-polish/18-mija.json",
+      "반영전SHA": "2b863ae6512efe87a551c542f97cc3683c4828d1",
+      "반영수": 4
+    },
+    {
+      "편번호": 19,
+      "편이름": "자장",
+      "파일": "sourcecards-style-polish/19-jajang.json",
+      "반영전SHA": "831e922ae7ab8d3b1b96e97028f1aad5b0e84ab8",
+      "반영수": 6
+    },
+    {
+      "편번호": 20,
+      "편이름": "요왈",
+      "파일": "sourcecards-style-polish/20-yowal.json",
+      "반영전SHA": "465758cc70c3254019cc8923f58cbf976f3e0a60",
+      "반영수": 1
+    }
+  ]
+}

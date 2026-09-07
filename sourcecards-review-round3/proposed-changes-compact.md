@@ -1,10 +1,10 @@
 # 사료카드 2단계 · 3차 제안 153장 — 바뀌는 부분만 비교
 
-**이번 153개 수정안은 승인 대기이며, 카드 JSON에는 반영하지 않았습니다.**
+**사용자 승인에 따라 이번 153개 수정안을 카드 JSON에 반영했습니다.**
 
 앞선 2차 제안 355장은 반영을 마쳤습니다. 그 수정본 498장 전체를 편·장 순서대로 다시 읽고, 추가 수정안 153장을 작성했습니다. 나머지 345장은 이번 검토에서 유지합니다.
 
-왼쪽은 현재 표현, 오른쪽은 승인받을 제안입니다. **달라진 부분은 굵게 표시**했습니다. 해당 카드에서 바꿀 구절이나 문장만 보여 줍니다.
+왼쪽은 반영 전 표현, 오른쪽은 승인 후 반영한 문장입니다. **달라진 부분은 굵게 표시**했습니다. 해당 카드에서 바꿀 구절이나 문장만 보여 줍니다.
 
 [문장 전체와 수정 이유 보기](proposed-changes-readable.md)
 
@@ -38,13 +38,13 @@
 | [20. 요왈](#book-20) | 3 | 1 | 2 |
 | **합계** | **498** | **153** | **345** |
 
-편·장 번호로 승인할 항목이나 다시 다듬을 항목을 지정할 수 있습니다.
+이 표는 승인된 153개 수정안의 반영 전후 기록입니다.
 
 <a id="book-01"></a>
 
 ## 1. 학이 · 4장 제안
 
-| 편·장 | 수정 전 · 현재 표현 | 수정 후 · 승인용 제안 |
+| 편·장 | 수정 전 · 반영 전 표현 | 수정 후 · 반영한 문장 |
 | --- | --- | --- |
 | 학이 1장 | <strong>이언평은</strong> 익숙한 <strong>책인데도</strong> 첫 구절 앞에서 <strong>말문이</strong> <strong>막힙니다.</strong> <strong>그</strong> <strong>사연을</strong> 들려주는 대화입니다. | 익숙한 <strong>책의</strong> 첫 구절 앞에서 <strong>이언평이</strong> <strong>왜</strong> <strong>말문을</strong> <strong>잇지 못했는지</strong> 들려주는 대화입니다. |
 | 학이 5장 | 세 임금이 정치를 <strong>물었는데</strong> 공자님의 답은 달랐습니다. | 세 임금이 정치를 <strong>어떻게 해야 하는지 물었는데,</strong> 공자님의 답은 달랐습니다. |
@@ -55,7 +55,7 @@
 
 ## 2. 위정 · 7장 제안
 
-| 편·장 | 수정 전 · 현재 표현 | 수정 후 · 승인용 제안 |
+| 편·장 | 수정 전 · 반영 전 표현 | 수정 후 · 반영한 문장 |
 | --- | --- | --- |
 | 위정 3장 | 죄목 대신 제기나 휘장을 <strong>들먹이기도</strong> 했습니다. | 죄목 대신 제기나 휘장을 <strong>언급하기도</strong> 했습니다. |
 | 위정 7장 | 왕자의 모습을 보고 맹자가 <strong>어떤</strong> <strong>생각을 했는지 나옵니다.</strong> 사람을 공경해야 한다는 <strong>말도</strong> 함께 실었습니다. | 왕자의 모습을 보고 맹자가 <strong>한</strong> <strong>말과,</strong> 사람을 공경해야 한다는 <strong>당부를</strong> 함께 실었습니다. |
@@ -69,7 +69,7 @@
 
 ## 3. 팔일 · 8장 제안
 
-| 편·장 | 수정 전 · 현재 표현 | 수정 후 · 승인용 제안 |
+| 편·장 | 수정 전 · 반영 전 표현 | 수정 후 · 반영한 문장 |
 | --- | --- | --- |
 | 팔일 2장 | 사당에 놓인 <strong>그릇과</strong> 부르는 <strong>노래를</strong> 하나씩 물으셨습니다. | 사당에 놓인 <strong>것은 어떤 그릇인지, 그곳에서</strong> 부르는 <strong>것은 무슨 노래인지</strong> 하나씩 물으셨습니다. |
 | 팔일 8장 | 『사기』는 그림의 <strong>바탕을</strong> <strong>묻던</strong> <strong>제자</strong> <strong>자하의</strong> <strong>대화</strong> 뒤에 <strong>스승의</strong> 평가와 <strong>당부도</strong> 전합니다. | 『사기』는 <strong>제자 자하가</strong> 그림의 <strong>바탕에</strong> <strong>관해</strong> <strong>나눈</strong> <strong>대화와,</strong> <strong>그</strong> 뒤에 <strong>스승이 하신</strong> 평가와 <strong>당부를</strong> 전합니다. |
@@ -84,7 +84,7 @@
 
 ## 4. 이인 · 6장 제안
 
-| 편·장 | 수정 전 · 현재 표현 | 수정 후 · 승인용 제안 |
+| 편·장 | 수정 전 · 반영 전 표현 | 수정 후 · 반영한 문장 |
 | --- | --- | --- |
 | 이인 1장 | ‘인이 있는 곳에 머문다’는 <strong>말이 행동과 정치에 어떤 뜻이 있는지</strong> 풀이합니다. | <strong>행동과 정치를 예로 들어</strong> ‘인이 있는 곳에 머문다’는 <strong>말을</strong> 풀이합니다. |
 | 이인 2장 | 인을 구하는 사람과 편안히 실천하는 <strong>사람이</strong> 어떻게 <strong>다른지,</strong> 사사로운 마음이 <strong>있는지,</strong> <strong>어떤</strong> <strong>태도로 배우는지를</strong> 살펴 설명합니다. | 인을 구하는 사람과 편안히 실천하는 <strong>사람은</strong> 어떻게 <strong>다를까요?</strong> 사사로운 마음이 <strong>있는지와</strong> <strong>배우는</strong> <strong>태도를</strong> 살펴 <strong>그 차이를</strong> 설명합니다. |
@@ -97,7 +97,7 @@
 
 ## 5. 공야장 · 8장 제안
 
-| 편·장 | 수정 전 · 현재 표현 | 수정 후 · 승인용 제안 |
+| 편·장 | 수정 전 · 반영 전 표현 | 수정 후 · 반영한 문장 |
 | --- | --- | --- |
 | 공야장 1장 | 공야장이 옥에 <strong>갇혔다는</strong> <strong>이력과</strong> 실제로 죄가 <strong>있었는지는</strong> 다른 문제였습니다. | 공야장이 옥에 <strong>갇힌</strong> <strong>적이 있다는 것과</strong> 실제로 죄가 <strong>있었다는 것은</strong> 다른 문제였습니다. |
 | 공야장 6장 | 뜻을 펼치지 <strong>못한</strong> <strong>탄식으로</strong> 읽고, | 뜻을 펼치지 <strong>못해</strong> <strong>탄식하신 말씀으로</strong> 읽고, |
@@ -112,7 +112,7 @@
 
 ## 6. 옹야 · 10장 제안
 
-| 편·장 | 수정 전 · 현재 표현 | 수정 후 · 승인용 제안 |
+| 편·장 | 수정 전 · 반영 전 표현 | 수정 후 · 반영한 문장 |
 | --- | --- | --- |
 | 옹야 1장 | <strong>소박함과</strong> <strong>지나친</strong> <strong>간소함의</strong> <strong>경계를</strong> 이야기합니다. | <strong>소박하게</strong> <strong>지내는</strong> <strong>것과</strong> <strong>격식을 지나치게 줄이는 것이 어떻게 다른지</strong> 이야기합니다. |
 | 옹야 2장 | 화를 <strong>낸 까닭과</strong> 잘못을 알아차린 <strong>뒤의</strong> <strong>행동을</strong> <strong>풀고,</strong> <strong>평소</strong> 공부와 어떤 <strong>관계가</strong> 있는지 설명합니다. | <strong>왜</strong> 화를 <strong>냈는지,</strong> 잘못을 알아차린 <strong>뒤에는</strong> <strong>어떻게</strong> <strong>행동했는지</strong> <strong>풀이하고 평소의</strong> 공부와 어떤 <strong>관련이</strong> 있는지 설명합니다. |
@@ -129,7 +129,7 @@
 
 ## 7. 술이 · 12장 제안
 
-| 편·장 | 수정 전 · 현재 표현 | 수정 후 · 승인용 제안 |
+| 편·장 | 수정 전 · 반영 전 표현 | 수정 후 · 반영한 문장 |
 | --- | --- | --- |
 | 술이 2장 | <strong>배움과</strong> <strong>가르침을</strong> <strong>말한</strong> 스승의 대답을 | <strong>배우고</strong> <strong>가르치는</strong> <strong>일에 관한</strong> 스승의 대답을 |
 | 술이 4장 | 옛 주석은 짧은 묘사에 쓰인 <strong>‘신신’은</strong> 마음이 온화하다는 뜻으로, <strong>‘요요’는</strong> 얼굴이 편안하다는 뜻으로 풀이합니다. | 옛 주석은 짧은 묘사에 쓰인 <strong>‘신신’을</strong> 마음이 온화하다는 뜻으로, <strong>‘요요’를</strong> 얼굴이 편안하다는 뜻으로 풀이합니다. |
@@ -148,7 +148,7 @@
 
 ## 8. 태백 · 5장 제안
 
-| 편·장 | 수정 전 · 현재 표현 | 수정 후 · 승인용 제안 |
+| 편·장 | 수정 전 · 반영 전 표현 | 수정 후 · 반영한 문장 |
 | --- | --- | --- |
 | 태백 1장 | 아버지가 동생과 <strong>조카에게</strong> <strong>뜻을</strong> 두고 있음을 | 아버지가 동생과 <strong>조카를</strong> <strong>염두에</strong> 두고 있음을 |
 | 태백 5장 | <strong>이</strong> <strong>태도를</strong> 실속 없이 자신을 과장하는 <strong>사람들과</strong> 견주며 | <strong>안회의</strong> <strong>이런 태도와</strong> 실속 없이 자신을 과장하는 <strong>사람들의 태도를</strong> 견주며 |
@@ -160,7 +160,7 @@
 
 ## 9. 자한 · 10장 제안
 
-| 편·장 | 수정 전 · 현재 표현 | 수정 후 · 승인용 제안 |
+| 편·장 | 수정 전 · 반영 전 표현 | 수정 후 · 반영한 문장 |
 | --- | --- | --- |
 | 자한 8장 | 옛 궁중에 놓인 <strong>보물의</strong> <strong>기록을</strong> 근거로 | 옛 궁중에 놓인 <strong>보물을</strong> <strong>기록한 글을</strong> 근거로 |
 | 자한 10장 | 스승의 <strong>깊이를</strong> 느낀다는 뜻으로 | 스승의 <strong>가르침이 얼마나 깊은지</strong> 느낀다는 뜻으로 |
@@ -177,7 +177,7 @@
 
 ## 10. 향당 · 5장 제안
 
-| 편·장 | 수정 전 · 현재 표현 | 수정 후 · 승인용 제안 |
+| 편·장 | 수정 전 · 반영 전 표현 | 수정 후 · 반영한 문장 |
 | --- | --- | --- |
 | 향당 1장 | <strong>장소마다</strong> <strong>하는</strong> <strong>일이</strong> 달랐다는 점에서 | <strong>그</strong> <strong>자리마다</strong> <strong>역할이</strong> 달랐다는 점에서 |
 | 향당 4장 | 말을 아끼는 듯한 <strong>태도와</strong> 옷자락을 <strong>다루는</strong> <strong>모습,</strong> <strong>숨</strong> <strong>쉬는</strong> <strong>방식까지</strong> 세밀하게 적었습니다. | 말을 아끼는 듯한 <strong>태도뿐 아니라,</strong> 옷자락을 <strong>어떻게</strong> <strong>했고</strong> <strong>숨을</strong> <strong>어떻게</strong> <strong>쉬었는지까지</strong> 세밀하게 적었습니다. |
@@ -189,7 +189,7 @@
 
 ## 11. 선진 · 9장 제안
 
-| 편·장 | 수정 전 · 현재 표현 | 수정 후 · 승인용 제안 |
+| 편·장 | 수정 전 · 반영 전 표현 | 수정 후 · 반영한 문장 |
 | --- | --- | --- |
 | 선진 1장 | <strong>학문과</strong> <strong>견문,</strong> 세상에서 일을 해낼 <strong>힘을</strong> <strong>나누어</strong> 살피며 | <strong>무엇을</strong> <strong>배우고 보고 들었는지,</strong> 세상에서 일을 해낼 <strong>힘은</strong> <strong>어떠했는지</strong> 살피며 |
 | 선진 3장 | 묻지 않아도 알아듣는 제자를 기뻐하신 마음과 | 묻지 않아도 알아듣는 제자를 <strong>보며</strong> 기뻐하신 마음과 |
@@ -205,7 +205,7 @@
 
 ## 12. 안연 · 11장 제안
 
-| 편·장 | 수정 전 · 현재 표현 | 수정 후 · 승인용 제안 |
+| 편·장 | 수정 전 · 반영 전 표현 | 수정 후 · 반영한 문장 |
 | --- | --- | --- |
 | 안연 2장 | 길 가는 사람을 <strong>만나고</strong> 백성에게 일을 맡길 <strong>때의</strong> <strong>태도로</strong> 그 뜻을 <strong>풀어 갑니다.</strong> | 길 가는 사람을 <strong>만나거나</strong> 백성에게 일을 맡길 <strong>때</strong> <strong>어떤 태도를 가져야 하는지 설명하며</strong> 그 뜻을 <strong>풀이합니다.</strong> |
 | 안연 3장 | 공자님이 사마우에게 <strong>말의</strong> <strong>신중함을</strong> <strong>강조한</strong> 까닭은 | 공자님이 사마우에게 <strong>신중하게</strong> <strong>말하라고</strong> <strong>강조하신</strong> 까닭은 |
@@ -223,7 +223,7 @@
 
 ## 13. 자로 · 9장 제안
 
-| 편·장 | 수정 전 · 현재 표현 | 수정 후 · 승인용 제안 |
+| 편·장 | 수정 전 · 반영 전 표현 | 수정 후 · 반영한 문장 |
 | --- | --- | --- |
 | 자로 2장 | 관원을 먼저 정하는 이유를 묻고 답한 뒤, <strong>이어</strong> | 관원을 먼저 정하는 이유를 묻고 답한 뒤, |
 | 자로 3장 | 공자님은 <strong>이름을</strong> 말씀하십니다. | 공자님은 <strong>이름에 관해</strong> 말씀하십니다. |
@@ -239,7 +239,7 @@
 
 ## 14. 헌문 · 14장 제안
 
-| 편·장 | 수정 전 · 현재 표현 | 수정 후 · 승인용 제안 |
+| 편·장 | 수정 전 · 반영 전 표현 | 수정 후 · 반영한 문장 |
 | --- | --- | --- |
 | 헌문 3장 | 이어 <strong>당시</strong> <strong>여행의</strong> <strong>어려움과</strong> 실제로 <strong>다녔다고 보는</strong> 지역을 짚습니다. | 이어 <strong>당시에는</strong> <strong>여행이</strong> <strong>얼마나 어려웠는지, 공자님이</strong> 실제로 <strong>어느</strong> 지역을 <strong>다니셨다고 보는지</strong> 짚습니다. |
 | 헌문 8장 | ‘수고롭게 한다’는 말을 <strong>보살핌으로</strong> 볼지, 실제로 힘들게 <strong>하는</strong> <strong>일로</strong> 볼지 | ‘수고롭게 한다’는 말을 <strong>보살핀다는 뜻으로</strong> 볼지, 실제로 힘들게 <strong>한다는</strong> <strong>뜻으로</strong> 볼지 |
@@ -260,7 +260,7 @@
 
 ## 15. 위령공 · 14장 제안
 
-| 편·장 | 수정 전 · 현재 표현 | 수정 후 · 승인용 제안 |
+| 편·장 | 수정 전 · 반영 전 표현 | 수정 후 · 반영한 문장 |
 | --- | --- | --- |
 | 위령공 3장 | 짧은 <strong>주석 안에</strong> 자로에 대한 <strong>평가와</strong> 앞 <strong>장들의</strong> <strong>기록</strong> <strong>시점을</strong> 함께 <strong>보는 견해가 담겨 있습니다.</strong> | <strong>이</strong> 짧은 <strong>주석은</strong> 자로에 대한 <strong>평가를</strong> 앞 <strong>장들이</strong> <strong>기록된</strong> <strong>시점과</strong> 함께 <strong>살펴봅니다.</strong> |
 | 위령공 6장 | 사어는 <strong>죽은</strong> <strong>뒤</strong> 시신을 <strong>둘</strong> <strong>자리를</strong> 아들에게 당부합니다. | 사어는 <strong>자신이</strong> <strong>죽으면</strong> 시신을 <strong>어디에</strong> <strong>둘지</strong> 아들에게 당부합니다. |
@@ -281,7 +281,7 @@
 
 ## 16. 계씨 · 4장 제안
 
-| 편·장 | 수정 전 · 현재 표현 | 수정 후 · 승인용 제안 |
+| 편·장 | 수정 전 · 반영 전 표현 | 수정 후 · 반영한 문장 |
 | --- | --- | --- |
 | 계씨 2장 | 예악과 정벌의 권한이 누구에게 있어야 하는지부터 설명합니다. <strong>이 공자 전기는</strong> 천자·제후·대부·가신의 관계가 <strong>어떻게</strong> <strong>뒤집혔는지</strong> <strong>설명하며</strong> 당시의 혼란을 보여 줍니다. | <strong>이 공자 전기는</strong> 예악과 정벌의 권한이 누구에게 있어야 하는지부터 설명합니다. <strong>이어</strong> 천자·제후·대부·가신의 관계가 <strong>뒤집힌</strong> <strong>과정을</strong> <strong>통해</strong> 당시의 혼란을 보여 줍니다. |
 | 계씨 7장 | <strong>색욕·다툼·탐욕을</strong> <strong>경계하는 가르침을 이</strong> 두 기운의 <strong>관계에서</strong> <strong>읽는</strong> <strong>주석입니다.</strong> | <strong>이</strong> <strong>주석은</strong> 두 기운의 <strong>관계를</strong> <strong>바탕으로</strong> <strong>색욕·다툼·탐욕을 경계하라는 가르침을 풀이합니다.</strong> |
@@ -292,7 +292,7 @@
 
 ## 17. 양화 · 6장 제안
 
-| 편·장 | 수정 전 · 현재 표현 | 수정 후 · 승인용 제안 |
+| 편·장 | 수정 전 · 반영 전 표현 | 수정 후 · 반영한 문장 |
 | --- | --- | --- |
 | 양화 4장 | 공자님은 자유가 다스리는 작은 고을에서 노랫소리를 <strong>듣습니다.</strong> 이 전기는 예악으로 백성을 <strong>이끄는</strong> 제자의 말과, <strong>자신의</strong> 농담을 <strong>거두는</strong> 스승의 반응을 전합니다. | 공자님은 자유가 다스리는 작은 고을에서 노랫소리를 <strong>들으십니다.</strong> 이 전기는 예악으로 백성을 <strong>이끈다는</strong> 제자의 말과, <strong>그 말을 듣고</strong> 농담을 <strong>거두신</strong> 스승의 반응을 전합니다. |
 | 양화 9장 | 마음을 북돋고 사람들과 <strong>어울리며</strong> 정치를 풍자하는 <strong>등</strong> <strong>시가 어디에</strong> 쓰이는지 나옵니다. | <strong>시가</strong> 마음을 북돋고 사람들과 <strong>어울리게 하며</strong> 정치를 풍자하는 <strong>데</strong> <strong>어떻게</strong> 쓰이는지 나옵니다. |
@@ -305,7 +305,7 @@
 
 ## 18. 미자 · 4장 제안
 
-| 편·장 | 수정 전 · 현재 표현 | 수정 후 · 승인용 제안 |
+| 편·장 | 수정 전 · 반영 전 표현 | 수정 후 · 반영한 문장 |
 | --- | --- | --- |
 | 미자 1장 | <strong>『공자가어』의</strong> <strong>답변은</strong> 임금과의 관계, 간언의 뜻과 효과를 따져 두 죽음을 다르게 평가합니다. | <strong>『공자가어』에</strong> <strong>실린 답변에서는</strong> 임금과의 관계, 간언의 뜻과 효과를 따져 두 죽음을 다르게 평가합니다. |
 | 미자 3장 | 이 대화에서는 후하게 <strong>예우하더라도</strong> 실제로 일을 <strong>맡길지는</strong> <strong>달리</strong> <strong>판단합니다.</strong> | 이 대화에서는 후하게 <strong>예우하는 것과</strong> 실제로 일을 <strong>맡기는</strong> <strong>것을</strong> <strong>구별합니다.</strong> |
@@ -316,7 +316,7 @@
 
 ## 19. 자장 · 6장 제안
 
-| 편·장 | 수정 전 · 현재 표현 | 수정 후 · 승인용 제안 |
+| 편·장 | 수정 전 · 반영 전 표현 | 수정 후 · 반영한 문장 |
 | --- | --- | --- |
 | 자장 1장 | 이 주석은 평소와 <strong>변고의</strong> <strong>상황을</strong> <strong>나누어</strong> 네 당부를 <strong>풉니다.</strong> | 이 주석은 평소와 <strong>변고가</strong> <strong>생겼을</strong> <strong>때를 구별해</strong> 네 <strong>가지</strong> 당부를 <strong>풀이합니다.</strong> |
 | 자장 2장 | 덕을 지킨다면서 <strong>한쪽만</strong> <strong>좁게 붙들고,</strong> 도를 믿는다면서 믿음이 얕은 경우를 다룹니다. | 덕을 지킨다면서 <strong>한쪽에만</strong> <strong>치우치고,</strong> 도를 믿는다면서 믿음이 얕은 경우를 다룹니다. |
@@ -329,14 +329,16 @@
 
 ## 20. 요왈 · 1장 제안
 
-| 편·장 | 수정 전 · 현재 표현 | 수정 후 · 승인용 제안 |
+| 편·장 | 수정 전 · 반영 전 표현 | 수정 후 · 반영한 문장 |
 | --- | --- | --- |
 | 요왈 1장 | 하늘과 <strong>땅을</strong> <strong>살피는</strong> <strong>앎이</strong> <strong>어떤</strong> <strong>행실과</strong> <strong>함께해야</strong> 하는지 설명하는 대목입니다. | 하늘과 <strong>땅의</strong> <strong>이치를</strong> <strong>아는</strong> <strong>데서</strong> <strong>나아가</strong> <strong>어떻게 행동해야</strong> 하는지 설명하는 대목입니다. |
 
 ---
 
-† 원문 보충 대기. 제안은 본문에 반영하지 않았습니다.
+† 원문 보충 대기 상태는 유지했습니다. 여는말 수정안은 승인 후 본문에 반영했습니다.
 
 기준: [앞선 355장을 반영한 a05f139의 카드](https://github.com/hermes-blue/analects-qa/tree/a05f1397983659834846fa1caf3bec97465b3fdd/sourcecards-style-polish).
 
 [2차 반영 기록](../sourcecards-review-round2/application.json) · [이번 검토 기록](audit.json)
+
+[이번 153장 반영 기록](application.json)
