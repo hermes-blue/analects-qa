@@ -27,10 +27,17 @@
       "chapter": 3,
       "id": "ly-05-03",
       "original": "뛰어난 재능이 있어도 사람 전체가 완성된 것은 아니다",
-      "previous_revision": "뛰어난 재능이 있어도 사람 전체가 완성된 것은 아니다",
-      "reason": "사람 전체가 완성된다는 어색한 표현 정리",
-      "revised": "뛰어난 재능이 있다고 사람됨까지 완성된 것은 아니다",
-      "revision_round": 2
+      "previous_revision": "뛰어난 재능이 있다고 사람됨까지 완성된 것은 아니다",
+      "reason": "사람됨이 완성된다는 기계적인 표현 정리",
+      "revised": "재능이 뛰어나다고 사람됨까지 나무랄 데 없는 것은 아니다",
+      "revision_round": 3,
+      "revision_history": [
+        {
+          "revision_round": 2,
+          "revised": "뛰어난 재능이 있다고 사람됨까지 완성된 것은 아니다",
+          "reason": "사람 전체가 완성된다는 어색한 표현 정리"
+        }
+      ]
     },
     {
       "approval_status": "approved",
@@ -60,10 +67,17 @@
       "chapter": 6,
       "id": "ly-05-06",
       "original": "용기는 큰 장점이지만 상황을 헤아리지 않으면 성급함이 된다",
-      "previous_revision": "용기는 큰 장점이지만 상황을 헤아리지 않으면 성급함이 된다",
-      "reason": "용기가 성급함이 된다는 명사 대비 풀기",
-      "revised": "용기는 큰 장점이지만 상황을 헤아리지 않고 발휘하면 성급한 행동이 된다",
-      "revision_round": 2
+      "previous_revision": "용기는 큰 장점이지만 상황을 헤아리지 않고 발휘하면 성급한 행동이 된다",
+      "reason": "용기 자체가 행동으로 바뀐다는 주어·서술어의 어긋남 정리",
+      "revised": "용기는 큰 장점이지만 상황을 헤아리지 않고 용기를 발휘하는 것은 성급한 행동이다",
+      "revision_round": 3,
+      "revision_history": [
+        {
+          "revision_round": 2,
+          "revised": "용기는 큰 장점이지만 상황을 헤아리지 않고 발휘하면 성급한 행동이 된다",
+          "reason": "용기가 성급함이 된다는 명사 대비 풀기"
+        }
+      ]
     },
     {
       "approval_status": "approved",
@@ -174,10 +188,17 @@
       "chapter": 18,
       "id": "ly-05-18",
       "original": "한 가지 훌륭한 덕만으로 사람 전체를 완성됐다고 단정하지 않는다",
-      "previous_revision": "한 가지 훌륭한 덕만으로 그 사람이 완성됐다고 단정하지 않는다",
-      "reason": "사람 전체의 완성이라는 압축된 표현 풀기",
-      "revised": "한 가지 훌륭한 덕을 지녔다고 사람됨까지 완성됐다고 단정하지 않는다",
-      "revision_round": 2
+      "previous_revision": "한 가지 훌륭한 덕을 지녔다고 사람됨까지 완성됐다고 단정하지 않는다",
+      "reason": "덕을 지녔다고 완성됐다고 반복되는 인용형과 기계적인 완성 표현 정리",
+      "revised": "한 가지 훌륭한 덕만으로 사람됨까지 나무랄 데 없다고 단정하지 않는다",
+      "revision_round": 3,
+      "revision_history": [
+        {
+          "revision_round": 2,
+          "revised": "한 가지 훌륭한 덕을 지녔다고 사람됨까지 완성됐다고 단정하지 않는다",
+          "reason": "사람 전체의 완성이라는 압축된 표현 풀기"
+        }
+      ]
     },
     {
       "approval_status": "approved",
@@ -277,15 +298,16 @@
     "reviewer": "이 대화의 작성자 자체 평가; 외부 독립 검수 아님",
     "unchanged": 23
   },
-  "schema_version": "2.0",
+  "schema_version": "3.0",
   "scope": "이 장의 핵심",
   "self_review": {
-    "assessment": "사용자가 승인한 2차 제안을 그대로 수정본에 반영. 이번 반영 과정에서 새 문체 변경은 하지 않음.",
+    "assessment": "3차 제안 중 사용자가 승인한 문장을 그대로 수정본에 반영. 제안이 없던 문장은 유지. 내용 검수는 하지 않음.",
     "changed": 18,
     "content_review_performed": false,
     "reviewed": 27,
     "round_2_approved_applied": 16,
-    "unchanged": 9
+    "unchanged": 9,
+    "round_3_approved_applied": 3
   },
   "source": {
     "blob_sha": "222e20ea42d90cf5c8d49d5cd063fbba6b37b8c7",
@@ -295,5 +317,13 @@
     "path": "1차완성본/쉬운설명카드/05-공야장.html",
     "repository": "hermes-blue/analects",
     "selector": "article.card > .big > p.hx"
+  },
+  "round_2_self_review": {
+    "assessment": "사용자가 승인한 2차 제안을 그대로 수정본에 반영. 이번 반영 과정에서 새 문체 변경은 하지 않음.",
+    "changed": 18,
+    "content_review_performed": false,
+    "reviewed": 27,
+    "round_2_approved_applied": 16,
+    "unchanged": 9
   }
 }
