@@ -1062,16 +1062,30 @@
     },
     {
       "book": 19,
-      "changed": false,
+      "changed": true,
       "field": "질문",
       "id": "ly-19-13",
       "index": 3,
       "key": "ly-19-13:問:3:q",
       "label": "질문",
       "original": "이 장은 공부와 실무의 관계를 어떻게 보나요?",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "이 장은 공부와 실무의 관계를 어떻게 보나요?",
-      "scope": "問"
+      "reason": "공부와 실무의 관계를 판단하는 주체를 이 장의 발언자인 자하로 밝힙니다.",
+      "revised": "자하는 공부와 실무의 관계를 어떻게 보나요?",
+      "scope": "問",
+      "revision_history": [
+        {
+          "pass": "targeted_type_13",
+          "previous_revision": "이 장은 공부와 실무의 관계를 어떻게 보나요?",
+          "revised": "자하는 공부와 실무의 관계를 어떻게 보나요?",
+          "reason": "공부와 실무의 관계를 판단하는 주체를 이 장의 발언자인 자하로 밝힙니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨 반영후 동사나 형용사를 명사화한것들 찾아봐",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "이 장은 공부와 실무의 관계를 어떻게 보나요?",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_13"
     },
     {
       "book": 19,
@@ -2085,7 +2099,7 @@
     "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_9",
+    "pass": "targeted_type_13",
     "scanned": 150,
     "approved_applied": 1,
     "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"

@@ -1,5 +1,5 @@
 {
-  "apply_status": "유형 12 승인안 4곳을 수정본 JSON에 반영. 원본 HTML 미적용.",
+  "apply_status": "유형 13 승인안 20곳을 수정본 JSON에 반영. 원본 HTML 미적용.",
   "book_count": 20,
   "card_count": 498,
   "content_review_performed": false,
@@ -412,7 +412,7 @@
     },
     {
       "book_count": 20,
-      "changed": 315,
+      "changed": 319,
       "labels_preserved": true,
       "method": "전 항목에서 문체 패턴으로 후보를 찾아 후보 문장의 문맥을 확인하는 선별 교정.",
       "name": "한자풀이",
@@ -594,7 +594,7 @@
     },
     {
       "book_count": 20,
-      "changed": 236,
+      "changed": 244,
       "labels_preserved": true,
       "method": "전 항목에서 문체 패턴으로 후보를 찾아 후보 문장의 문맥을 확인하는 선별 교정.",
       "name": "의문",
@@ -776,7 +776,7 @@
     },
     {
       "book_count": 20,
-      "changed": 189,
+      "changed": 194,
       "labels_preserved": true,
       "method": "전 항목에서 문체 패턴으로 후보를 찾아 후보 문장의 문맥을 확인하는 선별 교정.",
       "name": "쟁점",
@@ -957,18 +957,18 @@
       }
     }
   ],
-  "status": "approved_targeted_type_12_applied",
-  "total_changed_text_fields": 1106,
+  "status": "approved_targeted_type_13_applied",
+  "total_changed_text_fields": 1123,
   "last_completed_pass": {
-    "type": 12,
-    "scope": "짚다 계열의 해설 표현",
+    "type": 13,
+    "scope": "무생물 주어의 판단·인지 표현",
     "status": "approved_applied",
     "scanned": 6921,
-    "keyword_matches_context_reviewed": 13,
-    "approved_applied": 4,
-    "retained_matches": 9,
-    "approval_message": "제이슨 반영후  제이슨 반영후 , `주석은 살핍니다 / 따집니다 / 주목합니다 / 찾습니다 / ~라고 봅니다`처럼 **사람의 판단·인지 행위를 주석이 하는 구조**    이런거 찾아봐",
-    "method": "전체 검색 후 후보 13개 문맥 검토. 모든 문장 종합 정독 아님"
+    "keyword_matches_context_reviewed": 408,
+    "approved_applied": 20,
+    "retained_matches": 388,
+    "approval_message": "제이슨 반영후 동사나 형용사를 명사화한것들 찾아봐",
+    "method": "전체 검색 후 후보 408개 문맥 검토. 모든 문장 종합 정독 아님"
   },
   "targeted_reviews": [
     {
@@ -2114,6 +2114,17 @@
       "retained_matches": 9,
       "approval_message": "제이슨 반영후  제이슨 반영후 , `주석은 살핍니다 / 따집니다 / 주목합니다 / 찾습니다 / ~라고 봅니다`처럼 **사람의 판단·인지 행위를 주석이 하는 구조**    이런거 찾아봐",
       "method": "전체 검색 후 후보 13개 문맥 검토. 모든 문장 종합 정독 아님"
+    },
+    {
+      "type": 13,
+      "scope": "무생물 주어의 판단·인지 표현",
+      "status": "approved_applied",
+      "scanned": 6921,
+      "keyword_matches_context_reviewed": 408,
+      "approved_applied": 20,
+      "retained_matches": 388,
+      "approval_message": "제이슨 반영후 동사나 형용사를 명사화한것들 찾아봐",
+      "method": "전체 검색 후 후보 408개 문맥 검토. 모든 문장 종합 정독 아님"
     }
   ]
 }

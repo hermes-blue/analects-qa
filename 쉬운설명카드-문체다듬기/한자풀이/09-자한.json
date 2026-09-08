@@ -1196,15 +1196,29 @@
     },
     {
       "book": 9,
-      "changed": false,
+      "changed": true,
       "id": "ly-09-19",
       "index": 1,
       "key": "ly-09-19:語:1",
       "label": "語之어지",
       "original": "가르침을 말해 준다는 뜻입니다. 이 장은 스승이 무엇을 말했는가보다 제자가 그것을 들은 뒤 어떻게 이어 가는지를 평가합니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "가르침을 말해 준다는 뜻입니다. 이 장은 스승이 무엇을 말했는가보다 제자가 그것을 들은 뒤 어떻게 이어 가는지를 평가합니다.",
-      "scope": "語"
+      "reason": "제자의 태도를 평가한 사람을 공자님으로 밝힙니다. 기존 한자풀이에서 택한 해석은 유지합니다.",
+      "revised": "가르침을 말해 준다는 뜻입니다. 공자님은 자신이 무엇을 말했는가보다 제자가 그것을 들은 뒤 어떻게 이어 가는지를 평가합니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_13",
+          "previous_revision": "가르침을 말해 준다는 뜻입니다. 이 장은 스승이 무엇을 말했는가보다 제자가 그것을 들은 뒤 어떻게 이어 가는지를 평가합니다.",
+          "revised": "가르침을 말해 준다는 뜻입니다. 공자님은 자신이 무엇을 말했는가보다 제자가 그것을 들은 뒤 어떻게 이어 가는지를 평가합니다.",
+          "reason": "제자의 태도를 평가한 사람을 공자님으로 밝힙니다. 기존 한자풀이에서 택한 해석은 유지합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨 반영후 동사나 형용사를 명사화한것들 찾아봐",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "가르침을 말해 준다는 뜻입니다. 이 장은 스승이 무엇을 말했는가보다 제자가 그것을 들은 뒤 어떻게 이어 가는지를 평가합니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_13"
     },
     {
       "book": 9,
@@ -1971,7 +1985,7 @@
     "selector": "article.card details.st1 .w > p:not(.wh)"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_11",
+    "pass": "targeted_type_13",
     "scanned": 146,
     "approved_applied": 1,
     "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"

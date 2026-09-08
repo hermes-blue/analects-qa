@@ -602,16 +602,30 @@
     },
     {
       "book": 14,
-      "changed": false,
+      "changed": true,
       "field": "질문",
       "id": "ly-14-08",
       "index": 3,
       "key": "ly-14-08:問:3:q",
       "label": "질문",
       "original": "이 장은 사랑과 충성을 ‘기분 좋은 관계’와 다르게 보나요?",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "이 장은 사랑과 충성을 ‘기분 좋은 관계’와 다르게 보나요?",
-      "scope": "問"
+      "reason": "장 자체가 가치를 판단하는 구조를 실제 발언자인 공자님을 주어로 한 질문으로 바꿉니다. 질문의 판단 내용은 유지합니다.",
+      "revised": "이 장에서 공자님은 사랑과 충성을 ‘기분 좋은 관계’와 다르게 보나요?",
+      "scope": "問",
+      "revision_history": [
+        {
+          "pass": "targeted_type_13",
+          "previous_revision": "이 장은 사랑과 충성을 ‘기분 좋은 관계’와 다르게 보나요?",
+          "revised": "이 장에서 공자님은 사랑과 충성을 ‘기분 좋은 관계’와 다르게 보나요?",
+          "reason": "장 자체가 가치를 판단하는 구조를 실제 발언자인 공자님을 주어로 한 질문으로 바꿉니다. 질문의 판단 내용은 유지합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨 반영후 동사나 형용사를 명사화한것들 찾아봐",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "이 장은 사랑과 충성을 ‘기분 좋은 관계’와 다르게 보나요?",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_13"
     },
     {
       "book": 14,
@@ -680,16 +694,30 @@
     },
     {
       "book": 14,
-      "changed": false,
+      "changed": true,
       "field": "질문",
       "id": "ly-14-09",
       "index": 3,
       "key": "ly-14-09:問:3:q",
       "label": "질문",
       "original": "이 장은 말과 문장의 ‘표현’도 정치에서 중요하다고 보는 건가요?",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "이 장은 말과 문장의 ‘표현’도 정치에서 중요하다고 보는 건가요?",
-      "scope": "問"
+      "reason": "장 자체가 가치를 판단하는 구조를 실제 발언자인 공자님을 주어로 한 질문으로 바꿉니다. 질문의 판단 내용은 유지합니다.",
+      "revised": "이 장에서 공자님은 말과 문장의 ‘표현’도 정치에서 중요하다고 보는 건가요?",
+      "scope": "問",
+      "revision_history": [
+        {
+          "pass": "targeted_type_13",
+          "previous_revision": "이 장은 말과 문장의 ‘표현’도 정치에서 중요하다고 보는 건가요?",
+          "revised": "이 장에서 공자님은 말과 문장의 ‘표현’도 정치에서 중요하다고 보는 건가요?",
+          "reason": "장 자체가 가치를 판단하는 구조를 실제 발언자인 공자님을 주어로 한 질문으로 바꿉니다. 질문의 판단 내용은 유지합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨 반영후 동사나 형용사를 명사화한것들 찾아봐",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "이 장은 말과 문장의 ‘표현’도 정치에서 중요하다고 보는 건가요?",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_13"
     },
     {
       "book": 14,
@@ -836,16 +864,30 @@
     },
     {
       "book": 14,
-      "changed": false,
+      "changed": true,
       "field": "질문",
       "id": "ly-14-11",
       "index": 3,
       "key": "ly-14-11:問:3:q",
       "label": "질문",
       "original": "이 장은 가난을 도덕적으로 더 높게 평가하나요?",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "이 장은 가난을 도덕적으로 더 높게 평가하나요?",
-      "scope": "問"
+      "reason": "장 자체가 가치를 판단하는 구조를 실제 발언자인 공자님을 주어로 한 질문으로 바꿉니다. 질문의 판단 내용은 유지합니다.",
+      "revised": "이 장에서 공자님은 가난을 도덕적으로 더 높게 평가하나요?",
+      "scope": "問",
+      "revision_history": [
+        {
+          "pass": "targeted_type_13",
+          "previous_revision": "이 장은 가난을 도덕적으로 더 높게 평가하나요?",
+          "revised": "이 장에서 공자님은 가난을 도덕적으로 더 높게 평가하나요?",
+          "reason": "장 자체가 가치를 판단하는 구조를 실제 발언자인 공자님을 주어로 한 질문으로 바꿉니다. 질문의 판단 내용은 유지합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨 반영후 동사나 형용사를 명사화한것들 찾아봐",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "이 장은 가난을 도덕적으로 더 높게 평가하나요?",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_13"
     },
     {
       "book": 14,
@@ -1984,16 +2026,30 @@
     },
     {
       "book": 14,
-      "changed": false,
+      "changed": true,
       "field": "질문",
       "id": "ly-14-25",
       "index": 3,
       "key": "ly-14-25:問:3:q",
       "label": "질문",
       "original": "이 구절은 시험이나 자격증 공부도 나쁘다고 보는 건가요?",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "이 구절은 시험이나 자격증 공부도 나쁘다고 보는 건가요?",
-      "scope": "問"
+      "reason": "구절이 시험 공부를 나쁘게 본다는 구조를 고칩니다. 실제 발언자의 뜻을 묻는 질문으로 바꿉니다.",
+      "revised": "이 구절에서 공자님은 시험이나 자격증 공부도 나쁘다고 보는 건가요?",
+      "scope": "問",
+      "revision_history": [
+        {
+          "pass": "targeted_type_13",
+          "previous_revision": "이 구절은 시험이나 자격증 공부도 나쁘다고 보는 건가요?",
+          "revised": "이 구절에서 공자님은 시험이나 자격증 공부도 나쁘다고 보는 건가요?",
+          "reason": "구절이 시험 공부를 나쁘게 본다는 구조를 고칩니다. 실제 발언자의 뜻을 묻는 질문으로 바꿉니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨 반영후 동사나 형용사를 명사화한것들 찾아봐",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "이 구절은 시험이나 자격증 공부도 나쁘다고 보는 건가요?",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_13"
     },
     {
       "book": 14,
@@ -3815,9 +3871,9 @@
     "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_9",
+    "pass": "targeted_type_13",
     "scanned": 282,
-    "approved_applied": 3,
+    "approved_applied": 4,
     "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
   }
 }

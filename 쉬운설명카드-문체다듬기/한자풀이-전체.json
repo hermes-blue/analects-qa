@@ -2,12 +2,12 @@
   "schema_version": "1.1",
   "scope": "語",
   "scope_name": "한자풀이",
-  "status": "approved_targeted_type_12_applied",
-  "method": "전체 revised 6,921개 검색 후 짚다 계열의 해설 표현 후보 13개 문맥 검토, 승인된 4곳 반영.",
+  "status": "approved_targeted_type_13_applied",
+  "method": "전체 revised 6,921개 검색 후 무생물 주어의 판단·인지 표현 후보 408개 문맥 검토, 승인된 20곳 반영.",
   "count_unit": "텍스트 필드: 한자 풀이 1개, 질문 또는 답변 1개, 쟁점의 견해 설명 1개",
   "total": 2311,
-  "changed": 315,
-  "unchanged": 1996,
+  "changed": 319,
+  "unchanged": 1992,
   "card_count": 498,
   "book_count": 20,
   "content_review_performed": false,
@@ -13004,15 +13004,29 @@
         },
         {
           "book": 8,
-          "changed": false,
+          "changed": true,
           "id": "ly-08-09",
           "index": 4,
           "key": "ly-08-09:語:4",
           "label": "不可使知之불가사지지",
           "original": "‘알게 해서는 안 된다’로 읽으면 권위주의적으로 들리지만, 전통 주석은 ‘모두에게 그 이치를 이해시키기는 어렵다’는 뜻에 가깝게 풉니다. 해석 논란을 함께 기억할 표현입니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "‘알게 해서는 안 된다’로 읽으면 권위주의적으로 들리지만, 전통 주석은 ‘모두에게 그 이치를 이해시키기는 어렵다’는 뜻에 가깝게 풉니다. 해석 논란을 함께 기억할 표현입니다.",
-          "scope": "語"
+          "reason": "주석이 해석하는 주체처럼 보이지 않도록 해석의 출처로 밝힙니다. ‘뜻에 가깝게’라는 한정은 유지합니다.",
+          "revised": "‘알게 해서는 안 된다’로 읽으면 권위주의적으로 들리지만, 전통 주석에서는 ‘모두에게 그 이치를 이해시키기는 어렵다’는 뜻에 가깝게 풉니다. 해석 논란을 함께 기억할 표현입니다.",
+          "scope": "語",
+          "revision_history": [
+            {
+              "pass": "targeted_type_13",
+              "previous_revision": "‘알게 해서는 안 된다’로 읽으면 권위주의적으로 들리지만, 전통 주석은 ‘모두에게 그 이치를 이해시키기는 어렵다’는 뜻에 가깝게 풉니다. 해석 논란을 함께 기억할 표현입니다.",
+              "revised": "‘알게 해서는 안 된다’로 읽으면 권위주의적으로 들리지만, 전통 주석에서는 ‘모두에게 그 이치를 이해시키기는 어렵다’는 뜻에 가깝게 풉니다. 해석 논란을 함께 기억할 표현입니다.",
+              "reason": "주석이 해석하는 주체처럼 보이지 않도록 해석의 출처로 밝힙니다. ‘뜻에 가깝게’라는 한정은 유지합니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨 반영후 동사나 형용사를 명사화한것들 찾아봐",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "‘알게 해서는 안 된다’로 읽으면 권위주의적으로 들리지만, 전통 주석은 ‘모두에게 그 이치를 이해시키기는 어렵다’는 뜻에 가깝게 풉니다. 해석 논란을 함께 기억할 표현입니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_13"
         },
         {
           "book": 8,
@@ -13751,9 +13765,9 @@
         "selector": "article.card details.st1 .w > p:not(.wh)"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_6",
+        "pass": "targeted_type_13",
         "scanned": 98,
-        "approved_applied": 2,
+        "approved_applied": 1,
         "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
       }
     },
@@ -14955,15 +14969,29 @@
         },
         {
           "book": 9,
-          "changed": false,
+          "changed": true,
           "id": "ly-09-19",
           "index": 1,
           "key": "ly-09-19:語:1",
           "label": "語之어지",
           "original": "가르침을 말해 준다는 뜻입니다. 이 장은 스승이 무엇을 말했는가보다 제자가 그것을 들은 뒤 어떻게 이어 가는지를 평가합니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "가르침을 말해 준다는 뜻입니다. 이 장은 스승이 무엇을 말했는가보다 제자가 그것을 들은 뒤 어떻게 이어 가는지를 평가합니다.",
-          "scope": "語"
+          "reason": "제자의 태도를 평가한 사람을 공자님으로 밝힙니다. 기존 한자풀이에서 택한 해석은 유지합니다.",
+          "revised": "가르침을 말해 준다는 뜻입니다. 공자님은 자신이 무엇을 말했는가보다 제자가 그것을 들은 뒤 어떻게 이어 가는지를 평가합니다.",
+          "scope": "語",
+          "revision_history": [
+            {
+              "pass": "targeted_type_13",
+              "previous_revision": "가르침을 말해 준다는 뜻입니다. 이 장은 스승이 무엇을 말했는가보다 제자가 그것을 들은 뒤 어떻게 이어 가는지를 평가합니다.",
+              "revised": "가르침을 말해 준다는 뜻입니다. 공자님은 자신이 무엇을 말했는가보다 제자가 그것을 들은 뒤 어떻게 이어 가는지를 평가합니다.",
+              "reason": "제자의 태도를 평가한 사람을 공자님으로 밝힙니다. 기존 한자풀이에서 택한 해석은 유지합니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨 반영후 동사나 형용사를 명사화한것들 찾아봐",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "가르침을 말해 준다는 뜻입니다. 이 장은 스승이 무엇을 말했는가보다 제자가 그것을 들은 뒤 어떻게 이어 가는지를 평가합니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_13"
         },
         {
           "book": 9,
@@ -15730,7 +15758,7 @@
         "selector": "article.card details.st1 .w > p:not(.wh)"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_11",
+        "pass": "targeted_type_13",
         "scanned": 146,
         "approved_applied": 1,
         "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
@@ -29484,15 +29512,29 @@
         },
         {
           "book": 17,
-          "changed": false,
+          "changed": true,
           "id": "ly-17-25",
           "index": 1,
           "key": "ly-17-25:語:1",
           "label": "女子與小人여자여소인",
           "original": "오늘날 읽을 때 가장 주의가 필요한 표현입니다. 전통 주석은 가까이 모시는 여성과 하인 같은 특정 관계의 사람들로 좁혀 풀이하기도 하며, 현대 여성 전체에 일반화하면 안 됩니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "오늘날 읽을 때 가장 주의가 필요한 표현입니다. 전통 주석은 가까이 모시는 여성과 하인 같은 특정 관계의 사람들로 좁혀 풀이하기도 하며, 현대 여성 전체에 일반화하면 안 됩니다.",
-          "scope": "語"
+          "reason": "주석을 풀이의 주체가 아닌 출처로 바꿉니다. ‘풀이하기도’라는 유보는 유지합니다.",
+          "revised": "오늘날 읽을 때 가장 주의가 필요한 표현입니다. 전통 주석에서는 가까이 모시는 여성과 하인 같은 특정 관계의 사람들로 좁혀 풀이하기도 하며, 현대 여성 전체에 일반화하면 안 됩니다.",
+          "scope": "語",
+          "revision_history": [
+            {
+              "pass": "targeted_type_13",
+              "previous_revision": "오늘날 읽을 때 가장 주의가 필요한 표현입니다. 전통 주석은 가까이 모시는 여성과 하인 같은 특정 관계의 사람들로 좁혀 풀이하기도 하며, 현대 여성 전체에 일반화하면 안 됩니다.",
+              "revised": "오늘날 읽을 때 가장 주의가 필요한 표현입니다. 전통 주석에서는 가까이 모시는 여성과 하인 같은 특정 관계의 사람들로 좁혀 풀이하기도 하며, 현대 여성 전체에 일반화하면 안 됩니다.",
+              "reason": "주석을 풀이의 주체가 아닌 출처로 바꿉니다. ‘풀이하기도’라는 유보는 유지합니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨 반영후 동사나 형용사를 명사화한것들 찾아봐",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "오늘날 읽을 때 가장 주의가 필요한 표현입니다. 전통 주석은 가까이 모시는 여성과 하인 같은 특정 관계의 사람들로 좁혀 풀이하기도 하며, 현대 여성 전체에 일반화하면 안 됩니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_13"
         },
         {
           "book": 17,
@@ -29611,7 +29653,7 @@
         "selector": "article.card details.st1 .w > p:not(.wh)"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_11",
+        "pass": "targeted_type_13",
         "scanned": 118,
         "approved_applied": 1,
         "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
@@ -30073,15 +30115,29 @@
         },
         {
           "book": 18,
-          "changed": false,
+          "changed": true,
           "id": "ly-18-08",
           "index": 1,
           "key": "ly-18-08:語:1",
           "label": "逸民일민",
           "original": "세상에 쓰이지 않거나 스스로 벼슬을 떠난 은자들을 뜻합니다. 이 장은 여러 은자의 삶을 한 줄로 묶되 각자의 선택을 서로 다르게 평가합니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "세상에 쓰이지 않거나 스스로 벼슬을 떠난 은자들을 뜻합니다. 이 장은 여러 은자의 삶을 한 줄로 묶되 각자의 선택을 서로 다르게 평가합니다.",
-          "scope": "語"
+          "reason": "여러 은자를 함께 다룬 구성과 공자님이 그들을 평가한 행위를 구분합니다.",
+          "revised": "세상에 쓰이지 않거나 스스로 벼슬을 떠난 은자들을 뜻합니다. 이 장에서는 여러 은자의 삶을 함께 다루며, 공자님은 각자의 선택을 서로 다르게 평가합니다.",
+          "scope": "語",
+          "revision_history": [
+            {
+              "pass": "targeted_type_13",
+              "previous_revision": "세상에 쓰이지 않거나 스스로 벼슬을 떠난 은자들을 뜻합니다. 이 장은 여러 은자의 삶을 한 줄로 묶되 각자의 선택을 서로 다르게 평가합니다.",
+              "revised": "세상에 쓰이지 않거나 스스로 벼슬을 떠난 은자들을 뜻합니다. 이 장에서는 여러 은자의 삶을 함께 다루며, 공자님은 각자의 선택을 서로 다르게 평가합니다.",
+              "reason": "여러 은자를 함께 다룬 구성과 공자님이 그들을 평가한 행위를 구분합니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨 반영후 동사나 형용사를 명사화한것들 찾아봐",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "세상에 쓰이지 않거나 스스로 벼슬을 떠난 은자들을 뜻합니다. 이 장은 여러 은자의 삶을 한 줄로 묶되 각자의 선택을 서로 다르게 평가합니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_13"
         },
         {
           "book": 18,
@@ -30416,7 +30472,7 @@
         "selector": "article.card details.st1 .w > p:not(.wh)"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_5",
+        "pass": "targeted_type_13",
         "scanned": 54,
         "approved_applied": 1,
         "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
@@ -32267,8 +32323,8 @@
     }
   ],
   "latest_style_pass": {
-    "pass": "targeted_type_12",
+    "pass": "targeted_type_13",
     "scanned": 2311,
-    "approved_applied": 2
+    "approved_applied": 4
   }
 }

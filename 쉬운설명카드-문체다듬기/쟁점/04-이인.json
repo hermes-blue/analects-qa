@@ -130,17 +130,31 @@
     },
     {
       "book": 4,
-      "changed": false,
+      "changed": true,
       "heading": "공자님은 부자가 되고 싶은 마음 자체를 나쁘다고 봤을까?오해 교정형",
       "id": "ly-04-05",
       "index": 1,
       "key": "ly-04-05:說:1:2",
       "label": "이렇게도 보면",
       "original": "이 장은 부와 귀함은 ‘사람이 원하는 것’이라고 먼저 인정합니다. 문제는 욕망의 존재가 아니라 그것을 얻고 가난에서 벗어나는 방법이 올바른가입니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "이 장은 부와 귀함은 ‘사람이 원하는 것’이라고 먼저 인정합니다. 문제는 욕망의 존재가 아니라 그것을 얻고 가난에서 벗어나는 방법이 올바른가입니다.",
+      "reason": "부귀가 사람들이 원하는 것임을 인정한 사람을 주어로 밝히고, 겹친 ‘은’도 정리합니다.",
+      "revised": "공자님은 부와 귀함이 ‘사람이 원하는 것’이라고 먼저 인정합니다. 문제는 욕망의 존재가 아니라 그것을 얻고 가난에서 벗어나는 방법이 올바른가입니다.",
       "scope": "說",
-      "side": 2
+      "side": 2,
+      "revision_history": [
+        {
+          "pass": "targeted_type_13",
+          "previous_revision": "이 장은 부와 귀함은 ‘사람이 원하는 것’이라고 먼저 인정합니다. 문제는 욕망의 존재가 아니라 그것을 얻고 가난에서 벗어나는 방법이 올바른가입니다.",
+          "revised": "공자님은 부와 귀함이 ‘사람이 원하는 것’이라고 먼저 인정합니다. 문제는 욕망의 존재가 아니라 그것을 얻고 가난에서 벗어나는 방법이 올바른가입니다.",
+          "reason": "부귀가 사람들이 원하는 것임을 인정한 사람을 주어로 밝히고, 겹친 ‘은’도 정리합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨 반영후 동사나 형용사를 명사화한것들 찾아봐",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "이 장은 부와 귀함은 ‘사람이 원하는 것’이라고 먼저 인정합니다. 문제는 욕망의 존재가 아니라 그것을 얻고 가난에서 벗어나는 방법이 올바른가입니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_13"
     },
     {
       "book": 4,
@@ -909,7 +923,7 @@
     "selector": "article.card details.st3 .js .side > p"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_8",
+    "pass": "targeted_type_13",
     "scanned": 56,
     "approved_applied": 1,
     "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"

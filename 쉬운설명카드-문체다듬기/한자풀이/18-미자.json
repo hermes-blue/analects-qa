@@ -454,15 +454,29 @@
     },
     {
       "book": 18,
-      "changed": false,
+      "changed": true,
       "id": "ly-18-08",
       "index": 1,
       "key": "ly-18-08:語:1",
       "label": "逸民일민",
       "original": "세상에 쓰이지 않거나 스스로 벼슬을 떠난 은자들을 뜻합니다. 이 장은 여러 은자의 삶을 한 줄로 묶되 각자의 선택을 서로 다르게 평가합니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "세상에 쓰이지 않거나 스스로 벼슬을 떠난 은자들을 뜻합니다. 이 장은 여러 은자의 삶을 한 줄로 묶되 각자의 선택을 서로 다르게 평가합니다.",
-      "scope": "語"
+      "reason": "여러 은자를 함께 다룬 구성과 공자님이 그들을 평가한 행위를 구분합니다.",
+      "revised": "세상에 쓰이지 않거나 스스로 벼슬을 떠난 은자들을 뜻합니다. 이 장에서는 여러 은자의 삶을 함께 다루며, 공자님은 각자의 선택을 서로 다르게 평가합니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_13",
+          "previous_revision": "세상에 쓰이지 않거나 스스로 벼슬을 떠난 은자들을 뜻합니다. 이 장은 여러 은자의 삶을 한 줄로 묶되 각자의 선택을 서로 다르게 평가합니다.",
+          "revised": "세상에 쓰이지 않거나 스스로 벼슬을 떠난 은자들을 뜻합니다. 이 장에서는 여러 은자의 삶을 함께 다루며, 공자님은 각자의 선택을 서로 다르게 평가합니다.",
+          "reason": "여러 은자를 함께 다룬 구성과 공자님이 그들을 평가한 행위를 구분합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨 반영후 동사나 형용사를 명사화한것들 찾아봐",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "세상에 쓰이지 않거나 스스로 벼슬을 떠난 은자들을 뜻합니다. 이 장은 여러 은자의 삶을 한 줄로 묶되 각자의 선택을 서로 다르게 평가합니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_13"
     },
     {
       "book": 18,
@@ -797,7 +811,7 @@
     "selector": "article.card details.st1 .w > p:not(.wh)"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_5",
+    "pass": "targeted_type_13",
     "scanned": 54,
     "approved_applied": 1,
     "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
