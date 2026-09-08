@@ -1,0 +1,94 @@
+name: TEMP Apply Stage2 Juseok Remaining20
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/temp-apply-stage2-juseok-remaining20.yml']
+permissions:
+  contents: write
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Apply approved remaining 20
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json, glob, re
+          from pathlib import Path
+          base=Path('sourcecards-targeted-review-7passes/cycle2-pass13-juseok-subject')
+          pp=base/'remaining-20-rewrite-proposals.md'
+          lines=pp.read_text(encoding='utf-8').splitlines()
+          rows=[]
+          for ln in lines:
+              if not ln.startswith('| ') or ln.startswith('|---') or ln.startswith('| 편·장'):
+                  continue
+              parts=[x.strip() for x in ln.split('|')[1:-1]]
+              if len(parts)==3:
+                  rows.append(parts)
+          if len(rows)!=20:
+              raise SystemExit(f'proposal rows={len(rows)}')
+          # Load chapters and ensure 20 files / 498 chapters.
+          files=sorted(glob.glob('sourcecards-style-polish/[0-9][0-9]-*.json'))
+          if len(files)!=20: raise SystemExit(f'files={len(files)}')
+          by_pj={}; total=0
+          for fn in files:
+              data=json.loads(Path(fn).read_text(encoding='utf-8'))
+              for ch in data['장']:
+                  total+=1
+                  by_pj[ch['편장']]=(fn,ch)
+          if total!=498: raise SystemExit(f'chapters={total}')
+          staged={}; audit=[]; seen=set()
+          for pj,old,new in rows:
+              if pj in seen: raise SystemExit(f'duplicate {pj}')
+              seen.add(pj)
+              if pj not in by_pj: raise SystemExit(f'missing {pj}')
+              fn,ch=by_pj[pj]
+              if ch['여는말']!=old:
+                  raise SystemExit(f'{pj}: current opening mismatch\nCURRENT={ch["여는말"]}\nOLD={old}')
+              p=Path(fn); text=staged.get(p,p.read_text(encoding='utf-8'))
+              oldfrag='"여는말": '+json.dumps(old,ensure_ascii=False)
+              newfrag='"여는말": '+json.dumps(new,ensure_ascii=False)
+              n=text.count(oldfrag)
+              if n!=1: raise SystemExit(f'{pj}: raw exact match={n}')
+              text=text.replace(oldfrag,newfrag,1)
+              json.loads(text)
+              staged[p]=text
+              audit.append({'편장':pj,'파일':fn,'수정전':old,'수정후':new,'승인상태':'승인완료','본문반영':True})
+          for p,text in staged.items(): p.write_text(text,encoding='utf-8')
+          # revalidate exact new values
+          found={}
+          for fn in files:
+              data=json.loads(Path(fn).read_text(encoding='utf-8'))
+              for ch in data['장']:
+                  if ch['편장'] in seen: found[ch['편장']]=ch['여는말']
+          for a in audit:
+              if found.get(a['편장'])!=a['수정후']: raise SystemExit(f"post mismatch {a['편장']}")
+          # status/audit docs
+          txt=pp.read_text(encoding='utf-8')
+          txt=txt.replace('- 상태: 승인 대기 / 본문 JSON 미반영','- 상태: 승인완료 / 본문 JSON 20건 반영완료',1)
+          pp.write_text(txt,encoding='utf-8')
+          (base/'remaining-20-application-audit.json').write_text(json.dumps({'작업':'사료카드 2단계 잔여 주석 문서주어 20건 재작성','대상장수':498,'승인상태':'승인완료','본문반영수':20,'반영완료':True,'후보':audit},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          print('applied',len(audit),'files_changed',len(staged),'chapters',total)
+          PY
+      - name: Validate and commit
+        shell: bash
+        run: |
+          git diff --check
+          python - <<'PY'
+          import json,glob
+          from pathlib import Path
+          fs=glob.glob('sourcecards-style-polish/[0-9][0-9]-*.json')
+          assert len(fs)==20
+          total=sum(len(json.loads(Path(f).read_text(encoding='utf-8'))['장']) for f in fs)
+          assert total==498,total
+          print('validated 20 JSON / 498 chapters')
+          PY
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add sourcecards-style-polish/ sourcecards-targeted-review-7passes/cycle2-pass13-juseok-subject/remaining-20-rewrite-proposals.md sourcecards-targeted-review-7passes/cycle2-pass13-juseok-subject/remaining-20-application-audit.json
+          git commit -m '사료카드 2단계 잔여 주석 문서주어 20건 실제 반영'
+          git push origin main
