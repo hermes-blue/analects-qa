@@ -2,12 +2,12 @@
   "schema_version": "1.1",
   "scope": "語",
   "scope_name": "한자풀이",
-  "status": "approved_targeted_type_10_applied",
-  "method": "전체 revised 6,921개 검색 후 불필요한 진행·상태 서술 후보 128개 문맥 검토, 승인된 4곳 반영.",
+  "status": "approved_targeted_type_11_applied",
+  "method": "전체 revised 6,921개 검색 후 추상적인 공간 표현 후보 6개 문맥 검토, 승인된 3곳 반영.",
   "count_unit": "텍스트 필드: 한자 풀이 1개, 질문 또는 답변 1개, 쟁점의 견해 설명 1개",
   "total": 2311,
-  "changed": 311,
-  "unchanged": 2000,
+  "changed": 314,
+  "unchanged": 1997,
   "card_count": 498,
   "book_count": 20,
   "content_review_performed": false,
@@ -10532,15 +10532,29 @@
         },
         {
           "book": 7,
-          "changed": false,
+          "changed": true,
           "id": "ly-07-08",
           "index": 2,
           "key": "ly-07-08:語:2",
           "label": "啓계",
           "original": "닫힌 것을 열어 준다는 뜻입니다. 학생이 스스로 궁리해 막힌 지점에 이르렀을 때 스승이 실마리를 열어 준다는 의미라서, 처음부터 답을 모두 대신 주는 방식과 다릅니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "닫힌 것을 열어 준다는 뜻입니다. 학생이 스스로 궁리해 막힌 지점에 이르렀을 때 스승이 실마리를 열어 준다는 의미라서, 처음부터 답을 모두 대신 주는 방식과 다릅니다.",
-          "scope": "語"
+          "reason": "궁리하다가 막힌 상황을 공간의 지점에 도달한 것처럼 길게 쓰지 않고 바로 설명합니다.",
+          "revised": "닫힌 것을 열어 준다는 뜻입니다. 학생이 스스로 궁리하다가 막혔을 때 스승이 실마리를 열어 준다는 의미라서, 처음부터 답을 모두 대신 주는 방식과 다릅니다.",
+          "scope": "語",
+          "revision_history": [
+            {
+              "pass": "targeted_type_11",
+              "previous_revision": "닫힌 것을 열어 준다는 뜻입니다. 학생이 스스로 궁리해 막힌 지점에 이르렀을 때 스승이 실마리를 열어 준다는 의미라서, 처음부터 답을 모두 대신 주는 방식과 다릅니다.",
+              "revised": "닫힌 것을 열어 준다는 뜻입니다. 학생이 스스로 궁리하다가 막혔을 때 스승이 실마리를 열어 준다는 의미라서, 처음부터 답을 모두 대신 주는 방식과 다릅니다.",
+              "reason": "궁리하다가 막힌 상황을 공간의 지점에 도달한 것처럼 길게 쓰지 않고 바로 설명합니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨에 반영후 새로운 유형 시작",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "닫힌 것을 열어 준다는 뜻입니다. 학생이 스스로 궁리해 막힌 지점에 이르렀을 때 스승이 실마리를 열어 준다는 의미라서, 처음부터 답을 모두 대신 주는 방식과 다릅니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_11"
         },
         {
           "book": 7,
@@ -12395,7 +12409,7 @@
         "selector": "article.card details.st1 .w > p:not(.wh)"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_10",
+        "pass": "targeted_type_11",
         "scanned": 171,
         "approved_applied": 1,
         "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
@@ -14368,15 +14382,29 @@
         },
         {
           "book": 9,
-          "changed": false,
+          "changed": true,
           "id": "ly-09-10",
           "index": 4,
           "key": "ly-09-10:語:4",
           "label": "瞻之在前 忽焉在後첨지재전 홀언재후",
           "original": "앞에 보이던 것이 문득 뒤에 있는 듯하다는 말입니다. 가르침이 모순된다는 뜻보다, 잡았다고 생각하면 다시 새로운 차원이 드러나는 배움의 깊이를 표현합니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "앞에 보이던 것이 문득 뒤에 있는 듯하다는 말입니다. 가르침이 모순된다는 뜻보다, 잡았다고 생각하면 다시 새로운 차원이 드러나는 배움의 깊이를 표현합니다.",
-          "scope": "語"
+          "reason": "막연한 새로운 차원이 무엇을 뜻하는지, 배울 내용이 더 있다는 설명으로 구체화합니다. 가르침의 모순보다 배움의 깊이를 말한다는 해석은 유지합니다.",
+          "revised": "앞에 보이던 것이 문득 뒤에 있는 듯하다는 말입니다. 가르침이 모순된다는 뜻보다는, 이해했다고 생각해도 더 깊이 배울 것이 있다는 말입니다.",
+          "scope": "語",
+          "revision_history": [
+            {
+              "pass": "targeted_type_11",
+              "previous_revision": "앞에 보이던 것이 문득 뒤에 있는 듯하다는 말입니다. 가르침이 모순된다는 뜻보다, 잡았다고 생각하면 다시 새로운 차원이 드러나는 배움의 깊이를 표현합니다.",
+              "revised": "앞에 보이던 것이 문득 뒤에 있는 듯하다는 말입니다. 가르침이 모순된다는 뜻보다는, 이해했다고 생각해도 더 깊이 배울 것이 있다는 말입니다.",
+              "reason": "막연한 새로운 차원이 무엇을 뜻하는지, 배울 내용이 더 있다는 설명으로 구체화합니다. 가르침의 모순보다 배움의 깊이를 말한다는 해석은 유지합니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨에 반영후 새로운 유형 시작",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "앞에 보이던 것이 문득 뒤에 있는 듯하다는 말입니다. 가르침이 모순된다는 뜻보다, 잡았다고 생각하면 다시 새로운 차원이 드러나는 배움의 깊이를 표현합니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_11"
         },
         {
           "book": 9,
@@ -15679,7 +15707,7 @@
         "selector": "article.card details.st1 .w > p:not(.wh)"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_9",
+        "pass": "targeted_type_11",
         "scanned": 146,
         "approved_applied": 1,
         "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
@@ -28296,15 +28324,29 @@
         },
         {
           "book": 17,
-          "changed": false,
+          "changed": true,
           "id": "ly-17-07",
           "index": 2,
           "key": "ly-17-07:語:2",
           "label": "君子不入군자불입",
           "original": "스스로 나쁜 일을 하는 사람의 무리에 군자는 들어가지 않는다는 자로의 인용입니다. 공자님의 평소 원칙과 이번 행동이 충돌해 보이는 지점입니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "스스로 나쁜 일을 하는 사람의 무리에 군자는 들어가지 않는다는 자로의 인용입니다. 공자님의 평소 원칙과 이번 행동이 충돌해 보이는 지점입니다.",
-          "scope": "語"
+          "reason": "충돌하는 지점이라고 둘러 말하지 않고 행동이 원칙과 어긋나 보인다고 직접 서술합니다. 보인다는 한정은 유지합니다.",
+          "revised": "스스로 나쁜 일을 하는 사람의 무리에 군자는 들어가지 않는다는 자로의 인용입니다. 공자님의 이번 행동은 평소 원칙과 어긋나 보입니다.",
+          "scope": "語",
+          "revision_history": [
+            {
+              "pass": "targeted_type_11",
+              "previous_revision": "스스로 나쁜 일을 하는 사람의 무리에 군자는 들어가지 않는다는 자로의 인용입니다. 공자님의 평소 원칙과 이번 행동이 충돌해 보이는 지점입니다.",
+              "revised": "스스로 나쁜 일을 하는 사람의 무리에 군자는 들어가지 않는다는 자로의 인용입니다. 공자님의 이번 행동은 평소 원칙과 어긋나 보입니다.",
+              "reason": "충돌하는 지점이라고 둘러 말하지 않고 행동이 원칙과 어긋나 보인다고 직접 서술합니다. 보인다는 한정은 유지합니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨에 반영후 새로운 유형 시작",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "스스로 나쁜 일을 하는 사람의 무리에 군자는 들어가지 않는다는 자로의 인용입니다. 공자님의 평소 원칙과 이번 행동이 충돌해 보이는 지점입니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_11"
         },
         {
           "book": 17,
@@ -29546,7 +29588,7 @@
         "selector": "article.card details.st1 .w > p:not(.wh)"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_9",
+        "pass": "targeted_type_11",
         "scanned": 118,
         "approved_applied": 1,
         "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
@@ -32202,7 +32244,7 @@
     }
   ],
   "latest_style_pass": {
-    "pass": "targeted_type_10",
+    "pass": "targeted_type_11",
     "scanned": 2311,
     "approved_applied": 3
   }

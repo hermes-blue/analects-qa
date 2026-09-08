@@ -394,15 +394,29 @@
     },
     {
       "book": 17,
-      "changed": false,
+      "changed": true,
       "id": "ly-17-07",
       "index": 2,
       "key": "ly-17-07:語:2",
       "label": "君子不入군자불입",
       "original": "스스로 나쁜 일을 하는 사람의 무리에 군자는 들어가지 않는다는 자로의 인용입니다. 공자님의 평소 원칙과 이번 행동이 충돌해 보이는 지점입니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "스스로 나쁜 일을 하는 사람의 무리에 군자는 들어가지 않는다는 자로의 인용입니다. 공자님의 평소 원칙과 이번 행동이 충돌해 보이는 지점입니다.",
-      "scope": "語"
+      "reason": "충돌하는 지점이라고 둘러 말하지 않고 행동이 원칙과 어긋나 보인다고 직접 서술합니다. 보인다는 한정은 유지합니다.",
+      "revised": "스스로 나쁜 일을 하는 사람의 무리에 군자는 들어가지 않는다는 자로의 인용입니다. 공자님의 이번 행동은 평소 원칙과 어긋나 보입니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_11",
+          "previous_revision": "스스로 나쁜 일을 하는 사람의 무리에 군자는 들어가지 않는다는 자로의 인용입니다. 공자님의 평소 원칙과 이번 행동이 충돌해 보이는 지점입니다.",
+          "revised": "스스로 나쁜 일을 하는 사람의 무리에 군자는 들어가지 않는다는 자로의 인용입니다. 공자님의 이번 행동은 평소 원칙과 어긋나 보입니다.",
+          "reason": "충돌하는 지점이라고 둘러 말하지 않고 행동이 원칙과 어긋나 보인다고 직접 서술합니다. 보인다는 한정은 유지합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 새로운 유형 시작",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "스스로 나쁜 일을 하는 사람의 무리에 군자는 들어가지 않는다는 자로의 인용입니다. 공자님의 평소 원칙과 이번 행동이 충돌해 보이는 지점입니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_11"
     },
     {
       "book": 17,
@@ -1644,7 +1658,7 @@
     "selector": "article.card details.st1 .w > p:not(.wh)"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_9",
+    "pass": "targeted_type_11",
     "scanned": 118,
     "approved_applied": 1,
     "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"

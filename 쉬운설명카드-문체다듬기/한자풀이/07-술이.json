@@ -482,15 +482,29 @@
     },
     {
       "book": 7,
-      "changed": false,
+      "changed": true,
       "id": "ly-07-08",
       "index": 2,
       "key": "ly-07-08:語:2",
       "label": "啓계",
       "original": "닫힌 것을 열어 준다는 뜻입니다. 학생이 스스로 궁리해 막힌 지점에 이르렀을 때 스승이 실마리를 열어 준다는 의미라서, 처음부터 답을 모두 대신 주는 방식과 다릅니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "닫힌 것을 열어 준다는 뜻입니다. 학생이 스스로 궁리해 막힌 지점에 이르렀을 때 스승이 실마리를 열어 준다는 의미라서, 처음부터 답을 모두 대신 주는 방식과 다릅니다.",
-      "scope": "語"
+      "reason": "궁리하다가 막힌 상황을 공간의 지점에 도달한 것처럼 길게 쓰지 않고 바로 설명합니다.",
+      "revised": "닫힌 것을 열어 준다는 뜻입니다. 학생이 스스로 궁리하다가 막혔을 때 스승이 실마리를 열어 준다는 의미라서, 처음부터 답을 모두 대신 주는 방식과 다릅니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_11",
+          "previous_revision": "닫힌 것을 열어 준다는 뜻입니다. 학생이 스스로 궁리해 막힌 지점에 이르렀을 때 스승이 실마리를 열어 준다는 의미라서, 처음부터 답을 모두 대신 주는 방식과 다릅니다.",
+          "revised": "닫힌 것을 열어 준다는 뜻입니다. 학생이 스스로 궁리하다가 막혔을 때 스승이 실마리를 열어 준다는 의미라서, 처음부터 답을 모두 대신 주는 방식과 다릅니다.",
+          "reason": "궁리하다가 막힌 상황을 공간의 지점에 도달한 것처럼 길게 쓰지 않고 바로 설명합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 새로운 유형 시작",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "닫힌 것을 열어 준다는 뜻입니다. 학생이 스스로 궁리해 막힌 지점에 이르렀을 때 스승이 실마리를 열어 준다는 의미라서, 처음부터 답을 모두 대신 주는 방식과 다릅니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_11"
     },
     {
       "book": 7,
@@ -2345,7 +2359,7 @@
     "selector": "article.card details.st1 .w > p:not(.wh)"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_10",
+    "pass": "targeted_type_11",
     "scanned": 171,
     "approved_applied": 1,
     "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"

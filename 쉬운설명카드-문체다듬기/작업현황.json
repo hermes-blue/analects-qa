@@ -1,5 +1,5 @@
 {
-  "apply_status": "유형 10 승인안 4곳을 수정본 JSON에 반영. 원본 HTML 미적용.",
+  "apply_status": "유형 11 승인안 3곳을 수정본 JSON에 반영. 원본 HTML 미적용.",
   "book_count": 20,
   "card_count": 498,
   "content_review_performed": false,
@@ -412,7 +412,7 @@
     },
     {
       "book_count": 20,
-      "changed": 311,
+      "changed": 314,
       "labels_preserved": true,
       "method": "전 항목에서 문체 패턴으로 후보를 찾아 후보 문장의 문맥을 확인하는 선별 교정.",
       "name": "한자풀이",
@@ -957,18 +957,18 @@
       }
     }
   ],
-  "status": "approved_targeted_type_10_applied",
-  "total_changed_text_fields": 1100,
+  "status": "approved_targeted_type_11_applied",
+  "total_changed_text_fields": 1103,
   "last_completed_pass": {
-    "type": 10,
-    "scope": "불필요한 진행·상태 서술",
+    "type": 11,
+    "scope": "추상적인 공간 표현",
     "status": "approved_applied",
     "scanned": 6921,
-    "keyword_matches_context_reviewed": 128,
-    "approved_applied": 4,
-    "retained_matches": 124,
+    "keyword_matches_context_reviewed": 6,
+    "approved_applied": 3,
+    "retained_matches": 3,
     "approval_message": "제이슨에 반영후 새로운 유형 시작",
-    "method": "전체 검색 후 후보 128개 문맥 검토. 모든 문장 종합 정독 아님"
+    "method": "전체 검색 후 후보 6개 문맥 검토. 모든 문장 종합 정독 아님"
   },
   "targeted_reviews": [
     {
@@ -2092,6 +2092,17 @@
       "retained_matches": 124,
       "approval_message": "제이슨에 반영후 새로운 유형 시작",
       "method": "전체 검색 후 후보 128개 문맥 검토. 모든 문장 종합 정독 아님"
+    },
+    {
+      "type": 11,
+      "scope": "추상적인 공간 표현",
+      "status": "approved_applied",
+      "scanned": 6921,
+      "keyword_matches_context_reviewed": 6,
+      "approved_applied": 3,
+      "retained_matches": 3,
+      "approval_message": "제이슨에 반영후 새로운 유형 시작",
+      "method": "전체 검색 후 후보 6개 문맥 검토. 모든 문장 종합 정독 아님"
     }
   ]
 }
