@@ -1,0 +1,128 @@
+{
+  "status": "반영 완료",
+  "approval": "제이슨 반영후 , 주석은 살핍니다 / 따집니다 / 주목합니다 / 찾습니다 / ~라고 봅니다처럼 사람의 판단·인지 행위를 주석이 하는 구조 이런거 찾아봐",
+  "base_commit": "4dfff07364aba5065f25f30d4e3d393734284c8b",
+  "changes": [
+    {
+      "number": 1,
+      "id": "ly-02-04",
+      "before_count": 344,
+      "after_count": 358,
+      "count_method": "줄바꿈 포함"
+    },
+    {
+      "number": 2,
+      "id": "ly-06-11",
+      "before_count": 320,
+      "after_count": 295,
+      "count_method": "줄바꿈 제외"
+    },
+    {
+      "number": 3,
+      "id": "ly-06-15",
+      "before_count": 318,
+      "after_count": 279,
+      "count_method": "줄바꿈 제외"
+    },
+    {
+      "number": 4,
+      "id": "ly-06-15",
+      "before_count": 279,
+      "after_count": 280,
+      "count_method": "줄바꿈 제외"
+    },
+    {
+      "number": 5,
+      "id": "ly-06-25",
+      "before_count": 326,
+      "after_count": 259,
+      "count_method": "줄바꿈 제외"
+    },
+    {
+      "number": 6,
+      "id": "ly-07-33",
+      "before_count": 377,
+      "after_count": 384,
+      "count_method": "줄바꿈 제외"
+    },
+    {
+      "number": 7,
+      "id": "ly-08-08",
+      "before_count": 389,
+      "after_count": 392,
+      "count_method": "줄바꿈 제외"
+    },
+    {
+      "number": 8,
+      "id": "ly-09-19",
+      "before_count": 324,
+      "after_count": 291,
+      "count_method": "줄바꿈 제외"
+    },
+    {
+      "number": 9,
+      "id": "ly-11-19",
+      "before_count": 391,
+      "after_count": 330,
+      "count_method": "줄바꿈 제외"
+    },
+    {
+      "number": 10,
+      "id": "ly-11-23",
+      "before_count": 399,
+      "after_count": 363,
+      "count_method": "줄바꿈 제외"
+    },
+    {
+      "number": 11,
+      "id": "ly-14-03",
+      "before_count": 364,
+      "after_count": 296,
+      "count_method": "줄바꿈 제외"
+    },
+    {
+      "number": 12,
+      "id": "ly-14-25",
+      "before_count": 364,
+      "after_count": 361,
+      "count_method": "줄바꿈 제외"
+    },
+    {
+      "number": 13,
+      "id": "ly-14-38",
+      "before_count": 381,
+      "after_count": 387,
+      "count_method": "줄바꿈 제외"
+    },
+    {
+      "number": 14,
+      "id": "ly-15-30",
+      "before_count": 382,
+      "after_count": 331,
+      "count_method": "줄바꿈 제외"
+    },
+    {
+      "number": 15,
+      "id": "ly-19-02",
+      "before_count": 393,
+      "after_count": 360,
+      "count_method": "줄바꿈 제외"
+    },
+    {
+      "number": 16,
+      "id": "ly-19-05",
+      "before_count": 317,
+      "after_count": 319,
+      "count_method": "줄바꿈 제외"
+    }
+  ],
+  "validation": {
+    "files": 20,
+    "chapters": 498,
+    "modified_chapters": 15,
+    "modified_body_files": 9,
+    "ids_order_preserved": true,
+    "protected_fields_preserved": true,
+    "character_count": "각 장의 기존 줄바꿈 포함·제외 방식 보존"
+  }
+}
