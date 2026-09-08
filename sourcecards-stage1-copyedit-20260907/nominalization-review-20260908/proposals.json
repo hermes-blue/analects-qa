@@ -1,13 +1,6 @@
 {
-  "type": "동사·형용사의 -음·-ㅁ 명사화",
-  "status": "승인 대기",
-  "body_applied": false,
-  "source_folder": "sourcecards-stage1-copyedit-20260907/round3",
   "basis_commit": "bfe18535b40894925b209b312c6cf1cabc0b3992",
-  "reviewed_chapters": 498,
-  "proposed_chapters": 16,
-  "proposed_changes": 16,
-  "unchanged_chapters": 482,
+  "body_applied": true,
   "proposals": [
     {
       "after": "어느 한쪽이 다른 소리를 덮어버리면 각 소리가 또렷이 들리지 않고, 제각기 따로 놀면 서로 어우러지지 못합니다.",
@@ -18,7 +11,7 @@
       "id": "ly-03-23",
       "number": 1,
       "path": "sourcecards-stage1-copyedit-20260907/round3/03-palil.json",
-      "status": "승인 대기"
+      "status": "반영 완료"
     },
     {
       "after": "자신의 행동에 잘못이 없었다고 맹세하며 제자에게 믿어 달라는 뜻이었습니다.",
@@ -30,7 +23,7 @@
       "number": 2,
       "path": "sourcecards-stage1-copyedit-20260907/round3/06-yongya.json",
       "reason": "문장 안의 -음 목적절을 서술 내용으로 풀기",
-      "status": "승인 대기"
+      "status": "반영 완료"
     },
     {
       "after": "기세가 지나친 사람도 꾸밈없이 솔직할 수 있고, 아는 것이 적은 사람도 조심스럽고 도타울 수 있으며, 재주가 부족한 사람도 믿음직할 수 있습니다.",
@@ -41,7 +34,7 @@
       "id": "ly-08-16",
       "number": 3,
       "path": "sourcecards-stage1-copyedit-20260907/round3/08-taebaek.json",
-      "status": "승인 대기"
+      "status": "반영 완료"
     },
     {
       "after": "상복은 집안에서 누군가 세상을 떠났다고 알리는 옷이고, 관과 예복은 예를 치르는 차림입니다.",
@@ -53,7 +46,7 @@
       "number": 4,
       "path": "sourcecards-stage1-copyedit-20260907/round3/09-jahan.json",
       "reason": "문장 안의 -음 목적절을 서술 내용으로 풀기",
-      "status": "승인 대기"
+      "status": "반영 완료"
     },
     {
       "after": "집주의 풀이에 따르면 물의 흐름처럼 변화는 끊임없이 이어지며, 배우는 사람도 그처럼 꾸준해야 합니다.",
@@ -64,7 +57,7 @@
       "id": "ly-09-16",
       "number": 5,
       "path": "sourcecards-stage1-copyedit-20260907/round3/09-jahan.json",
-      "status": "승인 대기"
+      "status": "반영 완료"
     },
     {
       "after": "공자는 이 두 장면으로 배움도 중간에서 멈출 수 있다고 말했습니다.",
@@ -76,7 +69,7 @@
       "number": 6,
       "path": "sourcecards-stage1-copyedit-20260907/round3/09-jahan.json",
       "reason": "문장 안의 -음 목적절을 서술 내용으로 풀기",
-      "status": "승인 대기"
+      "status": "반영 완료"
     },
     {
       "after": "벗에게서도 배울 점을 찾고, 자신에게도 고칠 점이 있다고 인정해야 합니다.",
@@ -88,7 +81,7 @@
       "number": 7,
       "path": "sourcecards-stage1-copyedit-20260907/round3/09-jahan.json",
       "reason": "문장 안의 -음 목적절을 서술 내용으로 풀기",
-      "status": "승인 대기"
+      "status": "반영 완료"
     },
     {
       "after": "남이 부유하다고 부러워하지 않는 점은 훌륭해도, 그 한 가지로 배울 일을 다 마친 것은 아니었습니다.",
@@ -99,7 +92,7 @@
       "id": "ly-09-26",
       "number": 8,
       "path": "sourcecards-stage1-copyedit-20260907/round3/09-jahan.json",
-      "status": "승인 대기"
+      "status": "반영 완료"
     },
     {
       "after": "집주는 고시가 어수룩하다는 말을 지혜는 부족하지만 성품은 후덕하다는 뜻으로 풉니다.",
@@ -110,7 +103,7 @@
       "id": "ly-11-17",
       "number": 9,
       "path": "sourcecards-stage1-copyedit-20260907/round3/11-seonjin.json",
-      "status": "승인 대기"
+      "status": "반영 완료"
     },
     {
       "after": "복숭아를 건넨 일은 그대로인데, 좋아하느냐 싫어하느냐에 따라 평가가 뒤집혔습니다.",
@@ -121,7 +114,7 @@
       "id": "ly-12-10",
       "number": 10,
       "path": "sourcecards-stage1-copyedit-20260907/round3/12-anyeon.json",
-      "status": "승인 대기"
+      "status": "반영 완료"
     },
     {
       "after": "이름이 알려졌다는 것만으로는 둘을 가리기 어렵습니다.",
@@ -132,7 +125,7 @@
       "id": "ly-12-20",
       "number": 11,
       "path": "sourcecards-stage1-copyedit-20260907/round3/12-anyeon.json",
-      "status": "승인 대기"
+      "status": "반영 완료"
     },
     {
       "after": "집주의 풀이에 따르면 공자는 두 나라가 모두 비슷하게 어지러워졌다고 탄식했습니다.",
@@ -144,7 +137,7 @@
       "number": 12,
       "path": "sourcecards-stage1-copyedit-20260907/round3/13-jaro.json",
       "reason": "문장 안의 -음 목적절을 서술 내용으로 풀기",
-      "status": "승인 대기"
+      "status": "반영 완료"
     },
     {
       "after": "부족해도 더 나아가려는 뜻은 있었기 때문입니다.",
@@ -156,7 +149,7 @@
       "number": 13,
       "path": "sourcecards-stage1-copyedit-20260907/round3/17-yanghwa.json",
       "reason": "부족함이 있다를 형용사로 직접 서술",
-      "status": "승인 대기"
+      "status": "반영 완료"
     },
     {
       "after": "찾아온 사람을 만나주지는 않으면서, 아프다는 말이 진짜 이유는 아니라고 알린 것입니다.",
@@ -168,7 +161,7 @@
       "number": 14,
       "path": "sourcecards-stage1-copyedit-20260907/round3/17-yanghwa.json",
       "reason": "문장 안의 -음 목적절을 서술 내용으로 풀기",
-      "status": "승인 대기"
+      "status": "반영 완료"
     },
     {
       "after": "장재는 훌륭한 사람이 많았다는 뜻으로 이 기록을 풀이했습니다.",
@@ -180,7 +173,7 @@
       "number": 15,
       "path": "sourcecards-stage1-copyedit-20260907/round3/18-mija.json",
       "reason": "문장 안의 -음 목적절을 서술 내용으로 풀기",
-      "status": "승인 대기"
+      "status": "반영 완료"
     },
     {
       "after": "『집주』도 맹헌자에게 어진 덕이 있었다고 설명합니다.",
@@ -192,7 +185,15 @@
       "number": 16,
       "path": "sourcecards-stage1-copyedit-20260907/round3/19-jajang.json",
       "reason": "문장 안의 -음 목적절을 서술 내용으로 풀기",
-      "status": "승인 대기"
+      "status": "반영 완료"
     }
-  ]
+  ],
+  "proposed_changes": 16,
+  "proposed_chapters": 16,
+  "reviewed_chapters": 498,
+  "source_folder": "sourcecards-stage1-copyedit-20260907/round3",
+  "status": "반영 완료",
+  "type": "동사·형용사의 -음·-ㅁ 명사화",
+  "unchanged_chapters": 482,
+  "applied_against_commit": "5791ab49a920835b9256207de7fca78d91668317"
 }

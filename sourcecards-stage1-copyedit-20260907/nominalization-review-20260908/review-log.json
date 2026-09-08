@@ -1,7 +1,7 @@
 {
   "type": "동사·형용사의 -음·-ㅁ 명사화",
-  "status": "승인 대기",
-  "body_applied": false,
+  "status": "반영 완료",
+  "body_applied": true,
   "review_basis_commit": "570dc52757565e76ae3a8620a2e70e7d072cb6ef",
   "latest_body_sha_verified_at_commit": "bfe18535b40894925b209b312c6cf1cabc0b3992",
   "body_files": [
@@ -1188,5 +1188,115 @@
       "ly-19-18"
     ]
   },
-  "approval_application_instructions": "사용자 승인 뒤 최신 main 본문에서 before가 정확히 한 번 일치하는지 확인. 수정본문과 해당 장의 글자수만 변경. 기존 글자수 계산 방식 유지. 498장 ID·순서·보호 필드 검증 및 원격 20개 본문 확인 후 상태 기록을 반영 완료로 갱신."
+  "approval_application_instructions": "사용자 승인 뒤 최신 main 본문에서 before가 정확히 한 번 일치하는지 확인. 수정본문과 해당 장의 글자수만 변경. 기존 글자수 계산 방식 유지. 498장 ID·순서·보호 필드 검증 및 원격 20개 본문 확인 후 상태 기록을 반영 완료로 갱신.",
+  "application": {
+    "applied_changes": 16,
+    "applied_chapters": 16,
+    "base_commit": "5791ab49a920835b9256207de7fca78d91668317",
+    "changed": [
+      {
+        "id": "ly-03-23",
+        "before_count": 345,
+        "after_count": 355,
+        "count_method": "exclude_newlines"
+      },
+      {
+        "id": "ly-06-26",
+        "before_count": 372,
+        "after_count": 372,
+        "count_method": "exclude_newlines"
+      },
+      {
+        "id": "ly-08-16",
+        "before_count": 385,
+        "after_count": 381,
+        "count_method": "exclude_newlines"
+      },
+      {
+        "id": "ly-09-09",
+        "before_count": 319,
+        "after_count": 319,
+        "count_method": "exclude_newlines"
+      },
+      {
+        "id": "ly-09-16",
+        "before_count": 383,
+        "after_count": 380,
+        "count_method": "exclude_newlines"
+      },
+      {
+        "id": "ly-09-21",
+        "before_count": 337,
+        "after_count": 337,
+        "count_method": "exclude_newlines"
+      },
+      {
+        "id": "ly-09-24",
+        "before_count": 349,
+        "after_count": 349,
+        "count_method": "exclude_newlines"
+      },
+      {
+        "id": "ly-09-26",
+        "before_count": 319,
+        "after_count": 320,
+        "count_method": "exclude_newlines"
+      },
+      {
+        "id": "ly-11-17",
+        "before_count": 347,
+        "after_count": 351,
+        "count_method": "exclude_newlines"
+      },
+      {
+        "id": "ly-12-10",
+        "before_count": 367,
+        "after_count": 370,
+        "count_method": "exclude_newlines"
+      },
+      {
+        "id": "ly-12-20",
+        "before_count": 413,
+        "after_count": 421,
+        "count_method": "exclude_newlines"
+      },
+      {
+        "id": "ly-13-07",
+        "before_count": 401,
+        "after_count": 407,
+        "count_method": "exclude_newlines"
+      },
+      {
+        "id": "ly-17-16",
+        "before_count": 410,
+        "after_count": 406,
+        "count_method": "exclude_newlines"
+      },
+      {
+        "id": "ly-17-20",
+        "before_count": 270,
+        "after_count": 271,
+        "count_method": "exclude_newlines"
+      },
+      {
+        "id": "ly-18-11",
+        "before_count": 402,
+        "after_count": 405,
+        "count_method": "exclude_newlines"
+      },
+      {
+        "id": "ly-19-18",
+        "before_count": 295,
+        "after_count": 295,
+        "count_method": "exclude_newlines"
+      }
+    ],
+    "verification": {
+      "chapter_count": 498,
+      "unique_ids": 498,
+      "protected_fields_preserved": true,
+      "order_preserved": true,
+      "exact_approved_replacements": true
+    }
+  }
 }
