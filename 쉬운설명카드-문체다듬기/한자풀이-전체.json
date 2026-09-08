@@ -2,12 +2,12 @@
   "schema_version": "1.1",
   "scope": "語",
   "scope_name": "한자풀이",
-  "status": "approved_targeted_type_11_applied",
-  "method": "전체 revised 6,921개 검색 후 추상적인 공간 표현 후보 6개 문맥 검토, 승인된 3곳 반영.",
+  "status": "approved_targeted_type_12_applied",
+  "method": "전체 revised 6,921개 검색 후 짚다 계열의 해설 표현 후보 13개 문맥 검토, 승인된 4곳 반영.",
   "count_unit": "텍스트 필드: 한자 풀이 1개, 질문 또는 답변 1개, 쟁점의 견해 설명 1개",
   "total": 2311,
-  "changed": 314,
-  "unchanged": 1997,
+  "changed": 315,
+  "unchanged": 1996,
   "card_count": 498,
   "book_count": 20,
   "content_review_performed": false,
@@ -1270,15 +1270,29 @@
         },
         {
           "book": 2,
-          "changed": false,
+          "changed": true,
           "id": "ly-02-02",
           "index": 2,
           "key": "ly-02-02:語:2",
           "label": "一言以蔽之일언이폐지",
           "original": "많은 내용을 한마디로 포괄한다는 뜻입니다. 복잡한 시편들을 억지로 단순화한다기보다, 그 밑에 흐르는 공통된 정신을 짚어 주려는 표현입니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "많은 내용을 한마디로 포괄한다는 뜻입니다. 복잡한 시편들을 억지로 단순화한다기보다, 그 밑에 흐르는 공통된 정신을 짚어 주려는 표현입니다.",
-          "scope": "語"
+          "reason": "여러 시편에 공통된 정신을 설명한다는 뜻을 직접 밝힙니다.",
+          "revised": "많은 내용을 한마디로 포괄한다는 뜻입니다. 복잡한 시편들을 억지로 단순화한다기보다, 그 밑에 흐르는 공통된 정신을 설명하려는 표현입니다.",
+          "scope": "語",
+          "revision_history": [
+            {
+              "pass": "targeted_type_12",
+              "previous_revision": "많은 내용을 한마디로 포괄한다는 뜻입니다. 복잡한 시편들을 억지로 단순화한다기보다, 그 밑에 흐르는 공통된 정신을 짚어 주려는 표현입니다.",
+              "revised": "많은 내용을 한마디로 포괄한다는 뜻입니다. 복잡한 시편들을 억지로 단순화한다기보다, 그 밑에 흐르는 공통된 정신을 설명하려는 표현입니다.",
+              "reason": "여러 시편에 공통된 정신을 설명한다는 뜻을 직접 밝힙니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨 반영후  제이슨 반영후 , `주석은 살핍니다 / 따집니다 / 주목합니다 / 찾습니다 / ~라고 봅니다`처럼 **사람의 판단·인지 행위를 주석이 하는 구조**    이런거 찾아봐",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "많은 내용을 한마디로 포괄한다는 뜻입니다. 복잡한 시편들을 억지로 단순화한다기보다, 그 밑에 흐르는 공통된 정신을 짚어 주려는 표현입니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_12"
         },
         {
           "book": 2,
@@ -2820,9 +2834,9 @@
         "selector": "article.card details.st1 .w > p:not(.wh)"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_8",
+        "pass": "targeted_type_12",
         "scanned": 113,
-        "approved_applied": 2,
+        "approved_applied": 1,
         "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
       }
     },
@@ -3340,8 +3354,8 @@
           "key": "ly-03-08:語:4",
           "label": "禮後乎예후호",
           "original": "자하가 ‘그렇다면 禮도 뒤에 오는 것입니까’라고 깨닫는 대목입니다. 禮의 형식이 먼저가 아니라 사람 안의 바른 마음과 바탕을 다듬어 표현하는 것임을 짚습니다.",
-          "reason": "깨달음을 담은 자하의 질문을 직접 서술합니다. 인용문은 보존합니다.",
-          "revised": "자하는 뜻을 깨닫고 ‘그렇다면 禮도 뒤에 오는 것입니까’라고 묻습니다. 禮의 형식이 먼저가 아니라 사람 안의 바른 마음과 바탕을 다듬어 표현하는 것임을 짚습니다.",
+          "reason": "무엇을 짚는다고 덧붙이지 않고 자하의 질문이 뜻하는 바를 직접 설명합니다.",
+          "revised": "자하는 뜻을 깨닫고 ‘그렇다면 禮도 뒤에 오는 것입니까’라고 묻습니다. 禮의 형식이 먼저가 아니라 사람 안의 바른 마음과 바탕을 다듬어 표현한다는 뜻입니다.",
           "scope": "語",
           "revision_history": [
             {
@@ -3352,11 +3366,20 @@
               "approval_message": "제이슨에 반영후 다른 유형 계속",
               "date": "2026-09-08",
               "pass": "targeted_type_5"
+            },
+            {
+              "pass": "targeted_type_12",
+              "previous_revision": "자하는 뜻을 깨닫고 ‘그렇다면 禮도 뒤에 오는 것입니까’라고 묻습니다. 禮의 형식이 먼저가 아니라 사람 안의 바른 마음과 바탕을 다듬어 표현하는 것임을 짚습니다.",
+              "revised": "자하는 뜻을 깨닫고 ‘그렇다면 禮도 뒤에 오는 것입니까’라고 묻습니다. 禮의 형식이 먼저가 아니라 사람 안의 바른 마음과 바탕을 다듬어 표현한다는 뜻입니다.",
+              "reason": "무엇을 짚는다고 덧붙이지 않고 자하의 질문이 뜻하는 바를 직접 설명합니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨 반영후  제이슨 반영후 , `주석은 살핍니다 / 따집니다 / 주목합니다 / 찾습니다 / ~라고 봅니다`처럼 **사람의 판단·인지 행위를 주석이 하는 구조**    이런거 찾아봐",
+              "date": "2026-09-08"
             }
           ],
-          "previous_revision": "자하가 ‘그렇다면 禮도 뒤에 오는 것입니까’라고 깨닫는 대목입니다. 禮의 형식이 먼저가 아니라 사람 안의 바른 마음과 바탕을 다듬어 표현하는 것임을 짚습니다.",
+          "previous_revision": "자하는 뜻을 깨닫고 ‘그렇다면 禮도 뒤에 오는 것입니까’라고 묻습니다. 禮의 형식이 먼저가 아니라 사람 안의 바른 마음과 바탕을 다듬어 표현하는 것임을 짚습니다.",
           "approval_status": "approved",
-          "last_revision_pass": "targeted_type_5"
+          "last_revision_pass": "targeted_type_12"
         },
         {
           "book": 3,
@@ -4515,9 +4538,9 @@
         "selector": "article.card details.st1 .w > p:not(.wh)"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_6",
+        "pass": "targeted_type_12",
         "scanned": 120,
-        "approved_applied": 3,
+        "approved_applied": 1,
         "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
       }
     },
@@ -32244,8 +32267,8 @@
     }
   ],
   "latest_style_pass": {
-    "pass": "targeted_type_11",
+    "pass": "targeted_type_12",
     "scanned": 2311,
-    "approved_applied": 3
+    "approved_applied": 2
   }
 }

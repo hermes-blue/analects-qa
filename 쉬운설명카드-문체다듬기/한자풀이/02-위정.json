@@ -76,15 +76,29 @@
     },
     {
       "book": 2,
-      "changed": false,
+      "changed": true,
       "id": "ly-02-02",
       "index": 2,
       "key": "ly-02-02:語:2",
       "label": "一言以蔽之일언이폐지",
       "original": "많은 내용을 한마디로 포괄한다는 뜻입니다. 복잡한 시편들을 억지로 단순화한다기보다, 그 밑에 흐르는 공통된 정신을 짚어 주려는 표현입니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "많은 내용을 한마디로 포괄한다는 뜻입니다. 복잡한 시편들을 억지로 단순화한다기보다, 그 밑에 흐르는 공통된 정신을 짚어 주려는 표현입니다.",
-      "scope": "語"
+      "reason": "여러 시편에 공통된 정신을 설명한다는 뜻을 직접 밝힙니다.",
+      "revised": "많은 내용을 한마디로 포괄한다는 뜻입니다. 복잡한 시편들을 억지로 단순화한다기보다, 그 밑에 흐르는 공통된 정신을 설명하려는 표현입니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_12",
+          "previous_revision": "많은 내용을 한마디로 포괄한다는 뜻입니다. 복잡한 시편들을 억지로 단순화한다기보다, 그 밑에 흐르는 공통된 정신을 짚어 주려는 표현입니다.",
+          "revised": "많은 내용을 한마디로 포괄한다는 뜻입니다. 복잡한 시편들을 억지로 단순화한다기보다, 그 밑에 흐르는 공통된 정신을 설명하려는 표현입니다.",
+          "reason": "여러 시편에 공통된 정신을 설명한다는 뜻을 직접 밝힙니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨 반영후  제이슨 반영후 , `주석은 살핍니다 / 따집니다 / 주목합니다 / 찾습니다 / ~라고 봅니다`처럼 **사람의 판단·인지 행위를 주석이 하는 구조**    이런거 찾아봐",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "많은 내용을 한마디로 포괄한다는 뜻입니다. 복잡한 시편들을 억지로 단순화한다기보다, 그 밑에 흐르는 공통된 정신을 짚어 주려는 표현입니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_12"
     },
     {
       "book": 2,
@@ -1626,9 +1640,9 @@
     "selector": "article.card details.st1 .w > p:not(.wh)"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_8",
+    "pass": "targeted_type_12",
     "scanned": 113,
-    "approved_applied": 2,
+    "approved_applied": 1,
     "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
   }
 }

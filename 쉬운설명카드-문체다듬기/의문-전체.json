@@ -2,8 +2,8 @@
   "schema_version": "1.1",
   "scope": "問",
   "scope_name": "의문",
-  "status": "approved_targeted_type_11_applied",
-  "method": "전체 revised 6,921개 검색 후 추상적인 공간 표현 후보 6개 문맥 검토, 승인된 3곳 반영.",
+  "status": "approved_targeted_type_12_applied",
+  "method": "전체 revised 6,921개 검색 후 짚다 계열의 해설 표현 후보 13개 문맥 검토, 승인된 4곳 반영.",
   "count_unit": "텍스트 필드: 한자 풀이 1개, 질문 또는 답변 1개, 쟁점의 견해 설명 1개",
   "total": 3072,
   "changed": 236,
@@ -43480,7 +43480,7 @@
     }
   ],
   "latest_style_pass": {
-    "pass": "targeted_type_11",
+    "pass": "targeted_type_12",
     "scanned": 3072,
     "approved_applied": 0
   }
