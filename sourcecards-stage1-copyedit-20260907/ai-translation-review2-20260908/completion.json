@@ -1,0 +1,188 @@
+{
+  "상태": "사용자 승인 후 109곳 본문 JSON 반영 완료",
+  "승인요청": "수정해서 제이슨 반영",
+  "반영기준커밋": "5d95a9f663b8172a02c6394d7b300935537d33e3",
+  "승인안커밋": "092fbb7ab27468bac76e0b9aefa22b71999bd78e",
+  "전체편수": 20,
+  "전체장수": 498,
+  "수정장수": 104,
+  "수정곳수": 109,
+  "그중중복등삭제": 24,
+  "유지장수": 394,
+  "기존글자수갱신장수": 104,
+  "검증": {
+    "승인109곳수정전각1회정확일치": true,
+    "삭제24곳포함승인안전체반영": true,
+    "위치기반역변환시전체원본일치": true,
+    "편별장수": [
+      16,
+      24,
+      26,
+      26,
+      27,
+      28,
+      37,
+      21,
+      30,
+      17,
+      25,
+      24,
+      30,
+      47,
+      41,
+      14,
+      26,
+      11,
+      25,
+      3
+    ],
+    "498장ID순서동일": true,
+    "향당17장요왈3장유지": true,
+    "경문표제출전장번호기타기존필드보존": true,
+    "본문지요죠잔여수": 0
+  },
+  "편별반영": [
+    {
+      "편": "학이",
+      "전체장수": 16,
+      "수정곳수": 3,
+      "수정장수": 3
+    },
+    {
+      "편": "위정",
+      "전체장수": 24,
+      "수정곳수": 6,
+      "수정장수": 6
+    },
+    {
+      "편": "팔일",
+      "전체장수": 26,
+      "수정곳수": 1,
+      "수정장수": 1
+    },
+    {
+      "편": "이인",
+      "전체장수": 26,
+      "수정곳수": 6,
+      "수정장수": 6
+    },
+    {
+      "편": "공야장",
+      "전체장수": 27,
+      "수정곳수": 2,
+      "수정장수": 2
+    },
+    {
+      "편": "옹야",
+      "전체장수": 28,
+      "수정곳수": 9,
+      "수정장수": 8
+    },
+    {
+      "편": "술이",
+      "전체장수": 37,
+      "수정곳수": 11,
+      "수정장수": 9
+    },
+    {
+      "편": "태백",
+      "전체장수": 21,
+      "수정곳수": 7,
+      "수정장수": 7
+    },
+    {
+      "편": "자한",
+      "전체장수": 30,
+      "수정곳수": 4,
+      "수정장수": 4
+    },
+    {
+      "편": "향당",
+      "전체장수": 17,
+      "수정곳수": 3,
+      "수정장수": 3
+    },
+    {
+      "편": "선진",
+      "전체장수": 25,
+      "수정곳수": 2,
+      "수정장수": 2
+    },
+    {
+      "편": "안연",
+      "전체장수": 24,
+      "수정곳수": 6,
+      "수정장수": 5
+    },
+    {
+      "편": "자로",
+      "전체장수": 30,
+      "수정곳수": 6,
+      "수정장수": 6
+    },
+    {
+      "편": "헌문",
+      "전체장수": 47,
+      "수정곳수": 11,
+      "수정장수": 11
+    },
+    {
+      "편": "위령공",
+      "전체장수": 41,
+      "수정곳수": 13,
+      "수정장수": 13
+    },
+    {
+      "편": "계씨",
+      "전체장수": 14,
+      "수정곳수": 4,
+      "수정장수": 4
+    },
+    {
+      "편": "양화",
+      "전체장수": 26,
+      "수정곳수": 4,
+      "수정장수": 4
+    },
+    {
+      "편": "미자",
+      "전체장수": 11,
+      "수정곳수": 3,
+      "수정장수": 2
+    },
+    {
+      "편": "자장",
+      "전체장수": 25,
+      "수정곳수": 8,
+      "수정장수": 8
+    },
+    {
+      "편": "요왈",
+      "전체장수": 3,
+      "수정곳수": 0,
+      "수정장수": 0
+    }
+  ],
+  "본문GitBlobSHA_반영후": {
+    "sourcecards-stage1-copyedit-20260907/round3/01-hakyi.json": "2769ae962bcb6be418b5dc2581a2481c866c58ab",
+    "sourcecards-stage1-copyedit-20260907/round3/02-wijeong.json": "c2fde305db014d4c975c9966291a1062f83470d3",
+    "sourcecards-stage1-copyedit-20260907/round3/03-palil.json": "358bcc45050fe95dd4dd79fa789d082bc4aa6c8a",
+    "sourcecards-stage1-copyedit-20260907/round3/04-iin.json": "72acff59e0f80dac4b828fea016155ec43aa5654",
+    "sourcecards-stage1-copyedit-20260907/round3/05-gongyajang.json": "764e2c29746beaf096885cd3e7eec426fda150d9",
+    "sourcecards-stage1-copyedit-20260907/round3/06-yongya.json": "b7bcfc5a5d275e18ae812ee83dfbc4aaf899ca7a",
+    "sourcecards-stage1-copyedit-20260907/round3/07-suli.json": "fac29191b6154daed5281eed543099c541bc85c3",
+    "sourcecards-stage1-copyedit-20260907/round3/08-taebaek.json": "bed720af2bc4eb49a6c06e2b27f1b5f21cc73e43",
+    "sourcecards-stage1-copyedit-20260907/round3/09-jahan.json": "068ba11e4fbdf1aa911abf91c9b3b71d30761623",
+    "sourcecards-stage1-copyedit-20260907/round3/10-hyangdang.json": "787ad272958fc51caa8edde529ddf9b3b1922d44",
+    "sourcecards-stage1-copyedit-20260907/round3/11-seonjin.json": "ff8a58cb9cfa6b3ec769599a1120ff553c3ef875",
+    "sourcecards-stage1-copyedit-20260907/round3/12-anyeon.json": "7cf64fe5d7a83f0308bcc9b9f39249af40496db9",
+    "sourcecards-stage1-copyedit-20260907/round3/13-jaro.json": "e81b6887e33908e4d66a50250199ed9c495c5d93",
+    "sourcecards-stage1-copyedit-20260907/round3/14-heonmun.json": "29027932668d73e7431b7179e1455a2ced772a73",
+    "sourcecards-stage1-copyedit-20260907/round3/15-wiryeonggong.json": "84bfe71fd89dc2fe14a58cbccf4bf546cc5e7644",
+    "sourcecards-stage1-copyedit-20260907/round3/16-gyessi.json": "fea183d90e0c21c1822d0e6656b2f68cf68d7cd9",
+    "sourcecards-stage1-copyedit-20260907/round3/17-yanghwa.json": "4d896794f574e3317628d3092635b93437dd507e",
+    "sourcecards-stage1-copyedit-20260907/round3/18-mija.json": "bc019765a643d8f419550215c79d6f5b978a56d8",
+    "sourcecards-stage1-copyedit-20260907/round3/19-jajang.json": "a82d1bc0341c610cf7306bdcd3fbaff37e95ed2c",
+    "sourcecards-stage1-copyedit-20260907/round3/20-yowal.json": "adf1b1f363740361dbc52878b0a802d4e5d4dbcc"
+  }
+}
