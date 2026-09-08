@@ -1,0 +1,64 @@
+name: TEMP Apply Stage2 Jjip 25
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/temp-apply-stage2-jjip-25.yml']
+permissions:
+  contents: write
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Apply approved edits
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json, glob
+          from pathlib import Path
+          audit_path=Path('sourcecards-targeted-review-7passes/repeated-expression-audit/jjip-seumnida/audit.json')
+          audit=json.loads(audit_path.read_text(encoding='utf-8'))
+          cs=audit['후보']
+          if len(cs)!=25: raise SystemExit(f'expected 25, got {len(cs)}')
+          staged={}; ids=set()
+          for c in cs:
+              p=Path(c['파일'])
+              text=staged.get(p,p.read_text(encoding='utf-8'))
+              old,new=c['수정전전체'],c['수정후전체']
+              n=text.count(old)
+              if n!=1: raise SystemExit(f"{c['구절ID']}: expected 1 exact match, got {n}")
+              text=text.replace(old,new,1)
+              json.loads(text)
+              staged[p]=text
+              ids.add(c['구절ID'])
+          if len(ids)!=25: raise SystemExit(f'expected 25 unique ids, got {len(ids)}')
+          for p,text in staged.items():
+              p.write_text(text,encoding='utf-8')
+          # no 짚습니다 remains anywhere in stage2 body
+          remain=0
+          for fn in glob.glob('sourcecards-style-polish/[0-9][0-9]-*.json'):
+              data=json.loads(Path(fn).read_text(encoding='utf-8'))
+              remain += sum(ch['여는말'].count('짚습니다') for ch in data['장'])
+          if remain!=0: raise SystemExit(f'짚습니다 remains: {remain}')
+          for c in cs:
+              c['승인상태']='승인완료'; c['본문반영']=True
+          audit['승인상태']='승인완료'; audit['본문반영수']=25; audit['반영완료']=True; audit['최종출현수']=0
+          audit_path.write_text(json.dumps(audit,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          files=sorted(glob.glob('sourcecards-style-polish/[0-9][0-9]-*.json'))
+          if len(files)!=20: raise SystemExit(f'files={len(files)}')
+          total=sum(len(json.loads(Path(fn).read_text(encoding='utf-8'))['장']) for fn in files)
+          if total!=498: raise SystemExit(f'total={total}')
+          print('applied',len(cs),'total',total,'짚습니다',remain)
+          PY
+      - name: Commit
+        shell: bash
+        run: |
+          git diff --check
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add sourcecards-style-polish/ sourcecards-targeted-review-7passes/repeated-expression-audit/jjip-seumnida/audit.json
+          git commit -m '사료카드 2단계 짚습니다 승인 25건 실제 반영'
+          git push origin main
