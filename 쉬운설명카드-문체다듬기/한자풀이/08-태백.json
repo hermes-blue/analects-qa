@@ -364,15 +364,29 @@
     },
     {
       "book": 8,
-      "changed": false,
+      "changed": true,
       "id": "ly-08-07",
       "index": 2,
       "key": "ly-08-07:語:2",
       "label": "弘毅홍의",
       "original": "弘은 마음이 넓고, 毅는 뜻이 굳세다는 뜻입니다. 큰 책임을 오래 짊어지려면 넓게 품는 힘과 쉽게 꺾이지 않는 지속성이 함께 필요하다는 말입니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "弘은 마음이 넓고, 毅는 뜻이 굳세다는 뜻입니다. 큰 책임을 오래 짊어지려면 넓게 품는 힘과 쉽게 꺾이지 않는 지속성이 함께 필요하다는 말입니다.",
-      "scope": "語"
+      "reason": "지속성을 오래 버티는 행동으로 풀기",
+      "revised": "弘은 마음이 넓고, 毅는 뜻이 굳세다는 뜻입니다. 큰 책임을 오래 짊어지려면 넓게 품는 힘과 쉽게 꺾이지 않고 오래 버티는 힘이 함께 필요하다는 말입니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_1",
+          "previous_revision": "弘은 마음이 넓고, 毅는 뜻이 굳세다는 뜻입니다. 큰 책임을 오래 짊어지려면 넓게 품는 힘과 쉽게 꺾이지 않는 지속성이 함께 필요하다는 말입니다.",
+          "revised": "弘은 마음이 넓고, 毅는 뜻이 굳세다는 뜻입니다. 큰 책임을 오래 짊어지려면 넓게 품는 힘과 쉽게 꺾이지 않고 오래 버티는 힘이 함께 필요하다는 말입니다.",
+          "reason": "지속성을 오래 버티는 행동으로 풀기",
+          "approval_status": "approved",
+          "approval_message": "굿 수정, 수정후 다음 시작",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "弘은 마음이 넓고, 毅는 뜻이 굳세다는 뜻입니다. 큰 책임을 오래 짊어지려면 넓게 품는 힘과 쉽게 꺾이지 않는 지속성이 함께 필요하다는 말입니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_1"
     },
     {
       "book": 8,
@@ -1084,15 +1098,29 @@
     },
     {
       "book": 8,
-      "changed": false,
+      "changed": true,
       "id": "ly-08-20",
       "index": 3,
       "key": "ly-08-20:語:3",
       "label": "才難재난",
       "original": "진짜 인재를 얻기 어렵다는 뜻입니다. 이상적인 군주에게도 훌륭한 신하는 많지 않았다는 사실을 들어, 덕과 능력을 함께 갖춘 사람의 희소성을 강조합니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "진짜 인재를 얻기 어렵다는 뜻입니다. 이상적인 군주에게도 훌륭한 신하는 많지 않았다는 사실을 들어, 덕과 능력을 함께 갖춘 사람의 희소성을 강조합니다.",
-      "scope": "語"
+      "reason": "사람의 희소성을 직접 서술",
+      "revised": "진짜 인재를 얻기 어렵다는 뜻입니다. 이상적인 군주에게도 훌륭한 신하는 많지 않았다는 사실을 들어, 덕과 능력을 함께 갖춘 사람이 드물다는 점을 강조합니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_1",
+          "previous_revision": "진짜 인재를 얻기 어렵다는 뜻입니다. 이상적인 군주에게도 훌륭한 신하는 많지 않았다는 사실을 들어, 덕과 능력을 함께 갖춘 사람의 희소성을 강조합니다.",
+          "revised": "진짜 인재를 얻기 어렵다는 뜻입니다. 이상적인 군주에게도 훌륭한 신하는 많지 않았다는 사실을 들어, 덕과 능력을 함께 갖춘 사람이 드물다는 점을 강조합니다.",
+          "reason": "사람의 희소성을 직접 서술",
+          "approval_status": "approved",
+          "approval_message": "굿 수정, 수정후 다음 시작",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "진짜 인재를 얻기 어렵다는 뜻입니다. 이상적인 군주에게도 훌륭한 신하는 많지 않았다는 사실을 들어, 덕과 능력을 함께 갖춘 사람의 희소성을 강조합니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_1"
     },
     {
       "book": 8,
@@ -1197,5 +1225,11 @@
     "path": "1차완성본/쉬운설명카드/08-태백.html",
     "repository": "hermes-blue/analects",
     "selector": "article.card details.st1 .w > p:not(.wh)"
+  },
+  "latest_style_pass": {
+    "pass": "targeted_type_1",
+    "reviewed": 98,
+    "approved_applied": 2,
+    "status": "approved_applied"
   }
 }

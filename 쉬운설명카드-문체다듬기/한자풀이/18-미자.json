@@ -574,9 +574,23 @@
       "key": "ly-18-10:語:4",
       "label": "故舊無大故則不棄고구무대고즉불기",
       "original": "오랜 관계의 사람은 큰 잘못이 없으면 버리지 않는다는 뜻입니다. 사람을 쉽게 갈아치우지 않는 신뢰와 지속성을 강조합니다.",
-      "reason": "어색한 관형 표현을 풀어 씀.",
-      "revised": "오래 관계를 맺어 온 사람은 큰 잘못이 없으면 버리지 않는다는 뜻입니다. 사람을 쉽게 갈아치우지 않는 신뢰와 지속성을 강조합니다.",
-      "scope": "語"
+      "reason": "‘신뢰와 지속성’을 사람을 대하는 행동으로 풉니다.",
+      "revised": "오래 관계를 맺어 온 사람은 큰 잘못이 없으면 버리지 않는다는 뜻입니다. 사람을 믿고 쉽게 갈아치우지 않으며 오래 함께하는 태도를 강조합니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_1",
+          "previous_revision": "오래 관계를 맺어 온 사람은 큰 잘못이 없으면 버리지 않는다는 뜻입니다. 사람을 쉽게 갈아치우지 않는 신뢰와 지속성을 강조합니다.",
+          "revised": "오래 관계를 맺어 온 사람은 큰 잘못이 없으면 버리지 않는다는 뜻입니다. 사람을 믿고 쉽게 갈아치우지 않으며 오래 함께하는 태도를 강조합니다.",
+          "reason": "‘신뢰와 지속성’을 사람을 대하는 행동으로 풉니다.",
+          "approval_status": "approved",
+          "approval_message": "굿 수정, 수정후 다음 시작",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "오래 관계를 맺어 온 사람은 큰 잘못이 없으면 버리지 않는다는 뜻입니다. 사람을 쉽게 갈아치우지 않는 신뢰와 지속성을 강조합니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_1"
     },
     {
       "book": 18,
@@ -669,5 +683,11 @@
     "path": "1차완성본/쉬운설명카드/18-미자.html",
     "repository": "hermes-blue/analects",
     "selector": "article.card details.st1 .w > p:not(.wh)"
+  },
+  "latest_style_pass": {
+    "pass": "targeted_type_1",
+    "reviewed": 54,
+    "approved_applied": 1,
+    "status": "approved_applied"
   }
 }

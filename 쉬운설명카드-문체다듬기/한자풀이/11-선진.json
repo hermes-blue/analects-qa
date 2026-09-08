@@ -148,15 +148,29 @@
     },
     {
       "book": 11,
-      "changed": false,
+      "changed": true,
       "id": "ly-11-03",
       "index": 3,
       "key": "ly-11-03:語:3",
       "label": "吾言오언",
       "original": "공자님의 가르침을 뜻합니다. 안회가 이 말을 거의 모두 기쁘게 받아들였다는 점에서, 스승과 제자의 높은 이해 관계가 드러납니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "공자님의 가르침을 뜻합니다. 안회가 이 말을 거의 모두 기쁘게 받아들였다는 점에서, 스승과 제자의 높은 이해 관계가 드러납니다.",
-      "scope": "語"
+      "reason": "높은 이해 관계를 이해하는 행동으로 풀기",
+      "revised": "공자님의 가르침을 뜻합니다. 안회가 이 말을 거의 모두 기쁘게 받아들였다는 점에서, 안회가 스승의 뜻을 얼마나 깊이 이해했는지 드러납니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_1",
+          "previous_revision": "공자님의 가르침을 뜻합니다. 안회가 이 말을 거의 모두 기쁘게 받아들였다는 점에서, 스승과 제자의 높은 이해 관계가 드러납니다.",
+          "revised": "공자님의 가르침을 뜻합니다. 안회가 이 말을 거의 모두 기쁘게 받아들였다는 점에서, 안회가 스승의 뜻을 얼마나 깊이 이해했는지 드러납니다.",
+          "reason": "높은 이해 관계를 이해하는 행동으로 풀기",
+          "approval_status": "approved",
+          "approval_message": "굿 수정, 수정후 다음 시작",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "공자님의 가르침을 뜻합니다. 안회가 이 말을 거의 모두 기쁘게 받아들였다는 점에서, 스승과 제자의 높은 이해 관계가 드러납니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_1"
     },
     {
       "book": 11,
@@ -1449,5 +1463,11 @@
     "path": "1차완성본/쉬운설명카드/11-선진.html",
     "repository": "hermes-blue/analects",
     "selector": "article.card details.st1 .w > p:not(.wh)"
+  },
+  "latest_style_pass": {
+    "pass": "targeted_type_1",
+    "reviewed": 119,
+    "approved_applied": 1,
+    "status": "approved_applied"
   }
 }

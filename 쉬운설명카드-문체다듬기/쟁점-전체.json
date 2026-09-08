@@ -2,12 +2,12 @@
   "schema_version": "1.1",
   "scope": "說",
   "scope_name": "쟁점",
-  "status": "completed_selective_style_pass",
-  "method": "문체 패턴으로 후보를 찾고 후보 문장의 표현과 문맥을 검토하는 선별 교정. 내용 검수는 하지 않음.",
+  "status": "approved_targeted_type_1_applied",
+  "method": "20편의 핵심·語·問·說 전체 6,921개 본문 항목을 순서대로 읽고 유형 1 후보 81곳을 전후 대조한 뒤 사용자 승인에 따라 반영. 내용·해석 검수는 하지 않음.",
   "count_unit": "텍스트 필드: 한자 풀이 1개, 질문 또는 답변 1개, 쟁점의 견해 설명 1개",
   "total": 1040,
-  "changed": 22,
-  "unchanged": 1018,
+  "changed": 27,
+  "unchanged": 1013,
   "card_count": 498,
   "book_count": 20,
   "content_review_performed": false,
@@ -1678,17 +1678,31 @@
         },
         {
           "book": 3,
-          "changed": false,
+          "changed": true,
           "heading": "제사는 ‘대신 해주면’ 같은 제사일까?개념 범위형",
           "id": "ly-03-12",
           "index": 1,
           "key": "ly-03-12:說:1:2",
           "label": "이렇게도 보면",
           "original": "공자님은 자신이 마땅히 참여할 제사에 직접 참여하지 않으면 제사하지 않은 것과 같다고 말합니다. 제사의 핵심을 절차 완료보다 당사자의 실제 참여와 공경에 둡니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "공자님은 자신이 마땅히 참여할 제사에 직접 참여하지 않으면 제사하지 않은 것과 같다고 말합니다. 제사의 핵심을 절차 완료보다 당사자의 실제 참여와 공경에 둡니다.",
+          "reason": "완료·참여·공경의 명사 나열 풀기",
+          "revised": "공자님은 자신이 마땅히 참여할 제사에 직접 참여하지 않으면 제사하지 않은 것과 같다고 말합니다. 제사에서는 절차를 마치는 것보다 당사자가 직접 참여해 공경하는 것을 중요하게 여깁니다.",
           "scope": "說",
-          "side": 2
+          "side": 2,
+          "revision_history": [
+            {
+              "pass": "targeted_type_1",
+              "previous_revision": "공자님은 자신이 마땅히 참여할 제사에 직접 참여하지 않으면 제사하지 않은 것과 같다고 말합니다. 제사의 핵심을 절차 완료보다 당사자의 실제 참여와 공경에 둡니다.",
+              "revised": "공자님은 자신이 마땅히 참여할 제사에 직접 참여하지 않으면 제사하지 않은 것과 같다고 말합니다. 제사에서는 절차를 마치는 것보다 당사자가 직접 참여해 공경하는 것을 중요하게 여깁니다.",
+              "reason": "완료·참여·공경의 명사 나열 풀기",
+              "approval_status": "approved",
+              "approval_message": "굿 수정, 수정후 다음 시작",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "공자님은 자신이 마땅히 참여할 제사에 직접 참여하지 않으면 제사하지 않은 것과 같다고 말합니다. 제사의 핵심을 절차 완료보다 당사자의 실제 참여와 공경에 둡니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_1"
         },
         {
           "book": 3,
@@ -1902,17 +1916,31 @@
         },
         {
           "book": 3,
-          "changed": false,
+          "changed": true,
           "heading": "‘기뻐하되 지나치지 않고 슬퍼하되 상하지 않는다’는 감정을 억누르라는 말일까?오해 교정형",
           "id": "ly-03-20",
           "index": 1,
           "key": "ly-03-20:說:1:2",
           "label": "이렇게도 보면",
           "original": "관저에는 실제 기쁨과 슬픔이 모두 있습니다. 공자님이 높인 것은 감정의 부재가 아니라 감정이 방탕이나 자기파괴로 무너지지 않는 절도입니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "관저에는 실제 기쁨과 슬픔이 모두 있습니다. 공자님이 높인 것은 감정의 부재가 아니라 감정이 방탕이나 자기파괴로 무너지지 않는 절도입니다.",
+          "reason": "감정의 부재·자기파괴를 직접 서술",
+          "revised": "관저에는 실제 기쁨과 슬픔이 모두 있습니다. 공자님이 높이 평가한 것은 감정이 없는 상태가 아니라, 감정을 느끼면서도 방탕해지거나 자신을 해치지 않도록 절도를 지키는 태도입니다.",
           "scope": "說",
-          "side": 2
+          "side": 2,
+          "revision_history": [
+            {
+              "pass": "targeted_type_1",
+              "previous_revision": "관저에는 실제 기쁨과 슬픔이 모두 있습니다. 공자님이 높인 것은 감정의 부재가 아니라 감정이 방탕이나 자기파괴로 무너지지 않는 절도입니다.",
+              "revised": "관저에는 실제 기쁨과 슬픔이 모두 있습니다. 공자님이 높이 평가한 것은 감정이 없는 상태가 아니라, 감정을 느끼면서도 방탕해지거나 자신을 해치지 않도록 절도를 지키는 태도입니다.",
+              "reason": "감정의 부재·자기파괴를 직접 서술",
+              "approval_status": "approved",
+              "approval_message": "굿 수정, 수정후 다음 시작",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "관저에는 실제 기쁨과 슬픔이 모두 있습니다. 공자님이 높인 것은 감정의 부재가 아니라 감정이 방탕이나 자기파괴로 무너지지 않는 절도입니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_1"
         },
         {
           "book": 3,
@@ -2101,6 +2129,12 @@
         "path": "1차완성본/쉬운설명카드/03-팔일.html",
         "repository": "hermes-blue/analects",
         "selector": "article.card details.st3 .js .side > p"
+      },
+      "latest_style_pass": {
+        "pass": "targeted_type_1",
+        "reviewed": 54,
+        "approved_applied": 2,
+        "status": "approved_applied"
       }
     },
     {
@@ -4189,17 +4223,31 @@
         },
         {
           "book": 6,
-          "changed": false,
+          "changed": true,
           "heading": "‘정직해야 세상을 무사히 살아간다’ vs ‘사람을 살게 하는 본래 이치가 곧다’人之生也直",
           "id": "ly-06-17",
           "index": 1,
           "key": "ly-06-17:說:1:2",
           "label": "정이(程頤)·주희(朱熹)",
           "original": "더 근본적으로 ‘사람을 낳고 살게 하는 이치 자체가 본래 곧다’고 풉니다. 거짓과 굽은 행동은 본래의 생명 이치를 거스르는 일이고, 그런데도 살아남는 것은 우연한 면제라는 뜻입니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "더 근본적으로 ‘사람을 낳고 살게 하는 이치 자체가 본래 곧다’고 풉니다. 거짓과 굽은 행동은 본래의 생명 이치를 거스르는 일이고, 그런데도 살아남는 것은 우연한 면제라는 뜻입니다.",
+          "reason": "우연한 면제를 직접 서술",
+          "revised": "더 근본적으로 ‘사람을 낳고 살게 하는 이치 자체가 본래 곧다’고 풉니다. 거짓과 굽은 행동은 본래의 생명 이치를 거스르는 일이고, 그런데도 살아남는 것은 우연히 화를 면했을 뿐이라는 뜻입니다.",
           "scope": "說",
-          "side": 2
+          "side": 2,
+          "revision_history": [
+            {
+              "pass": "targeted_type_1",
+              "previous_revision": "더 근본적으로 ‘사람을 낳고 살게 하는 이치 자체가 본래 곧다’고 풉니다. 거짓과 굽은 행동은 본래의 생명 이치를 거스르는 일이고, 그런데도 살아남는 것은 우연한 면제라는 뜻입니다.",
+              "revised": "더 근본적으로 ‘사람을 낳고 살게 하는 이치 자체가 본래 곧다’고 풉니다. 거짓과 굽은 행동은 본래의 생명 이치를 거스르는 일이고, 그런데도 살아남는 것은 우연히 화를 면했을 뿐이라는 뜻입니다.",
+              "reason": "우연한 면제를 직접 서술",
+              "approval_status": "approved",
+              "approval_message": "굿 수정, 수정후 다음 시작",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "더 근본적으로 ‘사람을 낳고 살게 하는 이치 자체가 본래 곧다’고 풉니다. 거짓과 굽은 행동은 본래의 생명 이치를 거스르는 일이고, 그런데도 살아남는 것은 우연한 면제라는 뜻입니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_1"
         },
         {
           "book": 6,
@@ -4528,6 +4576,12 @@
         "path": "1차완성본/쉬운설명카드/06-옹야.html",
         "repository": "hermes-blue/analects",
         "selector": "article.card details.st3 .js .side > p"
+      },
+      "latest_style_pass": {
+        "pass": "targeted_type_1",
+        "reviewed": 58,
+        "approved_applied": 1,
+        "status": "approved_applied"
       }
     },
     {
@@ -10535,17 +10589,31 @@
         },
         {
           "book": 14,
-          "changed": false,
+          "changed": true,
           "heading": "주군을 따라 죽지 않은 관중은 불충한가, 더 큰 책임을 택한 것인가?본문 속 논쟁형",
           "id": "ly-14-17",
           "index": 1,
           "key": "ly-14-17:說:1:1",
           "label": "이렇게 보면",
           "original": "자로와 이어지는 자공의 질문은 관중이 자기 주군 공자 규를 따라 죽지 않고 오히려 제환공을 섬긴 일을 충절의 실패로 봅니다. 개인적 신의와 주군에 대한 의리를 기준으로 삼은 판단입니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "자로와 이어지는 자공의 질문은 관중이 자기 주군 공자 규를 따라 죽지 않고 오히려 제환공을 섬긴 일을 충절의 실패로 봅니다. 개인적 신의와 주군에 대한 의리를 기준으로 삼은 판단입니다.",
+          "reason": "충절의 실패를 직접 서술",
+          "revised": "자로와 이어지는 자공의 질문은 관중이 자기 주군 공자 규를 따라 죽지 않고 오히려 제환공을 섬긴 일을 충절을 지키지 못한 일로 봅니다. 개인적 신의와 주군에 대한 의리를 기준으로 삼은 판단입니다.",
           "scope": "說",
-          "side": 1
+          "side": 1,
+          "revision_history": [
+            {
+              "pass": "targeted_type_1",
+              "previous_revision": "자로와 이어지는 자공의 질문은 관중이 자기 주군 공자 규를 따라 죽지 않고 오히려 제환공을 섬긴 일을 충절의 실패로 봅니다. 개인적 신의와 주군에 대한 의리를 기준으로 삼은 판단입니다.",
+              "revised": "자로와 이어지는 자공의 질문은 관중이 자기 주군 공자 규를 따라 죽지 않고 오히려 제환공을 섬긴 일을 충절을 지키지 못한 일로 봅니다. 개인적 신의와 주군에 대한 의리를 기준으로 삼은 판단입니다.",
+              "reason": "충절의 실패를 직접 서술",
+              "approval_status": "approved",
+              "approval_message": "굿 수정, 수정후 다음 시작",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "자로와 이어지는 자공의 질문은 관중이 자기 주군 공자 규를 따라 죽지 않고 오히려 제환공을 섬긴 일을 충절의 실패로 봅니다. 개인적 신의와 주군에 대한 의리를 기준으로 삼은 판단입니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_1"
         },
         {
           "book": 14,
@@ -11448,6 +11516,12 @@
         "path": "1차완성본/쉬운설명카드/14-헌문.html",
         "repository": "hermes-blue/analects",
         "selector": "article.card details.st3 .js .side > p"
+      },
+      "latest_style_pass": {
+        "pass": "targeted_type_1",
+        "reviewed": 99,
+        "approved_applied": 1,
+        "status": "approved_applied"
       }
     },
     {
@@ -12198,17 +12272,31 @@
         },
         {
           "book": 15,
-          "changed": false,
+          "changed": true,
           "heading": "역사 기록은 빈칸이 있어도 될까, 그럴듯하게라도 채워야 할까?현실 선택형",
           "id": "ly-15-25",
           "index": 1,
           "key": "ly-15-25:說:1:2",
           "label": "이렇게도 보면",
           "original": "공자님은 오히려 옛 사관이 모르는 사실을 비워 두던 풍속을 그리워합니다. 모르는 것을 모른다고 남기는 불완전함이, 근거 없는 완성보다 더 정직한 기록이라는 판단입니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "공자님은 오히려 옛 사관이 모르는 사실을 비워 두던 풍속을 그리워합니다. 모르는 것을 모른다고 남기는 불완전함이, 근거 없는 완성보다 더 정직한 기록이라는 판단입니다.",
+          "reason": "불완전함·근거 없는 완성을 기록하는 행동으로 풀기",
+          "revised": "공자님은 오히려 옛 사관이 모르는 사실을 비워 두던 풍속을 그리워합니다. 모르는 것을 모른다고 남긴 기록이 불완전하더라도, 근거 없이 완성한 기록보다 더 정직하다는 판단입니다.",
           "scope": "說",
-          "side": 2
+          "side": 2,
+          "revision_history": [
+            {
+              "pass": "targeted_type_1",
+              "previous_revision": "공자님은 오히려 옛 사관이 모르는 사실을 비워 두던 풍속을 그리워합니다. 모르는 것을 모른다고 남기는 불완전함이, 근거 없는 완성보다 더 정직한 기록이라는 판단입니다.",
+              "revised": "공자님은 오히려 옛 사관이 모르는 사실을 비워 두던 풍속을 그리워합니다. 모르는 것을 모른다고 남긴 기록이 불완전하더라도, 근거 없이 완성한 기록보다 더 정직하다는 판단입니다.",
+              "reason": "불완전함·근거 없는 완성을 기록하는 행동으로 풀기",
+              "approval_status": "approved",
+              "approval_message": "굿 수정, 수정후 다음 시작",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "공자님은 오히려 옛 사관이 모르는 사실을 비워 두던 풍속을 그리워합니다. 모르는 것을 모른다고 남기는 불완전함이, 근거 없는 완성보다 더 정직한 기록이라는 판단입니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_1"
         },
         {
           "book": 15,
@@ -12677,6 +12765,12 @@
         "path": "1차완성본/쉬운설명카드/15-위령공.html",
         "repository": "hermes-blue/analects",
         "selector": "article.card details.st3 .js .side > p"
+      },
+      "latest_style_pass": {
+        "pass": "targeted_type_1",
+        "reviewed": 86,
+        "approved_applied": 1,
+        "status": "approved_applied"
       }
     },
     {
@@ -15072,5 +15166,10 @@
         "selector": "article.card details.st3 .js .side > p"
       }
     }
-  ]
+  ],
+  "latest_style_pass": {
+    "pass": "targeted_type_1",
+    "reviewed": 1040,
+    "approved_applied": 5
+  }
 }

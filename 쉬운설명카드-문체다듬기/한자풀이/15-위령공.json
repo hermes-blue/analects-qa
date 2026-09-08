@@ -256,15 +256,29 @@
     },
     {
       "book": 15,
-      "changed": false,
+      "changed": true,
       "id": "ly-15-06",
       "index": 1,
       "key": "ly-15-06:語:1",
       "label": "直哉史魚직재사어",
       "original": "사어의 곧음을 칭찬한 말입니다. 나라가 바르든 어지럽든 자기 원칙을 굽히지 않는 강한 직선성을 가리킵니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "사어의 곧음을 칭찬한 말입니다. 나라가 바르든 어지럽든 자기 원칙을 굽히지 않는 강한 직선성을 가리킵니다.",
-      "scope": "語"
+      "reason": "강한 직선성을 사람의 태도로 풀기",
+      "revised": "사어의 곧음을 칭찬한 말입니다. 나라가 바르든 어지럽든 자기 원칙을 굽히지 않고 곧게 지키는 태도를 가리킵니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_1",
+          "previous_revision": "사어의 곧음을 칭찬한 말입니다. 나라가 바르든 어지럽든 자기 원칙을 굽히지 않는 강한 직선성을 가리킵니다.",
+          "revised": "사어의 곧음을 칭찬한 말입니다. 나라가 바르든 어지럽든 자기 원칙을 굽히지 않고 곧게 지키는 태도를 가리킵니다.",
+          "reason": "강한 직선성을 사람의 태도로 풀기",
+          "approval_status": "approved",
+          "approval_message": "굿 수정, 수정후 다음 시작",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "사어의 곧음을 칭찬한 말입니다. 나라가 바르든 어지럽든 자기 원칙을 굽히지 않는 강한 직선성을 가리킵니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_1"
     },
     {
       "book": 15,
@@ -2001,5 +2015,11 @@
     "path": "1차완성본/쉬운설명카드/15-위령공.html",
     "repository": "hermes-blue/analects",
     "selector": "article.card details.st1 .w > p:not(.wh)"
+  },
+  "latest_style_pass": {
+    "pass": "targeted_type_1",
+    "reviewed": 165,
+    "approved_applied": 1,
+    "status": "approved_applied"
   }
 }

@@ -784,15 +784,29 @@
     },
     {
       "book": 13,
-      "changed": false,
+      "changed": true,
       "id": "ly-13-16",
       "index": 3,
       "key": "ly-13-16:語:3",
       "label": "問政문정",
       "original": "섭공이 정치를 묻는 장면입니다. 공자님은 복잡한 제도보다 내부 만족과 외부 신뢰라는 두 결과로 좋은 정치를 아주 짧게 설명합니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "섭공이 정치를 묻는 장면입니다. 공자님은 복잡한 제도보다 내부 만족과 외부 신뢰라는 두 결과로 좋은 정치를 아주 짧게 설명합니다.",
-      "scope": "語"
+      "reason": "내부 만족·외부 신뢰를 사람의 반응으로 풀기",
+      "revised": "섭공이 정치를 묻는 장면입니다. 공자님은 복잡한 제도보다 백성이 만족하고 외부 사람들도 믿고 찾아오는 두 결과로 좋은 정치를 아주 짧게 설명합니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_1",
+          "previous_revision": "섭공이 정치를 묻는 장면입니다. 공자님은 복잡한 제도보다 내부 만족과 외부 신뢰라는 두 결과로 좋은 정치를 아주 짧게 설명합니다.",
+          "revised": "섭공이 정치를 묻는 장면입니다. 공자님은 복잡한 제도보다 백성이 만족하고 외부 사람들도 믿고 찾아오는 두 결과로 좋은 정치를 아주 짧게 설명합니다.",
+          "reason": "내부 만족·외부 신뢰를 사람의 반응으로 풀기",
+          "approval_status": "approved",
+          "approval_message": "굿 수정, 수정후 다음 시작",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "섭공이 정치를 묻는 장면입니다. 공자님은 복잡한 제도보다 내부 만족과 외부 신뢰라는 두 결과로 좋은 정치를 아주 짧게 설명합니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_1"
     },
     {
       "book": 13,
@@ -1545,5 +1559,11 @@
     "path": "1차완성본/쉬운설명카드/13-자로.html",
     "repository": "hermes-blue/analects",
     "selector": "article.card details.st1 .w > p:not(.wh)"
+  },
+  "latest_style_pass": {
+    "pass": "targeted_type_1",
+    "reviewed": 127,
+    "approved_applied": 1,
+    "status": "approved_applied"
   }
 }

@@ -472,15 +472,29 @@
     },
     {
       "book": 9,
-      "changed": false,
+      "changed": true,
       "id": "ly-09-08",
       "index": 2,
       "key": "ly-09-08:語:2",
       "label": "河圖하도",
       "original": "황하에서 나타난 신비한 도형으로 성왕의 시대를 알리는 징조로 전해집니다. 봉황과 함께 등장해 공자님이 기다리던 이상 정치의 부재를 상징합니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "황하에서 나타난 신비한 도형으로 성왕의 시대를 알리는 징조로 전해집니다. 봉황과 함께 등장해 공자님이 기다리던 이상 정치의 부재를 상징합니다.",
-      "scope": "語"
+      "reason": "이상 정치의 부재를 풀기",
+      "revised": "황하에서 나타난 신비한 도형으로 성왕의 시대를 알리는 징조로 전해집니다. 봉황과 함께 등장해 공자님이 기다리던 이상적인 정치가 아직 실현되지 않았음을 상징합니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_1",
+          "previous_revision": "황하에서 나타난 신비한 도형으로 성왕의 시대를 알리는 징조로 전해집니다. 봉황과 함께 등장해 공자님이 기다리던 이상 정치의 부재를 상징합니다.",
+          "revised": "황하에서 나타난 신비한 도형으로 성왕의 시대를 알리는 징조로 전해집니다. 봉황과 함께 등장해 공자님이 기다리던 이상적인 정치가 아직 실현되지 않았음을 상징합니다.",
+          "reason": "이상 정치의 부재를 풀기",
+          "approval_status": "approved",
+          "approval_message": "굿 수정, 수정후 다음 시작",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "황하에서 나타난 신비한 도형으로 성왕의 시대를 알리는 징조로 전해집니다. 봉황과 함께 등장해 공자님이 기다리던 이상 정치의 부재를 상징합니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_1"
     },
     {
       "book": 9,
@@ -1036,15 +1050,29 @@
     },
     {
       "book": 9,
-      "changed": false,
+      "changed": true,
       "id": "ly-09-18",
       "index": 2,
       "key": "ly-09-18:語:2",
       "label": "未成一簣미성일궤",
       "original": "마지막 한 삼태기만 남겨 두고도 아직 완성되지 않았다는 뜻입니다. 거의 다 했다는 사실보다 끝까지 마무리하는 지속성이 더 중요하다는 경계입니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "마지막 한 삼태기만 남겨 두고도 아직 완성되지 않았다는 뜻입니다. 거의 다 했다는 사실보다 끝까지 마무리하는 지속성이 더 중요하다는 경계입니다.",
-      "scope": "語"
+      "reason": "마무리하는 지속성을 행동으로 풀기",
+      "revised": "마지막 한 삼태기만 남겨 두고도 아직 완성되지 않았다는 뜻입니다. 거의 다 한 것보다 끝까지 계속해 마무리하는 것이 더 중요하다는 경계입니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_1",
+          "previous_revision": "마지막 한 삼태기만 남겨 두고도 아직 완성되지 않았다는 뜻입니다. 거의 다 했다는 사실보다 끝까지 마무리하는 지속성이 더 중요하다는 경계입니다.",
+          "revised": "마지막 한 삼태기만 남겨 두고도 아직 완성되지 않았다는 뜻입니다. 거의 다 한 것보다 끝까지 계속해 마무리하는 것이 더 중요하다는 경계입니다.",
+          "reason": "마무리하는 지속성을 행동으로 풀기",
+          "approval_status": "approved",
+          "approval_message": "굿 수정, 수정후 다음 시작",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "마지막 한 삼태기만 남겨 두고도 아직 완성되지 않았다는 뜻입니다. 거의 다 했다는 사실보다 끝까지 마무리하는 지속성이 더 중요하다는 경계입니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_1"
     },
     {
       "book": 9,
@@ -1096,15 +1124,29 @@
     },
     {
       "book": 9,
-      "changed": false,
+      "changed": true,
       "id": "ly-09-19",
       "index": 2,
       "key": "ly-09-19:語:2",
       "label": "不惰불타",
       "original": "게으르지 않다는 뜻입니다. 듣는 순간의 이해보다 배운 뒤에도 흐트러지지 않고 실천과 학습을 계속하는 안회의 지속성을 칭찬합니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "게으르지 않다는 뜻입니다. 듣는 순간의 이해보다 배운 뒤에도 흐트러지지 않고 실천과 학습을 계속하는 안회의 지속성을 칭찬합니다.",
-      "scope": "語"
+      "reason": "이해·실천·학습·지속성의 명사 연결 풀기",
+      "revised": "게으르지 않다는 뜻입니다. 듣는 순간 이해하는 것보다 배운 뒤에도 흐트러지지 않고 계속 실천하고 배우는 안회의 태도를 칭찬합니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_1",
+          "previous_revision": "게으르지 않다는 뜻입니다. 듣는 순간의 이해보다 배운 뒤에도 흐트러지지 않고 실천과 학습을 계속하는 안회의 지속성을 칭찬합니다.",
+          "revised": "게으르지 않다는 뜻입니다. 듣는 순간 이해하는 것보다 배운 뒤에도 흐트러지지 않고 계속 실천하고 배우는 안회의 태도를 칭찬합니다.",
+          "reason": "이해·실천·학습·지속성의 명사 연결 풀기",
+          "approval_status": "approved",
+          "approval_message": "굿 수정, 수정후 다음 시작",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "게으르지 않다는 뜻입니다. 듣는 순간의 이해보다 배운 뒤에도 흐트러지지 않고 실천과 학습을 계속하는 안회의 지속성을 칭찬합니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_1"
     },
     {
       "book": 9,
@@ -1564,15 +1606,29 @@
     },
     {
       "book": 9,
-      "changed": false,
+      "changed": true,
       "id": "ly-09-27",
       "index": 3,
       "key": "ly-09-27:語:3",
       "label": "後彫후조",
       "original": "다른 나무보다 뒤늦게 시든다는 뜻입니다. 아예 변하지 않는다는 자연 설명보다, 어려움 속에서도 오래 견디는 지조의 지속성을 비유합니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "다른 나무보다 뒤늦게 시든다는 뜻입니다. 아예 변하지 않는다는 자연 설명보다, 어려움 속에서도 오래 견디는 지조의 지속성을 비유합니다.",
-      "scope": "語"
+      "reason": "지조의 지속성을 풀기",
+      "revised": "다른 나무보다 뒤늦게 시든다는 뜻입니다. 아예 변하지 않는다는 자연 설명보다, 어려움 속에서도 오래도록 지조를 지키는 모습을 비유합니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_1",
+          "previous_revision": "다른 나무보다 뒤늦게 시든다는 뜻입니다. 아예 변하지 않는다는 자연 설명보다, 어려움 속에서도 오래 견디는 지조의 지속성을 비유합니다.",
+          "revised": "다른 나무보다 뒤늦게 시든다는 뜻입니다. 아예 변하지 않는다는 자연 설명보다, 어려움 속에서도 오래도록 지조를 지키는 모습을 비유합니다.",
+          "reason": "지조의 지속성을 풀기",
+          "approval_status": "approved",
+          "approval_message": "굿 수정, 수정후 다음 시작",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "다른 나무보다 뒤늦게 시든다는 뜻입니다. 아예 변하지 않는다는 자연 설명보다, 어려움 속에서도 오래 견디는 지조의 지속성을 비유합니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_1"
     },
     {
       "book": 9,
@@ -1773,5 +1829,11 @@
     "path": "1차완성본/쉬운설명카드/09-자한.html",
     "repository": "hermes-blue/analects",
     "selector": "article.card details.st1 .w > p:not(.wh)"
+  },
+  "latest_style_pass": {
+    "pass": "targeted_type_1",
+    "reviewed": 146,
+    "approved_applied": 4,
+    "status": "approved_applied"
   }
 }

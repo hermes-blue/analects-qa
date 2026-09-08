@@ -580,15 +580,29 @@
     },
     {
       "book": 14,
-      "changed": false,
+      "changed": true,
       "id": "ly-14-12",
       "index": 4,
       "key": "ly-14-12:語:4",
       "label": "則優즉우",
       "original": "그 역할에는 넉넉히 잘할 수 있다는 뜻입니다. 사람의 장점을 인정하되 직무 적합성을 따로 판단하는 공자님의 인물 평가 방식이 드러납니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "그 역할에는 넉넉히 잘할 수 있다는 뜻입니다. 사람의 장점을 인정하되 직무 적합성을 따로 판단하는 공자님의 인물 평가 방식이 드러납니다.",
-      "scope": "語"
+      "reason": "직무 적합성을 풀기",
+      "revised": "그 역할에는 넉넉히 잘할 수 있다는 뜻입니다. 사람의 장점을 인정하되 그 일을 맡기에 알맞은지는 따로 판단하는 공자님의 인물 평가 방식이 드러납니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_1",
+          "previous_revision": "그 역할에는 넉넉히 잘할 수 있다는 뜻입니다. 사람의 장점을 인정하되 직무 적합성을 따로 판단하는 공자님의 인물 평가 방식이 드러납니다.",
+          "revised": "그 역할에는 넉넉히 잘할 수 있다는 뜻입니다. 사람의 장점을 인정하되 그 일을 맡기에 알맞은지는 따로 판단하는 공자님의 인물 평가 방식이 드러납니다.",
+          "reason": "직무 적합성을 풀기",
+          "approval_status": "approved",
+          "approval_message": "굿 수정, 수정후 다음 시작",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "그 역할에는 넉넉히 잘할 수 있다는 뜻입니다. 사람의 장점을 인정하되 직무 적합성을 따로 판단하는 공자님의 인물 평가 방식이 드러납니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_1"
     },
     {
       "book": 14,
@@ -1528,15 +1542,29 @@
     },
     {
       "book": 14,
-      "changed": false,
+      "changed": true,
       "id": "ly-14-32",
       "index": 1,
       "key": "ly-14-32:語:1",
       "label": "不患人之不己知불환인지불기지",
       "original": "남이 나를 알아주지 않는 것을 걱정하지 말라는 뜻입니다. 인정 부족보다 실제 능력과 덕의 부족을 먼저 살피라는 말입니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "남이 나를 알아주지 않는 것을 걱정하지 말라는 뜻입니다. 인정 부족보다 실제 능력과 덕의 부족을 먼저 살피라는 말입니다.",
-      "scope": "語"
+      "reason": "인정 부족·능력과 덕의 부족을 풀기",
+      "revised": "남이 나를 알아주지 않는 것을 걱정하지 말라는 뜻입니다. 남이 알아주지 않는 것보다 자신이 실제로 능력과 덕을 갖추지 못한 점을 먼저 살피라는 말입니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_1",
+          "previous_revision": "남이 나를 알아주지 않는 것을 걱정하지 말라는 뜻입니다. 인정 부족보다 실제 능력과 덕의 부족을 먼저 살피라는 말입니다.",
+          "revised": "남이 나를 알아주지 않는 것을 걱정하지 말라는 뜻입니다. 남이 알아주지 않는 것보다 자신이 실제로 능력과 덕을 갖추지 못한 점을 먼저 살피라는 말입니다.",
+          "reason": "인정 부족·능력과 덕의 부족을 풀기",
+          "approval_status": "approved",
+          "approval_message": "굿 수정, 수정후 다음 시작",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "남이 나를 알아주지 않는 것을 걱정하지 말라는 뜻입니다. 인정 부족보다 실제 능력과 덕의 부족을 먼저 살피라는 말입니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_1"
     },
     {
       "book": 14,
@@ -2361,5 +2389,11 @@
     "path": "1차완성본/쉬운설명카드/14-헌문.html",
     "repository": "hermes-blue/analects",
     "selector": "article.card details.st1 .w > p:not(.wh)"
+  },
+  "latest_style_pass": {
+    "pass": "targeted_type_1",
+    "reviewed": 195,
+    "approved_applied": 2,
+    "status": "approved_applied"
   }
 }

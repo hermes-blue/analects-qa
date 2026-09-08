@@ -136,15 +136,29 @@
     },
     {
       "book": 1,
-      "changed": false,
+      "changed": true,
       "id": "ly-01-03",
       "index": 2,
       "key": "ly-01-03:語:2",
       "label": "令色영색",
       "original": "좋은 표정을 짓는다는 사전 뜻보다, 남에게 잘 보이려고 얼굴빛까지 꾸미는 태도를 말합니다. 巧言과 짝을 이루어 겉으로 만들어 낸 호감의 모습을 가리킵니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "좋은 표정을 짓는다는 사전 뜻보다, 남에게 잘 보이려고 얼굴빛까지 꾸미는 태도를 말합니다. 巧言과 짝을 이루어 겉으로 만들어 낸 호감의 모습을 가리킵니다.",
-      "scope": "語"
+      "reason": "‘호감의 모습’을 꾸미는 행동으로 풀기",
+      "revised": "좋은 표정을 짓는다는 사전 뜻보다, 남에게 잘 보이려고 얼굴빛까지 꾸미는 태도를 말합니다. 巧言과 짝을 이루어 남에게 호감을 주려고 겉모습을 꾸미는 것을 가리킵니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_1",
+          "previous_revision": "좋은 표정을 짓는다는 사전 뜻보다, 남에게 잘 보이려고 얼굴빛까지 꾸미는 태도를 말합니다. 巧言과 짝을 이루어 겉으로 만들어 낸 호감의 모습을 가리킵니다.",
+          "revised": "좋은 표정을 짓는다는 사전 뜻보다, 남에게 잘 보이려고 얼굴빛까지 꾸미는 태도를 말합니다. 巧言과 짝을 이루어 남에게 호감을 주려고 겉모습을 꾸미는 것을 가리킵니다.",
+          "reason": "‘호감의 모습’을 꾸미는 행동으로 풀기",
+          "approval_status": "approved",
+          "approval_message": "굿 수정, 수정후 다음 시작",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "좋은 표정을 짓는다는 사전 뜻보다, 남에게 잘 보이려고 얼굴빛까지 꾸미는 태도를 말합니다. 巧言과 짝을 이루어 겉으로 만들어 낸 호감의 모습을 가리킵니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_1"
     },
     {
       "book": 1,
@@ -909,5 +923,11 @@
     "path": "1차완성본/쉬운설명카드/01-학이.html",
     "repository": "hermes-blue/analects",
     "selector": "article.card details.st1 .w > p:not(.wh)"
+  },
+  "latest_style_pass": {
+    "pass": "targeted_type_1",
+    "reviewed": 74,
+    "approved_applied": 1,
+    "status": "approved_applied"
   }
 }

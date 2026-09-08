@@ -172,15 +172,29 @@
     },
     {
       "book": 20,
-      "changed": false,
+      "changed": true,
       "id": "ly-20-03",
       "index": 5,
       "key": "ly-20-03:語:5",
       "label": "無以知人무이지인",
       "original": "말을 분별하지 못하면 사람도 알 수 없다는 뜻입니다. 논어의 마지막은 인간을 이해하는 데 언어 판단이 얼마나 중요한지를 강조하며 끝납니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "말을 분별하지 못하면 사람도 알 수 없다는 뜻입니다. 논어의 마지막은 인간을 이해하는 데 언어 판단이 얼마나 중요한지를 강조하며 끝납니다.",
-      "scope": "語"
+      "reason": "‘언어 판단’을 ‘말을 분별하는 일’로 풉니다.",
+      "revised": "말을 분별하지 못하면 사람도 알 수 없다는 뜻입니다. 논어의 마지막은 인간을 이해하는 데 말을 분별하는 일이 얼마나 중요한지를 강조하며 끝납니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_1",
+          "previous_revision": "말을 분별하지 못하면 사람도 알 수 없다는 뜻입니다. 논어의 마지막은 인간을 이해하는 데 언어 판단이 얼마나 중요한지를 강조하며 끝납니다.",
+          "revised": "말을 분별하지 못하면 사람도 알 수 없다는 뜻입니다. 논어의 마지막은 인간을 이해하는 데 말을 분별하는 일이 얼마나 중요한지를 강조하며 끝납니다.",
+          "reason": "‘언어 판단’을 ‘말을 분별하는 일’로 풉니다.",
+          "approval_status": "approved",
+          "approval_message": "굿 수정, 수정후 다음 시작",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "말을 분별하지 못하면 사람도 알 수 없다는 뜻입니다. 논어의 마지막은 인간을 이해하는 데 언어 판단이 얼마나 중요한지를 강조하며 끝납니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_1"
     }
   ],
   "method": "문체 패턴으로 후보를 찾고 후보 문장의 표현과 문맥을 검토하는 선별 교정. 내용 검수는 하지 않음.",
@@ -201,5 +215,11 @@
     "path": "1차완성본/쉬운설명카드/20-요왈.html",
     "repository": "hermes-blue/analects",
     "selector": "article.card details.st1 .w > p:not(.wh)"
+  },
+  "latest_style_pass": {
+    "pass": "targeted_type_1",
+    "reviewed": 15,
+    "approved_applied": 1,
+    "status": "approved_applied"
   }
 }

@@ -244,15 +244,29 @@
     },
     {
       "book": 6,
-      "changed": false,
+      "changed": true,
       "id": "ly-06-05",
       "index": 1,
       "key": "ly-06-05:語:1",
       "label": "三月不違仁삼월불위인",
       "original": "안회의 마음이 오랫동안 仁에서 벗어나지 않았다는 뜻입니다. 정확히 석 달이라는 기록보다, 仁을 지속적으로 유지할 수 있는 드문 안정성을 칭찬합니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "안회의 마음이 오랫동안 仁에서 벗어나지 않았다는 뜻입니다. 정확히 석 달이라는 기록보다, 仁을 지속적으로 유지할 수 있는 드문 안정성을 칭찬합니다.",
-      "scope": "語"
+      "reason": "지속적으로 유지할 수 있는 안정성을 직접 서술",
+      "revised": "안회의 마음이 오랫동안 仁에서 벗어나지 않았다는 뜻입니다. 정확히 석 달이라는 기록보다, 좀처럼 흔들리지 않고 仁을 오래 지킨 보기 드문 태도를 칭찬합니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_1",
+          "previous_revision": "안회의 마음이 오랫동안 仁에서 벗어나지 않았다는 뜻입니다. 정확히 석 달이라는 기록보다, 仁을 지속적으로 유지할 수 있는 드문 안정성을 칭찬합니다.",
+          "revised": "안회의 마음이 오랫동안 仁에서 벗어나지 않았다는 뜻입니다. 정확히 석 달이라는 기록보다, 좀처럼 흔들리지 않고 仁을 오래 지킨 보기 드문 태도를 칭찬합니다.",
+          "reason": "지속적으로 유지할 수 있는 안정성을 직접 서술",
+          "approval_status": "approved",
+          "approval_message": "굿 수정, 수정후 다음 시작",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "안회의 마음이 오랫동안 仁에서 벗어나지 않았다는 뜻입니다. 정확히 석 달이라는 기록보다, 仁을 지속적으로 유지할 수 있는 드문 안정성을 칭찬합니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_1"
     },
     {
       "book": 6,
@@ -1456,15 +1470,29 @@
     },
     {
       "book": 6,
-      "changed": false,
+      "changed": true,
       "id": "ly-06-25",
       "index": 5,
       "key": "ly-06-25:語:5",
       "label": "君子군자",
       "original": "이 장의 군자는 넓은 지식과 절제된 실천을 함께 갖춘 사람입니다. 지적 폭넓음과 생활의 규범을 서로 떼지 않는 공부의 모습을 보여줍니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "이 장의 군자는 넓은 지식과 절제된 실천을 함께 갖춘 사람입니다. 지적 폭넓음과 생활의 규범을 서로 떼지 않는 공부의 모습을 보여줍니다.",
-      "scope": "語"
+      "reason": "‘지적 폭넓음’을 배움과 생활의 행동으로 풀기",
+      "revised": "이 장의 군자는 넓은 지식과 절제된 실천을 함께 갖춘 사람입니다. 폭넓게 아는 것과 생활에서 규범을 지키는 것을 함께 강조합니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_1",
+          "previous_revision": "이 장의 군자는 넓은 지식과 절제된 실천을 함께 갖춘 사람입니다. 지적 폭넓음과 생활의 규범을 서로 떼지 않는 공부의 모습을 보여줍니다.",
+          "revised": "이 장의 군자는 넓은 지식과 절제된 실천을 함께 갖춘 사람입니다. 폭넓게 아는 것과 생활에서 규범을 지키는 것을 함께 강조합니다.",
+          "reason": "‘지적 폭넓음’을 배움과 생활의 행동으로 풀기",
+          "approval_status": "approved",
+          "approval_message": "굿 수정, 수정후 다음 시작",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "이 장의 군자는 넓은 지식과 절제된 실천을 함께 갖춘 사람입니다. 지적 폭넓음과 생활의 규범을 서로 떼지 않는 공부의 모습을 보여줍니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_1"
     },
     {
       "book": 6,
@@ -1665,5 +1693,11 @@
     "path": "1차완성본/쉬운설명카드/06-옹야.html",
     "repository": "hermes-blue/analects",
     "selector": "article.card details.st1 .w > p:not(.wh)"
+  },
+  "latest_style_pass": {
+    "pass": "targeted_type_1",
+    "reviewed": 137,
+    "approved_applied": 2,
+    "status": "approved_applied"
   }
 }

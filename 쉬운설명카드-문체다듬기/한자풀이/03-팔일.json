@@ -652,15 +652,29 @@
     },
     {
       "book": 3,
-      "changed": false,
+      "changed": true,
       "id": "ly-03-12",
       "index": 4,
       "key": "ly-03-12:語:4",
       "label": "不與祭불여제",
       "original": "자신이 직접 제사에 참여하지 않는 상황을 말합니다. 공자님에게 제사는 남에게 대신 맡기고 결과만 받는 행사가 아니라, 제사자의 직접적인 마음과 참여가 필요한 일이었습니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "자신이 직접 제사에 참여하지 않는 상황을 말합니다. 공자님에게 제사는 남에게 대신 맡기고 결과만 받는 행사가 아니라, 제사자의 직접적인 마음과 참여가 필요한 일이었습니다.",
-      "scope": "語"
+      "reason": "직접적인 마음·참여를 행위로 풀기",
+      "revised": "자신이 직접 제사에 참여하지 않는 상황을 말합니다. 공자님에게 제사는 남에게 대신 맡기고 결과만 받는 행사가 아니라, 제사자가 직접 참여해 마음을 다해야 하는 일이었습니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_1",
+          "previous_revision": "자신이 직접 제사에 참여하지 않는 상황을 말합니다. 공자님에게 제사는 남에게 대신 맡기고 결과만 받는 행사가 아니라, 제사자의 직접적인 마음과 참여가 필요한 일이었습니다.",
+          "revised": "자신이 직접 제사에 참여하지 않는 상황을 말합니다. 공자님에게 제사는 남에게 대신 맡기고 결과만 받는 행사가 아니라, 제사자가 직접 참여해 마음을 다해야 하는 일이었습니다.",
+          "reason": "직접적인 마음·참여를 행위로 풀기",
+          "approval_status": "approved",
+          "approval_message": "굿 수정, 수정후 다음 시작",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "자신이 직접 제사에 참여하지 않는 상황을 말합니다. 공자님에게 제사는 남에게 대신 맡기고 결과만 받는 행사가 아니라, 제사자의 직접적인 마음과 참여가 필요한 일이었습니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_1"
     },
     {
       "book": 3,
@@ -1461,5 +1475,11 @@
     "path": "1차완성본/쉬운설명카드/03-팔일.html",
     "repository": "hermes-blue/analects",
     "selector": "article.card details.st1 .w > p:not(.wh)"
+  },
+  "latest_style_pass": {
+    "pass": "targeted_type_1",
+    "reviewed": 120,
+    "approved_applied": 1,
+    "status": "approved_applied"
   }
 }

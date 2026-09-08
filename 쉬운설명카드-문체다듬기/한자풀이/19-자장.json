@@ -244,15 +244,29 @@
     },
     {
       "book": 19,
-      "changed": false,
+      "changed": true,
       "id": "ly-19-05",
       "index": 3,
       "key": "ly-19-05:語:3",
       "label": "日新일신",
       "original": "날마다 새로워진다는 뜻으로 이 장을 설명하는 주석의 핵심입니다. 배움은 한 번의 큰 변화보다 지속적인 갱신에 가깝습니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "날마다 새로워진다는 뜻으로 이 장을 설명하는 주석의 핵심입니다. 배움은 한 번의 큰 변화보다 지속적인 갱신에 가깝습니다.",
-      "scope": "語"
+      "reason": "‘큰 변화·지속적인 갱신’을 동사로 풉니다.",
+      "revised": "날마다 새로워진다는 뜻으로 이 장을 설명하는 주석의 핵심입니다. 배움은 한 번에 크게 달라지는 것보다 꾸준히 새로워지는 데 가깝습니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_1",
+          "previous_revision": "날마다 새로워진다는 뜻으로 이 장을 설명하는 주석의 핵심입니다. 배움은 한 번의 큰 변화보다 지속적인 갱신에 가깝습니다.",
+          "revised": "날마다 새로워진다는 뜻으로 이 장을 설명하는 주석의 핵심입니다. 배움은 한 번에 크게 달라지는 것보다 꾸준히 새로워지는 데 가깝습니다.",
+          "reason": "‘큰 변화·지속적인 갱신’을 동사로 풉니다.",
+          "approval_status": "approved",
+          "approval_message": "굿 수정, 수정후 다음 시작",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "날마다 새로워진다는 뜻으로 이 장을 설명하는 주석의 핵심입니다. 배움은 한 번의 큰 변화보다 지속적인 갱신에 가깝습니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_1"
     },
     {
       "book": 19,
@@ -940,15 +954,29 @@
     },
     {
       "book": 19,
-      "changed": false,
+      "changed": true,
       "id": "ly-19-18",
       "index": 4,
       "key": "ly-19-18:語:4",
       "label": "難能난능",
       "original": "하기 어려운 일을 실제로 해냈다는 뜻입니다. 부모를 사랑하는 감정뿐 아니라 권력을 얻은 뒤에도 그 뜻을 존중하는 지속성이 어렵다고 본 것입니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "하기 어려운 일을 실제로 해냈다는 뜻입니다. 부모를 사랑하는 감정뿐 아니라 권력을 얻은 뒤에도 그 뜻을 존중하는 지속성이 어렵다고 본 것입니다.",
-      "scope": "語"
+      "reason": "‘존중하는 지속성’을 ‘꾸준히 존중하는 일’로 풉니다.",
+      "revised": "하기 어려운 일을 실제로 해냈다는 뜻입니다. 부모를 사랑하는 데서 그치지 않고 권력을 얻은 뒤에도 그 뜻을 꾸준히 존중하는 일이 어렵다고 본 것입니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_1",
+          "previous_revision": "하기 어려운 일을 실제로 해냈다는 뜻입니다. 부모를 사랑하는 감정뿐 아니라 권력을 얻은 뒤에도 그 뜻을 존중하는 지속성이 어렵다고 본 것입니다.",
+          "revised": "하기 어려운 일을 실제로 해냈다는 뜻입니다. 부모를 사랑하는 데서 그치지 않고 권력을 얻은 뒤에도 그 뜻을 꾸준히 존중하는 일이 어렵다고 본 것입니다.",
+          "reason": "‘존중하는 지속성’을 ‘꾸준히 존중하는 일’로 풉니다.",
+          "approval_status": "approved",
+          "approval_message": "굿 수정, 수정후 다음 시작",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "하기 어려운 일을 실제로 해냈다는 뜻입니다. 부모를 사랑하는 감정뿐 아니라 권력을 얻은 뒤에도 그 뜻을 존중하는 지속성이 어렵다고 본 것입니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_1"
     },
     {
       "book": 19,
@@ -1389,5 +1417,11 @@
     "path": "1차완성본/쉬운설명카드/19-자장.html",
     "repository": "hermes-blue/analects",
     "selector": "article.card details.st1 .w > p:not(.wh)"
+  },
+  "latest_style_pass": {
+    "pass": "targeted_type_1",
+    "reviewed": 114,
+    "approved_applied": 2,
+    "status": "approved_applied"
   }
 }

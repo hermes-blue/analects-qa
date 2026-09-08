@@ -748,15 +748,29 @@
     },
     {
       "book": 17,
-      "changed": false,
+      "changed": true,
       "id": "ly-17-14",
       "index": 4,
       "key": "ly-17-14:語:4",
       "label": "聞而未化문이미화",
       "original": "본문의 뜻을 쉽게 풀면, 들었지만 아직 자기 것으로 익히지 못한 상태입니다. 정보의 전달 속도보다 이해와 체화를 중시하는 장입니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "본문의 뜻을 쉽게 풀면, 들었지만 아직 자기 것으로 익히지 못한 상태입니다. 정보의 전달 속도보다 이해와 체화를 중시하는 장입니다.",
-      "scope": "語"
+      "reason": "전달 속도·이해·체화를 행동으로 풀기",
+      "revised": "본문의 뜻을 쉽게 풀면, 들었지만 아직 자기 것으로 익히지 못한 상태입니다. 정보를 빨리 전하기보다 그 뜻을 이해하고 몸에 익히는 것을 중시하는 장입니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_1",
+          "previous_revision": "본문의 뜻을 쉽게 풀면, 들었지만 아직 자기 것으로 익히지 못한 상태입니다. 정보의 전달 속도보다 이해와 체화를 중시하는 장입니다.",
+          "revised": "본문의 뜻을 쉽게 풀면, 들었지만 아직 자기 것으로 익히지 못한 상태입니다. 정보를 빨리 전하기보다 그 뜻을 이해하고 몸에 익히는 것을 중시하는 장입니다.",
+          "reason": "전달 속도·이해·체화를 행동으로 풀기",
+          "approval_status": "approved",
+          "approval_message": "굿 수정, 수정후 다음 시작",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "본문의 뜻을 쉽게 풀면, 들었지만 아직 자기 것으로 익히지 못한 상태입니다. 정보의 전달 속도보다 이해와 체화를 중시하는 장입니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_1"
     },
     {
       "book": 17,
@@ -1192,15 +1206,29 @@
     },
     {
       "book": 17,
-      "changed": false,
+      "changed": true,
       "id": "ly-17-22",
       "index": 4,
       "key": "ly-17-22:語:4",
       "label": "猶賢乎已유현호이",
       "original": "그것이라도 아무것도 하지 않는 것보다는 낫다는 뜻입니다. 최소한 판단과 집중을 쓰는 활동이 정신의 완전한 방치보다 낫다는 말입니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "그것이라도 아무것도 하지 않는 것보다는 낫다는 뜻입니다. 최소한 판단과 집중을 쓰는 활동이 정신의 완전한 방치보다 낫다는 말입니다.",
-      "scope": "語"
+      "reason": "판단·집중·정신의 완전한 방치를 직접 서술",
+      "revised": "그것이라도 아무것도 하지 않는 것보다는 낫다는 뜻입니다. 아무 생각 없이 지내기보다는 최소한 판단하고 집중할 수 있는 활동을 하는 편이 낫다는 말입니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_1",
+          "previous_revision": "그것이라도 아무것도 하지 않는 것보다는 낫다는 뜻입니다. 최소한 판단과 집중을 쓰는 활동이 정신의 완전한 방치보다 낫다는 말입니다.",
+          "revised": "그것이라도 아무것도 하지 않는 것보다는 낫다는 뜻입니다. 아무 생각 없이 지내기보다는 최소한 판단하고 집중할 수 있는 활동을 하는 편이 낫다는 말입니다.",
+          "reason": "판단·집중·정신의 완전한 방치를 직접 서술",
+          "approval_status": "approved",
+          "approval_message": "굿 수정, 수정후 다음 시작",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "그것이라도 아무것도 하지 않는 것보다는 낫다는 뜻입니다. 최소한 판단과 집중을 쓰는 활동이 정신의 완전한 방치보다 낫다는 말입니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_1"
     },
     {
       "book": 17,
@@ -1437,5 +1465,11 @@
     "path": "1차완성본/쉬운설명카드/17-양화.html",
     "repository": "hermes-blue/analects",
     "selector": "article.card details.st1 .w > p:not(.wh)"
+  },
+  "latest_style_pass": {
+    "pass": "targeted_type_1",
+    "reviewed": 118,
+    "approved_applied": 2,
+    "status": "approved_applied"
   }
 }
