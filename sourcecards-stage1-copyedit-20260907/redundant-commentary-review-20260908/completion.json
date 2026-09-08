@@ -1,0 +1,389 @@
+{
+  "상태": "사용자 승인 후 본문 JSON 반영 완료",
+  "승인안커밋": "fba3fee900f40e69c405f6003b7e1c4c61c8506f",
+  "반영기준main": "c2f6e4f19ed1a63df6952b106ed77efb99bf8251",
+  "승인요청": "오케이 제이슨에 적용",
+  "전체편수": 20,
+  "전체장수": 498,
+  "수정장수": 38,
+  "수정곳수": 38,
+  "삭제문장수": 39,
+  "유지장수": 460,
+  "변경본문파일수": 15,
+  "검증": {
+    "정확한수정전일치": 38,
+    "승인안전체반영": true,
+    "역삽입원본복원": true,
+    "장수ID순서보호필드보존": true,
+    "향당": 17,
+    "요왈": 3,
+    "글자수": "1·2편 줄바꿈 포함, 3~19편 줄바꿈 제외; 기존 필드만 갱신"
+  },
+  "본문SHA": {
+    "sourcecards-stage1-copyedit-20260907/round3/01-hakyi.json": "be524a6f14c42eb135b7e8560624b108e9fe144a",
+    "sourcecards-stage1-copyedit-20260907/round3/02-wijeong.json": "736194387e1c8b14533d8912c1a83b6938509d8d",
+    "sourcecards-stage1-copyedit-20260907/round3/03-palil.json": "86b8e84b603a181fdd89fbbd86eba6456bb54055",
+    "sourcecards-stage1-copyedit-20260907/round3/04-iin.json": "13eb993cb6e59bd305e98e842e4fe0cbbf7cf3e3",
+    "sourcecards-stage1-copyedit-20260907/round3/05-gongyajang.json": "4a697e714ceb6e033c8e218d5c172767153cb70d",
+    "sourcecards-stage1-copyedit-20260907/round3/06-yongya.json": "fc703d737092fc2999e4297e8937e5ab78bacdbb",
+    "sourcecards-stage1-copyedit-20260907/round3/07-suli.json": "6480bd0b29b93a16730bb16fe4adcbc81bcbd517",
+    "sourcecards-stage1-copyedit-20260907/round3/08-taebaek.json": "2cd4c5b02093e69b7374143905f13f84243f0159",
+    "sourcecards-stage1-copyedit-20260907/round3/09-jahan.json": "389207d1a33d670e10f32e6c02eb2607c29b41e3",
+    "sourcecards-stage1-copyedit-20260907/round3/10-hyangdang.json": "6d1ddf2d2010cbda9bd84204d67fb43b2bd7b05a",
+    "sourcecards-stage1-copyedit-20260907/round3/11-seonjin.json": "709e2e54317324873dcd849b3039fb9427357140",
+    "sourcecards-stage1-copyedit-20260907/round3/12-anyeon.json": "6f736423fea3530ce44d52b32d29235c7bbb7e2e",
+    "sourcecards-stage1-copyedit-20260907/round3/13-jaro.json": "8a9e1622d308239dde08e302e018e6a4022aca56",
+    "sourcecards-stage1-copyedit-20260907/round3/14-heonmun.json": "baa82476786dfe29f4d3a2b79d87ac7c3c5414b7",
+    "sourcecards-stage1-copyedit-20260907/round3/15-wiryeonggong.json": "4b9a211c55fb1225e03d916024e9b5c3ddc468fb",
+    "sourcecards-stage1-copyedit-20260907/round3/16-gyessi.json": "fea183d90e0c21c1822d0e6656b2f68cf68d7cd9",
+    "sourcecards-stage1-copyedit-20260907/round3/17-yanghwa.json": "d896e1e9d891ed88f360154791752ad93339f31e",
+    "sourcecards-stage1-copyedit-20260907/round3/18-mija.json": "b91c3477cf4af34323414420f3472da2db4dac1c",
+    "sourcecards-stage1-copyedit-20260907/round3/19-jajang.json": "ff1e1597ba8b316c95808c738393c5314bac097f",
+    "sourcecards-stage1-copyedit-20260907/round3/20-yowal.json": "adf1b1f363740361dbc52878b0a802d4e5d4dbcc"
+  },
+  "반영항목": [
+    {
+      "after": "",
+      "before": "공자님은 같은 곡을 되풀이해 익히며 곡조뿐 아니라 그 안에 담긴 뜻까지 알아가셨습니다. ",
+      "id": "ly-01-01",
+      "newCount": 310,
+      "oldCount": 359,
+      "path": "sourcecards-stage1-copyedit-20260907/round3/01-hakyi.json",
+      "position": 234
+    },
+    {
+      "after": "",
+      "before": " 공자님은 사랑과 슬픔을 어떻게 노래하는지도 살펴보셨습니다.",
+      "id": "ly-02-02",
+      "newCount": 350,
+      "oldCount": 383,
+      "path": "sourcecards-stage1-copyedit-20260907/round3/02-wijeong.json",
+      "position": 350
+    },
+    {
+      "after": "",
+      "before": " 그 사람이 어떤 사람인지 알려면 이처럼 오래 지켜보아야 했습니다.",
+      "id": "ly-02-10",
+      "newCount": 347,
+      "oldCount": 384,
+      "path": "sourcecards-stage1-copyedit-20260907/round3/02-wijeong.json",
+      "position": 311
+    },
+    {
+      "after": "",
+      "before": " 공자님은 뒤에도 남을 예법을 말씀하신 것입니다.",
+      "id": "ly-02-23",
+      "newCount": 348,
+      "oldCount": 375,
+      "path": "sourcecards-stage1-copyedit-20260907/round3/02-wijeong.json",
+      "position": 348
+    },
+    {
+      "after": "",
+      "before": " 스승은 이 말로 염유에게 계씨를 왜 말려야 하는지도 다시 일러주었습니다.",
+      "id": "ly-03-06",
+      "newCount": 333,
+      "oldCount": 374,
+      "path": "sourcecards-stage1-copyedit-20260907/round3/03-palil.json",
+      "position": 335
+    },
+    {
+      "after": "",
+      "before": " 다른 사람들이 절차를 줄이고 나니, 본래대로 지키는 사람도 지나치게 예를 차리는 듯 보였습니다.",
+      "id": "ly-03-18",
+      "newCount": 345,
+      "oldCount": 399,
+      "path": "sourcecards-stage1-copyedit-20260907/round3/03-palil.json",
+      "position": 349
+    },
+    {
+      "after": "",
+      "before": " 은자의 권유를 들은 뒤에도 공자는 사람들과 함께할 길을 찾았습니다.",
+      "id": "ly-04-08",
+      "newCount": 372,
+      "oldCount": 410,
+      "path": "sourcecards-stage1-copyedit-20260907/round3/04-iin.json",
+      "position": 320
+    },
+    {
+      "after": "",
+      "before": "\n\n다른 사람의 지적을 받아들이면 자기 허물을 돌아보는 데도 도움이 됩니다.",
+      "id": "ly-04-17",
+      "newCount": 314,
+      "oldCount": 354,
+      "path": "sourcecards-stage1-copyedit-20260907/round3/04-iin.json",
+      "position": 316
+    },
+    {
+      "after": "",
+      "before": " 자산은 백성의 말을 듣고 자신이 하는 정치를 바꾸겠다고 합니다.",
+      "id": "ly-05-15",
+      "newCount": 313,
+      "oldCount": 349,
+      "path": "sourcecards-stage1-copyedit-20260907/round3/05-gongyajang.json",
+      "position": 189
+    },
+    {
+      "after": "",
+      "before": " 이 주석에서 문제 삼은 것은 남의 도움을 받고도 자신이 베푼 것처럼 하는 태도입니다.",
+      "id": "ly-05-23",
+      "newCount": 379,
+      "oldCount": 427,
+      "path": "sourcecards-stage1-copyedit-20260907/round3/05-gongyajang.json",
+      "position": 334
+    },
+    {
+      "after": "",
+      "before": " 일을 간단하게 처리한다는 점은 같아도, 맡은 사람의 태도는 달랐습니다.",
+      "id": "ly-06-01",
+      "newCount": 305,
+      "oldCount": 345,
+      "path": "sourcecards-stage1-copyedit-20260907/round3/06-yongya.json",
+      "position": 285
+    },
+    {
+      "after": "",
+      "before": " 잘못을 알아차린 뒤에도 같은 일을 되풀이하지 않았습니다.",
+      "id": "ly-06-02",
+      "newCount": 212,
+      "oldCount": 244,
+      "path": "sourcecards-stage1-copyedit-20260907/round3/06-yongya.json",
+      "position": 162
+    },
+    {
+      "after": "",
+      "before": " 인을 묻는 번지에게 공자는 바로 그 어려운 쪽에 먼저 힘을 쓰라고 한 것입니다.",
+      "id": "ly-06-20",
+      "newCount": 252,
+      "oldCount": 297,
+      "path": "sourcecards-stage1-copyedit-20260907/round3/06-yongya.json",
+      "position": 254
+    },
+    {
+      "after": "",
+      "before": " 공자는 사람을 구하는 데도 분별이 필요하다고 답합니다.",
+      "id": "ly-06-24",
+      "newCount": 322,
+      "oldCount": 353,
+      "path": "sourcecards-stage1-copyedit-20260907/round3/06-yongya.json",
+      "position": 324
+    },
+    {
+      "after": "",
+      "before": " 늘 마음에 품던 일을 몸이 따라주지 못하는 때가 왔음을, 꿈에서조차 주공을 만나지 못하면서 느낀 것입니다.",
+      "id": "ly-07-05",
+      "newCount": 277,
+      "oldCount": 337,
+      "path": "sourcecards-stage1-copyedit-20260907/round3/07-suli.json",
+      "position": 279
+    },
+    {
+      "after": "",
+      "before": " 마지막에 용이 후회하는 모습까지 보면, 높이 오른 것만으로 성공을 판단하기 어렵습니다.",
+      "id": "ly-07-16",
+      "newCount": 381,
+      "oldCount": 430,
+      "path": "sourcecards-stage1-copyedit-20260907/round3/07-suli.json",
+      "position": 383
+    },
+    {
+      "after": "",
+      "before": " 공자는 자신이 어떻게 배우고 무엇에 즐거워하는지로 스스로를 소개했습니다.",
+      "id": "ly-07-18",
+      "newCount": 251,
+      "oldCount": 292,
+      "path": "sourcecards-stage1-copyedit-20260907/round3/07-suli.json",
+      "position": 253
+    },
+    {
+      "after": "",
+      "before": " 어느 쪽이든 내 행동을 바꾸는 데 도움이 됩니다.",
+      "id": "ly-07-21",
+      "newCount": 250,
+      "oldCount": 278,
+      "path": "sourcecards-stage1-copyedit-20260907/round3/07-suli.json",
+      "position": 252
+    },
+    {
+      "after": "",
+      "before": " 하지만 이처럼 허세를 부리는 사람들에게는 한결같음을 기대하기 어려웠습니다. 과장하지 않고 제 형편대로 꾸준히 사는 사람이 드물었던 것입니다.",
+      "id": "ly-07-25",
+      "newCount": 300,
+      "oldCount": 379,
+      "path": "sourcecards-stage1-copyedit-20260907/round3/07-suli.json",
+      "position": 302
+    },
+    {
+      "after": "",
+      "before": " 계문자도 집안에 비단옷을 마련하고 말에게 곡식을 먹이는 일보다 백성의 형편을 먼저 생각했습니다.",
+      "id": "ly-07-35",
+      "newCount": 342,
+      "oldCount": 396,
+      "path": "sourcecards-stage1-copyedit-20260907/round3/07-suli.json",
+      "position": 287
+    },
+    {
+      "after": "",
+      "before": " 증자는 ‘내 벗이 그렇게 했다’며 친구에게서 직접 보고 들은 태도를 전했습니다.",
+      "id": "ly-08-05",
+      "newCount": 280,
+      "oldCount": 325,
+      "path": "sourcecards-stage1-copyedit-20260907/round3/08-taebaek.json",
+      "position": 282
+    },
+    {
+      "after": "",
+      "before": " 자기가 먹고 입고 사는 데에는 적게 쓰면서도 제사와 백성의 농사에는 정성을 들입니다.",
+      "id": "ly-08-21",
+      "newCount": 293,
+      "oldCount": 341,
+      "path": "sourcecards-stage1-copyedit-20260907/round3/08-taebaek.json",
+      "position": 258
+    },
+    {
+      "after": "",
+      "before": " 이 장에서는 그처럼 꾸준히 배우던 제자가 세상을 떠난 것을 스승이 아쉬워합니다.",
+      "id": "ly-09-20",
+      "newCount": 308,
+      "oldCount": 353,
+      "path": "sourcecards-stage1-copyedit-20260907/round3/09-jahan.json",
+      "position": 263
+    },
+    {
+      "after": "",
+      "before": " 공자는 이와 함께 충실함과 믿음을 지키고 자신의 잘못도 고치라고 당부했습니다.",
+      "id": "ly-09-24",
+      "newCount": 349,
+      "oldCount": 393,
+      "path": "sourcecards-stage1-copyedit-20260907/round3/09-jahan.json",
+      "position": 223
+    },
+    {
+      "after": "",
+      "before": " 존경받는 스승에게도 자신을 살필 기준이 있었습니다.",
+      "id": "ly-09-28",
+      "newCount": 322,
+      "oldCount": 351,
+      "path": "sourcecards-stage1-copyedit-20260907/round3/09-jahan.json",
+      "position": 324
+    },
+    {
+      "after": "",
+      "before": " 옛것을 그대로 쓸 수 있는데도 굳이 바꾸려는지를 따졌습니다.",
+      "id": "ly-11-13",
+      "newCount": 299,
+      "oldCount": 333,
+      "path": "sourcecards-stage1-copyedit-20260907/round3/11-seonjin.json",
+      "position": 301
+    },
+    {
+      "after": "",
+      "before": " 공자는 자공의 뛰어난 판단력을 인정하면서도, 안회가 그와 다른 점을 함께 말했습니다.",
+      "id": "ly-11-18",
+      "newCount": 302,
+      "oldCount": 350,
+      "path": "sourcecards-stage1-copyedit-20260907/round3/11-seonjin.json",
+      "position": 304
+    },
+    {
+      "after": "",
+      "before": " 번지는 동료에게 다시 물어, 사람을 가려 쓰는 일이 다른 이들에게도 도움이 되는 까닭을 배웠습니다.",
+      "id": "ly-12-22",
+      "newCount": 343,
+      "oldCount": 399,
+      "path": "sourcecards-stage1-copyedit-20260907/round3/12-anyeon.json",
+      "position": 345
+    },
+    {
+      "after": "",
+      "before": " 논어는 이 과정을 기록해 두었습니다.",
+      "id": "ly-14-09",
+      "newCount": 338,
+      "oldCount": 359,
+      "path": "sourcecards-stage1-copyedit-20260907/round3/14-heonmun.json",
+      "position": 93
+    },
+    {
+      "after": "",
+      "before": " 공자는 백성을 대하는 마음, 받아들이기 어려운 행적, 손해 본 사람까지 승복한 일을 각각 들어 평가했습니다.",
+      "id": "ly-14-10",
+      "newCount": 280,
+      "oldCount": 341,
+      "path": "sourcecards-stage1-copyedit-20260907/round3/14-heonmun.json",
+      "position": 282
+    },
+    {
+      "after": "",
+      "before": " 지금 어떤 행동을 하느냐에 따라 앞으로 익숙해질 행동도 달라집니다.",
+      "id": "ly-14-24",
+      "newCount": 314,
+      "oldCount": 352,
+      "path": "sourcecards-stage1-copyedit-20260907/round3/14-heonmun.json",
+      "position": 316
+    },
+    {
+      "after": "",
+      "before": " 미생무는 공자가 분주히 다니는 까닭을 의심했고, 공자는 세상과 단절한 채 아무 일도 시도하지 않는 태도를 못마땅해했습니다.",
+      "id": "ly-14-34",
+      "newCount": 308,
+      "oldCount": 377,
+      "path": "sourcecards-stage1-copyedit-20260907/round3/14-heonmun.json",
+      "position": 310
+    },
+    {
+      "after": "",
+      "before": " 말해야 할 것을 끝내 말한 사람과, 잘못된 정치에 따르지 않고 자기 뜻을 지킨 사람이 함께 칭찬을 받습니다.",
+      "id": "ly-15-06",
+      "newCount": 342,
+      "oldCount": 403,
+      "path": "sourcecards-stage1-copyedit-20260907/round3/15-wiryeonggong.json",
+      "position": 344
+    },
+    {
+      "after": "",
+      "before": " 재상의 풀이가 아무리 그럴듯해도, 편지를 쓰던 사람이 실제로 하려던 말과는 달랐습니다.",
+      "id": "ly-15-40",
+      "newCount": 309,
+      "oldCount": 358,
+      "path": "sourcecards-stage1-copyedit-20260907/round3/15-wiryeonggong.json",
+      "position": 276
+    },
+    {
+      "after": "",
+      "before": " 백성은 자식이 배우고 밭의 수확이 나아지는 것을 보면서 자산을 칭찬하는 노래를 불렀습니다.",
+      "id": "ly-17-06",
+      "newCount": 336,
+      "oldCount": 387,
+      "path": "sourcecards-stage1-copyedit-20260907/round3/17-yanghwa.json",
+      "position": 338
+    },
+    {
+      "after": "",
+      "before": " 이 일화에서는 환공이 좋아하는 옷에 따라 다른 사람들도 입을 옷을 바꾸었습니다.",
+      "id": "ly-17-18",
+      "newCount": 364,
+      "oldCount": 409,
+      "path": "sourcecards-stage1-copyedit-20260907/round3/17-yanghwa.json",
+      "position": 366
+    },
+    {
+      "after": "",
+      "before": " 비무극은 쫓겨난 조오를 갑자기 경계해야 할 위험한 인물로 묘사했습니다.",
+      "id": "ly-19-08",
+      "newCount": 338,
+      "oldCount": 378,
+      "path": "sourcecards-stage1-copyedit-20260907/round3/19-jajang.json",
+      "position": 340
+    },
+    {
+      "after": "",
+      "before": " 다만 자하는 상례 절차를 마친 뒤에도 여전히 슬퍼했습니다.",
+      "id": "ly-19-17",
+      "newCount": 316,
+      "oldCount": 349,
+      "path": "sourcecards-stage1-copyedit-20260907/round3/19-jajang.json",
+      "position": 318
+    }
+  ],
+  "업로드전확인main": "8a7994f81aed3bdd9a7df424fb0ec8163eb80851"
+}
