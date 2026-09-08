@@ -1,5 +1,11 @@
 # 사료카드 1단계 — 최신 승인 반영본
 
+승인하신 **조사·서술어 호응 13장·13곳**을 본문 JSON에 모두 반영했습니다. 전체 20편 498장과 보호 필드를 보존하고 변경 장의 글자수를 기존 방식으로 갱신했습니다.
+
+[이번 승인 수정 이력](../particle-predicate-review-20260908/README.md) · [반영 검증](../particle-predicate-review-20260908/completion.json)
+
+## 이전 반복 해설·상투적 마무리 반영 기록
+
 승인하신 **반복 해설·상투적 마무리 38장·38곳(39문장) 삭제**를 본문 JSON에 모두 반영했습니다. 전체 20편 498장과 보호 필드를 보존하고 변경 장의 글자수를 기존 방식으로 갱신했습니다.
 
 [이번 승인 수정 이력](../redundant-commentary-review-20260908/README.md) · [반영 검증](../redundant-commentary-review-20260908/completion.json)
