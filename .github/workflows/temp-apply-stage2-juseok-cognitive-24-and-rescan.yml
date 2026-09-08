@@ -1,0 +1,111 @@
+name: TEMP Apply Stage2 Juseok Cognitive 24 And Rescan
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/temp-apply-stage2-juseok-cognitive-24-and-rescan.yml']
+permissions:
+  contents: write
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Apply approved 24 and rescan remaining juseok subjects
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json, glob, re, subprocess
+          from pathlib import Path
+          base=Path('sourcecards-targeted-review-7passes/cycle2-pass13-juseok-subject')
+          ap=base/'audit-24.json'
+          audit=json.loads(ap.read_text(encoding='utf-8'))
+          cs=audit['후보']
+          if len(cs)!=24: raise SystemExit(f'expected 24 got {len(cs)}')
+          staged={}; ids=set()
+          for c in cs:
+              p=Path(c['파일'])
+              text=staged.get(p,p.read_text(encoding='utf-8'))
+              old,new=c['수정전전체'],c['수정후전체']
+              n=text.count(old)
+              if n!=1: raise SystemExit(f"{c['구절ID']}: exact old match={n}")
+              text=text.replace(old,new,1)
+              json.loads(text)
+              staged[p]=text
+              ids.add(c['구절ID'])
+          if len(ids)!=24: raise SystemExit(f'unique ids={len(ids)}')
+          for p,text in staged.items(): p.write_text(text,encoding='utf-8')
+          for c in cs:
+              c['승인상태']='승인완료'; c['본문반영']=True
+          audit['승인상태']='승인완료'; audit['본문반영수']=24; audit['반영완료']=True
+          ap.write_text(json.dumps(audit,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+
+          files=sorted(glob.glob('sourcecards-style-polish/[0-9][0-9]-*.json'))
+          if len(files)!=20: raise SystemExit(f'files={len(files)}')
+          chapters=[]
+          for fn in files:
+              data=json.loads(Path(fn).read_text(encoding='utf-8'))
+              for ch in data['장']:
+                  chapters.append((fn,ch))
+          if len(chapters)!=498: raise SystemExit(f'chapters={len(chapters)}')
+
+          # Remaining document-subject sentences after approved 24 are applied.
+          # We deliberately distinguish real human subjects such as 주석가/주석자.
+          doc_pat=re.compile(r'(?<![가-힣])(?:(?:이|그|옛|여러|뒤의|앞의|여기 실린|해당|다른|한|정약용이 모은|주희의 말을 잇는 이)\s+)?주석(?:은|이|들은|에서는|도|을|의)')
+          person_pat=re.compile(r'주석(?:가|자)(?:는|들은|가|들이)')
+          rows=[]
+          for fn,ch in chapters:
+              text=ch['여는말']
+              sents=[s.strip() for s in re.split(r'(?<=[.!?])\s+',text) if s.strip()]
+              for idx,s in enumerate(sents,1):
+                  if person_pat.search(s):
+                      continue
+                  m=doc_pat.search(s)
+                  if m:
+                      rows.append({'구절ID':ch['구절ID'],'편장':ch['편장'],'파일':fn,'문장번호':idx,'문장':s,'전체여는말':text,'주석표현':m.group(0)})
+          # Focus also on sentences beginning with a juseok document subject.
+          start_pat=re.compile(r'^(?:(?:이|그|옛|여러|뒤의|앞의|여기 실린|해당|다른|한|정약용이 모은|주희의 말을 잇는 이)\s+)?주석(?:은|이|들은|에서는|도|을|의)')
+          starts=[r for r in rows if start_pat.search(r['문장'])]
+          # classify verbs only for review aid, not automatic judgment
+          cognitive_keys=['살피','따지','주목','찾','봅니다','읽습니다','검토','추정','판단','평가','헤아리','의문','비판']
+          explanatory_keys=['풀이','설명','비교','구별','전하','소개','나옵','실려','담','말하']
+          for r in rows:
+              s=r['문장']
+              r['인지행위표지']=[k for k in cognitive_keys if k in s]
+              r['설명행위표지']=[k for k in explanatory_keys if k in s]
+          head=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
+          md=['# 주석 문서주어 24건 반영 후 잔여 전수조사','',f'- 적용 직전 기준 커밋: `{head}`','- 대상: 최신 `sourcecards-style-polish/` 20파일 / 498장',f'- 승인 24건 적용: **완료**',f'- 남은 `주석` 문서주어 포함 문장: **{len(rows)}문장**',f'- 그중 문장이 `주석` 계열 주어로 시작: **{len(starts)}문장**','- `주석가/주석자`처럼 실제 사람을 주어로 둔 문장은 제외','', '## 주석 계열로 시작하는 잔여 문장','']
+          for i,r in enumerate(starts,1):
+              marks=', '.join(r['인지행위표지']) if r['인지행위표지'] else '-'
+              md.append(f"{i}. `{r['구절ID']}` | {r['편장']} | 인지표지={marks} | {r['문장']}")
+          md += ['', '## 문장 중간에 주석 문서주어가 남은 경우','']
+          mids=[r for r in rows if r not in starts]
+          for i,r in enumerate(mids,1):
+              marks=', '.join(r['인지행위표지']) if r['인지행위표지'] else '-'
+              md.append(f"{i}. `{r['구절ID']}` | {r['편장']} | 인지표지={marks} | {r['문장']}")
+          (base/'remaining-document-subjects-after-24.md').write_text('\n'.join(md)+'\n',encoding='utf-8')
+          (base/'remaining-document-subjects-after-24.json').write_text(json.dumps({'기준커밋':head,'대상장수':498,'적용24건':True,'잔여문서주어문장수':len(rows),'문장시작수':len(starts),'항목':rows},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          print('applied',len(cs),'remaining_doc_subjects',len(rows),'starts',len(starts))
+          PY
+      - name: Validate and commit
+        shell: bash
+        run: |
+          git diff --check
+          python - <<'PY'
+          import json,glob
+          from pathlib import Path
+          fs=glob.glob('sourcecards-style-polish/[0-9][0-9]-*.json')
+          assert len(fs)==20
+          total=0
+          for f in fs:
+              total+=len(json.loads(Path(f).read_text(encoding='utf-8'))['장'])
+          assert total==498,total
+          print('validated 20 JSON / 498 chapters')
+          PY
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add sourcecards-style-polish/ sourcecards-targeted-review-7passes/cycle2-pass13-juseok-subject/audit-24.json sourcecards-targeted-review-7passes/cycle2-pass13-juseok-subject/remaining-document-subjects-after-24.*
+          git commit -m '사료카드 2단계 주석 인지행위형 24건 실제 반영 및 잔여 조사'
+          git push origin main
