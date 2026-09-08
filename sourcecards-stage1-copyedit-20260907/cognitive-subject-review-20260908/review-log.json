@@ -1,5 +1,5 @@
 {
-  "status": "승인 대기 — 본문 JSON 미반영",
+  "status": "반영 완료",
   "review_type": "주석·문헌을 사람의 판단·인지 행위의 주어로 쓴 구조",
   "date": "2026-09-08",
   "basis_commit": "deaaec4db67f77a26331992342292c8d02b38e61",
@@ -1330,5 +1330,12 @@
     "yowal_chapters": 3,
     "ly_10_18_included": false
   },
-  "concurrent_main_handling": "원격 main 전진으로 non-fast-forward 발생. 최신 main에서 본문 20개 SHA 불변을 확인하고 검토 문서 3개만 다시 합침. 강제 푸시 사용 안 함."
+  "concurrent_main_handling": "원격 main 전진으로 non-fast-forward 발생. 최신 main에서 본문 20개 SHA 불변을 확인하고 검토 문서 3개만 다시 합침. 강제 푸시 사용 안 함.",
+  "application": {
+    "base_commit": "87d9ab9c4ce5e67b1352584277fc2fd54a97d72b",
+    "chapters": 36,
+    "replacements": 36,
+    "approval": "사용자: 제이슨 반영후 동사나 형용사를 명사화한것들 찾아봐",
+    "protected_fields_preserved": true
+  }
 }

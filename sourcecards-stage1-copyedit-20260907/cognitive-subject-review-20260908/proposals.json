@@ -1,5 +1,5 @@
 {
-  "status": "승인 대기",
+  "status": "반영 완료",
   "review_type": "주석·문헌을 사람의 판단·인지 행위의 주어로 쓴 구조",
   "repository": "hermes-blue/analects-qa",
   "branch": "main",
@@ -21,7 +21,7 @@
       "number": 1,
       "path": "sourcecards-stage1-copyedit-20260907/round3/02-wijeong.json",
       "reason": "문헌이 판단하는 구조를 문헌에 실린 평가 소개로 변경",
-      "status": "승인 대기"
+      "status": "반영 완료"
     },
     {
       "after": "주석에 따르면 지름길을 피한다는 말은 작은 편의를 좇아 일을 서두르지 않는 태도를 뜻합니다.",
@@ -33,7 +33,7 @@
       "number": 2,
       "path": "sourcecards-stage1-copyedit-20260907/round3/06-yongya.json",
       "reason": "문헌을 판단·인지 행위의 주어로 쓴 구조를 해당 문헌에 실린 풀이·평가 소개로 변경",
-      "status": "승인 대기"
+      "status": "반영 완료"
     },
     {
       "after": "주석에 따르면 사람이 해야 할 판단을 알 수 없는 신의 뜻에 온통 맡기지 말라는 뜻입니다.",
@@ -45,7 +45,7 @@
       "number": 3,
       "path": "sourcecards-stage1-copyedit-20260907/round3/06-yongya.json",
       "reason": "문헌을 판단·인지 행위의 주어로 쓴 구조를 해당 문헌에 실린 풀이·평가 소개로 변경",
-      "status": "승인 대기"
+      "status": "반영 완료"
     },
     {
       "after": "『논어』는 이름을 적지 않았지만, 집주에 실린 옛 주석에는 이 친구가 안회라는 풀이가 있습니다.",
@@ -57,7 +57,7 @@
       "number": 4,
       "path": "sourcecards-stage1-copyedit-20260907/round3/08-taebaek.json",
       "reason": "문헌을 판단·인지 행위의 주어로 쓴 구조를 해당 문헌에 실린 풀이·평가 소개로 변경",
-      "status": "승인 대기"
+      "status": "반영 완료"
     },
     {
       "after": "주자 집주의 풀이에 따르면 이는 세 과목을 배우는 순서만을 뜻하지는 않습니다.",
@@ -69,7 +69,7 @@
       "number": 5,
       "path": "sourcecards-stage1-copyedit-20260907/round3/08-taebaek.json",
       "reason": "문헌을 판단·인지 행위의 주어로 쓴 구조를 해당 문헌에 실린 풀이·평가 소개로 변경",
-      "status": "승인 대기"
+      "status": "반영 완료"
     },
     {
       "after": "주자 집주의 풀이에 따르면 여기서 ‘할 수 없다’는 ‘하지 못하게 한다’와 다릅니다.",
@@ -81,7 +81,7 @@
       "number": 6,
       "path": "sourcecards-stage1-copyedit-20260907/round3/08-taebaek.json",
       "reason": "문헌을 판단·인지 행위의 주어로 쓴 구조를 해당 문헌에 실린 풀이·평가 소개로 변경",
-      "status": "승인 대기"
+      "status": "반영 완료"
     },
     {
       "after": "주자 집주에는 원문의 ‘이른다’를 ‘뜻을 둔다’로 고쳐 읽은 풀이가 있습니다. 오래 배웠어도 벼슬하며 받는 보수에 마음을 빼앗기지 않는 사람을 칭찬한 말이라는 해석입니다.",
@@ -93,7 +93,7 @@
       "number": 7,
       "path": "sourcecards-stage1-copyedit-20260907/round3/08-taebaek.json",
       "reason": "문헌을 판단·인지 행위의 주어로 쓴 구조를 해당 문헌에 실린 풀이·평가 소개로 변경",
-      "status": "승인 대기"
+      "status": "반영 완료"
     },
     {
       "after": "주자 집주의 풀이에 따르면 순과 우가 임금 자리를 즐거움으로 삼지 않았다는 뜻입니다.",
@@ -105,7 +105,7 @@
       "number": 8,
       "path": "sourcecards-stage1-copyedit-20260907/round3/08-taebaek.json",
       "reason": "문헌을 판단·인지 행위의 주어로 쓴 구조를 해당 문헌에 실린 풀이·평가 소개로 변경",
-      "status": "승인 대기"
+      "status": "반영 완료"
     },
     {
       "after": "집주에는 그 여성이 무왕의 아내 읍강이라는 해석이 실려 있습니다.",
@@ -117,7 +117,7 @@
       "number": 9,
       "path": "sourcecards-stage1-copyedit-20260907/round3/08-taebaek.json",
       "reason": "문헌을 판단·인지 행위의 주어로 쓴 구조를 해당 문헌에 실린 풀이·평가 소개로 변경",
-      "status": "승인 대기"
+      "status": "반영 완료"
     },
     {
       "after": "집주의 풀이에 따르면 앞의 “내가 아는 것이 있겠느냐, 없다”라는 말도 겸손한 표현입니다.",
@@ -129,7 +129,7 @@
       "number": 10,
       "path": "sourcecards-stage1-copyedit-20260907/round3/09-jahan.json",
       "reason": "문헌을 판단·인지 행위의 주어로 쓴 구조를 해당 문헌에 실린 풀이·평가 소개로 변경",
-      "status": "승인 대기"
+      "status": "반영 완료"
     },
     {
       "after": "집주의 풀이에 따르면 이 대목의 ‘가’는 물건값을 뜻합니다.",
@@ -141,7 +141,7 @@
       "number": 11,
       "path": "sourcecards-stage1-copyedit-20260907/round3/09-jahan.json",
       "reason": "문헌을 판단·인지 행위의 주어로 쓴 구조를 해당 문헌에 실린 풀이·평가 소개로 변경",
-      "status": "승인 대기"
+      "status": "반영 완료"
     },
     {
       "after": "집주의 풀이에 따르면 제대로 하는 것이 얼마나 되겠느냐고 자신을 낮춘 말입니다.",
@@ -153,7 +153,7 @@
       "number": 12,
       "path": "sourcecards-stage1-copyedit-20260907/round3/09-jahan.json",
       "reason": "문헌을 판단·인지 행위의 주어로 쓴 구조를 해당 문헌에 실린 풀이·평가 소개로 변경",
-      "status": "승인 대기"
+      "status": "반영 완료"
     },
     {
       "after": "집주의 풀이에 따르면 물의 흐름처럼 변화는 끊임없이 이어지며, 배우는 사람에게도 그런 꾸준함이 필요합니다.",
@@ -165,7 +165,7 @@
       "number": 13,
       "path": "sourcecards-stage1-copyedit-20260907/round3/09-jahan.json",
       "reason": "문헌을 판단·인지 행위의 주어로 쓴 구조를 해당 문헌에 실린 풀이·평가 소개로 변경",
-      "status": "승인 대기"
+      "status": "반영 완료"
     },
     {
       "after": "집주의 풀이에 따르면 이 장의 “애석하구나. 그가 나아가는 것은 보았지만 멈추는 것은 보지 못했다”도 안회가 죽은 뒤의 말입니다.",
@@ -177,7 +177,7 @@
       "number": 14,
       "path": "sourcecards-stage1-copyedit-20260907/round3/09-jahan.json",
       "reason": "문헌을 판단·인지 행위의 주어로 쓴 구조를 해당 문헌에 실린 풀이·평가 소개로 변경",
-      "status": "승인 대기"
+      "status": "반영 완료"
     },
     {
       "after": "집주의 풀이에 따르면 어려움을 함께 겪은 이들을 그리워한 말입니다.",
@@ -189,7 +189,7 @@
       "number": 15,
       "path": "sourcecards-stage1-copyedit-20260907/round3/11-seonjin.json",
       "reason": "문헌을 판단·인지 행위의 주어로 쓴 구조를 해당 문헌에 실린 풀이·평가 소개로 변경",
-      "status": "승인 대기"
+      "status": "반영 완료"
     },
     {
       "after": "집주의 풀이에 따르면 말을 떼어 주는 것과 대부의 수레를 팔아 없애는 일은 다릅니다.",
@@ -201,7 +201,7 @@
       "number": 16,
       "path": "sourcecards-stage1-copyedit-20260907/round3/11-seonjin.json",
       "reason": "문헌을 판단·인지 행위의 주어로 쓴 구조를 해당 문헌에 실린 풀이·평가 소개로 변경",
-      "status": "승인 대기"
+      "status": "반영 완료"
     },
     {
       "after": "집주의 풀이에 따르면 이 부자의 대립이 ‘정명’의 배경입니다.",
@@ -213,7 +213,7 @@
       "number": 17,
       "path": "sourcecards-stage1-copyedit-20260907/round3/13-jaro.json",
       "reason": "문헌을 판단·인지 행위의 주어로 쓴 구조를 해당 문헌에 실린 풀이·평가 소개로 변경",
-      "status": "승인 대기"
+      "status": "반영 완료"
     },
     {
       "after": "집주의 풀이에 따르면 염유가 나온 곳은 임금의 조정이 아니라 계씨 집안의 회의 자리입니다.",
@@ -225,7 +225,7 @@
       "number": 18,
       "path": "sourcecards-stage1-copyedit-20260907/round3/13-jaro.json",
       "reason": "문헌을 판단·인지 행위의 주어로 쓴 구조를 해당 문헌에 실린 풀이·평가 소개로 변경",
-      "status": "승인 대기"
+      "status": "반영 완료"
     },
     {
       "after": "집주에는 남궁괄이 당시 권력자들을 예·오에, 공자를 우·직에 빗댄 것일 수 있다는 풀이가 있습니다.",
@@ -237,7 +237,7 @@
       "number": 19,
       "path": "sourcecards-stage1-copyedit-20260907/round3/14-heonmun.json",
       "reason": "문헌을 판단·인지 행위의 주어로 쓴 구조를 해당 문헌에 실린 풀이·평가 소개로 변경",
-      "status": "승인 대기"
+      "status": "반영 완료"
     },
     {
       "after": "집주에는 자서가 공자의 등용을 막았던 초나라 왕족이라는 풀이가 있습니다.",
@@ -249,7 +249,7 @@
       "number": 20,
       "path": "sourcecards-stage1-copyedit-20260907/round3/14-heonmun.json",
       "reason": "문헌을 판단·인지 행위의 주어로 쓴 구조를 해당 문헌에 실린 풀이·평가 소개로 변경",
-      "status": "승인 대기"
+      "status": "반영 완료"
     },
     {
       "after": "집주의 풀이에 따르면 환공의 마음과 행적이 모두 의로웠던 것은 아닙니다. 두 패자에게 모두 한계가 있지만 이 점에서는 환공이 낫다는 평가입니다.",
@@ -261,7 +261,7 @@
       "number": 21,
       "path": "sourcecards-stage1-copyedit-20260907/round3/14-heonmun.json",
       "reason": "문헌을 판단·인지 행위의 주어로 쓴 구조를 해당 문헌에 실린 풀이·평가 소개로 변경",
-      "status": "승인 대기"
+      "status": "반영 완료"
     },
     {
       "after": "집주의 풀이에 따르면 사자의 말에는 늘 자신이 부족하다고 여기며 잘못을 살피는 거백옥의 노력이 드러납니다.",
@@ -273,7 +273,7 @@
       "number": 22,
       "path": "sourcecards-stage1-copyedit-20260907/round3/14-heonmun.json",
       "reason": "문헌을 판단·인지 행위의 주어로 쓴 구조를 해당 문헌에 실린 풀이·평가 소개로 변경",
-      "status": "승인 대기"
+      "status": "반영 완료"
     },
     {
       "after": "그러나 집주의 풀이에 따르면 자신을 돌아보지 않고 남을 평하는 데만 관심을 쏟는 자공을 경계한 말입니다.",
@@ -285,7 +285,7 @@
       "number": 23,
       "path": "sourcecards-stage1-copyedit-20260907/round3/14-heonmun.json",
       "reason": "문헌을 판단·인지 행위의 주어로 쓴 구조를 해당 문헌에 실린 풀이·평가 소개로 변경",
-      "status": "승인 대기"
+      "status": "반영 완료"
     },
     {
       "after": "집주에는 미생무가 세상에서 물러난 사람이었으리라는 추정이 있습니다.",
@@ -297,7 +297,7 @@
       "number": 24,
       "path": "sourcecards-stage1-copyedit-20260907/round3/14-heonmun.json",
       "reason": "문헌을 판단·인지 행위의 주어로 쓴 구조를 해당 문헌에 실린 풀이·평가 소개로 변경",
-      "status": "승인 대기"
+      "status": "반영 완료"
     },
     {
       "after": "집주에는 이 문지기가 문을 지키는 일을 하며 숨어 지낸 현명한 사람이었으리라는 추정이 있습니다.",
@@ -309,7 +309,7 @@
       "number": 25,
       "path": "sourcecards-stage1-copyedit-20260907/round3/14-heonmun.json",
       "reason": "문헌을 판단·인지 행위의 주어로 쓴 구조를 해당 문헌에 실린 풀이·평가 소개로 변경",
-      "status": "승인 대기"
+      "status": "반영 완료"
     },
     {
       "after": "집주의 풀이에 따르면 여러 지식을 두루 배우는 일과 그 안을 관통하는 이치를 아는 일은 다릅니다.",
@@ -321,7 +321,7 @@
       "number": 26,
       "path": "sourcecards-stage1-copyedit-20260907/round3/15-wiryeonggong.json",
       "reason": "문헌을 판단·인지 행위의 주어로 쓴 구조를 해당 문헌에 실린 풀이·평가 소개로 변경",
-      "status": "승인 대기"
+      "status": "반영 완료"
     },
     {
       "after": "집주의 풀이에 따르면 인을 행하도록 북돋는 말입니다.",
@@ -333,7 +333,7 @@
       "number": 27,
       "path": "sourcecards-stage1-copyedit-20260907/round3/15-wiryeonggong.json",
       "reason": "문헌을 판단·인지 행위의 주어로 쓴 구조를 해당 문헌에 실린 풀이·평가 소개로 변경",
-      "status": "승인 대기"
+      "status": "반영 완료"
     },
     {
       "after": "스승보다 훌륭하다는 칭찬을 받으려고 다투라는 뜻도 아닙니다.",
@@ -345,7 +345,7 @@
       "number": 28,
       "path": "sourcecards-stage1-copyedit-20260907/round3/15-wiryeonggong.json",
       "reason": "문헌을 판단·인지 행위의 주어로 쓴 구조를 해당 문헌에 실린 풀이·평가 소개로 변경",
-      "status": "승인 대기"
+      "status": "반영 완료"
     },
     {
       "after": "모두가 그렇게 살았다는 기록은 아니지만, 나이에 따라 맡는 일과 물러나는 때가 다르게 정해져 있습니다.",
@@ -357,7 +357,7 @@
       "number": 29,
       "path": "sourcecards-stage1-copyedit-20260907/round3/16-gyessi.json",
       "reason": "문헌을 판단·인지 행위의 주어로 쓴 구조를 해당 문헌에 실린 풀이·평가 소개로 변경",
-      "status": "승인 대기"
+      "status": "반영 완료"
     },
     {
       "after": "논어에서 두 형제가 높이 평가받은 것은 가난한 살림 자체보다 부귀를 위해 뜻을 바꾸지 않은 태도 때문입니다.",
@@ -369,7 +369,7 @@
       "number": 30,
       "path": "sourcecards-stage1-copyedit-20260907/round3/16-gyessi.json",
       "reason": "문헌을 판단·인지 행위의 주어로 쓴 구조를 해당 문헌에 실린 풀이·평가 소개로 변경",
-      "status": "승인 대기"
+      "status": "반영 완료"
     },
     {
       "after": "집주의 풀이에 따르면 소인은 집안에서 부리는 사람이며, 이 말은 남녀 아랫사람을 거느리는 문제에 관한 것입니다.",
@@ -381,7 +381,7 @@
       "number": 31,
       "path": "sourcecards-stage1-copyedit-20260907/round3/17-yanghwa.json",
       "reason": "문헌을 판단·인지 행위의 주어로 쓴 구조를 해당 문헌에 실린 풀이·평가 소개로 변경",
-      "status": "승인 대기"
+      "status": "반영 완료"
     },
     {
       "after": "집주의 풀이에 따르면 마흔은 덕이 이루어질 때이므로, 이 말은 때를 놓치기 전에 허물을 고치라는 경계입니다. 누구를 두고 한 말인지는 알 수 없다는 설명도 있습니다.",
@@ -393,7 +393,7 @@
       "number": 32,
       "path": "sourcecards-stage1-copyedit-20260907/round3/17-yanghwa.json",
       "reason": "문헌을 판단·인지 행위의 주어로 쓴 구조를 해당 문헌에 실린 풀이·평가 소개로 변경",
-      "status": "승인 대기"
+      "status": "반영 완료"
     },
     {
       "after": "『집주』의 풀이에 따르면 공자가 떠난 까닭은 대우의 높낮이보다 쓰이지 못한 데 있었습니다.",
@@ -405,7 +405,7 @@
       "number": 33,
       "path": "sourcecards-stage1-copyedit-20260907/round3/18-mija.json",
       "reason": "문헌을 판단·인지 행위의 주어로 쓴 구조를 해당 문헌에 실린 풀이·평가 소개로 변경",
-      "status": "승인 대기"
+      "status": "반영 완료"
     },
     {
       "after": "『집주』에는 경쇠를 치던 양(襄)이 공자에게 금을 가르친 사양이라는 풀이가 있습니다.",
@@ -417,7 +417,7 @@
       "number": 34,
       "path": "sourcecards-stage1-copyedit-20260907/round3/18-mija.json",
       "reason": "문헌을 판단·인지 행위의 주어로 쓴 구조를 해당 문헌에 실린 풀이·평가 소개로 변경",
-      "status": "승인 대기"
+      "status": "반영 완료"
     },
     {
       "after": "『집주』에는 자하가 벗을 사귀는 범위를 너무 좁혔으며 자장의 말 역시 지나칠 수 있다는 풀이가 있습니다.",
@@ -429,7 +429,7 @@
       "number": 35,
       "path": "sourcecards-stage1-copyedit-20260907/round3/19-jajang.json",
       "reason": "문헌을 판단·인지 행위의 주어로 쓴 구조를 해당 문헌에 실린 풀이·평가 소개로 변경",
-      "status": "승인 대기"
+      "status": "반영 완료"
     },
     {
       "after": "『집주』의 풀이에 따르면 배우는 이에게 차례가 있다는 뜻입니다.",
@@ -441,7 +441,10 @@
       "number": 36,
       "path": "sourcecards-stage1-copyedit-20260907/round3/19-jajang.json",
       "reason": "문헌을 판단·인지 행위의 주어로 쓴 구조를 해당 문헌에 실린 풀이·평가 소개로 변경",
-      "status": "승인 대기"
+      "status": "반영 완료"
     }
-  ]
+  ],
+  "applied_replacements": 36,
+  "applied_chapters": 36,
+  "approval": "사용자: 제이슨 반영후 동사나 형용사를 명사화한것들 찾아봐"
 }
