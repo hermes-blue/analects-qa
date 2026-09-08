@@ -1315,17 +1315,31 @@
     },
     {
       "book": 15,
-      "changed": false,
+      "changed": true,
       "heading": "‘누구든 가르친다’ vs ‘가르치면 악한 부류로 고정하지 않는다’無類가 가리키는 것",
       "id": "ly-15-38",
       "index": 1,
       "key": "ly-15-38:說:1:1",
       "label": "마융(馬融) — 《논어집해》 인용",
       "original": "사람의 신분이나 부류를 따져 교육에서 빼지 않는다는 뜻으로 풉니다. 핵심은 ‘누가 배울 수 있는가’에 있습니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "사람의 신분이나 부류를 따져 교육에서 빼지 않는다는 뜻으로 풉니다. 핵심은 ‘누가 배울 수 있는가’에 있습니다.",
+      "reason": "신분이나 부류로 교육에서 배제하지 말라는 설명 뒤에 누가 배울 수 있는가가 핵심이라는 질문형 재요약이 붙었습니다.",
+      "revised": "사람의 신분이나 부류를 따져 교육에서 빼지 않는다는 뜻으로 풉니다.",
       "scope": "說",
-      "side": 1
+      "side": 1,
+      "revision_history": [
+        {
+          "pass": "targeted_type_9",
+          "previous_revision": "사람의 신분이나 부류를 따져 교육에서 빼지 않는다는 뜻으로 풉니다. 핵심은 ‘누가 배울 수 있는가’에 있습니다.",
+          "revised": "사람의 신분이나 부류를 따져 교육에서 빼지 않는다는 뜻으로 풉니다.",
+          "reason": "신분이나 부류로 교육에서 배제하지 말라는 설명 뒤에 누가 배울 수 있는가가 핵심이라는 질문형 재요약이 붙었습니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 새로운 유형 시작",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "사람의 신분이나 부류를 따져 교육에서 빼지 않는다는 뜻으로 풉니다. 핵심은 ‘누가 배울 수 있는가’에 있습니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_9"
     },
     {
       "book": 15,
@@ -1460,9 +1474,9 @@
     "selector": "article.card details.st3 .js .side > p"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_8",
+    "pass": "targeted_type_9",
     "scanned": 86,
-    "approved_applied": 9,
+    "approved_applied": 1,
     "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
   }
 }

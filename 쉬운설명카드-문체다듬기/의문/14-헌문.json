@@ -849,16 +849,30 @@
     },
     {
       "book": 14,
-      "changed": false,
+      "changed": true,
       "field": "답변",
       "id": "ly-14-11",
       "index": 3,
       "key": "ly-14-11:問:3:a",
       "label": "답변",
       "original": "가난 자체를 높인 것이 아니라 어려운 환경에서 마음을 지키는 힘을 말한 것입니다. 재산의 많고 적음보다 어떤 상태에서 태도를 유지하느냐가 핵심입니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "가난 자체를 높인 것이 아니라 어려운 환경에서 마음을 지키는 힘을 말한 것입니다. 재산의 많고 적음보다 어떤 상태에서 태도를 유지하느냐가 핵심입니다.",
-      "scope": "問"
+      "reason": "가난을 높인 것이 아니라 어려울 때 마음을 지키는 힘을 말한 것이라고 이미 설명했습니다. 재산보다 태도라는 재요약을 덜어냅니다.",
+      "revised": "가난 자체를 높인 것이 아니라 어려운 환경에서 마음을 지키는 힘을 말한 것입니다.",
+      "scope": "問",
+      "revision_history": [
+        {
+          "pass": "targeted_type_9",
+          "previous_revision": "가난 자체를 높인 것이 아니라 어려운 환경에서 마음을 지키는 힘을 말한 것입니다. 재산의 많고 적음보다 어떤 상태에서 태도를 유지하느냐가 핵심입니다.",
+          "revised": "가난 자체를 높인 것이 아니라 어려운 환경에서 마음을 지키는 힘을 말한 것입니다.",
+          "reason": "가난을 높인 것이 아니라 어려울 때 마음을 지키는 힘을 말한 것이라고 이미 설명했습니다. 재산보다 태도라는 재요약을 덜어냅니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 새로운 유형 시작",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "가난 자체를 높인 것이 아니라 어려운 환경에서 마음을 지키는 힘을 말한 것입니다. 재산의 많고 적음보다 어떤 상태에서 태도를 유지하느냐가 핵심입니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_9"
     },
     {
       "book": 14,
@@ -1657,16 +1671,30 @@
     },
     {
       "book": 14,
-      "changed": false,
+      "changed": true,
       "field": "답변",
       "id": "ly-14-21",
       "index": 3,
       "key": "ly-14-21:問:3:a",
       "label": "답변",
       "original": "단순히 말수를 줄이라는 것보다, 말의 크기만큼 책임질 준비가 되어 있는지를 살피라는 뜻입니다. 쉽게 장담하지 않는 태도를 강조합니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "단순히 말수를 줄이라는 것보다, 말의 크기만큼 책임질 준비가 되어 있는지를 살피라는 뜻입니다. 쉽게 장담하지 않는 태도를 강조합니다.",
-      "scope": "問"
+      "reason": "자신의 말에 책임질 준비를 살피라는 뜻을 쉽게 장담하지 말라는 말로 다시 요약합니다.",
+      "revised": "단순히 말수를 줄이라는 것보다, 말의 크기만큼 책임질 준비가 되어 있는지를 살피라는 뜻입니다.",
+      "scope": "問",
+      "revision_history": [
+        {
+          "pass": "targeted_type_9",
+          "previous_revision": "단순히 말수를 줄이라는 것보다, 말의 크기만큼 책임질 준비가 되어 있는지를 살피라는 뜻입니다. 쉽게 장담하지 않는 태도를 강조합니다.",
+          "revised": "단순히 말수를 줄이라는 것보다, 말의 크기만큼 책임질 준비가 되어 있는지를 살피라는 뜻입니다.",
+          "reason": "자신의 말에 책임질 준비를 살피라는 뜻을 쉽게 장담하지 말라는 말로 다시 요약합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 새로운 유형 시작",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "단순히 말수를 줄이라는 것보다, 말의 크기만큼 책임질 준비가 되어 있는지를 살피라는 뜻입니다. 쉽게 장담하지 않는 태도를 강조합니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_9"
     },
     {
       "book": 14,
@@ -2465,16 +2493,30 @@
     },
     {
       "book": 14,
-      "changed": false,
+      "changed": true,
       "field": "답변",
       "id": "ly-14-31",
       "index": 3,
       "key": "ly-14-31:問:3:a",
       "label": "답변",
       "original": "남의 결점을 재는 일보다 자신의 부족함을 고치는 일이 더 급하다는 뜻입니다. 평가보다 수양에 시간을 쓰라는 우선순위를 보여 줍니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "남의 결점을 재는 일보다 자신의 부족함을 고치는 일이 더 급하다는 뜻입니다. 평가보다 수양에 시간을 쓰라는 우선순위를 보여 줍니다.",
-      "scope": "問"
+      "reason": "남의 결점을 재기보다 자신을 고치는 일이 급하다는 앞 문장을 평가보다 수양이라는 말로 되풀이합니다.",
+      "revised": "남의 결점을 재는 일보다 자신의 부족함을 고치는 일이 더 급하다는 뜻입니다.",
+      "scope": "問",
+      "revision_history": [
+        {
+          "pass": "targeted_type_9",
+          "previous_revision": "남의 결점을 재는 일보다 자신의 부족함을 고치는 일이 더 급하다는 뜻입니다. 평가보다 수양에 시간을 쓰라는 우선순위를 보여 줍니다.",
+          "revised": "남의 결점을 재는 일보다 자신의 부족함을 고치는 일이 더 급하다는 뜻입니다.",
+          "reason": "남의 결점을 재기보다 자신을 고치는 일이 급하다는 앞 문장을 평가보다 수양이라는 말로 되풀이합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 새로운 유형 시작",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "남의 결점을 재는 일보다 자신의 부족함을 고치는 일이 더 급하다는 뜻입니다. 평가보다 수양에 시간을 쓰라는 우선순위를 보여 줍니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_9"
     },
     {
       "book": 14,
@@ -3773,9 +3815,9 @@
     "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_5",
+    "pass": "targeted_type_9",
     "scanned": 282,
-    "approved_applied": 1,
+    "approved_applied": 3,
     "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
   }
 }

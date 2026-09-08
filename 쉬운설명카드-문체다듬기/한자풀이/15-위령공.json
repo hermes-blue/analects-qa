@@ -102,15 +102,29 @@
     },
     {
       "book": 15,
-      "changed": false,
+      "changed": true,
       "id": "ly-15-02",
       "index": 3,
       "key": "ly-15-02:語:3",
       "label": "一일",
       "original": "여러 지식을 관통하는 하나의 중심을 뜻합니다. 무엇을 가리키는지는 주석 전통에서 설명이 다양하지만, 흩어진 배움이 하나의 도리로 연결된다는 점이 핵심입니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "여러 지식을 관통하는 하나의 중심을 뜻합니다. 무엇을 가리키는지는 주석 전통에서 설명이 다양하지만, 흩어진 배움이 하나의 도리로 연결된다는 점이 핵심입니다.",
-      "scope": "語"
+      "reason": "첫 문장의 하나의 중심을 끝에서 다시 강조한 부분만 덜고, 주석마다 설명이 다르다는 정보는 유지합니다.",
+      "revised": "여러 지식을 관통하는 하나의 중심을 뜻합니다. 무엇을 가리키는지에 대해서는 주석 전통에서 설명이 다양합니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_9",
+          "previous_revision": "여러 지식을 관통하는 하나의 중심을 뜻합니다. 무엇을 가리키는지는 주석 전통에서 설명이 다양하지만, 흩어진 배움이 하나의 도리로 연결된다는 점이 핵심입니다.",
+          "revised": "여러 지식을 관통하는 하나의 중심을 뜻합니다. 무엇을 가리키는지에 대해서는 주석 전통에서 설명이 다양합니다.",
+          "reason": "첫 문장의 하나의 중심을 끝에서 다시 강조한 부분만 덜고, 주석마다 설명이 다르다는 정보는 유지합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 새로운 유형 시작",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "여러 지식을 관통하는 하나의 중심을 뜻합니다. 무엇을 가리키는지는 주석 전통에서 설명이 다양하지만, 흩어진 배움이 하나의 도리로 연결된다는 점이 핵심입니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_9"
     },
     {
       "book": 15,
@@ -1529,8 +1543,8 @@
       "key": "ly-15-28:語:4",
       "label": "人인",
       "original": "이 장에서는 道의 수동적 수혜자가 아니라 그것을 실제로 구현하는 주체로 강조됩니다. 실천의 책임이 사람에게 있다는 뜻입니다.",
-      "reason": "번역투 명사 표현과 피동문을 사람의 행동으로 풀어 씀",
-      "revised": "이 장에서는 사람이 道의 혜택을 받기만 하는 것이 아니라 직접 실천해야 한다고 강조합니다. 그 책임이 사람에게 있다는 뜻입니다.",
+      "reason": "사람이 직접 실천해야 한다는 앞 문장을 그 책임이 사람에게 있다는 말로 다시 해설합니다.",
+      "revised": "이 장에서는 사람이 道의 혜택을 받기만 하는 것이 아니라 직접 실천해야 한다고 강조합니다.",
       "scope": "語",
       "revision_history": [
         {
@@ -1541,11 +1555,20 @@
           "approval_status": "approved",
           "approval_message": "제이슨에 반영",
           "date": "2026-09-08"
+        },
+        {
+          "pass": "targeted_type_9",
+          "previous_revision": "이 장에서는 사람이 道의 혜택을 받기만 하는 것이 아니라 직접 실천해야 한다고 강조합니다. 그 책임이 사람에게 있다는 뜻입니다.",
+          "revised": "이 장에서는 사람이 道의 혜택을 받기만 하는 것이 아니라 직접 실천해야 한다고 강조합니다.",
+          "reason": "사람이 직접 실천해야 한다는 앞 문장을 그 책임이 사람에게 있다는 말로 다시 해설합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 새로운 유형 시작",
+          "date": "2026-09-08"
         }
       ],
-      "previous_revision": "이 장에서는 道의 수동적 수혜자가 아니라 그것을 실제로 구현하는 주체로 강조됩니다. 실천의 책임이 사람에게 있다는 뜻입니다.",
+      "previous_revision": "이 장에서는 사람이 道의 혜택을 받기만 하는 것이 아니라 직접 실천해야 한다고 강조합니다. 그 책임이 사람에게 있다는 뜻입니다.",
       "approval_status": "approved",
-      "last_revision_pass": "targeted_type_4"
+      "last_revision_pass": "targeted_type_9"
     },
     {
       "book": 15,
@@ -2222,9 +2245,9 @@
     "selector": "article.card details.st1 .w > p:not(.wh)"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_6",
+    "pass": "targeted_type_9",
     "scanned": 165,
-    "approved_applied": 3,
+    "approved_applied": 2,
     "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
   }
 }

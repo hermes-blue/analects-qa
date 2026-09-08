@@ -1723,16 +1723,30 @@
     },
     {
       "book": 17,
-      "changed": false,
+      "changed": true,
       "field": "답변",
       "id": "ly-17-20",
       "index": 3,
       "key": "ly-17-20:問:3:a",
       "label": "답변",
       "original": "그렇습니다. 상대의 상태에 따라 직접 답하기도 하고, 거리를 두거나 행동으로 메시지를 주기도 했습니다. 교육이 상대의 태도와 준비 정도에 따라 달라질 수 있음을 보여 줍니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "그렇습니다. 상대의 상태에 따라 직접 답하기도 하고, 거리를 두거나 행동으로 메시지를 주기도 했습니다. 교육이 상대의 태도와 준비 정도에 따라 달라질 수 있음을 보여 줍니다.",
-      "scope": "問"
+      "reason": "상대의 상태에 따라 답변이나 행동이 달랐다는 앞 문장을 교육이 상대에 따라 달라진다는 말로 다시 요약합니다.",
+      "revised": "그렇습니다. 상대의 상태에 따라 직접 답하기도 하고, 거리를 두거나 행동으로 메시지를 주기도 했습니다.",
+      "scope": "問",
+      "revision_history": [
+        {
+          "pass": "targeted_type_9",
+          "previous_revision": "그렇습니다. 상대의 상태에 따라 직접 답하기도 하고, 거리를 두거나 행동으로 메시지를 주기도 했습니다. 교육이 상대의 태도와 준비 정도에 따라 달라질 수 있음을 보여 줍니다.",
+          "revised": "그렇습니다. 상대의 상태에 따라 직접 답하기도 하고, 거리를 두거나 행동으로 메시지를 주기도 했습니다.",
+          "reason": "상대의 상태에 따라 답변이나 행동이 달랐다는 앞 문장을 교육이 상대에 따라 달라진다는 말로 다시 요약합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 새로운 유형 시작",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "그렇습니다. 상대의 상태에 따라 직접 답하기도 하고, 거리를 두거나 행동으로 메시지를 주기도 했습니다. 교육이 상대의 태도와 준비 정도에 따라 달라질 수 있음을 보여 줍니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_9"
     },
     {
       "book": 17,
@@ -2223,9 +2237,9 @@
     "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_8",
+    "pass": "targeted_type_9",
     "scanned": 156,
-    "approved_applied": 4,
+    "approved_applied": 1,
     "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
   }
 }

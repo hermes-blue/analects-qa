@@ -526,15 +526,29 @@
     },
     {
       "book": 19,
-      "changed": false,
+      "changed": true,
       "id": "ly-19-09",
       "index": 5,
       "key": "ly-19-09:語:5",
       "label": "儼溫厲엄온려",
       "original": "엄숙함·온화함·엄정함이 함께 있는 군자의 모습입니다. 한 가지 성격으로 단순화할 수 없는 성숙한 인격의 균형을 보여 줍니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "엄숙함·온화함·엄정함이 함께 있는 군자의 모습입니다. 한 가지 성격으로 단순화할 수 없는 성숙한 인격의 균형을 보여 줍니다.",
-      "scope": "語"
+      "reason": "엄숙함·온화함·엄정함이 함께 있다는 설명을 성숙한 인격의 균형이라는 말로 다시 묶고 있어 덜어냅니다.",
+      "revised": "엄숙함·온화함·엄정함이 함께 있는 군자의 모습입니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_9",
+          "previous_revision": "엄숙함·온화함·엄정함이 함께 있는 군자의 모습입니다. 한 가지 성격으로 단순화할 수 없는 성숙한 인격의 균형을 보여 줍니다.",
+          "revised": "엄숙함·온화함·엄정함이 함께 있는 군자의 모습입니다.",
+          "reason": "엄숙함·온화함·엄정함이 함께 있다는 설명을 성숙한 인격의 균형이라는 말로 다시 묶고 있어 덜어냅니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 새로운 유형 시작",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "엄숙함·온화함·엄정함이 함께 있는 군자의 모습입니다. 한 가지 성격으로 단순화할 수 없는 성숙한 인격의 균형을 보여 줍니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_9"
     },
     {
       "book": 19,
@@ -1559,7 +1573,7 @@
     "selector": "article.card details.st1 .w > p:not(.wh)"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_6",
+    "pass": "targeted_type_9",
     "scanned": 114,
     "approved_applied": 1,
     "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"

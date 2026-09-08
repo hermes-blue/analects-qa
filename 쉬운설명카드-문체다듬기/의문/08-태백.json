@@ -43,16 +43,30 @@
     },
     {
       "book": 8,
-      "changed": false,
+      "changed": true,
       "field": "답변",
       "id": "ly-08-01",
       "index": 2,
       "key": "ly-08-01:問:2:a",
       "label": "답변",
       "original": "태백이 여러 차례 천하의 계승 가능성을 스스로 포기했다는 전통적 설명입니다. 세부 역사 해석에는 차이가 있지만, 핵심은 반복해서 권력을 양보했다는 데 있습니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "태백이 여러 차례 천하의 계승 가능성을 스스로 포기했다는 전통적 설명입니다. 세부 역사 해석에는 차이가 있지만, 핵심은 반복해서 권력을 양보했다는 데 있습니다.",
-      "scope": "問"
+      "reason": "여러 차례 계승을 포기했다는 앞 설명을 반복한 뒷부분만 덜고, 역사 해석에 차이가 있다는 한정은 유지합니다.",
+      "revised": "태백이 여러 차례 천하의 계승 가능성을 스스로 포기했다는 전통적 설명입니다. 세부 역사 해석에는 차이가 있습니다.",
+      "scope": "問",
+      "revision_history": [
+        {
+          "pass": "targeted_type_9",
+          "previous_revision": "태백이 여러 차례 천하의 계승 가능성을 스스로 포기했다는 전통적 설명입니다. 세부 역사 해석에는 차이가 있지만, 핵심은 반복해서 권력을 양보했다는 데 있습니다.",
+          "revised": "태백이 여러 차례 천하의 계승 가능성을 스스로 포기했다는 전통적 설명입니다. 세부 역사 해석에는 차이가 있습니다.",
+          "reason": "여러 차례 계승을 포기했다는 앞 설명을 반복한 뒷부분만 덜고, 역사 해석에 차이가 있다는 한정은 유지합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 새로운 유형 시작",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "태백이 여러 차례 천하의 계승 가능성을 스스로 포기했다는 전통적 설명입니다. 세부 역사 해석에는 차이가 있지만, 핵심은 반복해서 권력을 양보했다는 데 있습니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_9"
     },
     {
       "book": 8,
@@ -1415,16 +1429,30 @@
     },
     {
       "book": 8,
-      "changed": false,
+      "changed": true,
       "field": "답변",
       "id": "ly-08-17",
       "index": 3,
       "key": "ly-08-17:問:3:a",
       "label": "답변",
       "original": "심리적으로 늘 초조하라는 뜻은 아닙니다. 배움에 대해 자만하지 않고 지속적으로 긴장과 관심을 유지하라는 태도입니다. 핵심은 성장을 멈추지 않는 꾸준함입니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "심리적으로 늘 초조하라는 뜻은 아닙니다. 배움에 대해 자만하지 않고 지속적으로 긴장과 관심을 유지하라는 태도입니다. 핵심은 성장을 멈추지 않는 꾸준함입니다.",
-      "scope": "問"
+      "reason": "배움에 자만하지 말고 지속적으로 관심을 가지라는 답을 성장을 멈추지 않는 꾸준함이라는 말로 반복합니다.",
+      "revised": "심리적으로 늘 초조하라는 뜻은 아닙니다. 배움에 대해 자만하지 않고 지속적으로 긴장과 관심을 유지하라는 태도입니다.",
+      "scope": "問",
+      "revision_history": [
+        {
+          "pass": "targeted_type_9",
+          "previous_revision": "심리적으로 늘 초조하라는 뜻은 아닙니다. 배움에 대해 자만하지 않고 지속적으로 긴장과 관심을 유지하라는 태도입니다. 핵심은 성장을 멈추지 않는 꾸준함입니다.",
+          "revised": "심리적으로 늘 초조하라는 뜻은 아닙니다. 배움에 대해 자만하지 않고 지속적으로 긴장과 관심을 유지하라는 태도입니다.",
+          "reason": "배움에 자만하지 말고 지속적으로 관심을 가지라는 답을 성장을 멈추지 않는 꾸준함이라는 말로 반복합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 새로운 유형 시작",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "심리적으로 늘 초조하라는 뜻은 아닙니다. 배움에 대해 자만하지 않고 지속적으로 긴장과 관심을 유지하라는 태도입니다. 핵심은 성장을 멈추지 않는 꾸준함입니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_9"
     },
     {
       "book": 8,
@@ -1773,9 +1801,9 @@
     "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_4",
-    "reviewed": 126,
+    "pass": "targeted_type_9",
+    "scanned": 126,
     "approved_applied": 2,
-    "status": "approved_applied"
+    "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
   }
 }

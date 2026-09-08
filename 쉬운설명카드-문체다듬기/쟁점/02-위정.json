@@ -144,17 +144,31 @@
     },
     {
       "book": 2,
-      "changed": false,
+      "changed": true,
       "heading": "‘부모 뜻을 어기지 않는다’ vs ‘예를 어기지 않는다’無違",
       "id": "ly-02-05",
       "index": 1,
       "key": "ly-02-05:說:1:1",
       "label": "황간(皇侃) 《논어의소》",
       "original": "無違를 부모를 섬길 때 매사에 순종하여 거스르지 않는다는 뜻으로 풉니다. 효도의 초점을 부모의 뜻을 따르는 데 둔 것입니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "無違를 부모를 섬길 때 매사에 순종하여 거스르지 않는다는 뜻으로 풉니다. 효도의 초점을 부모의 뜻을 따르는 데 둔 것입니다.",
+      "reason": "부모에게 순종해 거스르지 않는다는 뜻풀이를 부모의 뜻을 따르는 데 초점이 있다는 말로 다시 설명합니다.",
+      "revised": "無違를 부모를 섬길 때 매사에 순종하여 거스르지 않는다는 뜻으로 풉니다.",
       "scope": "說",
-      "side": 1
+      "side": 1,
+      "revision_history": [
+        {
+          "pass": "targeted_type_9",
+          "previous_revision": "無違를 부모를 섬길 때 매사에 순종하여 거스르지 않는다는 뜻으로 풉니다. 효도의 초점을 부모의 뜻을 따르는 데 둔 것입니다.",
+          "revised": "無違를 부모를 섬길 때 매사에 순종하여 거스르지 않는다는 뜻으로 풉니다.",
+          "reason": "부모에게 순종해 거스르지 않는다는 뜻풀이를 부모의 뜻을 따르는 데 초점이 있다는 말로 다시 설명합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 새로운 유형 시작",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "無違를 부모를 섬길 때 매사에 순종하여 거스르지 않는다는 뜻으로 풉니다. 효도의 초점을 부모의 뜻을 따르는 데 둔 것입니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_9"
     },
     {
       "book": 2,
@@ -872,9 +886,9 @@
     "selector": "article.card details.st3 .js .side > p"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_8",
+    "pass": "targeted_type_9",
     "scanned": 50,
-    "approved_applied": 2,
+    "approved_applied": 1,
     "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
   }
 }

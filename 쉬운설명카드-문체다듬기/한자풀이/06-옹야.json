@@ -1672,8 +1672,8 @@
       "key": "ly-06-25:語:5",
       "label": "君子군자",
       "original": "이 장의 군자는 넓은 지식과 절제된 실천을 함께 갖춘 사람입니다. 지적 폭넓음과 생활의 규범을 서로 떼지 않는 공부의 모습을 보여줍니다.",
-      "reason": "‘지적 폭넓음’을 배움과 생활의 행동으로 풀기",
-      "revised": "이 장의 군자는 넓은 지식과 절제된 실천을 함께 갖춘 사람입니다. 폭넓게 아는 것과 생활에서 규범을 지키는 것을 함께 강조합니다.",
+      "reason": "넓은 지식과 절제된 실천을 함께 갖춘다는 앞 문장을 거의 그대로 반복하고 있어 덜어냅니다.",
+      "revised": "이 장의 군자는 넓은 지식과 절제된 실천을 함께 갖춘 사람입니다.",
       "scope": "語",
       "revision_history": [
         {
@@ -1684,11 +1684,20 @@
           "approval_status": "approved",
           "approval_message": "굿 수정, 수정후 다음 시작",
           "date": "2026-09-08"
+        },
+        {
+          "pass": "targeted_type_9",
+          "previous_revision": "이 장의 군자는 넓은 지식과 절제된 실천을 함께 갖춘 사람입니다. 폭넓게 아는 것과 생활에서 규범을 지키는 것을 함께 강조합니다.",
+          "revised": "이 장의 군자는 넓은 지식과 절제된 실천을 함께 갖춘 사람입니다.",
+          "reason": "넓은 지식과 절제된 실천을 함께 갖춘다는 앞 문장을 거의 그대로 반복하고 있어 덜어냅니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 새로운 유형 시작",
+          "date": "2026-09-08"
         }
       ],
-      "previous_revision": "이 장의 군자는 넓은 지식과 절제된 실천을 함께 갖춘 사람입니다. 지적 폭넓음과 생활의 규범을 서로 떼지 않는 공부의 모습을 보여줍니다.",
+      "previous_revision": "이 장의 군자는 넓은 지식과 절제된 실천을 함께 갖춘 사람입니다. 폭넓게 아는 것과 생활에서 규범을 지키는 것을 함께 강조합니다.",
       "approval_status": "approved",
-      "last_revision_pass": "targeted_type_1"
+      "last_revision_pass": "targeted_type_9"
     },
     {
       "book": 6,
@@ -1891,9 +1900,9 @@
     "selector": "article.card details.st1 .w > p:not(.wh)"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_7",
+    "pass": "targeted_type_9",
     "scanned": 137,
-    "approved_applied": 2,
+    "approved_applied": 1,
     "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
   }
 }

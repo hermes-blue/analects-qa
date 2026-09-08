@@ -1690,15 +1690,29 @@
     },
     {
       "book": 13,
-      "changed": false,
+      "changed": true,
       "id": "ly-13-30",
       "index": 3,
       "key": "ly-13-30:語:3",
       "label": "教교",
       "original": "여기서는 도덕적 질서와 실제 군사 준비를 함께 포함하는 넓은 의미로 볼 수 있습니다. 사람을 충분히 준비시키는 과정이 핵심입니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "여기서는 도덕적 질서와 실제 군사 준비를 함께 포함하는 넓은 의미로 볼 수 있습니다. 사람을 충분히 준비시키는 과정이 핵심입니다.",
-      "scope": "語"
+      "reason": "앞에서 교육과 군사 준비를 설명한 뒤, 사람을 준비시키는 과정이 핵심이라고 포괄적으로 되풀이합니다.",
+      "revised": "여기서는 도덕적 질서와 실제 군사 준비를 함께 포함하는 넓은 의미로 볼 수 있습니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_9",
+          "previous_revision": "여기서는 도덕적 질서와 실제 군사 준비를 함께 포함하는 넓은 의미로 볼 수 있습니다. 사람을 충분히 준비시키는 과정이 핵심입니다.",
+          "revised": "여기서는 도덕적 질서와 실제 군사 준비를 함께 포함하는 넓은 의미로 볼 수 있습니다.",
+          "reason": "앞에서 교육과 군사 준비를 설명한 뒤, 사람을 준비시키는 과정이 핵심이라고 포괄적으로 되풀이합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 새로운 유형 시작",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "여기서는 도덕적 질서와 실제 군사 준비를 함께 포함하는 넓은 의미로 볼 수 있습니다. 사람을 충분히 준비시키는 과정이 핵심입니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_9"
     },
     {
       "book": 13,
@@ -1733,9 +1747,9 @@
     "selector": "article.card details.st1 .w > p:not(.wh)"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_7",
+    "pass": "targeted_type_9",
     "scanned": 127,
-    "approved_applied": 2,
+    "approved_applied": 1,
     "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
   }
 }

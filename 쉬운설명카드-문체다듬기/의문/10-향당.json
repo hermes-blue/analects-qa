@@ -1351,16 +1351,30 @@
     },
     {
       "book": 10,
-      "changed": false,
+      "changed": true,
       "field": "답변",
       "id": "ly-10-12",
       "index": 3,
       "key": "ly-10-12:問:3:a",
       "label": "답변",
       "original": "仁을 추상적으로 정의하지 않고 사고가 난 순간 누구를 먼저 걱정했는지로 보여 주기 때문입니다. 위급한 상황에서 사람을 우선하는 선택이 덕의 실제 모습을 드러냅니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "仁을 추상적으로 정의하지 않고 사고가 난 순간 누구를 먼저 걱정했는지로 보여 주기 때문입니다. 위급한 상황에서 사람을 우선하는 선택이 덕의 실제 모습을 드러냅니다.",
-      "scope": "問"
+      "reason": "사고 순간 사람을 먼저 걱정하는 행동으로 仁을 드러냈다는 설명을 위급한 선택에서 드러나는 덕으로 다시 말합니다.",
+      "revised": "仁을 추상적으로 정의하지 않고 사고가 난 순간 누구를 먼저 걱정했는지로 보여 주기 때문입니다.",
+      "scope": "問",
+      "revision_history": [
+        {
+          "pass": "targeted_type_9",
+          "previous_revision": "仁을 추상적으로 정의하지 않고 사고가 난 순간 누구를 먼저 걱정했는지로 보여 주기 때문입니다. 위급한 상황에서 사람을 우선하는 선택이 덕의 실제 모습을 드러냅니다.",
+          "revised": "仁을 추상적으로 정의하지 않고 사고가 난 순간 누구를 먼저 걱정했는지로 보여 주기 때문입니다.",
+          "reason": "사고 순간 사람을 먼저 걱정하는 행동으로 仁을 드러냈다는 설명을 위급한 선택에서 드러나는 덕으로 다시 말합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 새로운 유형 시작",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "仁을 추상적으로 정의하지 않고 사고가 난 순간 누구를 먼저 걱정했는지로 보여 주기 때문입니다. 위급한 상황에서 사람을 우선하는 선택이 덕의 실제 모습을 드러냅니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_9"
     },
     {
       "book": 10,
@@ -2315,7 +2329,7 @@
     "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_6",
+    "pass": "targeted_type_9",
     "scanned": 162,
     "approved_applied": 1,
     "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"

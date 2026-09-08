@@ -1,5 +1,5 @@
 {
-  "apply_status": "유형 7 승인안 12곳과 유형 8 승인안 99곳을 수정본 JSON에 반영. 원본 HTML 미적용.",
+  "apply_status": "유형 9 승인안 60곳을 수정본 JSON에 반영. 원본 HTML 미적용.",
   "book_count": 20,
   "card_count": 498,
   "content_review_performed": false,
@@ -412,7 +412,7 @@
     },
     {
       "book_count": 20,
-      "changed": 300,
+      "changed": 309,
       "labels_preserved": true,
       "method": "전 항목에서 문체 패턴으로 후보를 찾아 후보 문장의 문맥을 확인하는 선별 교정.",
       "name": "한자풀이",
@@ -594,7 +594,7 @@
     },
     {
       "book_count": 20,
-      "changed": 207,
+      "changed": 235,
       "labels_preserved": true,
       "method": "전 항목에서 문체 패턴으로 후보를 찾아 후보 문장의 문맥을 확인하는 선별 교정.",
       "name": "의문",
@@ -776,7 +776,7 @@
     },
     {
       "book_count": 20,
-      "changed": 180,
+      "changed": 187,
       "labels_preserved": true,
       "method": "전 항목에서 문체 패턴으로 후보를 찾아 후보 문장의 문맥을 확인하는 선별 교정.",
       "name": "쟁점",
@@ -957,20 +957,18 @@
       }
     }
   ],
-  "status": "approved_targeted_type_8_applied",
-  "total_changed_text_fields": 1053,
+  "status": "approved_targeted_type_9_applied",
+  "total_changed_text_fields": 1097,
   "last_completed_pass": {
-    "type": 8,
-    "scope": "풉니다 및 풀다 계열의 반복·부적절한 서술어",
+    "type": 9,
+    "scope": "반복 해설·상투적인 마무리",
     "status": "approved_applied",
     "scanned": 6921,
-    "keyword_matches_context_reviewed": 593,
-    "exact_phrase_text_fields": 375,
-    "exact_phrase_occurrences": 376,
-    "approved_applied": 99,
-    "retained_matches": 494,
-    "approval_message": "제이슨에 반영해",
-    "method": "전체 검색 후 일치 문구 문맥 검토. 검색 일치 수에 베풀다·되풀이하다·식물 풀 등 다른 용례 포함. 모든 문장 종합 정독 아님"
+    "keyword_matches_context_reviewed": 575,
+    "approved_applied": 60,
+    "retained_matches": 515,
+    "approval_message": "제이슨에 반영후 새로운 유형 시작",
+    "method": "전체 검색 후 후보 575개 문맥 검토. 모든 문장 종합 정독 아님"
   },
   "targeted_reviews": [
     {
@@ -2072,6 +2070,17 @@
       "retained_matches": 494,
       "approval_message": "제이슨에 반영해",
       "method": "전체 검색 후 일치 문구 문맥 검토. 검색 일치 수에 베풀다·되풀이하다·식물 풀 등 다른 용례 포함. 모든 문장 종합 정독 아님"
+    },
+    {
+      "type": 9,
+      "scope": "반복 해설·상투적인 마무리",
+      "status": "approved_applied",
+      "scanned": 6921,
+      "keyword_matches_context_reviewed": 575,
+      "approved_applied": 60,
+      "retained_matches": 515,
+      "approval_message": "제이슨에 반영후 새로운 유형 시작",
+      "method": "전체 검색 후 후보 575개 문맥 검토. 모든 문장 종합 정독 아님"
     }
   ]
 }

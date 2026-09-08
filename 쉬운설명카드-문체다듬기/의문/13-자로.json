@@ -2287,16 +2287,30 @@
     },
     {
       "book": 13,
-      "changed": false,
+      "changed": true,
       "field": "답변",
       "id": "ly-13-28",
       "index": 3,
       "key": "ly-13-28:問:3:a",
       "label": "답변",
       "original": "그렇게 읽을 수 있습니다. 친구와 형제처럼 관계의 성격이 다르면 적절한 표현과 거리도 달라집니다. 옳은 뜻도 관계에 맞는 방식으로 전해야 한다는 점을 보여 줍니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "그렇게 읽을 수 있습니다. 친구와 형제처럼 관계의 성격이 다르면 적절한 표현과 거리도 달라집니다. 옳은 뜻도 관계에 맞는 방식으로 전해야 한다는 점을 보여 줍니다.",
-      "scope": "問"
+      "reason": "관계마다 적절한 표현과 거리가 다르다는 설명을 관계에 맞게 뜻을 전하라는 말로 되풀이합니다.",
+      "revised": "그렇게 읽을 수 있습니다. 친구와 형제처럼 관계의 성격이 다르면 적절한 표현과 거리도 달라집니다.",
+      "scope": "問",
+      "revision_history": [
+        {
+          "pass": "targeted_type_9",
+          "previous_revision": "그렇게 읽을 수 있습니다. 친구와 형제처럼 관계의 성격이 다르면 적절한 표현과 거리도 달라집니다. 옳은 뜻도 관계에 맞는 방식으로 전해야 한다는 점을 보여 줍니다.",
+          "revised": "그렇게 읽을 수 있습니다. 친구와 형제처럼 관계의 성격이 다르면 적절한 표현과 거리도 달라집니다.",
+          "reason": "관계마다 적절한 표현과 거리가 다르다는 설명을 관계에 맞게 뜻을 전하라는 말로 되풀이합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 새로운 유형 시작",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "그렇게 읽을 수 있습니다. 친구와 형제처럼 관계의 성격이 다르면 적절한 표현과 거리도 달라집니다. 옳은 뜻도 관계에 맞는 방식으로 전해야 한다는 점을 보여 줍니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_9"
     },
     {
       "book": 13,
@@ -2512,9 +2526,9 @@
     "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_4",
-    "reviewed": 180,
+    "pass": "targeted_type_9",
+    "scanned": 180,
     "approved_applied": 1,
-    "status": "approved_applied"
+    "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
   }
 }

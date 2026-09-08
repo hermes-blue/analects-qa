@@ -52,15 +52,29 @@
     },
     {
       "book": 9,
-      "changed": false,
+      "changed": true,
       "id": "ly-09-01",
       "index": 5,
       "key": "ly-09-01:語:5",
       "label": "與여",
       "original": "이 문장의 與를 어떻게 연결하느냐에 따라 문법 해석이 달라질 수 있습니다. 전통적으로는 利·命·仁을 함께 묶어 읽지만, 구두와 해석에 여러 견해가 있음을 기억할 필요가 있습니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "이 문장의 與를 어떻게 연결하느냐에 따라 문법 해석이 달라질 수 있습니다. 전통적으로는 利·命·仁을 함께 묶어 읽지만, 구두와 해석에 여러 견해가 있음을 기억할 필요가 있습니다.",
-      "scope": "語"
+      "reason": "여러 견해가 있다는 정보는 유지하고, 독자에게 기억하라고 당부하는 말만 덜어냅니다.",
+      "revised": "이 문장의 與를 어떻게 연결하느냐에 따라 문법 해석이 달라질 수 있습니다. 전통적으로는 利·命·仁을 함께 묶어 읽지만, 구두와 해석에는 여러 견해가 있습니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_9",
+          "previous_revision": "이 문장의 與를 어떻게 연결하느냐에 따라 문법 해석이 달라질 수 있습니다. 전통적으로는 利·命·仁을 함께 묶어 읽지만, 구두와 해석에 여러 견해가 있음을 기억할 필요가 있습니다.",
+          "revised": "이 문장의 與를 어떻게 연결하느냐에 따라 문법 해석이 달라질 수 있습니다. 전통적으로는 利·命·仁을 함께 묶어 읽지만, 구두와 해석에는 여러 견해가 있습니다.",
+          "reason": "여러 견해가 있다는 정보는 유지하고, 독자에게 기억하라고 당부하는 말만 덜어냅니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 새로운 유형 시작",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "이 문장의 與를 어떻게 연결하느냐에 따라 문법 해석이 달라질 수 있습니다. 전통적으로는 利·命·仁을 함께 묶어 읽지만, 구두와 해석에 여러 견해가 있음을 기억할 필요가 있습니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_9"
     },
     {
       "book": 9,
@@ -1943,9 +1957,9 @@
     "selector": "article.card details.st1 .w > p:not(.wh)"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_6",
+    "pass": "targeted_type_9",
     "scanned": 146,
-    "approved_applied": 2,
+    "approved_applied": 1,
     "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
   }
 }

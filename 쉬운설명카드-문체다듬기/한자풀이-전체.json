@@ -2,12 +2,12 @@
   "schema_version": "1.1",
   "scope": "語",
   "scope_name": "한자풀이",
-  "status": "approved_targeted_type_8_applied",
-  "method": "전체 최신 revised 6,921개에서 풀다 계열을 넓게 검색하고 593개 문구의 문맥을 검토한 뒤 승인된 99곳만 반영. 다른 용례인 베풀다·되풀이하다·식물 풀도 검색 일치 수에 포함. 내용·해석 검수는 하지 않음.",
+  "status": "approved_targeted_type_9_applied",
+  "method": "전체 revised 6,921개 검색 후 반복 해설·상투적인 마무리 후보 575개 문맥 검토, 승인된 60곳 반영.",
   "count_unit": "텍스트 필드: 한자 풀이 1개, 질문 또는 답변 1개, 쟁점의 견해 설명 1개",
   "total": 2311,
-  "changed": 300,
-  "unchanged": 2011,
+  "changed": 309,
+  "unchanged": 2002,
   "card_count": 498,
   "book_count": 20,
   "content_review_performed": false,
@@ -30,15 +30,29 @@
         },
         {
           "book": 1,
-          "changed": false,
+          "changed": true,
           "id": "ly-01-01",
           "index": 2,
           "key": "ly-01-01:語:2",
           "label": "時習시습",
           "original": "時習은 단순히 ‘가끔 복습한다’는 말보다, 배운 것을 때에 맞게 되풀이해 몸에 익힌다는 뜻으로 읽습니다. 배움이 머릿속 지식에 머물지 않는다는 점이 중요합니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "時習은 단순히 ‘가끔 복습한다’는 말보다, 배운 것을 때에 맞게 되풀이해 몸에 익힌다는 뜻으로 읽습니다. 배움이 머릿속 지식에 머물지 않는다는 점이 중요합니다.",
-          "scope": "語"
+          "reason": "앞에서 이미 배운 것을 되풀이해 몸에 익힌다고 설명했습니다. 지식에 머물지 않는다는 재요약을 덜어냅니다.",
+          "revised": "時習은 단순히 ‘가끔 복습한다’는 말보다, 배운 것을 때에 맞게 되풀이해 몸에 익힌다는 뜻으로 읽습니다.",
+          "scope": "語",
+          "revision_history": [
+            {
+              "pass": "targeted_type_9",
+              "previous_revision": "時習은 단순히 ‘가끔 복습한다’는 말보다, 배운 것을 때에 맞게 되풀이해 몸에 익힌다는 뜻으로 읽습니다. 배움이 머릿속 지식에 머물지 않는다는 점이 중요합니다.",
+              "revised": "時習은 단순히 ‘가끔 복습한다’는 말보다, 배운 것을 때에 맞게 되풀이해 몸에 익힌다는 뜻으로 읽습니다.",
+              "reason": "앞에서 이미 배운 것을 되풀이해 몸에 익힌다고 설명했습니다. 지식에 머물지 않는다는 재요약을 덜어냅니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨에 반영후 새로운 유형 시작",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "時習은 단순히 ‘가끔 복습한다’는 말보다, 배운 것을 때에 맞게 되풀이해 몸에 익힌다는 뜻으로 읽습니다. 배움이 머릿속 지식에 머물지 않는다는 점이 중요합니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_9"
         },
         {
           "book": 1,
@@ -80,15 +94,29 @@
         },
         {
           "book": 1,
-          "changed": false,
+          "changed": true,
           "id": "ly-01-01",
           "index": 5,
           "key": "ly-01-01:語:5",
           "label": "君子군자",
           "original": "여기서는 높은 신분을 뜻하기보다, 남의 평가와 관계없이 자기 배움을 지켜 가는 사람을 가리킵니다. 그래서 1장의 마지막에서 배움이 도달해야 할 인간상을 보여줍니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "여기서는 높은 신분을 뜻하기보다, 남의 평가와 관계없이 자기 배움을 지켜 가는 사람을 가리킵니다. 그래서 1장의 마지막에서 배움이 도달해야 할 인간상을 보여줍니다.",
-          "scope": "語"
+          "reason": "군자가 어떤 사람인지 앞 문장에 설명돼 있습니다. 배움이 도달할 인간상을 보여 준다는 포괄적인 마무리를 덜어냅니다.",
+          "revised": "여기서는 높은 신분을 뜻하기보다, 남의 평가와 관계없이 자기 배움을 지켜 가는 사람을 가리킵니다.",
+          "scope": "語",
+          "revision_history": [
+            {
+              "pass": "targeted_type_9",
+              "previous_revision": "여기서는 높은 신분을 뜻하기보다, 남의 평가와 관계없이 자기 배움을 지켜 가는 사람을 가리킵니다. 그래서 1장의 마지막에서 배움이 도달해야 할 인간상을 보여줍니다.",
+              "revised": "여기서는 높은 신분을 뜻하기보다, 남의 평가와 관계없이 자기 배움을 지켜 가는 사람을 가리킵니다.",
+              "reason": "군자가 어떤 사람인지 앞 문장에 설명돼 있습니다. 배움이 도달할 인간상을 보여 준다는 포괄적인 마무리를 덜어냅니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨에 반영후 새로운 유형 시작",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "여기서는 높은 신분을 뜻하기보다, 남의 평가와 관계없이 자기 배움을 지켜 가는 사람을 가리킵니다. 그래서 1장의 마지막에서 배움이 도달해야 할 인간상을 보여줍니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_9"
         },
         {
           "book": 1,
@@ -698,15 +726,29 @@
         },
         {
           "book": 1,
-          "changed": false,
+          "changed": true,
           "id": "ly-01-10",
           "index": 5,
           "key": "ly-01-10:語:5",
           "label": "異乎人之求이호인지구",
           "original": "공자님도 결국 정보를 얻지만 그 과정은 보통 사람의 ‘요구’와 다르다는 말입니다. 목적만 같다고 행동 방식까지 같은 것은 아니라는 점을 강조합니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "공자님도 결국 정보를 얻지만 그 과정은 보통 사람의 ‘요구’와 다르다는 말입니다. 목적만 같다고 행동 방식까지 같은 것은 아니라는 점을 강조합니다.",
-          "scope": "語"
+          "reason": "같은 정보를 얻어도 과정이 다르다는 앞 문장을 목적과 방식이라는 추상어로 다시 말하고 있어 덜어냅니다.",
+          "revised": "공자님도 결국 정보를 얻지만 그 과정은 보통 사람의 ‘요구’와 다르다는 말입니다.",
+          "scope": "語",
+          "revision_history": [
+            {
+              "pass": "targeted_type_9",
+              "previous_revision": "공자님도 결국 정보를 얻지만 그 과정은 보통 사람의 ‘요구’와 다르다는 말입니다. 목적만 같다고 행동 방식까지 같은 것은 아니라는 점을 강조합니다.",
+              "revised": "공자님도 결국 정보를 얻지만 그 과정은 보통 사람의 ‘요구’와 다르다는 말입니다.",
+              "reason": "같은 정보를 얻어도 과정이 다르다는 앞 문장을 목적과 방식이라는 추상어로 다시 말하고 있어 덜어냅니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨에 반영후 새로운 유형 시작",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "공자님도 결국 정보를 얻지만 그 과정은 보통 사람의 ‘요구’와 다르다는 말입니다. 목적만 같다고 행동 방식까지 같은 것은 아니라는 점을 강조합니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_9"
         },
         {
           "book": 1,
@@ -1121,9 +1163,9 @@
         "selector": "article.card details.st1 .w > p:not(.wh)"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_7",
+        "pass": "targeted_type_9",
         "scanned": 74,
-        "approved_applied": 2,
+        "approved_applied": 3,
         "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
       }
     },
@@ -9749,8 +9791,8 @@
           "key": "ly-06-25:語:5",
           "label": "君子군자",
           "original": "이 장의 군자는 넓은 지식과 절제된 실천을 함께 갖춘 사람입니다. 지적 폭넓음과 생활의 규범을 서로 떼지 않는 공부의 모습을 보여줍니다.",
-          "reason": "‘지적 폭넓음’을 배움과 생활의 행동으로 풀기",
-          "revised": "이 장의 군자는 넓은 지식과 절제된 실천을 함께 갖춘 사람입니다. 폭넓게 아는 것과 생활에서 규범을 지키는 것을 함께 강조합니다.",
+          "reason": "넓은 지식과 절제된 실천을 함께 갖춘다는 앞 문장을 거의 그대로 반복하고 있어 덜어냅니다.",
+          "revised": "이 장의 군자는 넓은 지식과 절제된 실천을 함께 갖춘 사람입니다.",
           "scope": "語",
           "revision_history": [
             {
@@ -9761,11 +9803,20 @@
               "approval_status": "approved",
               "approval_message": "굿 수정, 수정후 다음 시작",
               "date": "2026-09-08"
+            },
+            {
+              "pass": "targeted_type_9",
+              "previous_revision": "이 장의 군자는 넓은 지식과 절제된 실천을 함께 갖춘 사람입니다. 폭넓게 아는 것과 생활에서 규범을 지키는 것을 함께 강조합니다.",
+              "revised": "이 장의 군자는 넓은 지식과 절제된 실천을 함께 갖춘 사람입니다.",
+              "reason": "넓은 지식과 절제된 실천을 함께 갖춘다는 앞 문장을 거의 그대로 반복하고 있어 덜어냅니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨에 반영후 새로운 유형 시작",
+              "date": "2026-09-08"
             }
           ],
-          "previous_revision": "이 장의 군자는 넓은 지식과 절제된 실천을 함께 갖춘 사람입니다. 지적 폭넓음과 생활의 규범을 서로 떼지 않는 공부의 모습을 보여줍니다.",
+          "previous_revision": "이 장의 군자는 넓은 지식과 절제된 실천을 함께 갖춘 사람입니다. 폭넓게 아는 것과 생활에서 규범을 지키는 것을 함께 강조합니다.",
           "approval_status": "approved",
-          "last_revision_pass": "targeted_type_1"
+          "last_revision_pass": "targeted_type_9"
         },
         {
           "book": 6,
@@ -9968,9 +10019,9 @@
         "selector": "article.card details.st1 .w > p:not(.wh)"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_7",
+        "pass": "targeted_type_9",
         "scanned": 137,
-        "approved_applied": 2,
+        "approved_applied": 1,
         "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
       }
     },
@@ -10382,15 +10433,29 @@
         },
         {
           "book": 7,
-          "changed": false,
+          "changed": true,
           "id": "ly-07-07",
           "index": 2,
           "key": "ly-07-07:語:2",
           "label": "自行자행",
           "original": "스스로 가져와 행한다는 뜻으로, 누가 억지로 끌고 온 사람이 아니라 배우려는 뜻을 스스로 보인 사람이라는 점이 중요합니다. 공자님의 교육이 학습자의 자발성을 전제로 했음을 드러냅니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "스스로 가져와 행한다는 뜻으로, 누가 억지로 끌고 온 사람이 아니라 배우려는 뜻을 스스로 보인 사람이라는 점이 중요합니다. 공자님의 교육이 학습자의 자발성을 전제로 했음을 드러냅니다.",
-          "scope": "語"
+          "reason": "배우려는 뜻을 스스로 보였다는 설명에 학습자의 자발성이라는 이름을 다시 붙인 문장입니다.",
+          "revised": "스스로 가져와 행한다는 뜻으로, 누가 억지로 끌고 온 사람이 아니라 배우려는 뜻을 스스로 보인 사람이라는 점이 중요합니다.",
+          "scope": "語",
+          "revision_history": [
+            {
+              "pass": "targeted_type_9",
+              "previous_revision": "스스로 가져와 행한다는 뜻으로, 누가 억지로 끌고 온 사람이 아니라 배우려는 뜻을 스스로 보인 사람이라는 점이 중요합니다. 공자님의 교육이 학습자의 자발성을 전제로 했음을 드러냅니다.",
+              "revised": "스스로 가져와 행한다는 뜻으로, 누가 억지로 끌고 온 사람이 아니라 배우려는 뜻을 스스로 보인 사람이라는 점이 중요합니다.",
+              "reason": "배우려는 뜻을 스스로 보였다는 설명에 학습자의 자발성이라는 이름을 다시 붙인 문장입니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨에 반영후 새로운 유형 시작",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "스스로 가져와 행한다는 뜻으로, 누가 억지로 끌고 온 사람이 아니라 배우려는 뜻을 스스로 보인 사람이라는 점이 중요합니다. 공자님의 교육이 학습자의 자발성을 전제로 했음을 드러냅니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_9"
         },
         {
           "book": 7,
@@ -10498,8 +10563,8 @@
           "key": "ly-07-09:語:1",
           "label": "有喪者유상자",
           "original": "상을 당한 사람을 가리킵니다. 이 장은 장례 절차보다 슬픔을 겪는 사람 곁에서 어떻게 행동해야 하는지를 보여 주며, 예가 상대의 처지를 헤아리는 태도와 연결됨을 보여 줍니다.",
-          "reason": "보여 준다는 말을 반복하며 해설하는 구조를 직접 설명으로 바꿉니다.",
-          "revised": "상을 당한 사람을 가리킵니다. 장례 절차보다 슬픔을 겪는 사람 곁에서 어떻게 행동해야 하는지가 중요합니다. 예는 상대의 처지를 헤아리는 태도와 연결됩니다.",
+          "reason": "슬픔을 겪는 사람 곁에서의 행동을 설명한 뒤 상대의 처지를 헤아리는 태도로 다시 요약합니다. 앞의 구체적 설명을 유지합니다.",
+          "revised": "상을 당한 사람을 가리킵니다. 장례 절차보다 슬픔을 겪는 사람 곁에서 어떻게 행동해야 하는지가 중요합니다.",
           "scope": "語",
           "revision_history": [
             {
@@ -10510,11 +10575,20 @@
               "approval_status": "approved",
               "approval_message": "수정후보 제이슨에 반영",
               "date": "2026-09-08"
+            },
+            {
+              "pass": "targeted_type_9",
+              "previous_revision": "상을 당한 사람을 가리킵니다. 장례 절차보다 슬픔을 겪는 사람 곁에서 어떻게 행동해야 하는지가 중요합니다. 예는 상대의 처지를 헤아리는 태도와 연결됩니다.",
+              "revised": "상을 당한 사람을 가리킵니다. 장례 절차보다 슬픔을 겪는 사람 곁에서 어떻게 행동해야 하는지가 중요합니다.",
+              "reason": "슬픔을 겪는 사람 곁에서의 행동을 설명한 뒤 상대의 처지를 헤아리는 태도로 다시 요약합니다. 앞의 구체적 설명을 유지합니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨에 반영후 새로운 유형 시작",
+              "date": "2026-09-08"
             }
           ],
-          "previous_revision": "상을 당한 사람을 가리킵니다. 이 장은 장례 절차보다 슬픔을 겪는 사람 곁에서 어떻게 행동해야 하는지를 보여 주며, 예가 상대의 처지를 헤아리는 태도와 연결됨을 보여 줍니다.",
+          "previous_revision": "상을 당한 사람을 가리킵니다. 장례 절차보다 슬픔을 겪는 사람 곁에서 어떻게 행동해야 하는지가 중요합니다. 예는 상대의 처지를 헤아리는 태도와 연결됩니다.",
           "approval_status": "approved",
-          "last_revision_pass": "targeted_type_3"
+          "last_revision_pass": "targeted_type_9"
         },
         {
           "book": 7,
@@ -12284,9 +12358,9 @@
         "selector": "article.card details.st1 .w > p:not(.wh)"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_7",
+        "pass": "targeted_type_9",
         "scanned": 171,
-        "approved_applied": 1,
+        "approved_applied": 2,
         "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
       }
     },
@@ -13663,15 +13737,29 @@
         },
         {
           "book": 9,
-          "changed": false,
+          "changed": true,
           "id": "ly-09-01",
           "index": 5,
           "key": "ly-09-01:語:5",
           "label": "與여",
           "original": "이 문장의 與를 어떻게 연결하느냐에 따라 문법 해석이 달라질 수 있습니다. 전통적으로는 利·命·仁을 함께 묶어 읽지만, 구두와 해석에 여러 견해가 있음을 기억할 필요가 있습니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "이 문장의 與를 어떻게 연결하느냐에 따라 문법 해석이 달라질 수 있습니다. 전통적으로는 利·命·仁을 함께 묶어 읽지만, 구두와 해석에 여러 견해가 있음을 기억할 필요가 있습니다.",
-          "scope": "語"
+          "reason": "여러 견해가 있다는 정보는 유지하고, 독자에게 기억하라고 당부하는 말만 덜어냅니다.",
+          "revised": "이 문장의 與를 어떻게 연결하느냐에 따라 문법 해석이 달라질 수 있습니다. 전통적으로는 利·命·仁을 함께 묶어 읽지만, 구두와 해석에는 여러 견해가 있습니다.",
+          "scope": "語",
+          "revision_history": [
+            {
+              "pass": "targeted_type_9",
+              "previous_revision": "이 문장의 與를 어떻게 연결하느냐에 따라 문법 해석이 달라질 수 있습니다. 전통적으로는 利·命·仁을 함께 묶어 읽지만, 구두와 해석에 여러 견해가 있음을 기억할 필요가 있습니다.",
+              "revised": "이 문장의 與를 어떻게 연결하느냐에 따라 문법 해석이 달라질 수 있습니다. 전통적으로는 利·命·仁을 함께 묶어 읽지만, 구두와 해석에는 여러 견해가 있습니다.",
+              "reason": "여러 견해가 있다는 정보는 유지하고, 독자에게 기억하라고 당부하는 말만 덜어냅니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨에 반영후 새로운 유형 시작",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "이 문장의 與를 어떻게 연결하느냐에 따라 문법 해석이 달라질 수 있습니다. 전통적으로는 利·命·仁을 함께 묶어 읽지만, 구두와 해석에 여러 견해가 있음을 기억할 필요가 있습니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_9"
         },
         {
           "book": 9,
@@ -15554,9 +15642,9 @@
         "selector": "article.card details.st1 .w > p:not(.wh)"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_6",
+        "pass": "targeted_type_9",
         "scanned": 146,
-        "approved_applied": 2,
+        "approved_applied": 1,
         "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
       }
     },
@@ -21949,15 +22037,29 @@
         },
         {
           "book": 13,
-          "changed": false,
+          "changed": true,
           "id": "ly-13-30",
           "index": 3,
           "key": "ly-13-30:語:3",
           "label": "教교",
           "original": "여기서는 도덕적 질서와 실제 군사 준비를 함께 포함하는 넓은 의미로 볼 수 있습니다. 사람을 충분히 준비시키는 과정이 핵심입니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "여기서는 도덕적 질서와 실제 군사 준비를 함께 포함하는 넓은 의미로 볼 수 있습니다. 사람을 충분히 준비시키는 과정이 핵심입니다.",
-          "scope": "語"
+          "reason": "앞에서 교육과 군사 준비를 설명한 뒤, 사람을 준비시키는 과정이 핵심이라고 포괄적으로 되풀이합니다.",
+          "revised": "여기서는 도덕적 질서와 실제 군사 준비를 함께 포함하는 넓은 의미로 볼 수 있습니다.",
+          "scope": "語",
+          "revision_history": [
+            {
+              "pass": "targeted_type_9",
+              "previous_revision": "여기서는 도덕적 질서와 실제 군사 준비를 함께 포함하는 넓은 의미로 볼 수 있습니다. 사람을 충분히 준비시키는 과정이 핵심입니다.",
+              "revised": "여기서는 도덕적 질서와 실제 군사 준비를 함께 포함하는 넓은 의미로 볼 수 있습니다.",
+              "reason": "앞에서 교육과 군사 준비를 설명한 뒤, 사람을 준비시키는 과정이 핵심이라고 포괄적으로 되풀이합니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨에 반영후 새로운 유형 시작",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "여기서는 도덕적 질서와 실제 군사 준비를 함께 포함하는 넓은 의미로 볼 수 있습니다. 사람을 충분히 준비시키는 과정이 핵심입니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_9"
         },
         {
           "book": 13,
@@ -21992,9 +22094,9 @@
         "selector": "article.card details.st1 .w > p:not(.wh)"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_7",
+        "pass": "targeted_type_9",
         "scanned": 127,
-        "approved_applied": 2,
+        "approved_applied": 1,
         "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
       }
     },
@@ -24669,15 +24771,29 @@
         },
         {
           "book": 15,
-          "changed": false,
+          "changed": true,
           "id": "ly-15-02",
           "index": 3,
           "key": "ly-15-02:語:3",
           "label": "一일",
           "original": "여러 지식을 관통하는 하나의 중심을 뜻합니다. 무엇을 가리키는지는 주석 전통에서 설명이 다양하지만, 흩어진 배움이 하나의 도리로 연결된다는 점이 핵심입니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "여러 지식을 관통하는 하나의 중심을 뜻합니다. 무엇을 가리키는지는 주석 전통에서 설명이 다양하지만, 흩어진 배움이 하나의 도리로 연결된다는 점이 핵심입니다.",
-          "scope": "語"
+          "reason": "첫 문장의 하나의 중심을 끝에서 다시 강조한 부분만 덜고, 주석마다 설명이 다르다는 정보는 유지합니다.",
+          "revised": "여러 지식을 관통하는 하나의 중심을 뜻합니다. 무엇을 가리키는지에 대해서는 주석 전통에서 설명이 다양합니다.",
+          "scope": "語",
+          "revision_history": [
+            {
+              "pass": "targeted_type_9",
+              "previous_revision": "여러 지식을 관통하는 하나의 중심을 뜻합니다. 무엇을 가리키는지는 주석 전통에서 설명이 다양하지만, 흩어진 배움이 하나의 도리로 연결된다는 점이 핵심입니다.",
+              "revised": "여러 지식을 관통하는 하나의 중심을 뜻합니다. 무엇을 가리키는지에 대해서는 주석 전통에서 설명이 다양합니다.",
+              "reason": "첫 문장의 하나의 중심을 끝에서 다시 강조한 부분만 덜고, 주석마다 설명이 다르다는 정보는 유지합니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨에 반영후 새로운 유형 시작",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "여러 지식을 관통하는 하나의 중심을 뜻합니다. 무엇을 가리키는지는 주석 전통에서 설명이 다양하지만, 흩어진 배움이 하나의 도리로 연결된다는 점이 핵심입니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_9"
         },
         {
           "book": 15,
@@ -26096,8 +26212,8 @@
           "key": "ly-15-28:語:4",
           "label": "人인",
           "original": "이 장에서는 道의 수동적 수혜자가 아니라 그것을 실제로 구현하는 주체로 강조됩니다. 실천의 책임이 사람에게 있다는 뜻입니다.",
-          "reason": "번역투 명사 표현과 피동문을 사람의 행동으로 풀어 씀",
-          "revised": "이 장에서는 사람이 道의 혜택을 받기만 하는 것이 아니라 직접 실천해야 한다고 강조합니다. 그 책임이 사람에게 있다는 뜻입니다.",
+          "reason": "사람이 직접 실천해야 한다는 앞 문장을 그 책임이 사람에게 있다는 말로 다시 해설합니다.",
+          "revised": "이 장에서는 사람이 道의 혜택을 받기만 하는 것이 아니라 직접 실천해야 한다고 강조합니다.",
           "scope": "語",
           "revision_history": [
             {
@@ -26108,11 +26224,20 @@
               "approval_status": "approved",
               "approval_message": "제이슨에 반영",
               "date": "2026-09-08"
+            },
+            {
+              "pass": "targeted_type_9",
+              "previous_revision": "이 장에서는 사람이 道의 혜택을 받기만 하는 것이 아니라 직접 실천해야 한다고 강조합니다. 그 책임이 사람에게 있다는 뜻입니다.",
+              "revised": "이 장에서는 사람이 道의 혜택을 받기만 하는 것이 아니라 직접 실천해야 한다고 강조합니다.",
+              "reason": "사람이 직접 실천해야 한다는 앞 문장을 그 책임이 사람에게 있다는 말로 다시 해설합니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨에 반영후 새로운 유형 시작",
+              "date": "2026-09-08"
             }
           ],
-          "previous_revision": "이 장에서는 道의 수동적 수혜자가 아니라 그것을 실제로 구현하는 주체로 강조됩니다. 실천의 책임이 사람에게 있다는 뜻입니다.",
+          "previous_revision": "이 장에서는 사람이 道의 혜택을 받기만 하는 것이 아니라 직접 실천해야 한다고 강조합니다. 그 책임이 사람에게 있다는 뜻입니다.",
           "approval_status": "approved",
-          "last_revision_pass": "targeted_type_4"
+          "last_revision_pass": "targeted_type_9"
         },
         {
           "book": 15,
@@ -26789,9 +26914,9 @@
         "selector": "article.card details.st1 .w > p:not(.wh)"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_6",
+        "pass": "targeted_type_9",
         "scanned": 165,
-        "approved_applied": 3,
+        "approved_applied": 2,
         "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
       }
     },
@@ -29157,15 +29282,29 @@
         },
         {
           "book": 17,
-          "changed": false,
+          "changed": true,
           "id": "ly-17-23",
           "index": 4,
           "key": "ly-17-23:語:4",
           "label": "有勇無義爲盜유용무의위도",
           "original": "힘과 담력은 있지만 義가 없으면 그 힘이 남의 것을 빼앗는 데 쓰일 수 있다는 뜻입니다. 용기의 도덕적 방향이 중요합니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "힘과 담력은 있지만 義가 없으면 그 힘이 남의 것을 빼앗는 데 쓰일 수 있다는 뜻입니다. 용기의 도덕적 방향이 중요합니다.",
-          "scope": "語"
+          "reason": "義 없는 용기가 남의 것을 빼앗는 데 쓰일 수 있다는 앞 설명 뒤에 붙은 추상적인 재요약입니다.",
+          "revised": "힘과 담력은 있지만 義가 없으면 그 힘이 남의 것을 빼앗는 데 쓰일 수 있다는 뜻입니다.",
+          "scope": "語",
+          "revision_history": [
+            {
+              "pass": "targeted_type_9",
+              "previous_revision": "힘과 담력은 있지만 義가 없으면 그 힘이 남의 것을 빼앗는 데 쓰일 수 있다는 뜻입니다. 용기의 도덕적 방향이 중요합니다.",
+              "revised": "힘과 담력은 있지만 義가 없으면 그 힘이 남의 것을 빼앗는 데 쓰일 수 있다는 뜻입니다.",
+              "reason": "義 없는 용기가 남의 것을 빼앗는 데 쓰일 수 있다는 앞 설명 뒤에 붙은 추상적인 재요약입니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨에 반영후 새로운 유형 시작",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "힘과 담력은 있지만 義가 없으면 그 힘이 남의 것을 빼앗는 데 쓰일 수 있다는 뜻입니다. 용기의 도덕적 방향이 중요합니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_9"
         },
         {
           "book": 17,
@@ -29370,7 +29509,7 @@
         "selector": "article.card details.st1 .w > p:not(.wh)"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_8",
+        "pass": "targeted_type_9",
         "scanned": 118,
         "approved_applied": 1,
         "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
@@ -30709,15 +30848,29 @@
         },
         {
           "book": 19,
-          "changed": false,
+          "changed": true,
           "id": "ly-19-09",
           "index": 5,
           "key": "ly-19-09:語:5",
           "label": "儼溫厲엄온려",
           "original": "엄숙함·온화함·엄정함이 함께 있는 군자의 모습입니다. 한 가지 성격으로 단순화할 수 없는 성숙한 인격의 균형을 보여 줍니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "엄숙함·온화함·엄정함이 함께 있는 군자의 모습입니다. 한 가지 성격으로 단순화할 수 없는 성숙한 인격의 균형을 보여 줍니다.",
-          "scope": "語"
+          "reason": "엄숙함·온화함·엄정함이 함께 있다는 설명을 성숙한 인격의 균형이라는 말로 다시 묶고 있어 덜어냅니다.",
+          "revised": "엄숙함·온화함·엄정함이 함께 있는 군자의 모습입니다.",
+          "scope": "語",
+          "revision_history": [
+            {
+              "pass": "targeted_type_9",
+              "previous_revision": "엄숙함·온화함·엄정함이 함께 있는 군자의 모습입니다. 한 가지 성격으로 단순화할 수 없는 성숙한 인격의 균형을 보여 줍니다.",
+              "revised": "엄숙함·온화함·엄정함이 함께 있는 군자의 모습입니다.",
+              "reason": "엄숙함·온화함·엄정함이 함께 있다는 설명을 성숙한 인격의 균형이라는 말로 다시 묶고 있어 덜어냅니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨에 반영후 새로운 유형 시작",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "엄숙함·온화함·엄정함이 함께 있는 군자의 모습입니다. 한 가지 성격으로 단순화할 수 없는 성숙한 인격의 균형을 보여 줍니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_9"
         },
         {
           "book": 19,
@@ -31742,7 +31895,7 @@
         "selector": "article.card details.st1 .w > p:not(.wh)"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_6",
+        "pass": "targeted_type_9",
         "scanned": 114,
         "approved_applied": 1,
         "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
@@ -32012,8 +32165,8 @@
     }
   ],
   "latest_style_pass": {
-    "pass": "targeted_type_8",
+    "pass": "targeted_type_9",
     "scanned": 2311,
-    "approved_applied": 4
+    "approved_applied": 12
   }
 }

@@ -858,17 +858,31 @@
     },
     {
       "book": 7,
-      "changed": false,
+      "changed": true,
       "heading": "‘가난하면서 사치하는 것’ vs ‘조금 갖고도 가득한 체하는 것’約而爲泰",
       "id": "ly-07-25",
       "index": 1,
       "key": "ly-07-25:說:1:1",
       "label": "형병(邢昺) 《논어주소》",
       "original": "속으로는 가난하고 궁색하면서 겉으로 사치스럽고 넉넉한 체하는 생활 태도로 풉니다. 재산과 씀씀이의 모순에 초점을 둡니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "속으로는 가난하고 궁색하면서 겉으로 사치스럽고 넉넉한 체하는 생활 태도로 풉니다. 재산과 씀씀이의 모순에 초점을 둡니다.",
+      "reason": "속은 가난하면서 겉으로 사치스럽게 보이는 태도를 재산과 씀씀이의 모순이라고 다시 묶었습니다.",
+      "revised": "속으로는 가난하고 궁색하면서 겉으로 사치스럽고 넉넉한 체하는 생활 태도로 풉니다.",
       "scope": "說",
-      "side": 1
+      "side": 1,
+      "revision_history": [
+        {
+          "pass": "targeted_type_9",
+          "previous_revision": "속으로는 가난하고 궁색하면서 겉으로 사치스럽고 넉넉한 체하는 생활 태도로 풉니다. 재산과 씀씀이의 모순에 초점을 둡니다.",
+          "revised": "속으로는 가난하고 궁색하면서 겉으로 사치스럽고 넉넉한 체하는 생활 태도로 풉니다.",
+          "reason": "속은 가난하면서 겉으로 사치스럽게 보이는 태도를 재산과 씀씀이의 모순이라고 다시 묶었습니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 새로운 유형 시작",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "속으로는 가난하고 궁색하면서 겉으로 사치스럽고 넉넉한 체하는 생활 태도로 풉니다. 재산과 씀씀이의 모순에 초점을 둡니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_9"
     },
     {
       "book": 7,
@@ -1353,9 +1367,9 @@
     "selector": "article.card details.st3 .js .side > p"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_8",
+    "pass": "targeted_type_9",
     "scanned": 79,
-    "approved_applied": 7,
+    "approved_applied": 1,
     "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
   }
 }

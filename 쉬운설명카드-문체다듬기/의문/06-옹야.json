@@ -1075,16 +1075,30 @@
     },
     {
       "book": 6,
-      "changed": false,
+      "changed": true,
       "field": "답변",
       "id": "ly-06-13",
       "index": 3,
       "key": "ly-06-13:問:3:a",
       "label": "답변",
       "original": "둘 다 드러나지만 직접 칭찬한 핵심은 공을 자랑하지 않는 겸손입니다. 어려운 일을 해낸 뒤에도 자신을 내세우지 않는 태도가 진짜 공로의 품격을 보여 준다고 본 것입니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "둘 다 드러나지만 직접 칭찬한 핵심은 공을 자랑하지 않는 겸손입니다. 어려운 일을 해낸 뒤에도 자신을 내세우지 않는 태도가 진짜 공로의 품격을 보여 준다고 본 것입니다.",
-      "scope": "問"
+      "reason": "공을 자랑하지 않는 겸손을 칭찬했다는 답 뒤에 진짜 공로의 품격이라는 추상적인 찬평이 붙었습니다.",
+      "revised": "둘 다 드러나지만 직접 칭찬한 핵심은 공을 자랑하지 않는 겸손입니다.",
+      "scope": "問",
+      "revision_history": [
+        {
+          "pass": "targeted_type_9",
+          "previous_revision": "둘 다 드러나지만 직접 칭찬한 핵심은 공을 자랑하지 않는 겸손입니다. 어려운 일을 해낸 뒤에도 자신을 내세우지 않는 태도가 진짜 공로의 품격을 보여 준다고 본 것입니다.",
+          "revised": "둘 다 드러나지만 직접 칭찬한 핵심은 공을 자랑하지 않는 겸손입니다.",
+          "reason": "공을 자랑하지 않는 겸손을 칭찬했다는 답 뒤에 진짜 공로의 품격이라는 추상적인 찬평이 붙었습니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 새로운 유형 시작",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "둘 다 드러나지만 직접 칭찬한 핵심은 공을 자랑하지 않는 겸손입니다. 어려운 일을 해낸 뒤에도 자신을 내세우지 않는 태도가 진짜 공로의 품격을 보여 준다고 본 것입니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_9"
     },
     {
       "book": 6,
@@ -2347,9 +2361,9 @@
     "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_4",
-    "reviewed": 168,
-    "approved_applied": 2,
-    "status": "approved_applied"
+    "pass": "targeted_type_9",
+    "scanned": 168,
+    "approved_applied": 1,
+    "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
   }
 }

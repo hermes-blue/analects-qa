@@ -305,10 +305,24 @@
       "key": "ly-16-10:說:1:1",
       "label": "형병(邢昺) 《논어주소》",
       "original": "明은 아주 작은 것도 보는 이루 같은 시력, 聰은 멀리 있는 소리도 듣는 사광 같은 청력을 생각하는 것이라고 풉니다. 보고 듣는 능력의 뛰어남에 무게를 둡니다.",
-      "reason": "명사형 중첩과 무게 비유를 풀어 씀.",
-      "revised": "明은 아주 작은 것도 보는 이루 같은 시력, 聰은 멀리 있는 소리도 듣는 사광 같은 청력을 생각하는 것이라고 풉니다. 보고 듣는 능력이 뛰어나다는 점을 강조합니다.",
+      "reason": "이루와 사광의 뛰어난 시력·청력을 구체적으로 설명했습니다. 보고 듣는 능력이 뛰어남을 강조한다는 문장은 이를 되풀이합니다.",
+      "revised": "明은 아주 작은 것도 보는 이루 같은 시력, 聰은 멀리 있는 소리도 듣는 사광 같은 청력을 생각하는 것이라고 풉니다.",
       "scope": "說",
-      "side": 1
+      "side": 1,
+      "revision_history": [
+        {
+          "pass": "targeted_type_9",
+          "previous_revision": "明은 아주 작은 것도 보는 이루 같은 시력, 聰은 멀리 있는 소리도 듣는 사광 같은 청력을 생각하는 것이라고 풉니다. 보고 듣는 능력이 뛰어나다는 점을 강조합니다.",
+          "revised": "明은 아주 작은 것도 보는 이루 같은 시력, 聰은 멀리 있는 소리도 듣는 사광 같은 청력을 생각하는 것이라고 풉니다.",
+          "reason": "이루와 사광의 뛰어난 시력·청력을 구체적으로 설명했습니다. 보고 듣는 능력이 뛰어남을 강조한다는 문장은 이를 되풀이합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 새로운 유형 시작",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "明은 아주 작은 것도 보는 이루 같은 시력, 聰은 멀리 있는 소리도 듣는 사광 같은 청력을 생각하는 것이라고 풉니다. 보고 듣는 능력이 뛰어나다는 점을 강조합니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_9"
     },
     {
       "book": 16,
@@ -457,9 +471,9 @@
     "selector": "article.card details.st3 .js .side > p"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_4",
-    "reviewed": 29,
+    "pass": "targeted_type_9",
+    "scanned": 29,
     "approved_applied": 1,
-    "status": "approved_applied"
+    "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
   }
 }

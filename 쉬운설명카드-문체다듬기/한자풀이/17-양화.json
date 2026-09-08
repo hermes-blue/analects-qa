@@ -1417,15 +1417,29 @@
     },
     {
       "book": 17,
-      "changed": false,
+      "changed": true,
       "id": "ly-17-23",
       "index": 4,
       "key": "ly-17-23:語:4",
       "label": "有勇無義爲盜유용무의위도",
       "original": "힘과 담력은 있지만 義가 없으면 그 힘이 남의 것을 빼앗는 데 쓰일 수 있다는 뜻입니다. 용기의 도덕적 방향이 중요합니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "힘과 담력은 있지만 義가 없으면 그 힘이 남의 것을 빼앗는 데 쓰일 수 있다는 뜻입니다. 용기의 도덕적 방향이 중요합니다.",
-      "scope": "語"
+      "reason": "義 없는 용기가 남의 것을 빼앗는 데 쓰일 수 있다는 앞 설명 뒤에 붙은 추상적인 재요약입니다.",
+      "revised": "힘과 담력은 있지만 義가 없으면 그 힘이 남의 것을 빼앗는 데 쓰일 수 있다는 뜻입니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_9",
+          "previous_revision": "힘과 담력은 있지만 義가 없으면 그 힘이 남의 것을 빼앗는 데 쓰일 수 있다는 뜻입니다. 용기의 도덕적 방향이 중요합니다.",
+          "revised": "힘과 담력은 있지만 義가 없으면 그 힘이 남의 것을 빼앗는 데 쓰일 수 있다는 뜻입니다.",
+          "reason": "義 없는 용기가 남의 것을 빼앗는 데 쓰일 수 있다는 앞 설명 뒤에 붙은 추상적인 재요약입니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 새로운 유형 시작",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "힘과 담력은 있지만 義가 없으면 그 힘이 남의 것을 빼앗는 데 쓰일 수 있다는 뜻입니다. 용기의 도덕적 방향이 중요합니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_9"
     },
     {
       "book": 17,
@@ -1630,7 +1644,7 @@
     "selector": "article.card details.st1 .w > p:not(.wh)"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_8",
+    "pass": "targeted_type_9",
     "scanned": 118,
     "approved_applied": 1,
     "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
