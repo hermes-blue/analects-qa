@@ -1,0 +1,84 @@
+name: TEMP Stage2 Repeated Expression Audit
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/temp-stage2-repeated-expression-audit.yml']
+permissions:
+  contents: write
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Count repeated expressions
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json, glob, re, collections, subprocess
+          from pathlib import Path
+          rows=[]
+          for fn in sorted(glob.glob('sourcecards-style-polish/[0-9][0-9]-*.json')):
+              data=json.loads(Path(fn).read_text(encoding='utf-8'))
+              for ch in data['장']:
+                  rows.append((ch['구절ID'],ch['편장'],fn,ch['여는말']))
+          if len(rows)!=498: raise SystemExit(f'expected 498 got {len(rows)}')
+          texts=[r[3] for r in rows]
+          joined='\n'.join(texts)
+          expressions=[
+            '설명합니다','살핍니다','짚습니다','전합니다','소개합니다','다룹니다','봅니다','풀이합니다','풉니다','셈입니다',
+            '비교합니다','따집니다','말합니다','이야기합니다','해석합니다','읽습니다','덧붙입니다','강조합니다','주목합니다',
+            '나옵니다','이어집니다','실려 있습니다','보여 줍니다','보여줍니다','알아봅니다','살펴봅니다','구별합니다','전해 줍니다','전해줍니다',
+            '라고 봅니다','다고 봅니다','라고 설명합니다','다고 설명합니다','뜻을 짚습니다','까닭을 짚습니다','뜻을 설명합니다','까닭을 설명합니다',
+            '함께 살핍니다','함께 설명합니다','함께 소개합니다','함께 다룹니다','이어 살핍니다','이어 설명합니다','이어 소개합니다','이어 전합니다',
+            '이 주석은','주석은','이 기록은','기록은','이 글은','글은','이 대목은','대목은','이야기가 나옵니다','문답이 나옵니다'
+          ]
+          counts=[]
+          for e in expressions:
+              c=sum(t.count(e) for t in texts)
+              counts.append((e,c))
+          # sentence-final token counts
+          ending_counter=collections.Counter()
+          ending_examples=collections.defaultdict(list)
+          for cid,pc,fn,text in rows:
+              for s in re.split(r'(?<=[.!?])\s+',text):
+                  s=s.strip()
+                  if not s: continue
+                  core=s.rstrip('.!?')
+                  m=re.search(r'([^\s,]+)$',core)
+                  if not m: continue
+                  end=m.group(1)
+                  ending_counter[end]+=1
+                  if len(ending_examples[end])<3:
+                      ending_examples[end].append((cid,pc,s))
+          base=Path('sourcecards-targeted-review-7passes/repeated-expression-audit')
+          base.mkdir(parents=True,exist_ok=True)
+          head=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
+          lines=['# 사료카드 2단계 반복 표현 빈도 조사','',f'- 기준 커밋: `{head}`','- 대상: `sourcecards-style-polish/` 여는말 498장','- 목적: 반복되는 해설 동사·상투 표현을 하나씩 표적 전수검토하기 위한 목록','', '## 지정 표현 빈도']
+          for e,c in sorted(counts,key=lambda x:(-x[1],x[0])):
+              lines.append(f'- `{e}`: {c}회')
+          lines += ['', '## 문장 종결 표현 상위 60개']
+          for end,c in ending_counter.most_common(60):
+              lines.append(f'- `{end}`: {c}회')
+          lines += ['', '## 종결 표현 예시']
+          for end,c in ending_counter.most_common(30):
+              lines.append(f'### `{end}` — {c}회')
+              for cid,pc,s in ending_examples[end]:
+                  lines.append(f'- `{cid}` {pc}: {s}')
+          (base/'frequency.md').write_text('\n'.join(lines)+'\n',encoding='utf-8')
+          raw={'기준커밋':head,'대상장수':498,'지정표현':dict(counts),'종결표현':ending_counter,'추천검토기준':'빈도가 높아도 자연스러우면 유지하고, 한 표현씩 전체 문맥 검토'}
+          (base/'frequency.json').write_text(json.dumps(raw,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          print('rows',len(rows))
+          print('top endings',ending_counter.most_common(20))
+          print('selected',sorted(counts,key=lambda x:-x[1])[:25])
+          PY
+      - name: Commit report
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add sourcecards-targeted-review-7passes/repeated-expression-audit/
+          git commit -m '사료카드 2단계 반복 표현 빈도 조사 추가'
+          git push origin main
