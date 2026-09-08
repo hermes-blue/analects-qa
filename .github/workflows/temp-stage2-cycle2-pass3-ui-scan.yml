@@ -1,0 +1,54 @@
+name: TEMP Stage2 Cycle2 Pass3 UI Scan
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/temp-stage2-cycle2-pass3-ui-scan.yml'
+permissions:
+  contents: write
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Build snapshot and 의-chain scan
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json,glob,re,subprocess
+          from pathlib import Path
+          rows=[]
+          for fn in sorted(glob.glob('sourcecards-style-polish/[0-9][0-9]-*.json')):
+              data=json.loads(Path(fn).read_text(encoding='utf-8'))
+              for ch in data['장']:
+                  rows.append((ch['구절ID'],ch['편장'],fn,ch['여는말']))
+          if len(rows)!=498: raise SystemExit(f'expected 498 openings, got {len(rows)}')
+          base=Path('sourcecards-targeted-review-7passes/cycle2-pass3-ui-chains')
+          base.mkdir(parents=True,exist_ok=True)
+          head=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
+          lines=['# 사료카드 2단계 2회전 3바퀴 현재 여는말 498장','',f'- 기준 커밋: `{head}`','- 표적: ~의 연쇄·명사 덩어리. 자연스러운 소유·관계 표현은 유지.','']
+          for i,(cid,pc,fn,text) in enumerate(rows,1): lines.append(f'{i:03d}. `{cid}` | {pc} | {text}')
+          (base/'all-openings-current.md').write_text('\n'.join(lines)+'\n',encoding='utf-8')
+          hits=[]
+          for cid,pc,fn,text in rows:
+              sentences=[s.strip() for s in re.split(r'(?<=[.!?])\s+',text) if s.strip()]
+              for s in sentences:
+                  n=s.count('의')
+                  if n>=2:
+                      hits.append((cid,pc,fn,n,s))
+          ml=['# 2회전 3바퀴 ~의 연쇄 보조 스캔','',f'- 한 문장 안에 `의` 글자가 2회 이상 나온 문장 수: {len(hits)}','- 주의: `의문·의리·의미` 등 어휘 내부의 의도 포함되므로 적중 자체는 수정 사유가 아님. 사람이 직접 전수 판정함.','']
+          for cid,pc,fn,n,s in hits: ml.append(f'- `{cid}` | {pc} | `{fn}` | 의={n} | {s}')
+          (base/'marker-scan.md').write_text('\n'.join(ml)+'\n',encoding='utf-8')
+          PY
+      - name: Commit review inputs
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add sourcecards-targeted-review-7passes/cycle2-pass3-ui-chains/
+          git commit -m '사료카드 2단계 2회전 3바퀴 현재본·의 연쇄 표지 추가'
+          git push origin main
