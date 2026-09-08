@@ -1,0 +1,75 @@
+name: TEMP Stage2 Repetitive Commentary Audit
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/temp-stage2-repetitive-commentary-audit.yml']
+permissions:
+  contents: write
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Build full snapshot and marker scan
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json, glob, re, subprocess, collections
+          from pathlib import Path
+          rows=[]
+          for fn in sorted(glob.glob('sourcecards-style-polish/[0-9][0-9]-*.json')):
+              data=json.loads(Path(fn).read_text(encoding='utf-8'))
+              for ch in data['장']:
+                  rows.append((ch['구절ID'],ch['편장'],fn,ch['여는말']))
+          if len(rows)!=498: raise SystemExit(f'expected 498, got {len(rows)}')
+          base=Path('sourcecards-targeted-review-7passes/cycle2-pass8-repetitive-commentary')
+          base.mkdir(parents=True,exist_ok=True)
+          head=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
+          full=['# 사료카드 2단계 반복 해설·상투적 마무리 전수검토 현재본','',f'- 기준 커밋: `{head}`','- 대상: 여는말 498장 전체','- 기준: 앞 문장과 같은 내용을 다시 요약하거나, 없어도 정보가 줄지 않는 메타·상투 마무리만 후보화. 단순히 자주 쓰인 표현이라는 이유로는 수정하지 않음.','']
+          # ending phrase stats and lexical-overlap heuristic
+          end_counter=collections.Counter(); hits=[]
+          markers=[
+              '대목입니다','기록입니다','이야기입니다','주석입니다','글입니다','자료입니다','장면입니다','문답입니다','말입니다',
+              '나옵니다','이어집니다','소개합니다','다룹니다','살펴봅니다','알아봅니다','보여 줍니다','보여줍니다',
+              '설명합니다','전합니다','이야기합니다','살핍니다','짚습니다','비교합니다','논합니다','풉니다','풀이합니다'
+          ]
+          stop=set('은 는 이 가 을 를 에 의 로 으로 와 과 도 에서 에게 에서는 그리고 이어 뒤 이어서 또 함께 먼저 실제 당시 이런 그런 어떤 어떻게 왜 무엇 이를 그 이 저 한 두 세 여러 같은 다른 뜻 말 말씀 주석 글 기록 대목 자료 이야기 설명'.split())
+          def words(s):
+              return {w for w in re.findall(r'[가-힣A-Za-z0-9]+',s) if len(w)>=2 and w not in stop}
+          for i,(cid,pc,fn,text) in enumerate(rows,1):
+              sents=[s.strip() for s in re.split(r'(?<=[.!?])\s+',text) if s.strip()]
+              ends=[]
+              for s in sents:
+                  m=re.search(r'([^\s]+?)[.!?]$',s)
+                  if m: end_counter[m.group(1)]+=1; ends.append(m.group(1))
+              full.append(f'{i:03d}. `{cid}` | {pc} | {text}')
+              matched=sorted({m for m in markers if m in text})
+              # last sentence overlap with all previous sentences
+              overlap=0.0; common=[]
+              if len(sents)>=2:
+                  a=words(' '.join(sents[:-1])); b=words(sents[-1])
+                  if b:
+                      common=sorted(a&b)
+                      overlap=len(common)/len(b)
+              if matched or overlap>=0.45:
+                  hits.append((i,cid,pc,fn,matched,overlap,common,text))
+          (base/'all-openings-current.md').write_text('\n'.join(full)+'\n',encoding='utf-8')
+          scan=['# 반복 해설·상투 마무리 보조 스캔','',f'- 기준 커밋: `{head}`',f'- 표지/중복 휴리스틱 적중 장수: {len(hits)}','- 표지는 보조 수단일 뿐이며, 실제 후보는 498장 전체를 읽고 문맥으로 판정합니다.','', '## 문장 종결 상위 40개']
+          for k,v in end_counter.most_common(40): scan.append(f'- `{k}`: {v}회')
+          scan += ['', '## 표지/중복 휴리스틱 적중 목록']
+          for i,cid,pc,fn,matched,ov,common,text in hits:
+              scan.append(f'- {i:03d}. `{cid}` | {pc} | `{fn}` | 표지={matched} | 마지막문장 겹침={ov:.2f} | 공통어={common} | {text}')
+          (base/'marker-scan.md').write_text('\n'.join(scan)+'\n',encoding='utf-8')
+          print('rows',len(rows),'hits',len(hits))
+          PY
+      - name: Commit review inputs
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add sourcecards-targeted-review-7passes/cycle2-pass8-repetitive-commentary/
+          git commit -m '사료카드 2단계 반복 해설·상투 마무리 전수검토 입력 추가'
+          git push origin main
