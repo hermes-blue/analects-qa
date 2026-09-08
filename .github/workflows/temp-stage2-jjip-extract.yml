@@ -1,0 +1,55 @@
+name: TEMP Stage2 Jjip Extract
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/temp-stage2-jjip-extract.yml']
+permissions:
+  contents: write
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Extract all 짚습니다 occurrences
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json, glob, re, subprocess
+          from pathlib import Path
+          rows=[]
+          for fn in sorted(glob.glob('sourcecards-style-polish/[0-9][0-9]-*.json')):
+              data=json.loads(Path(fn).read_text(encoding='utf-8'))
+              for ch in data['장']:
+                  text=ch['여는말']
+                  if '짚습니다' in text:
+                      sents=[s.strip() for s in re.split(r'(?<=[.!?])\s+',text) if s.strip()]
+                      occ=[s for s in sents if '짚습니다' in s]
+                      rows.append((ch['구절ID'],ch['편장'],fn,text,occ,text.count('짚습니다')))
+          total=sum(r[5] for r in rows)
+          if total!=25: raise SystemExit(f'expected 25 occurrences got {total} in {len(rows)} chapters')
+          base=Path('sourcecards-targeted-review-7passes/repeated-expression-audit/jjip-seumnida')
+          base.mkdir(parents=True,exist_ok=True)
+          head=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
+          md=['# `짚습니다` 전수 추출','',f'- 기준 커밋: `{head}`',f'- 포함 장수: {len(rows)}',f'- 총 출현: {total}회','']
+          raw=[]
+          for i,(cid,pc,fn,text,occ,n) in enumerate(rows,1):
+              md.append(f'## {i}. {pc} `{cid}`')
+              md.append(f'- 파일: `{fn}`')
+              md.append(f'- 전체: {text}')
+              for s in occ: md.append(f'- 해당 문장: **{s}**')
+              md.append('')
+              raw.append({'구절ID':cid,'편장':pc,'파일':fn,'여는말':text,'해당문장':occ,'출현수':n})
+          (base/'all-25.md').write_text('\n'.join(md)+'\n',encoding='utf-8')
+          (base/'all-25.json').write_text(json.dumps({'기준커밋':head,'장수':len(rows),'출현수':total,'항목':raw},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          PY
+      - name: Commit report
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add sourcecards-targeted-review-7passes/repeated-expression-audit/jjip-seumnida/
+          git commit -m '사료카드 2단계 짚습니다 25회 전수 추출'
+          git push origin main
