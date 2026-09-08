@@ -1,0 +1,51 @@
+name: TEMP Stage2 Cycle2 Pass7 Shell Nouns Scan
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/temp-stage2-cycle2-pass7-shell-nouns.yml']
+permissions:
+  contents: write
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Build snapshot and scan
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json,glob,re,subprocess
+          from pathlib import Path
+          rows=[]
+          for fn in sorted(glob.glob('sourcecards-style-polish/[0-9][0-9]-*.json')):
+              data=json.loads(Path(fn).read_text(encoding='utf-8'))
+              for ch in data['장']:
+                  rows.append((ch['구절ID'],ch['편장'],fn,ch['여는말']))
+          if len(rows)!=498: raise SystemExit(f'expected 498 openings, got {len(rows)}')
+          base=Path('sourcecards-targeted-review-7passes/cycle2-pass7-shell-nouns')
+          base.mkdir(parents=True,exist_ok=True)
+          head=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
+          lines=['# 사료카드 2단계 2회전 7바퀴 현재 여는말 498장','',f'- 기준 커밋: `{head}`','- 표적: 경우·방식·과정·상태·형태·측면 같은 명사 껍데기. 의미상 필요한 경우는 유지.','']
+          for i,(cid,pc,fn,text) in enumerate(rows,1): lines.append(f'{i:03d}. `{cid}` | {pc} | {text}')
+          (base/'all-openings-current.md').write_text('\n'.join(lines)+'\n',encoding='utf-8')
+          pats=[r'경우',r'방식',r'과정',r'상태',r'형태',r'측면',r'상황',r'차원',r'맥락']
+          rx=re.compile('|'.join(pats))
+          hits=[]
+          for cid,pc,fn,text in rows:
+              ms=sorted(set(m.group(0) for m in rx.finditer(text)))
+              if ms: hits.append((cid,pc,fn,', '.join(ms),text))
+          ml=['# 2회전 7바퀴 명사 껍데기 보조 스캔','',f'- 표지어 적중 장수: {len(hits)}','- 표지어 자체는 수정 사유가 아님. 동작·상황을 명사로 한 번 감싸 문장이 딱딱해지는 경우만 후보화.','']
+          for cid,pc,fn,ms,text in hits: ml.append(f'- `{cid}` | {pc} | `{fn}` | 표지: {ms} | {text}')
+          (base/'marker-scan.md').write_text('\n'.join(ml)+'\n',encoding='utf-8')
+          PY
+      - name: Commit review inputs
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add sourcecards-targeted-review-7passes/cycle2-pass7-shell-nouns/
+          git commit -m '사료카드 2단계 2회전 7바퀴 현재본·명사껍데기 표지 추가'
+          git push origin main
