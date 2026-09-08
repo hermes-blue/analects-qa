@@ -8,7 +8,7 @@ permissions:
   contents: write
 jobs:
   apply:
-    if: github.event.head_commit.message == 'TEMP: apply sourcecards stage2 pass1 approved 16'
+    if: ${{ github.event.head_commit.message == 'TEMP: apply sourcecards stage2 pass1 approved 16 retry' }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -36,7 +36,6 @@ jobs:
               if n != 1:
                   raise SystemExit(f'{p}: expected exactly 1 match for {c["구절ID"]}, got {n}')
               text = text.replace(old, new, 1)
-              # JSON validity check after replacement
               json.loads(text)
               p.write_text(text, encoding='utf-8')
               touched.add(str(p))
@@ -48,7 +47,6 @@ jobs:
           audit['반영완료'] = True
           audit_path.write_text(json.dumps(audit, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
 
-          # Verify only intended card files were touched by the script.
           expected = {c['파일'] for c in candidates}
           if touched != expected:
               raise SystemExit(f'touched mismatch: {touched ^ expected}')
