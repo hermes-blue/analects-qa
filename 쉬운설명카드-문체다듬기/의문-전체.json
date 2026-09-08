@@ -2,12 +2,12 @@
   "schema_version": "1.1",
   "scope": "問",
   "scope_name": "의문",
-  "status": "approved_targeted_type_3_applied",
-  "method": "20편의 핵심·語·問·說 전체 6,921개 본문 항목을 순서대로 읽고 유형 3 후보 152곳을 전후 대조한 뒤 사용자 승인에 따라 반영. 내용·해석 검수는 하지 않음.",
+  "status": "approved_targeted_type_4_applied",
+  "method": "20편의 핵심·語·問·說 전체 6,921개 본문 항목을 순서대로 읽고 유형 4 후보 127곳을 전후 대조한 뒤 사용자 승인에 따라 반영. 내용·해석 검수는 하지 않음.",
   "count_unit": "텍스트 필드: 한자 풀이 1개, 질문 또는 답변 1개, 쟁점의 견해 설명 1개",
   "total": 3072,
-  "changed": 165,
-  "unchanged": 2907,
+  "changed": 195,
+  "unchanged": 2877,
   "card_count": 498,
   "book_count": 20,
   "content_review_performed": false,
@@ -997,16 +997,30 @@
         },
         {
           "book": 1,
-          "changed": false,
+          "changed": true,
           "field": "답변",
           "id": "ly-01-12",
           "index": 3,
           "key": "ly-01-12:問:3:a",
           "label": "답변",
           "original": "조화가 지나치면 무조건적인 타협이나 눈치 보기가 될 수 있습니다. 禮는 사람 사이의 적절한 선과 역할을 정해 주어, 和가 무너짐 없는 조화가 되도록 조절하는 기준입니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "조화가 지나치면 무조건적인 타협이나 눈치 보기가 될 수 있습니다. 禮는 사람 사이의 적절한 선과 역할을 정해 주어, 和가 무너짐 없는 조화가 되도록 조절하는 기준입니다.",
-          "scope": "問"
+          "reason": "무너짐 없는 조화라는 명사형 표현을 동사로 풉니다.",
+          "revised": "조화가 지나치면 무조건적인 타협이나 눈치 보기가 될 수 있습니다. 禮는 사람 사이의 적절한 선과 역할을 정해 주어, 和가 흐트러지지 않도록 조절합니다.",
+          "scope": "問",
+          "revision_history": [
+            {
+              "pass": "targeted_type_4",
+              "previous_revision": "조화가 지나치면 무조건적인 타협이나 눈치 보기가 될 수 있습니다. 禮는 사람 사이의 적절한 선과 역할을 정해 주어, 和가 무너짐 없는 조화가 되도록 조절하는 기준입니다.",
+              "revised": "조화가 지나치면 무조건적인 타협이나 눈치 보기가 될 수 있습니다. 禮는 사람 사이의 적절한 선과 역할을 정해 주어, 和가 흐트러지지 않도록 조절합니다.",
+              "reason": "무너짐 없는 조화라는 명사형 표현을 동사로 풉니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨에 반영",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "조화가 지나치면 무조건적인 타협이나 눈치 보기가 될 수 있습니다. 禮는 사람 사이의 적절한 선과 역할을 정해 주어, 和가 무너짐 없는 조화가 되도록 조절하는 기준입니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_4"
         },
         {
           "book": 1,
@@ -1082,8 +1096,8 @@
           "key": "ly-01-13:問:3:a",
           "label": "답변",
           "original": "의지하고 가까이하는 사람이 믿을 만한 사람이라면 그 관계도 오래 의지할 수 있다는 뜻으로 풉니다. 누구를 가까이하고 기대는가 역시 신중히 선택해야 한다는 말입니다.",
-          "reason": "‘가까이하다’와 ‘기대다’에 각각 맞는 조사를 씁니다.",
-          "revised": "의지하고 가까이하는 사람이 믿을 만한 사람이라면 그 관계도 오래 의지할 수 있다는 뜻으로 풉니다. 누구를 가까이하고 누구에게 기댈지도 신중히 선택해야 한다는 말입니다.",
+          "reason": "관계에 의지한다는 어색한 추상화를 사람에게 기댄다는 말로 풉니다.",
+          "revised": "의지하고 가까이하는 사람이 믿을 만하다면 오래도록 그 사람에게 기댈 수 있다는 뜻으로 풉니다. 누구를 가까이하고 누구에게 기댈지도 신중히 선택해야 한다는 말입니다.",
           "scope": "問",
           "revision_history": [
             {
@@ -1094,11 +1108,20 @@
               "approval_status": "approved",
               "approval_message": "수정후 다음 시작",
               "date": "2026-09-08"
+            },
+            {
+              "pass": "targeted_type_4",
+              "previous_revision": "의지하고 가까이하는 사람이 믿을 만한 사람이라면 그 관계도 오래 의지할 수 있다는 뜻으로 풉니다. 누구를 가까이하고 누구에게 기댈지도 신중히 선택해야 한다는 말입니다.",
+              "revised": "의지하고 가까이하는 사람이 믿을 만하다면 오래도록 그 사람에게 기댈 수 있다는 뜻으로 풉니다. 누구를 가까이하고 누구에게 기댈지도 신중히 선택해야 한다는 말입니다.",
+              "reason": "관계에 의지한다는 어색한 추상화를 사람에게 기댄다는 말로 풉니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨에 반영",
+              "date": "2026-09-08"
             }
           ],
-          "previous_revision": "의지하고 가까이하는 사람이 믿을 만한 사람이라면 그 관계도 오래 의지할 수 있다는 뜻으로 풉니다. 누구를 가까이하고 기대는가 역시 신중히 선택해야 한다는 말입니다.",
+          "previous_revision": "의지하고 가까이하는 사람이 믿을 만한 사람이라면 그 관계도 오래 의지할 수 있다는 뜻으로 풉니다. 누구를 가까이하고 누구에게 기댈지도 신중히 선택해야 한다는 말입니다.",
           "approval_status": "approved",
-          "last_revision_pass": "targeted_type_2"
+          "last_revision_pass": "targeted_type_4"
         },
         {
           "book": 1,
@@ -1294,16 +1317,30 @@
         },
         {
           "book": 1,
-          "changed": false,
+          "changed": true,
           "field": "답변",
           "id": "ly-01-16",
           "index": 1,
           "key": "ly-01-16:問:1:a",
           "label": "답변",
           "original": "남의 인정은 내가 직접 통제하기 어렵지만, 자신의 배움과 판단은 스스로 닦을 수 있기 때문입니다. 공자님은 외부의 평가보다 자기 수양과 사람을 제대로 보는 능력을 더 중요한 문제로 돌립니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "남의 인정은 내가 직접 통제하기 어렵지만, 자신의 배움과 판단은 스스로 닦을 수 있기 때문입니다. 공자님은 외부의 평가보다 자기 수양과 사람을 제대로 보는 능력을 더 중요한 문제로 돌립니다.",
-          "scope": "問"
+          "reason": "중요한 문제로 돌린다는 어색한 서술을 바꿉니다.",
+          "revised": "남의 인정은 내가 직접 통제하기 어렵지만, 자신의 배움과 판단은 스스로 닦을 수 있기 때문입니다. 공자님은 외부의 평가보다 자기 수양과 사람을 제대로 보는 능력을 더 중요하게 여깁니다.",
+          "scope": "問",
+          "revision_history": [
+            {
+              "pass": "targeted_type_4",
+              "previous_revision": "남의 인정은 내가 직접 통제하기 어렵지만, 자신의 배움과 판단은 스스로 닦을 수 있기 때문입니다. 공자님은 외부의 평가보다 자기 수양과 사람을 제대로 보는 능력을 더 중요한 문제로 돌립니다.",
+              "revised": "남의 인정은 내가 직접 통제하기 어렵지만, 자신의 배움과 판단은 스스로 닦을 수 있기 때문입니다. 공자님은 외부의 평가보다 자기 수양과 사람을 제대로 보는 능력을 더 중요하게 여깁니다.",
+              "reason": "중요한 문제로 돌린다는 어색한 서술을 바꿉니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨에 반영",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "남의 인정은 내가 직접 통제하기 어렵지만, 자신의 배움과 판단은 스스로 닦을 수 있기 때문입니다. 공자님은 외부의 평가보다 자기 수양과 사람을 제대로 보는 능력을 더 중요한 문제로 돌립니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_4"
         },
         {
           "book": 1,
@@ -1378,9 +1415,9 @@
         "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_3",
+        "pass": "targeted_type_4",
         "reviewed": 96,
-        "approved_applied": 1,
+        "approved_applied": 3,
         "status": "approved_applied"
       }
     },
@@ -1755,16 +1792,30 @@
         },
         {
           "book": 2,
-          "changed": false,
+          "changed": true,
           "field": "답변",
           "id": "ly-02-05",
           "index": 2,
           "key": "ly-02-05:問:2:a",
           "label": "답변",
           "original": "본문은 공자님이 짧게 답한 뒤 수레를 몰던 번지에게 그 뜻을 풀어 주는 방식으로 전개됩니다. 그래서 ‘無違’가 단순 복종이 아니라 예를 어기지 않는다는 뜻임이 분명해집니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "본문은 공자님이 짧게 답한 뒤 수레를 몰던 번지에게 그 뜻을 풀어 주는 방식으로 전개됩니다. 그래서 ‘無違’가 단순 복종이 아니라 예를 어기지 않는다는 뜻임이 분명해집니다.",
-          "scope": "問"
+          "reason": "본문의 전개 방식을 설명하는 틀을 덜고 인물의 행동을 말합니다.",
+          "revised": "공자님은 짧게 답한 뒤 수레를 몰던 번지에게 그 뜻을 풀어 줍니다. 그래서 ‘無違’가 단순 복종이 아니라 예를 어기지 않는다는 뜻임이 분명해집니다.",
+          "scope": "問",
+          "revision_history": [
+            {
+              "pass": "targeted_type_4",
+              "previous_revision": "본문은 공자님이 짧게 답한 뒤 수레를 몰던 번지에게 그 뜻을 풀어 주는 방식으로 전개됩니다. 그래서 ‘無違’가 단순 복종이 아니라 예를 어기지 않는다는 뜻임이 분명해집니다.",
+              "revised": "공자님은 짧게 답한 뒤 수레를 몰던 번지에게 그 뜻을 풀어 줍니다. 그래서 ‘無違’가 단순 복종이 아니라 예를 어기지 않는다는 뜻임이 분명해집니다.",
+              "reason": "본문의 전개 방식을 설명하는 틀을 덜고 인물의 행동을 말합니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨에 반영",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "본문은 공자님이 짧게 답한 뒤 수레를 몰던 번지에게 그 뜻을 풀어 주는 방식으로 전개됩니다. 그래서 ‘無違’가 단순 복종이 아니라 예를 어기지 않는다는 뜻임이 분명해집니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_4"
         },
         {
           "book": 2,
@@ -2799,16 +2850,30 @@
         },
         {
           "book": 2,
-          "changed": false,
+          "changed": true,
           "field": "답변",
           "id": "ly-02-18",
           "index": 1,
           "key": "ly-02-18:問:1:a",
           "label": "답변",
           "original": "그렇습니다. 祿은 관직에서 받는 녹봉이고 干은 구한다는 뜻입니다. 자장은 어떻게 하면 관직과 녹봉을 얻을 수 있는지 배우려 했고, 공자님은 말과 행동의 신중함으로 답했습니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "그렇습니다. 祿은 관직에서 받는 녹봉이고 干은 구한다는 뜻입니다. 자장은 어떻게 하면 관직과 녹봉을 얻을 수 있는지 배우려 했고, 공자님은 말과 행동의 신중함으로 답했습니다.",
-          "scope": "問"
+          "reason": "추상명사를 답변 수단으로 삼는 표현을 직접적인 당부로 풉니다.",
+          "revised": "그렇습니다. 祿은 관직에서 받는 녹봉이고 干은 구한다는 뜻입니다. 자장은 어떻게 하면 관직과 녹봉을 얻을 수 있는지 배우려 했고, 공자님은 말과 행동을 신중히 하라고 답했습니다.",
+          "scope": "問",
+          "revision_history": [
+            {
+              "pass": "targeted_type_4",
+              "previous_revision": "그렇습니다. 祿은 관직에서 받는 녹봉이고 干은 구한다는 뜻입니다. 자장은 어떻게 하면 관직과 녹봉을 얻을 수 있는지 배우려 했고, 공자님은 말과 행동의 신중함으로 답했습니다.",
+              "revised": "그렇습니다. 祿은 관직에서 받는 녹봉이고 干은 구한다는 뜻입니다. 자장은 어떻게 하면 관직과 녹봉을 얻을 수 있는지 배우려 했고, 공자님은 말과 행동을 신중히 하라고 답했습니다.",
+              "reason": "추상명사를 답변 수단으로 삼는 표현을 직접적인 당부로 풉니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨에 반영",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "그렇습니다. 祿은 관직에서 받는 녹봉이고 干은 구한다는 뜻입니다. 자장은 어떻게 하면 관직과 녹봉을 얻을 수 있는지 배우려 했고, 공자님은 말과 행동의 신중함으로 답했습니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_4"
         },
         {
           "book": 2,
@@ -3170,8 +3235,8 @@
           "key": "ly-02-22:問:3:a",
           "label": "답변",
           "original": "약속 이행이 핵심이지만 더 넓게는 말과 행동을 믿을 수 있는 상태를 뜻합니다. 한 번의 약속보다 꾸준히 신뢰 가능한 사람인가가 중요하며, 그래서 수레를 움직이는 연결 장치에 비유했습니다.",
-          "reason": "명사로 압축한 행동 풀기",
-          "revised": "약속을 지키는 것이 핵심이지만 더 넓게는 말과 행동을 믿을 수 있는 상태를 뜻합니다. 한 번의 약속보다 꾸준히 신뢰 가능한 사람인가가 중요하며, 그래서 수레를 움직이는 연결 장치에 비유했습니다.",
+          "reason": "신뢰 가능하다는 번역투를 자연스러운 말로 바꿉니다.",
+          "revised": "약속을 지키는 것이 핵심이지만 더 넓게는 말과 행동을 믿을 수 있는 상태를 뜻합니다. 한 번의 약속보다 꾸준히 믿을 만한 사람인가가 중요하며, 그래서 수레를 움직이는 연결 장치에 비유했습니다.",
           "scope": "問",
           "revision_history": [
             {
@@ -3182,11 +3247,20 @@
               "approval_status": "approved",
               "approval_message": "굿 수정, 수정후 다음 시작",
               "date": "2026-09-08"
+            },
+            {
+              "pass": "targeted_type_4",
+              "previous_revision": "약속을 지키는 것이 핵심이지만 더 넓게는 말과 행동을 믿을 수 있는 상태를 뜻합니다. 한 번의 약속보다 꾸준히 신뢰 가능한 사람인가가 중요하며, 그래서 수레를 움직이는 연결 장치에 비유했습니다.",
+              "revised": "약속을 지키는 것이 핵심이지만 더 넓게는 말과 행동을 믿을 수 있는 상태를 뜻합니다. 한 번의 약속보다 꾸준히 믿을 만한 사람인가가 중요하며, 그래서 수레를 움직이는 연결 장치에 비유했습니다.",
+              "reason": "신뢰 가능하다는 번역투를 자연스러운 말로 바꿉니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨에 반영",
+              "date": "2026-09-08"
             }
           ],
-          "previous_revision": "약속 이행이 핵심이지만 더 넓게는 말과 행동을 믿을 수 있는 상태를 뜻합니다. 한 번의 약속보다 꾸준히 신뢰 가능한 사람인가가 중요하며, 그래서 수레를 움직이는 연결 장치에 비유했습니다.",
+          "previous_revision": "약속을 지키는 것이 핵심이지만 더 넓게는 말과 행동을 믿을 수 있는 상태를 뜻합니다. 한 번의 약속보다 꾸준히 신뢰 가능한 사람인가가 중요하며, 그래서 수레를 움직이는 연결 장치에 비유했습니다.",
           "approval_status": "approved",
-          "last_revision_pass": "targeted_type_1"
+          "last_revision_pass": "targeted_type_4"
         },
         {
           "book": 2,
@@ -3365,9 +3439,9 @@
         "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_3",
+        "pass": "targeted_type_4",
         "reviewed": 144,
-        "approved_applied": 2,
+        "approved_applied": 3,
         "status": "approved_applied"
       }
     },
@@ -3924,16 +3998,30 @@
         },
         {
           "book": 3,
-          "changed": false,
+          "changed": true,
           "field": "답변",
           "id": "ly-03-07",
           "index": 3,
           "key": "ly-03-07:問:3:a",
           "label": "답변",
           "original": "이기기 위해 수단을 가리지 않고 상대를 깎아내리는 경쟁이 아니라, 규칙과 예를 지키며 승패를 받아들이는 경쟁입니다. 공자님은 경쟁의 존재보다 경쟁하는 방식에 도덕적 기준을 둡니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "이기기 위해 수단을 가리지 않고 상대를 깎아내리는 경쟁이 아니라, 규칙과 예를 지키며 승패를 받아들이는 경쟁입니다. 공자님은 경쟁의 존재보다 경쟁하는 방식에 도덕적 기준을 둡니다.",
-          "scope": "問"
+          "reason": "경쟁의 존재와 기준을 둔다는 명사 중심 번역투를 풉니다.",
+          "revised": "이기기 위해 수단을 가리지 않고 상대를 깎아내리는 경쟁이 아니라, 규칙과 예를 지키며 승패를 받아들이는 경쟁입니다. 공자님은 경쟁 자체보다 어떤 방식으로 경쟁하느냐를 두고 옳고 그름을 따집니다.",
+          "scope": "問",
+          "revision_history": [
+            {
+              "pass": "targeted_type_4",
+              "previous_revision": "이기기 위해 수단을 가리지 않고 상대를 깎아내리는 경쟁이 아니라, 규칙과 예를 지키며 승패를 받아들이는 경쟁입니다. 공자님은 경쟁의 존재보다 경쟁하는 방식에 도덕적 기준을 둡니다.",
+              "revised": "이기기 위해 수단을 가리지 않고 상대를 깎아내리는 경쟁이 아니라, 규칙과 예를 지키며 승패를 받아들이는 경쟁입니다. 공자님은 경쟁 자체보다 어떤 방식으로 경쟁하느냐를 두고 옳고 그름을 따집니다.",
+              "reason": "경쟁의 존재와 기준을 둔다는 명사 중심 번역투를 풉니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨에 반영",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "이기기 위해 수단을 가리지 않고 상대를 깎아내리는 경쟁이 아니라, 규칙과 예를 지키며 승패를 받아들이는 경쟁입니다. 공자님은 경쟁의 존재보다 경쟁하는 방식에 도덕적 기준을 둡니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_4"
         },
         {
           "book": 3,
@@ -5536,9 +5624,9 @@
         "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_3",
+        "pass": "targeted_type_4",
         "reviewed": 156,
-        "approved_applied": 5,
+        "approved_applied": 1,
         "status": "approved_applied"
       }
     },
@@ -6695,16 +6783,30 @@
         },
         {
           "book": 4,
-          "changed": false,
+          "changed": true,
           "field": "답변",
           "id": "ly-04-15",
           "index": 1,
           "key": "ly-04-15:問:1:a",
           "label": "답변",
           "original": "본문에서 공자님이 직접 그 하나를 설명하지는 않습니다. 이어 증자가 제자들에게 ‘夫子之道 忠恕而已矣’라고 풀이하므로, 전통적으로 忠과 恕를 통해 공자님의 도가 일관되게 관통된다고 이해합니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "본문에서 공자님이 직접 그 하나를 설명하지는 않습니다. 이어 증자가 제자들에게 ‘夫子之道 忠恕而已矣’라고 풀이하므로, 전통적으로 忠과 恕를 통해 공자님의 도가 일관되게 관통된다고 이해합니다.",
-          "scope": "問"
+          "reason": "도가 관통된다는 어색한 피동 표현을 풉니다.",
+          "revised": "본문에서 공자님이 직접 그 하나를 설명하지는 않습니다. 이어 증자가 제자들에게 ‘夫子之道 忠恕而已矣’라고 풀이하므로, 전통적으로 忠과 恕가 공자님의 도를 하나로 꿰는 원리라고 이해합니다.",
+          "scope": "問",
+          "revision_history": [
+            {
+              "pass": "targeted_type_4",
+              "previous_revision": "본문에서 공자님이 직접 그 하나를 설명하지는 않습니다. 이어 증자가 제자들에게 ‘夫子之道 忠恕而已矣’라고 풀이하므로, 전통적으로 忠과 恕를 통해 공자님의 도가 일관되게 관통된다고 이해합니다.",
+              "revised": "본문에서 공자님이 직접 그 하나를 설명하지는 않습니다. 이어 증자가 제자들에게 ‘夫子之道 忠恕而已矣’라고 풀이하므로, 전통적으로 忠과 恕가 공자님의 도를 하나로 꿰는 원리라고 이해합니다.",
+              "reason": "도가 관통된다는 어색한 피동 표현을 풉니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨에 반영",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "본문에서 공자님이 직접 그 하나를 설명하지는 않습니다. 이어 증자가 제자들에게 ‘夫子之道 忠恕而已矣’라고 풀이하므로, 전통적으로 忠과 恕를 통해 공자님의 도가 일관되게 관통된다고 이해합니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_4"
         },
         {
           "book": 4,
@@ -7679,7 +7781,7 @@
         "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_3",
+        "pass": "targeted_type_4",
         "reviewed": 156,
         "approved_applied": 1,
         "status": "approved_applied"
@@ -9752,16 +9854,30 @@
         },
         {
           "book": 5,
-          "changed": false,
+          "changed": true,
           "field": "답변",
           "id": "ly-05-25",
           "index": 1,
           "key": "ly-05-25:問:1:a",
           "label": "답변",
           "original": "자로는 재물을 친구와 나누는 호방함, 안회는 자기 공을 내세우지 않는 겸손을 말합니다. 공자님은 노인은 편안하게, 친구는 믿게, 젊은이는 품어 주고 싶다고 하여 관계 전체의 안정으로 넓힙니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "자로는 재물을 친구와 나누는 호방함, 안회는 자기 공을 내세우지 않는 겸손을 말합니다. 공자님은 노인은 편안하게, 친구는 믿게, 젊은이는 품어 주고 싶다고 하여 관계 전체의 안정으로 넓힙니다.",
-          "scope": "問"
+          "reason": "관계 전체의 안정으로 넓힌다는 어색한 명사형 서술을 풉니다.",
+          "revised": "자로는 재물을 친구와 나누는 호방함, 안회는 자기 공을 내세우지 않는 겸손을 말합니다. 공자님은 노인은 편안하게, 친구는 믿게, 젊은이는 품어 주고 싶다며 주변 사람을 두루 편안하게 하겠다는 뜻을 말합니다.",
+          "scope": "問",
+          "revision_history": [
+            {
+              "pass": "targeted_type_4",
+              "previous_revision": "자로는 재물을 친구와 나누는 호방함, 안회는 자기 공을 내세우지 않는 겸손을 말합니다. 공자님은 노인은 편안하게, 친구는 믿게, 젊은이는 품어 주고 싶다고 하여 관계 전체의 안정으로 넓힙니다.",
+              "revised": "자로는 재물을 친구와 나누는 호방함, 안회는 자기 공을 내세우지 않는 겸손을 말합니다. 공자님은 노인은 편안하게, 친구는 믿게, 젊은이는 품어 주고 싶다며 주변 사람을 두루 편안하게 하겠다는 뜻을 말합니다.",
+              "reason": "관계 전체의 안정으로 넓힌다는 어색한 명사형 서술을 풉니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨에 반영",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "자로는 재물을 친구와 나누는 호방함, 안회는 자기 공을 내세우지 않는 겸손을 말합니다. 공자님은 노인은 편안하게, 친구는 믿게, 젊은이는 품어 주고 싶다고 하여 관계 전체의 안정으로 넓힙니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_4"
         },
         {
           "book": 5,
@@ -9825,8 +9941,8 @@
           "key": "ly-05-25:問:3:a",
           "label": "답변",
           "original": "자기 한 사람의 성취보다 주변 사람들이 각자 필요한 상태를 얻도록 하는 것입니다. 노인은 편안하고, 친구는 신뢰하며, 젊은이는 따뜻하게 품어지는 공동체를 만들고 싶다는 포괄적인 뜻입니다.",
-          "reason": "어색한 피동 ‘품어지다’를 자연스러운 표현으로 바꿉니다.",
-          "revised": "자기 한 사람의 성취보다 주변 사람들이 각자 필요한 상태를 얻도록 하는 것입니다. 노인은 편안하고, 친구는 신뢰하며, 젊은이는 따뜻한 보살핌을 받는 공동체를 만들고 싶다는 포괄적인 뜻입니다.",
+          "reason": "필요한 상태를 얻는다는 번역투를 풉니다.",
+          "revised": "자기 한 사람이 무언가를 이루기보다 주변 사람에게 각자 필요한 것을 베풀려는 것입니다. 노인은 편안하고, 친구는 신뢰하며, 젊은이는 따뜻한 보살핌을 받는 공동체를 만들고 싶다는 포괄적인 뜻입니다.",
           "scope": "問",
           "revision_history": [
             {
@@ -9837,11 +9953,20 @@
               "approval_status": "approved",
               "approval_message": "수정후 다음 시작",
               "date": "2026-09-08"
+            },
+            {
+              "pass": "targeted_type_4",
+              "previous_revision": "자기 한 사람의 성취보다 주변 사람들이 각자 필요한 상태를 얻도록 하는 것입니다. 노인은 편안하고, 친구는 신뢰하며, 젊은이는 따뜻한 보살핌을 받는 공동체를 만들고 싶다는 포괄적인 뜻입니다.",
+              "revised": "자기 한 사람이 무언가를 이루기보다 주변 사람에게 각자 필요한 것을 베풀려는 것입니다. 노인은 편안하고, 친구는 신뢰하며, 젊은이는 따뜻한 보살핌을 받는 공동체를 만들고 싶다는 포괄적인 뜻입니다.",
+              "reason": "필요한 상태를 얻는다는 번역투를 풉니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨에 반영",
+              "date": "2026-09-08"
             }
           ],
-          "previous_revision": "자기 한 사람의 성취보다 주변 사람들이 각자 필요한 상태를 얻도록 하는 것입니다. 노인은 편안하고, 친구는 신뢰하며, 젊은이는 따뜻하게 품어지는 공동체를 만들고 싶다는 포괄적인 뜻입니다.",
+          "previous_revision": "자기 한 사람의 성취보다 주변 사람들이 각자 필요한 상태를 얻도록 하는 것입니다. 노인은 편안하고, 친구는 신뢰하며, 젊은이는 따뜻한 보살핌을 받는 공동체를 만들고 싶다는 포괄적인 뜻입니다.",
           "approval_status": "approved",
-          "last_revision_pass": "targeted_type_2"
+          "last_revision_pass": "targeted_type_4"
         },
         {
           "book": 5,
@@ -10057,9 +10182,9 @@
         "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_3",
+        "pass": "targeted_type_4",
         "reviewed": 168,
-        "approved_applied": 3,
+        "approved_applied": 2,
         "status": "approved_applied"
       }
     },
@@ -10956,16 +11081,30 @@
         },
         {
           "book": 6,
-          "changed": false,
+          "changed": true,
           "field": "답변",
           "id": "ly-06-11",
           "index": 3,
           "key": "ly-06-11:問:3:a",
           "label": "답변",
           "original": "전문성 자체를 비판한 것은 아닙니다. 많이 배우고 잘 아는 능력이 어떤 목적과 태도에 의해 쓰이느냐가 중요하다는 말입니다. 학문의 방향을 사람됨과 연결한 것입니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "전문성 자체를 비판한 것은 아닙니다. 많이 배우고 잘 아는 능력이 어떤 목적과 태도에 의해 쓰이느냐가 중요하다는 말입니다. 학문의 방향을 사람됨과 연결한 것입니다.",
-          "scope": "問"
+          "reason": "목적과 태도에 의해 능력이 쓰인다는 번역투를 능동문으로 풉니다.",
+          "revised": "전문성 자체를 비판한 것은 아닙니다. 많이 배우고 잘 아는 사람이 그 능력을 어떤 목적과 태도로 쓰느냐가 중요하다는 말입니다. 학문의 방향을 사람됨과 연결한 것입니다.",
+          "scope": "問",
+          "revision_history": [
+            {
+              "pass": "targeted_type_4",
+              "previous_revision": "전문성 자체를 비판한 것은 아닙니다. 많이 배우고 잘 아는 능력이 어떤 목적과 태도에 의해 쓰이느냐가 중요하다는 말입니다. 학문의 방향을 사람됨과 연결한 것입니다.",
+              "revised": "전문성 자체를 비판한 것은 아닙니다. 많이 배우고 잘 아는 사람이 그 능력을 어떤 목적과 태도로 쓰느냐가 중요하다는 말입니다. 학문의 방향을 사람됨과 연결한 것입니다.",
+              "reason": "목적과 태도에 의해 능력이 쓰인다는 번역투를 능동문으로 풉니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨에 반영",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "전문성 자체를 비판한 것은 아닙니다. 많이 배우고 잘 아는 능력이 어떤 목적과 태도에 의해 쓰이느냐가 중요하다는 말입니다. 학문의 방향을 사람됨과 연결한 것입니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_4"
         },
         {
           "book": 6,
@@ -11464,16 +11603,30 @@
         },
         {
           "book": 6,
-          "changed": false,
+          "changed": true,
           "field": "답변",
           "id": "ly-06-18",
           "index": 1,
           "key": "ly-06-18:問:1:a",
           "label": "답변",
           "original": "지식이 필요 없다는 뜻은 아닙니다. 어떤 가치를 머리로 아는 데서 그치지 않고 좋아하게 되면 스스로 실천하려는 힘이 커진다는 뜻입니다. 앎에서 동기로 나아가는 차이입니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "지식이 필요 없다는 뜻은 아닙니다. 어떤 가치를 머리로 아는 데서 그치지 않고 좋아하게 되면 스스로 실천하려는 힘이 커진다는 뜻입니다. 앎에서 동기로 나아가는 차이입니다.",
-          "scope": "問"
+          "reason": "앎에서 동기로 나아간다는 추상적인 단계 설명을 풉니다.",
+          "revised": "지식이 필요 없다는 뜻은 아닙니다. 어떤 가치를 머리로 아는 데서 그치지 않고 좋아하게 되면 스스로 실천하려는 힘이 커진다는 뜻입니다. 아는 데 그치지 않고 스스로 해 보려는 마음까지 생긴다는 차이입니다.",
+          "scope": "問",
+          "revision_history": [
+            {
+              "pass": "targeted_type_4",
+              "previous_revision": "지식이 필요 없다는 뜻은 아닙니다. 어떤 가치를 머리로 아는 데서 그치지 않고 좋아하게 되면 스스로 실천하려는 힘이 커진다는 뜻입니다. 앎에서 동기로 나아가는 차이입니다.",
+              "revised": "지식이 필요 없다는 뜻은 아닙니다. 어떤 가치를 머리로 아는 데서 그치지 않고 좋아하게 되면 스스로 실천하려는 힘이 커진다는 뜻입니다. 아는 데 그치지 않고 스스로 해 보려는 마음까지 생긴다는 차이입니다.",
+              "reason": "앎에서 동기로 나아간다는 추상적인 단계 설명을 풉니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨에 반영",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "지식이 필요 없다는 뜻은 아닙니다. 어떤 가치를 머리로 아는 데서 그치지 않고 좋아하게 되면 스스로 실천하려는 힘이 커진다는 뜻입니다. 앎에서 동기로 나아가는 차이입니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_4"
         },
         {
           "book": 6,
@@ -12384,7 +12537,7 @@
         "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_3",
+        "pass": "targeted_type_4",
         "reviewed": 168,
         "approved_applied": 2,
         "status": "approved_applied"
@@ -14732,8 +14885,8 @@
           "key": "ly-07-29:問:2:a",
           "label": "답변",
           "original": "완성된 인격이 즉시 된다는 뜻은 아닙니다. 仁의 출발점이 외부 조건이 아니라 자신의 의지에 있다는 말입니다. 실천하려는 마음이 바로 가까운 출발점이라는 뜻입니다.",
-          "reason": "바로 앞에서 설명한 자신의 의지가 출발점이라는 뜻을 반복하지 않습니다.",
-          "revised": "완성된 인격이 즉시 된다는 뜻은 아닙니다. 仁의 출발점이 외부 조건이 아니라 자신의 의지에 있다는 말입니다.",
+          "reason": "인격이 된다는 어색한 표현을 바꿉니다.",
+          "revised": "즉시 인격을 완성한다는 뜻은 아닙니다. 仁의 출발점이 외부 조건이 아니라 자신의 의지에 있다는 말입니다.",
           "scope": "問",
           "revision_history": [
             {
@@ -14744,11 +14897,20 @@
               "approval_status": "approved",
               "approval_message": "수정후보 제이슨에 반영",
               "date": "2026-09-08"
+            },
+            {
+              "pass": "targeted_type_4",
+              "previous_revision": "완성된 인격이 즉시 된다는 뜻은 아닙니다. 仁의 출발점이 외부 조건이 아니라 자신의 의지에 있다는 말입니다.",
+              "revised": "즉시 인격을 완성한다는 뜻은 아닙니다. 仁의 출발점이 외부 조건이 아니라 자신의 의지에 있다는 말입니다.",
+              "reason": "인격이 된다는 어색한 표현을 바꿉니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨에 반영",
+              "date": "2026-09-08"
             }
           ],
-          "previous_revision": "완성된 인격이 즉시 된다는 뜻은 아닙니다. 仁의 출발점이 외부 조건이 아니라 자신의 의지에 있다는 말입니다. 실천하려는 마음이 바로 가까운 출발점이라는 뜻입니다.",
+          "previous_revision": "완성된 인격이 즉시 된다는 뜻은 아닙니다. 仁의 출발점이 외부 조건이 아니라 자신의 의지에 있다는 말입니다.",
           "approval_status": "approved",
-          "last_revision_pass": "targeted_type_3"
+          "last_revision_pass": "targeted_type_4"
         },
         {
           "book": 7,
@@ -15477,9 +15639,9 @@
         "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_3",
+        "pass": "targeted_type_4",
         "reviewed": 228,
-        "approved_applied": 2,
+        "approved_applied": 1,
         "status": "approved_applied"
       }
     },
@@ -15580,16 +15742,30 @@
         },
         {
           "book": 8,
-          "changed": false,
+          "changed": true,
           "field": "답변",
           "id": "ly-08-02",
           "index": 1,
           "key": "ly-08-02:問:1:a",
           "label": "답변",
           "original": "좋은 성향도 기준과 절도가 없으면 지나칠 수 있기 때문입니다. 공손함은 피로가 되고, 신중함은 겁이 되며, 용기는 난폭함이 되고, 정직함은 남을 상하게 할 수 있습니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "좋은 성향도 기준과 절도가 없으면 지나칠 수 있기 때문입니다. 공손함은 피로가 되고, 신중함은 겁이 되며, 용기는 난폭함이 되고, 정직함은 남을 상하게 할 수 있습니다.",
-          "scope": "問"
+          "reason": "성품을 다른 명사와 등치하는 어색한 표현을 조건과 행동으로 풉니다.",
+          "revised": "좋은 성향도 기준과 절도가 없으면 지나칠 수 있기 때문입니다. 지나치게 공손하면 지치고, 지나치게 신중하면 겁이 많아지며, 용기를 앞세우다 난폭해지거나 정직하게 말하려다 남에게 상처를 줄 수 있습니다.",
+          "scope": "問",
+          "revision_history": [
+            {
+              "pass": "targeted_type_4",
+              "previous_revision": "좋은 성향도 기준과 절도가 없으면 지나칠 수 있기 때문입니다. 공손함은 피로가 되고, 신중함은 겁이 되며, 용기는 난폭함이 되고, 정직함은 남을 상하게 할 수 있습니다.",
+              "revised": "좋은 성향도 기준과 절도가 없으면 지나칠 수 있기 때문입니다. 지나치게 공손하면 지치고, 지나치게 신중하면 겁이 많아지며, 용기를 앞세우다 난폭해지거나 정직하게 말하려다 남에게 상처를 줄 수 있습니다.",
+              "reason": "성품을 다른 명사와 등치하는 어색한 표현을 조건과 행동으로 풉니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨에 반영",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "좋은 성향도 기준과 절도가 없으면 지나칠 수 있기 때문입니다. 공손함은 피로가 되고, 신중함은 겁이 되며, 용기는 난폭함이 되고, 정직함은 남을 상하게 할 수 있습니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_4"
         },
         {
           "book": 8,
@@ -16260,16 +16436,30 @@
         },
         {
           "book": 8,
-          "changed": false,
+          "changed": true,
           "field": "답변",
           "id": "ly-08-10",
           "index": 1,
           "key": "ly-08-10:問:1:a",
           "label": "답변",
           "original": "용기는 있는데 가난에 대한 불만이 크면 그 힘이 무리한 행동이나 질서 파괴로 향할 수 있기 때문입니다. 용기에도 방향을 잡아 줄 덕과 절제가 필요하다는 뜻입니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "용기는 있는데 가난에 대한 불만이 크면 그 힘이 무리한 행동이나 질서 파괴로 향할 수 있기 때문입니다. 용기에도 방향을 잡아 줄 덕과 절제가 필요하다는 뜻입니다.",
-          "scope": "問"
+          "reason": "힘이 행동이나 파괴로 향한다는 추상적인 서술을 풉니다.",
+          "revised": "용기는 있는데 가난에 대한 불만이 크면 무리하게 행동하거나 질서를 깨뜨릴 수 있기 때문입니다. 용기에도 방향을 잡아 줄 덕과 절제가 필요하다는 뜻입니다.",
+          "scope": "問",
+          "revision_history": [
+            {
+              "pass": "targeted_type_4",
+              "previous_revision": "용기는 있는데 가난에 대한 불만이 크면 그 힘이 무리한 행동이나 질서 파괴로 향할 수 있기 때문입니다. 용기에도 방향을 잡아 줄 덕과 절제가 필요하다는 뜻입니다.",
+              "revised": "용기는 있는데 가난에 대한 불만이 크면 무리하게 행동하거나 질서를 깨뜨릴 수 있기 때문입니다. 용기에도 방향을 잡아 줄 덕과 절제가 필요하다는 뜻입니다.",
+              "reason": "힘이 행동이나 파괴로 향한다는 추상적인 서술을 풉니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨에 반영",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "용기는 있는데 가난에 대한 불만이 크면 그 힘이 무리한 행동이나 질서 파괴로 향할 수 있기 때문입니다. 용기에도 방향을 잡아 줄 덕과 절제가 필요하다는 뜻입니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_4"
         },
         {
           "book": 8,
@@ -17230,7 +17420,7 @@
         "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_3",
+        "pass": "targeted_type_4",
         "reviewed": 126,
         "approved_applied": 2,
         "status": "approved_applied"
@@ -18597,16 +18787,30 @@
         },
         {
           "book": 9,
-          "changed": false,
+          "changed": true,
           "field": "답변",
           "id": "ly-09-16",
           "index": 3,
           "key": "ly-09-16:問:3:a",
           "label": "답변",
           "original": "흐름이 잠시도 끊기지 않는다는 점을 강조합니다. 변화와 시간은 인간이 멈출 수 없으므로, 삶의 방향을 미루지 말고 계속 닦아 가야 한다는 긴장감을 줍니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "흐름이 잠시도 끊기지 않는다는 점을 강조합니다. 변화와 시간은 인간이 멈출 수 없으므로, 삶의 방향을 미루지 말고 계속 닦아 가야 한다는 긴장감을 줍니다.",
-          "scope": "問"
+          "reason": "방향을 미룬다는 어색한 목적어와 생략된 수양 대상을 바로잡습니다.",
+          "revised": "흐름이 잠시도 끊기지 않는다는 점을 강조합니다. 변화와 시간은 인간이 멈출 수 없으므로, 삶의 방향을 정하는 일을 미루지 말고 계속 자신을 닦아 가야 한다는 긴장감을 줍니다.",
+          "scope": "問",
+          "revision_history": [
+            {
+              "pass": "targeted_type_4",
+              "previous_revision": "흐름이 잠시도 끊기지 않는다는 점을 강조합니다. 변화와 시간은 인간이 멈출 수 없으므로, 삶의 방향을 미루지 말고 계속 닦아 가야 한다는 긴장감을 줍니다.",
+              "revised": "흐름이 잠시도 끊기지 않는다는 점을 강조합니다. 변화와 시간은 인간이 멈출 수 없으므로, 삶의 방향을 정하는 일을 미루지 말고 계속 자신을 닦아 가야 한다는 긴장감을 줍니다.",
+              "reason": "방향을 미룬다는 어색한 목적어와 생략된 수양 대상을 바로잡습니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨에 반영",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "흐름이 잠시도 끊기지 않는다는 점을 강조합니다. 변화와 시간은 인간이 멈출 수 없으므로, 삶의 방향을 미루지 말고 계속 닦아 가야 한다는 긴장감을 줍니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_4"
         },
         {
           "book": 9,
@@ -19777,7 +19981,7 @@
         "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_3",
+        "pass": "targeted_type_4",
         "reviewed": 186,
         "approved_applied": 1,
         "status": "approved_applied"
@@ -19920,16 +20124,30 @@
         },
         {
           "book": 10,
-          "changed": false,
+          "changed": true,
           "field": "답변",
           "id": "ly-10-02",
           "index": 2,
           "key": "ly-10-02:問:2:a",
           "label": "답변",
           "original": "侃侃은 말이 분명하고 거리낌 없는 모습, 誾誾은 온화하면서도 바른 태도로 말하는 모습입니다. 모두 자신감은 있지만 상대에 따라 표현의 결이 다릅니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "侃侃은 말이 분명하고 거리낌 없는 모습, 誾誾은 온화하면서도 바른 태도로 말하는 모습입니다. 모두 자신감은 있지만 상대에 따라 표현의 결이 다릅니다.",
-          "scope": "問"
+          "reason": "표현의 결이라는 모호한 비유를 구체화합니다.",
+          "revised": "侃侃은 말이 분명하고 거리낌 없는 모습, 誾誾은 온화하면서도 바른 태도로 말하는 모습입니다. 모두 자신 있게 말하되 상대에 따라 말투가 다릅니다.",
+          "scope": "問",
+          "revision_history": [
+            {
+              "pass": "targeted_type_4",
+              "previous_revision": "侃侃은 말이 분명하고 거리낌 없는 모습, 誾誾은 온화하면서도 바른 태도로 말하는 모습입니다. 모두 자신감은 있지만 상대에 따라 표현의 결이 다릅니다.",
+              "revised": "侃侃은 말이 분명하고 거리낌 없는 모습, 誾誾은 온화하면서도 바른 태도로 말하는 모습입니다. 모두 자신 있게 말하되 상대에 따라 말투가 다릅니다.",
+              "reason": "표현의 결이라는 모호한 비유를 구체화합니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨에 반영",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "侃侃은 말이 분명하고 거리낌 없는 모습, 誾誾은 온화하면서도 바른 태도로 말하는 모습입니다. 모두 자신감은 있지만 상대에 따라 표현의 결이 다릅니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_4"
         },
         {
           "book": 10,
@@ -20350,16 +20568,30 @@
         },
         {
           "book": 10,
-          "changed": false,
+          "changed": true,
           "field": "답변",
           "id": "ly-10-07",
           "index": 3,
           "key": "ly-10-07:問:3:a",
           "label": "답변",
           "original": "평소 습관을 그대로 유지하면 마음도 일상에 머물기 쉽다고 보았기 때문입니다. 먹는 것과 자는 자리까지 달리해 중요한 의식을 앞둔 긴장과 집중을 몸 전체로 만들었습니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "평소 습관을 그대로 유지하면 마음도 일상에 머물기 쉽다고 보았기 때문입니다. 먹는 것과 자는 자리까지 달리해 중요한 의식을 앞둔 긴장과 집중을 몸 전체로 만들었습니다.",
-          "scope": "問"
+          "reason": "긴장과 집중을 몸 전체로 만든다는 어색한 표현을 풉니다.",
+          "revised": "평소 습관을 그대로 유지하면 마음도 일상에 머물기 쉽다고 보았기 때문입니다. 먹는 것과 자는 자리까지 달리하며 중요한 의식을 앞두고 몸을 삼가고 마음을 모았습니다.",
+          "scope": "問",
+          "revision_history": [
+            {
+              "pass": "targeted_type_4",
+              "previous_revision": "평소 습관을 그대로 유지하면 마음도 일상에 머물기 쉽다고 보았기 때문입니다. 먹는 것과 자는 자리까지 달리해 중요한 의식을 앞둔 긴장과 집중을 몸 전체로 만들었습니다.",
+              "revised": "평소 습관을 그대로 유지하면 마음도 일상에 머물기 쉽다고 보았기 때문입니다. 먹는 것과 자는 자리까지 달리하며 중요한 의식을 앞두고 몸을 삼가고 마음을 모았습니다.",
+              "reason": "긴장과 집중을 몸 전체로 만든다는 어색한 표현을 풉니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨에 반영",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "평소 습관을 그대로 유지하면 마음도 일상에 머물기 쉽다고 보았기 때문입니다. 먹는 것과 자는 자리까지 달리해 중요한 의식을 앞둔 긴장과 집중을 몸 전체로 만들었습니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_4"
         },
         {
           "book": 10,
@@ -22058,9 +22290,9 @@
         "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_3",
+        "pass": "targeted_type_4",
         "reviewed": 162,
-        "approved_applied": 4,
+        "approved_applied": 2,
         "status": "approved_applied"
       }
     },
@@ -22501,16 +22733,30 @@
         },
         {
           "book": 11,
-          "changed": false,
+          "changed": true,
           "field": "답변",
           "id": "ly-11-06",
           "index": 1,
           "key": "ly-11-06:問:1:a",
           "label": "답변",
           "original": "공자님에게 好學은 지식량보다 배운 것을 삶에서 고치고 실천하는 태도였습니다. 안회가 그 기준에 가장 가까웠기에 죽은 뒤에도 대체할 사람이 없다고 본 것입니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "공자님에게 好學은 지식량보다 배운 것을 삶에서 고치고 실천하는 태도였습니다. 안회가 그 기준에 가장 가까웠기에 죽은 뒤에도 대체할 사람이 없다고 본 것입니다.",
-          "scope": "問"
+          "reason": "배운 것을 고친다는 어색한 목적어를 바로잡습니다.",
+          "revised": "공자님에게 好學은 지식을 많이 쌓기보다 배운 대로 자신의 잘못을 고치고 실천하는 태도였습니다. 안회가 그 기준에 가장 가까웠기에 죽은 뒤에도 대체할 사람이 없다고 본 것입니다.",
+          "scope": "問",
+          "revision_history": [
+            {
+              "pass": "targeted_type_4",
+              "previous_revision": "공자님에게 好學은 지식량보다 배운 것을 삶에서 고치고 실천하는 태도였습니다. 안회가 그 기준에 가장 가까웠기에 죽은 뒤에도 대체할 사람이 없다고 본 것입니다.",
+              "revised": "공자님에게 好學은 지식을 많이 쌓기보다 배운 대로 자신의 잘못을 고치고 실천하는 태도였습니다. 안회가 그 기준에 가장 가까웠기에 죽은 뒤에도 대체할 사람이 없다고 본 것입니다.",
+              "reason": "배운 것을 고친다는 어색한 목적어를 바로잡습니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨에 반영",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "공자님에게 好學은 지식량보다 배운 것을 삶에서 고치고 실천하는 태도였습니다. 안회가 그 기준에 가장 가까웠기에 죽은 뒤에도 대체할 사람이 없다고 본 것입니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_4"
         },
         {
           "book": 11,
@@ -22945,16 +23191,30 @@
         },
         {
           "book": 11,
-          "changed": false,
+          "changed": true,
           "field": "답변",
           "id": "ly-11-11",
           "index": 2,
           "key": "ly-11-11:問:2:a",
           "label": "답변",
           "original": "죽음 자체를 금지한 말은 아닙니다. 삶도 제대로 이해하고 실천하지 못한 상태에서 죽음의 세계부터 단정하려는 태도를 경계한 것입니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "죽음 자체를 금지한 말은 아닙니다. 삶도 제대로 이해하고 실천하지 못한 상태에서 죽음의 세계부터 단정하려는 태도를 경계한 것입니다.",
-          "scope": "問"
+          "reason": "죽음을 금지한다는 어색한 생략을 풉니다.",
+          "revised": "죽음에 대해 생각하지 말라는 뜻은 아닙니다. 삶도 제대로 이해하고 실천하지 못한 상태에서 죽음의 세계부터 단정하려는 태도를 경계한 것입니다.",
+          "scope": "問",
+          "revision_history": [
+            {
+              "pass": "targeted_type_4",
+              "previous_revision": "죽음 자체를 금지한 말은 아닙니다. 삶도 제대로 이해하고 실천하지 못한 상태에서 죽음의 세계부터 단정하려는 태도를 경계한 것입니다.",
+              "revised": "죽음에 대해 생각하지 말라는 뜻은 아닙니다. 삶도 제대로 이해하고 실천하지 못한 상태에서 죽음의 세계부터 단정하려는 태도를 경계한 것입니다.",
+              "reason": "죽음을 금지한다는 어색한 생략을 풉니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨에 반영",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "죽음 자체를 금지한 말은 아닙니다. 삶도 제대로 이해하고 실천하지 못한 상태에서 죽음의 세계부터 단정하려는 태도를 경계한 것입니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_4"
         },
         {
           "book": 11,
@@ -23947,16 +24207,30 @@
         },
         {
           "book": 11,
-          "changed": false,
+          "changed": true,
           "field": "답변",
           "id": "ly-11-24",
           "index": 1,
           "key": "ly-11-24:問:1:a",
           "label": "답변",
           "original": "자고가 아직 배움과 경험이 충분하지 않은데 바로 높은 실무를 맡기면 성장하기보다 망가질 수 있다고 본 것입니다. 능력 개발에도 순서와 준비가 필요하다는 뜻입니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "자고가 아직 배움과 경험이 충분하지 않은데 바로 높은 실무를 맡기면 성장하기보다 망가질 수 있다고 본 것입니다. 능력 개발에도 순서와 준비가 필요하다는 뜻입니다.",
-          "scope": "問"
+          "reason": "높은 실무라는 어색한 단어 결합을 바꿉니다.",
+          "revised": "자고가 아직 배움과 경험이 충분하지 않은데 곧바로 높은 직책을 맡기면 성장하기보다 망가질 수 있다고 본 것입니다. 능력 개발에도 순서와 준비가 필요하다는 뜻입니다.",
+          "scope": "問",
+          "revision_history": [
+            {
+              "pass": "targeted_type_4",
+              "previous_revision": "자고가 아직 배움과 경험이 충분하지 않은데 바로 높은 실무를 맡기면 성장하기보다 망가질 수 있다고 본 것입니다. 능력 개발에도 순서와 준비가 필요하다는 뜻입니다.",
+              "revised": "자고가 아직 배움과 경험이 충분하지 않은데 곧바로 높은 직책을 맡기면 성장하기보다 망가질 수 있다고 본 것입니다. 능력 개발에도 순서와 준비가 필요하다는 뜻입니다.",
+              "reason": "높은 실무라는 어색한 단어 결합을 바꿉니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨에 반영",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "자고가 아직 배움과 경험이 충분하지 않은데 바로 높은 실무를 맡기면 성장하기보다 망가질 수 있다고 본 것입니다. 능력 개발에도 순서와 준비가 필요하다는 뜻입니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_4"
         },
         {
           "book": 11,
@@ -24109,7 +24383,7 @@
         "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_3",
+        "pass": "targeted_type_4",
         "reviewed": 150,
         "approved_applied": 3,
         "status": "approved_applied"
@@ -24134,16 +24408,30 @@
         },
         {
           "book": 12,
-          "changed": false,
+          "changed": true,
           "field": "답변",
           "id": "ly-12-01",
           "index": 1,
           "key": "ly-12-01:問:1:a",
           "label": "답변",
           "original": "욕망 자체를 없애라는 뜻보다 사사로운 욕심에 끌리지 않고 예의 기준으로 자신을 돌아오게 한다는 뜻입니다. 감정을 억압하기보다 행동의 기준을 바로 세우는 데 가깝습니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "욕망 자체를 없애라는 뜻보다 사사로운 욕심에 끌리지 않고 예의 기준으로 자신을 돌아오게 한다는 뜻입니다. 감정을 억압하기보다 행동의 기준을 바로 세우는 데 가깝습니다.",
-          "scope": "問"
+          "reason": "자신을 돌아오게 한다는 직역투를 풉니다.",
+          "revised": "욕망 자체를 없애라는 뜻보다 사사로운 욕심에 끌리지 않고 다시 예의 기준에 맞게 행동한다는 뜻입니다. 감정을 억압하기보다 행동의 기준을 바로 세우는 데 가깝습니다.",
+          "scope": "問",
+          "revision_history": [
+            {
+              "pass": "targeted_type_4",
+              "previous_revision": "욕망 자체를 없애라는 뜻보다 사사로운 욕심에 끌리지 않고 예의 기준으로 자신을 돌아오게 한다는 뜻입니다. 감정을 억압하기보다 행동의 기준을 바로 세우는 데 가깝습니다.",
+              "revised": "욕망 자체를 없애라는 뜻보다 사사로운 욕심에 끌리지 않고 다시 예의 기준에 맞게 행동한다는 뜻입니다. 감정을 억압하기보다 행동의 기준을 바로 세우는 데 가깝습니다.",
+              "reason": "자신을 돌아오게 한다는 직역투를 풉니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨에 반영",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "욕망 자체를 없애라는 뜻보다 사사로운 욕심에 끌리지 않고 예의 기준으로 자신을 돌아오게 한다는 뜻입니다. 감정을 억압하기보다 행동의 기준을 바로 세우는 데 가깝습니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_4"
         },
         {
           "book": 12,
@@ -24264,16 +24552,30 @@
         },
         {
           "book": 12,
-          "changed": false,
+          "changed": true,
           "field": "답변",
           "id": "ly-12-02",
           "index": 3,
           "key": "ly-12-02:問:3:a",
           "label": "답변",
           "original": "모든 사람에게 좋은 평가를 받으라는 뜻은 아닙니다. 나라에서나 집안에서나 자신이 맡은 관계를 공경과 배려로 처리해 원망을 살 만한 일을 만들지 말라는 뜻입니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "모든 사람에게 좋은 평가를 받으라는 뜻은 아닙니다. 나라에서나 집안에서나 자신이 맡은 관계를 공경과 배려로 처리해 원망을 살 만한 일을 만들지 말라는 뜻입니다.",
-          "scope": "問"
+          "reason": "관계를 처리한다는 어색한 표현을 풉니다.",
+          "revised": "모든 사람에게 좋은 평가를 받으라는 뜻은 아닙니다. 나라에서나 집안에서나 자신과 관계를 맺은 사람을 공경하고 배려해 원망을 살 만한 일을 만들지 말라는 뜻입니다.",
+          "scope": "問",
+          "revision_history": [
+            {
+              "pass": "targeted_type_4",
+              "previous_revision": "모든 사람에게 좋은 평가를 받으라는 뜻은 아닙니다. 나라에서나 집안에서나 자신이 맡은 관계를 공경과 배려로 처리해 원망을 살 만한 일을 만들지 말라는 뜻입니다.",
+              "revised": "모든 사람에게 좋은 평가를 받으라는 뜻은 아닙니다. 나라에서나 집안에서나 자신과 관계를 맺은 사람을 공경하고 배려해 원망을 살 만한 일을 만들지 말라는 뜻입니다.",
+              "reason": "관계를 처리한다는 어색한 표현을 풉니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨에 반영",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "모든 사람에게 좋은 평가를 받으라는 뜻은 아닙니다. 나라에서나 집안에서나 자신이 맡은 관계를 공경과 배려로 처리해 원망을 살 만한 일을 만들지 말라는 뜻입니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_4"
         },
         {
           "book": 12,
@@ -25634,16 +25936,30 @@
         },
         {
           "book": 12,
-          "changed": false,
+          "changed": true,
           "field": "답변",
           "id": "ly-12-19",
           "index": 2,
           "key": "ly-12-19:問:2:a",
           "label": "답변",
           "original": "윗사람의 덕은 바람과 같고 백성의 태도는 풀과 같아, 바람이 불면 풀이 눕듯 위의 방향이 아래에 큰 영향을 준다는 뜻입니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "윗사람의 덕은 바람과 같고 백성의 태도는 풀과 같아, 바람이 불면 풀이 눕듯 위의 방향이 아래에 큰 영향을 준다는 뜻입니다.",
-          "scope": "問"
+          "reason": "위의 방향이라는 모호한 추상화를 풀어 씁니다.",
+          "revised": "윗사람의 덕은 바람과 같고 백성의 태도는 풀과 같아, 바람이 불면 풀이 눕듯 윗사람이 어떻게 행동하느냐가 아랫사람에게 큰 영향을 준다는 뜻입니다.",
+          "scope": "問",
+          "revision_history": [
+            {
+              "pass": "targeted_type_4",
+              "previous_revision": "윗사람의 덕은 바람과 같고 백성의 태도는 풀과 같아, 바람이 불면 풀이 눕듯 위의 방향이 아래에 큰 영향을 준다는 뜻입니다.",
+              "revised": "윗사람의 덕은 바람과 같고 백성의 태도는 풀과 같아, 바람이 불면 풀이 눕듯 윗사람이 어떻게 행동하느냐가 아랫사람에게 큰 영향을 준다는 뜻입니다.",
+              "reason": "위의 방향이라는 모호한 추상화를 풀어 씁니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨에 반영",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "윗사람의 덕은 바람과 같고 백성의 태도는 풀과 같아, 바람이 불면 풀이 눕듯 위의 방향이 아래에 큰 영향을 준다는 뜻입니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_4"
         },
         {
           "book": 12,
@@ -26110,9 +26426,9 @@
         "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_3",
+        "pass": "targeted_type_4",
         "reviewed": 144,
-        "approved_applied": 2,
+        "approved_applied": 3,
         "status": "approved_applied"
       }
     },
@@ -27009,16 +27325,30 @@
         },
         {
           "book": 13,
-          "changed": false,
+          "changed": true,
           "field": "답변",
           "id": "ly-13-11",
           "index": 3,
           "key": "ly-13-11:問:3:a",
           "label": "답변",
           "original": "그렇습니다. 지도자 한 사람의 선의만으로 사회가 즉시 바뀐다고 보지 않았습니다. 제도와 풍속이 누적되어 변하려면 장기간의 일관된 정치가 필요하다는 인식입니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "그렇습니다. 지도자 한 사람의 선의만으로 사회가 즉시 바뀐다고 보지 않았습니다. 제도와 풍속이 누적되어 변하려면 장기간의 일관된 정치가 필요하다는 인식입니다.",
-          "scope": "問"
+          "reason": "제도와 풍속이 누적된다는 어색한 서술을 풉니다.",
+          "revised": "그렇습니다. 지도자 한 사람의 선의만으로 사회가 즉시 바뀐다고 보지 않았습니다. 제도와 풍속을 조금씩 바꾸어 가려면 오랫동안 일관되게 다스려야 한다는 뜻입니다.",
+          "scope": "問",
+          "revision_history": [
+            {
+              "pass": "targeted_type_4",
+              "previous_revision": "그렇습니다. 지도자 한 사람의 선의만으로 사회가 즉시 바뀐다고 보지 않았습니다. 제도와 풍속이 누적되어 변하려면 장기간의 일관된 정치가 필요하다는 인식입니다.",
+              "revised": "그렇습니다. 지도자 한 사람의 선의만으로 사회가 즉시 바뀐다고 보지 않았습니다. 제도와 풍속을 조금씩 바꾸어 가려면 오랫동안 일관되게 다스려야 한다는 뜻입니다.",
+              "reason": "제도와 풍속이 누적된다는 어색한 서술을 풉니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨에 반영",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "그렇습니다. 지도자 한 사람의 선의만으로 사회가 즉시 바뀐다고 보지 않았습니다. 제도와 풍속이 누적되어 변하려면 장기간의 일관된 정치가 필요하다는 인식입니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_4"
         },
         {
           "book": 13,
@@ -28616,9 +28946,9 @@
         "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_3",
+        "pass": "targeted_type_4",
         "reviewed": 180,
-        "approved_applied": 2,
+        "approved_applied": 1,
         "status": "approved_applied"
       }
     },
@@ -33821,8 +34151,8 @@
           "key": "ly-15-17:問:3:a",
           "label": "답변",
           "original": "그렇습니다. 義가 기준을 세우고, 禮가 실행 방식을 잡고, 孫이 태도를 부드럽게 하며, 信이 결과를 믿을 수 있게 만듭니다. 덕이 서로 연결되어 작동하는 구조입니다.",
-          "reason": "바로 앞에서 네 덕이 이어지는 과정을 설명했으므로 다시 구조라고 요약하는 문장을 덜어 냅니다.",
-          "revised": "그렇습니다. 義가 기준을 세우고, 禮가 실행 방식을 잡고, 孫이 태도를 부드럽게 하며, 信이 결과를 믿을 수 있게 만듭니다.",
+          "reason": "덕목을 행동 주체로 나열한 문장을 실천하는 사람의 행동으로 수정",
+          "revised": "그렇습니다. 義를 기준으로 삼고, 禮에 맞게 실행하며, 孫으로 겸손하게 대하고, 信으로 믿을 수 있게 마무리합니다.",
           "scope": "問",
           "revision_history": [
             {
@@ -33833,11 +34163,20 @@
               "approval_status": "approved",
               "approval_message": "수정후보 제이슨에 반영",
               "date": "2026-09-08"
+            },
+            {
+              "pass": "targeted_type_4",
+              "previous_revision": "그렇습니다. 義가 기준을 세우고, 禮가 실행 방식을 잡고, 孫이 태도를 부드럽게 하며, 信이 결과를 믿을 수 있게 만듭니다.",
+              "revised": "그렇습니다. 義를 기준으로 삼고, 禮에 맞게 실행하며, 孫으로 겸손하게 대하고, 信으로 믿을 수 있게 마무리합니다.",
+              "reason": "덕목을 행동 주체로 나열한 문장을 실천하는 사람의 행동으로 수정",
+              "approval_status": "approved",
+              "approval_message": "제이슨에 반영",
+              "date": "2026-09-08"
             }
           ],
-          "previous_revision": "그렇습니다. 義가 기준을 세우고, 禮가 실행 방식을 잡고, 孫이 태도를 부드럽게 하며, 信이 결과를 믿을 수 있게 만듭니다. 덕이 서로 연결되어 작동하는 구조입니다.",
+          "previous_revision": "그렇습니다. 義가 기준을 세우고, 禮가 실행 방식을 잡고, 孫이 태도를 부드럽게 하며, 信이 결과를 믿을 수 있게 만듭니다.",
           "approval_status": "approved",
-          "last_revision_pass": "targeted_type_3"
+          "last_revision_pass": "targeted_type_4"
         },
         {
           "book": 15,
@@ -34726,16 +35065,30 @@
         },
         {
           "book": 15,
-          "changed": false,
+          "changed": true,
           "field": "답변",
           "id": "ly-15-29",
           "index": 1,
           "key": "ly-15-29:問:1:a",
           "label": "답변",
           "original": "그렇습니다. 누구나 허물을 만들 수 있지만, 알고도 그대로 두면 그때부터는 반복 가능한 선택이 됩니다. 잘못을 고치는 능력을 도덕적 성장의 핵심으로 본 것입니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "그렇습니다. 누구나 허물을 만들 수 있지만, 알고도 그대로 두면 그때부터는 반복 가능한 선택이 됩니다. 잘못을 고치는 능력을 도덕적 성장의 핵심으로 본 것입니다.",
-          "scope": "問"
+          "reason": "‘허물을 만들다’와 ‘반복 가능한 선택’의 직역투 수정",
+          "revised": "그렇습니다. 누구나 잘못을 저지를 수 있지만, 알고도 그대로 두면 같은 잘못을 되풀이할 수 있습니다. 잘못을 고치는 능력을 도덕적 성장의 핵심으로 본 것입니다.",
+          "scope": "問",
+          "revision_history": [
+            {
+              "pass": "targeted_type_4",
+              "previous_revision": "그렇습니다. 누구나 허물을 만들 수 있지만, 알고도 그대로 두면 그때부터는 반복 가능한 선택이 됩니다. 잘못을 고치는 능력을 도덕적 성장의 핵심으로 본 것입니다.",
+              "revised": "그렇습니다. 누구나 잘못을 저지를 수 있지만, 알고도 그대로 두면 같은 잘못을 되풀이할 수 있습니다. 잘못을 고치는 능력을 도덕적 성장의 핵심으로 본 것입니다.",
+              "reason": "‘허물을 만들다’와 ‘반복 가능한 선택’의 직역투 수정",
+              "approval_status": "approved",
+              "approval_message": "제이슨에 반영",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "그렇습니다. 누구나 허물을 만들 수 있지만, 알고도 그대로 두면 그때부터는 반복 가능한 선택이 됩니다. 잘못을 고치는 능력을 도덕적 성장의 핵심으로 본 것입니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_4"
         },
         {
           "book": 15,
@@ -35666,16 +36019,30 @@
         },
         {
           "book": 15,
-          "changed": false,
+          "changed": true,
           "field": "답변",
           "id": "ly-15-40",
           "index": 2,
           "key": "ly-15-40:問:2:a",
           "label": "답변",
           "original": "아름다운 표현을 금지한 것은 아닙니다. 다만 전달보다 장식이 앞서 의미가 흐려지는 것을 경계합니다. 표현의 세련됨도 결국 뜻을 잘 전달하는 데 봉사해야 합니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "아름다운 표현을 금지한 것은 아닙니다. 다만 전달보다 장식이 앞서 의미가 흐려지는 것을 경계합니다. 표현의 세련됨도 결국 뜻을 잘 전달하는 데 봉사해야 합니다.",
-          "scope": "問"
+          "reason": "추상명사가 ‘봉사한다’는 번역투 수정",
+          "revised": "아름다운 표현을 금지한 것은 아닙니다. 다만 전달보다 장식이 앞서 의미가 흐려지는 것을 경계합니다. 세련된 표현도 결국 뜻을 잘 전달하는 데 도움이 되어야 합니다.",
+          "scope": "問",
+          "revision_history": [
+            {
+              "pass": "targeted_type_4",
+              "previous_revision": "아름다운 표현을 금지한 것은 아닙니다. 다만 전달보다 장식이 앞서 의미가 흐려지는 것을 경계합니다. 표현의 세련됨도 결국 뜻을 잘 전달하는 데 봉사해야 합니다.",
+              "revised": "아름다운 표현을 금지한 것은 아닙니다. 다만 전달보다 장식이 앞서 의미가 흐려지는 것을 경계합니다. 세련된 표현도 결국 뜻을 잘 전달하는 데 도움이 되어야 합니다.",
+              "reason": "추상명사가 ‘봉사한다’는 번역투 수정",
+              "approval_status": "approved",
+              "approval_message": "제이슨에 반영",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "아름다운 표현을 금지한 것은 아닙니다. 다만 전달보다 장식이 앞서 의미가 흐려지는 것을 경계합니다. 표현의 세련됨도 결국 뜻을 잘 전달하는 데 봉사해야 합니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_4"
         },
         {
           "book": 15,
@@ -35830,7 +36197,7 @@
         "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_3",
+        "pass": "targeted_type_4",
         "reviewed": 252,
         "approved_applied": 3,
         "status": "approved_applied"
@@ -36025,16 +36392,30 @@
         },
         {
           "book": 16,
-          "changed": false,
+          "changed": true,
           "field": "답변",
           "id": "ly-16-03",
           "index": 1,
           "key": "ly-16-03:問:1:a",
           "label": "답변",
           "original": "노나라 임금이 실질적인 재정과 정치 권한을 잃고 삼환 같은 대부 가문이 권력을 장악한 지 오래되었다는 뜻입니다. 공실의 약화가 누적된 상황을 지적한 말입니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "노나라 임금이 실질적인 재정과 정치 권한을 잃고 삼환 같은 대부 가문이 권력을 장악한 지 오래되었다는 뜻입니다. 공실의 약화가 누적된 상황을 지적한 말입니다.",
-          "scope": "問"
+          "reason": "‘약화가 누적되다’라는 추상명사 결합을 풀어 씀",
+          "revised": "노나라 임금이 실질적인 재정과 정치 권한을 잃고 삼환 같은 대부 가문이 권력을 장악한 지 오래되었다는 뜻입니다. 공실이 오랫동안 점점 약해져 온 상황을 지적한 말입니다.",
+          "scope": "問",
+          "revision_history": [
+            {
+              "pass": "targeted_type_4",
+              "previous_revision": "노나라 임금이 실질적인 재정과 정치 권한을 잃고 삼환 같은 대부 가문이 권력을 장악한 지 오래되었다는 뜻입니다. 공실의 약화가 누적된 상황을 지적한 말입니다.",
+              "revised": "노나라 임금이 실질적인 재정과 정치 권한을 잃고 삼환 같은 대부 가문이 권력을 장악한 지 오래되었다는 뜻입니다. 공실이 오랫동안 점점 약해져 온 상황을 지적한 말입니다.",
+              "reason": "‘약화가 누적되다’라는 추상명사 결합을 풀어 씀",
+              "approval_status": "approved",
+              "approval_message": "제이슨에 반영",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "노나라 임금이 실질적인 재정과 정치 권한을 잃고 삼환 같은 대부 가문이 권력을 장악한 지 오래되었다는 뜻입니다. 공실의 약화가 누적된 상황을 지적한 말입니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_4"
         },
         {
           "book": 16,
@@ -36981,9 +37362,9 @@
         "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_2",
+        "pass": "targeted_type_4",
         "reviewed": 84,
-        "approved_applied": 2,
+        "approved_applied": 1,
         "status": "approved_applied"
       }
     },
@@ -37318,16 +37699,30 @@
         },
         {
           "book": 17,
-          "changed": false,
+          "changed": true,
           "field": "답변",
           "id": "ly-17-05",
           "index": 1,
           "key": "ly-17-05:問:1:a",
           "label": "답변",
           "original": "공자님은 사람과 상황이 바뀔 가능성을 완전히 닫지 않았기 때문으로 전통적으로 설명합니다. 다만 실제로는 가지 않았으며, 반란 자체를 정당화한 것은 아닙니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "공자님은 사람과 상황이 바뀔 가능성을 완전히 닫지 않았기 때문으로 전통적으로 설명합니다. 다만 실제로는 가지 않았으며, 반란 자체를 정당화한 것은 아닙니다.",
-          "scope": "問"
+          "reason": "가능성을 ‘닫다’와 피동적인 설명 구조 수정",
+          "revised": "전통적으로는 공자님이 사람과 상황은 바뀔 수 있다고 여겼기 때문이라고 설명합니다. 다만 실제로는 가지 않았으며, 반란 자체를 정당화한 것은 아닙니다.",
+          "scope": "問",
+          "revision_history": [
+            {
+              "pass": "targeted_type_4",
+              "previous_revision": "공자님은 사람과 상황이 바뀔 가능성을 완전히 닫지 않았기 때문으로 전통적으로 설명합니다. 다만 실제로는 가지 않았으며, 반란 자체를 정당화한 것은 아닙니다.",
+              "revised": "전통적으로는 공자님이 사람과 상황은 바뀔 수 있다고 여겼기 때문이라고 설명합니다. 다만 실제로는 가지 않았으며, 반란 자체를 정당화한 것은 아닙니다.",
+              "reason": "가능성을 ‘닫다’와 피동적인 설명 구조 수정",
+              "approval_status": "approved",
+              "approval_message": "제이슨에 반영",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "공자님은 사람과 상황이 바뀔 가능성을 완전히 닫지 않았기 때문으로 전통적으로 설명합니다. 다만 실제로는 가지 않았으며, 반란 자체를 정당화한 것은 아닙니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_4"
         },
         {
           "book": 17,
@@ -37474,16 +37869,30 @@
         },
         {
           "book": 17,
-          "changed": false,
+          "changed": true,
           "field": "답변",
           "id": "ly-17-07",
           "index": 1,
           "key": "ly-17-07:問:1:a",
           "label": "답변",
           "original": "공산불요 때와 마찬가지로, 잘못된 사람도 바른 도로 돌릴 가능성을 완전히 닫지 않았기 때문으로 풉니다. 실제로는 가지 않았고 반란을 지지한 것은 아닙니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "공산불요 때와 마찬가지로, 잘못된 사람도 바른 도로 돌릴 가능성을 완전히 닫지 않았기 때문으로 풉니다. 실제로는 가지 않았고 반란을 지지한 것은 아닙니다.",
-          "scope": "問"
+          "reason": "가능성을 ‘닫다’라는 번역투 수정",
+          "revised": "공산불요 때와 마찬가지로, 잘못된 사람도 바른 도로 돌아서게 할 수 있다고 여겼기 때문으로 풉니다. 실제로는 가지 않았고 반란을 지지한 것은 아닙니다.",
+          "scope": "問",
+          "revision_history": [
+            {
+              "pass": "targeted_type_4",
+              "previous_revision": "공산불요 때와 마찬가지로, 잘못된 사람도 바른 도로 돌릴 가능성을 완전히 닫지 않았기 때문으로 풉니다. 실제로는 가지 않았고 반란을 지지한 것은 아닙니다.",
+              "revised": "공산불요 때와 마찬가지로, 잘못된 사람도 바른 도로 돌아서게 할 수 있다고 여겼기 때문으로 풉니다. 실제로는 가지 않았고 반란을 지지한 것은 아닙니다.",
+              "reason": "가능성을 ‘닫다’라는 번역투 수정",
+              "approval_status": "approved",
+              "approval_message": "제이슨에 반영",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "공산불요 때와 마찬가지로, 잘못된 사람도 바른 도로 돌릴 가능성을 완전히 닫지 않았기 때문으로 풉니다. 실제로는 가지 않았고 반란을 지지한 것은 아닙니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_4"
         },
         {
           "book": 17,
@@ -37578,16 +37987,30 @@
         },
         {
           "book": 17,
-          "changed": false,
+          "changed": true,
           "field": "답변",
           "id": "ly-17-08",
           "index": 2,
           "key": "ly-17-08:問:2:a",
           "label": "답변",
           "original": "선한 마음만으로 상황을 제대로 판단하지 못하면 남의 말에 쉽게 속거나 잘못된 선의를 행사할 수 있기 때문입니다. 仁에도 분별을 길러 주는 배움이 필요하다는 뜻입니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "선한 마음만으로 상황을 제대로 판단하지 못하면 남의 말에 쉽게 속거나 잘못된 선의를 행사할 수 있기 때문입니다. 仁에도 분별을 길러 주는 배움이 필요하다는 뜻입니다.",
-          "scope": "問"
+          "reason": "‘선의를 행사하다’라는 부자연스러운 명사·동사 결합 수정",
+          "revised": "선한 마음만으로 상황을 제대로 판단하지 못하면 남의 말에 쉽게 속거나 좋은 뜻으로도 잘못된 행동을 할 수 있기 때문입니다. 仁에도 분별을 길러 주는 배움이 필요하다는 뜻입니다.",
+          "scope": "問",
+          "revision_history": [
+            {
+              "pass": "targeted_type_4",
+              "previous_revision": "선한 마음만으로 상황을 제대로 판단하지 못하면 남의 말에 쉽게 속거나 잘못된 선의를 행사할 수 있기 때문입니다. 仁에도 분별을 길러 주는 배움이 필요하다는 뜻입니다.",
+              "revised": "선한 마음만으로 상황을 제대로 판단하지 못하면 남의 말에 쉽게 속거나 좋은 뜻으로도 잘못된 행동을 할 수 있기 때문입니다. 仁에도 분별을 길러 주는 배움이 필요하다는 뜻입니다.",
+              "reason": "‘선의를 행사하다’라는 부자연스러운 명사·동사 결합 수정",
+              "approval_status": "approved",
+              "approval_message": "제이슨에 반영",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "선한 마음만으로 상황을 제대로 판단하지 못하면 남의 말에 쉽게 속거나 잘못된 선의를 행사할 수 있기 때문입니다. 仁에도 분별을 길러 주는 배움이 필요하다는 뜻입니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_4"
         },
         {
           "book": 17,
@@ -37864,16 +38287,30 @@
         },
         {
           "book": 17,
-          "changed": false,
+          "changed": true,
           "field": "답변",
           "id": "ly-17-12",
           "index": 1,
           "key": "ly-17-12:問:1:a",
           "label": "답변",
           "original": "겉으로는 위엄 있는 사람처럼 꾸미지만 실제 덕과 용기는 없어서 남의 평가를 속이기 때문입니다. 이름과 외형만 훔쳐 가진다는 점에서 도둑에 비유한 것입니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "겉으로는 위엄 있는 사람처럼 꾸미지만 실제 덕과 용기는 없어서 남의 평가를 속이기 때문입니다. 이름과 외형만 훔쳐 가진다는 점에서 도둑에 비유한 것입니다.",
-          "scope": "問"
+          "reason": "사람 대신 평가를 ‘속인다’는 어색한 표현 수정",
+          "revised": "겉으로는 위엄 있는 사람처럼 꾸미지만 실제 덕과 용기는 없어서 남이 자신을 잘못 평가하게 만들기 때문입니다. 이름과 외형만 훔쳐 가진다는 점에서 도둑에 비유한 것입니다.",
+          "scope": "問",
+          "revision_history": [
+            {
+              "pass": "targeted_type_4",
+              "previous_revision": "겉으로는 위엄 있는 사람처럼 꾸미지만 실제 덕과 용기는 없어서 남의 평가를 속이기 때문입니다. 이름과 외형만 훔쳐 가진다는 점에서 도둑에 비유한 것입니다.",
+              "revised": "겉으로는 위엄 있는 사람처럼 꾸미지만 실제 덕과 용기는 없어서 남이 자신을 잘못 평가하게 만들기 때문입니다. 이름과 외형만 훔쳐 가진다는 점에서 도둑에 비유한 것입니다.",
+              "reason": "사람 대신 평가를 ‘속인다’는 어색한 표현 수정",
+              "approval_status": "approved",
+              "approval_message": "제이슨에 반영",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "겉으로는 위엄 있는 사람처럼 꾸미지만 실제 덕과 용기는 없어서 남의 평가를 속이기 때문입니다. 이름과 외형만 훔쳐 가진다는 점에서 도둑에 비유한 것입니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_4"
         },
         {
           "book": 17,
@@ -39082,9 +39519,9 @@
         "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_2",
+        "pass": "targeted_type_4",
         "reviewed": 156,
-        "approved_applied": 3,
+        "approved_applied": 4,
         "status": "approved_applied"
       }
     },
@@ -40154,16 +40591,30 @@
         },
         {
           "book": 19,
-          "changed": false,
+          "changed": true,
           "field": "답변",
           "id": "ly-19-02",
           "index": 3,
           "key": "ly-19-02:問:3:a",
           "label": "답변",
           "original": "그 사람이 있어도 공동체나 도의 실천에 별 영향을 주지 못한다는 뜻입니다. 덕은 좁고 道에 대한 믿음도 약하다면 존재의 무게가 크지 않다는 강한 비판입니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "그 사람이 있어도 공동체나 도의 실천에 별 영향을 주지 못한다는 뜻입니다. 덕은 좁고 道에 대한 믿음도 약하다면 존재의 무게가 크지 않다는 강한 비판입니다.",
-          "scope": "問"
+          "reason": "막연한 비유 ‘존재의 무게’를 앞 문장의 뜻에 맞게 풀어 씀",
+          "revised": "그 사람이 있어도 공동체나 도의 실천에 별 영향을 주지 못한다는 뜻입니다. 덕을 널리 펴지 못하고 道에 대한 믿음도 약하다면 그 사람이 있으나 없으나 큰 차이가 없다는 강한 비판입니다.",
+          "scope": "問",
+          "revision_history": [
+            {
+              "pass": "targeted_type_4",
+              "previous_revision": "그 사람이 있어도 공동체나 도의 실천에 별 영향을 주지 못한다는 뜻입니다. 덕은 좁고 道에 대한 믿음도 약하다면 존재의 무게가 크지 않다는 강한 비판입니다.",
+              "revised": "그 사람이 있어도 공동체나 도의 실천에 별 영향을 주지 못한다는 뜻입니다. 덕을 널리 펴지 못하고 道에 대한 믿음도 약하다면 그 사람이 있으나 없으나 큰 차이가 없다는 강한 비판입니다.",
+              "reason": "막연한 비유 ‘존재의 무게’를 앞 문장의 뜻에 맞게 풀어 씀",
+              "approval_status": "approved",
+              "approval_message": "제이슨에 반영",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "그 사람이 있어도 공동체나 도의 실천에 별 영향을 주지 못한다는 뜻입니다. 덕은 좁고 道에 대한 믿음도 약하다면 존재의 무게가 크지 않다는 강한 비판입니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_4"
         },
         {
           "book": 19,
@@ -41182,16 +41633,30 @@
         },
         {
           "book": 19,
-          "changed": false,
+          "changed": true,
           "field": "답변",
           "id": "ly-19-15",
           "index": 3,
           "key": "ly-19-15:問:3:a",
           "label": "답변",
           "original": "자장은 높은 이상과 눈에 띄는 행실이 강점이었지만 그만큼 내면의 충실함이 따라야 한다는 비판이 이어지기 때문입니다. 외적 규모와 내적 仁을 구분한 것입니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "자장은 높은 이상과 눈에 띄는 행실이 강점이었지만 그만큼 내면의 충실함이 따라야 한다는 비판이 이어지기 때문입니다. 외적 규모와 내적 仁을 구분한 것입니다.",
-          "scope": "問"
+          "reason": "사람의 행실을 ‘외적 규모’로 표현한 번역투 수정",
+          "revised": "자장은 높은 이상과 눈에 띄는 행실이 강점이었지만 그만큼 내면의 충실함이 따라야 한다는 비판이 이어지기 때문입니다. 겉으로 드러나는 뛰어난 행실과 마음속의 仁을 구분한 것입니다.",
+          "scope": "問",
+          "revision_history": [
+            {
+              "pass": "targeted_type_4",
+              "previous_revision": "자장은 높은 이상과 눈에 띄는 행실이 강점이었지만 그만큼 내면의 충실함이 따라야 한다는 비판이 이어지기 때문입니다. 외적 규모와 내적 仁을 구분한 것입니다.",
+              "revised": "자장은 높은 이상과 눈에 띄는 행실이 강점이었지만 그만큼 내면의 충실함이 따라야 한다는 비판이 이어지기 때문입니다. 겉으로 드러나는 뛰어난 행실과 마음속의 仁을 구분한 것입니다.",
+              "reason": "사람의 행실을 ‘외적 규모’로 표현한 번역투 수정",
+              "approval_status": "approved",
+              "approval_message": "제이슨에 반영",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "자장은 높은 이상과 눈에 띄는 행실이 강점이었지만 그만큼 내면의 충실함이 따라야 한다는 비판이 이어지기 때문입니다. 외적 규모와 내적 仁을 구분한 것입니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_4"
         },
         {
           "book": 19,
@@ -42008,9 +42473,9 @@
         "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_3",
+        "pass": "targeted_type_4",
         "reviewed": 150,
-        "approved_applied": 1,
+        "approved_applied": 2,
         "status": "approved_applied"
       }
     },
@@ -42323,8 +42788,8 @@
     }
   ],
   "latest_style_pass": {
-    "pass": "targeted_type_3",
+    "pass": "targeted_type_4",
     "reviewed": 3072,
-    "approved_applied": 37
+    "approved_applied": 35
   }
 }

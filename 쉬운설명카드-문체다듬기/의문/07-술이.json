@@ -2340,8 +2340,8 @@
       "key": "ly-07-29:問:2:a",
       "label": "답변",
       "original": "완성된 인격이 즉시 된다는 뜻은 아닙니다. 仁의 출발점이 외부 조건이 아니라 자신의 의지에 있다는 말입니다. 실천하려는 마음이 바로 가까운 출발점이라는 뜻입니다.",
-      "reason": "바로 앞에서 설명한 자신의 의지가 출발점이라는 뜻을 반복하지 않습니다.",
-      "revised": "완성된 인격이 즉시 된다는 뜻은 아닙니다. 仁의 출발점이 외부 조건이 아니라 자신의 의지에 있다는 말입니다.",
+      "reason": "인격이 된다는 어색한 표현을 바꿉니다.",
+      "revised": "즉시 인격을 완성한다는 뜻은 아닙니다. 仁의 출발점이 외부 조건이 아니라 자신의 의지에 있다는 말입니다.",
       "scope": "問",
       "revision_history": [
         {
@@ -2352,11 +2352,20 @@
           "approval_status": "approved",
           "approval_message": "수정후보 제이슨에 반영",
           "date": "2026-09-08"
+        },
+        {
+          "pass": "targeted_type_4",
+          "previous_revision": "완성된 인격이 즉시 된다는 뜻은 아닙니다. 仁의 출발점이 외부 조건이 아니라 자신의 의지에 있다는 말입니다.",
+          "revised": "즉시 인격을 완성한다는 뜻은 아닙니다. 仁의 출발점이 외부 조건이 아니라 자신의 의지에 있다는 말입니다.",
+          "reason": "인격이 된다는 어색한 표현을 바꿉니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영",
+          "date": "2026-09-08"
         }
       ],
-      "previous_revision": "완성된 인격이 즉시 된다는 뜻은 아닙니다. 仁의 출발점이 외부 조건이 아니라 자신의 의지에 있다는 말입니다. 실천하려는 마음이 바로 가까운 출발점이라는 뜻입니다.",
+      "previous_revision": "완성된 인격이 즉시 된다는 뜻은 아닙니다. 仁의 출발점이 외부 조건이 아니라 자신의 의지에 있다는 말입니다.",
       "approval_status": "approved",
-      "last_revision_pass": "targeted_type_3"
+      "last_revision_pass": "targeted_type_4"
     },
     {
       "book": 7,
@@ -3085,9 +3094,9 @@
     "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_3",
+    "pass": "targeted_type_4",
     "reviewed": 228,
-    "approved_applied": 2,
+    "approved_applied": 1,
     "status": "approved_applied"
   }
 }

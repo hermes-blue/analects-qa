@@ -354,15 +354,29 @@
     },
     {
       "book": 14,
-      "changed": false,
+      "changed": true,
       "id": "ly-14-08",
       "index": 2,
       "key": "ly-14-08:語:2",
       "label": "能勿勞乎능물로호",
       "original": "사랑한다면 어찌 수고하게 하지 않을 수 있겠느냐는 뜻입니다. 진짜 사랑은 상대가 필요한 노력과 성장을 피하게 만드는 것과 다르다는 말입니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "사랑한다면 어찌 수고하게 하지 않을 수 있겠느냐는 뜻입니다. 진짜 사랑은 상대가 필요한 노력과 성장을 피하게 만드는 것과 다르다는 말입니다.",
-      "scope": "語"
+      "reason": "노력과 성장을 피한다는 어색한 병렬을 풀어 씁니다.",
+      "revised": "사랑한다면 어찌 수고하게 하지 않을 수 있겠느냐는 뜻입니다. 진짜 사랑은 상대가 성장하는 데 필요한 노력까지 피하게 해 주는 것이 아니라는 말입니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_4",
+          "previous_revision": "사랑한다면 어찌 수고하게 하지 않을 수 있겠느냐는 뜻입니다. 진짜 사랑은 상대가 필요한 노력과 성장을 피하게 만드는 것과 다르다는 말입니다.",
+          "revised": "사랑한다면 어찌 수고하게 하지 않을 수 있겠느냐는 뜻입니다. 진짜 사랑은 상대가 성장하는 데 필요한 노력까지 피하게 해 주는 것이 아니라는 말입니다.",
+          "reason": "노력과 성장을 피한다는 어색한 병렬을 풀어 씁니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "사랑한다면 어찌 수고하게 하지 않을 수 있겠느냐는 뜻입니다. 진짜 사랑은 상대가 필요한 노력과 성장을 피하게 만드는 것과 다르다는 말입니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_4"
     },
     {
       "book": 14,
@@ -620,15 +634,29 @@
     },
     {
       "book": 14,
-      "changed": false,
+      "changed": true,
       "id": "ly-14-12",
       "index": 5,
       "key": "ly-14-12:語:5",
       "label": "不可以爲불가이위",
       "original": "그 직책을 맡기기에는 적절하지 않다는 뜻입니다. 덕이 있다고 모든 일을 잘하는 것은 아니며, 자리와 능력의 맞음이 중요하다는 말입니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "그 직책을 맡기기에는 적절하지 않다는 뜻입니다. 덕이 있다고 모든 일을 잘하는 것은 아니며, 자리와 능력의 맞음이 중요하다는 말입니다.",
-      "scope": "語"
+      "reason": "능력의 맞음이라는 어색한 명사화를 풉니다.",
+      "revised": "그 직책을 맡기기에는 적절하지 않다는 뜻입니다. 덕이 있다고 모든 일을 잘하는 것은 아니며, 그 자리에 필요한 능력을 갖췄는지가 중요하다는 말입니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_4",
+          "previous_revision": "그 직책을 맡기기에는 적절하지 않다는 뜻입니다. 덕이 있다고 모든 일을 잘하는 것은 아니며, 자리와 능력의 맞음이 중요하다는 말입니다.",
+          "revised": "그 직책을 맡기기에는 적절하지 않다는 뜻입니다. 덕이 있다고 모든 일을 잘하는 것은 아니며, 그 자리에 필요한 능력을 갖췄는지가 중요하다는 말입니다.",
+          "reason": "능력의 맞음이라는 어색한 명사화를 풉니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "그 직책을 맡기기에는 적절하지 않다는 뜻입니다. 덕이 있다고 모든 일을 잘하는 것은 아니며, 자리와 능력의 맞음이 중요하다는 말입니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_4"
     },
     {
       "book": 14,
@@ -2460,15 +2488,29 @@
     },
     {
       "book": 14,
-      "changed": false,
+      "changed": true,
       "id": "ly-14-47",
       "index": 4,
       "key": "ly-14-47:語:4",
       "label": "居於位거어위",
       "original": "어른의 자리에 앉는 모습을 뜻합니다. 아직 배워야 할 아이가 자기 분수를 앞서 차지하는 태도를 공자님이 문제로 봅니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "어른의 자리에 앉는 모습을 뜻합니다. 아직 배워야 할 아이가 자기 분수를 앞서 차지하는 태도를 공자님이 문제로 봅니다.",
-      "scope": "語"
+      "reason": "분수를 차지한다는 어색한 목적어를 바로잡습니다.",
+      "revised": "어른의 자리에 앉는 모습을 뜻합니다. 아직 배워야 할 아이가 자기 분수에 넘는 자리를 먼저 차지하는 태도를 공자님이 문제로 봅니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_4",
+          "previous_revision": "어른의 자리에 앉는 모습을 뜻합니다. 아직 배워야 할 아이가 자기 분수를 앞서 차지하는 태도를 공자님이 문제로 봅니다.",
+          "revised": "어른의 자리에 앉는 모습을 뜻합니다. 아직 배워야 할 아이가 자기 분수에 넘는 자리를 먼저 차지하는 태도를 공자님이 문제로 봅니다.",
+          "reason": "분수를 차지한다는 어색한 목적어를 바로잡습니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "어른의 자리에 앉는 모습을 뜻합니다. 아직 배워야 할 아이가 자기 분수를 앞서 차지하는 태도를 공자님이 문제로 봅니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_4"
     },
     {
       "book": 14,
@@ -2503,9 +2545,9 @@
     "selector": "article.card details.st1 .w > p:not(.wh)"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_3",
+    "pass": "targeted_type_4",
     "reviewed": 195,
-    "approved_applied": 7,
+    "approved_applied": 3,
     "status": "approved_applied"
   }
 }

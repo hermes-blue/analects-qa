@@ -414,15 +414,29 @@
     },
     {
       "book": 10,
-      "changed": false,
+      "changed": true,
       "id": "ly-10-07",
       "index": 4,
       "key": "ly-10-07:語:4",
       "label": "變食변식",
       "original": "재계 기간에는 평소와 음식을 달리한다는 뜻입니다. 먹는 습관까지 바꾸어 마음이 일상적 욕망에서 벗어나도록 하는 의례적 장치입니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "재계 기간에는 평소와 음식을 달리한다는 뜻입니다. 먹는 습관까지 바꾸어 마음이 일상적 욕망에서 벗어나도록 하는 의례적 장치입니다.",
-      "scope": "語"
+      "reason": "의례적 장치라는 메타 표현을 덜어 냅니다.",
+      "revised": "재계 기간에는 평소와 음식을 달리한다는 뜻입니다. 먹는 습관까지 바꾸어 일상적인 욕망에서 벗어나도록 하는 의례입니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_4",
+          "previous_revision": "재계 기간에는 평소와 음식을 달리한다는 뜻입니다. 먹는 습관까지 바꾸어 마음이 일상적 욕망에서 벗어나도록 하는 의례적 장치입니다.",
+          "revised": "재계 기간에는 평소와 음식을 달리한다는 뜻입니다. 먹는 습관까지 바꾸어 일상적인 욕망에서 벗어나도록 하는 의례입니다.",
+          "reason": "의례적 장치라는 메타 표현을 덜어 냅니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "재계 기간에는 평소와 음식을 달리한다는 뜻입니다. 먹는 습관까지 바꾸어 마음이 일상적 욕망에서 벗어나도록 하는 의례적 장치입니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_4"
     },
     {
       "book": 10,
@@ -768,8 +782,8 @@
       "key": "ly-10-11:語:4",
       "label": "送之송지",
       "original": "문안을 전할 사람을 보내는 장면입니다. 상대가 보이지 않아도 예를 갖춘 것은 공경이 남의 시선을 위한 형식이 아니라 관계의 태도임을 보여 줍니다.",
-      "reason": "장면으로 분류하지 않고 표제어의 뜻을 바로 풉니다.",
-      "revised": "문안을 전할 사람을 보낸다는 뜻입니다. 상대가 보이지 않아도 예를 갖춘 것은 공경이 남의 시선을 위한 형식이 아니라 관계의 태도임을 보여 줍니다.",
+      "reason": "관계의 태도라는 어색한 명사 연결을 풉니다.",
+      "revised": "문안을 전할 사람을 보낸다는 뜻입니다. 상대가 보이지 않아도 예를 갖춘 것은 남에게 보이려고 형식만 차린 것이 아니라 상대를 공경했기 때문입니다.",
       "scope": "語",
       "revision_history": [
         {
@@ -780,11 +794,20 @@
           "approval_status": "approved",
           "approval_message": "수정후보 제이슨에 반영",
           "date": "2026-09-08"
+        },
+        {
+          "pass": "targeted_type_4",
+          "previous_revision": "문안을 전할 사람을 보낸다는 뜻입니다. 상대가 보이지 않아도 예를 갖춘 것은 공경이 남의 시선을 위한 형식이 아니라 관계의 태도임을 보여 줍니다.",
+          "revised": "문안을 전할 사람을 보낸다는 뜻입니다. 상대가 보이지 않아도 예를 갖춘 것은 남에게 보이려고 형식만 차린 것이 아니라 상대를 공경했기 때문입니다.",
+          "reason": "관계의 태도라는 어색한 명사 연결을 풉니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영",
+          "date": "2026-09-08"
         }
       ],
-      "previous_revision": "문안을 전할 사람을 보내는 장면입니다. 상대가 보이지 않아도 예를 갖춘 것은 공경이 남의 시선을 위한 형식이 아니라 관계의 태도임을 보여 줍니다.",
+      "previous_revision": "문안을 전할 사람을 보낸다는 뜻입니다. 상대가 보이지 않아도 예를 갖춘 것은 공경이 남의 시선을 위한 형식이 아니라 관계의 태도임을 보여 줍니다.",
       "approval_status": "approved",
-      "last_revision_pass": "targeted_type_3"
+      "last_revision_pass": "targeted_type_4"
     },
     {
       "book": 10,
@@ -922,15 +945,29 @@
     },
     {
       "book": 10,
-      "changed": false,
+      "changed": true,
       "id": "ly-10-13",
       "index": 3,
       "key": "ly-10-13:語:3",
       "label": "腥 必熟而薦之성 필숙이천지",
       "original": "생고기를 받으면 익혀 제사에 올렸다는 뜻입니다. 단순히 먹기보다 하사받은 물건을 조상에게도 나누는 예의 맥락으로 처리했습니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "생고기를 받으면 익혀 제사에 올렸다는 뜻입니다. 단순히 먹기보다 하사받은 물건을 조상에게도 나누는 예의 맥락으로 처리했습니다.",
-      "scope": "語"
+      "reason": "예의 맥락으로 처리했다는 메타 서술을 풉니다.",
+      "revised": "생고기를 받으면 익혀 제사에 올렸다는 뜻입니다. 하사받은 것을 자기만 먹지 않고 조상에게도 나누어 올리는 예를 지켰습니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_4",
+          "previous_revision": "생고기를 받으면 익혀 제사에 올렸다는 뜻입니다. 단순히 먹기보다 하사받은 물건을 조상에게도 나누는 예의 맥락으로 처리했습니다.",
+          "revised": "생고기를 받으면 익혀 제사에 올렸다는 뜻입니다. 하사받은 것을 자기만 먹지 않고 조상에게도 나누어 올리는 예를 지켰습니다.",
+          "reason": "예의 맥락으로 처리했다는 메타 서술을 풉니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "생고기를 받으면 익혀 제사에 올렸다는 뜻입니다. 단순히 먹기보다 하사받은 물건을 조상에게도 나누는 예의 맥락으로 처리했습니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_4"
     },
     {
       "book": 10,
@@ -1495,9 +1532,9 @@
     "selector": "article.card details.st1 .w > p:not(.wh)"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_3",
+    "pass": "targeted_type_4",
     "reviewed": 118,
-    "approved_applied": 4,
+    "approved_applied": 3,
     "status": "approved_applied"
   }
 }

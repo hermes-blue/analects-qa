@@ -228,9 +228,23 @@
       "key": "ly-08-04:語:4",
       "label": "動容貌동용모",
       "original": "몸가짐과 모습을 움직이는 방식을 말합니다. 내면의 공경이 외적인 자세로 드러나야 거칠고 거만한 태도에서 멀어질 수 있다는 뜻입니다.",
-      "reason": "뜻과 판단의 강도를 유지하며 명사형·직역식 서술·호응을 다듬음.",
-      "revised": "몸가짐과 모습을 움직이는 방식을 말합니다. 공경하는 마음이 몸가짐으로 드러나야 거칠고 거만한 태도에서 멀어질 수 있다는 뜻입니다.",
-      "scope": "語"
+      "reason": "몸가짐과 모습을 움직인다는 직역투를 풉니다.",
+      "revised": "몸을 움직이고 자세를 취하는 방식을 말합니다. 공경하는 마음이 몸가짐으로 드러나야 거칠고 거만한 태도에서 멀어질 수 있다는 뜻입니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_4",
+          "previous_revision": "몸가짐과 모습을 움직이는 방식을 말합니다. 공경하는 마음이 몸가짐으로 드러나야 거칠고 거만한 태도에서 멀어질 수 있다는 뜻입니다.",
+          "revised": "몸을 움직이고 자세를 취하는 방식을 말합니다. 공경하는 마음이 몸가짐으로 드러나야 거칠고 거만한 태도에서 멀어질 수 있다는 뜻입니다.",
+          "reason": "몸가짐과 모습을 움직인다는 직역투를 풉니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "몸가짐과 모습을 움직이는 방식을 말합니다. 공경하는 마음이 몸가짐으로 드러나야 거칠고 거만한 태도에서 멀어질 수 있다는 뜻입니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_4"
     },
     {
       "book": 8,
@@ -632,15 +646,29 @@
     },
     {
       "book": 8,
-      "changed": false,
+      "changed": true,
       "id": "ly-08-11",
       "index": 3,
       "key": "ly-08-11:語:3",
       "label": "吝린",
       "original": "재물만 아끼는 인색함보다 가진 능력과 공을 남과 나누지 않고 움켜쥐는 태도까지 포함합니다. 공적인 재능이 사적인 독점으로 바뀌는 문제를 지적합니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "재물만 아끼는 인색함보다 가진 능력과 공을 남과 나누지 않고 움켜쥐는 태도까지 포함합니다. 공적인 재능이 사적인 독점으로 바뀌는 문제를 지적합니다.",
-      "scope": "語"
+      "reason": "재능이 독점으로 바뀐다는 추상명사 서술을 풉니다.",
+      "revised": "재물만 아끼는 인색함보다 가진 능력과 공을 남과 나누지 않고 움켜쥐는 태도까지 포함합니다. 공적인 일에 써야 할 재능을 자기만을 위해 쓰는 문제를 지적합니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_4",
+          "previous_revision": "재물만 아끼는 인색함보다 가진 능력과 공을 남과 나누지 않고 움켜쥐는 태도까지 포함합니다. 공적인 재능이 사적인 독점으로 바뀌는 문제를 지적합니다.",
+          "revised": "재물만 아끼는 인색함보다 가진 능력과 공을 남과 나누지 않고 움켜쥐는 태도까지 포함합니다. 공적인 일에 써야 할 재능을 자기만을 위해 쓰는 문제를 지적합니다.",
+          "reason": "재능이 독점으로 바뀐다는 추상명사 서술을 풉니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "재물만 아끼는 인색함보다 가진 능력과 공을 남과 나누지 않고 움켜쥐는 태도까지 포함합니다. 공적인 재능이 사적인 독점으로 바뀌는 문제를 지적합니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_4"
     },
     {
       "book": 8,
@@ -1255,7 +1283,7 @@
     "selector": "article.card details.st1 .w > p:not(.wh)"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_3",
+    "pass": "targeted_type_4",
     "reviewed": 98,
     "approved_applied": 2,
     "status": "approved_applied"

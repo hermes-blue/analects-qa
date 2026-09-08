@@ -592,17 +592,31 @@
     },
     {
       "book": 1,
-      "changed": false,
+      "changed": true,
       "heading": "학이편은 왜 ‘남이 나를 알아주나’에서 ‘내가 남을 아나’로 끝날까?장간 긴장형",
       "id": "ly-01-16",
       "index": 1,
       "key": "ly-01-16:說:1:2",
       "label": "이렇게도 보면",
       "original": "16장은 그 걱정을 뒤집어 내가 다른 사람을 제대로 알아보는지를 묻습니다. 편의 끝에서 관심이 인정받는 문제에서 판단하는 책임으로 이동합니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "16장은 그 걱정을 뒤집어 내가 다른 사람을 제대로 알아보는지를 묻습니다. 편의 끝에서 관심이 인정받는 문제에서 판단하는 책임으로 이동합니다.",
+      "reason": "관심이 이동한다는 추상명사 주어를 당부하는 말로 풉니다.",
+      "revised": "16장은 그 걱정을 뒤집어 내가 다른 사람을 제대로 알아보는지를 묻습니다. 편의 끝에서는 인정받는 일보다 사람을 판단하는 책임에 관심을 두라고 합니다.",
       "scope": "說",
-      "side": 2
+      "side": 2,
+      "revision_history": [
+        {
+          "pass": "targeted_type_4",
+          "previous_revision": "16장은 그 걱정을 뒤집어 내가 다른 사람을 제대로 알아보는지를 묻습니다. 편의 끝에서 관심이 인정받는 문제에서 판단하는 책임으로 이동합니다.",
+          "revised": "16장은 그 걱정을 뒤집어 내가 다른 사람을 제대로 알아보는지를 묻습니다. 편의 끝에서는 인정받는 일보다 사람을 판단하는 책임에 관심을 두라고 합니다.",
+          "reason": "관심이 이동한다는 추상명사 주어를 당부하는 말로 풉니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "16장은 그 걱정을 뒤집어 내가 다른 사람을 제대로 알아보는지를 묻습니다. 편의 끝에서 관심이 인정받는 문제에서 판단하는 책임으로 이동합니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_4"
     }
   ],
   "method": "문체 패턴으로 후보를 찾고 후보 문장의 표현과 문맥을 검토하는 선별 교정. 내용 검수는 하지 않음.",
@@ -625,7 +639,7 @@
     "selector": "article.card details.st3 .js .side > p"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_3",
+    "pass": "targeted_type_4",
     "reviewed": 40,
     "approved_applied": 1,
     "status": "approved_applied"

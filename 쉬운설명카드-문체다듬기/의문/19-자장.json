@@ -161,16 +161,30 @@
     },
     {
       "book": 19,
-      "changed": false,
+      "changed": true,
       "field": "답변",
       "id": "ly-19-02",
       "index": 3,
       "key": "ly-19-02:問:3:a",
       "label": "답변",
       "original": "그 사람이 있어도 공동체나 도의 실천에 별 영향을 주지 못한다는 뜻입니다. 덕은 좁고 道에 대한 믿음도 약하다면 존재의 무게가 크지 않다는 강한 비판입니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "그 사람이 있어도 공동체나 도의 실천에 별 영향을 주지 못한다는 뜻입니다. 덕은 좁고 道에 대한 믿음도 약하다면 존재의 무게가 크지 않다는 강한 비판입니다.",
-      "scope": "問"
+      "reason": "막연한 비유 ‘존재의 무게’를 앞 문장의 뜻에 맞게 풀어 씀",
+      "revised": "그 사람이 있어도 공동체나 도의 실천에 별 영향을 주지 못한다는 뜻입니다. 덕을 널리 펴지 못하고 道에 대한 믿음도 약하다면 그 사람이 있으나 없으나 큰 차이가 없다는 강한 비판입니다.",
+      "scope": "問",
+      "revision_history": [
+        {
+          "pass": "targeted_type_4",
+          "previous_revision": "그 사람이 있어도 공동체나 도의 실천에 별 영향을 주지 못한다는 뜻입니다. 덕은 좁고 道에 대한 믿음도 약하다면 존재의 무게가 크지 않다는 강한 비판입니다.",
+          "revised": "그 사람이 있어도 공동체나 도의 실천에 별 영향을 주지 못한다는 뜻입니다. 덕을 널리 펴지 못하고 道에 대한 믿음도 약하다면 그 사람이 있으나 없으나 큰 차이가 없다는 강한 비판입니다.",
+          "reason": "막연한 비유 ‘존재의 무게’를 앞 문장의 뜻에 맞게 풀어 씀",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "그 사람이 있어도 공동체나 도의 실천에 별 영향을 주지 못한다는 뜻입니다. 덕은 좁고 道에 대한 믿음도 약하다면 존재의 무게가 크지 않다는 강한 비판입니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_4"
     },
     {
       "book": 19,
@@ -1189,16 +1203,30 @@
     },
     {
       "book": 19,
-      "changed": false,
+      "changed": true,
       "field": "답변",
       "id": "ly-19-15",
       "index": 3,
       "key": "ly-19-15:問:3:a",
       "label": "답변",
       "original": "자장은 높은 이상과 눈에 띄는 행실이 강점이었지만 그만큼 내면의 충실함이 따라야 한다는 비판이 이어지기 때문입니다. 외적 규모와 내적 仁을 구분한 것입니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "자장은 높은 이상과 눈에 띄는 행실이 강점이었지만 그만큼 내면의 충실함이 따라야 한다는 비판이 이어지기 때문입니다. 외적 규모와 내적 仁을 구분한 것입니다.",
-      "scope": "問"
+      "reason": "사람의 행실을 ‘외적 규모’로 표현한 번역투 수정",
+      "revised": "자장은 높은 이상과 눈에 띄는 행실이 강점이었지만 그만큼 내면의 충실함이 따라야 한다는 비판이 이어지기 때문입니다. 겉으로 드러나는 뛰어난 행실과 마음속의 仁을 구분한 것입니다.",
+      "scope": "問",
+      "revision_history": [
+        {
+          "pass": "targeted_type_4",
+          "previous_revision": "자장은 높은 이상과 눈에 띄는 행실이 강점이었지만 그만큼 내면의 충실함이 따라야 한다는 비판이 이어지기 때문입니다. 외적 규모와 내적 仁을 구분한 것입니다.",
+          "revised": "자장은 높은 이상과 눈에 띄는 행실이 강점이었지만 그만큼 내면의 충실함이 따라야 한다는 비판이 이어지기 때문입니다. 겉으로 드러나는 뛰어난 행실과 마음속의 仁을 구분한 것입니다.",
+          "reason": "사람의 행실을 ‘외적 규모’로 표현한 번역투 수정",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "자장은 높은 이상과 눈에 띄는 행실이 강점이었지만 그만큼 내면의 충실함이 따라야 한다는 비판이 이어지기 때문입니다. 외적 규모와 내적 仁을 구분한 것입니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_4"
     },
     {
       "book": 19,
@@ -2015,9 +2043,9 @@
     "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_3",
+    "pass": "targeted_type_4",
     "reviewed": 150,
-    "approved_applied": 1,
+    "approved_applied": 2,
     "status": "approved_applied"
   }
 }

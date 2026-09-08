@@ -564,15 +564,29 @@
     },
     {
       "book": 19,
-      "changed": false,
+      "changed": true,
       "id": "ly-19-10",
       "index": 2,
       "key": "ly-19-10:語:2",
       "label": "未信則以爲厲己미신즉이위려기",
       "original": "아직 믿지 않는데 일을 시키면 자신을 괴롭힌다고 여긴다는 뜻입니다. 명령의 정당성도 관계의 신뢰 위에서 작동한다는 말입니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "아직 믿지 않는데 일을 시키면 자신을 괴롭힌다고 여긴다는 뜻입니다. 명령의 정당성도 관계의 신뢰 위에서 작동한다는 말입니다.",
-      "scope": "語"
+      "reason": "‘의’로 연결한 추상명사와 ‘작동한다’는 번역투를 풀어 씀",
+      "revised": "아직 믿지 않는데 일을 시키면 자신을 괴롭힌다고 여긴다는 뜻입니다. 서로 신뢰해야 상대도 명령을 정당하게 받아들일 수 있다는 말입니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_4",
+          "previous_revision": "아직 믿지 않는데 일을 시키면 자신을 괴롭힌다고 여긴다는 뜻입니다. 명령의 정당성도 관계의 신뢰 위에서 작동한다는 말입니다.",
+          "revised": "아직 믿지 않는데 일을 시키면 자신을 괴롭힌다고 여긴다는 뜻입니다. 서로 신뢰해야 상대도 명령을 정당하게 받아들일 수 있다는 말입니다.",
+          "reason": "‘의’로 연결한 추상명사와 ‘작동한다’는 번역투를 풀어 씀",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "아직 믿지 않는데 일을 시키면 자신을 괴롭힌다고 여긴다는 뜻입니다. 명령의 정당성도 관계의 신뢰 위에서 작동한다는 말입니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_4"
     },
     {
       "book": 19,
@@ -854,15 +868,29 @@
     },
     {
       "book": 19,
-      "changed": false,
+      "changed": true,
       "id": "ly-19-15",
       "index": 3,
       "key": "ly-19-15:語:3",
       "label": "然而未仁연이미인",
       "original": "그럼에도 아직 仁에는 이르지 못했다는 뜻입니다. 눈에 띄는 능력과 높은 행동만으로 마음의 깊이까지 완성되는 것은 아니라고 봅니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "그럼에도 아직 仁에는 이르지 못했다는 뜻입니다. 눈에 띄는 능력과 높은 행동만으로 마음의 깊이까지 완성되는 것은 아니라고 봅니다.",
-      "scope": "語"
+      "reason": "‘높은 행동’과 ‘마음의 깊이를 완성하다’라는 부자연스러운 결합 수정",
+      "revised": "그럼에도 아직 仁에는 이르지 못했다는 뜻입니다. 뛰어난 능력을 보이고 어려운 일을 해냈다고 해서 마음까지 깊어진 것은 아니라고 봅니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_4",
+          "previous_revision": "그럼에도 아직 仁에는 이르지 못했다는 뜻입니다. 눈에 띄는 능력과 높은 행동만으로 마음의 깊이까지 완성되는 것은 아니라고 봅니다.",
+          "revised": "그럼에도 아직 仁에는 이르지 못했다는 뜻입니다. 뛰어난 능력을 보이고 어려운 일을 해냈다고 해서 마음까지 깊어진 것은 아니라고 봅니다.",
+          "reason": "‘높은 행동’과 ‘마음의 깊이를 완성하다’라는 부자연스러운 결합 수정",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "그럼에도 아직 仁에는 이르지 못했다는 뜻입니다. 눈에 띄는 능력과 높은 행동만으로 마음의 깊이까지 완성되는 것은 아니라고 봅니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_4"
     },
     {
       "book": 19,
@@ -950,15 +978,29 @@
     },
     {
       "book": 19,
-      "changed": false,
+      "changed": true,
       "id": "ly-19-17",
       "index": 3,
       "key": "ly-19-17:語:3",
       "label": "自致자치",
       "original": "자기 마음과 감정을 스스로 끝까지 다한다는 뜻입니다. 억지로 꾸민 표현이 아니라 저절로 나오는 진심의 강도를 말합니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "자기 마음과 감정을 스스로 끝까지 다한다는 뜻입니다. 억지로 꾸민 표현이 아니라 저절로 나오는 진심의 강도를 말합니다.",
-      "scope": "語"
+      "reason": "진심을 ‘강도’로 표현한 번역투 수정",
+      "revised": "자기 마음과 감정을 스스로 끝까지 다한다는 뜻입니다. 억지로 꾸민 표현이 아니라 저절로 우러나는 진심이 얼마나 깊은지를 말합니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_4",
+          "previous_revision": "자기 마음과 감정을 스스로 끝까지 다한다는 뜻입니다. 억지로 꾸민 표현이 아니라 저절로 나오는 진심의 강도를 말합니다.",
+          "revised": "자기 마음과 감정을 스스로 끝까지 다한다는 뜻입니다. 억지로 꾸민 표현이 아니라 저절로 우러나는 진심이 얼마나 깊은지를 말합니다.",
+          "reason": "진심을 ‘강도’로 표현한 번역투 수정",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "자기 마음과 감정을 스스로 끝까지 다한다는 뜻입니다. 억지로 꾸민 표현이 아니라 저절로 나오는 진심의 강도를 말합니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_4"
     },
     {
       "book": 19,
@@ -1503,7 +1545,7 @@
     "selector": "article.card details.st1 .w > p:not(.wh)"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_3",
+    "pass": "targeted_type_4",
     "reviewed": 114,
     "approved_applied": 3,
     "status": "approved_applied"

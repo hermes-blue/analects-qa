@@ -578,17 +578,31 @@
     },
     {
       "book": 3,
-      "changed": false,
+      "changed": true,
       "heading": "유교의 군신관계는 신하의 복종만 요구했을까?적용 한계형",
       "id": "ly-03-19",
       "index": 1,
       "key": "ly-03-19:說:1:2",
       "label": "이렇게도 보면",
       "original": "같은 문장 앞에는 군주가 신하를 예로 대해야 한다는 조건이 붙습니다. 군주와 신하가 서로 다른 의무를 지는 상호 관계로 제시됩니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "같은 문장 앞에는 군주가 신하를 예로 대해야 한다는 조건이 붙습니다. 군주와 신하가 서로 다른 의무를 지는 상호 관계로 제시됩니다.",
+      "reason": "상호 관계로 제시된다는 추상적 피동 표현을 직접 풉니다.",
+      "revised": "같은 문장 앞에는 군주가 신하를 예로 대해야 한다는 조건이 붙습니다. 군주와 신하 모두 각자의 의무를 져야 한다는 뜻입니다.",
       "scope": "說",
-      "side": 2
+      "side": 2,
+      "revision_history": [
+        {
+          "pass": "targeted_type_4",
+          "previous_revision": "같은 문장 앞에는 군주가 신하를 예로 대해야 한다는 조건이 붙습니다. 군주와 신하가 서로 다른 의무를 지는 상호 관계로 제시됩니다.",
+          "revised": "같은 문장 앞에는 군주가 신하를 예로 대해야 한다는 조건이 붙습니다. 군주와 신하 모두 각자의 의무를 져야 한다는 뜻입니다.",
+          "reason": "상호 관계로 제시된다는 추상적 피동 표현을 직접 풉니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "같은 문장 앞에는 군주가 신하를 예로 대해야 한다는 조건이 붙습니다. 군주와 신하가 서로 다른 의무를 지는 상호 관계로 제시됩니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_4"
     },
     {
       "book": 3,
@@ -774,17 +788,31 @@
     },
     {
       "book": 3,
-      "changed": false,
+      "changed": true,
       "heading": "아름다운 예술과 좋은 예술은 같은 말일까?문장 안 긴장형",
       "id": "ly-03-25",
       "index": 1,
       "key": "ly-03-25:說:1:2",
       "label": "이렇게도 보면",
       "original": "그런데 ‘선함’은 완전하지 않다고 따로 평가합니다. 작품이 아름다워도 그 배경과 메시지의 도덕적 정당성은 별개의 기준이 될 수 있다는 구분입니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "그런데 ‘선함’은 완전하지 않다고 따로 평가합니다. 작품이 아름다워도 그 배경과 메시지의 도덕적 정당성은 별개의 기준이 될 수 있다는 구분입니다.",
+      "reason": "메시지의 도덕적 정당성과 구분이라는 명사 연결을 판단하는 말로 풉니다.",
+      "revised": "그런데 ‘선함’은 완전하지 않다고 따로 평가합니다. 작품이 아름다운지와 그 배경이나 전하려는 뜻이 도덕적으로 정당한지는 따로 판단할 수 있다는 뜻입니다.",
       "scope": "說",
-      "side": 2
+      "side": 2,
+      "revision_history": [
+        {
+          "pass": "targeted_type_4",
+          "previous_revision": "그런데 ‘선함’은 완전하지 않다고 따로 평가합니다. 작품이 아름다워도 그 배경과 메시지의 도덕적 정당성은 별개의 기준이 될 수 있다는 구분입니다.",
+          "revised": "그런데 ‘선함’은 완전하지 않다고 따로 평가합니다. 작품이 아름다운지와 그 배경이나 전하려는 뜻이 도덕적으로 정당한지는 따로 판단할 수 있다는 뜻입니다.",
+          "reason": "메시지의 도덕적 정당성과 구분이라는 명사 연결을 판단하는 말로 풉니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "그런데 ‘선함’은 완전하지 않다고 따로 평가합니다. 작품이 아름다워도 그 배경과 메시지의 도덕적 정당성은 별개의 기준이 될 수 있다는 구분입니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_4"
     },
     {
       "book": 3,
@@ -835,7 +863,7 @@
     "selector": "article.card details.st3 .js .side > p"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_2",
+    "pass": "targeted_type_4",
     "reviewed": 54,
     "approved_applied": 2,
     "status": "approved_applied"

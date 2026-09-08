@@ -144,17 +144,31 @@
     },
     {
       "book": 7,
-      "changed": false,
+      "changed": true,
       "heading": "‘쇠한 지 오래되었습니다’ vs ‘주공을 꿈꾸지 못한 지 오래되었습니다’久矣의 연결",
       "id": "ly-07-05",
       "index": 1,
       "key": "ly-07-05:說:1:2",
       "label": "후대 통행 구두",
       "original": "‘久矣’를 뒤 문장에 붙여 읽습니다. 핵심 탄식이 ‘주공을 꿈에서 못 본 지 오래되었다’는 데 더 강하게 실립니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "‘久矣’를 뒤 문장에 붙여 읽습니다. 핵심 탄식이 ‘주공을 꿈에서 못 본 지 오래되었다’는 데 더 강하게 실립니다.",
+      "reason": "탄식이 실린다는 어색한 표현을 바꿉니다.",
+      "revised": "‘久矣’를 뒤 문장에 붙여 읽습니다. 공자님이 ‘주공을 꿈에서 못 본 지 오래되었다’고 탄식한 뜻이 더 강해집니다.",
       "scope": "說",
-      "side": 2
+      "side": 2,
+      "revision_history": [
+        {
+          "pass": "targeted_type_4",
+          "previous_revision": "‘久矣’를 뒤 문장에 붙여 읽습니다. 핵심 탄식이 ‘주공을 꿈에서 못 본 지 오래되었다’는 데 더 강하게 실립니다.",
+          "revised": "‘久矣’를 뒤 문장에 붙여 읽습니다. 공자님이 ‘주공을 꿈에서 못 본 지 오래되었다’고 탄식한 뜻이 더 강해집니다.",
+          "reason": "탄식이 실린다는 어색한 표현을 바꿉니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "‘久矣’를 뒤 문장에 붙여 읽습니다. 핵심 탄식이 ‘주공을 꿈에서 못 본 지 오래되었다’는 데 더 강하게 실립니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_4"
     },
     {
       "book": 7,
@@ -1227,9 +1241,9 @@
     "selector": "article.card details.st3 .js .side > p"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_3",
+    "pass": "targeted_type_4",
     "reviewed": 79,
-    "approved_applied": 7,
+    "approved_applied": 1,
     "status": "approved_applied"
   }
 }

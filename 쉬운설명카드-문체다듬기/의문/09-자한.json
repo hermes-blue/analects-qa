@@ -1359,16 +1359,30 @@
     },
     {
       "book": 9,
-      "changed": false,
+      "changed": true,
       "field": "답변",
       "id": "ly-09-16",
       "index": 3,
       "key": "ly-09-16:問:3:a",
       "label": "답변",
       "original": "흐름이 잠시도 끊기지 않는다는 점을 강조합니다. 변화와 시간은 인간이 멈출 수 없으므로, 삶의 방향을 미루지 말고 계속 닦아 가야 한다는 긴장감을 줍니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "흐름이 잠시도 끊기지 않는다는 점을 강조합니다. 변화와 시간은 인간이 멈출 수 없으므로, 삶의 방향을 미루지 말고 계속 닦아 가야 한다는 긴장감을 줍니다.",
-      "scope": "問"
+      "reason": "방향을 미룬다는 어색한 목적어와 생략된 수양 대상을 바로잡습니다.",
+      "revised": "흐름이 잠시도 끊기지 않는다는 점을 강조합니다. 변화와 시간은 인간이 멈출 수 없으므로, 삶의 방향을 정하는 일을 미루지 말고 계속 자신을 닦아 가야 한다는 긴장감을 줍니다.",
+      "scope": "問",
+      "revision_history": [
+        {
+          "pass": "targeted_type_4",
+          "previous_revision": "흐름이 잠시도 끊기지 않는다는 점을 강조합니다. 변화와 시간은 인간이 멈출 수 없으므로, 삶의 방향을 미루지 말고 계속 닦아 가야 한다는 긴장감을 줍니다.",
+          "revised": "흐름이 잠시도 끊기지 않는다는 점을 강조합니다. 변화와 시간은 인간이 멈출 수 없으므로, 삶의 방향을 정하는 일을 미루지 말고 계속 자신을 닦아 가야 한다는 긴장감을 줍니다.",
+          "reason": "방향을 미룬다는 어색한 목적어와 생략된 수양 대상을 바로잡습니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "흐름이 잠시도 끊기지 않는다는 점을 강조합니다. 변화와 시간은 인간이 멈출 수 없으므로, 삶의 방향을 미루지 말고 계속 닦아 가야 한다는 긴장감을 줍니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_4"
     },
     {
       "book": 9,
@@ -2539,7 +2553,7 @@
     "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_3",
+    "pass": "targeted_type_4",
     "reviewed": 186,
     "approved_applied": 1,
     "status": "approved_applied"

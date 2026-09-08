@@ -891,16 +891,30 @@
     },
     {
       "book": 13,
-      "changed": false,
+      "changed": true,
       "field": "답변",
       "id": "ly-13-11",
       "index": 3,
       "key": "ly-13-11:問:3:a",
       "label": "답변",
       "original": "그렇습니다. 지도자 한 사람의 선의만으로 사회가 즉시 바뀐다고 보지 않았습니다. 제도와 풍속이 누적되어 변하려면 장기간의 일관된 정치가 필요하다는 인식입니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "그렇습니다. 지도자 한 사람의 선의만으로 사회가 즉시 바뀐다고 보지 않았습니다. 제도와 풍속이 누적되어 변하려면 장기간의 일관된 정치가 필요하다는 인식입니다.",
-      "scope": "問"
+      "reason": "제도와 풍속이 누적된다는 어색한 서술을 풉니다.",
+      "revised": "그렇습니다. 지도자 한 사람의 선의만으로 사회가 즉시 바뀐다고 보지 않았습니다. 제도와 풍속을 조금씩 바꾸어 가려면 오랫동안 일관되게 다스려야 한다는 뜻입니다.",
+      "scope": "問",
+      "revision_history": [
+        {
+          "pass": "targeted_type_4",
+          "previous_revision": "그렇습니다. 지도자 한 사람의 선의만으로 사회가 즉시 바뀐다고 보지 않았습니다. 제도와 풍속이 누적되어 변하려면 장기간의 일관된 정치가 필요하다는 인식입니다.",
+          "revised": "그렇습니다. 지도자 한 사람의 선의만으로 사회가 즉시 바뀐다고 보지 않았습니다. 제도와 풍속을 조금씩 바꾸어 가려면 오랫동안 일관되게 다스려야 한다는 뜻입니다.",
+          "reason": "제도와 풍속이 누적된다는 어색한 서술을 풉니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "그렇습니다. 지도자 한 사람의 선의만으로 사회가 즉시 바뀐다고 보지 않았습니다. 제도와 풍속이 누적되어 변하려면 장기간의 일관된 정치가 필요하다는 인식입니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_4"
     },
     {
       "book": 13,
@@ -2498,9 +2512,9 @@
     "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_3",
+    "pass": "targeted_type_4",
     "reviewed": 180,
-    "approved_applied": 2,
+    "approved_applied": 1,
     "status": "approved_applied"
   }
 }

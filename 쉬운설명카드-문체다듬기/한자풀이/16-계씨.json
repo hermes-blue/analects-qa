@@ -208,15 +208,29 @@
     },
     {
       "book": 16,
-      "changed": false,
+      "changed": true,
       "id": "ly-16-04",
       "index": 4,
       "key": "ly-16-04:語:4",
       "label": "友多聞우다문",
       "original": "견문이 넓은 사람과 사귄다는 뜻입니다. 자신이 모르는 세계와 지식을 넓혀 주는 친구의 역할을 말합니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "견문이 넓은 사람과 사귄다는 뜻입니다. 자신이 모르는 세계와 지식을 넓혀 주는 친구의 역할을 말합니다.",
-      "scope": "語"
+      "reason": "‘모르는 세계를 넓히다’라는 어색한 목적어·서술어 결합 수정",
+      "revised": "견문이 넓은 사람과 사귄다는 뜻입니다. 자신이 몰랐던 세계를 알려 주고 지식을 넓혀 주는 친구의 역할을 말합니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_4",
+          "previous_revision": "견문이 넓은 사람과 사귄다는 뜻입니다. 자신이 모르는 세계와 지식을 넓혀 주는 친구의 역할을 말합니다.",
+          "revised": "견문이 넓은 사람과 사귄다는 뜻입니다. 자신이 몰랐던 세계를 알려 주고 지식을 넓혀 주는 친구의 역할을 말합니다.",
+          "reason": "‘모르는 세계를 넓히다’라는 어색한 목적어·서술어 결합 수정",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "견문이 넓은 사람과 사귄다는 뜻입니다. 자신이 모르는 세계와 지식을 넓혀 주는 친구의 역할을 말합니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_4"
     },
     {
       "book": 16,
@@ -594,15 +608,29 @@
     },
     {
       "book": 16,
-      "changed": false,
+      "changed": true,
       "id": "ly-16-10",
       "index": 5,
       "key": "ly-16-10:語:5",
       "label": "見得思義견득사의",
       "original": "이익을 얻을 기회를 보면 먼저 義에 맞는지 생각하라는 뜻입니다. 욕망이 앞서기 쉬운 순간에 도덕적 판단을 끼워 넣는 습관입니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "이익을 얻을 기회를 보면 먼저 義에 맞는지 생각하라는 뜻입니다. 욕망이 앞서기 쉬운 순간에 도덕적 판단을 끼워 넣는 습관입니다.",
-      "scope": "語"
+      "reason": "판단을 ‘끼워 넣는다’는 기계적인 표현 수정",
+      "revised": "이익을 얻을 기회를 보면 먼저 義에 맞는지 생각하라는 뜻입니다. 욕망이 앞서기 쉬운 순간에도 옳고 그름을 먼저 따지는 습관입니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_4",
+          "previous_revision": "이익을 얻을 기회를 보면 먼저 義에 맞는지 생각하라는 뜻입니다. 욕망이 앞서기 쉬운 순간에 도덕적 판단을 끼워 넣는 습관입니다.",
+          "revised": "이익을 얻을 기회를 보면 먼저 義에 맞는지 생각하라는 뜻입니다. 욕망이 앞서기 쉬운 순간에도 옳고 그름을 먼저 따지는 습관입니다.",
+          "reason": "판단을 ‘끼워 넣는다’는 기계적인 표현 수정",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "이익을 얻을 기회를 보면 먼저 義에 맞는지 생각하라는 뜻입니다. 욕망이 앞서기 쉬운 순간에 도덕적 판단을 끼워 넣는 습관입니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_4"
     },
     {
       "book": 16,
@@ -728,15 +756,29 @@
     },
     {
       "book": 16,
-      "changed": false,
+      "changed": true,
       "id": "ly-16-12",
       "index": 5,
       "key": "ly-16-12:語:5",
       "label": "民到于今稱之민도우금칭지",
       "original": "백성이 지금까지도 그들을 칭송한다는 뜻입니다. 사람을 오래 남기는 것은 재산보다 삶의 기준과 덕이라는 결론입니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "백성이 지금까지도 그들을 칭송한다는 뜻입니다. 사람을 오래 남기는 것은 재산보다 삶의 기준과 덕이라는 결론입니다.",
-      "scope": "語"
+      "reason": "추상명사가 사람을 ‘남긴다’는 부자연스러운 표현 수정",
+      "revised": "백성이 지금까지도 그들을 칭송한다는 뜻입니다. 사람이 오래 기억되는 것은 재산보다 그가 지킨 삶의 기준과 덕 때문이라는 결론입니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_4",
+          "previous_revision": "백성이 지금까지도 그들을 칭송한다는 뜻입니다. 사람을 오래 남기는 것은 재산보다 삶의 기준과 덕이라는 결론입니다.",
+          "revised": "백성이 지금까지도 그들을 칭송한다는 뜻입니다. 사람이 오래 기억되는 것은 재산보다 그가 지킨 삶의 기준과 덕 때문이라는 결론입니다.",
+          "reason": "추상명사가 사람을 ‘남긴다’는 부자연스러운 표현 수정",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "백성이 지금까지도 그들을 칭송한다는 뜻입니다. 사람을 오래 남기는 것은 재산보다 삶의 기준과 덕이라는 결론입니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_4"
     },
     {
       "book": 16,
@@ -879,9 +921,9 @@
     "selector": "article.card details.st1 .w > p:not(.wh)"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_3",
+    "pass": "targeted_type_4",
     "reviewed": 69,
-    "approved_applied": 1,
+    "approved_applied": 3,
     "status": "approved_applied"
   }
 }

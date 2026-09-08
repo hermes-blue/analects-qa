@@ -1151,16 +1151,30 @@
     },
     {
       "book": 4,
-      "changed": false,
+      "changed": true,
       "field": "답변",
       "id": "ly-04-15",
       "index": 1,
       "key": "ly-04-15:問:1:a",
       "label": "답변",
       "original": "본문에서 공자님이 직접 그 하나를 설명하지는 않습니다. 이어 증자가 제자들에게 ‘夫子之道 忠恕而已矣’라고 풀이하므로, 전통적으로 忠과 恕를 통해 공자님의 도가 일관되게 관통된다고 이해합니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "본문에서 공자님이 직접 그 하나를 설명하지는 않습니다. 이어 증자가 제자들에게 ‘夫子之道 忠恕而已矣’라고 풀이하므로, 전통적으로 忠과 恕를 통해 공자님의 도가 일관되게 관통된다고 이해합니다.",
-      "scope": "問"
+      "reason": "도가 관통된다는 어색한 피동 표현을 풉니다.",
+      "revised": "본문에서 공자님이 직접 그 하나를 설명하지는 않습니다. 이어 증자가 제자들에게 ‘夫子之道 忠恕而已矣’라고 풀이하므로, 전통적으로 忠과 恕가 공자님의 도를 하나로 꿰는 원리라고 이해합니다.",
+      "scope": "問",
+      "revision_history": [
+        {
+          "pass": "targeted_type_4",
+          "previous_revision": "본문에서 공자님이 직접 그 하나를 설명하지는 않습니다. 이어 증자가 제자들에게 ‘夫子之道 忠恕而已矣’라고 풀이하므로, 전통적으로 忠과 恕를 통해 공자님의 도가 일관되게 관통된다고 이해합니다.",
+          "revised": "본문에서 공자님이 직접 그 하나를 설명하지는 않습니다. 이어 증자가 제자들에게 ‘夫子之道 忠恕而已矣’라고 풀이하므로, 전통적으로 忠과 恕가 공자님의 도를 하나로 꿰는 원리라고 이해합니다.",
+          "reason": "도가 관통된다는 어색한 피동 표현을 풉니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "본문에서 공자님이 직접 그 하나를 설명하지는 않습니다. 이어 증자가 제자들에게 ‘夫子之道 忠恕而已矣’라고 풀이하므로, 전통적으로 忠과 恕를 통해 공자님의 도가 일관되게 관통된다고 이해합니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_4"
     },
     {
       "book": 4,
@@ -2135,7 +2149,7 @@
     "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_3",
+    "pass": "targeted_type_4",
     "reviewed": 156,
     "approved_applied": 1,
     "status": "approved_applied"

@@ -1063,17 +1063,31 @@
     },
     {
       "book": 14,
-      "changed": false,
+      "changed": true,
       "heading": "나를 해친 사람에게도 덕으로 갚아야 할까?본문 속 논쟁형",
       "id": "ly-14-36",
       "index": 1,
       "key": "ly-14-36:說:1:1",
       "label": "이렇게 보면",
       "original": "누군가는 원한까지 덕으로 갚는 것이 더 높은 도덕인지 묻습니다. 해를 선으로 되돌려 관계를 넘어서는 선택입니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "누군가는 원한까지 덕으로 갚는 것이 더 높은 도덕인지 묻습니다. 해를 선으로 되돌려 관계를 넘어서는 선택입니다.",
+      "reason": "해를 선으로 되돌려 관계를 넘어선다는 모호한 표현을 풉니다.",
+      "revised": "누군가는 원한까지 덕으로 갚는 것이 더 높은 도덕인지 묻습니다. 해를 입어도 상대에게 선을 베풀어 원한을 넘어서려는 선택입니다.",
       "scope": "說",
-      "side": 1
+      "side": 1,
+      "revision_history": [
+        {
+          "pass": "targeted_type_4",
+          "previous_revision": "누군가는 원한까지 덕으로 갚는 것이 더 높은 도덕인지 묻습니다. 해를 선으로 되돌려 관계를 넘어서는 선택입니다.",
+          "revised": "누군가는 원한까지 덕으로 갚는 것이 더 높은 도덕인지 묻습니다. 해를 입어도 상대에게 선을 베풀어 원한을 넘어서려는 선택입니다.",
+          "reason": "해를 선으로 되돌려 관계를 넘어선다는 모호한 표현을 풉니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "누군가는 원한까지 덕으로 갚는 것이 더 높은 도덕인지 묻습니다. 해를 선으로 되돌려 관계를 넘어서는 선택입니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_4"
     },
     {
       "book": 14,
@@ -1446,7 +1460,7 @@
     "selector": "article.card details.st3 .js .side > p"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_3",
+    "pass": "targeted_type_4",
     "reviewed": 99,
     "approved_applied": 1,
     "status": "approved_applied"

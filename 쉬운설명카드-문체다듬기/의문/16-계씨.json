@@ -187,16 +187,30 @@
     },
     {
       "book": 16,
-      "changed": false,
+      "changed": true,
       "field": "답변",
       "id": "ly-16-03",
       "index": 1,
       "key": "ly-16-03:問:1:a",
       "label": "답변",
       "original": "노나라 임금이 실질적인 재정과 정치 권한을 잃고 삼환 같은 대부 가문이 권력을 장악한 지 오래되었다는 뜻입니다. 공실의 약화가 누적된 상황을 지적한 말입니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "노나라 임금이 실질적인 재정과 정치 권한을 잃고 삼환 같은 대부 가문이 권력을 장악한 지 오래되었다는 뜻입니다. 공실의 약화가 누적된 상황을 지적한 말입니다.",
-      "scope": "問"
+      "reason": "‘약화가 누적되다’라는 추상명사 결합을 풀어 씀",
+      "revised": "노나라 임금이 실질적인 재정과 정치 권한을 잃고 삼환 같은 대부 가문이 권력을 장악한 지 오래되었다는 뜻입니다. 공실이 오랫동안 점점 약해져 온 상황을 지적한 말입니다.",
+      "scope": "問",
+      "revision_history": [
+        {
+          "pass": "targeted_type_4",
+          "previous_revision": "노나라 임금이 실질적인 재정과 정치 권한을 잃고 삼환 같은 대부 가문이 권력을 장악한 지 오래되었다는 뜻입니다. 공실의 약화가 누적된 상황을 지적한 말입니다.",
+          "revised": "노나라 임금이 실질적인 재정과 정치 권한을 잃고 삼환 같은 대부 가문이 권력을 장악한 지 오래되었다는 뜻입니다. 공실이 오랫동안 점점 약해져 온 상황을 지적한 말입니다.",
+          "reason": "‘약화가 누적되다’라는 추상명사 결합을 풀어 씀",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "노나라 임금이 실질적인 재정과 정치 권한을 잃고 삼환 같은 대부 가문이 권력을 장악한 지 오래되었다는 뜻입니다. 공실의 약화가 누적된 상황을 지적한 말입니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_4"
     },
     {
       "book": 16,
@@ -1143,9 +1157,9 @@
     "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_2",
+    "pass": "targeted_type_4",
     "reviewed": 84,
-    "approved_applied": 2,
+    "approved_applied": 1,
     "status": "approved_applied"
   }
 }

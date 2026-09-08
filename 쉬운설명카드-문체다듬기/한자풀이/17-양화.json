@@ -258,15 +258,29 @@
     },
     {
       "book": 17,
-      "changed": false,
+      "changed": true,
       "id": "ly-17-05",
       "index": 3,
       "key": "ly-17-05:語:3",
       "label": "子欲往자욕왕",
       "original": "공자님이 가려고 했다는 표현입니다. 실제로 끝내 가지 않았으며, 어떤 사람도 바뀔 가능성과 정치적 기회를 완전히 닫지 않는 태도로 풀이됩니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "공자님이 가려고 했다는 표현입니다. 실제로 끝내 가지 않았으며, 어떤 사람도 바뀔 가능성과 정치적 기회를 완전히 닫지 않는 태도로 풀이됩니다.",
-      "scope": "語"
+      "reason": "가능성과 기회를 ‘닫는다’는 명사 나열을 풀어 씀",
+      "revised": "공자님이 가려고 했다는 표현입니다. 실제로 끝내 가지 않았으며, 어떤 사람이든 바뀔 수 있고 바른 정치를 펼칠 기회도 있을 수 있다고 여기는 태도로 풀이됩니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_4",
+          "previous_revision": "공자님이 가려고 했다는 표현입니다. 실제로 끝내 가지 않았으며, 어떤 사람도 바뀔 가능성과 정치적 기회를 완전히 닫지 않는 태도로 풀이됩니다.",
+          "revised": "공자님이 가려고 했다는 표현입니다. 실제로 끝내 가지 않았으며, 어떤 사람이든 바뀔 수 있고 바른 정치를 펼칠 기회도 있을 수 있다고 여기는 태도로 풀이됩니다.",
+          "reason": "가능성과 기회를 ‘닫는다’는 명사 나열을 풀어 씀",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "공자님이 가려고 했다는 표현입니다. 실제로 끝내 가지 않았으며, 어떤 사람도 바뀔 가능성과 정치적 기회를 완전히 닫지 않는 태도로 풀이됩니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_4"
     },
     {
       "book": 17,
@@ -1253,15 +1267,29 @@
     },
     {
       "book": 17,
-      "changed": false,
+      "changed": true,
       "id": "ly-17-21",
       "index": 4,
       "key": "ly-17-21:語:4",
       "label": "心安심안",
       "original": "마음이 편안한가를 묻는 표현입니다. 공자님은 예를 외부 기간표만으로 판단하지 않고 그 행동이 자기 마음의 진실함과 맞는지를 봅니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "마음이 편안한가를 묻는 표현입니다. 공자님은 예를 외부 기간표만으로 판단하지 않고 그 행동이 자기 마음의 진실함과 맞는지를 봅니다.",
-      "scope": "語"
+      "reason": "‘외부 기간표’와 명사형 ‘마음의 진실함’을 자연스럽게 수정",
+      "revised": "마음이 편안한가를 묻는 표현입니다. 공자님은 정해진 기간만으로 예를 판단하지 않고 그 행동이 자기의 진실한 마음과 맞는지를 봅니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_4",
+          "previous_revision": "마음이 편안한가를 묻는 표현입니다. 공자님은 예를 외부 기간표만으로 판단하지 않고 그 행동이 자기 마음의 진실함과 맞는지를 봅니다.",
+          "revised": "마음이 편안한가를 묻는 표현입니다. 공자님은 정해진 기간만으로 예를 판단하지 않고 그 행동이 자기의 진실한 마음과 맞는지를 봅니다.",
+          "reason": "‘외부 기간표’와 명사형 ‘마음의 진실함’을 자연스럽게 수정",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "마음이 편안한가를 묻는 표현입니다. 공자님은 예를 외부 기간표만으로 판단하지 않고 그 행동이 자기 마음의 진실함과 맞는지를 봅니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_4"
     },
     {
       "book": 17,
@@ -1411,15 +1439,29 @@
     },
     {
       "book": 17,
-      "changed": false,
+      "changed": true,
       "id": "ly-17-24",
       "index": 3,
       "key": "ly-17-24:語:3",
       "label": "勇而無禮용이무례",
       "original": "용기는 있지만 禮가 없는 상태를 뜻합니다. 힘과 결단력이 관계의 절제를 잃으면 폭력과 혼란으로 흐를 수 있습니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "용기는 있지만 禮가 없는 상태를 뜻합니다. 힘과 결단력이 관계의 절제를 잃으면 폭력과 혼란으로 흐를 수 있습니다.",
-      "scope": "語"
+      "reason": "힘과 결단력이 절제를 잃는다는 어색한 추상명사 주어 수정",
+      "revised": "용기는 있지만 禮가 없는 상태를 뜻합니다. 힘과 결단력이 있어도 사람을 대할 때 절제하지 않으면 폭력을 쓰거나 혼란을 일으킬 수 있습니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_4",
+          "previous_revision": "용기는 있지만 禮가 없는 상태를 뜻합니다. 힘과 결단력이 관계의 절제를 잃으면 폭력과 혼란으로 흐를 수 있습니다.",
+          "revised": "용기는 있지만 禮가 없는 상태를 뜻합니다. 힘과 결단력이 있어도 사람을 대할 때 절제하지 않으면 폭력을 쓰거나 혼란을 일으킬 수 있습니다.",
+          "reason": "힘과 결단력이 절제를 잃는다는 어색한 추상명사 주어 수정",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "용기는 있지만 禮가 없는 상태를 뜻합니다. 힘과 결단력이 관계의 절제를 잃으면 폭력과 혼란으로 흐를 수 있습니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_4"
     },
     {
       "book": 17,
@@ -1574,9 +1616,9 @@
     "selector": "article.card details.st1 .w > p:not(.wh)"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_3",
+    "pass": "targeted_type_4",
     "reviewed": 118,
-    "approved_applied": 8,
+    "approved_applied": 3,
     "status": "approved_applied"
   }
 }

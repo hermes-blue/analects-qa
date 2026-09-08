@@ -95,16 +95,30 @@
     },
     {
       "book": 8,
-      "changed": false,
+      "changed": true,
       "field": "답변",
       "id": "ly-08-02",
       "index": 1,
       "key": "ly-08-02:問:1:a",
       "label": "답변",
       "original": "좋은 성향도 기준과 절도가 없으면 지나칠 수 있기 때문입니다. 공손함은 피로가 되고, 신중함은 겁이 되며, 용기는 난폭함이 되고, 정직함은 남을 상하게 할 수 있습니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "좋은 성향도 기준과 절도가 없으면 지나칠 수 있기 때문입니다. 공손함은 피로가 되고, 신중함은 겁이 되며, 용기는 난폭함이 되고, 정직함은 남을 상하게 할 수 있습니다.",
-      "scope": "問"
+      "reason": "성품을 다른 명사와 등치하는 어색한 표현을 조건과 행동으로 풉니다.",
+      "revised": "좋은 성향도 기준과 절도가 없으면 지나칠 수 있기 때문입니다. 지나치게 공손하면 지치고, 지나치게 신중하면 겁이 많아지며, 용기를 앞세우다 난폭해지거나 정직하게 말하려다 남에게 상처를 줄 수 있습니다.",
+      "scope": "問",
+      "revision_history": [
+        {
+          "pass": "targeted_type_4",
+          "previous_revision": "좋은 성향도 기준과 절도가 없으면 지나칠 수 있기 때문입니다. 공손함은 피로가 되고, 신중함은 겁이 되며, 용기는 난폭함이 되고, 정직함은 남을 상하게 할 수 있습니다.",
+          "revised": "좋은 성향도 기준과 절도가 없으면 지나칠 수 있기 때문입니다. 지나치게 공손하면 지치고, 지나치게 신중하면 겁이 많아지며, 용기를 앞세우다 난폭해지거나 정직하게 말하려다 남에게 상처를 줄 수 있습니다.",
+          "reason": "성품을 다른 명사와 등치하는 어색한 표현을 조건과 행동으로 풉니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "좋은 성향도 기준과 절도가 없으면 지나칠 수 있기 때문입니다. 공손함은 피로가 되고, 신중함은 겁이 되며, 용기는 난폭함이 되고, 정직함은 남을 상하게 할 수 있습니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_4"
     },
     {
       "book": 8,
@@ -775,16 +789,30 @@
     },
     {
       "book": 8,
-      "changed": false,
+      "changed": true,
       "field": "답변",
       "id": "ly-08-10",
       "index": 1,
       "key": "ly-08-10:問:1:a",
       "label": "답변",
       "original": "용기는 있는데 가난에 대한 불만이 크면 그 힘이 무리한 행동이나 질서 파괴로 향할 수 있기 때문입니다. 용기에도 방향을 잡아 줄 덕과 절제가 필요하다는 뜻입니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "용기는 있는데 가난에 대한 불만이 크면 그 힘이 무리한 행동이나 질서 파괴로 향할 수 있기 때문입니다. 용기에도 방향을 잡아 줄 덕과 절제가 필요하다는 뜻입니다.",
-      "scope": "問"
+      "reason": "힘이 행동이나 파괴로 향한다는 추상적인 서술을 풉니다.",
+      "revised": "용기는 있는데 가난에 대한 불만이 크면 무리하게 행동하거나 질서를 깨뜨릴 수 있기 때문입니다. 용기에도 방향을 잡아 줄 덕과 절제가 필요하다는 뜻입니다.",
+      "scope": "問",
+      "revision_history": [
+        {
+          "pass": "targeted_type_4",
+          "previous_revision": "용기는 있는데 가난에 대한 불만이 크면 그 힘이 무리한 행동이나 질서 파괴로 향할 수 있기 때문입니다. 용기에도 방향을 잡아 줄 덕과 절제가 필요하다는 뜻입니다.",
+          "revised": "용기는 있는데 가난에 대한 불만이 크면 무리하게 행동하거나 질서를 깨뜨릴 수 있기 때문입니다. 용기에도 방향을 잡아 줄 덕과 절제가 필요하다는 뜻입니다.",
+          "reason": "힘이 행동이나 파괴로 향한다는 추상적인 서술을 풉니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "용기는 있는데 가난에 대한 불만이 크면 그 힘이 무리한 행동이나 질서 파괴로 향할 수 있기 때문입니다. 용기에도 방향을 잡아 줄 덕과 절제가 필요하다는 뜻입니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_4"
     },
     {
       "book": 8,
@@ -1745,7 +1773,7 @@
     "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_3",
+    "pass": "targeted_type_4",
     "reviewed": 126,
     "approved_applied": 2,
     "status": "approved_applied"

@@ -396,17 +396,31 @@
     },
     {
       "book": 12,
-      "changed": false,
+      "changed": true,
       "heading": "‘정치의 도를 자기 몸에 간직한다’ vs ‘자기 몸부터 바르게 세운다’",
       "id": "ly-12-14",
       "index": 1,
       "key": "ly-12-14:說:1:2",
       "label": "정약용(丁若鏞) 《논어고금주》",
       "original": "정치는 사람을 바르게 하는 일이며, 먼저 자기 몸이 바른 자리에 머물러야 남도 바로잡을 수 있다고 봅니다. 居之를 정치 원칙을 간직한다는 말보다 몸소 바름에 처하는 일로 읽습니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "정치는 사람을 바르게 하는 일이며, 먼저 자기 몸이 바른 자리에 머물러야 남도 바로잡을 수 있다고 봅니다. 居之를 정치 원칙을 간직한다는 말보다 몸소 바름에 처하는 일로 읽습니다.",
+      "reason": "바름에 처한다는 직역투를 풉니다.",
+      "revised": "정치는 사람을 바르게 하는 일이며, 먼저 자기 몸이 바른 자리에 머물러야 남도 바로잡을 수 있다고 봅니다. 居之를 정치 원칙을 간직한다는 말보다 자신부터 바르게 행동하는 일로 읽습니다.",
       "scope": "說",
-      "side": 2
+      "side": 2,
+      "revision_history": [
+        {
+          "pass": "targeted_type_4",
+          "previous_revision": "정치는 사람을 바르게 하는 일이며, 먼저 자기 몸이 바른 자리에 머물러야 남도 바로잡을 수 있다고 봅니다. 居之를 정치 원칙을 간직한다는 말보다 몸소 바름에 처하는 일로 읽습니다.",
+          "revised": "정치는 사람을 바르게 하는 일이며, 먼저 자기 몸이 바른 자리에 머물러야 남도 바로잡을 수 있다고 봅니다. 居之를 정치 원칙을 간직한다는 말보다 자신부터 바르게 행동하는 일로 읽습니다.",
+          "reason": "바름에 처한다는 직역투를 풉니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "정치는 사람을 바르게 하는 일이며, 먼저 자기 몸이 바른 자리에 머물러야 남도 바로잡을 수 있다고 봅니다. 居之를 정치 원칙을 간직한다는 말보다 몸소 바름에 처하는 일로 읽습니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_4"
     },
     {
       "book": 12,
@@ -723,7 +737,7 @@
     "selector": "article.card details.st3 .js .side > p"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_3",
+    "pass": "targeted_type_4",
     "reviewed": 48,
     "approved_applied": 1,
     "status": "approved_applied"

@@ -135,16 +135,30 @@
     },
     {
       "book": 10,
-      "changed": false,
+      "changed": true,
       "field": "답변",
       "id": "ly-10-02",
       "index": 2,
       "key": "ly-10-02:問:2:a",
       "label": "답변",
       "original": "侃侃은 말이 분명하고 거리낌 없는 모습, 誾誾은 온화하면서도 바른 태도로 말하는 모습입니다. 모두 자신감은 있지만 상대에 따라 표현의 결이 다릅니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "侃侃은 말이 분명하고 거리낌 없는 모습, 誾誾은 온화하면서도 바른 태도로 말하는 모습입니다. 모두 자신감은 있지만 상대에 따라 표현의 결이 다릅니다.",
-      "scope": "問"
+      "reason": "표현의 결이라는 모호한 비유를 구체화합니다.",
+      "revised": "侃侃은 말이 분명하고 거리낌 없는 모습, 誾誾은 온화하면서도 바른 태도로 말하는 모습입니다. 모두 자신 있게 말하되 상대에 따라 말투가 다릅니다.",
+      "scope": "問",
+      "revision_history": [
+        {
+          "pass": "targeted_type_4",
+          "previous_revision": "侃侃은 말이 분명하고 거리낌 없는 모습, 誾誾은 온화하면서도 바른 태도로 말하는 모습입니다. 모두 자신감은 있지만 상대에 따라 표현의 결이 다릅니다.",
+          "revised": "侃侃은 말이 분명하고 거리낌 없는 모습, 誾誾은 온화하면서도 바른 태도로 말하는 모습입니다. 모두 자신 있게 말하되 상대에 따라 말투가 다릅니다.",
+          "reason": "표현의 결이라는 모호한 비유를 구체화합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "侃侃은 말이 분명하고 거리낌 없는 모습, 誾誾은 온화하면서도 바른 태도로 말하는 모습입니다. 모두 자신감은 있지만 상대에 따라 표현의 결이 다릅니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_4"
     },
     {
       "book": 10,
@@ -565,16 +579,30 @@
     },
     {
       "book": 10,
-      "changed": false,
+      "changed": true,
       "field": "답변",
       "id": "ly-10-07",
       "index": 3,
       "key": "ly-10-07:問:3:a",
       "label": "답변",
       "original": "평소 습관을 그대로 유지하면 마음도 일상에 머물기 쉽다고 보았기 때문입니다. 먹는 것과 자는 자리까지 달리해 중요한 의식을 앞둔 긴장과 집중을 몸 전체로 만들었습니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "평소 습관을 그대로 유지하면 마음도 일상에 머물기 쉽다고 보았기 때문입니다. 먹는 것과 자는 자리까지 달리해 중요한 의식을 앞둔 긴장과 집중을 몸 전체로 만들었습니다.",
-      "scope": "問"
+      "reason": "긴장과 집중을 몸 전체로 만든다는 어색한 표현을 풉니다.",
+      "revised": "평소 습관을 그대로 유지하면 마음도 일상에 머물기 쉽다고 보았기 때문입니다. 먹는 것과 자는 자리까지 달리하며 중요한 의식을 앞두고 몸을 삼가고 마음을 모았습니다.",
+      "scope": "問",
+      "revision_history": [
+        {
+          "pass": "targeted_type_4",
+          "previous_revision": "평소 습관을 그대로 유지하면 마음도 일상에 머물기 쉽다고 보았기 때문입니다. 먹는 것과 자는 자리까지 달리해 중요한 의식을 앞둔 긴장과 집중을 몸 전체로 만들었습니다.",
+          "revised": "평소 습관을 그대로 유지하면 마음도 일상에 머물기 쉽다고 보았기 때문입니다. 먹는 것과 자는 자리까지 달리하며 중요한 의식을 앞두고 몸을 삼가고 마음을 모았습니다.",
+          "reason": "긴장과 집중을 몸 전체로 만든다는 어색한 표현을 풉니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "평소 습관을 그대로 유지하면 마음도 일상에 머물기 쉽다고 보았기 때문입니다. 먹는 것과 자는 자리까지 달리해 중요한 의식을 앞둔 긴장과 집중을 몸 전체로 만들었습니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_4"
     },
     {
       "book": 10,
@@ -2273,9 +2301,9 @@
     "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_3",
+    "pass": "targeted_type_4",
     "reviewed": 162,
-    "approved_applied": 4,
+    "approved_applied": 2,
     "status": "approved_applied"
   }
 }

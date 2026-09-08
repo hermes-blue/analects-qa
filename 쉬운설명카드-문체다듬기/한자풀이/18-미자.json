@@ -210,15 +210,29 @@
     },
     {
       "book": 18,
-      "changed": false,
+      "changed": true,
       "id": "ly-18-04",
       "index": 3,
       "key": "ly-18-04:語:3",
       "label": "三日不朝삼일불조",
       "original": "사흘 동안 조정에 나오지 않았다는 뜻입니다. 여악에 빠져 실제 국정을 소홀히 했다는 점이 공자님의 실망을 결정적으로 만듭니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "사흘 동안 조정에 나오지 않았다는 뜻입니다. 여악에 빠져 실제 국정을 소홀히 했다는 점이 공자님의 실망을 결정적으로 만듭니다.",
-      "scope": "語"
+      "reason": "추상적인 사실이 ‘실망을 만든다’는 직역투 수정",
+      "revised": "사흘 동안 조정에 나오지 않았다는 뜻입니다. 공자님은 여악에 빠져 실제 국정을 소홀히 한 모습을 보고 크게 실망합니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_4",
+          "previous_revision": "사흘 동안 조정에 나오지 않았다는 뜻입니다. 여악에 빠져 실제 국정을 소홀히 했다는 점이 공자님의 실망을 결정적으로 만듭니다.",
+          "revised": "사흘 동안 조정에 나오지 않았다는 뜻입니다. 공자님은 여악에 빠져 실제 국정을 소홀히 한 모습을 보고 크게 실망합니다.",
+          "reason": "추상적인 사실이 ‘실망을 만든다’는 직역투 수정",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "사흘 동안 조정에 나오지 않았다는 뜻입니다. 여악에 빠져 실제 국정을 소홀히 했다는 점이 공자님의 실망을 결정적으로 만듭니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_4"
     },
     {
       "book": 18,
@@ -488,15 +502,29 @@
     },
     {
       "book": 18,
-      "changed": false,
+      "changed": true,
       "id": "ly-18-08",
       "index": 5,
       "key": "ly-18-08:語:5",
       "label": "無可無不可무가무불가",
       "original": "반드시 나아가야 한다거나 반드시 물러나야 한다고 고정하지 않는다는 뜻입니다. 공자님의 출처는 상황과 義에 따라 달라지는 유연함을 가집니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "반드시 나아가야 한다거나 반드시 물러나야 한다고 고정하지 않는다는 뜻입니다. 공자님의 출처는 상황과 義에 따라 달라지는 유연함을 가집니다.",
-      "scope": "語"
+      "reason": "‘출처가 유연함을 가진다’는 명사형 번역투 수정",
+      "revised": "반드시 나아가야 한다거나 반드시 물러나야 한다고 고정하지 않는다는 뜻입니다. 공자님은 상황과 義에 따라 유연하게 나아가거나 물러납니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_4",
+          "previous_revision": "반드시 나아가야 한다거나 반드시 물러나야 한다고 고정하지 않는다는 뜻입니다. 공자님의 출처는 상황과 義에 따라 달라지는 유연함을 가집니다.",
+          "revised": "반드시 나아가야 한다거나 반드시 물러나야 한다고 고정하지 않는다는 뜻입니다. 공자님은 상황과 義에 따라 유연하게 나아가거나 물러납니다.",
+          "reason": "‘출처가 유연함을 가진다’는 명사형 번역투 수정",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "반드시 나아가야 한다거나 반드시 물러나야 한다고 고정하지 않는다는 뜻입니다. 공자님의 출처는 상황과 義에 따라 달라지는 유연함을 가집니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_4"
     },
     {
       "book": 18,
@@ -600,15 +628,29 @@
     },
     {
       "book": 18,
-      "changed": false,
+      "changed": true,
       "id": "ly-18-10",
       "index": 2,
       "key": "ly-18-10:語:2",
       "label": "不施其親불시기친",
       "original": "친족을 소홀히 멀리하지 않는다는 뜻입니다. 가까운 관계를 버리지 않는 안정감이 정치의 기본으로 제시됩니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "친족을 소홀히 멀리하지 않는다는 뜻입니다. 가까운 관계를 버리지 않는 안정감이 정치의 기본으로 제시됩니다.",
-      "scope": "語"
+      "reason": "추상명사 ‘안정감’으로 압축한 행동을 풀어 씀",
+      "revised": "친족을 소홀히 멀리하지 않는다는 뜻입니다. 가까운 사람과의 관계를 쉽게 끊지 않고 안정되게 유지하는 것을 정치의 기본으로 제시합니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_4",
+          "previous_revision": "친족을 소홀히 멀리하지 않는다는 뜻입니다. 가까운 관계를 버리지 않는 안정감이 정치의 기본으로 제시됩니다.",
+          "revised": "친족을 소홀히 멀리하지 않는다는 뜻입니다. 가까운 사람과의 관계를 쉽게 끊지 않고 안정되게 유지하는 것을 정치의 기본으로 제시합니다.",
+          "reason": "추상명사 ‘안정감’으로 압축한 행동을 풀어 씀",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "친족을 소홀히 멀리하지 않는다는 뜻입니다. 가까운 관계를 버리지 않는 안정감이 정치의 기본으로 제시됩니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_4"
     },
     {
       "book": 18,
@@ -741,7 +783,7 @@
     "selector": "article.card details.st1 .w > p:not(.wh)"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_3",
+    "pass": "targeted_type_4",
     "reviewed": 54,
     "approved_applied": 3,
     "status": "approved_applied"
