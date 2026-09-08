@@ -1,0 +1,111 @@
+{
+  "status": "반영 완료",
+  "base_commit": "1f47be71960a9e888288e55ef9d5facdb63968be",
+  "approved_changes": 3,
+  "changed_body_files": 2,
+  "chapters": 498,
+  "unique_ids": 498,
+  "order_preserved": true,
+  "protected_fields_preserved": true,
+  "unchanged_chapters": 495,
+  "character_count": "공백·문장부호 포함, 줄바꿈 제외, 유니코드 코드포인트 수",
+  "changes": [
+    {
+      "id": "ly-11-19",
+      "before_count": 397,
+      "after_count": 391
+    },
+    {
+      "id": "ly-15-15",
+      "before_count": 393,
+      "after_count": 395
+    },
+    {
+      "id": "ly-15-30",
+      "before_count": 382,
+      "after_count": 382
+    }
+  ],
+  "body_sha_before": [
+    {
+      "path": "sourcecards-stage1-copyedit-20260907/round3/01-hakyi.json",
+      "sha": "96c5ffdfbf4ee3c6116ad1f3cbe7fc000fb37f97"
+    },
+    {
+      "path": "sourcecards-stage1-copyedit-20260907/round3/02-wijeong.json",
+      "sha": "944bc739b2d39a6d554e87c8020ab37bf03ffd5c"
+    },
+    {
+      "path": "sourcecards-stage1-copyedit-20260907/round3/03-palil.json",
+      "sha": "1b38f1942dc881715cfe85d107df13053fd99154"
+    },
+    {
+      "path": "sourcecards-stage1-copyedit-20260907/round3/04-iin.json",
+      "sha": "63015b48ff2e358175fd599b9c0d02a74bdd89ec"
+    },
+    {
+      "path": "sourcecards-stage1-copyedit-20260907/round3/05-gongyajang.json",
+      "sha": "90c8a78d312bbec06e59ee3ed7ee775d239f5422"
+    },
+    {
+      "path": "sourcecards-stage1-copyedit-20260907/round3/06-yongya.json",
+      "sha": "0bdb570ef54a0a41900dac95f36840ef29cd9c8d"
+    },
+    {
+      "path": "sourcecards-stage1-copyedit-20260907/round3/07-suli.json",
+      "sha": "5c4c7f150a14ab91be8164816e6bc8aef22c37bc"
+    },
+    {
+      "path": "sourcecards-stage1-copyedit-20260907/round3/08-taebaek.json",
+      "sha": "88f9bd2e86587f96fe3956c28c6aab1cc3fd6dbc"
+    },
+    {
+      "path": "sourcecards-stage1-copyedit-20260907/round3/09-jahan.json",
+      "sha": "4ad40e6c710d34dd24702e1ca3037c98a55e2a59"
+    },
+    {
+      "path": "sourcecards-stage1-copyedit-20260907/round3/10-hyangdang.json",
+      "sha": "d169fcc0be6deed9ff2e59271796925bc927d522"
+    },
+    {
+      "path": "sourcecards-stage1-copyedit-20260907/round3/11-seonjin.json",
+      "sha": "5f45f0f45cc5f5bb0b64ecc3c7f3f37fb1e7342e"
+    },
+    {
+      "path": "sourcecards-stage1-copyedit-20260907/round3/12-anyeon.json",
+      "sha": "f794d050c07f6e508403793bd1ef7ced862f2888"
+    },
+    {
+      "path": "sourcecards-stage1-copyedit-20260907/round3/13-jaro.json",
+      "sha": "0ede282789f86a817c33c5a47f9835671390800a"
+    },
+    {
+      "path": "sourcecards-stage1-copyedit-20260907/round3/14-heonmun.json",
+      "sha": "6751b220f10af4677dc37080c9ec991896ff58f7"
+    },
+    {
+      "path": "sourcecards-stage1-copyedit-20260907/round3/15-wiryeonggong.json",
+      "sha": "2d4b2d50124e76b44e7f36b5038d0edce56d9f10"
+    },
+    {
+      "path": "sourcecards-stage1-copyedit-20260907/round3/16-gyessi.json",
+      "sha": "fea183d90e0c21c1822d0e6656b2f68cf68d7cd9"
+    },
+    {
+      "path": "sourcecards-stage1-copyedit-20260907/round3/17-yanghwa.json",
+      "sha": "c458ac81ddb12e2288c01138fecdcafb8c5098c0"
+    },
+    {
+      "path": "sourcecards-stage1-copyedit-20260907/round3/18-mija.json",
+      "sha": "b91c3477cf4af34323414420f3472da2db4dac1c"
+    },
+    {
+      "path": "sourcecards-stage1-copyedit-20260907/round3/19-jajang.json",
+      "sha": "863f18d3cc73860ab7310a2359beaf55aaafc8be"
+    },
+    {
+      "path": "sourcecards-stage1-copyedit-20260907/round3/20-yowal.json",
+      "sha": "adf1b1f363740361dbc52878b0a802d4e5d4dbcc"
+    }
+  ]
+}
