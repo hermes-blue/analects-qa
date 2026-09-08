@@ -1340,15 +1340,29 @@
     },
     {
       "book": 7,
-      "changed": false,
+      "changed": true,
       "id": "ly-07-22",
       "index": 1,
       "key": "ly-07-22:語:1",
       "label": "天生德於予천생덕어여",
       "original": "하늘이 자신에게 德을 주었다는 말입니다. 공자님은 자신의 가르침과 삶을 개인 취향이 아니라 더 큰 질서에서 받은 사명과 연결해 이해하고 있었습니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "하늘이 자신에게 德을 주었다는 말입니다. 공자님은 자신의 가르침과 삶을 개인 취향이 아니라 더 큰 질서에서 받은 사명과 연결해 이해하고 있었습니다.",
-      "scope": "語"
+      "reason": "공자님의 이해를 설명하는 문장입니다. 과거 시제는 남기고 불필요한 진행형을 줄입니다.",
+      "revised": "하늘이 자신에게 德을 주었다는 말입니다. 공자님은 자신의 가르침과 삶을 개인 취향이 아니라 더 큰 질서에서 받은 사명과 연결해 이해했습니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_10",
+          "previous_revision": "하늘이 자신에게 德을 주었다는 말입니다. 공자님은 자신의 가르침과 삶을 개인 취향이 아니라 더 큰 질서에서 받은 사명과 연결해 이해하고 있었습니다.",
+          "revised": "하늘이 자신에게 德을 주었다는 말입니다. 공자님은 자신의 가르침과 삶을 개인 취향이 아니라 더 큰 질서에서 받은 사명과 연결해 이해했습니다.",
+          "reason": "공자님의 이해를 설명하는 문장입니다. 과거 시제는 남기고 불필요한 진행형을 줄입니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 새로운 유형 시작",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "하늘이 자신에게 德을 주었다는 말입니다. 공자님은 자신의 가르침과 삶을 개인 취향이 아니라 더 큰 질서에서 받은 사명과 연결해 이해하고 있었습니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_10"
     },
     {
       "book": 7,
@@ -2331,9 +2345,9 @@
     "selector": "article.card details.st1 .w > p:not(.wh)"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_9",
+    "pass": "targeted_type_10",
     "scanned": 171,
-    "approved_applied": 2,
+    "approved_applied": 1,
     "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
   }
 }

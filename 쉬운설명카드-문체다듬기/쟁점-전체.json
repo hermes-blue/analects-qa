@@ -2,8 +2,8 @@
   "schema_version": "1.1",
   "scope": "說",
   "scope_name": "쟁점",
-  "status": "approved_targeted_type_9_applied",
-  "method": "전체 revised 6,921개 검색 후 반복 해설·상투적인 마무리 후보 575개 문맥 검토, 승인된 60곳 반영.",
+  "status": "approved_targeted_type_10_applied",
+  "method": "전체 revised 6,921개 검색 후 불필요한 진행·상태 서술 후보 128개 문맥 검토, 승인된 4곳 반영.",
   "count_unit": "텍스트 필드: 한자 풀이 1개, 질문 또는 답변 1개, 쟁점의 견해 설명 1개",
   "total": 1040,
   "changed": 187,
@@ -17824,8 +17824,8 @@
     }
   ],
   "latest_style_pass": {
-    "pass": "targeted_type_9",
+    "pass": "targeted_type_10",
     "scanned": 1040,
-    "approved_applied": 13
+    "approved_applied": 0
   }
 }

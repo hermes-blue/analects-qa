@@ -2490,16 +2490,30 @@
     },
     {
       "book": 9,
-      "changed": false,
+      "changed": true,
       "field": "질문",
       "id": "ly-09-29",
       "index": 3,
       "key": "ly-09-29:問:3:q",
       "label": "질문",
       "original": "이 장은 배움의 단계를 어떻게 나누고 있나요?",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "이 장은 배움의 단계를 어떻게 나누고 있나요?",
-      "scope": "問"
+      "reason": "글에서 배움의 단계를 어떻게 구분하는지 묻는 질문이므로 진행형을 덜어냅니다.",
+      "revised": "이 장은 배움의 단계를 어떻게 나누나요?",
+      "scope": "問",
+      "revision_history": [
+        {
+          "pass": "targeted_type_10",
+          "previous_revision": "이 장은 배움의 단계를 어떻게 나누고 있나요?",
+          "revised": "이 장은 배움의 단계를 어떻게 나누나요?",
+          "reason": "글에서 배움의 단계를 어떻게 구분하는지 묻는 질문이므로 진행형을 덜어냅니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 새로운 유형 시작",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "이 장은 배움의 단계를 어떻게 나누고 있나요?",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_10"
     },
     {
       "book": 9,
@@ -2627,9 +2641,9 @@
     "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_9",
+    "pass": "targeted_type_10",
     "scanned": 186,
-    "approved_applied": 5,
+    "approved_applied": 1,
     "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
   }
 }

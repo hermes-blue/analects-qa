@@ -2,12 +2,12 @@
   "schema_version": "1.1",
   "scope": "語",
   "scope_name": "한자풀이",
-  "status": "approved_targeted_type_9_applied",
-  "method": "전체 revised 6,921개 검색 후 반복 해설·상투적인 마무리 후보 575개 문맥 검토, 승인된 60곳 반영.",
+  "status": "approved_targeted_type_10_applied",
+  "method": "전체 revised 6,921개 검색 후 불필요한 진행·상태 서술 후보 128개 문맥 검토, 승인된 4곳 반영.",
   "count_unit": "텍스트 필드: 한자 풀이 1개, 질문 또는 답변 1개, 쟁점의 견해 설명 1개",
   "total": 2311,
-  "changed": 309,
-  "unchanged": 2002,
+  "changed": 311,
+  "unchanged": 2000,
   "card_count": 498,
   "book_count": 20,
   "content_review_performed": false,
@@ -534,8 +534,8 @@
           "key": "ly-01-07:語:5",
           "label": "未學而學미학이학",
           "original": "스스로 정식으로 배우지 않았다고 해도 이런 도리를 실천한다면 배운 사람으로 보겠다는 말입니다. 學의 기준을 지식의 양보다 삶에서 드러나는 태도에 두고 있습니다.",
-          "reason": "‘지식의 양’을 ‘얼마나 많이 아는지’로 풀어 판단 기준을 쉽게 읽히게 합니다.",
-          "revised": "스스로 정식으로 배우지 않았다고 해도 이런 도리를 실천한다면 배운 사람으로 보겠다는 말입니다. 學의 기준을 얼마나 많이 아는지보다 삶에서 어떤 태도를 보이는지에 두고 있습니다.",
+          "reason": "學의 기준을 설명하는 문장이므로 진행형을 덜고 바로 서술합니다.",
+          "revised": "스스로 정식으로 배우지 않았다고 해도 이런 도리를 실천한다면 배운 사람으로 보겠다는 말입니다. 學의 기준을 얼마나 많이 아는지보다 삶에서 어떤 태도를 보이는지에 둡니다.",
           "scope": "語",
           "revision_history": [
             {
@@ -546,11 +546,20 @@
               "approval_status": "approved",
               "approval_message": "수정후에 ,  , ~풉니다 이런 표현들도 남발되는데 이유가 뭐지 이거 일단 다 조사해서 수정안 제시",
               "date": "2026-09-08"
+            },
+            {
+              "pass": "targeted_type_10",
+              "previous_revision": "스스로 정식으로 배우지 않았다고 해도 이런 도리를 실천한다면 배운 사람으로 보겠다는 말입니다. 學의 기준을 얼마나 많이 아는지보다 삶에서 어떤 태도를 보이는지에 두고 있습니다.",
+              "revised": "스스로 정식으로 배우지 않았다고 해도 이런 도리를 실천한다면 배운 사람으로 보겠다는 말입니다. 學의 기준을 얼마나 많이 아는지보다 삶에서 어떤 태도를 보이는지에 둡니다.",
+              "reason": "學의 기준을 설명하는 문장이므로 진행형을 덜고 바로 서술합니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨에 반영후 새로운 유형 시작",
+              "date": "2026-09-08"
             }
           ],
-          "previous_revision": "스스로 정식으로 배우지 않았다고 해도 이런 도리를 실천한다면 배운 사람으로 보겠다는 말입니다. 學의 기준을 지식의 양보다 삶에서 드러나는 태도에 두고 있습니다.",
+          "previous_revision": "스스로 정식으로 배우지 않았다고 해도 이런 도리를 실천한다면 배운 사람으로 보겠다는 말입니다. 學의 기준을 얼마나 많이 아는지보다 삶에서 어떤 태도를 보이는지에 두고 있습니다.",
           "approval_status": "approved",
-          "last_revision_pass": "targeted_type_7"
+          "last_revision_pass": "targeted_type_10"
         },
         {
           "book": 1,
@@ -836,15 +845,29 @@
         },
         {
           "book": 1,
-          "changed": false,
+          "changed": true,
           "id": "ly-01-12",
           "index": 3,
           "key": "ly-01-12:語:3",
           "label": "先王之道선왕지도",
           "original": "옛 성왕들이 마련한 정치와 예의 질서를 가리킵니다. 그 제도가 아름다운 까닭을 단순한 형식미가 아니라 禮와 和가 함께 작동하는 데서 찾고 있습니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "옛 성왕들이 마련한 정치와 예의 질서를 가리킵니다. 그 제도가 아름다운 까닭을 단순한 형식미가 아니라 禮와 和가 함께 작동하는 데서 찾고 있습니다.",
-          "scope": "語"
+          "reason": "이 구절이 제도의 아름다움을 어디에서 찾는지 설명하므로 진행형이 필요하지 않습니다.",
+          "revised": "옛 성왕들이 마련한 정치와 예의 질서를 가리킵니다. 그 제도가 아름다운 까닭을 단순한 형식미가 아니라 禮와 和가 함께 작동하는 데서 찾습니다.",
+          "scope": "語",
+          "revision_history": [
+            {
+              "pass": "targeted_type_10",
+              "previous_revision": "옛 성왕들이 마련한 정치와 예의 질서를 가리킵니다. 그 제도가 아름다운 까닭을 단순한 형식미가 아니라 禮와 和가 함께 작동하는 데서 찾고 있습니다.",
+              "revised": "옛 성왕들이 마련한 정치와 예의 질서를 가리킵니다. 그 제도가 아름다운 까닭을 단순한 형식미가 아니라 禮와 和가 함께 작동하는 데서 찾습니다.",
+              "reason": "이 구절이 제도의 아름다움을 어디에서 찾는지 설명하므로 진행형이 필요하지 않습니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨에 반영후 새로운 유형 시작",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "옛 성왕들이 마련한 정치와 예의 질서를 가리킵니다. 그 제도가 아름다운 까닭을 단순한 형식미가 아니라 禮와 和가 함께 작동하는 데서 찾고 있습니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_10"
         },
         {
           "book": 1,
@@ -1163,9 +1186,9 @@
         "selector": "article.card details.st1 .w > p:not(.wh)"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_9",
+        "pass": "targeted_type_10",
         "scanned": 74,
-        "approved_applied": 3,
+        "approved_applied": 2,
         "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
       }
     },
@@ -11367,15 +11390,29 @@
         },
         {
           "book": 7,
-          "changed": false,
+          "changed": true,
           "id": "ly-07-22",
           "index": 1,
           "key": "ly-07-22:語:1",
           "label": "天生德於予천생덕어여",
           "original": "하늘이 자신에게 德을 주었다는 말입니다. 공자님은 자신의 가르침과 삶을 개인 취향이 아니라 더 큰 질서에서 받은 사명과 연결해 이해하고 있었습니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "하늘이 자신에게 德을 주었다는 말입니다. 공자님은 자신의 가르침과 삶을 개인 취향이 아니라 더 큰 질서에서 받은 사명과 연결해 이해하고 있었습니다.",
-          "scope": "語"
+          "reason": "공자님의 이해를 설명하는 문장입니다. 과거 시제는 남기고 불필요한 진행형을 줄입니다.",
+          "revised": "하늘이 자신에게 德을 주었다는 말입니다. 공자님은 자신의 가르침과 삶을 개인 취향이 아니라 더 큰 질서에서 받은 사명과 연결해 이해했습니다.",
+          "scope": "語",
+          "revision_history": [
+            {
+              "pass": "targeted_type_10",
+              "previous_revision": "하늘이 자신에게 德을 주었다는 말입니다. 공자님은 자신의 가르침과 삶을 개인 취향이 아니라 더 큰 질서에서 받은 사명과 연결해 이해하고 있었습니다.",
+              "revised": "하늘이 자신에게 德을 주었다는 말입니다. 공자님은 자신의 가르침과 삶을 개인 취향이 아니라 더 큰 질서에서 받은 사명과 연결해 이해했습니다.",
+              "reason": "공자님의 이해를 설명하는 문장입니다. 과거 시제는 남기고 불필요한 진행형을 줄입니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨에 반영후 새로운 유형 시작",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "하늘이 자신에게 德을 주었다는 말입니다. 공자님은 자신의 가르침과 삶을 개인 취향이 아니라 더 큰 질서에서 받은 사명과 연결해 이해하고 있었습니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_10"
         },
         {
           "book": 7,
@@ -12358,9 +12395,9 @@
         "selector": "article.card details.st1 .w > p:not(.wh)"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_9",
+        "pass": "targeted_type_10",
         "scanned": 171,
-        "approved_applied": 2,
+        "approved_applied": 1,
         "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
       }
     },
@@ -32165,8 +32202,8 @@
     }
   ],
   "latest_style_pass": {
-    "pass": "targeted_type_9",
+    "pass": "targeted_type_10",
     "scanned": 2311,
-    "approved_applied": 12
+    "approved_applied": 3
   }
 }
