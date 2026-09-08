@@ -69,16 +69,30 @@
     },
     {
       "book": 19,
-      "changed": false,
+      "changed": true,
       "field": "답변",
       "id": "ly-19-01",
       "index": 3,
       "key": "ly-19-01:問:3:a",
       "label": "답변",
       "original": "선비가 반드시 지켜야 할 큰 절목을 갖추면 사람됨의 기본은 갖춘 셈이라는 뜻입니다. 모든 덕목을 다 열거했다기보다 핵심 기준을 제시한 말입니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "선비가 반드시 지켜야 할 큰 절목을 갖추면 사람됨의 기본은 갖춘 셈이라는 뜻입니다. 모든 덕목을 다 열거했다기보다 핵심 기준을 제시한 말입니다.",
-      "scope": "問"
+      "reason": "갖추다의 반복과 셈이라는 마무리를 함께 줄입니다.",
+      "revised": "선비가 반드시 지켜야 할 큰 절목을 갖추면 사람됨의 기본은 되었다는 뜻입니다. 모든 덕목을 다 열거했다기보다 핵심 기준을 제시한 말입니다.",
+      "scope": "問",
+      "revision_history": [
+        {
+          "pass": "targeted_type_3",
+          "previous_revision": "선비가 반드시 지켜야 할 큰 절목을 갖추면 사람됨의 기본은 갖춘 셈이라는 뜻입니다. 모든 덕목을 다 열거했다기보다 핵심 기준을 제시한 말입니다.",
+          "revised": "선비가 반드시 지켜야 할 큰 절목을 갖추면 사람됨의 기본은 되었다는 뜻입니다. 모든 덕목을 다 열거했다기보다 핵심 기준을 제시한 말입니다.",
+          "reason": "갖추다의 반복과 셈이라는 마무리를 함께 줄입니다.",
+          "approval_status": "approved",
+          "approval_message": "수정후보 제이슨에 반영",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "선비가 반드시 지켜야 할 큰 절목을 갖추면 사람됨의 기본은 갖춘 셈이라는 뜻입니다. 모든 덕목을 다 열거했다기보다 핵심 기준을 제시한 말입니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_3"
     },
     {
       "book": 19,
@@ -2001,7 +2015,7 @@
     "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_2",
+    "pass": "targeted_type_3",
     "reviewed": 150,
     "approved_applied": 1,
     "status": "approved_applied"

@@ -95,16 +95,30 @@
     },
     {
       "book": 11,
-      "changed": false,
+      "changed": true,
       "field": "답변",
       "id": "ly-11-02",
       "index": 1,
       "key": "ly-11-02:問:1:a",
       "label": "답변",
       "original": "공자님이 진나라와 채나라 사이에서 곤궁을 겪던 시기에 함께한 제자들을 말합니다. 가장 힘든 유랑 시절을 함께 버틴 핵심 제자들을 회상한 장면입니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "공자님이 진나라와 채나라 사이에서 곤궁을 겪던 시기에 함께한 제자들을 말합니다. 가장 힘든 유랑 시절을 함께 버틴 핵심 제자들을 회상한 장면입니다.",
-      "scope": "問"
+      "reason": "회상한 장면이라는 포장을 덜어 냅니다.",
+      "revised": "공자님이 진나라와 채나라 사이에서 곤궁을 겪던 시기에 함께한 제자들을 말합니다. 공자님은 가장 힘든 유랑 시절을 함께 버틴 핵심 제자들을 회상하셨습니다.",
+      "scope": "問",
+      "revision_history": [
+        {
+          "pass": "targeted_type_3",
+          "previous_revision": "공자님이 진나라와 채나라 사이에서 곤궁을 겪던 시기에 함께한 제자들을 말합니다. 가장 힘든 유랑 시절을 함께 버틴 핵심 제자들을 회상한 장면입니다.",
+          "revised": "공자님이 진나라와 채나라 사이에서 곤궁을 겪던 시기에 함께한 제자들을 말합니다. 공자님은 가장 힘든 유랑 시절을 함께 버틴 핵심 제자들을 회상하셨습니다.",
+          "reason": "회상한 장면이라는 포장을 덜어 냅니다.",
+          "approval_status": "approved",
+          "approval_message": "수정후보 제이슨에 반영",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "공자님이 진나라와 채나라 사이에서 곤궁을 겪던 시기에 함께한 제자들을 말합니다. 가장 힘든 유랑 시절을 함께 버틴 핵심 제자들을 회상한 장면입니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_3"
     },
     {
       "book": 11,
@@ -303,16 +317,30 @@
     },
     {
       "book": 11,
-      "changed": false,
+      "changed": true,
       "field": "답변",
       "id": "ly-11-04",
       "index": 3,
       "key": "ly-11-04:問:3:a",
       "label": "답변",
       "original": "본문의 포인트는 가족의 칭찬 자체보다 외부 사람들이 그 평가를 반박하지 못했다는 데 있습니다. 가까운 사람에게도, 밖의 사람에게도 행실이 일관됐다는 뜻입니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "본문의 포인트는 가족의 칭찬 자체보다 외부 사람들이 그 평가를 반박하지 못했다는 데 있습니다. 가까운 사람에게도, 밖의 사람에게도 행실이 일관됐다는 뜻입니다.",
-      "scope": "問"
+      "reason": "본문의 포인트라는 안내성 표현을 덜고 판단의 근거를 바로 말합니다.",
+      "revised": "가족의 칭찬 자체보다 외부 사람들이 그 평가를 반박하지 못했다는 점이 중요합니다. 가까운 사람에게도, 밖의 사람에게도 행실이 일관됐다는 뜻입니다.",
+      "scope": "問",
+      "revision_history": [
+        {
+          "pass": "targeted_type_3",
+          "previous_revision": "본문의 포인트는 가족의 칭찬 자체보다 외부 사람들이 그 평가를 반박하지 못했다는 데 있습니다. 가까운 사람에게도, 밖의 사람에게도 행실이 일관됐다는 뜻입니다.",
+          "revised": "가족의 칭찬 자체보다 외부 사람들이 그 평가를 반박하지 못했다는 점이 중요합니다. 가까운 사람에게도, 밖의 사람에게도 행실이 일관됐다는 뜻입니다.",
+          "reason": "본문의 포인트라는 안내성 표현을 덜고 판단의 근거를 바로 말합니다.",
+          "approval_status": "approved",
+          "approval_message": "수정후보 제이슨에 반영",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "본문의 포인트는 가족의 칭찬 자체보다 외부 사람들이 그 평가를 반박하지 못했다는 데 있습니다. 가까운 사람에게도, 밖의 사람에게도 행실이 일관됐다는 뜻입니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_3"
     },
     {
       "book": 11,
@@ -603,16 +631,30 @@
     },
     {
       "book": 11,
-      "changed": false,
+      "changed": true,
       "field": "답변",
       "id": "ly-11-08",
       "index": 2,
       "key": "ly-11-08:問:2:a",
       "label": "답변",
       "original": "말을 한 번으로 끝낼 수 없을 만큼 충격과 상실감이 컸다는 뜻입니다. 논어에서 공자님의 인간적인 슬픔이 매우 직접적으로 드러나는 장면 가운데 하나입니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "말을 한 번으로 끝낼 수 없을 만큼 충격과 상실감이 컸다는 뜻입니다. 논어에서 공자님의 인간적인 슬픔이 매우 직접적으로 드러나는 장면 가운데 하나입니다.",
-      "scope": "問"
+      "reason": "충격과 상실감이 컸다는 앞 설명 뒤의 상투적인 장면 소개를 덜어 냅니다.",
+      "revised": "말을 한 번으로 끝낼 수 없을 만큼 충격과 상실감이 컸다는 뜻입니다.",
+      "scope": "問",
+      "revision_history": [
+        {
+          "pass": "targeted_type_3",
+          "previous_revision": "말을 한 번으로 끝낼 수 없을 만큼 충격과 상실감이 컸다는 뜻입니다. 논어에서 공자님의 인간적인 슬픔이 매우 직접적으로 드러나는 장면 가운데 하나입니다.",
+          "revised": "말을 한 번으로 끝낼 수 없을 만큼 충격과 상실감이 컸다는 뜻입니다.",
+          "reason": "충격과 상실감이 컸다는 앞 설명 뒤의 상투적인 장면 소개를 덜어 냅니다.",
+          "approval_status": "approved",
+          "approval_message": "수정후보 제이슨에 반영",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "말을 한 번으로 끝낼 수 없을 만큼 충격과 상실감이 컸다는 뜻입니다. 논어에서 공자님의 인간적인 슬픔이 매우 직접적으로 드러나는 장면 가운데 하나입니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_3"
     },
     {
       "book": 11,
@@ -2001,9 +2043,9 @@
     "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_2",
+    "pass": "targeted_type_3",
     "reviewed": 150,
-    "approved_applied": 2,
+    "approved_applied": 3,
     "status": "approved_applied"
   }
 }

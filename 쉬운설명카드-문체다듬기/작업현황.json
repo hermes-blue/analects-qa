@@ -1,19 +1,12 @@
 {
-  "apply_status": "유형 2 전수검토 제안 109곳을 사용자 승인에 따라 수정본 JSON에 모두 반영. 원본 HTML 미적용.",
+  "apply_status": "유형 3 전수검토 제안 152곳을 사용자 승인에 따라 수정본 JSON에 모두 반영. 원본 HTML 미적용.",
   "book_count": 20,
   "card_count": 498,
   "content_review_performed": false,
   "destination_branch": "main",
   "destination_repository": "hermes-blue/analects-qa",
   "folder": "쉬운설명카드-문체다듬기",
-  "next_passes": [
-    {
-      "type": 3,
-      "scope": "AI식 메타 설명·상투적인 마무리·반복",
-      "review_all": true,
-      "approval_required_before_apply": true
-    }
-  ],
+  "next_passes": [],
   "remaining_sections_checks": {
     "book_count": 20,
     "books": [
@@ -419,7 +412,7 @@
     },
     {
       "book_count": 20,
-      "changed": 124,
+      "changed": 189,
       "labels_preserved": true,
       "method": "전 항목에서 문체 패턴으로 후보를 찾아 후보 문장의 문맥을 확인하는 선별 교정.",
       "name": "한자풀이",
@@ -588,20 +581,20 @@
           "scanned_text_fields": 15
         }
       ],
-      "status": "approved_targeted_type_2_applied",
+      "status": "approved_targeted_type_3_applied",
       "text_fields": 2311,
-      "unchanged": 2187,
+      "unchanged": 2122,
       "unique_cards": 498,
       "latest_style_pass": {
-        "pass": "targeted_type_2",
-        "approved_applied": 34,
+        "pass": "targeted_type_3",
+        "approved_applied": 70,
         "reviewed": 2311,
-        "method": "20편의 핵심·語·問·說 전체 6,921개 본문 항목을 순서대로 읽고 유형 2 후보 109곳을 전후 대조한 뒤 사용자 승인에 따라 반영. 내용·해석 검수는 하지 않음."
+        "method": "20편의 핵심·語·問·說 전체 6,921개 본문 항목을 순서대로 읽고 유형 3 후보 152곳을 전후 대조한 뒤 사용자 승인에 따라 반영. 내용·해석 검수는 하지 않음."
       }
     },
     {
       "book_count": 20,
-      "changed": 137,
+      "changed": 165,
       "labels_preserved": true,
       "method": "전 항목에서 문체 패턴으로 후보를 찾아 후보 문장의 문맥을 확인하는 선별 교정.",
       "name": "의문",
@@ -770,20 +763,20 @@
           "scanned_text_fields": 18
         }
       ],
-      "status": "approved_targeted_type_2_applied",
+      "status": "approved_targeted_type_3_applied",
       "text_fields": 3072,
-      "unchanged": 2935,
+      "unchanged": 2907,
       "unique_cards": 498,
       "latest_style_pass": {
-        "pass": "targeted_type_2",
-        "approved_applied": 52,
+        "pass": "targeted_type_3",
+        "approved_applied": 37,
         "reviewed": 3072,
-        "method": "20편의 핵심·語·問·說 전체 6,921개 본문 항목을 순서대로 읽고 유형 2 후보 109곳을 전후 대조한 뒤 사용자 승인에 따라 반영. 내용·해석 검수는 하지 않음."
+        "method": "20편의 핵심·語·問·說 전체 6,921개 본문 항목을 순서대로 읽고 유형 3 후보 152곳을 전후 대조한 뒤 사용자 승인에 따라 반영. 내용·해석 검수는 하지 않음."
       }
     },
     {
       "book_count": 20,
-      "changed": 47,
+      "changed": 84,
       "labels_preserved": true,
       "method": "전 항목에서 문체 패턴으로 후보를 찾아 후보 문장의 문맥을 확인하는 선별 교정.",
       "name": "쟁점",
@@ -952,24 +945,24 @@
           "scanned_text_fields": 8
         }
       ],
-      "status": "approved_targeted_type_2_applied",
+      "status": "approved_targeted_type_3_applied",
       "text_fields": 1040,
-      "unchanged": 993,
+      "unchanged": 956,
       "unique_cards": 498,
       "latest_style_pass": {
-        "pass": "targeted_type_2",
-        "approved_applied": 22,
+        "pass": "targeted_type_3",
+        "approved_applied": 45,
         "reviewed": 1040,
-        "method": "20편의 핵심·語·問·說 전체 6,921개 본문 항목을 순서대로 읽고 유형 2 후보 109곳을 전후 대조한 뒤 사용자 승인에 따라 반영. 내용·해석 검수는 하지 않음."
+        "method": "20편의 핵심·語·問·說 전체 6,921개 본문 항목을 순서대로 읽고 유형 3 후보 152곳을 전후 대조한 뒤 사용자 승인에 따라 반영. 내용·해석 검수는 하지 않음."
       }
     }
   ],
-  "status": "approved_targeted_type_2_applied",
-  "total_changed_text_fields": 674,
+  "status": "approved_targeted_type_3_applied",
+  "total_changed_text_fields": 804,
   "last_completed_pass": {
-    "scope": "유형 2: 주어·목적어·조사·서술어 호응과 어순",
+    "scope": "유형 3: AI식 메타 설명·상투적인 마무리·겹말과 반복",
     "reviewed": 6921,
-    "approved_applied": 109,
+    "approved_applied": 152,
     "status": "completed"
   },
   "targeted_reviews": [
@@ -1470,6 +1463,295 @@
         }
       ],
       "approval_message": "수정후 다음 시작"
+    },
+    {
+      "type": 3,
+      "status": "approved_applied",
+      "reviewed": 6921,
+      "approved_applied": 152,
+      "ledger": [
+        {
+          "book": 1,
+          "name": "학이",
+          "all_fields_scanned": true,
+          "counts": {
+            "핵심": 16,
+            "語": 74,
+            "問": 96,
+            "說": 40
+          },
+          "context_reviewed": 226,
+          "all_fields_read": true,
+          "candidate_count": 5
+        },
+        {
+          "book": 2,
+          "name": "위정",
+          "all_fields_scanned": true,
+          "counts": {
+            "핵심": 24,
+            "語": 113,
+            "問": 144,
+            "說": 50
+          },
+          "context_reviewed": 331,
+          "all_fields_read": true,
+          "candidate_count": 6
+        },
+        {
+          "book": 3,
+          "name": "팔일",
+          "all_fields_scanned": true,
+          "counts": {
+            "핵심": 26,
+            "語": 120,
+            "問": 156,
+            "說": 54
+          },
+          "context_reviewed": 356,
+          "all_fields_read": true,
+          "candidate_count": 8
+        },
+        {
+          "book": 4,
+          "name": "이인",
+          "all_fields_scanned": true,
+          "counts": {
+            "핵심": 26,
+            "語": 115,
+            "問": 156,
+            "說": 56
+          },
+          "context_reviewed": 353,
+          "all_fields_read": true,
+          "candidate_count": 7
+        },
+        {
+          "book": 5,
+          "name": "공야장",
+          "all_fields_scanned": true,
+          "counts": {
+            "핵심": 27,
+            "語": 134,
+            "問": 168,
+            "說": 54
+          },
+          "context_reviewed": 383,
+          "all_fields_read": true,
+          "candidate_count": 11
+        },
+        {
+          "book": 6,
+          "name": "옹야",
+          "all_fields_scanned": true,
+          "counts": {
+            "핵심": 28,
+            "語": 137,
+            "問": 168,
+            "說": 58
+          },
+          "context_reviewed": 391,
+          "all_fields_read": true,
+          "candidate_count": 11
+        },
+        {
+          "book": 7,
+          "name": "술이",
+          "all_fields_scanned": true,
+          "counts": {
+            "핵심": 37,
+            "語": 171,
+            "問": 228,
+            "說": 79
+          },
+          "context_reviewed": 515,
+          "all_fields_read": true,
+          "candidate_count": 16
+        },
+        {
+          "book": 8,
+          "name": "태백",
+          "all_fields_scanned": true,
+          "counts": {
+            "핵심": 21,
+            "語": 98,
+            "問": 126,
+            "說": 42
+          },
+          "context_reviewed": 287,
+          "all_fields_read": true,
+          "candidate_count": 6
+        },
+        {
+          "book": 9,
+          "name": "자한",
+          "all_fields_scanned": true,
+          "counts": {
+            "핵심": 30,
+            "語": 146,
+            "問": 186,
+            "說": 60
+          },
+          "context_reviewed": 422,
+          "all_fields_read": true,
+          "candidate_count": 7
+        },
+        {
+          "book": 10,
+          "name": "향당",
+          "all_fields_scanned": true,
+          "counts": {
+            "핵심": 17,
+            "語": 118,
+            "問": 162,
+            "說": 38
+          },
+          "context_reviewed": 335,
+          "all_fields_read": true,
+          "candidate_count": 12
+        },
+        {
+          "book": 11,
+          "name": "선진",
+          "all_fields_scanned": true,
+          "counts": {
+            "핵심": 25,
+            "語": 119,
+            "問": 150,
+            "說": 52
+          },
+          "context_reviewed": 346,
+          "all_fields_read": true,
+          "candidate_count": 8
+        },
+        {
+          "book": 12,
+          "name": "안연",
+          "all_fields_scanned": true,
+          "counts": {
+            "핵심": 24,
+            "語": 109,
+            "問": 144,
+            "說": 48
+          },
+          "context_reviewed": 325,
+          "all_fields_read": true,
+          "candidate_count": 3
+        },
+        {
+          "book": 13,
+          "name": "자로",
+          "all_fields_scanned": true,
+          "counts": {
+            "핵심": 30,
+            "語": 127,
+            "問": 180,
+            "說": 62
+          },
+          "context_reviewed": 399,
+          "all_fields_read": true,
+          "candidate_count": 5
+        },
+        {
+          "book": 14,
+          "name": "헌문",
+          "all_fields_scanned": true,
+          "counts": {
+            "핵심": 47,
+            "語": 195,
+            "問": 282,
+            "說": 99
+          },
+          "context_reviewed": 623,
+          "all_fields_read": true,
+          "candidate_count": 9
+        },
+        {
+          "book": 15,
+          "name": "위령공",
+          "all_fields_scanned": true,
+          "counts": {
+            "핵심": 41,
+            "語": 165,
+            "問": 252,
+            "說": 86
+          },
+          "context_reviewed": 544,
+          "all_fields_read": true,
+          "candidate_count": 9
+        },
+        {
+          "book": 16,
+          "name": "계씨",
+          "all_fields_scanned": true,
+          "counts": {
+            "핵심": 14,
+            "語": 69,
+            "問": 84,
+            "說": 29
+          },
+          "context_reviewed": 196,
+          "all_fields_read": true,
+          "candidate_count": 2
+        },
+        {
+          "book": 17,
+          "name": "양화",
+          "all_fields_scanned": true,
+          "counts": {
+            "핵심": 26,
+            "語": 118,
+            "問": 156,
+            "說": 53
+          },
+          "context_reviewed": 353,
+          "all_fields_read": true,
+          "candidate_count": 9
+        },
+        {
+          "book": 18,
+          "name": "미자",
+          "all_fields_scanned": true,
+          "counts": {
+            "핵심": 11,
+            "語": 54,
+            "問": 66,
+            "說": 22
+          },
+          "context_reviewed": 153,
+          "all_fields_read": true,
+          "candidate_count": 6
+        },
+        {
+          "book": 19,
+          "name": "자장",
+          "all_fields_scanned": true,
+          "counts": {
+            "핵심": 25,
+            "語": 114,
+            "問": 150,
+            "說": 50
+          },
+          "context_reviewed": 339,
+          "all_fields_read": true,
+          "candidate_count": 7
+        },
+        {
+          "book": 20,
+          "name": "요왈",
+          "all_fields_scanned": true,
+          "counts": {
+            "핵심": 3,
+            "語": 15,
+            "問": 18,
+            "說": 8
+          },
+          "context_reviewed": 44,
+          "all_fields_read": true,
+          "candidate_count": 5
+        }
+      ],
+      "approval_message": "수정후보 제이슨에 반영"
     }
   ]
 }

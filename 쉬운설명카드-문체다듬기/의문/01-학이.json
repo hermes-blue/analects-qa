@@ -1212,8 +1212,8 @@
       "key": "ly-01-15:問:2:a",
       "label": "답변",
       "original": "옥이나 뼈를 계속 갈고 다듬듯 사람의 덕도 한 단계에서 멈추지 않고 더 정교하게 다듬어야 한다는 뜻을 떠올린 것입니다. 공자님의 답을 자기 수양의 발전으로 연결한 것입니다.",
-      "reason": "‘수양의 발전으로 연결’을 배우고 이해한 행동으로 풀기",
-      "revised": "옥이나 뼈를 계속 갈고 다듬듯 사람의 덕도 한 단계에서 멈추지 않고 더 정교하게 다듬어야 한다는 뜻을 떠올린 것입니다. 공자님의 답을 듣고 자신을 더 닦아야 한다고 이해한 것입니다.",
+      "reason": "첫 문장에서 이미 설명한 더 닦아야 한다는 깨달음을 반복하는 문장을 덜어 냅니다.",
+      "revised": "옥이나 뼈를 계속 갈고 다듬듯 사람의 덕도 한 단계에서 멈추지 않고 더 정교하게 다듬어야 한다는 뜻을 떠올린 것입니다.",
       "scope": "問",
       "revision_history": [
         {
@@ -1224,11 +1224,20 @@
           "approval_status": "approved",
           "approval_message": "굿 수정, 수정후 다음 시작",
           "date": "2026-09-08"
+        },
+        {
+          "pass": "targeted_type_3",
+          "previous_revision": "옥이나 뼈를 계속 갈고 다듬듯 사람의 덕도 한 단계에서 멈추지 않고 더 정교하게 다듬어야 한다는 뜻을 떠올린 것입니다. 공자님의 답을 듣고 자신을 더 닦아야 한다고 이해한 것입니다.",
+          "revised": "옥이나 뼈를 계속 갈고 다듬듯 사람의 덕도 한 단계에서 멈추지 않고 더 정교하게 다듬어야 한다는 뜻을 떠올린 것입니다.",
+          "reason": "첫 문장에서 이미 설명한 더 닦아야 한다는 깨달음을 반복하는 문장을 덜어 냅니다.",
+          "approval_status": "approved",
+          "approval_message": "수정후보 제이슨에 반영",
+          "date": "2026-09-08"
         }
       ],
-      "previous_revision": "옥이나 뼈를 계속 갈고 다듬듯 사람의 덕도 한 단계에서 멈추지 않고 더 정교하게 다듬어야 한다는 뜻을 떠올린 것입니다. 공자님의 답을 자기 수양의 발전으로 연결한 것입니다.",
+      "previous_revision": "옥이나 뼈를 계속 갈고 다듬듯 사람의 덕도 한 단계에서 멈추지 않고 더 정교하게 다듬어야 한다는 뜻을 떠올린 것입니다. 공자님의 답을 듣고 자신을 더 닦아야 한다고 이해한 것입니다.",
       "approval_status": "approved",
-      "last_revision_pass": "targeted_type_1"
+      "last_revision_pass": "targeted_type_3"
     },
     {
       "book": 1,
@@ -1355,9 +1364,9 @@
     "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_2",
+    "pass": "targeted_type_3",
     "reviewed": 96,
-    "approved_applied": 2,
+    "approved_applied": 1,
     "status": "approved_applied"
   }
 }

@@ -144,17 +144,31 @@
     },
     {
       "book": 14,
-      "changed": false,
+      "changed": true,
       "heading": "‘노나라 대부 南宮敬叔’ vs ‘공자님의 제자 南容’南宮适의 정체",
       "id": "ly-14-06",
       "index": 1,
       "key": "ly-14-06:說:1:1",
       "label": "공안국(孔安國) — 《논어집해》 인용",
       "original": "질문한 南宮适을 노나라 대부 南宮敬叔으로 봅니다. 그러면 정치가 집안의 유력 대부가 공자님께 역사 인물을 물은 장면이 됩니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "질문한 南宮适을 노나라 대부 南宮敬叔으로 봅니다. 그러면 정치가 집안의 유력 대부가 공자님께 역사 인물을 물은 장면이 됩니다.",
+      "reason": "장면이 된다는 마무리를 덜어 냅니다.",
+      "revised": "질문한 南宮适을 노나라 대부 南宮敬叔으로 봅니다. 이 풀이에서는 정치가 집안의 유력 대부가 공자님께 역사 인물을 물은 것입니다.",
       "scope": "說",
-      "side": 1
+      "side": 1,
+      "revision_history": [
+        {
+          "pass": "targeted_type_3",
+          "previous_revision": "질문한 南宮适을 노나라 대부 南宮敬叔으로 봅니다. 그러면 정치가 집안의 유력 대부가 공자님께 역사 인물을 물은 장면이 됩니다.",
+          "revised": "질문한 南宮适을 노나라 대부 南宮敬叔으로 봅니다. 이 풀이에서는 정치가 집안의 유력 대부가 공자님께 역사 인물을 물은 것입니다.",
+          "reason": "장면이 된다는 마무리를 덜어 냅니다.",
+          "approval_status": "approved",
+          "approval_message": "수정후보 제이슨에 반영",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "질문한 南宮适을 노나라 대부 南宮敬叔으로 봅니다. 그러면 정치가 집안의 유력 대부가 공자님께 역사 인물을 물은 장면이 됩니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_3"
     },
     {
       "book": 14,
@@ -1432,7 +1446,7 @@
     "selector": "article.card details.st3 .js .side > p"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_2",
+    "pass": "targeted_type_3",
     "reviewed": 99,
     "approved_applied": 1,
     "status": "approved_applied"

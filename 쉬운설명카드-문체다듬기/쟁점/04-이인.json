@@ -655,8 +655,8 @@
       "key": "ly-04-20:說:1:2",
       "label": "이렇게도 보면",
       "original": "논어에는 중요하게 전승된 말이 서로 다른 편에 반복되는 경우가 있습니다. 이 장은 새로운 교훈을 억지로 만들기보다, 논어가 여러 전승을 묶어 편집된 책이라는 흔적을 보여 주는 사례로 볼 수 있습니다.",
-      "reason": "능동·피동이 어긋나게 이어진 관형절을 고칩니다.",
-      "revised": "논어에는 중요하게 전승된 말이 서로 다른 편에 반복되는 경우가 있습니다. 이 장은 새로운 교훈을 억지로 만들기보다, 논어가 여러 전승을 모아 편집한 책이라는 흔적을 보여 주는 사례로 볼 수 있습니다.",
+      "reason": "흔적을 보여 주는 사례라는 겹친 설명을 덜어 냅니다.",
+      "revised": "논어에는 중요하게 전승된 말이 서로 다른 편에 반복되는 경우가 있습니다. 이 장에서 새로운 교훈을 찾기보다, 논어가 여러 전승을 모아 편집한 책이라는 점에 주목할 수 있습니다.",
       "scope": "說",
       "side": 2,
       "revision_history": [
@@ -668,11 +668,20 @@
           "approval_status": "approved",
           "approval_message": "수정후 다음 시작",
           "date": "2026-09-08"
+        },
+        {
+          "pass": "targeted_type_3",
+          "previous_revision": "논어에는 중요하게 전승된 말이 서로 다른 편에 반복되는 경우가 있습니다. 이 장은 새로운 교훈을 억지로 만들기보다, 논어가 여러 전승을 모아 편집한 책이라는 흔적을 보여 주는 사례로 볼 수 있습니다.",
+          "revised": "논어에는 중요하게 전승된 말이 서로 다른 편에 반복되는 경우가 있습니다. 이 장에서 새로운 교훈을 찾기보다, 논어가 여러 전승을 모아 편집한 책이라는 점에 주목할 수 있습니다.",
+          "reason": "흔적을 보여 주는 사례라는 겹친 설명을 덜어 냅니다.",
+          "approval_status": "approved",
+          "approval_message": "수정후보 제이슨에 반영",
+          "date": "2026-09-08"
         }
       ],
-      "previous_revision": "논어에는 중요하게 전승된 말이 서로 다른 편에 반복되는 경우가 있습니다. 이 장은 새로운 교훈을 억지로 만들기보다, 논어가 여러 전승을 묶어 편집된 책이라는 흔적을 보여 주는 사례로 볼 수 있습니다.",
+      "previous_revision": "논어에는 중요하게 전승된 말이 서로 다른 편에 반복되는 경우가 있습니다. 이 장은 새로운 교훈을 억지로 만들기보다, 논어가 여러 전승을 모아 편집한 책이라는 흔적을 보여 주는 사례로 볼 수 있습니다.",
       "approval_status": "approved",
-      "last_revision_pass": "targeted_type_2"
+      "last_revision_pass": "targeted_type_3"
     },
     {
       "book": 4,
@@ -863,9 +872,9 @@
     "selector": "article.card details.st3 .js .side > p"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_2",
+    "pass": "targeted_type_3",
     "reviewed": 56,
-    "approved_applied": 4,
+    "approved_applied": 1,
     "status": "approved_applied"
   }
 }

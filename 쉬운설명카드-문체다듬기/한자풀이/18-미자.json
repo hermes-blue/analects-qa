@@ -124,15 +124,29 @@
     },
     {
       "book": 18,
-      "changed": false,
+      "changed": true,
       "id": "ly-18-03",
       "index": 1,
       "key": "ly-18-03:語:1",
       "label": "齊景公待孔子제경공대공자",
       "original": "제경공이 공자님을 어떤 예우로 대할지 논한 장면입니다. 대우의 격보다 실제로 쓰려는 의지가 있는지가 더 중요하게 드러납니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "제경공이 공자님을 어떤 예우로 대할지 논한 장면입니다. 대우의 격보다 실제로 쓰려는 의지가 있는지가 더 중요하게 드러납니다.",
-      "scope": "語"
+      "reason": "장면이라는 포장을 덜어 냅니다.",
+      "revised": "제경공이 공자님을 어떤 예우로 대할지 논했다는 말입니다. 대우의 격보다 실제로 쓰려는 의지가 있는지가 더 중요하게 드러납니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_3",
+          "previous_revision": "제경공이 공자님을 어떤 예우로 대할지 논한 장면입니다. 대우의 격보다 실제로 쓰려는 의지가 있는지가 더 중요하게 드러납니다.",
+          "revised": "제경공이 공자님을 어떤 예우로 대할지 논했다는 말입니다. 대우의 격보다 실제로 쓰려는 의지가 있는지가 더 중요하게 드러납니다.",
+          "reason": "장면이라는 포장을 덜어 냅니다.",
+          "approval_status": "approved",
+          "approval_message": "수정후보 제이슨에 반영",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "제경공이 공자님을 어떤 예우로 대할지 논한 장면입니다. 대우의 격보다 실제로 쓰려는 의지가 있는지가 더 중요하게 드러납니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_3"
     },
     {
       "book": 18,
@@ -522,15 +536,29 @@
     },
     {
       "book": 18,
-      "changed": false,
+      "changed": true,
       "id": "ly-18-09",
       "index": 4,
       "key": "ly-18-09:語:4",
       "label": "少師陽擊磬襄入於海소사양격경양입어해",
       "original": "소사 양과 경쇠 악사 양이 바닷가로 떠났다는 뜻입니다. 예악을 지탱하던 인재가 사라지는 모습을 극적으로 마무리합니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "소사 양과 경쇠 악사 양이 바닷가로 떠났다는 뜻입니다. 예악을 지탱하던 인재가 사라지는 모습을 극적으로 마무리합니다.",
-      "scope": "語"
+      "reason": "극적인 마무리라는 감상 대신 인재의 이탈을 직접 전합니다.",
+      "revised": "소사 양과 경쇠 악사 양이 바닷가로 떠났다는 뜻입니다. 예악을 지탱하던 인재들이 이렇게 노나라를 떠났습니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_3",
+          "previous_revision": "소사 양과 경쇠 악사 양이 바닷가로 떠났다는 뜻입니다. 예악을 지탱하던 인재가 사라지는 모습을 극적으로 마무리합니다.",
+          "revised": "소사 양과 경쇠 악사 양이 바닷가로 떠났다는 뜻입니다. 예악을 지탱하던 인재들이 이렇게 노나라를 떠났습니다.",
+          "reason": "극적인 마무리라는 감상 대신 인재의 이탈을 직접 전합니다.",
+          "approval_status": "approved",
+          "approval_message": "수정후보 제이슨에 반영",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "소사 양과 경쇠 악사 양이 바닷가로 떠났다는 뜻입니다. 예악을 지탱하던 인재가 사라지는 모습을 극적으로 마무리합니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_3"
     },
     {
       "book": 18,
@@ -546,15 +574,29 @@
     },
     {
       "book": 18,
-      "changed": false,
+      "changed": true,
       "id": "ly-18-10",
       "index": 1,
       "key": "ly-18-10:語:1",
       "label": "周公謂魯公주공위노공",
       "original": "주공이 아들 노공에게 나라를 다스리는 원칙을 당부하는 장면입니다. 친족·옛사람·인재를 대하는 태도를 압축해 말합니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "주공이 아들 노공에게 나라를 다스리는 원칙을 당부하는 장면입니다. 친족·옛사람·인재를 대하는 태도를 압축해 말합니다.",
-      "scope": "語"
+      "reason": "당부하는 장면·압축해 말한다는 두 설명을 합칩니다.",
+      "revised": "주공이 아들 노공에게 친족·옛사람·인재를 어떻게 대하며 나라를 다스려야 하는지 당부했다는 말입니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_3",
+          "previous_revision": "주공이 아들 노공에게 나라를 다스리는 원칙을 당부하는 장면입니다. 친족·옛사람·인재를 대하는 태도를 압축해 말합니다.",
+          "revised": "주공이 아들 노공에게 친족·옛사람·인재를 어떻게 대하며 나라를 다스려야 하는지 당부했다는 말입니다.",
+          "reason": "당부하는 장면·압축해 말한다는 두 설명을 합칩니다.",
+          "approval_status": "approved",
+          "approval_message": "수정후보 제이슨에 반영",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "주공이 아들 노공에게 나라를 다스리는 원칙을 당부하는 장면입니다. 친족·옛사람·인재를 대하는 태도를 압축해 말합니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_3"
     },
     {
       "book": 18,
@@ -699,9 +741,9 @@
     "selector": "article.card details.st1 .w > p:not(.wh)"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_2",
+    "pass": "targeted_type_3",
     "reviewed": 54,
-    "approved_applied": 1,
+    "approved_applied": 3,
     "status": "approved_applied"
   }
 }

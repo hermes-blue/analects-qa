@@ -369,16 +369,30 @@
     },
     {
       "book": 12,
-      "changed": false,
+      "changed": true,
       "field": "답변",
       "id": "ly-12-05",
       "index": 2,
       "key": "ly-12-05:問:2:a",
       "label": "답변",
       "original": "자기가 통제할 수 없는 죽음·생사·부귀까지 억지로 붙잡지 말라는 위로에 가깝습니다. 대신 이어서 자신의 행동은 공경과 예로 바로잡아야 한다고 강조합니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "자기가 통제할 수 없는 죽음·생사·부귀까지 억지로 붙잡지 말라는 위로에 가깝습니다. 대신 이어서 자신의 행동은 공경과 예로 바로잡아야 한다고 강조합니다.",
-      "scope": "問"
+      "reason": "생사에 이미 포함된 죽음을 중복해서 나열하지 않습니다.",
+      "revised": "자기가 통제할 수 없는 생사·부귀까지 억지로 붙잡지 말라는 위로에 가깝습니다. 대신 이어서 자신의 행동은 공경과 예로 바로잡아야 한다고 강조합니다.",
+      "scope": "問",
+      "revision_history": [
+        {
+          "pass": "targeted_type_3",
+          "previous_revision": "자기가 통제할 수 없는 죽음·생사·부귀까지 억지로 붙잡지 말라는 위로에 가깝습니다. 대신 이어서 자신의 행동은 공경과 예로 바로잡아야 한다고 강조합니다.",
+          "revised": "자기가 통제할 수 없는 생사·부귀까지 억지로 붙잡지 말라는 위로에 가깝습니다. 대신 이어서 자신의 행동은 공경과 예로 바로잡아야 한다고 강조합니다.",
+          "reason": "생사에 이미 포함된 죽음을 중복해서 나열하지 않습니다.",
+          "approval_status": "approved",
+          "approval_message": "수정후보 제이슨에 반영",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "자기가 통제할 수 없는 죽음·생사·부귀까지 억지로 붙잡지 말라는 위로에 가깝습니다. 대신 이어서 자신의 행동은 공경과 예로 바로잡아야 한다고 강조합니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_3"
     },
     {
       "book": 12,
@@ -1763,16 +1777,30 @@
     },
     {
       "book": 12,
-      "changed": false,
+      "changed": true,
       "field": "답변",
       "id": "ly-12-22",
       "index": 3,
       "key": "ly-12-22:問:3:a",
       "label": "답변",
       "original": "많은 사람 가운데 덕 있는 인재를 알아보고 중요한 자리에 세웠기 때문입니다. 사람을 정확히 알아보는 지혜가 정치의 방향까지 바꿀 수 있음을 보여 주는 사례입니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "많은 사람 가운데 덕 있는 인재를 알아보고 중요한 자리에 세웠기 때문입니다. 사람을 정확히 알아보는 지혜가 정치의 방향까지 바꿀 수 있음을 보여 주는 사례입니다.",
-      "scope": "問"
+      "reason": "보여 주는 사례라는 포장을 덜고 뜻을 직접 말합니다.",
+      "revised": "많은 사람 가운데 덕 있는 인재를 알아보고 중요한 자리에 세웠기 때문입니다. 사람을 정확히 알아보는 지혜는 정치의 방향까지 바꿀 수 있습니다.",
+      "scope": "問",
+      "revision_history": [
+        {
+          "pass": "targeted_type_3",
+          "previous_revision": "많은 사람 가운데 덕 있는 인재를 알아보고 중요한 자리에 세웠기 때문입니다. 사람을 정확히 알아보는 지혜가 정치의 방향까지 바꿀 수 있음을 보여 주는 사례입니다.",
+          "revised": "많은 사람 가운데 덕 있는 인재를 알아보고 중요한 자리에 세웠기 때문입니다. 사람을 정확히 알아보는 지혜는 정치의 방향까지 바꿀 수 있습니다.",
+          "reason": "보여 주는 사례라는 포장을 덜고 뜻을 직접 말합니다.",
+          "approval_status": "approved",
+          "approval_message": "수정후보 제이슨에 반영",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "많은 사람 가운데 덕 있는 인재를 알아보고 중요한 자리에 세웠기 때문입니다. 사람을 정확히 알아보는 지혜가 정치의 방향까지 바꿀 수 있음을 보여 주는 사례입니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_3"
     },
     {
       "book": 12,
@@ -1965,9 +1993,9 @@
     "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_2",
+    "pass": "targeted_type_3",
     "reviewed": 144,
-    "approved_applied": 4,
+    "approved_applied": 2,
     "status": "approved_applied"
   }
 }

@@ -64,15 +64,29 @@
     },
     {
       "book": 9,
-      "changed": false,
+      "changed": true,
       "id": "ly-09-02",
       "index": 1,
       "key": "ly-09-02:語:1",
       "label": "達巷黨人달항당인",
       "original": "達巷이라는 마을의 사람을 가리킵니다. 이 익명의 평가자가 공자님을 ‘크다’고 칭찬하면서도 특정 기술로 이름나지 않았다고 말해 장의 대화를 시작합니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "達巷이라는 마을의 사람을 가리킵니다. 이 익명의 평가자가 공자님을 ‘크다’고 칭찬하면서도 특정 기술로 이름나지 않았다고 말해 장의 대화를 시작합니다.",
-      "scope": "語"
+      "reason": "평가자와 장의 시작에 관한 메타 설명을 덜고 실제 발언을 전합니다.",
+      "revised": "達巷이라는 마을의 사람을 가리킵니다. 이 사람은 공자님을 ‘크다’고 칭찬하면서도 특정 기술로 이름나지 않았다고 말합니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_3",
+          "previous_revision": "達巷이라는 마을의 사람을 가리킵니다. 이 익명의 평가자가 공자님을 ‘크다’고 칭찬하면서도 특정 기술로 이름나지 않았다고 말해 장의 대화를 시작합니다.",
+          "revised": "達巷이라는 마을의 사람을 가리킵니다. 이 사람은 공자님을 ‘크다’고 칭찬하면서도 특정 기술로 이름나지 않았다고 말합니다.",
+          "reason": "평가자와 장의 시작에 관한 메타 설명을 덜고 실제 발언을 전합니다.",
+          "approval_status": "approved",
+          "approval_message": "수정후보 제이슨에 반영",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "達巷이라는 마을의 사람을 가리킵니다. 이 익명의 평가자가 공자님을 ‘크다’고 칭찬하면서도 특정 기술로 이름나지 않았다고 말해 장의 대화를 시작합니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_3"
     },
     {
       "book": 9,
@@ -642,15 +656,29 @@
     },
     {
       "book": 9,
-      "changed": false,
+      "changed": true,
       "id": "ly-09-11",
       "index": 1,
       "key": "ly-09-11:語:1",
       "label": "疾病질병",
       "original": "병이 매우 위중한 상태를 뜻합니다. 죽음을 앞둔 상황에서도 공자님이 명분과 사실에 맞지 않는 의전을 거부했다는 점이 이 장의 긴장감을 만듭니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "병이 매우 위중한 상태를 뜻합니다. 죽음을 앞둔 상황에서도 공자님이 명분과 사실에 맞지 않는 의전을 거부했다는 점이 이 장의 긴장감을 만듭니다.",
-      "scope": "語"
+      "reason": "글의 긴장감을 해설하지 않고 당시 행동을 바로 전합니다.",
+      "revised": "병이 매우 위중한 상태를 뜻합니다. 공자님은 죽음을 앞둔 상황에서도 명분과 사실에 맞지 않는 의전을 거부하셨습니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_3",
+          "previous_revision": "병이 매우 위중한 상태를 뜻합니다. 죽음을 앞둔 상황에서도 공자님이 명분과 사실에 맞지 않는 의전을 거부했다는 점이 이 장의 긴장감을 만듭니다.",
+          "revised": "병이 매우 위중한 상태를 뜻합니다. 공자님은 죽음을 앞둔 상황에서도 명분과 사실에 맞지 않는 의전을 거부하셨습니다.",
+          "reason": "글의 긴장감을 해설하지 않고 당시 행동을 바로 전합니다.",
+          "approval_status": "approved",
+          "approval_message": "수정후보 제이슨에 반영",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "병이 매우 위중한 상태를 뜻합니다. 죽음을 앞둔 상황에서도 공자님이 명분과 사실에 맞지 않는 의전을 거부했다는 점이 이 장의 긴장감을 만듭니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_3"
     },
     {
       "book": 9,
@@ -1752,15 +1780,29 @@
     },
     {
       "book": 9,
-      "changed": false,
+      "changed": true,
       "id": "ly-09-30",
       "index": 1,
       "key": "ly-09-30:語:1",
       "label": "唐棣之華당체지화",
       "original": "산앵두나무 꽃을 노래하는 시의 첫머리입니다. 공자님은 이 시 전체를 인용해 ‘마음은 있으나 거리가 멀다’는 핑계를 비판하는 대화를 끌어냅니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "산앵두나무 꽃을 노래하는 시의 첫머리입니다. 공자님은 이 시 전체를 인용해 ‘마음은 있으나 거리가 멀다’는 핑계를 비판하는 대화를 끌어냅니다.",
-      "scope": "語"
+      "reason": "대화를 끌어낸다는 메타 표현을 덜어 냅니다.",
+      "revised": "산앵두나무 꽃을 노래하는 시의 첫머리입니다. 공자님은 이 시 전체를 인용해 ‘마음은 있으나 거리가 멀다’는 핑계를 비판합니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_3",
+          "previous_revision": "산앵두나무 꽃을 노래하는 시의 첫머리입니다. 공자님은 이 시 전체를 인용해 ‘마음은 있으나 거리가 멀다’는 핑계를 비판하는 대화를 끌어냅니다.",
+          "revised": "산앵두나무 꽃을 노래하는 시의 첫머리입니다. 공자님은 이 시 전체를 인용해 ‘마음은 있으나 거리가 멀다’는 핑계를 비판합니다.",
+          "reason": "대화를 끌어낸다는 메타 표현을 덜어 냅니다.",
+          "approval_status": "approved",
+          "approval_message": "수정후보 제이슨에 반영",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "산앵두나무 꽃을 노래하는 시의 첫머리입니다. 공자님은 이 시 전체를 인용해 ‘마음은 있으나 거리가 멀다’는 핑계를 비판하는 대화를 끌어냅니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_3"
     },
     {
       "book": 9,
@@ -1831,9 +1873,9 @@
     "selector": "article.card details.st1 .w > p:not(.wh)"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_1",
+    "pass": "targeted_type_3",
     "reviewed": 146,
-    "approved_applied": 4,
+    "approved_applied": 3,
     "status": "approved_applied"
   }
 }

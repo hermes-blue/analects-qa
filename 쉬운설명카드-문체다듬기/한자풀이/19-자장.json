@@ -112,15 +112,29 @@
     },
     {
       "book": 19,
-      "changed": false,
+      "changed": true,
       "id": "ly-19-03",
       "index": 1,
       "key": "ly-19-03:語:1",
       "label": "問交문교",
       "original": "사람을 어떻게 사귀어야 하는지 묻는 말입니다. 자하와 자장의 서로 다른 인간관계 기준이 드러나는 장입니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "사람을 어떻게 사귀어야 하는지 묻는 말입니다. 자하와 자장의 서로 다른 인간관계 기준이 드러나는 장입니다.",
-      "scope": "語"
+      "reason": "장을 소개하는 표현을 인물의 주장에 대한 직접 설명으로 바꿉니다.",
+      "revised": "사람을 어떻게 사귀어야 하는지 묻는 말입니다. 자하와 자장은 사람을 사귀는 기준을 서로 다르게 제시합니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_3",
+          "previous_revision": "사람을 어떻게 사귀어야 하는지 묻는 말입니다. 자하와 자장의 서로 다른 인간관계 기준이 드러나는 장입니다.",
+          "revised": "사람을 어떻게 사귀어야 하는지 묻는 말입니다. 자하와 자장은 사람을 사귀는 기준을 서로 다르게 제시합니다.",
+          "reason": "장을 소개하는 표현을 인물의 주장에 대한 직접 설명으로 바꿉니다.",
+          "approval_status": "approved",
+          "approval_message": "수정후보 제이슨에 반영",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "사람을 어떻게 사귀어야 하는지 묻는 말입니다. 자하와 자장의 서로 다른 인간관계 기준이 드러나는 장입니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_3"
     },
     {
       "book": 19,
@@ -622,15 +636,29 @@
     },
     {
       "book": 19,
-      "changed": false,
+      "changed": true,
       "id": "ly-19-11",
       "index": 3,
       "key": "ly-19-11:語:3",
       "label": "閑한",
       "original": "울타리나 경계를 뜻합니다. 큰 덕에는 넘지 말아야 할 분명한 선이 있다는 비유를 만듭니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "울타리나 경계를 뜻합니다. 큰 덕에는 넘지 말아야 할 분명한 선이 있다는 비유를 만듭니다.",
-      "scope": "語"
+      "reason": "비유를 만든다는 메타 표현을 자연스러운 풀이로 바꿉니다.",
+      "revised": "울타리나 경계를 뜻합니다. 큰 덕에는 넘지 말아야 할 분명한 선이 있음을 비유한 말입니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_3",
+          "previous_revision": "울타리나 경계를 뜻합니다. 큰 덕에는 넘지 말아야 할 분명한 선이 있다는 비유를 만듭니다.",
+          "revised": "울타리나 경계를 뜻합니다. 큰 덕에는 넘지 말아야 할 분명한 선이 있음을 비유한 말입니다.",
+          "reason": "비유를 만든다는 메타 표현을 자연스러운 풀이로 바꿉니다.",
+          "approval_status": "approved",
+          "approval_message": "수정후보 제이슨에 반영",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "울타리나 경계를 뜻합니다. 큰 덕에는 넘지 말아야 할 분명한 선이 있다는 비유를 만듭니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_3"
     },
     {
       "book": 19,
@@ -1022,15 +1050,29 @@
     },
     {
       "book": 19,
-      "changed": false,
+      "changed": true,
       "id": "ly-19-19",
       "index": 1,
       "key": "ly-19-19:語:1",
       "label": "陽膚爲士師양부위사사",
       "original": "양부가 재판과 형벌을 맡는 관리가 된 장면입니다. 증자는 범죄자를 다룰 때 처벌의 기쁨보다 사회적 원인을 먼저 보라고 가르칩니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "양부가 재판과 형벌을 맡는 관리가 된 장면입니다. 증자는 범죄자를 다룰 때 처벌의 기쁨보다 사회적 원인을 먼저 보라고 가르칩니다.",
-      "scope": "語"
+      "reason": "장면이라는 마무리를 덜고 사건을 직접 전합니다.",
+      "revised": "양부가 재판과 형벌을 맡는 관리가 되었습니다. 증자는 범죄자를 다룰 때 처벌의 기쁨보다 사회적 원인을 먼저 보라고 가르칩니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_3",
+          "previous_revision": "양부가 재판과 형벌을 맡는 관리가 된 장면입니다. 증자는 범죄자를 다룰 때 처벌의 기쁨보다 사회적 원인을 먼저 보라고 가르칩니다.",
+          "revised": "양부가 재판과 형벌을 맡는 관리가 되었습니다. 증자는 범죄자를 다룰 때 처벌의 기쁨보다 사회적 원인을 먼저 보라고 가르칩니다.",
+          "reason": "장면이라는 마무리를 덜고 사건을 직접 전합니다.",
+          "approval_status": "approved",
+          "approval_message": "수정후보 제이슨에 반영",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "양부가 재판과 형벌을 맡는 관리가 된 장면입니다. 증자는 범죄자를 다룰 때 처벌의 기쁨보다 사회적 원인을 먼저 보라고 가르칩니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_3"
     },
     {
       "book": 19,
@@ -1461,7 +1503,7 @@
     "selector": "article.card details.st1 .w > p:not(.wh)"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_2",
+    "pass": "targeted_type_3",
     "reviewed": 114,
     "approved_applied": 3,
     "status": "approved_applied"

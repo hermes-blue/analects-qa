@@ -4,15 +4,29 @@
   "entries": [
     {
       "book": 15,
-      "changed": false,
+      "changed": true,
       "id": "ly-15-01",
       "index": 1,
       "key": "ly-15-01:語:1",
       "label": "問陳문진",
       "original": "위 영공이 군대의 진법을 묻는 장면입니다. 공자님은 전쟁 기술보다 예와 정치의 바른 방향을 자기 학문의 중심으로 삼았음을 분명히 합니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "위 영공이 군대의 진법을 묻는 장면입니다. 공자님은 전쟁 기술보다 예와 정치의 바른 방향을 자기 학문의 중심으로 삼았음을 분명히 합니다.",
-      "scope": "語"
+      "reason": "장면이라는 포장을 덜어 냅니다.",
+      "revised": "위 영공이 군대의 진법을 물었다는 말입니다. 공자님은 전쟁 기술보다 예와 정치의 바른 방향을 자기 학문의 중심으로 삼았음을 분명히 합니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_3",
+          "previous_revision": "위 영공이 군대의 진법을 묻는 장면입니다. 공자님은 전쟁 기술보다 예와 정치의 바른 방향을 자기 학문의 중심으로 삼았음을 분명히 합니다.",
+          "revised": "위 영공이 군대의 진법을 물었다는 말입니다. 공자님은 전쟁 기술보다 예와 정치의 바른 방향을 자기 학문의 중심으로 삼았음을 분명히 합니다.",
+          "reason": "장면이라는 포장을 덜어 냅니다.",
+          "approval_status": "approved",
+          "approval_message": "수정후보 제이슨에 반영",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "위 영공이 군대의 진법을 묻는 장면입니다. 공자님은 전쟁 기술보다 예와 정치의 바른 방향을 자기 학문의 중심으로 삼았음을 분명히 합니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_3"
     },
     {
       "book": 15,
@@ -100,15 +114,29 @@
     },
     {
       "book": 15,
-      "changed": false,
+      "changed": true,
       "id": "ly-15-02",
       "index": 4,
       "key": "ly-15-02:語:4",
       "label": "貫관",
       "original": "꿰어 하나로 연결한다는 뜻입니다. 서로 다른 지식과 경험이 따로 노는 것이 아니라 하나의 기준을 통해 통한다는 의미를 만듭니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "꿰어 하나로 연결한다는 뜻입니다. 서로 다른 지식과 경험이 따로 노는 것이 아니라 하나의 기준을 통해 통한다는 의미를 만듭니다.",
-      "scope": "語"
+      "reason": "뜻을 만들어 낸다는 메타 표현을 직접적인 풀이로 바꿉니다.",
+      "revised": "꿰어 하나로 연결한다는 뜻입니다. 서로 다른 지식과 경험이 따로 노는 것이 아니라 하나의 기준을 통해 통한다는 뜻입니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_3",
+          "previous_revision": "꿰어 하나로 연결한다는 뜻입니다. 서로 다른 지식과 경험이 따로 노는 것이 아니라 하나의 기준을 통해 통한다는 의미를 만듭니다.",
+          "revised": "꿰어 하나로 연결한다는 뜻입니다. 서로 다른 지식과 경험이 따로 노는 것이 아니라 하나의 기준을 통해 통한다는 뜻입니다.",
+          "reason": "뜻을 만들어 낸다는 메타 표현을 직접적인 풀이로 바꿉니다.",
+          "approval_status": "approved",
+          "approval_message": "수정후보 제이슨에 반영",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "꿰어 하나로 연결한다는 뜻입니다. 서로 다른 지식과 경험이 따로 노는 것이 아니라 하나의 기준을 통해 통한다는 의미를 만듭니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_3"
     },
     {
       "book": 15,
@@ -1196,15 +1224,29 @@
     },
     {
       "book": 15,
-      "changed": false,
+      "changed": true,
       "id": "ly-15-24",
       "index": 4,
       "key": "ly-15-24:語:4",
       "label": "直道而行직도이행",
       "original": "곧은 도에 따라 행한다는 뜻입니다. 사람에 대한 평가는 사적 호오보다 공정한 기준을 따라야 한다는 장의 결론입니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "곧은 도에 따라 행한다는 뜻입니다. 사람에 대한 평가는 사적 호오보다 공정한 기준을 따라야 한다는 장의 결론입니다.",
-      "scope": "語"
+      "reason": "장의 결론이라는 설명을 덜고 뜻을 직접 풉니다.",
+      "revised": "곧은 도에 따라 행한다는 뜻입니다. 사람에 대한 평가는 사적 호오보다 공정한 기준을 따라야 한다는 뜻입니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_3",
+          "previous_revision": "곧은 도에 따라 행한다는 뜻입니다. 사람에 대한 평가는 사적 호오보다 공정한 기준을 따라야 한다는 장의 결론입니다.",
+          "revised": "곧은 도에 따라 행한다는 뜻입니다. 사람에 대한 평가는 사적 호오보다 공정한 기준을 따라야 한다는 뜻입니다.",
+          "reason": "장의 결론이라는 설명을 덜고 뜻을 직접 풉니다.",
+          "approval_status": "approved",
+          "approval_message": "수정후보 제이슨에 반영",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "곧은 도에 따라 행한다는 뜻입니다. 사람에 대한 평가는 사적 호오보다 공정한 기준을 따라야 한다는 장의 결론입니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_3"
     },
     {
       "book": 15,
@@ -2059,7 +2101,7 @@
     "selector": "article.card details.st1 .w > p:not(.wh)"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_2",
+    "pass": "targeted_type_3",
     "reviewed": 165,
     "approved_applied": 3,
     "status": "approved_applied"

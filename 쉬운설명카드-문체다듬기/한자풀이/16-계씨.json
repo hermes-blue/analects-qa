@@ -666,15 +666,29 @@
     },
     {
       "book": 16,
-      "changed": false,
+      "changed": true,
       "id": "ly-16-12",
       "index": 1,
       "key": "ly-16-12:語:1",
       "label": "馬千駟마천사",
       "original": "제경공이 수많은 말을 가진 큰 부자였다는 뜻입니다. 막대한 재산과 지위가 죽은 뒤 사람들의 존경을 보장하지는 않는다는 대비의 출발입니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "제경공이 수많은 말을 가진 큰 부자였다는 뜻입니다. 막대한 재산과 지위가 죽은 뒤 사람들의 존경을 보장하지는 않는다는 대비의 출발입니다.",
-      "scope": "語"
+      "reason": "대비의 출발이라는 구성 설명을 직접적인 뜻풀이로 바꿉니다.",
+      "revised": "제경공이 수많은 말을 가진 큰 부자였다는 뜻입니다. 막대한 재산과 지위가 죽은 뒤 사람들의 존경을 보장하지는 않는다는 뜻입니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_3",
+          "previous_revision": "제경공이 수많은 말을 가진 큰 부자였다는 뜻입니다. 막대한 재산과 지위가 죽은 뒤 사람들의 존경을 보장하지는 않는다는 대비의 출발입니다.",
+          "revised": "제경공이 수많은 말을 가진 큰 부자였다는 뜻입니다. 막대한 재산과 지위가 죽은 뒤 사람들의 존경을 보장하지는 않는다는 뜻입니다.",
+          "reason": "대비의 출발이라는 구성 설명을 직접적인 뜻풀이로 바꿉니다.",
+          "approval_status": "approved",
+          "approval_message": "수정후보 제이슨에 반영",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "제경공이 수많은 말을 가진 큰 부자였다는 뜻입니다. 막대한 재산과 지위가 죽은 뒤 사람들의 존경을 보장하지는 않는다는 대비의 출발입니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_3"
     },
     {
       "book": 16,
@@ -865,7 +879,7 @@
     "selector": "article.card details.st1 .w > p:not(.wh)"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_2",
+    "pass": "targeted_type_3",
     "reviewed": 69,
     "approved_applied": 1,
     "status": "approved_applied"

@@ -462,15 +462,29 @@
     },
     {
       "book": 11,
-      "changed": false,
+      "changed": true,
       "id": "ly-11-09",
       "index": 2,
       "key": "ly-11-09:語:2",
       "label": "慟통",
       "original": "지나칠 정도로 크게 슬퍼하는 상태를 뜻합니다. 단순한 눈물보다 평소의 절도를 넘을 만큼 강한 감정이 터져 나온 장면입니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "지나칠 정도로 크게 슬퍼하는 상태를 뜻합니다. 단순한 눈물보다 평소의 절도를 넘을 만큼 강한 감정이 터져 나온 장면입니다.",
-      "scope": "語"
+      "reason": "장면이라는 마무리를 덜고 감정의 정도를 직접 설명합니다.",
+      "revised": "지나칠 정도로 크게 슬퍼하는 상태를 뜻합니다. 단순히 눈물을 흘리는 데 그치지 않고 평소의 절도를 넘을 만큼 강한 감정이 터져 나왔다는 말입니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_3",
+          "previous_revision": "지나칠 정도로 크게 슬퍼하는 상태를 뜻합니다. 단순한 눈물보다 평소의 절도를 넘을 만큼 강한 감정이 터져 나온 장면입니다.",
+          "revised": "지나칠 정도로 크게 슬퍼하는 상태를 뜻합니다. 단순히 눈물을 흘리는 데 그치지 않고 평소의 절도를 넘을 만큼 강한 감정이 터져 나왔다는 말입니다.",
+          "reason": "장면이라는 마무리를 덜고 감정의 정도를 직접 설명합니다.",
+          "approval_status": "approved",
+          "approval_message": "수정후보 제이슨에 반영",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "지나칠 정도로 크게 슬퍼하는 상태를 뜻합니다. 단순한 눈물보다 평소의 절도를 넘을 만큼 강한 감정이 터져 나온 장면입니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_3"
     },
     {
       "book": 11,
@@ -1400,15 +1414,29 @@
     },
     {
       "book": 11,
-      "changed": false,
+      "changed": true,
       "id": "ly-11-25",
       "index": 1,
       "key": "ly-11-25:語:1",
       "label": "侍坐시좌",
       "original": "제자들이 공자님 곁에 앉아 대화하는 장면입니다. 공식 시험보다 편안한 자리에서 각자의 정치적 포부와 삶의 이상이 자연스럽게 드러납니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "제자들이 공자님 곁에 앉아 대화하는 장면입니다. 공식 시험보다 편안한 자리에서 각자의 정치적 포부와 삶의 이상이 자연스럽게 드러납니다.",
-      "scope": "語"
+      "reason": "장면이라는 해설 없이 당시 상황을 전합니다.",
+      "revised": "제자들이 공자님 곁에 앉아 대화를 나누었습니다. 공식 시험보다 편안한 자리에서 각자의 정치적 포부와 삶의 이상이 자연스럽게 드러납니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_3",
+          "previous_revision": "제자들이 공자님 곁에 앉아 대화하는 장면입니다. 공식 시험보다 편안한 자리에서 각자의 정치적 포부와 삶의 이상이 자연스럽게 드러납니다.",
+          "revised": "제자들이 공자님 곁에 앉아 대화를 나누었습니다. 공식 시험보다 편안한 자리에서 각자의 정치적 포부와 삶의 이상이 자연스럽게 드러납니다.",
+          "reason": "장면이라는 해설 없이 당시 상황을 전합니다.",
+          "approval_status": "approved",
+          "approval_message": "수정후보 제이슨에 반영",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "제자들이 공자님 곁에 앉아 대화하는 장면입니다. 공식 시험보다 편안한 자리에서 각자의 정치적 포부와 삶의 이상이 자연스럽게 드러납니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_3"
     },
     {
       "book": 11,
@@ -1493,7 +1521,7 @@
     "selector": "article.card details.st1 .w > p:not(.wh)"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_2",
+    "pass": "targeted_type_3",
     "reviewed": 119,
     "approved_applied": 2,
     "status": "approved_applied"

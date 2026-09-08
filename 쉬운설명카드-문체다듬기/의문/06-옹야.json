@@ -291,16 +291,30 @@
     },
     {
       "book": 6,
-      "changed": false,
+      "changed": true,
       "field": "답변",
       "id": "ly-06-04",
       "index": 2,
       "key": "ly-06-04:問:2:a",
       "label": "답변",
       "original": "붉은빛이 곱고 뿔이 반듯하다는 뜻으로, 당시 제사에 쓸 만한 소의 좋은 조건을 말합니다. 출신보다 현재 갖춘 자질과 덕이 중요하다는 메시지를 드러내는 표현입니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "붉은빛이 곱고 뿔이 반듯하다는 뜻으로, 당시 제사에 쓸 만한 소의 좋은 조건을 말합니다. 출신보다 현재 갖춘 자질과 덕이 중요하다는 메시지를 드러내는 표현입니다.",
-      "scope": "問"
+      "reason": "메시지를 드러내는 표현이라는 겹친 설명을 줄입니다.",
+      "revised": "붉은빛이 곱고 뿔이 반듯하다는 뜻으로, 당시 제사에 쓸 만한 소의 좋은 조건을 말합니다. 출신보다 현재 갖춘 자질과 덕이 중요하다는 뜻입니다.",
+      "scope": "問",
+      "revision_history": [
+        {
+          "pass": "targeted_type_3",
+          "previous_revision": "붉은빛이 곱고 뿔이 반듯하다는 뜻으로, 당시 제사에 쓸 만한 소의 좋은 조건을 말합니다. 출신보다 현재 갖춘 자질과 덕이 중요하다는 메시지를 드러내는 표현입니다.",
+          "revised": "붉은빛이 곱고 뿔이 반듯하다는 뜻으로, 당시 제사에 쓸 만한 소의 좋은 조건을 말합니다. 출신보다 현재 갖춘 자질과 덕이 중요하다는 뜻입니다.",
+          "reason": "메시지를 드러내는 표현이라는 겹친 설명을 줄입니다.",
+          "approval_status": "approved",
+          "approval_message": "수정후보 제이슨에 반영",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "붉은빛이 곱고 뿔이 반듯하다는 뜻으로, 당시 제사에 쓸 만한 소의 좋은 조건을 말합니다. 출신보다 현재 갖춘 자질과 덕이 중요하다는 메시지를 드러내는 표현입니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_3"
     },
     {
       "book": 6,
@@ -577,16 +591,30 @@
     },
     {
       "book": 6,
-      "changed": false,
+      "changed": true,
       "field": "답변",
       "id": "ly-06-08",
       "index": 1,
       "key": "ly-06-08:問:1:a",
       "label": "답변",
       "original": "당시 중병이나 전염성 질환 때문에 방 안으로 직접 들어가기 어려웠을 가능성이 있습니다. 정확한 사정은 단정하기 어렵지만, 창을 사이에 두고라도 제자를 위로한 장면입니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "당시 중병이나 전염성 질환 때문에 방 안으로 직접 들어가기 어려웠을 가능성이 있습니다. 정확한 사정은 단정하기 어렵지만, 창을 사이에 두고라도 제자를 위로한 장면입니다.",
-      "scope": "問"
+      "reason": "장면이라는 마무리를 덜되 사정이 불확실하다는 단서는 보존합니다.",
+      "revised": "당시 중병이나 전염성 질환 때문에 방 안으로 직접 들어가기 어려웠을 가능성이 있습니다. 정확한 사정은 단정하기 어렵지만, 공자님은 창을 사이에 두고라도 제자를 위로하셨습니다.",
+      "scope": "問",
+      "revision_history": [
+        {
+          "pass": "targeted_type_3",
+          "previous_revision": "당시 중병이나 전염성 질환 때문에 방 안으로 직접 들어가기 어려웠을 가능성이 있습니다. 정확한 사정은 단정하기 어렵지만, 창을 사이에 두고라도 제자를 위로한 장면입니다.",
+          "revised": "당시 중병이나 전염성 질환 때문에 방 안으로 직접 들어가기 어려웠을 가능성이 있습니다. 정확한 사정은 단정하기 어렵지만, 공자님은 창을 사이에 두고라도 제자를 위로하셨습니다.",
+          "reason": "장면이라는 마무리를 덜되 사정이 불확실하다는 단서는 보존합니다.",
+          "approval_status": "approved",
+          "approval_message": "수정후보 제이슨에 반영",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "당시 중병이나 전염성 질환 때문에 방 안으로 직접 들어가기 어려웠을 가능성이 있습니다. 정확한 사정은 단정하기 어렵지만, 창을 사이에 두고라도 제자를 위로한 장면입니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_3"
     },
     {
       "book": 6,
@@ -2291,9 +2319,9 @@
     "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_2",
+    "pass": "targeted_type_3",
     "reviewed": 168,
-    "approved_applied": 5,
+    "approved_applied": 2,
     "status": "approved_applied"
   }
 }

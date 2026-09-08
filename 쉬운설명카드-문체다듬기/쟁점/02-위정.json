@@ -557,10 +557,24 @@
       "key": "ly-02-18:說:1:2",
       "label": "이렇게도 보면",
       "original": "공자님은 많이 듣고 보되 의심스러운 말과 위험한 행동을 보류하라고 답합니다. 자리를 얻는 기술보다 ‘믿고 맡길 만한 사람’이 되는 것이 먼저라는 방향 전환입니다.",
-      "reason": "방향 전환으로 끝나는 명사 중심 서술을 풀어 씀.",
-      "revised": "공자님은 많이 듣고 보되 의심스러운 말과 위험한 행동을 보류하라고 답합니다. 자리를 얻는 기술보다 ‘믿고 맡길 만한 사람’이 되는 것이 먼저라고 이야기의 방향을 바꾼 것입니다.",
+      "reason": "이야기의 방향에 관한 설명을 덜고 가르침을 바로 풉니다.",
+      "revised": "공자님은 많이 듣고 보되 의심스러운 말과 위험한 행동을 보류하라고 답합니다. 자리를 얻는 기술보다 ‘믿고 맡길 만한 사람’이 되는 것이 먼저라는 뜻입니다.",
       "scope": "說",
-      "side": 2
+      "side": 2,
+      "revision_history": [
+        {
+          "pass": "targeted_type_3",
+          "previous_revision": "공자님은 많이 듣고 보되 의심스러운 말과 위험한 행동을 보류하라고 답합니다. 자리를 얻는 기술보다 ‘믿고 맡길 만한 사람’이 되는 것이 먼저라고 이야기의 방향을 바꾼 것입니다.",
+          "revised": "공자님은 많이 듣고 보되 의심스러운 말과 위험한 행동을 보류하라고 답합니다. 자리를 얻는 기술보다 ‘믿고 맡길 만한 사람’이 되는 것이 먼저라는 뜻입니다.",
+          "reason": "이야기의 방향에 관한 설명을 덜고 가르침을 바로 풉니다.",
+          "approval_status": "approved",
+          "approval_message": "수정후보 제이슨에 반영",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "공자님은 많이 듣고 보되 의심스러운 말과 위험한 행동을 보류하라고 답합니다. 자리를 얻는 기술보다 ‘믿고 맡길 만한 사람’이 되는 것이 먼저라고 이야기의 방향을 바꾼 것입니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_3"
     },
     {
       "book": 2,
@@ -779,9 +793,9 @@
     "selector": "article.card details.st3 .js .side > p"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_2",
+    "pass": "targeted_type_3",
     "reviewed": 50,
-    "approved_applied": 4,
+    "approved_applied": 1,
     "status": "approved_applied"
   }
 }

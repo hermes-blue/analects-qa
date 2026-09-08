@@ -32,17 +32,31 @@
     },
     {
       "book": 9,
-      "changed": false,
+      "changed": true,
       "heading": "‘달항 마을의 어떤 사람’ vs ‘일곱 살 항탁’達巷黨人의 정체",
       "id": "ly-09-02",
       "index": 1,
       "key": "ly-09-02:說:1:1",
       "label": "정현(鄭玄)",
       "original": "達巷을 마을 이름으로 보고, 그 마을 사람이 공자님을 평한 것으로 풉니다. 말한 사람의 개인 이름은 중요하지 않은 장면입니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "達巷을 마을 이름으로 보고, 그 마을 사람이 공자님을 평한 것으로 풉니다. 말한 사람의 개인 이름은 중요하지 않은 장면입니다.",
+      "reason": "장면이라는 마무리를 덜어 냅니다.",
+      "revised": "達巷을 마을 이름으로 보고, 그 마을 사람이 공자님을 평한 것으로 풉니다. 이 풀이에서는 말한 사람의 개인 이름이 중요하지 않습니다.",
       "scope": "說",
-      "side": 1
+      "side": 1,
+      "revision_history": [
+        {
+          "pass": "targeted_type_3",
+          "previous_revision": "達巷을 마을 이름으로 보고, 그 마을 사람이 공자님을 평한 것으로 풉니다. 말한 사람의 개인 이름은 중요하지 않은 장면입니다.",
+          "revised": "達巷을 마을 이름으로 보고, 그 마을 사람이 공자님을 평한 것으로 풉니다. 이 풀이에서는 말한 사람의 개인 이름이 중요하지 않습니다.",
+          "reason": "장면이라는 마무리를 덜어 냅니다.",
+          "approval_status": "approved",
+          "approval_message": "수정후보 제이슨에 반영",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "達巷을 마을 이름으로 보고, 그 마을 사람이 공자님을 평한 것으로 풉니다. 말한 사람의 개인 이름은 중요하지 않은 장면입니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_3"
     },
     {
       "book": 9,
@@ -130,17 +144,31 @@
     },
     {
       "book": 9,
-      "changed": false,
+      "changed": true,
       "heading": "‘문왕이 남긴 《주역》의 글’ vs ‘세상에 드러난 예악과 제도’斯文",
       "id": "ly-09-05",
       "index": 1,
       "key": "ly-09-05:說:1:2",
       "label": "주희(朱熹) 《논어집주》",
       "original": "文을 도가 밖으로 드러난 예악과 제도, 문화의 전통으로 풉니다. 공자는 한 권의 책보다 문왕 이래의 문명 전체를 자신이 이어받았다고 말한 셈입니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "文을 도가 밖으로 드러난 예악과 제도, 문화의 전통으로 풉니다. 공자는 한 권의 책보다 문왕 이래의 문명 전체를 자신이 이어받았다고 말한 셈입니다.",
+      "reason": "셈입니다를 덜되 풀이에 따른 설명이라는 조건을 보존합니다.",
+      "revised": "文을 도가 밖으로 드러난 예악과 제도, 문화의 전통으로 풉니다. 이 풀이대로라면 공자는 한 권의 책보다 문왕 이래의 문명 전체를 자신이 이어받았다고 말한 것입니다.",
       "scope": "說",
-      "side": 2
+      "side": 2,
+      "revision_history": [
+        {
+          "pass": "targeted_type_3",
+          "previous_revision": "文을 도가 밖으로 드러난 예악과 제도, 문화의 전통으로 풉니다. 공자는 한 권의 책보다 문왕 이래의 문명 전체를 자신이 이어받았다고 말한 셈입니다.",
+          "revised": "文을 도가 밖으로 드러난 예악과 제도, 문화의 전통으로 풉니다. 이 풀이대로라면 공자는 한 권의 책보다 문왕 이래의 문명 전체를 자신이 이어받았다고 말한 것입니다.",
+          "reason": "셈입니다를 덜되 풀이에 따른 설명이라는 조건을 보존합니다.",
+          "approval_status": "approved",
+          "approval_message": "수정후보 제이슨에 반영",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "文을 도가 밖으로 드러난 예악과 제도, 문화의 전통으로 풉니다. 공자는 한 권의 책보다 문왕 이래의 문명 전체를 자신이 이어받았다고 말한 셈입니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_3"
     },
     {
       "book": 9,
@@ -186,17 +214,31 @@
     },
     {
       "book": 9,
-      "changed": false,
+      "changed": true,
       "heading": "‘일의 처음과 끝’ vs ‘서로 맞서는 두 가능성’兩端",
       "id": "ly-09-07",
       "index": 1,
       "key": "ly-09-07:說:1:2",
       "label": "초순(焦循) 《논어보소》",
       "original": "兩端을 서로 맞서는 두 입장이나 두 가능성으로 봅니다. 먼저 양쪽을 되물어 확인한 뒤 어느 쪽이 맞는지 끝까지 따졌다는 문답 장면이 됩니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "兩端을 서로 맞서는 두 입장이나 두 가능성으로 봅니다. 먼저 양쪽을 되물어 확인한 뒤 어느 쪽이 맞는지 끝까지 따졌다는 문답 장면이 됩니다.",
+      "reason": "문답 장면이라는 겹친 분류를 덜어 냅니다.",
+      "revised": "兩端을 서로 맞서는 두 입장이나 두 가능성으로 봅니다. 먼저 양쪽을 되물어 확인한 뒤 어느 쪽이 맞는지 끝까지 따졌다는 풀이입니다.",
       "scope": "說",
-      "side": 2
+      "side": 2,
+      "revision_history": [
+        {
+          "pass": "targeted_type_3",
+          "previous_revision": "兩端을 서로 맞서는 두 입장이나 두 가능성으로 봅니다. 먼저 양쪽을 되물어 확인한 뒤 어느 쪽이 맞는지 끝까지 따졌다는 문답 장면이 됩니다.",
+          "revised": "兩端을 서로 맞서는 두 입장이나 두 가능성으로 봅니다. 먼저 양쪽을 되물어 확인한 뒤 어느 쪽이 맞는지 끝까지 따졌다는 풀이입니다.",
+          "reason": "문답 장면이라는 겹친 분류를 덜어 냅니다.",
+          "approval_status": "approved",
+          "approval_message": "수정후보 제이슨에 반영",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "兩端을 서로 맞서는 두 입장이나 두 가능성으로 봅니다. 먼저 양쪽을 되물어 확인한 뒤 어느 쪽이 맞는지 끝까지 따졌다는 문답 장면이 됩니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_3"
     },
     {
       "book": 9,
@@ -877,9 +919,9 @@
     "selector": "article.card details.st3 .js .side > p"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_2",
+    "pass": "targeted_type_3",
     "reviewed": 60,
-    "approved_applied": 1,
+    "approved_applied": 3,
     "status": "approved_applied"
   }
 }

@@ -32,17 +32,31 @@
     },
     {
       "book": 1,
-      "changed": false,
+      "changed": true,
       "heading": "‘같은 스승의 동문’ vs ‘뜻이 맞는 사람’朋",
       "id": "ly-01-01",
       "index": 2,
       "key": "ly-01-01:說:2:1",
       "label": "포함(包咸) — 《논어집해》 인용",
       "original": "朋을 같은 스승에게 배우는 동문이라고 보았습니다. 멀리 있던 공부 친구가 찾아오는 장면이 됩니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "朋을 같은 스승에게 배우는 동문이라고 보았습니다. 멀리 있던 공부 친구가 찾아오는 장면이 됩니다.",
+      "reason": "장면이 된다는 마무리를 덜고 풀이에 따른 뜻을 전합니다.",
+      "revised": "朋을 같은 스승에게 배우는 동문이라고 보았습니다. 이 풀이에 따르면 멀리 있던 공부 친구가 찾아왔다는 뜻입니다.",
       "scope": "說",
-      "side": 1
+      "side": 1,
+      "revision_history": [
+        {
+          "pass": "targeted_type_3",
+          "previous_revision": "朋을 같은 스승에게 배우는 동문이라고 보았습니다. 멀리 있던 공부 친구가 찾아오는 장면이 됩니다.",
+          "revised": "朋을 같은 스승에게 배우는 동문이라고 보았습니다. 이 풀이에 따르면 멀리 있던 공부 친구가 찾아왔다는 뜻입니다.",
+          "reason": "장면이 된다는 마무리를 덜고 풀이에 따른 뜻을 전합니다.",
+          "approval_status": "approved",
+          "approval_message": "수정후보 제이슨에 반영",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "朋을 같은 스승에게 배우는 동문이라고 보았습니다. 멀리 있던 공부 친구가 찾아오는 장면이 됩니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_3"
     },
     {
       "book": 1,
@@ -611,9 +625,9 @@
     "selector": "article.card details.st3 .js .side > p"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_2",
+    "pass": "targeted_type_3",
     "reviewed": 40,
-    "approved_applied": 2,
+    "approved_applied": 1,
     "status": "approved_applied"
   }
 }

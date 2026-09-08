@@ -412,15 +412,29 @@
     },
     {
       "book": 13,
-      "changed": false,
+      "changed": true,
       "id": "ly-13-08",
       "index": 4,
       "key": "ly-13-08:語:4",
       "label": "苟美矣구미의",
       "original": "이 정도면 아름답고 충분하다는 뜻입니다. 소유가 커질수록 욕심도 커지는 대신, 가진 만큼 만족할 줄 아는 절제된 생활관을 마무리합니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "이 정도면 아름답고 충분하다는 뜻입니다. 소유가 커질수록 욕심도 커지는 대신, 가진 만큼 만족할 줄 아는 절제된 생활관을 마무리합니다.",
-      "scope": "語"
+      "reason": "생활관을 마무리한다는 해설을 덜고 뜻을 직접 풉니다.",
+      "revised": "이 정도면 아름답고 충분하다는 뜻입니다. 소유가 커진다고 욕심을 더 내기보다 가진 만큼 만족하는 절제된 생활 태도를 말합니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_3",
+          "previous_revision": "이 정도면 아름답고 충분하다는 뜻입니다. 소유가 커질수록 욕심도 커지는 대신, 가진 만큼 만족할 줄 아는 절제된 생활관을 마무리합니다.",
+          "revised": "이 정도면 아름답고 충분하다는 뜻입니다. 소유가 커진다고 욕심을 더 내기보다 가진 만큼 만족하는 절제된 생활 태도를 말합니다.",
+          "reason": "생활관을 마무리한다는 해설을 덜고 뜻을 직접 풉니다.",
+          "approval_status": "approved",
+          "approval_message": "수정후보 제이슨에 반영",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "이 정도면 아름답고 충분하다는 뜻입니다. 소유가 커질수록 욕심도 커지는 대신, 가진 만큼 만족할 줄 아는 절제된 생활관을 마무리합니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_3"
     },
     {
       "book": 13,
@@ -652,15 +666,29 @@
     },
     {
       "book": 13,
-      "changed": false,
+      "changed": true,
       "id": "ly-13-14",
       "index": 1,
       "key": "ly-13-14:語:1",
       "label": "退朝퇴조",
       "original": "조정의 일을 마치고 돌아온다는 뜻입니다. 염유가 계씨 집안의 일을 국가의 공식 정사처럼 말하자 공자님이 그 성격을 따져 묻는 장면이 시작됩니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "조정의 일을 마치고 돌아온다는 뜻입니다. 염유가 계씨 집안의 일을 국가의 공식 정사처럼 말하자 공자님이 그 성격을 따져 묻는 장면이 시작됩니다.",
-      "scope": "語"
+      "reason": "장면이 시작된다는 메타 표현을 실제 문답으로 바꿉니다.",
+      "revised": "조정의 일을 마치고 돌아온다는 뜻입니다. 염유가 계씨 집안의 일을 국가의 공식 정사처럼 말하자 공자님은 그 성격을 따져 묻습니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_3",
+          "previous_revision": "조정의 일을 마치고 돌아온다는 뜻입니다. 염유가 계씨 집안의 일을 국가의 공식 정사처럼 말하자 공자님이 그 성격을 따져 묻는 장면이 시작됩니다.",
+          "revised": "조정의 일을 마치고 돌아온다는 뜻입니다. 염유가 계씨 집안의 일을 국가의 공식 정사처럼 말하자 공자님은 그 성격을 따져 묻습니다.",
+          "reason": "장면이 시작된다는 메타 표현을 실제 문답으로 바꿉니다.",
+          "approval_status": "approved",
+          "approval_message": "수정후보 제이슨에 반영",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "조정의 일을 마치고 돌아온다는 뜻입니다. 염유가 계씨 집안의 일을 국가의 공식 정사처럼 말하자 공자님이 그 성격을 따져 묻는 장면이 시작됩니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_3"
     },
     {
       "book": 13,
@@ -790,8 +818,8 @@
       "key": "ly-13-16:語:3",
       "label": "問政문정",
       "original": "섭공이 정치를 묻는 장면입니다. 공자님은 복잡한 제도보다 내부 만족과 외부 신뢰라는 두 결과로 좋은 정치를 아주 짧게 설명합니다.",
-      "reason": "내부 만족·외부 신뢰를 사람의 반응으로 풀기",
-      "revised": "섭공이 정치를 묻는 장면입니다. 공자님은 복잡한 제도보다 백성이 만족하고 외부 사람들도 믿고 찾아오는 두 결과로 좋은 정치를 아주 짧게 설명합니다.",
+      "reason": "장면이라는 상투적인 마무리를 덜어 냅니다.",
+      "revised": "섭공이 정치를 물었다는 말입니다. 공자님은 복잡한 제도보다 백성이 만족하고 외부 사람들도 믿고 찾아오는 두 결과로 좋은 정치를 아주 짧게 설명합니다.",
       "scope": "語",
       "revision_history": [
         {
@@ -802,11 +830,20 @@
           "approval_status": "approved",
           "approval_message": "굿 수정, 수정후 다음 시작",
           "date": "2026-09-08"
+        },
+        {
+          "pass": "targeted_type_3",
+          "previous_revision": "섭공이 정치를 묻는 장면입니다. 공자님은 복잡한 제도보다 백성이 만족하고 외부 사람들도 믿고 찾아오는 두 결과로 좋은 정치를 아주 짧게 설명합니다.",
+          "revised": "섭공이 정치를 물었다는 말입니다. 공자님은 복잡한 제도보다 백성이 만족하고 외부 사람들도 믿고 찾아오는 두 결과로 좋은 정치를 아주 짧게 설명합니다.",
+          "reason": "장면이라는 상투적인 마무리를 덜어 냅니다.",
+          "approval_status": "approved",
+          "approval_message": "수정후보 제이슨에 반영",
+          "date": "2026-09-08"
         }
       ],
-      "previous_revision": "섭공이 정치를 묻는 장면입니다. 공자님은 복잡한 제도보다 내부 만족과 외부 신뢰라는 두 결과로 좋은 정치를 아주 짧게 설명합니다.",
+      "previous_revision": "섭공이 정치를 묻는 장면입니다. 공자님은 복잡한 제도보다 백성이 만족하고 외부 사람들도 믿고 찾아오는 두 결과로 좋은 정치를 아주 짧게 설명합니다.",
       "approval_status": "approved",
-      "last_revision_pass": "targeted_type_1"
+      "last_revision_pass": "targeted_type_3"
     },
     {
       "book": 13,
@@ -1575,9 +1612,9 @@
     "selector": "article.card details.st1 .w > p:not(.wh)"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_2",
+    "pass": "targeted_type_3",
     "reviewed": 127,
-    "approved_applied": 1,
+    "approved_applied": 3,
     "status": "approved_applied"
   }
 }

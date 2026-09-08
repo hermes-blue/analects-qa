@@ -173,16 +173,30 @@
     },
     {
       "book": 8,
-      "changed": false,
+      "changed": true,
       "field": "답변",
       "id": "ly-08-03",
       "index": 1,
       "key": "ly-08-03:問:1:a",
       "label": "답변",
       "original": "부모에게 받은 몸을 함부로 훼손하지 않고 평생 잘 지켜 왔다는 뜻을 보여 주기 위해서입니다. 죽음을 앞두고 자신의 수양과 효가 끝까지 유지되었는지 확인한 장면입니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "부모에게 받은 몸을 함부로 훼손하지 않고 평생 잘 지켜 왔다는 뜻을 보여 주기 위해서입니다. 죽음을 앞두고 자신의 수양과 효가 끝까지 유지되었는지 확인한 장면입니다.",
-      "scope": "問"
+      "reason": "확인한 장면이라는 마무리를 실제 행동으로 바꿉니다.",
+      "revised": "부모에게 받은 몸을 함부로 훼손하지 않고 평생 잘 지켜 왔다는 뜻을 보여 주기 위해서입니다. 죽음을 앞두고 자신의 수양과 효가 끝까지 유지되었는지 확인했습니다.",
+      "scope": "問",
+      "revision_history": [
+        {
+          "pass": "targeted_type_3",
+          "previous_revision": "부모에게 받은 몸을 함부로 훼손하지 않고 평생 잘 지켜 왔다는 뜻을 보여 주기 위해서입니다. 죽음을 앞두고 자신의 수양과 효가 끝까지 유지되었는지 확인한 장면입니다.",
+          "revised": "부모에게 받은 몸을 함부로 훼손하지 않고 평생 잘 지켜 왔다는 뜻을 보여 주기 위해서입니다. 죽음을 앞두고 자신의 수양과 효가 끝까지 유지되었는지 확인했습니다.",
+          "reason": "확인한 장면이라는 마무리를 실제 행동으로 바꿉니다.",
+          "approval_status": "approved",
+          "approval_message": "수정후보 제이슨에 반영",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "부모에게 받은 몸을 함부로 훼손하지 않고 평생 잘 지켜 왔다는 뜻을 보여 주기 위해서입니다. 죽음을 앞두고 자신의 수양과 효가 끝까지 유지되었는지 확인한 장면입니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_3"
     },
     {
       "book": 8,
@@ -695,16 +709,30 @@
     },
     {
       "book": 8,
-      "changed": false,
+      "changed": true,
       "field": "답변",
       "id": "ly-08-09",
       "index": 2,
       "key": "ly-08-09:問:2:a",
       "label": "답변",
       "original": "문장에 고대의 구두점이 없고 ‘不可使知之’를 어떻게 끊고 이해하느냐에 따라 의미가 크게 달라지기 때문입니다. 그래서 현대에는 여러 해석 가능성을 함께 소개하는 것이 안전합니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "문장에 고대의 구두점이 없고 ‘不可使知之’를 어떻게 끊고 이해하느냐에 따라 의미가 크게 달라지기 때문입니다. 그래서 현대에는 여러 해석 가능성을 함께 소개하는 것이 안전합니다.",
-      "scope": "問"
+      "reason": "설명 작성자에게 주는 안내 대신 해석을 단정하기 어려운 이유로 마무리합니다.",
+      "revised": "문장에 고대의 구두점이 없고 ‘不可使知之’를 어떻게 끊고 이해하느냐에 따라 의미가 크게 달라지기 때문입니다. 그래서 한 가지 해석으로 단정하기 어렵습니다.",
+      "scope": "問",
+      "revision_history": [
+        {
+          "pass": "targeted_type_3",
+          "previous_revision": "문장에 고대의 구두점이 없고 ‘不可使知之’를 어떻게 끊고 이해하느냐에 따라 의미가 크게 달라지기 때문입니다. 그래서 현대에는 여러 해석 가능성을 함께 소개하는 것이 안전합니다.",
+          "revised": "문장에 고대의 구두점이 없고 ‘不可使知之’를 어떻게 끊고 이해하느냐에 따라 의미가 크게 달라지기 때문입니다. 그래서 한 가지 해석으로 단정하기 어렵습니다.",
+          "reason": "설명 작성자에게 주는 안내 대신 해석을 단정하기 어려운 이유로 마무리합니다.",
+          "approval_status": "approved",
+          "approval_message": "수정후보 제이슨에 반영",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "문장에 고대의 구두점이 없고 ‘不可使知之’를 어떻게 끊고 이해하느냐에 따라 의미가 크게 달라지기 때문입니다. 그래서 현대에는 여러 해석 가능성을 함께 소개하는 것이 안전합니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_3"
     },
     {
       "book": 8,
@@ -1717,9 +1745,9 @@
     "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_2",
+    "pass": "targeted_type_3",
     "reviewed": 126,
-    "approved_applied": 3,
+    "approved_applied": 2,
     "status": "approved_applied"
   }
 }
