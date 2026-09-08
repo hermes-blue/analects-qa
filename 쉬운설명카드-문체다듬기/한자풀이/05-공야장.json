@@ -4,15 +4,29 @@
   "entries": [
     {
       "book": 5,
-      "changed": false,
+      "changed": true,
       "id": "ly-05-01",
       "index": 1,
       "key": "ly-05-01:語:1",
       "label": "公冶長공야장",
       "original": "공자님의 제자 공야장을 가리킵니다. 이 장에서는 그가 감옥에 갇힌 전력이 있었지만 실제 죄가 아니었다는 판단을 통해 사람을 평판보다 실질로 평가하는 장면이 나옵니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "공자님의 제자 공야장을 가리킵니다. 이 장에서는 그가 감옥에 갇힌 전력이 있었지만 실제 죄가 아니었다는 판단을 통해 사람을 평판보다 실질로 평가하는 장면이 나옵니다.",
-      "scope": "語"
+      "reason": "문장을 안내하는 대신 공자님의 판단과 평가를 직접 서술합니다.",
+      "revised": "공자님의 제자 공야장을 가리킵니다. 공자님은 그가 감옥에 갇힌 전력은 있지만 실제로 그의 잘못은 아니었다고 보아, 평판보다 실제로 어떤 사람인지를 살펴 평가합니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "previous_revision": "공자님의 제자 공야장을 가리킵니다. 이 장에서는 그가 감옥에 갇힌 전력이 있었지만 실제 죄가 아니었다는 판단을 통해 사람을 평판보다 실질로 평가하는 장면이 나옵니다.",
+          "revised": "공자님의 제자 공야장을 가리킵니다. 공자님은 그가 감옥에 갇힌 전력은 있지만 실제로 그의 잘못은 아니었다고 보아, 평판보다 실제로 어떤 사람인지를 살펴 평가합니다.",
+          "reason": "문장을 안내하는 대신 공자님의 판단과 평가를 직접 서술합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 다른 유형 계속",
+          "date": "2026-09-08",
+          "pass": "targeted_type_5"
+        }
+      ],
+      "previous_revision": "공자님의 제자 공야장을 가리킵니다. 이 장에서는 그가 감옥에 갇힌 전력이 있었지만 실제 죄가 아니었다는 판단을 통해 사람을 평판보다 실질로 평가하는 장면이 나옵니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_5"
     },
     {
       "book": 5,
@@ -1855,9 +1869,9 @@
     "selector": "article.card details.st1 .w > p:not(.wh)"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_4",
-    "reviewed": 134,
-    "approved_applied": 4,
-    "status": "approved_applied"
+    "pass": "targeted_type_5",
+    "scanned": 134,
+    "approved_applied": 1,
+    "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
   }
 }

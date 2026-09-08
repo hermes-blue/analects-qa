@@ -1,38 +1,11 @@
 {
   "schema_version": "1.1",
   "scope": "語·問·說 문체 수정",
-  "total_changed": 552,
+  "total_changed": 566,
   "by_scope": {
-    "問": {
-      "book_count": 20,
-      "changed": 195,
-      "labels_preserved": true,
-      "order_preserved": true,
-      "originals_match_records": true,
-      "text_fields": 3072,
-      "unchanged": 2877,
-      "unique_cards": 498
-    },
-    "語": {
-      "book_count": 20,
-      "changed": 260,
-      "labels_preserved": true,
-      "order_preserved": true,
-      "originals_match_records": true,
-      "text_fields": 2311,
-      "unchanged": 2051,
-      "unique_cards": 498
-    },
-    "說": {
-      "book_count": 20,
-      "changed": 97,
-      "labels_preserved": true,
-      "order_preserved": true,
-      "originals_match_records": true,
-      "text_fields": 1040,
-      "unchanged": 943,
-      "unique_cards": 498
-    }
+    "語": 266,
+    "問": 197,
+    "說": 103
   },
   "content_review_performed": false,
   "apply_rule": "id·scope·index·field 또는 side·label과 original이 현재 원본에 모두 일치하는 항목만 revised로 적용. 카드 전체를 대체하지 않음.",
@@ -22335,10 +22308,612 @@
           "숙손무숙이 자공에게 직접 ‘공자가 정말 그대보다 나은가’라고 물었다고 기록합니다. 자복경백이 말을 전하는 과정 없이, 자공이 질문한 사람에게 곧바로 담장 비유로 답했다고 기록한 것입니다."
         ]
       ]
+    },
+    {
+      "book": 3,
+      "changed": true,
+      "id": "ly-03-07",
+      "index": 1,
+      "key": "ly-03-07:語:1",
+      "label": "無所爭무소쟁",
+      "original": "군자는 남과 이기고 지는 경쟁에 집착하지 않는다는 뜻입니다. 다만 경쟁 자체가 완전히 없다는 말은 아니며, 곧이어 활쏘기를 예외적 장면으로 듭니다.",
+      "reason": "경쟁의 예외를 말하는 데 불필요한 ‘장면’을 덜어 냅니다.",
+      "revised": "군자는 남과 이기고 지는 경쟁에 집착하지 않는다는 뜻입니다. 다만 경쟁 자체가 완전히 없다는 말은 아니며, 곧이어 활쏘기를 예외로 듭니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "previous_revision": "군자는 남과 이기고 지는 경쟁에 집착하지 않는다는 뜻입니다. 다만 경쟁 자체가 완전히 없다는 말은 아니며, 곧이어 활쏘기를 예외적 장면으로 듭니다.",
+          "revised": "군자는 남과 이기고 지는 경쟁에 집착하지 않는다는 뜻입니다. 다만 경쟁 자체가 완전히 없다는 말은 아니며, 곧이어 활쏘기를 예외로 듭니다.",
+          "reason": "경쟁의 예외를 말하는 데 불필요한 ‘장면’을 덜어 냅니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 다른 유형 계속",
+          "date": "2026-09-08",
+          "pass": "targeted_type_5"
+        }
+      ],
+      "previous_revision": "군자는 남과 이기고 지는 경쟁에 집착하지 않는다는 뜻입니다. 다만 경쟁 자체가 완전히 없다는 말은 아니며, 곧이어 활쏘기를 예외적 장면으로 듭니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_5",
+      "source": {
+        "blob_sha": "a569dc24bc1cdff4db47200f0cefeab8df87d605",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/03-팔일.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "팔일",
+      "replacements": [
+        [
+          "군자는 남과 이기고 지는 경쟁에 집착하지 않는다는 뜻입니다. 다만 경쟁 자체가 완전히 없다는 말은 아니며, 곧이어 활쏘기를 예외적 장면으로 듭니다.",
+          "군자는 남과 이기고 지는 경쟁에 집착하지 않는다는 뜻입니다. 다만 경쟁 자체가 완전히 없다는 말은 아니며, 곧이어 활쏘기를 예외로 듭니다."
+        ]
+      ]
+    },
+    {
+      "book": 3,
+      "changed": true,
+      "id": "ly-03-08",
+      "index": 4,
+      "key": "ly-03-08:語:4",
+      "label": "禮後乎예후호",
+      "original": "자하가 ‘그렇다면 禮도 뒤에 오는 것입니까’라고 깨닫는 대목입니다. 禮의 형식이 먼저가 아니라 사람 안의 바른 마음과 바탕을 다듬어 표현하는 것임을 짚습니다.",
+      "reason": "깨달음을 담은 자하의 질문을 직접 서술합니다. 인용문은 보존합니다.",
+      "revised": "자하는 뜻을 깨닫고 ‘그렇다면 禮도 뒤에 오는 것입니까’라고 묻습니다. 禮의 형식이 먼저가 아니라 사람 안의 바른 마음과 바탕을 다듬어 표현하는 것임을 짚습니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "previous_revision": "자하가 ‘그렇다면 禮도 뒤에 오는 것입니까’라고 깨닫는 대목입니다. 禮의 형식이 먼저가 아니라 사람 안의 바른 마음과 바탕을 다듬어 표현하는 것임을 짚습니다.",
+          "revised": "자하는 뜻을 깨닫고 ‘그렇다면 禮도 뒤에 오는 것입니까’라고 묻습니다. 禮의 형식이 먼저가 아니라 사람 안의 바른 마음과 바탕을 다듬어 표현하는 것임을 짚습니다.",
+          "reason": "깨달음을 담은 자하의 질문을 직접 서술합니다. 인용문은 보존합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 다른 유형 계속",
+          "date": "2026-09-08",
+          "pass": "targeted_type_5"
+        }
+      ],
+      "previous_revision": "자하가 ‘그렇다면 禮도 뒤에 오는 것입니까’라고 깨닫는 대목입니다. 禮의 형식이 먼저가 아니라 사람 안의 바른 마음과 바탕을 다듬어 표현하는 것임을 짚습니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_5",
+      "source": {
+        "blob_sha": "a569dc24bc1cdff4db47200f0cefeab8df87d605",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/03-팔일.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "팔일",
+      "replacements": [
+        [
+          "자하가 ‘그렇다면 禮도 뒤에 오는 것입니까’라고 깨닫는 대목입니다. 禮의 형식이 먼저가 아니라 사람 안의 바른 마음과 바탕을 다듬어 표현하는 것임을 짚습니다.",
+          "자하는 뜻을 깨닫고 ‘그렇다면 禮도 뒤에 오는 것입니까’라고 묻습니다. 禮의 형식이 먼저가 아니라 사람 안의 바른 마음과 바탕을 다듬어 표현하는 것임을 짚습니다."
+        ]
+      ]
+    },
+    {
+      "book": 5,
+      "changed": true,
+      "id": "ly-05-01",
+      "index": 1,
+      "key": "ly-05-01:語:1",
+      "label": "公冶長공야장",
+      "original": "공자님의 제자 공야장을 가리킵니다. 이 장에서는 그가 감옥에 갇힌 전력이 있었지만 실제 죄가 아니었다는 판단을 통해 사람을 평판보다 실질로 평가하는 장면이 나옵니다.",
+      "reason": "문장을 안내하는 대신 공자님의 판단과 평가를 직접 서술합니다.",
+      "revised": "공자님의 제자 공야장을 가리킵니다. 공자님은 그가 감옥에 갇힌 전력은 있지만 실제로 그의 잘못은 아니었다고 보아, 평판보다 실제로 어떤 사람인지를 살펴 평가합니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "previous_revision": "공자님의 제자 공야장을 가리킵니다. 이 장에서는 그가 감옥에 갇힌 전력이 있었지만 실제 죄가 아니었다는 판단을 통해 사람을 평판보다 실질로 평가하는 장면이 나옵니다.",
+          "revised": "공자님의 제자 공야장을 가리킵니다. 공자님은 그가 감옥에 갇힌 전력은 있지만 실제로 그의 잘못은 아니었다고 보아, 평판보다 실제로 어떤 사람인지를 살펴 평가합니다.",
+          "reason": "문장을 안내하는 대신 공자님의 판단과 평가를 직접 서술합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 다른 유형 계속",
+          "date": "2026-09-08",
+          "pass": "targeted_type_5"
+        }
+      ],
+      "previous_revision": "공자님의 제자 공야장을 가리킵니다. 이 장에서는 그가 감옥에 갇힌 전력이 있었지만 실제 죄가 아니었다는 판단을 통해 사람을 평판보다 실질로 평가하는 장면이 나옵니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_5",
+      "source": {
+        "blob_sha": "222e20ea42d90cf5c8d49d5cd063fbba6b37b8c7",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/05-공야장.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "공야장",
+      "replacements": [
+        [
+          "공자님의 제자 공야장을 가리킵니다. 이 장에서는 그가 감옥에 갇힌 전력이 있었지만 실제 죄가 아니었다는 판단을 통해 사람을 평판보다 실질로 평가하는 장면이 나옵니다.",
+          "공자님의 제자 공야장을 가리킵니다. 공자님은 그가 감옥에 갇힌 전력은 있지만 실제로 그의 잘못은 아니었다고 보아, 평판보다 실제로 어떤 사람인지를 살펴 평가합니다."
+        ]
+      ]
+    },
+    {
+      "book": 6,
+      "changed": true,
+      "heading": "‘진나라 대부’ vs ‘옷차림도 거리끼지 않던 은자’子桑伯子의 정체",
+      "id": "ly-06-01",
+      "index": 2,
+      "key": "ly-06-01:說:2:1",
+      "label": "정현(鄭玄)",
+      "original": "子桑伯子를 진나라 대부 공손지(公孫枝)로 봅니다. 그러면 정치 경험이 있는 관리의 ‘간소한 다스림’을 평가하는 대화가 됩니다.",
+      "reason": "인물 비정에 따른 조건을 유지하면서 무엇을 평가했는지 직접 말합니다.",
+      "revised": "子桑伯子를 진나라 대부 공손지(公孫枝)로 봅니다. 이 풀이에 따르면 정치 경험이 있는 관리의 ‘간소한 다스림’을 평가한 것입니다.",
+      "scope": "說",
+      "side": 1,
+      "revision_history": [
+        {
+          "previous_revision": "子桑伯子를 진나라 대부 공손지(公孫枝)로 봅니다. 그러면 정치 경험이 있는 관리의 ‘간소한 다스림’을 평가하는 대화가 됩니다.",
+          "revised": "子桑伯子를 진나라 대부 공손지(公孫枝)로 봅니다. 이 풀이에 따르면 정치 경험이 있는 관리의 ‘간소한 다스림’을 평가한 것입니다.",
+          "reason": "인물 비정에 따른 조건을 유지하면서 무엇을 평가했는지 직접 말합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 다른 유형 계속",
+          "date": "2026-09-08",
+          "pass": "targeted_type_5"
+        }
+      ],
+      "previous_revision": "子桑伯子를 진나라 대부 공손지(公孫枝)로 봅니다. 그러면 정치 경험이 있는 관리의 ‘간소한 다스림’을 평가하는 대화가 됩니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_5",
+      "source": {
+        "blob_sha": "f5853d2851095f9bf9d03b017aa678d398a2c040",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/06-옹야.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st3 .js .side > p"
+      },
+      "book_name": "옹야",
+      "replacements": [
+        [
+          "子桑伯子를 진나라 대부 공손지(公孫枝)로 봅니다. 그러면 정치 경험이 있는 관리의 ‘간소한 다스림’을 평가하는 대화가 됩니다.",
+          "子桑伯子를 진나라 대부 공손지(公孫枝)로 봅니다. 이 풀이에 따르면 정치 경험이 있는 관리의 ‘간소한 다스림’을 평가한 것입니다."
+        ]
+      ]
+    },
+    {
+      "book": 6,
+      "changed": true,
+      "heading": "덕 있는 사람이 큰 병에 걸리면 ‘덕이 보답받는다’는 믿음은 어떻게 될까?문장 안 긴장형",
+      "id": "ly-06-08",
+      "index": 1,
+      "key": "ly-06-08:說:1:1",
+      "label": "이렇게 보면",
+      "original": "백우는 공자님이 높이 평가한 제자입니다. 덕과 현실의 결과가 맞아야 한다고 기대하면 이런 사람에게 큰 병이 온 장면은 설명하기 어렵습니다.",
+      "reason": "설명하기 어려운 대상을 ‘장면’ 대신 실제 일로 표현합니다.",
+      "revised": "백우는 공자님이 높이 평가한 제자입니다. 덕과 현실의 결과가 맞아야 한다고 기대하면 이런 사람이 큰 병에 걸린 일을 설명하기 어렵습니다.",
+      "scope": "說",
+      "side": 1,
+      "revision_history": [
+        {
+          "previous_revision": "백우는 공자님이 높이 평가한 제자입니다. 덕과 현실의 결과가 맞아야 한다고 기대하면 이런 사람에게 큰 병이 온 장면은 설명하기 어렵습니다.",
+          "revised": "백우는 공자님이 높이 평가한 제자입니다. 덕과 현실의 결과가 맞아야 한다고 기대하면 이런 사람이 큰 병에 걸린 일을 설명하기 어렵습니다.",
+          "reason": "설명하기 어려운 대상을 ‘장면’ 대신 실제 일로 표현합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 다른 유형 계속",
+          "date": "2026-09-08",
+          "pass": "targeted_type_5"
+        }
+      ],
+      "previous_revision": "백우는 공자님이 높이 평가한 제자입니다. 덕과 현실의 결과가 맞아야 한다고 기대하면 이런 사람에게 큰 병이 온 장면은 설명하기 어렵습니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_5",
+      "source": {
+        "blob_sha": "f5853d2851095f9bf9d03b017aa678d398a2c040",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/06-옹야.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st3 .js .side > p"
+      },
+      "book_name": "옹야",
+      "replacements": [
+        [
+          "백우는 공자님이 높이 평가한 제자입니다. 덕과 현실의 결과가 맞아야 한다고 기대하면 이런 사람에게 큰 병이 온 장면은 설명하기 어렵습니다.",
+          "백우는 공자님이 높이 평가한 제자입니다. 덕과 현실의 결과가 맞아야 한다고 기대하면 이런 사람이 큰 병에 걸린 일을 설명하기 어렵습니다."
+        ]
+      ]
+    },
+    {
+      "book": 7,
+      "changed": true,
+      "heading": "‘신에게 복을 청하는 기도’ vs ‘신에게 잘못을 사죄하는 기도’禱의 성격",
+      "id": "ly-07-34",
+      "index": 1,
+      "key": "ly-07-34:說:1:1",
+      "label": "포함(包咸) — 《논어집해》 인용",
+      "original": "禱를 귀신에게 도움과 복을 청하는 행위로 풉니다. 자로가 병든 공자님을 살려 달라고 빌겠다고 한 장면에 가깝습니다.",
+      "reason": "禱의 뜻을 풀이하는 문맥에 맞추며 ‘가깝다’는 한정은 유지합니다.",
+      "revised": "禱를 귀신에게 도움과 복을 청하는 행위로 풉니다. 자로가 병든 공자님을 살려 달라고 빌겠다는 뜻에 가깝습니다.",
+      "scope": "說",
+      "side": 1,
+      "revision_history": [
+        {
+          "previous_revision": "禱를 귀신에게 도움과 복을 청하는 행위로 풉니다. 자로가 병든 공자님을 살려 달라고 빌겠다고 한 장면에 가깝습니다.",
+          "revised": "禱를 귀신에게 도움과 복을 청하는 행위로 풉니다. 자로가 병든 공자님을 살려 달라고 빌겠다는 뜻에 가깝습니다.",
+          "reason": "禱의 뜻을 풀이하는 문맥에 맞추며 ‘가깝다’는 한정은 유지합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 다른 유형 계속",
+          "date": "2026-09-08",
+          "pass": "targeted_type_5"
+        }
+      ],
+      "previous_revision": "禱를 귀신에게 도움과 복을 청하는 행위로 풉니다. 자로가 병든 공자님을 살려 달라고 빌겠다고 한 장면에 가깝습니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_5",
+      "source": {
+        "blob_sha": "101d445b691af4fe769b64448011834773fc676c",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/07-술이.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st3 .js .side > p"
+      },
+      "book_name": "술이",
+      "replacements": [
+        [
+          "禱를 귀신에게 도움과 복을 청하는 행위로 풉니다. 자로가 병든 공자님을 살려 달라고 빌겠다고 한 장면에 가깝습니다.",
+          "禱를 귀신에게 도움과 복을 청하는 행위로 풉니다. 자로가 병든 공자님을 살려 달라고 빌겠다는 뜻에 가깝습니다."
+        ]
+      ]
+    },
+    {
+      "book": 10,
+      "changed": true,
+      "heading": "‘잡아 요리해 드렸다’ vs ‘잡았다가 놓아주었다’共之",
+      "id": "ly-10-17",
+      "index": 3,
+      "key": "ly-10-17:說:3:2",
+      "label": "유보남(劉寶楠) 《논어정의》가 채택한 고증",
+      "original": "共을 拱의 이문과 연결해 자로가 꿩을 붙잡았다가 곧 놓아준 장면으로 풉니다. 요리된 음식이 아니라 살아 있는 새가 남습니다.",
+      "reason": "학설이 해석한 행동을 직접 서술합니다.",
+      "revised": "共을 拱의 이문과 연결해 자로가 꿩을 붙잡았다가 곧 놓아주었다고 풉니다. 요리된 음식이 아니라 살아 있는 새가 남습니다.",
+      "scope": "說",
+      "side": 2,
+      "revision_history": [
+        {
+          "previous_revision": "共을 拱의 이문과 연결해 자로가 꿩을 붙잡았다가 곧 놓아준 장면으로 풉니다. 요리된 음식이 아니라 살아 있는 새가 남습니다.",
+          "revised": "共을 拱의 이문과 연결해 자로가 꿩을 붙잡았다가 곧 놓아주었다고 풉니다. 요리된 음식이 아니라 살아 있는 새가 남습니다.",
+          "reason": "학설이 해석한 행동을 직접 서술합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 다른 유형 계속",
+          "date": "2026-09-08",
+          "pass": "targeted_type_5"
+        }
+      ],
+      "previous_revision": "共을 拱의 이문과 연결해 자로가 꿩을 붙잡았다가 곧 놓아준 장면으로 풉니다. 요리된 음식이 아니라 살아 있는 새가 남습니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_5",
+      "source": {
+        "blob_sha": "096e28e98ea4c6569110a538191880a1ac6cede8",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/10-향당.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st3 .js .side > p"
+      },
+      "book_name": "향당",
+      "replacements": [
+        [
+          "共을 拱의 이문과 연결해 자로가 꿩을 붙잡았다가 곧 놓아준 장면으로 풉니다. 요리된 음식이 아니라 살아 있는 새가 남습니다.",
+          "共을 拱의 이문과 연결해 자로가 꿩을 붙잡았다가 곧 놓아주었다고 풉니다. 요리된 음식이 아니라 살아 있는 새가 남습니다."
+        ]
+      ]
+    },
+    {
+      "book": 11,
+      "changed": true,
+      "id": "ly-11-22",
+      "index": 2,
+      "key": "ly-11-22:語:2",
+      "label": "顏淵後안연후",
+      "original": "안회가 일행보다 뒤늦게 도착했다는 뜻입니다. 단순한 지각이 아니라 위험한 상황에서 행방을 알 수 없었던 장면이라 공자님의 걱정이 컸습니다.",
+      "reason": "공자님이 걱정한 이유를 직접 연결합니다.",
+      "revised": "안회가 일행보다 뒤늦게 도착했다는 뜻입니다. 단순한 지각이 아니라 위험한 상황에서 행방을 알 수 없었기 때문에 공자님의 걱정이 컸습니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "previous_revision": "안회가 일행보다 뒤늦게 도착했다는 뜻입니다. 단순한 지각이 아니라 위험한 상황에서 행방을 알 수 없었던 장면이라 공자님의 걱정이 컸습니다.",
+          "revised": "안회가 일행보다 뒤늦게 도착했다는 뜻입니다. 단순한 지각이 아니라 위험한 상황에서 행방을 알 수 없었기 때문에 공자님의 걱정이 컸습니다.",
+          "reason": "공자님이 걱정한 이유를 직접 연결합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 다른 유형 계속",
+          "date": "2026-09-08",
+          "pass": "targeted_type_5"
+        }
+      ],
+      "previous_revision": "안회가 일행보다 뒤늦게 도착했다는 뜻입니다. 단순한 지각이 아니라 위험한 상황에서 행방을 알 수 없었던 장면이라 공자님의 걱정이 컸습니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_5",
+      "source": {
+        "blob_sha": "816ad65fdf62c262291949e5551e4676aa25b7b7",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/11-선진.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "선진",
+      "replacements": [
+        [
+          "안회가 일행보다 뒤늦게 도착했다는 뜻입니다. 단순한 지각이 아니라 위험한 상황에서 행방을 알 수 없었던 장면이라 공자님의 걱정이 컸습니다.",
+          "안회가 일행보다 뒤늦게 도착했다는 뜻입니다. 단순한 지각이 아니라 위험한 상황에서 행방을 알 수 없었기 때문에 공자님의 걱정이 컸습니다."
+        ]
+      ]
+    },
+    {
+      "book": 14,
+      "changed": true,
+      "field": "답변",
+      "id": "ly-14-46",
+      "index": 2,
+      "key": "ly-14-46:問:2:a",
+      "label": "답변",
+      "original": "오늘날 기준으로는 매우 거칠게 들립니다. 오랜 친구 원양의 무례한 태도를 강하게 질책한 장면이며, 문자 그대로 죽기를 바랐다는 뜻으로 볼 필요는 없습니다.",
+      "reason": "발언의 뜻을 묻는 질문에 맞게 ‘장면’을 ‘말’로 바로잡습니다.",
+      "revised": "오늘날 기준으로는 매우 거칠게 들립니다. 오랜 친구 원양의 무례한 태도를 강하게 질책한 말이며, 문자 그대로 죽기를 바랐다는 뜻으로 볼 필요는 없습니다.",
+      "scope": "問",
+      "revision_history": [
+        {
+          "previous_revision": "오늘날 기준으로는 매우 거칠게 들립니다. 오랜 친구 원양의 무례한 태도를 강하게 질책한 장면이며, 문자 그대로 죽기를 바랐다는 뜻으로 볼 필요는 없습니다.",
+          "revised": "오늘날 기준으로는 매우 거칠게 들립니다. 오랜 친구 원양의 무례한 태도를 강하게 질책한 말이며, 문자 그대로 죽기를 바랐다는 뜻으로 볼 필요는 없습니다.",
+          "reason": "발언의 뜻을 묻는 질문에 맞게 ‘장면’을 ‘말’로 바로잡습니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 다른 유형 계속",
+          "date": "2026-09-08",
+          "pass": "targeted_type_5"
+        }
+      ],
+      "previous_revision": "오늘날 기준으로는 매우 거칠게 들립니다. 오랜 친구 원양의 무례한 태도를 강하게 질책한 장면이며, 문자 그대로 죽기를 바랐다는 뜻으로 볼 필요는 없습니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_5",
+      "source": {
+        "blob_sha": "1d5c9f60733d7c923dbcea667ed7b3893c8fdad1",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/14-헌문.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
+      },
+      "book_name": "헌문",
+      "replacements": [
+        [
+          "오늘날 기준으로는 매우 거칠게 들립니다. 오랜 친구 원양의 무례한 태도를 강하게 질책한 장면이며, 문자 그대로 죽기를 바랐다는 뜻으로 볼 필요는 없습니다.",
+          "오늘날 기준으로는 매우 거칠게 들립니다. 오랜 친구 원양의 무례한 태도를 강하게 질책한 말이며, 문자 그대로 죽기를 바랐다는 뜻으로 볼 필요는 없습니다."
+        ]
+      ]
+    },
+    {
+      "book": 15,
+      "changed": true,
+      "heading": "전쟁을 묻는 군주에게 예를 말한 건 현실 회피일까, 정치의 우선순위를 세운 걸까?현실 선택형",
+      "id": "ly-15-01",
+      "index": 2,
+      "key": "ly-15-01:說:2:2",
+      "label": "이렇게도 보면",
+      "original": "공자님은 군진보다 제사와 예를 자신의 배움이라고 답하고 다음 날 떠납니다. 통치의 근본이 무력 기술보다 정치의 정당성과 질서에 있다고 선을 그은 장면으로 읽을 수 있습니다.",
+      "reason": "‘장면으로 읽다’를 덜고 해석의 가능성은 유지합니다.",
+      "revised": "공자님은 군진보다 제사와 예를 자신의 배움이라고 답하고 다음 날 떠납니다. 통치의 근본이 무력 기술보다 정치의 정당성과 질서에 있다고 선을 그었다고 볼 수 있습니다.",
+      "scope": "說",
+      "side": 2,
+      "revision_history": [
+        {
+          "previous_revision": "공자님은 군진보다 제사와 예를 자신의 배움이라고 답하고 다음 날 떠납니다. 통치의 근본이 무력 기술보다 정치의 정당성과 질서에 있다고 선을 그은 장면으로 읽을 수 있습니다.",
+          "revised": "공자님은 군진보다 제사와 예를 자신의 배움이라고 답하고 다음 날 떠납니다. 통치의 근본이 무력 기술보다 정치의 정당성과 질서에 있다고 선을 그었다고 볼 수 있습니다.",
+          "reason": "‘장면으로 읽다’를 덜고 해석의 가능성은 유지합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 다른 유형 계속",
+          "date": "2026-09-08",
+          "pass": "targeted_type_5"
+        }
+      ],
+      "previous_revision": "공자님은 군진보다 제사와 예를 자신의 배움이라고 답하고 다음 날 떠납니다. 통치의 근본이 무력 기술보다 정치의 정당성과 질서에 있다고 선을 그은 장면으로 읽을 수 있습니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_5",
+      "source": {
+        "blob_sha": "bf4095ccec09b5c2b5f74960dd33fde8da5220be",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/15-위령공.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st3 .js .side > p"
+      },
+      "book_name": "위령공",
+      "replacements": [
+        [
+          "공자님은 군진보다 제사와 예를 자신의 배움이라고 답하고 다음 날 떠납니다. 통치의 근본이 무력 기술보다 정치의 정당성과 질서에 있다고 선을 그은 장면으로 읽을 수 있습니다.",
+          "공자님은 군진보다 제사와 예를 자신의 배움이라고 답하고 다음 날 떠납니다. 통치의 근본이 무력 기술보다 정치의 정당성과 질서에 있다고 선을 그었다고 볼 수 있습니다."
+        ]
+      ]
+    },
+    {
+      "book": 15,
+      "changed": true,
+      "heading": "‘후세에 이름을 남기지 못함’ vs ‘이름 붙일 만한 실질이 없음’名不稱을 걱정하는 이유",
+      "id": "ly-15-19",
+      "index": 1,
+      "key": "ly-15-19:說:1:1",
+      "label": "사마천(司馬遷) 《사기·공자세가》",
+      "original": "이 말을 공자님이 《춘추》를 지을 무렵의 탄식과 연결합니다. 자신의 도가 세상에 쓰이지 못했으니, 후세에 무엇으로 자신을 드러낼 것인가를 걱정한 장면으로 봅니다.",
+      "reason": "무엇을 걱정했는지 직접 설명하고 학설의 서술 방식은 유지합니다.",
+      "revised": "이 말을 공자님이 《춘추》를 지을 무렵의 탄식과 연결합니다. 자신의 도가 세상에 쓰이지 못했으니, 후세에 무엇으로 자신을 드러낼 것인가를 걱정한 것으로 봅니다.",
+      "scope": "說",
+      "side": 1,
+      "revision_history": [
+        {
+          "previous_revision": "이 말을 공자님이 《춘추》를 지을 무렵의 탄식과 연결합니다. 자신의 도가 세상에 쓰이지 못했으니, 후세에 무엇으로 자신을 드러낼 것인가를 걱정한 장면으로 봅니다.",
+          "revised": "이 말을 공자님이 《춘추》를 지을 무렵의 탄식과 연결합니다. 자신의 도가 세상에 쓰이지 못했으니, 후세에 무엇으로 자신을 드러낼 것인가를 걱정한 것으로 봅니다.",
+          "reason": "무엇을 걱정했는지 직접 설명하고 학설의 서술 방식은 유지합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 다른 유형 계속",
+          "date": "2026-09-08",
+          "pass": "targeted_type_5"
+        }
+      ],
+      "previous_revision": "이 말을 공자님이 《춘추》를 지을 무렵의 탄식과 연결합니다. 자신의 도가 세상에 쓰이지 못했으니, 후세에 무엇으로 자신을 드러낼 것인가를 걱정한 장면으로 봅니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_5",
+      "source": {
+        "blob_sha": "bf4095ccec09b5c2b5f74960dd33fde8da5220be",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/15-위령공.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st3 .js .side > p"
+      },
+      "book_name": "위령공",
+      "replacements": [
+        [
+          "이 말을 공자님이 《춘추》를 지을 무렵의 탄식과 연결합니다. 자신의 도가 세상에 쓰이지 못했으니, 후세에 무엇으로 자신을 드러낼 것인가를 걱정한 장면으로 봅니다.",
+          "이 말을 공자님이 《춘추》를 지을 무렵의 탄식과 연결합니다. 자신의 도가 세상에 쓰이지 못했으니, 후세에 무엇으로 자신을 드러낼 것인가를 걱정한 것으로 봅니다."
+        ]
+      ]
+    },
+    {
+      "book": 16,
+      "changed": true,
+      "id": "ly-16-13",
+      "index": 2,
+      "key": "ly-16-13:語:2",
+      "label": "過庭과정",
+      "original": "아들이 뜰을 지나가다가 아버지의 가르침을 받은 장면을 뜻합니다. 후대에는 아버지가 아들에게 가르침을 주는 일을 ‘과정지훈’이라 부르게 됩니다.",
+      "reason": "용어의 뜻을 설명하는 데 불필요한 ‘장면’을 덜어 냅니다.",
+      "revised": "아들이 뜰을 지나가다가 아버지의 가르침을 받았다는 뜻입니다. 후대에는 아버지가 아들에게 가르침을 주는 일을 ‘과정지훈’이라 부르게 됩니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "previous_revision": "아들이 뜰을 지나가다가 아버지의 가르침을 받은 장면을 뜻합니다. 후대에는 아버지가 아들에게 가르침을 주는 일을 ‘과정지훈’이라 부르게 됩니다.",
+          "revised": "아들이 뜰을 지나가다가 아버지의 가르침을 받았다는 뜻입니다. 후대에는 아버지가 아들에게 가르침을 주는 일을 ‘과정지훈’이라 부르게 됩니다.",
+          "reason": "용어의 뜻을 설명하는 데 불필요한 ‘장면’을 덜어 냅니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 다른 유형 계속",
+          "date": "2026-09-08",
+          "pass": "targeted_type_5"
+        }
+      ],
+      "previous_revision": "아들이 뜰을 지나가다가 아버지의 가르침을 받은 장면을 뜻합니다. 후대에는 아버지가 아들에게 가르침을 주는 일을 ‘과정지훈’이라 부르게 됩니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_5",
+      "source": {
+        "blob_sha": "f9f38eae5cb43cd4917fb77609c452524db16dc4",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/16-계씨.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "계씨",
+      "replacements": [
+        [
+          "아들이 뜰을 지나가다가 아버지의 가르침을 받은 장면을 뜻합니다. 후대에는 아버지가 아들에게 가르침을 주는 일을 ‘과정지훈’이라 부르게 됩니다.",
+          "아들이 뜰을 지나가다가 아버지의 가르침을 받았다는 뜻입니다. 후대에는 아버지가 아들에게 가르침을 주는 일을 ‘과정지훈’이라 부르게 됩니다."
+        ]
+      ]
+    },
+    {
+      "book": 17,
+      "changed": true,
+      "field": "답변",
+      "id": "ly-17-10",
+      "index": 3,
+      "key": "ly-17-10:問:3:a",
+      "label": "답변",
+      "original": "오히려 반대입니다. 다른 제자들과 마찬가지로 『詩』와 禮 같은 기본을 배우게 했습니다. 특별 대우보다 공통된 교육 원칙을 적용한 장면으로 볼 수 있습니다.",
+      "reason": "‘장면으로’를 덜고 해석의 유보는 유지합니다.",
+      "revised": "오히려 반대입니다. 다른 제자들과 마찬가지로 『詩』와 禮 같은 기본을 배우게 했습니다. 특별 대우보다 공통된 교육 원칙을 적용했다고 볼 수 있습니다.",
+      "scope": "問",
+      "revision_history": [
+        {
+          "previous_revision": "오히려 반대입니다. 다른 제자들과 마찬가지로 『詩』와 禮 같은 기본을 배우게 했습니다. 특별 대우보다 공통된 교육 원칙을 적용한 장면으로 볼 수 있습니다.",
+          "revised": "오히려 반대입니다. 다른 제자들과 마찬가지로 『詩』와 禮 같은 기본을 배우게 했습니다. 특별 대우보다 공통된 교육 원칙을 적용했다고 볼 수 있습니다.",
+          "reason": "‘장면으로’를 덜고 해석의 유보는 유지합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 다른 유형 계속",
+          "date": "2026-09-08",
+          "pass": "targeted_type_5"
+        }
+      ],
+      "previous_revision": "오히려 반대입니다. 다른 제자들과 마찬가지로 『詩』와 禮 같은 기본을 배우게 했습니다. 특별 대우보다 공통된 교육 원칙을 적용한 장면으로 볼 수 있습니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_5",
+      "source": {
+        "blob_sha": "88f7f3985bfa2b3ed1b79972b1ea15ec3aa8dd5a",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/17-양화.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
+      },
+      "book_name": "양화",
+      "replacements": [
+        [
+          "오히려 반대입니다. 다른 제자들과 마찬가지로 『詩』와 禮 같은 기본을 배우게 했습니다. 특별 대우보다 공통된 교육 원칙을 적용한 장면으로 볼 수 있습니다.",
+          "오히려 반대입니다. 다른 제자들과 마찬가지로 『詩』와 禮 같은 기본을 배우게 했습니다. 특별 대우보다 공통된 교육 원칙을 적용했다고 볼 수 있습니다."
+        ]
+      ]
+    },
+    {
+      "book": 18,
+      "changed": true,
+      "id": "ly-18-06",
+      "index": 2,
+      "key": "ly-18-06:語:2",
+      "label": "問津문진",
+      "original": "나루터가 어디인지 묻는다는 뜻입니다. 길을 묻는 장면이지만 ‘어떤 길을 택할 것인가’라는 삶의 방향 문제와 겹쳐 읽힙니다.",
+      "reason": "장면을 묘사하는 대신 問津이라는 말의 두 가지 의미를 연결합니다.",
+      "revised": "나루터가 어디인지 묻는다는 뜻입니다. 길을 묻는 말이지만 ‘어떤 길을 택할 것인가’라는 삶의 방향 문제와 겹쳐 읽힙니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "previous_revision": "나루터가 어디인지 묻는다는 뜻입니다. 길을 묻는 장면이지만 ‘어떤 길을 택할 것인가’라는 삶의 방향 문제와 겹쳐 읽힙니다.",
+          "revised": "나루터가 어디인지 묻는다는 뜻입니다. 길을 묻는 말이지만 ‘어떤 길을 택할 것인가’라는 삶의 방향 문제와 겹쳐 읽힙니다.",
+          "reason": "장면을 묘사하는 대신 問津이라는 말의 두 가지 의미를 연결합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 다른 유형 계속",
+          "date": "2026-09-08",
+          "pass": "targeted_type_5"
+        }
+      ],
+      "previous_revision": "나루터가 어디인지 묻는다는 뜻입니다. 길을 묻는 장면이지만 ‘어떤 길을 택할 것인가’라는 삶의 방향 문제와 겹쳐 읽힙니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_5",
+      "source": {
+        "blob_sha": "bde47750b9af77d1aa01551f287341db7b5c2f9f",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/18-미자.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "미자",
+      "replacements": [
+        [
+          "나루터가 어디인지 묻는다는 뜻입니다. 길을 묻는 장면이지만 ‘어떤 길을 택할 것인가’라는 삶의 방향 문제와 겹쳐 읽힙니다.",
+          "나루터가 어디인지 묻는다는 뜻입니다. 길을 묻는 말이지만 ‘어떤 길을 택할 것인가’라는 삶의 방향 문제와 겹쳐 읽힙니다."
+        ]
+      ]
     }
   ],
   "latest_style_pass": {
-    "pass": "targeted_type_4",
-    "approved_applied": 127
+    "pass": "targeted_type_5",
+    "approved_applied": 14
   }
 }

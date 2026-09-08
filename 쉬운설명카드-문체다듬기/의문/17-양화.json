@@ -813,16 +813,30 @@
     },
     {
       "book": 17,
-      "changed": false,
+      "changed": true,
       "field": "답변",
       "id": "ly-17-10",
       "index": 3,
       "key": "ly-17-10:問:3:a",
       "label": "답변",
       "original": "오히려 반대입니다. 다른 제자들과 마찬가지로 『詩』와 禮 같은 기본을 배우게 했습니다. 특별 대우보다 공통된 교육 원칙을 적용한 장면으로 볼 수 있습니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "오히려 반대입니다. 다른 제자들과 마찬가지로 『詩』와 禮 같은 기본을 배우게 했습니다. 특별 대우보다 공통된 교육 원칙을 적용한 장면으로 볼 수 있습니다.",
-      "scope": "問"
+      "reason": "‘장면으로’를 덜고 해석의 유보는 유지합니다.",
+      "revised": "오히려 반대입니다. 다른 제자들과 마찬가지로 『詩』와 禮 같은 기본을 배우게 했습니다. 특별 대우보다 공통된 교육 원칙을 적용했다고 볼 수 있습니다.",
+      "scope": "問",
+      "revision_history": [
+        {
+          "previous_revision": "오히려 반대입니다. 다른 제자들과 마찬가지로 『詩』와 禮 같은 기본을 배우게 했습니다. 특별 대우보다 공통된 교육 원칙을 적용한 장면으로 볼 수 있습니다.",
+          "revised": "오히려 반대입니다. 다른 제자들과 마찬가지로 『詩』와 禮 같은 기본을 배우게 했습니다. 특별 대우보다 공통된 교육 원칙을 적용했다고 볼 수 있습니다.",
+          "reason": "‘장면으로’를 덜고 해석의 유보는 유지합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 다른 유형 계속",
+          "date": "2026-09-08",
+          "pass": "targeted_type_5"
+        }
+      ],
+      "previous_revision": "오히려 반대입니다. 다른 제자들과 마찬가지로 『詩』와 禮 같은 기본을 배우게 했습니다. 특별 대우보다 공통된 교육 원칙을 적용한 장면으로 볼 수 있습니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_5"
     },
     {
       "book": 17,
@@ -2149,9 +2163,9 @@
     "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_4",
-    "reviewed": 156,
-    "approved_applied": 4,
-    "status": "approved_applied"
+    "pass": "targeted_type_5",
+    "scanned": 156,
+    "approved_applied": 1,
+    "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
   }
 }

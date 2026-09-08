@@ -3623,16 +3623,30 @@
     },
     {
       "book": 14,
-      "changed": false,
+      "changed": true,
       "field": "답변",
       "id": "ly-14-46",
       "index": 2,
       "key": "ly-14-46:問:2:a",
       "label": "답변",
       "original": "오늘날 기준으로는 매우 거칠게 들립니다. 오랜 친구 원양의 무례한 태도를 강하게 질책한 장면이며, 문자 그대로 죽기를 바랐다는 뜻으로 볼 필요는 없습니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "오늘날 기준으로는 매우 거칠게 들립니다. 오랜 친구 원양의 무례한 태도를 강하게 질책한 장면이며, 문자 그대로 죽기를 바랐다는 뜻으로 볼 필요는 없습니다.",
-      "scope": "問"
+      "reason": "발언의 뜻을 묻는 질문에 맞게 ‘장면’을 ‘말’로 바로잡습니다.",
+      "revised": "오늘날 기준으로는 매우 거칠게 들립니다. 오랜 친구 원양의 무례한 태도를 강하게 질책한 말이며, 문자 그대로 죽기를 바랐다는 뜻으로 볼 필요는 없습니다.",
+      "scope": "問",
+      "revision_history": [
+        {
+          "previous_revision": "오늘날 기준으로는 매우 거칠게 들립니다. 오랜 친구 원양의 무례한 태도를 강하게 질책한 장면이며, 문자 그대로 죽기를 바랐다는 뜻으로 볼 필요는 없습니다.",
+          "revised": "오늘날 기준으로는 매우 거칠게 들립니다. 오랜 친구 원양의 무례한 태도를 강하게 질책한 말이며, 문자 그대로 죽기를 바랐다는 뜻으로 볼 필요는 없습니다.",
+          "reason": "발언의 뜻을 묻는 질문에 맞게 ‘장면’을 ‘말’로 바로잡습니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 다른 유형 계속",
+          "date": "2026-09-08",
+          "pass": "targeted_type_5"
+        }
+      ],
+      "previous_revision": "오늘날 기준으로는 매우 거칠게 들립니다. 오랜 친구 원양의 무례한 태도를 강하게 질책한 장면이며, 문자 그대로 죽기를 바랐다는 뜻으로 볼 필요는 없습니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_5"
     },
     {
       "book": 14,
@@ -3759,9 +3773,9 @@
     "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_3",
-    "reviewed": 282,
+    "pass": "targeted_type_5",
+    "scanned": 282,
     "approved_applied": 1,
-    "status": "approved_applied"
+    "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
   }
 }

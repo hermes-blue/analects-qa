@@ -332,15 +332,29 @@
     },
     {
       "book": 18,
-      "changed": false,
+      "changed": true,
       "id": "ly-18-06",
       "index": 2,
       "key": "ly-18-06:語:2",
       "label": "問津문진",
       "original": "나루터가 어디인지 묻는다는 뜻입니다. 길을 묻는 장면이지만 ‘어떤 길을 택할 것인가’라는 삶의 방향 문제와 겹쳐 읽힙니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "나루터가 어디인지 묻는다는 뜻입니다. 길을 묻는 장면이지만 ‘어떤 길을 택할 것인가’라는 삶의 방향 문제와 겹쳐 읽힙니다.",
-      "scope": "語"
+      "reason": "장면을 묘사하는 대신 問津이라는 말의 두 가지 의미를 연결합니다.",
+      "revised": "나루터가 어디인지 묻는다는 뜻입니다. 길을 묻는 말이지만 ‘어떤 길을 택할 것인가’라는 삶의 방향 문제와 겹쳐 읽힙니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "previous_revision": "나루터가 어디인지 묻는다는 뜻입니다. 길을 묻는 장면이지만 ‘어떤 길을 택할 것인가’라는 삶의 방향 문제와 겹쳐 읽힙니다.",
+          "revised": "나루터가 어디인지 묻는다는 뜻입니다. 길을 묻는 말이지만 ‘어떤 길을 택할 것인가’라는 삶의 방향 문제와 겹쳐 읽힙니다.",
+          "reason": "장면을 묘사하는 대신 問津이라는 말의 두 가지 의미를 연결합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 다른 유형 계속",
+          "date": "2026-09-08",
+          "pass": "targeted_type_5"
+        }
+      ],
+      "previous_revision": "나루터가 어디인지 묻는다는 뜻입니다. 길을 묻는 장면이지만 ‘어떤 길을 택할 것인가’라는 삶의 방향 문제와 겹쳐 읽힙니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_5"
     },
     {
       "book": 18,
@@ -783,9 +797,9 @@
     "selector": "article.card details.st1 .w > p:not(.wh)"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_4",
-    "reviewed": 54,
-    "approved_applied": 3,
-    "status": "approved_applied"
+    "pass": "targeted_type_5",
+    "scanned": 54,
+    "approved_applied": 1,
+    "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
   }
 }

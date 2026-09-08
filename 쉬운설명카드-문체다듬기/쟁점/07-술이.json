@@ -1110,17 +1110,31 @@
     },
     {
       "book": 7,
-      "changed": false,
+      "changed": true,
       "heading": "‘신에게 복을 청하는 기도’ vs ‘신에게 잘못을 사죄하는 기도’禱의 성격",
       "id": "ly-07-34",
       "index": 1,
       "key": "ly-07-34:說:1:1",
       "label": "포함(包咸) — 《논어집해》 인용",
       "original": "禱를 귀신에게 도움과 복을 청하는 행위로 풉니다. 자로가 병든 공자님을 살려 달라고 빌겠다고 한 장면에 가깝습니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "禱를 귀신에게 도움과 복을 청하는 행위로 풉니다. 자로가 병든 공자님을 살려 달라고 빌겠다고 한 장면에 가깝습니다.",
+      "reason": "禱의 뜻을 풀이하는 문맥에 맞추며 ‘가깝다’는 한정은 유지합니다.",
+      "revised": "禱를 귀신에게 도움과 복을 청하는 행위로 풉니다. 자로가 병든 공자님을 살려 달라고 빌겠다는 뜻에 가깝습니다.",
       "scope": "說",
-      "side": 1
+      "side": 1,
+      "revision_history": [
+        {
+          "previous_revision": "禱를 귀신에게 도움과 복을 청하는 행위로 풉니다. 자로가 병든 공자님을 살려 달라고 빌겠다고 한 장면에 가깝습니다.",
+          "revised": "禱를 귀신에게 도움과 복을 청하는 행위로 풉니다. 자로가 병든 공자님을 살려 달라고 빌겠다는 뜻에 가깝습니다.",
+          "reason": "禱의 뜻을 풀이하는 문맥에 맞추며 ‘가깝다’는 한정은 유지합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 다른 유형 계속",
+          "date": "2026-09-08",
+          "pass": "targeted_type_5"
+        }
+      ],
+      "previous_revision": "禱를 귀신에게 도움과 복을 청하는 행위로 풉니다. 자로가 병든 공자님을 살려 달라고 빌겠다고 한 장면에 가깝습니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_5"
     },
     {
       "book": 7,
@@ -1241,9 +1255,9 @@
     "selector": "article.card details.st3 .js .side > p"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_4",
-    "reviewed": 79,
+    "pass": "targeted_type_5",
+    "scanned": 79,
     "approved_applied": 1,
-    "status": "approved_applied"
+    "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
   }
 }

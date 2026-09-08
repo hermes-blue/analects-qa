@@ -32,17 +32,31 @@
     },
     {
       "book": 6,
-      "changed": false,
+      "changed": true,
       "heading": "‘진나라 대부’ vs ‘옷차림도 거리끼지 않던 은자’子桑伯子의 정체",
       "id": "ly-06-01",
       "index": 2,
       "key": "ly-06-01:說:2:1",
       "label": "정현(鄭玄)",
       "original": "子桑伯子를 진나라 대부 공손지(公孫枝)로 봅니다. 그러면 정치 경험이 있는 관리의 ‘간소한 다스림’을 평가하는 대화가 됩니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "子桑伯子를 진나라 대부 공손지(公孫枝)로 봅니다. 그러면 정치 경험이 있는 관리의 ‘간소한 다스림’을 평가하는 대화가 됩니다.",
+      "reason": "인물 비정에 따른 조건을 유지하면서 무엇을 평가했는지 직접 말합니다.",
+      "revised": "子桑伯子를 진나라 대부 공손지(公孫枝)로 봅니다. 이 풀이에 따르면 정치 경험이 있는 관리의 ‘간소한 다스림’을 평가한 것입니다.",
       "scope": "說",
-      "side": 1
+      "side": 1,
+      "revision_history": [
+        {
+          "previous_revision": "子桑伯子를 진나라 대부 공손지(公孫枝)로 봅니다. 그러면 정치 경험이 있는 관리의 ‘간소한 다스림’을 평가하는 대화가 됩니다.",
+          "revised": "子桑伯子를 진나라 대부 공손지(公孫枝)로 봅니다. 이 풀이에 따르면 정치 경험이 있는 관리의 ‘간소한 다스림’을 평가한 것입니다.",
+          "reason": "인물 비정에 따른 조건을 유지하면서 무엇을 평가했는지 직접 말합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 다른 유형 계속",
+          "date": "2026-09-08",
+          "pass": "targeted_type_5"
+        }
+      ],
+      "previous_revision": "子桑伯子를 진나라 대부 공손지(公孫枝)로 봅니다. 그러면 정치 경험이 있는 관리의 ‘간소한 다스림’을 평가하는 대화가 됩니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_5"
     },
     {
       "book": 6,
@@ -242,17 +256,31 @@
     },
     {
       "book": 6,
-      "changed": false,
+      "changed": true,
       "heading": "덕 있는 사람이 큰 병에 걸리면 ‘덕이 보답받는다’는 믿음은 어떻게 될까?문장 안 긴장형",
       "id": "ly-06-08",
       "index": 1,
       "key": "ly-06-08:說:1:1",
       "label": "이렇게 보면",
       "original": "백우는 공자님이 높이 평가한 제자입니다. 덕과 현실의 결과가 맞아야 한다고 기대하면 이런 사람에게 큰 병이 온 장면은 설명하기 어렵습니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "백우는 공자님이 높이 평가한 제자입니다. 덕과 현실의 결과가 맞아야 한다고 기대하면 이런 사람에게 큰 병이 온 장면은 설명하기 어렵습니다.",
+      "reason": "설명하기 어려운 대상을 ‘장면’ 대신 실제 일로 표현합니다.",
+      "revised": "백우는 공자님이 높이 평가한 제자입니다. 덕과 현실의 결과가 맞아야 한다고 기대하면 이런 사람이 큰 병에 걸린 일을 설명하기 어렵습니다.",
       "scope": "說",
-      "side": 1
+      "side": 1,
+      "revision_history": [
+        {
+          "previous_revision": "백우는 공자님이 높이 평가한 제자입니다. 덕과 현실의 결과가 맞아야 한다고 기대하면 이런 사람에게 큰 병이 온 장면은 설명하기 어렵습니다.",
+          "revised": "백우는 공자님이 높이 평가한 제자입니다. 덕과 현실의 결과가 맞아야 한다고 기대하면 이런 사람이 큰 병에 걸린 일을 설명하기 어렵습니다.",
+          "reason": "설명하기 어려운 대상을 ‘장면’ 대신 실제 일로 표현합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 다른 유형 계속",
+          "date": "2026-09-08",
+          "pass": "targeted_type_5"
+        }
+      ],
+      "previous_revision": "백우는 공자님이 높이 평가한 제자입니다. 덕과 현실의 결과가 맞아야 한다고 기대하면 이런 사람에게 큰 병이 온 장면은 설명하기 어렵습니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_5"
     },
     {
       "book": 6,
@@ -956,9 +984,9 @@
     "selector": "article.card details.st3 .js .side > p"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_4",
-    "reviewed": 58,
-    "approved_applied": 1,
-    "status": "approved_applied"
+    "pass": "targeted_type_5",
+    "scanned": 58,
+    "approved_applied": 2,
+    "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
   }
 }

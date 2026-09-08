@@ -794,15 +794,29 @@
     },
     {
       "book": 16,
-      "changed": false,
+      "changed": true,
       "id": "ly-16-13",
       "index": 2,
       "key": "ly-16-13:語:2",
       "label": "過庭과정",
       "original": "아들이 뜰을 지나가다가 아버지의 가르침을 받은 장면을 뜻합니다. 후대에는 아버지가 아들에게 가르침을 주는 일을 ‘과정지훈’이라 부르게 됩니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "아들이 뜰을 지나가다가 아버지의 가르침을 받은 장면을 뜻합니다. 후대에는 아버지가 아들에게 가르침을 주는 일을 ‘과정지훈’이라 부르게 됩니다.",
-      "scope": "語"
+      "reason": "용어의 뜻을 설명하는 데 불필요한 ‘장면’을 덜어 냅니다.",
+      "revised": "아들이 뜰을 지나가다가 아버지의 가르침을 받았다는 뜻입니다. 후대에는 아버지가 아들에게 가르침을 주는 일을 ‘과정지훈’이라 부르게 됩니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "previous_revision": "아들이 뜰을 지나가다가 아버지의 가르침을 받은 장면을 뜻합니다. 후대에는 아버지가 아들에게 가르침을 주는 일을 ‘과정지훈’이라 부르게 됩니다.",
+          "revised": "아들이 뜰을 지나가다가 아버지의 가르침을 받았다는 뜻입니다. 후대에는 아버지가 아들에게 가르침을 주는 일을 ‘과정지훈’이라 부르게 됩니다.",
+          "reason": "용어의 뜻을 설명하는 데 불필요한 ‘장면’을 덜어 냅니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 다른 유형 계속",
+          "date": "2026-09-08",
+          "pass": "targeted_type_5"
+        }
+      ],
+      "previous_revision": "아들이 뜰을 지나가다가 아버지의 가르침을 받은 장면을 뜻합니다. 후대에는 아버지가 아들에게 가르침을 주는 일을 ‘과정지훈’이라 부르게 됩니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_5"
     },
     {
       "book": 16,
@@ -921,9 +935,9 @@
     "selector": "article.card details.st1 .w > p:not(.wh)"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_4",
-    "reviewed": 69,
-    "approved_applied": 3,
-    "status": "approved_applied"
+    "pass": "targeted_type_5",
+    "scanned": 69,
+    "approved_applied": 1,
+    "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
   }
 }

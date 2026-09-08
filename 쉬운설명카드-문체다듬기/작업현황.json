@@ -1,5 +1,5 @@
 {
-  "apply_status": "유형 4 전수검토 제안 127곳을 사용자 승인에 따라 수정본 JSON에 모두 반영. 원본 HTML 미적용.",
+  "apply_status": "유형 5 승인안 14곳을 수정본 JSON에 모두 반영. 원본 HTML 미적용.",
   "book_count": 20,
   "card_count": 498,
   "content_review_performed": false,
@@ -412,7 +412,7 @@
     },
     {
       "book_count": 20,
-      "changed": 260,
+      "changed": 266,
       "labels_preserved": true,
       "method": "전 항목에서 문체 패턴으로 후보를 찾아 후보 문장의 문맥을 확인하는 선별 교정.",
       "name": "한자풀이",
@@ -594,7 +594,7 @@
     },
     {
       "book_count": 20,
-      "changed": 195,
+      "changed": 197,
       "labels_preserved": true,
       "method": "전 항목에서 문체 패턴으로 후보를 찾아 후보 문장의 문맥을 확인하는 선별 교정.",
       "name": "의문",
@@ -776,7 +776,7 @@
     },
     {
       "book_count": 20,
-      "changed": 97,
+      "changed": 103,
       "labels_preserved": true,
       "method": "전 항목에서 문체 패턴으로 후보를 찾아 후보 문장의 문맥을 확인하는 선별 교정.",
       "name": "쟁점",
@@ -957,13 +957,17 @@
       }
     }
   ],
-  "status": "approved_targeted_type_4_applied",
-  "total_changed_text_fields": 918,
+  "status": "approved_targeted_type_5_applied",
+  "total_changed_text_fields": 932,
   "last_completed_pass": {
-    "scope": "유형 4: AI식 말투·직역투·어색한 추상명사 주어·과도한 의 및 명사 연결",
-    "reviewed": 6921,
-    "approved_applied": 127,
-    "status": "completed"
+    "type": 5,
+    "scope": "장면·대목·대화로 돌려 설명하는 표현",
+    "status": "approved_applied",
+    "scanned": 6921,
+    "keyword_matches_context_reviewed": 63,
+    "approved_applied": 14,
+    "approval_message": "제이슨에 반영후 다른 유형 계속",
+    "method": "전체 검색 및 검색 결과 문맥 확인; 모든 문장 종합 정독 아님"
   },
   "targeted_reviews": [
     {
@@ -2021,6 +2025,16 @@
         }
       ],
       "approval_message": "제이슨에 반영"
+    },
+    {
+      "type": 5,
+      "scope": "장면·대목·대화로 돌려 설명하는 표현",
+      "status": "approved_applied",
+      "scanned": 6921,
+      "keyword_matches_context_reviewed": 63,
+      "approved_applied": 14,
+      "approval_message": "제이슨에 반영후 다른 유형 계속",
+      "method": "전체 검색 및 검색 결과 문맥 확인; 모든 문장 종합 정독 아님"
     }
   ]
 }

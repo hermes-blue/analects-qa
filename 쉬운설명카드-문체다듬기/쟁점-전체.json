@@ -2,12 +2,12 @@
   "schema_version": "1.1",
   "scope": "說",
   "scope_name": "쟁점",
-  "status": "approved_targeted_type_4_applied",
-  "method": "20편의 핵심·語·問·說 전체 6,921개 본문 항목을 순서대로 읽고 유형 4 후보 127곳을 전후 대조한 뒤 사용자 승인에 따라 반영. 내용·해석 검수는 하지 않음.",
+  "status": "approved_targeted_type_5_applied",
+  "method": "최신 수정문 전체에서 유형 5 표현을 검색하고 검색 결과의 문맥을 검토한 뒤, 승인된 14곳만 반영. 내용·해석 검수는 하지 않음.",
   "count_unit": "텍스트 필드: 한자 풀이 1개, 질문 또는 답변 1개, 쟁점의 견해 설명 1개",
   "total": 1040,
-  "changed": 97,
-  "unchanged": 943,
+  "changed": 103,
+  "unchanged": 937,
   "card_count": 498,
   "book_count": 20,
   "content_review_performed": false,
@@ -4167,17 +4167,31 @@
         },
         {
           "book": 6,
-          "changed": false,
+          "changed": true,
           "heading": "‘진나라 대부’ vs ‘옷차림도 거리끼지 않던 은자’子桑伯子의 정체",
           "id": "ly-06-01",
           "index": 2,
           "key": "ly-06-01:說:2:1",
           "label": "정현(鄭玄)",
           "original": "子桑伯子를 진나라 대부 공손지(公孫枝)로 봅니다. 그러면 정치 경험이 있는 관리의 ‘간소한 다스림’을 평가하는 대화가 됩니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "子桑伯子를 진나라 대부 공손지(公孫枝)로 봅니다. 그러면 정치 경험이 있는 관리의 ‘간소한 다스림’을 평가하는 대화가 됩니다.",
+          "reason": "인물 비정에 따른 조건을 유지하면서 무엇을 평가했는지 직접 말합니다.",
+          "revised": "子桑伯子를 진나라 대부 공손지(公孫枝)로 봅니다. 이 풀이에 따르면 정치 경험이 있는 관리의 ‘간소한 다스림’을 평가한 것입니다.",
           "scope": "說",
-          "side": 1
+          "side": 1,
+          "revision_history": [
+            {
+              "previous_revision": "子桑伯子를 진나라 대부 공손지(公孫枝)로 봅니다. 그러면 정치 경험이 있는 관리의 ‘간소한 다스림’을 평가하는 대화가 됩니다.",
+              "revised": "子桑伯子를 진나라 대부 공손지(公孫枝)로 봅니다. 이 풀이에 따르면 정치 경험이 있는 관리의 ‘간소한 다스림’을 평가한 것입니다.",
+              "reason": "인물 비정에 따른 조건을 유지하면서 무엇을 평가했는지 직접 말합니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨에 반영후 다른 유형 계속",
+              "date": "2026-09-08",
+              "pass": "targeted_type_5"
+            }
+          ],
+          "previous_revision": "子桑伯子를 진나라 대부 공손지(公孫枝)로 봅니다. 그러면 정치 경험이 있는 관리의 ‘간소한 다스림’을 평가하는 대화가 됩니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_5"
         },
         {
           "book": 6,
@@ -4377,17 +4391,31 @@
         },
         {
           "book": 6,
-          "changed": false,
+          "changed": true,
           "heading": "덕 있는 사람이 큰 병에 걸리면 ‘덕이 보답받는다’는 믿음은 어떻게 될까?문장 안 긴장형",
           "id": "ly-06-08",
           "index": 1,
           "key": "ly-06-08:說:1:1",
           "label": "이렇게 보면",
           "original": "백우는 공자님이 높이 평가한 제자입니다. 덕과 현실의 결과가 맞아야 한다고 기대하면 이런 사람에게 큰 병이 온 장면은 설명하기 어렵습니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "백우는 공자님이 높이 평가한 제자입니다. 덕과 현실의 결과가 맞아야 한다고 기대하면 이런 사람에게 큰 병이 온 장면은 설명하기 어렵습니다.",
+          "reason": "설명하기 어려운 대상을 ‘장면’ 대신 실제 일로 표현합니다.",
+          "revised": "백우는 공자님이 높이 평가한 제자입니다. 덕과 현실의 결과가 맞아야 한다고 기대하면 이런 사람이 큰 병에 걸린 일을 설명하기 어렵습니다.",
           "scope": "說",
-          "side": 1
+          "side": 1,
+          "revision_history": [
+            {
+              "previous_revision": "백우는 공자님이 높이 평가한 제자입니다. 덕과 현실의 결과가 맞아야 한다고 기대하면 이런 사람에게 큰 병이 온 장면은 설명하기 어렵습니다.",
+              "revised": "백우는 공자님이 높이 평가한 제자입니다. 덕과 현실의 결과가 맞아야 한다고 기대하면 이런 사람이 큰 병에 걸린 일을 설명하기 어렵습니다.",
+              "reason": "설명하기 어려운 대상을 ‘장면’ 대신 실제 일로 표현합니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨에 반영후 다른 유형 계속",
+              "date": "2026-09-08",
+              "pass": "targeted_type_5"
+            }
+          ],
+          "previous_revision": "백우는 공자님이 높이 평가한 제자입니다. 덕과 현실의 결과가 맞아야 한다고 기대하면 이런 사람에게 큰 병이 온 장면은 설명하기 어렵습니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_5"
         },
         {
           "book": 6,
@@ -5091,10 +5119,10 @@
         "selector": "article.card details.st3 .js .side > p"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_4",
-        "reviewed": 58,
-        "approved_applied": 1,
-        "status": "approved_applied"
+        "pass": "targeted_type_5",
+        "scanned": 58,
+        "approved_applied": 2,
+        "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
       }
     },
     {
@@ -6209,17 +6237,31 @@
         },
         {
           "book": 7,
-          "changed": false,
+          "changed": true,
           "heading": "‘신에게 복을 청하는 기도’ vs ‘신에게 잘못을 사죄하는 기도’禱의 성격",
           "id": "ly-07-34",
           "index": 1,
           "key": "ly-07-34:說:1:1",
           "label": "포함(包咸) — 《논어집해》 인용",
           "original": "禱를 귀신에게 도움과 복을 청하는 행위로 풉니다. 자로가 병든 공자님을 살려 달라고 빌겠다고 한 장면에 가깝습니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "禱를 귀신에게 도움과 복을 청하는 행위로 풉니다. 자로가 병든 공자님을 살려 달라고 빌겠다고 한 장면에 가깝습니다.",
+          "reason": "禱의 뜻을 풀이하는 문맥에 맞추며 ‘가깝다’는 한정은 유지합니다.",
+          "revised": "禱를 귀신에게 도움과 복을 청하는 행위로 풉니다. 자로가 병든 공자님을 살려 달라고 빌겠다는 뜻에 가깝습니다.",
           "scope": "說",
-          "side": 1
+          "side": 1,
+          "revision_history": [
+            {
+              "previous_revision": "禱를 귀신에게 도움과 복을 청하는 행위로 풉니다. 자로가 병든 공자님을 살려 달라고 빌겠다고 한 장면에 가깝습니다.",
+              "revised": "禱를 귀신에게 도움과 복을 청하는 행위로 풉니다. 자로가 병든 공자님을 살려 달라고 빌겠다는 뜻에 가깝습니다.",
+              "reason": "禱의 뜻을 풀이하는 문맥에 맞추며 ‘가깝다’는 한정은 유지합니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨에 반영후 다른 유형 계속",
+              "date": "2026-09-08",
+              "pass": "targeted_type_5"
+            }
+          ],
+          "previous_revision": "禱를 귀신에게 도움과 복을 청하는 행위로 풉니다. 자로가 병든 공자님을 살려 달라고 빌겠다고 한 장면에 가깝습니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_5"
         },
         {
           "book": 7,
@@ -6340,10 +6382,10 @@
         "selector": "article.card details.st3 .js .side > p"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_4",
-        "reviewed": 79,
+        "pass": "targeted_type_5",
+        "scanned": 79,
         "approved_applied": 1,
-        "status": "approved_applied"
+        "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
       }
     },
     {
@@ -8514,17 +8556,31 @@
         },
         {
           "book": 10,
-          "changed": false,
+          "changed": true,
           "heading": "‘잡아 요리해 드렸다’ vs ‘잡았다가 놓아주었다’共之",
           "id": "ly-10-17",
           "index": 3,
           "key": "ly-10-17:說:3:2",
           "label": "유보남(劉寶楠) 《논어정의》가 채택한 고증",
           "original": "共을 拱의 이문과 연결해 자로가 꿩을 붙잡았다가 곧 놓아준 장면으로 풉니다. 요리된 음식이 아니라 살아 있는 새가 남습니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "共을 拱의 이문과 연결해 자로가 꿩을 붙잡았다가 곧 놓아준 장면으로 풉니다. 요리된 음식이 아니라 살아 있는 새가 남습니다.",
+          "reason": "학설이 해석한 행동을 직접 서술합니다.",
+          "revised": "共을 拱의 이문과 연결해 자로가 꿩을 붙잡았다가 곧 놓아주었다고 풉니다. 요리된 음식이 아니라 살아 있는 새가 남습니다.",
           "scope": "說",
-          "side": 2
+          "side": 2,
+          "revision_history": [
+            {
+              "previous_revision": "共을 拱의 이문과 연결해 자로가 꿩을 붙잡았다가 곧 놓아준 장면으로 풉니다. 요리된 음식이 아니라 살아 있는 새가 남습니다.",
+              "revised": "共을 拱의 이문과 연결해 자로가 꿩을 붙잡았다가 곧 놓아주었다고 풉니다. 요리된 음식이 아니라 살아 있는 새가 남습니다.",
+              "reason": "학설이 해석한 행동을 직접 서술합니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨에 반영후 다른 유형 계속",
+              "date": "2026-09-08",
+              "pass": "targeted_type_5"
+            }
+          ],
+          "previous_revision": "共을 拱의 이문과 연결해 자로가 꿩을 붙잡았다가 곧 놓아준 장면으로 풉니다. 요리된 음식이 아니라 살아 있는 새가 남습니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_5"
         }
       ],
       "method": "문체 패턴으로 후보를 찾고 후보 문장의 표현과 문맥을 검토하는 선별 교정. 내용 검수는 하지 않음.",
@@ -8547,10 +8603,10 @@
         "selector": "article.card details.st3 .js .side > p"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_3",
-        "reviewed": 38,
-        "approved_applied": 4,
-        "status": "approved_applied"
+        "pass": "targeted_type_5",
+        "scanned": 38,
+        "approved_applied": 1,
+        "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
       }
     },
     {
@@ -12551,17 +12607,31 @@
         },
         {
           "book": 15,
-          "changed": false,
+          "changed": true,
           "heading": "전쟁을 묻는 군주에게 예를 말한 건 현실 회피일까, 정치의 우선순위를 세운 걸까?현실 선택형",
           "id": "ly-15-01",
           "index": 2,
           "key": "ly-15-01:說:2:2",
           "label": "이렇게도 보면",
           "original": "공자님은 군진보다 제사와 예를 자신의 배움이라고 답하고 다음 날 떠납니다. 통치의 근본이 무력 기술보다 정치의 정당성과 질서에 있다고 선을 그은 장면으로 읽을 수 있습니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "공자님은 군진보다 제사와 예를 자신의 배움이라고 답하고 다음 날 떠납니다. 통치의 근본이 무력 기술보다 정치의 정당성과 질서에 있다고 선을 그은 장면으로 읽을 수 있습니다.",
+          "reason": "‘장면으로 읽다’를 덜고 해석의 가능성은 유지합니다.",
+          "revised": "공자님은 군진보다 제사와 예를 자신의 배움이라고 답하고 다음 날 떠납니다. 통치의 근본이 무력 기술보다 정치의 정당성과 질서에 있다고 선을 그었다고 볼 수 있습니다.",
           "scope": "說",
-          "side": 2
+          "side": 2,
+          "revision_history": [
+            {
+              "previous_revision": "공자님은 군진보다 제사와 예를 자신의 배움이라고 답하고 다음 날 떠납니다. 통치의 근본이 무력 기술보다 정치의 정당성과 질서에 있다고 선을 그은 장면으로 읽을 수 있습니다.",
+              "revised": "공자님은 군진보다 제사와 예를 자신의 배움이라고 답하고 다음 날 떠납니다. 통치의 근본이 무력 기술보다 정치의 정당성과 질서에 있다고 선을 그었다고 볼 수 있습니다.",
+              "reason": "‘장면으로 읽다’를 덜고 해석의 가능성은 유지합니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨에 반영후 다른 유형 계속",
+              "date": "2026-09-08",
+              "pass": "targeted_type_5"
+            }
+          ],
+          "previous_revision": "공자님은 군진보다 제사와 예를 자신의 배움이라고 답하고 다음 날 떠납니다. 통치의 근본이 무력 기술보다 정치의 정당성과 질서에 있다고 선을 그은 장면으로 읽을 수 있습니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_5"
         },
         {
           "book": 15,
@@ -13055,17 +13125,31 @@
         },
         {
           "book": 15,
-          "changed": false,
+          "changed": true,
           "heading": "‘후세에 이름을 남기지 못함’ vs ‘이름 붙일 만한 실질이 없음’名不稱을 걱정하는 이유",
           "id": "ly-15-19",
           "index": 1,
           "key": "ly-15-19:說:1:1",
           "label": "사마천(司馬遷) 《사기·공자세가》",
           "original": "이 말을 공자님이 《춘추》를 지을 무렵의 탄식과 연결합니다. 자신의 도가 세상에 쓰이지 못했으니, 후세에 무엇으로 자신을 드러낼 것인가를 걱정한 장면으로 봅니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "이 말을 공자님이 《춘추》를 지을 무렵의 탄식과 연결합니다. 자신의 도가 세상에 쓰이지 못했으니, 후세에 무엇으로 자신을 드러낼 것인가를 걱정한 장면으로 봅니다.",
+          "reason": "무엇을 걱정했는지 직접 설명하고 학설의 서술 방식은 유지합니다.",
+          "revised": "이 말을 공자님이 《춘추》를 지을 무렵의 탄식과 연결합니다. 자신의 도가 세상에 쓰이지 못했으니, 후세에 무엇으로 자신을 드러낼 것인가를 걱정한 것으로 봅니다.",
           "scope": "說",
-          "side": 1
+          "side": 1,
+          "revision_history": [
+            {
+              "previous_revision": "이 말을 공자님이 《춘추》를 지을 무렵의 탄식과 연결합니다. 자신의 도가 세상에 쓰이지 못했으니, 후세에 무엇으로 자신을 드러낼 것인가를 걱정한 장면으로 봅니다.",
+              "revised": "이 말을 공자님이 《춘추》를 지을 무렵의 탄식과 연결합니다. 자신의 도가 세상에 쓰이지 못했으니, 후세에 무엇으로 자신을 드러낼 것인가를 걱정한 것으로 봅니다.",
+              "reason": "무엇을 걱정했는지 직접 설명하고 학설의 서술 방식은 유지합니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨에 반영후 다른 유형 계속",
+              "date": "2026-09-08",
+              "pass": "targeted_type_5"
+            }
+          ],
+          "previous_revision": "이 말을 공자님이 《춘추》를 지을 무렵의 탄식과 연결합니다. 자신의 도가 세상에 쓰이지 못했으니, 후세에 무엇으로 자신을 드러낼 것인가를 걱정한 장면으로 봅니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_5"
         },
         {
           "book": 15,
@@ -13802,10 +13886,10 @@
         "selector": "article.card details.st3 .js .side > p"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_4",
-        "reviewed": 86,
-        "approved_applied": 1,
-        "status": "approved_applied"
+        "pass": "targeted_type_5",
+        "scanned": 86,
+        "approved_applied": 2,
+        "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
       }
     },
     {
@@ -16381,8 +16465,8 @@
     }
   ],
   "latest_style_pass": {
-    "pass": "targeted_type_4",
-    "reviewed": 1040,
-    "approved_applied": 15
+    "pass": "targeted_type_5",
+    "scanned": 1040,
+    "approved_applied": 6
   }
 }

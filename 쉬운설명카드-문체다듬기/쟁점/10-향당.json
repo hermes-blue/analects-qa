@@ -592,17 +592,31 @@
     },
     {
       "book": 10,
-      "changed": false,
+      "changed": true,
       "heading": "‘잡아 요리해 드렸다’ vs ‘잡았다가 놓아주었다’共之",
       "id": "ly-10-17",
       "index": 3,
       "key": "ly-10-17:說:3:2",
       "label": "유보남(劉寶楠) 《논어정의》가 채택한 고증",
       "original": "共을 拱의 이문과 연결해 자로가 꿩을 붙잡았다가 곧 놓아준 장면으로 풉니다. 요리된 음식이 아니라 살아 있는 새가 남습니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "共을 拱의 이문과 연결해 자로가 꿩을 붙잡았다가 곧 놓아준 장면으로 풉니다. 요리된 음식이 아니라 살아 있는 새가 남습니다.",
+      "reason": "학설이 해석한 행동을 직접 서술합니다.",
+      "revised": "共을 拱의 이문과 연결해 자로가 꿩을 붙잡았다가 곧 놓아주었다고 풉니다. 요리된 음식이 아니라 살아 있는 새가 남습니다.",
       "scope": "說",
-      "side": 2
+      "side": 2,
+      "revision_history": [
+        {
+          "previous_revision": "共을 拱의 이문과 연결해 자로가 꿩을 붙잡았다가 곧 놓아준 장면으로 풉니다. 요리된 음식이 아니라 살아 있는 새가 남습니다.",
+          "revised": "共을 拱의 이문과 연결해 자로가 꿩을 붙잡았다가 곧 놓아주었다고 풉니다. 요리된 음식이 아니라 살아 있는 새가 남습니다.",
+          "reason": "학설이 해석한 행동을 직접 서술합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 다른 유형 계속",
+          "date": "2026-09-08",
+          "pass": "targeted_type_5"
+        }
+      ],
+      "previous_revision": "共을 拱의 이문과 연결해 자로가 꿩을 붙잡았다가 곧 놓아준 장면으로 풉니다. 요리된 음식이 아니라 살아 있는 새가 남습니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_5"
     }
   ],
   "method": "문체 패턴으로 후보를 찾고 후보 문장의 표현과 문맥을 검토하는 선별 교정. 내용 검수는 하지 않음.",
@@ -625,9 +639,9 @@
     "selector": "article.card details.st3 .js .side > p"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_3",
-    "reviewed": 38,
-    "approved_applied": 4,
-    "status": "approved_applied"
+    "pass": "targeted_type_5",
+    "scanned": 38,
+    "approved_applied": 1,
+    "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
   }
 }
