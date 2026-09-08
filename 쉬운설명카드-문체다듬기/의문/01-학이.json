@@ -395,16 +395,30 @@
     },
     {
       "book": 1,
-      "changed": false,
+      "changed": true,
       "field": "답변",
       "id": "ly-01-05",
       "index": 3,
       "key": "ly-01-05:問:3:a",
       "label": "답변",
       "original": "공자님은 정치를 거창한 제도보다 신중함, 신뢰, 절제, 사람에 대한 배려, 적절한 동원에서 설명합니다. 결국 백성의 삶을 해치지 않는 책임 있는 통치입니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "공자님은 정치를 거창한 제도보다 신중함, 신뢰, 절제, 사람에 대한 배려, 적절한 동원에서 설명합니다. 결국 백성의 삶을 해치지 않는 책임 있는 통치입니다.",
-      "scope": "問"
+      "reason": "‘동원에서 설명하다’의 조사·서술어 호응을 바로잡습니다.",
+      "revised": "공자님은 정치를 설명할 때 거창한 제도보다 신중함, 신뢰, 절제, 사람에 대한 배려, 적절한 동원을 강조합니다. 결국 백성의 삶을 해치지 않는 책임 있는 통치입니다.",
+      "scope": "問",
+      "revision_history": [
+        {
+          "pass": "targeted_type_2",
+          "previous_revision": "공자님은 정치를 거창한 제도보다 신중함, 신뢰, 절제, 사람에 대한 배려, 적절한 동원에서 설명합니다. 결국 백성의 삶을 해치지 않는 책임 있는 통치입니다.",
+          "revised": "공자님은 정치를 설명할 때 거창한 제도보다 신중함, 신뢰, 절제, 사람에 대한 배려, 적절한 동원을 강조합니다. 결국 백성의 삶을 해치지 않는 책임 있는 통치입니다.",
+          "reason": "‘동원에서 설명하다’의 조사·서술어 호응을 바로잡습니다.",
+          "approval_status": "approved",
+          "approval_message": "수정후 다음 시작",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "공자님은 정치를 거창한 제도보다 신중함, 신뢰, 절제, 사람에 대한 배려, 적절한 동원에서 설명합니다. 결국 백성의 삶을 해치지 않는 책임 있는 통치입니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_2"
     },
     {
       "book": 1,
@@ -1047,16 +1061,30 @@
     },
     {
       "book": 1,
-      "changed": false,
+      "changed": true,
       "field": "답변",
       "id": "ly-01-13",
       "index": 3,
       "key": "ly-01-13:問:3:a",
       "label": "답변",
       "original": "의지하고 가까이하는 사람이 믿을 만한 사람이라면 그 관계도 오래 의지할 수 있다는 뜻으로 풉니다. 누구를 가까이하고 기대는가 역시 신중히 선택해야 한다는 말입니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "의지하고 가까이하는 사람이 믿을 만한 사람이라면 그 관계도 오래 의지할 수 있다는 뜻으로 풉니다. 누구를 가까이하고 기대는가 역시 신중히 선택해야 한다는 말입니다.",
-      "scope": "問"
+      "reason": "‘가까이하다’와 ‘기대다’에 각각 맞는 조사를 씁니다.",
+      "revised": "의지하고 가까이하는 사람이 믿을 만한 사람이라면 그 관계도 오래 의지할 수 있다는 뜻으로 풉니다. 누구를 가까이하고 누구에게 기댈지도 신중히 선택해야 한다는 말입니다.",
+      "scope": "問",
+      "revision_history": [
+        {
+          "pass": "targeted_type_2",
+          "previous_revision": "의지하고 가까이하는 사람이 믿을 만한 사람이라면 그 관계도 오래 의지할 수 있다는 뜻으로 풉니다. 누구를 가까이하고 기대는가 역시 신중히 선택해야 한다는 말입니다.",
+          "revised": "의지하고 가까이하는 사람이 믿을 만한 사람이라면 그 관계도 오래 의지할 수 있다는 뜻으로 풉니다. 누구를 가까이하고 누구에게 기댈지도 신중히 선택해야 한다는 말입니다.",
+          "reason": "‘가까이하다’와 ‘기대다’에 각각 맞는 조사를 씁니다.",
+          "approval_status": "approved",
+          "approval_message": "수정후 다음 시작",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "의지하고 가까이하는 사람이 믿을 만한 사람이라면 그 관계도 오래 의지할 수 있다는 뜻으로 풉니다. 누구를 가까이하고 기대는가 역시 신중히 선택해야 한다는 말입니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_2"
     },
     {
       "book": 1,
@@ -1327,9 +1355,9 @@
     "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_1",
+    "pass": "targeted_type_2",
     "reviewed": 96,
-    "approved_applied": 4,
+    "approved_applied": 2,
     "status": "approved_applied"
   }
 }

@@ -704,17 +704,31 @@
     },
     {
       "book": 15,
-      "changed": false,
+      "changed": true,
       "heading": "‘사람을 시험해 본 뒤 칭찬함’ vs ‘《춘추》로 시비를 바로잡음’其有所試矣",
       "id": "ly-15-24",
       "index": 1,
       "key": "ly-15-24:說:1:1",
       "label": "포함(包咸) — 《논어집해》 인용",
       "original": "공자는 사람을 칭찬하기 전에 실제로 써 보고 능력을 시험했다고 풉니다. 이어지는 ‘삼대의 곧은 도’는 마융이 백성을 사사로움 없이 부린 원칙으로 읽습니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "공자는 사람을 칭찬하기 전에 실제로 써 보고 능력을 시험했다고 풉니다. 이어지는 ‘삼대의 곧은 도’는 마융이 백성을 사사로움 없이 부린 원칙으로 읽습니다.",
+      "reason": "해석하는 사람과 해석 대상을 분명히 합니다.",
+      "revised": "공자는 사람을 칭찬하기 전에 실제로 써 보고 능력을 시험했다고 풉니다. 마융은 이어지는 ‘삼대의 곧은 도’를 백성을 사사로움 없이 부린 원칙으로 읽습니다.",
       "scope": "說",
-      "side": 1
+      "side": 1,
+      "revision_history": [
+        {
+          "pass": "targeted_type_2",
+          "previous_revision": "공자는 사람을 칭찬하기 전에 실제로 써 보고 능력을 시험했다고 풉니다. 이어지는 ‘삼대의 곧은 도’는 마융이 백성을 사사로움 없이 부린 원칙으로 읽습니다.",
+          "revised": "공자는 사람을 칭찬하기 전에 실제로 써 보고 능력을 시험했다고 풉니다. 마융은 이어지는 ‘삼대의 곧은 도’를 백성을 사사로움 없이 부린 원칙으로 읽습니다.",
+          "reason": "해석하는 사람과 해석 대상을 분명히 합니다.",
+          "approval_status": "approved",
+          "approval_message": "수정후 다음 시작",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "공자는 사람을 칭찬하기 전에 실제로 써 보고 능력을 시험했다고 풉니다. 이어지는 ‘삼대의 곧은 도’는 마융이 백성을 사사로움 없이 부린 원칙으로 읽습니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_2"
     },
     {
       "book": 15,
@@ -1241,7 +1255,7 @@
     "selector": "article.card details.st3 .js .side > p"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_1",
+    "pass": "targeted_type_2",
     "reviewed": 86,
     "approved_applied": 1,
     "status": "approved_applied"

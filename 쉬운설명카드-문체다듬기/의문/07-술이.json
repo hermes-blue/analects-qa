@@ -2489,16 +2489,30 @@
     },
     {
       "book": 7,
-      "changed": false,
+      "changed": true,
       "field": "답변",
       "id": "ly-07-31",
       "index": 2,
       "key": "ly-07-31:問:2:a",
       "label": "답변",
       "original": "그렇습니다. 상대가 다시 부르게 한 뒤 그 노래에 맞춰 함께 불렀다는 뜻입니다. 먼저 충분히 듣고 이해한 다음 참여했다는 순서가 중요합니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "그렇습니다. 상대가 다시 부르게 한 뒤 그 노래에 맞춰 함께 불렀다는 뜻입니다. 먼저 충분히 듣고 이해한 다음 참여했다는 순서가 중요합니다.",
-      "scope": "問"
+      "reason": "노래를 부르게 한 대상의 조사를 바로잡습니다.",
+      "revised": "그렇습니다. 상대에게 다시 부르게 한 뒤 그 노래에 맞춰 함께 불렀다는 뜻입니다. 먼저 충분히 듣고 이해한 다음 참여했다는 순서가 중요합니다.",
+      "scope": "問",
+      "revision_history": [
+        {
+          "pass": "targeted_type_2",
+          "previous_revision": "그렇습니다. 상대가 다시 부르게 한 뒤 그 노래에 맞춰 함께 불렀다는 뜻입니다. 먼저 충분히 듣고 이해한 다음 참여했다는 순서가 중요합니다.",
+          "revised": "그렇습니다. 상대에게 다시 부르게 한 뒤 그 노래에 맞춰 함께 불렀다는 뜻입니다. 먼저 충분히 듣고 이해한 다음 참여했다는 순서가 중요합니다.",
+          "reason": "노래를 부르게 한 대상의 조사를 바로잡습니다.",
+          "approval_status": "approved",
+          "approval_message": "수정후 다음 시작",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "그렇습니다. 상대가 다시 부르게 한 뒤 그 노래에 맞춰 함께 불렀다는 뜻입니다. 먼저 충분히 듣고 이해한 다음 참여했다는 순서가 중요합니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_2"
     },
     {
       "book": 7,
@@ -2737,16 +2751,30 @@
     },
     {
       "book": 7,
-      "changed": false,
+      "changed": true,
       "field": "답변",
       "id": "ly-07-34",
       "index": 2,
       "key": "ly-07-34:問:2:a",
       "label": "답변",
       "original": "평소 자신의 삶이 이미 하늘과 신에게 부끄럽지 않도록 살아온 일종의 기도였다는 뜻으로 풀이합니다. 위기 때만 갑자기 비는 태도와 대비됩니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "평소 자신의 삶이 이미 하늘과 신에게 부끄럽지 않도록 살아온 일종의 기도였다는 뜻으로 풀이합니다. 위기 때만 갑자기 비는 태도와 대비됩니다.",
-      "scope": "問"
+      "reason": "삶을 꾸미는 구절의 위치를 옮겨 주어와 서술어를 연결합니다.",
+      "revised": "평소 하늘과 신에게 부끄럽지 않도록 살아온 자신의 삶이 이미 일종의 기도였다는 뜻으로 풀이합니다. 위기 때만 갑자기 비는 태도와 대비됩니다.",
+      "scope": "問",
+      "revision_history": [
+        {
+          "pass": "targeted_type_2",
+          "previous_revision": "평소 자신의 삶이 이미 하늘과 신에게 부끄럽지 않도록 살아온 일종의 기도였다는 뜻으로 풀이합니다. 위기 때만 갑자기 비는 태도와 대비됩니다.",
+          "revised": "평소 하늘과 신에게 부끄럽지 않도록 살아온 자신의 삶이 이미 일종의 기도였다는 뜻으로 풀이합니다. 위기 때만 갑자기 비는 태도와 대비됩니다.",
+          "reason": "삶을 꾸미는 구절의 위치를 옮겨 주어와 서술어를 연결합니다.",
+          "approval_status": "approved",
+          "approval_message": "수정후 다음 시작",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "평소 자신의 삶이 이미 하늘과 신에게 부끄럽지 않도록 살아온 일종의 기도였다는 뜻으로 풀이합니다. 위기 때만 갑자기 비는 태도와 대비됩니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_2"
     },
     {
       "book": 7,
@@ -3029,9 +3057,9 @@
     "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_1",
+    "pass": "targeted_type_2",
     "reviewed": 228,
-    "approved_applied": 3,
+    "approved_applied": 2,
     "status": "approved_applied"
   }
 }

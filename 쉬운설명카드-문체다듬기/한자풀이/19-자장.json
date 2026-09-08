@@ -136,15 +136,29 @@
     },
     {
       "book": 19,
-      "changed": false,
+      "changed": true,
       "id": "ly-19-03",
       "index": 3,
       "key": "ly-19-03:語:3",
       "label": "不可者拒之불가자거지",
       "original": "사귈 만하지 않은 사람은 거리를 둔다는 뜻입니다. 관계가 자기 수양에 미치는 영향을 중시하는 태도입니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "사귈 만하지 않은 사람은 거리를 둔다는 뜻입니다. 관계가 자기 수양에 미치는 영향을 중시하는 태도입니다.",
-      "scope": "語"
+      "reason": "거리를 두는 상대를 나타내는 조사로 바로잡습니다.",
+      "revised": "사귈 만하지 않은 사람과는 거리를 둔다는 뜻입니다. 관계가 자기 수양에 미치는 영향을 중시하는 태도입니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_2",
+          "previous_revision": "사귈 만하지 않은 사람은 거리를 둔다는 뜻입니다. 관계가 자기 수양에 미치는 영향을 중시하는 태도입니다.",
+          "revised": "사귈 만하지 않은 사람과는 거리를 둔다는 뜻입니다. 관계가 자기 수양에 미치는 영향을 중시하는 태도입니다.",
+          "reason": "거리를 두는 상대를 나타내는 조사로 바로잡습니다.",
+          "approval_status": "approved",
+          "approval_message": "수정후 다음 시작",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "사귈 만하지 않은 사람은 거리를 둔다는 뜻입니다. 관계가 자기 수양에 미치는 영향을 중시하는 태도입니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_2"
     },
     {
       "book": 19,
@@ -510,15 +524,29 @@
     },
     {
       "book": 19,
-      "changed": false,
+      "changed": true,
       "id": "ly-19-10",
       "index": 1,
       "key": "ly-19-10:語:1",
       "label": "信而後勞其民신이후로기민",
       "original": "백성의 신뢰를 얻은 뒤에 일을 시키라는 뜻입니다. 신뢰 없는 동원은 필요한 공적 일도 자신을 괴롭히는 것으로 받아들여질 수 있습니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "백성의 신뢰를 얻은 뒤에 일을 시키라는 뜻입니다. 신뢰 없는 동원은 필요한 공적 일도 자신을 괴롭히는 것으로 받아들여질 수 있습니다.",
-      "scope": "語"
+      "reason": "일을 시키는 조건과 이를 받아들이는 주체를 분명하게 연결합니다.",
+      "revised": "백성의 신뢰를 얻은 뒤에 일을 시키라는 뜻입니다. 신뢰 없이 일을 시키면 필요한 공적 일도 백성이 자신을 괴롭히는 것으로 받아들일 수 있습니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_2",
+          "previous_revision": "백성의 신뢰를 얻은 뒤에 일을 시키라는 뜻입니다. 신뢰 없는 동원은 필요한 공적 일도 자신을 괴롭히는 것으로 받아들여질 수 있습니다.",
+          "revised": "백성의 신뢰를 얻은 뒤에 일을 시키라는 뜻입니다. 신뢰 없이 일을 시키면 필요한 공적 일도 백성이 자신을 괴롭히는 것으로 받아들일 수 있습니다.",
+          "reason": "일을 시키는 조건과 이를 받아들이는 주체를 분명하게 연결합니다.",
+          "approval_status": "approved",
+          "approval_message": "수정후 다음 시작",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "백성의 신뢰를 얻은 뒤에 일을 시키라는 뜻입니다. 신뢰 없는 동원은 필요한 공적 일도 자신을 괴롭히는 것으로 받아들여질 수 있습니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_2"
     },
     {
       "book": 19,
@@ -918,15 +946,29 @@
     },
     {
       "book": 19,
-      "changed": false,
+      "changed": true,
       "id": "ly-19-18",
       "index": 1,
       "key": "ly-19-18:語:1",
       "label": "孟莊子之孝맹장자지효",
       "original": "맹장자의 효를 평가하는 표현입니다. 일반적인 효행보다 아버지가 쓰던 사람과 정치를 함부로 바꾸지 않은 점을 특히 높이 봅니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "맹장자의 효를 평가하는 표현입니다. 일반적인 효행보다 아버지가 쓰던 사람과 정치를 함부로 바꾸지 않은 점을 특히 높이 봅니다.",
-      "scope": "語"
+      "reason": "사람에는 쓰다, 정치에는 하다가 각각 호응하게 합니다.",
+      "revised": "맹장자의 효를 평가하는 표현입니다. 일반적인 효행보다 아버지가 쓰던 사람과 하던 정치를 함부로 바꾸지 않은 점을 특히 높이 봅니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_2",
+          "previous_revision": "맹장자의 효를 평가하는 표현입니다. 일반적인 효행보다 아버지가 쓰던 사람과 정치를 함부로 바꾸지 않은 점을 특히 높이 봅니다.",
+          "revised": "맹장자의 효를 평가하는 표현입니다. 일반적인 효행보다 아버지가 쓰던 사람과 하던 정치를 함부로 바꾸지 않은 점을 특히 높이 봅니다.",
+          "reason": "사람에는 쓰다, 정치에는 하다가 각각 호응하게 합니다.",
+          "approval_status": "approved",
+          "approval_message": "수정후 다음 시작",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "맹장자의 효를 평가하는 표현입니다. 일반적인 효행보다 아버지가 쓰던 사람과 정치를 함부로 바꾸지 않은 점을 특히 높이 봅니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_2"
     },
     {
       "book": 19,
@@ -1419,9 +1461,9 @@
     "selector": "article.card details.st1 .w > p:not(.wh)"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_1",
+    "pass": "targeted_type_2",
     "reviewed": 114,
-    "approved_applied": 2,
+    "approved_applied": 3,
     "status": "approved_applied"
   }
 }

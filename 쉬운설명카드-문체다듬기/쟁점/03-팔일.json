@@ -312,17 +312,31 @@
     },
     {
       "book": 3,
-      "changed": false,
+      "changed": true,
       "heading": "‘모른다’고 한 사람이 왜 곧 ‘알면 천하가 손바닥처럼 보인다’고 했을까?문장 안 긴장형",
       "id": "ly-03-11",
       "index": 1,
       "key": "ly-03-11:說:1:1",
       "label": "이렇게 보면",
       "original": "공자님은 큰 제사의 뜻을 묻자 ‘모른다’고 답합니다. 문자 그대로라면 지식 부족처럼 보입니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "공자님은 큰 제사의 뜻을 묻자 ‘모른다’고 답합니다. 문자 그대로라면 지식 부족처럼 보입니다.",
+      "reason": "묻는 사람과 답하는 사람이 같은 주체로 읽히지 않게 합니다.",
+      "revised": "누군가 큰 제사의 뜻을 묻자 공자님은 ‘모른다’고 답합니다. 문자 그대로라면 지식 부족처럼 보입니다.",
       "scope": "說",
-      "side": 1
+      "side": 1,
+      "revision_history": [
+        {
+          "pass": "targeted_type_2",
+          "previous_revision": "공자님은 큰 제사의 뜻을 묻자 ‘모른다’고 답합니다. 문자 그대로라면 지식 부족처럼 보입니다.",
+          "revised": "누군가 큰 제사의 뜻을 묻자 공자님은 ‘모른다’고 답합니다. 문자 그대로라면 지식 부족처럼 보입니다.",
+          "reason": "묻는 사람과 답하는 사람이 같은 주체로 읽히지 않게 합니다.",
+          "approval_status": "approved",
+          "approval_message": "수정후 다음 시작",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "공자님은 큰 제사의 뜻을 묻자 ‘모른다’고 답합니다. 문자 그대로라면 지식 부족처럼 보입니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_2"
     },
     {
       "book": 3,
@@ -732,17 +746,31 @@
     },
     {
       "book": 3,
-      "changed": false,
+      "changed": true,
       "heading": "아름다운 예술과 좋은 예술은 같은 말일까?문장 안 긴장형",
       "id": "ly-03-25",
       "index": 1,
       "key": "ly-03-25:說:1:1",
       "label": "이렇게 보면",
       "original": "무왕의 음악도 공자님에게 ‘아름다움’은 완전하다고 평가받습니다. 작품의 형식과 음악적 완성도는 최고라는 뜻입니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "무왕의 음악도 공자님에게 ‘아름다움’은 완전하다고 평가받습니다. 작품의 형식과 음악적 완성도는 최고라는 뜻입니다.",
+      "reason": "평가 주체를 앞에 두어 피동문에 겹친 주제어를 정리합니다.",
+      "revised": "공자님은 무왕의 음악도 ‘아름다움’은 완전하다고 평가합니다. 작품의 형식과 음악적 완성도는 최고라는 뜻입니다.",
       "scope": "說",
-      "side": 1
+      "side": 1,
+      "revision_history": [
+        {
+          "pass": "targeted_type_2",
+          "previous_revision": "무왕의 음악도 공자님에게 ‘아름다움’은 완전하다고 평가받습니다. 작품의 형식과 음악적 완성도는 최고라는 뜻입니다.",
+          "revised": "공자님은 무왕의 음악도 ‘아름다움’은 완전하다고 평가합니다. 작품의 형식과 음악적 완성도는 최고라는 뜻입니다.",
+          "reason": "평가 주체를 앞에 두어 피동문에 겹친 주제어를 정리합니다.",
+          "approval_status": "approved",
+          "approval_message": "수정후 다음 시작",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "무왕의 음악도 공자님에게 ‘아름다움’은 완전하다고 평가받습니다. 작품의 형식과 음악적 완성도는 최고라는 뜻입니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_2"
     },
     {
       "book": 3,
@@ -807,7 +835,7 @@
     "selector": "article.card details.st3 .js .side > p"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_1",
+    "pass": "targeted_type_2",
     "reviewed": 54,
     "approved_applied": 2,
     "status": "approved_applied"

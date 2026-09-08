@@ -433,16 +433,30 @@
     },
     {
       "book": 19,
-      "changed": false,
+      "changed": true,
       "field": "답변",
       "id": "ly-19-06",
       "index": 2,
       "key": "ly-19-06:問:2:a",
       "label": "답변",
       "original": "자기 삶과 실제 문제에 절실하게 묻고 가까운 데서부터 생각해야 배움이 공허해지지 않기 때문입니다. 먼 이론보다 당장 자신에게 닿는 문제에서 출발하라는 뜻입니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "자기 삶과 실제 문제에 절실하게 묻고 가까운 데서부터 생각해야 배움이 공허해지지 않기 때문입니다. 먼 이론보다 당장 자신에게 닿는 문제에서 출발하라는 뜻입니다.",
-      "scope": "問"
+      "reason": "질문의 대상이 되는 삶과 문제에 맞게 조사를 다듬습니다.",
+      "revised": "자기 삶과 실제 문제를 놓고 절실하게 묻고 가까운 데서부터 생각해야 배움이 공허해지지 않기 때문입니다. 먼 이론보다 당장 자신에게 닿는 문제에서 출발하라는 뜻입니다.",
+      "scope": "問",
+      "revision_history": [
+        {
+          "pass": "targeted_type_2",
+          "previous_revision": "자기 삶과 실제 문제에 절실하게 묻고 가까운 데서부터 생각해야 배움이 공허해지지 않기 때문입니다. 먼 이론보다 당장 자신에게 닿는 문제에서 출발하라는 뜻입니다.",
+          "revised": "자기 삶과 실제 문제를 놓고 절실하게 묻고 가까운 데서부터 생각해야 배움이 공허해지지 않기 때문입니다. 먼 이론보다 당장 자신에게 닿는 문제에서 출발하라는 뜻입니다.",
+          "reason": "질문의 대상이 되는 삶과 문제에 맞게 조사를 다듬습니다.",
+          "approval_status": "approved",
+          "approval_message": "수정후 다음 시작",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "자기 삶과 실제 문제에 절실하게 묻고 가까운 데서부터 생각해야 배움이 공허해지지 않기 때문입니다. 먼 이론보다 당장 자신에게 닿는 문제에서 출발하라는 뜻입니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_2"
     },
     {
       "book": 19,
@@ -1987,7 +2001,7 @@
     "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_1",
+    "pass": "targeted_type_2",
     "reviewed": 150,
     "approved_applied": 1,
     "status": "approved_applied"

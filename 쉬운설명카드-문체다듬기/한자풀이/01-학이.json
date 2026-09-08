@@ -474,15 +474,29 @@
     },
     {
       "book": 1,
-      "changed": false,
+      "changed": true,
       "id": "ly-01-09",
       "index": 1,
       "key": "ly-01-09:語:1",
       "label": "慎終신종",
       "original": "사람의 죽음과 장례를 삼가고 정성스럽게 치른다는 뜻입니다. 가족의 마지막을 대하는 태도가 살아 있는 사람들의 마음과 공동체의 풍속에도 영향을 준다고 봅니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "사람의 죽음과 장례를 삼가고 정성스럽게 치른다는 뜻입니다. 가족의 마지막을 대하는 태도가 살아 있는 사람들의 마음과 공동체의 풍속에도 영향을 준다고 봅니다.",
-      "scope": "語"
+      "reason": "죽음과 장례를 함께 치르는 것처럼 읽히지 않도록 상황과 행동을 나눕니다.",
+      "revised": "사람이 죽었을 때 삼가는 마음으로 장례를 정성스럽게 치른다는 뜻입니다. 가족의 마지막을 대하는 태도가 살아 있는 사람들의 마음과 공동체의 풍속에도 영향을 준다고 봅니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_2",
+          "previous_revision": "사람의 죽음과 장례를 삼가고 정성스럽게 치른다는 뜻입니다. 가족의 마지막을 대하는 태도가 살아 있는 사람들의 마음과 공동체의 풍속에도 영향을 준다고 봅니다.",
+          "revised": "사람이 죽었을 때 삼가는 마음으로 장례를 정성스럽게 치른다는 뜻입니다. 가족의 마지막을 대하는 태도가 살아 있는 사람들의 마음과 공동체의 풍속에도 영향을 준다고 봅니다.",
+          "reason": "죽음과 장례를 함께 치르는 것처럼 읽히지 않도록 상황과 행동을 나눕니다.",
+          "approval_status": "approved",
+          "approval_message": "수정후 다음 시작",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "사람의 죽음과 장례를 삼가고 정성스럽게 치른다는 뜻입니다. 가족의 마지막을 대하는 태도가 살아 있는 사람들의 마음과 공동체의 풍속에도 영향을 준다고 봅니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_2"
     },
     {
       "book": 1,
@@ -925,7 +939,7 @@
     "selector": "article.card details.st1 .w > p:not(.wh)"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_1",
+    "pass": "targeted_type_2",
     "reviewed": 74,
     "approved_applied": 1,
     "status": "approved_applied"

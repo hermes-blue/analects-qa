@@ -577,16 +577,30 @@
     },
     {
       "book": 2,
-      "changed": false,
+      "changed": true,
       "field": "답변",
       "id": "ly-02-08",
       "index": 1,
       "key": "ly-02-08:問:1:a",
       "label": "답변",
       "original": "대체로 부모를 섬길 때 늘 부드럽고 공경스러운 얼굴빛을 유지하기가 어렵다는 뜻으로 풀이합니다. 일을 대신하고 음식을 드리는 것보다 마음이 드러나는 태도가 더 어렵다는 말입니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "대체로 부모를 섬길 때 늘 부드럽고 공경스러운 얼굴빛을 유지하기가 어렵다는 뜻으로 풀이합니다. 일을 대신하고 음식을 드리는 것보다 마음이 드러나는 태도가 더 어렵다는 말입니다.",
-      "scope": "問"
+      "reason": "어려운 것이 ‘태도’인지 ‘유지하는 일’인지 분명히 합니다.",
+      "revised": "대체로 부모를 섬길 때 늘 부드럽고 공경스러운 얼굴빛을 유지하기가 어렵다는 뜻으로 풀이합니다. 일을 대신하고 음식을 드리는 것보다 마음이 드러나는 태도를 바르게 유지하기가 더 어렵다는 말입니다.",
+      "scope": "問",
+      "revision_history": [
+        {
+          "pass": "targeted_type_2",
+          "previous_revision": "대체로 부모를 섬길 때 늘 부드럽고 공경스러운 얼굴빛을 유지하기가 어렵다는 뜻으로 풀이합니다. 일을 대신하고 음식을 드리는 것보다 마음이 드러나는 태도가 더 어렵다는 말입니다.",
+          "revised": "대체로 부모를 섬길 때 늘 부드럽고 공경스러운 얼굴빛을 유지하기가 어렵다는 뜻으로 풀이합니다. 일을 대신하고 음식을 드리는 것보다 마음이 드러나는 태도를 바르게 유지하기가 더 어렵다는 말입니다.",
+          "reason": "어려운 것이 ‘태도’인지 ‘유지하는 일’인지 분명히 합니다.",
+          "approval_status": "approved",
+          "approval_message": "수정후 다음 시작",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "대체로 부모를 섬길 때 늘 부드럽고 공경스러운 얼굴빛을 유지하기가 어렵다는 뜻으로 풀이합니다. 일을 대신하고 음식을 드리는 것보다 마음이 드러나는 태도가 더 어렵다는 말입니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_2"
     },
     {
       "book": 2,
@@ -1937,9 +1951,9 @@
     "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_1",
+    "pass": "targeted_type_2",
     "reviewed": 144,
-    "approved_applied": 3,
+    "approved_applied": 1,
     "status": "approved_applied"
   }
 }

@@ -578,17 +578,31 @@
     },
     {
       "book": 6,
-      "changed": false,
+      "changed": true,
       "heading": "‘수고한 뒤 성과를 얻는다’ vs ‘힘든 일은 먼저 맡고 이익은 양보한다’先難而後獲",
       "id": "ly-06-20",
       "index": 1,
       "key": "ly-06-20:說:1:1",
       "label": "공안국(孔安國) — 《논어집해》 인용",
       "original": "먼저 힘들게 일한 뒤 그 공을 얻는 것이 인이라고 풉니다. 한 사람이 노력과 보상을 차례로 얻는다는 뜻입니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "먼저 힘들게 일한 뒤 그 공을 얻는 것이 인이라고 풉니다. 한 사람이 노력과 보상을 차례로 얻는다는 뜻입니다.",
+      "reason": "‘노력을 얻다’의 잘못된 목적어 연결을 고칩니다.",
+      "revised": "먼저 힘들게 일한 뒤 그 공을 얻는 것이 인이라고 풉니다. 한 사람이 먼저 노력한 뒤 그 보상을 얻는다는 뜻입니다.",
       "scope": "說",
-      "side": 1
+      "side": 1,
+      "revision_history": [
+        {
+          "pass": "targeted_type_2",
+          "previous_revision": "먼저 힘들게 일한 뒤 그 공을 얻는 것이 인이라고 풉니다. 한 사람이 노력과 보상을 차례로 얻는다는 뜻입니다.",
+          "revised": "먼저 힘들게 일한 뒤 그 공을 얻는 것이 인이라고 풉니다. 한 사람이 먼저 노력한 뒤 그 보상을 얻는다는 뜻입니다.",
+          "reason": "‘노력을 얻다’의 잘못된 목적어 연결을 고칩니다.",
+          "approval_status": "approved",
+          "approval_message": "수정후 다음 시작",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "먼저 힘들게 일한 뒤 그 공을 얻는 것이 인이라고 풉니다. 한 사람이 노력과 보상을 차례로 얻는다는 뜻입니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_2"
     },
     {
       "book": 6,
@@ -849,7 +863,7 @@
     "selector": "article.card details.st3 .js .side > p"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_1",
+    "pass": "targeted_type_2",
     "reviewed": 58,
     "approved_applied": 1,
     "status": "approved_applied"

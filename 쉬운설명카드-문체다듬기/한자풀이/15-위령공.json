@@ -160,15 +160,29 @@
     },
     {
       "book": 15,
-      "changed": false,
+      "changed": true,
       "id": "ly-15-04",
       "index": 2,
       "key": "ly-15-04:語:2",
       "label": "其舜也與기순야여",
       "original": "그런 정치를 한 사람이 순임금일 것이라는 뜻입니다. 순은 앞선 요의 제도를 이어받고 유능한 신하를 맡겨 자신의 조작 흔적을 줄인 통치자로 그려집니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "그런 정치를 한 사람이 순임금일 것이라는 뜻입니다. 순은 앞선 요의 제도를 이어받고 유능한 신하를 맡겨 자신의 조작 흔적을 줄인 통치자로 그려집니다.",
-      "scope": "語"
+      "reason": "일을 맡는 사람과 맡기는 일을 분명히 합니다.",
+      "revised": "그런 정치를 한 사람이 순임금일 것이라는 뜻입니다. 순은 앞선 요의 제도를 이어받고 유능한 신하에게 일을 맡겨 자신의 조작 흔적을 줄인 통치자로 그려집니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_2",
+          "previous_revision": "그런 정치를 한 사람이 순임금일 것이라는 뜻입니다. 순은 앞선 요의 제도를 이어받고 유능한 신하를 맡겨 자신의 조작 흔적을 줄인 통치자로 그려집니다.",
+          "revised": "그런 정치를 한 사람이 순임금일 것이라는 뜻입니다. 순은 앞선 요의 제도를 이어받고 유능한 신하에게 일을 맡겨 자신의 조작 흔적을 줄인 통치자로 그려집니다.",
+          "reason": "일을 맡는 사람과 맡기는 일을 분명히 합니다.",
+          "approval_status": "approved",
+          "approval_message": "수정후 다음 시작",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "그런 정치를 한 사람이 순임금일 것이라는 뜻입니다. 순은 앞선 요의 제도를 이어받고 유능한 신하를 맡겨 자신의 조작 흔적을 줄인 통치자로 그려집니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_2"
     },
     {
       "book": 15,
@@ -1602,15 +1616,29 @@
     },
     {
       "book": 15,
-      "changed": false,
+      "changed": true,
       "id": "ly-15-33",
       "index": 2,
       "key": "ly-15-33:語:2",
       "label": "可大受가대수",
       "original": "큰 책임과 중요한 일을 맡길 수 있다는 뜻입니다. 군자의 가치는 작은 기술보다 큰 원칙과 책임을 감당하는 능력에서 본다는 말입니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "큰 책임과 중요한 일을 맡길 수 있다는 뜻입니다. 군자의 가치는 작은 기술보다 큰 원칙과 책임을 감당하는 능력에서 본다는 말입니다.",
-      "scope": "語"
+      "reason": "보다의 목적어에 맞게 조사를 고칩니다.",
+      "revised": "큰 책임과 중요한 일을 맡길 수 있다는 뜻입니다. 군자의 가치를 작은 기술보다 큰 원칙과 책임을 감당하는 능력에서 본다는 말입니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_2",
+          "previous_revision": "큰 책임과 중요한 일을 맡길 수 있다는 뜻입니다. 군자의 가치는 작은 기술보다 큰 원칙과 책임을 감당하는 능력에서 본다는 말입니다.",
+          "revised": "큰 책임과 중요한 일을 맡길 수 있다는 뜻입니다. 군자의 가치를 작은 기술보다 큰 원칙과 책임을 감당하는 능력에서 본다는 말입니다.",
+          "reason": "보다의 목적어에 맞게 조사를 고칩니다.",
+          "approval_status": "approved",
+          "approval_message": "수정후 다음 시작",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "큰 책임과 중요한 일을 맡길 수 있다는 뜻입니다. 군자의 가치는 작은 기술보다 큰 원칙과 책임을 감당하는 능력에서 본다는 말입니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_2"
     },
     {
       "book": 15,
@@ -1842,15 +1870,29 @@
     },
     {
       "book": 15,
-      "changed": false,
+      "changed": true,
       "id": "ly-15-38",
       "index": 2,
       "key": "ly-15-38:語:2",
       "label": "教교",
       "original": "단순한 지식 전달보다 사람을 배우고 변화하게 만드는 교육을 뜻합니다. 누구에게나 성장 가능성을 열어 두는 맥락입니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "단순한 지식 전달보다 사람을 배우고 변화하게 만드는 교육을 뜻합니다. 누구에게나 성장 가능성을 열어 두는 맥락입니다.",
-      "scope": "語"
+      "reason": "배우고 변화하는 주체를 분명히 합니다.",
+      "revised": "단순한 지식 전달보다 사람이 배우고 변화하게 만드는 교육을 뜻합니다. 누구에게나 성장 가능성을 열어 두는 맥락입니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_2",
+          "previous_revision": "단순한 지식 전달보다 사람을 배우고 변화하게 만드는 교육을 뜻합니다. 누구에게나 성장 가능성을 열어 두는 맥락입니다.",
+          "revised": "단순한 지식 전달보다 사람이 배우고 변화하게 만드는 교육을 뜻합니다. 누구에게나 성장 가능성을 열어 두는 맥락입니다.",
+          "reason": "배우고 변화하는 주체를 분명히 합니다.",
+          "approval_status": "approved",
+          "approval_message": "수정후 다음 시작",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "단순한 지식 전달보다 사람을 배우고 변화하게 만드는 교육을 뜻합니다. 누구에게나 성장 가능성을 열어 두는 맥락입니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_2"
     },
     {
       "book": 15,
@@ -2017,9 +2059,9 @@
     "selector": "article.card details.st1 .w > p:not(.wh)"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_1",
+    "pass": "targeted_type_2",
     "reviewed": 165,
-    "approved_applied": 1,
+    "approved_applied": 3,
     "status": "approved_applied"
   }
 }

@@ -511,16 +511,30 @@
     },
     {
       "book": 9,
-      "changed": false,
+      "changed": true,
       "field": "답변",
       "id": "ly-09-06",
       "index": 5,
       "key": "ly-09-06:問:5:a",
       "label": "답변",
       "original": "앞 장의 설명을 보충합니다. 공자님이 다양한 기술에 능했던 까닭을 타고난 성인의 표지라기보다, 등용되지 못했던 젊은 시절의 생활 경험과 연결해 설명합니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "앞 장의 설명을 보충합니다. 공자님이 다양한 기술에 능했던 까닭을 타고난 성인의 표지라기보다, 등용되지 못했던 젊은 시절의 생활 경험과 연결해 설명합니다.",
-      "scope": "問"
+      "reason": "까닭을 표지로 보는 어긋난 연결을 바로잡습니다.",
+      "revised": "앞 장의 설명을 보충합니다. 공자님이 다양한 기술에 능했던 것을 타고난 성인의 표지로 보기보다, 등용되지 못했던 젊은 시절의 생활 경험과 연결해 설명합니다.",
+      "scope": "問",
+      "revision_history": [
+        {
+          "pass": "targeted_type_2",
+          "previous_revision": "앞 장의 설명을 보충합니다. 공자님이 다양한 기술에 능했던 까닭을 타고난 성인의 표지라기보다, 등용되지 못했던 젊은 시절의 생활 경험과 연결해 설명합니다.",
+          "revised": "앞 장의 설명을 보충합니다. 공자님이 다양한 기술에 능했던 것을 타고난 성인의 표지로 보기보다, 등용되지 못했던 젊은 시절의 생활 경험과 연결해 설명합니다.",
+          "reason": "까닭을 표지로 보는 어긋난 연결을 바로잡습니다.",
+          "approval_status": "approved",
+          "approval_message": "수정후 다음 시작",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "앞 장의 설명을 보충합니다. 공자님이 다양한 기술에 능했던 까닭을 타고난 성인의 표지라기보다, 등용되지 못했던 젊은 시절의 생활 경험과 연결해 설명합니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_2"
     },
     {
       "book": 9,
@@ -927,16 +941,30 @@
     },
     {
       "book": 9,
-      "changed": false,
+      "changed": true,
       "field": "답변",
       "id": "ly-09-11",
       "index": 3,
       "key": "ly-09-11:問:3:a",
       "label": "답변",
       "original": "격식 높은 장례보다 제자들과의 진실한 관계를 더 중요하게 본 것입니다. 신분에 맞지 않는 허례보다 실제로 자신을 사랑하고 배운 제자들의 곁에서 죽는 편이 낫다고 말한 것입니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "격식 높은 장례보다 제자들과의 진실한 관계를 더 중요하게 본 것입니다. 신분에 맞지 않는 허례보다 실제로 자신을 사랑하고 배운 제자들의 곁에서 죽는 편이 낫다고 말한 것입니다.",
-      "scope": "問"
+      "reason": "사랑하다와 배우다에 각각 맞는 조사를 씁니다.",
+      "revised": "격식 높은 장례보다 제자들과의 진실한 관계를 더 중요하게 본 것입니다. 신분에 맞지 않는 허례보다 실제로 자신을 사랑하고 자신에게 배운 제자들의 곁에서 죽는 편이 낫다고 말한 것입니다.",
+      "scope": "問",
+      "revision_history": [
+        {
+          "pass": "targeted_type_2",
+          "previous_revision": "격식 높은 장례보다 제자들과의 진실한 관계를 더 중요하게 본 것입니다. 신분에 맞지 않는 허례보다 실제로 자신을 사랑하고 배운 제자들의 곁에서 죽는 편이 낫다고 말한 것입니다.",
+          "revised": "격식 높은 장례보다 제자들과의 진실한 관계를 더 중요하게 본 것입니다. 신분에 맞지 않는 허례보다 실제로 자신을 사랑하고 자신에게 배운 제자들의 곁에서 죽는 편이 낫다고 말한 것입니다.",
+          "reason": "사랑하다와 배우다에 각각 맞는 조사를 씁니다.",
+          "approval_status": "approved",
+          "approval_message": "수정후 다음 시작",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "격식 높은 장례보다 제자들과의 진실한 관계를 더 중요하게 본 것입니다. 신분에 맞지 않는 허례보다 실제로 자신을 사랑하고 배운 제자들의 곁에서 죽는 편이 낫다고 말한 것입니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_2"
     },
     {
       "book": 9,
@@ -2497,9 +2525,9 @@
     "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_1",
+    "pass": "targeted_type_2",
     "reviewed": 186,
-    "approved_applied": 4,
+    "approved_applied": 2,
     "status": "approved_applied"
   }
 }

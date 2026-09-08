@@ -922,15 +922,29 @@
     },
     {
       "book": 4,
-      "changed": false,
+      "changed": true,
       "id": "ly-04-17",
       "index": 3,
       "key": "ly-04-17:語:3",
       "label": "見不賢견불현",
       "original": "어진 못한 사람을 보는 상황입니다. 공자님은 그 사람을 비난하는 데 머물지 않고, 같은 문제가 내 안에도 있는지 확인하는 계기로 삼으라고 합니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "어진 못한 사람을 보는 상황입니다. 공자님은 그 사람을 비난하는 데 머물지 않고, 같은 문제가 내 안에도 있는지 확인하는 계기로 삼으라고 합니다.",
-      "scope": "語"
+      "reason": "‘어질다’의 부정형 활용을 바로잡습니다.",
+      "revised": "어질지 못한 사람을 보는 상황입니다. 공자님은 그 사람을 비난하는 데 머물지 않고, 같은 문제가 내 안에도 있는지 확인하는 계기로 삼으라고 합니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_2",
+          "previous_revision": "어진 못한 사람을 보는 상황입니다. 공자님은 그 사람을 비난하는 데 머물지 않고, 같은 문제가 내 안에도 있는지 확인하는 계기로 삼으라고 합니다.",
+          "revised": "어질지 못한 사람을 보는 상황입니다. 공자님은 그 사람을 비난하는 데 머물지 않고, 같은 문제가 내 안에도 있는지 확인하는 계기로 삼으라고 합니다.",
+          "reason": "‘어질다’의 부정형 활용을 바로잡습니다.",
+          "approval_status": "approved",
+          "approval_message": "수정후 다음 시작",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "어진 못한 사람을 보는 상황입니다. 공자님은 그 사람을 비난하는 데 머물지 않고, 같은 문제가 내 안에도 있는지 확인하는 계기로 삼으라고 합니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_2"
     },
     {
       "book": 4,
@@ -1174,15 +1188,29 @@
     },
     {
       "book": 4,
-      "changed": false,
+      "changed": true,
       "id": "ly-04-22",
       "index": 1,
       "key": "ly-04-22:語:1",
       "label": "古者고자",
       "original": "옛사람을 단순히 과거 사람이어서 높이는 말이 아니라, 공자님이 본받을 만한 태도의 사례로 제시합니다. 특히 말보다 행동을 앞세우는 신중함을 말합니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "옛사람을 단순히 과거 사람이어서 높이는 말이 아니라, 공자님이 본받을 만한 태도의 사례로 제시합니다. 특히 말보다 행동을 앞세우는 신중함을 말합니다.",
-      "scope": "語"
+      "reason": "서술어가 다른 두 절의 주체와 연결을 바로잡습니다.",
+      "revised": "공자님은 옛사람을 단순히 과거 사람이어서 높이는 것이 아니라, 본받을 만한 태도의 사례로 제시합니다. 특히 말보다 행동을 앞세우는 신중함을 말합니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_2",
+          "previous_revision": "옛사람을 단순히 과거 사람이어서 높이는 말이 아니라, 공자님이 본받을 만한 태도의 사례로 제시합니다. 특히 말보다 행동을 앞세우는 신중함을 말합니다.",
+          "revised": "공자님은 옛사람을 단순히 과거 사람이어서 높이는 것이 아니라, 본받을 만한 태도의 사례로 제시합니다. 특히 말보다 행동을 앞세우는 신중함을 말합니다.",
+          "reason": "서술어가 다른 두 절의 주체와 연결을 바로잡습니다.",
+          "approval_status": "approved",
+          "approval_message": "수정후 다음 시작",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "옛사람을 단순히 과거 사람이어서 높이는 말이 아니라, 공자님이 본받을 만한 태도의 사례로 제시합니다. 특히 말보다 행동을 앞세우는 신중함을 말합니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_2"
     },
     {
       "book": 4,
@@ -1459,9 +1487,9 @@
     "selector": "article.card details.st1 .w > p:not(.wh)"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_1",
+    "pass": "targeted_type_2",
     "reviewed": 115,
-    "approved_applied": 4,
+    "approved_applied": 2,
     "status": "approved_applied"
   }
 }

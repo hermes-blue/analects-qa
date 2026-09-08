@@ -424,15 +424,29 @@
     },
     {
       "book": 18,
-      "changed": false,
+      "changed": true,
       "id": "ly-18-08",
       "index": 2,
       "key": "ly-18-08:語:2",
       "label": "伯夷叔齊백이숙제",
       "original": "왕위와 부정한 권력을 거부한 대표적 은자입니다. 뜻을 낮추지 않고 몸도 욕되게 하지 않은 가장 높은 절개로 평가됩니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "왕위와 부정한 권력을 거부한 대표적 은자입니다. 뜻을 낮추지 않고 몸도 욕되게 하지 않은 가장 높은 절개로 평가됩니다.",
-      "scope": "語"
+      "reason": "인물을 절개 자체로 평가하는 주어·서술어의 어긋남을 바로잡습니다.",
+      "revised": "왕위와 부정한 권력을 거부한 대표적 은자입니다. 뜻을 낮추지 않고 몸도 욕되게 하지 않아 가장 높은 절개를 지닌 인물로 평가됩니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_2",
+          "previous_revision": "왕위와 부정한 권력을 거부한 대표적 은자입니다. 뜻을 낮추지 않고 몸도 욕되게 하지 않은 가장 높은 절개로 평가됩니다.",
+          "revised": "왕위와 부정한 권력을 거부한 대표적 은자입니다. 뜻을 낮추지 않고 몸도 욕되게 하지 않아 가장 높은 절개를 지닌 인물로 평가됩니다.",
+          "reason": "인물을 절개 자체로 평가하는 주어·서술어의 어긋남을 바로잡습니다.",
+          "approval_status": "approved",
+          "approval_message": "수정후 다음 시작",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "왕위와 부정한 권력을 거부한 대표적 은자입니다. 뜻을 낮추지 않고 몸도 욕되게 하지 않은 가장 높은 절개로 평가됩니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_2"
     },
     {
       "book": 18,
@@ -685,7 +699,7 @@
     "selector": "article.card details.st1 .w > p:not(.wh)"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_1",
+    "pass": "targeted_type_2",
     "reviewed": 54,
     "approved_applied": 1,
     "status": "approved_applied"

@@ -160,16 +160,30 @@
     },
     {
       "book": 12,
-      "changed": false,
+      "changed": true,
       "field": "질문",
       "id": "ly-12-03",
       "index": 1,
       "key": "ly-12-03:問:1:q",
       "label": "질문",
       "original": "공자님은 왜 사마우에게 仁을 묻자 ‘말을 더듬듯 조심한다’고 답했나요?",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "공자님은 왜 사마우에게 仁을 묻자 ‘말을 더듬듯 조심한다’고 답했나요?",
-      "scope": "問"
+      "reason": "仁을 물은 사람과 답한 사람을 분명히 합니다.",
+      "revised": "사마우가 仁을 묻자 공자님은 왜 ‘말을 더듬듯 조심한다’고 답했나요?",
+      "scope": "問",
+      "revision_history": [
+        {
+          "pass": "targeted_type_2",
+          "previous_revision": "공자님은 왜 사마우에게 仁을 묻자 ‘말을 더듬듯 조심한다’고 답했나요?",
+          "revised": "사마우가 仁을 묻자 공자님은 왜 ‘말을 더듬듯 조심한다’고 답했나요?",
+          "reason": "仁을 물은 사람과 답한 사람을 분명히 합니다.",
+          "approval_status": "approved",
+          "approval_message": "수정후 다음 시작",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "공자님은 왜 사마우에게 仁을 묻자 ‘말을 더듬듯 조심한다’고 답했나요?",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_2"
     },
     {
       "book": 12,
@@ -602,16 +616,30 @@
     },
     {
       "book": 12,
-      "changed": false,
+      "changed": true,
       "field": "질문",
       "id": "ly-12-08",
       "index": 3,
       "key": "ly-12-08:問:3:q",
       "label": "질문",
       "original": "왜 자공은 호랑이 가죽과 개·양 가죽을 털을 벗기면 같다고 비유했나요?",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "왜 자공은 호랑이 가죽과 개·양 가죽을 털을 벗기면 같다고 비유했나요?",
-      "scope": "問"
+      "reason": "가죽과 털에 목적격 조사가 겹친 부분을 바로잡습니다.",
+      "revised": "왜 자공은 호랑이 가죽과 개·양 가죽에서 털을 벗기면 같다고 비유했나요?",
+      "scope": "問",
+      "revision_history": [
+        {
+          "pass": "targeted_type_2",
+          "previous_revision": "왜 자공은 호랑이 가죽과 개·양 가죽을 털을 벗기면 같다고 비유했나요?",
+          "revised": "왜 자공은 호랑이 가죽과 개·양 가죽에서 털을 벗기면 같다고 비유했나요?",
+          "reason": "가죽과 털에 목적격 조사가 겹친 부분을 바로잡습니다.",
+          "approval_status": "approved",
+          "approval_message": "수정후 다음 시작",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "왜 자공은 호랑이 가죽과 개·양 가죽을 털을 벗기면 같다고 비유했나요?",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_2"
     },
     {
       "book": 12,
@@ -797,16 +825,30 @@
     },
     {
       "book": 12,
-      "changed": false,
+      "changed": true,
       "field": "답변",
       "id": "ly-12-11",
       "index": 1,
       "key": "ly-12-11:問:1:a",
       "label": "답변",
       "original": "단순한 역할 분담보다 이름에 맞는 책임과 도리를 실제로 해야 한다는 뜻입니다. 임금은 임금답고 신하는 신하다워야 관계와 질서가 바로 선다는 말입니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "단순한 역할 분담보다 이름에 맞는 책임과 도리를 실제로 해야 한다는 뜻입니다. 임금은 임금답고 신하는 신하다워야 관계와 질서가 바로 선다는 말입니다.",
-      "scope": "問"
+      "reason": "책임과 도리에 맞는 서술어를 씁니다.",
+      "revised": "단순한 역할 분담보다 이름에 맞는 책임과 도리를 실제로 다해야 한다는 뜻입니다. 임금은 임금답고 신하는 신하다워야 관계와 질서가 바로 선다는 말입니다.",
+      "scope": "問",
+      "revision_history": [
+        {
+          "pass": "targeted_type_2",
+          "previous_revision": "단순한 역할 분담보다 이름에 맞는 책임과 도리를 실제로 해야 한다는 뜻입니다. 임금은 임금답고 신하는 신하다워야 관계와 질서가 바로 선다는 말입니다.",
+          "revised": "단순한 역할 분담보다 이름에 맞는 책임과 도리를 실제로 다해야 한다는 뜻입니다. 임금은 임금답고 신하는 신하다워야 관계와 질서가 바로 선다는 말입니다.",
+          "reason": "책임과 도리에 맞는 서술어를 씁니다.",
+          "approval_status": "approved",
+          "approval_message": "수정후 다음 시작",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "단순한 역할 분담보다 이름에 맞는 책임과 도리를 실제로 해야 한다는 뜻입니다. 임금은 임금답고 신하는 신하다워야 관계와 질서가 바로 선다는 말입니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_2"
     },
     {
       "book": 12,
@@ -1760,16 +1802,30 @@
     },
     {
       "book": 12,
-      "changed": false,
+      "changed": true,
       "field": "질문",
       "id": "ly-12-23",
       "index": 2,
       "key": "ly-12-23:問:2:q",
       "label": "질문",
       "original": "‘毋自辱焉’은 친구에게 충고하다가 자존심을 상하지 말라는 뜻인가요?",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "‘毋自辱焉’은 친구에게 충고하다가 자존심을 상하지 말라는 뜻인가요?",
-      "scope": "問"
+      "reason": "상하다의 주어와 명령의 구조를 바로잡습니다.",
+      "revised": "‘毋自辱焉’은 친구에게 충고하다가 자존심이 상하지 않게 하라는 뜻인가요?",
+      "scope": "問",
+      "revision_history": [
+        {
+          "pass": "targeted_type_2",
+          "previous_revision": "‘毋自辱焉’은 친구에게 충고하다가 자존심을 상하지 말라는 뜻인가요?",
+          "revised": "‘毋自辱焉’은 친구에게 충고하다가 자존심이 상하지 않게 하라는 뜻인가요?",
+          "reason": "상하다의 주어와 명령의 구조를 바로잡습니다.",
+          "approval_status": "approved",
+          "approval_message": "수정후 다음 시작",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "‘毋自辱焉’은 친구에게 충고하다가 자존심을 상하지 말라는 뜻인가요?",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_2"
     },
     {
       "book": 12,
@@ -1909,9 +1965,9 @@
     "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_1",
+    "pass": "targeted_type_2",
     "reviewed": 144,
-    "approved_applied": 1,
+    "approved_applied": 4,
     "status": "approved_applied"
   }
 }

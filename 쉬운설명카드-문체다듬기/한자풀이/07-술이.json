@@ -962,9 +962,23 @@
       "key": "ly-07-17:語:3",
       "label": "書서",
       "original": "고대의 역사·정치 문서를 모은 『서』를 뜻합니다. 詩와 함께 공적인 교육의 핵심 텍스트였기 때문에 지역 사투리보다 정통적인 말로 읽는 것이 요구되었습니다.",
-      "reason": "뜻과 판단의 강도를 유지하며 명사형·직역식 서술·호응을 다듬음.",
-      "revised": "고대의 역사·정치 문서를 모은 『서』를 뜻합니다. 詩와 함께 공적인 교육의 핵심 문헌였기 때문에 지역 사투리보다 정통적인 말로 읽는 것이 요구되었습니다.",
-      "scope": "語"
+      "reason": "받침 있는 명사 뒤 서술격 조사 활용을 바로잡습니다.",
+      "revised": "고대의 역사·정치 문서를 모은 『서』를 뜻합니다. 詩와 함께 공적인 교육의 핵심 문헌이었기 때문에 지역 사투리보다 정통적인 말로 읽는 것이 요구되었습니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_2",
+          "previous_revision": "고대의 역사·정치 문서를 모은 『서』를 뜻합니다. 詩와 함께 공적인 교육의 핵심 문헌였기 때문에 지역 사투리보다 정통적인 말로 읽는 것이 요구되었습니다.",
+          "revised": "고대의 역사·정치 문서를 모은 『서』를 뜻합니다. 詩와 함께 공적인 교육의 핵심 문헌이었기 때문에 지역 사투리보다 정통적인 말로 읽는 것이 요구되었습니다.",
+          "reason": "받침 있는 명사 뒤 서술격 조사 활용을 바로잡습니다.",
+          "approval_status": "approved",
+          "approval_message": "수정후 다음 시작",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "고대의 역사·정치 문서를 모은 『서』를 뜻합니다. 詩와 함께 공적인 교육의 핵심 문헌였기 때문에 지역 사투리보다 정통적인 말로 읽는 것이 요구되었습니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_2"
     },
     {
       "book": 7,
@@ -2117,9 +2131,9 @@
     "selector": "article.card details.st1 .w > p:not(.wh)"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_1",
+    "pass": "targeted_type_2",
     "reviewed": 171,
-    "approved_applied": 3,
+    "approved_applied": 1,
     "status": "approved_applied"
   }
 }

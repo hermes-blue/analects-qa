@@ -532,15 +532,29 @@
     },
     {
       "book": 16,
-      "changed": false,
+      "changed": true,
       "id": "ly-16-10",
       "index": 1,
       "key": "ly-16-10:語:1",
       "label": "君子有九思군자유구사",
       "original": "군자가 일상에서 아홉 가지를 계속 생각해야 한다는 뜻입니다. 수양을 추상적 마음이 아니라 보고 듣고 말하고 행동하는 순간마다 점검합니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "군자가 일상에서 아홉 가지를 계속 생각해야 한다는 뜻입니다. 수양을 추상적 마음이 아니라 보고 듣고 말하고 행동하는 순간마다 점검합니다.",
-      "scope": "語"
+      "reason": "추상적 마음과 행동하는 순간을 비교한 어긋난 구조를 고칩니다.",
+      "revised": "군자가 일상에서 아홉 가지를 계속 생각해야 한다는 뜻입니다. 마음속으로만 수양하려 하지 않고 보고 듣고 말하고 행동하는 순간마다 자신을 점검합니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_2",
+          "previous_revision": "군자가 일상에서 아홉 가지를 계속 생각해야 한다는 뜻입니다. 수양을 추상적 마음이 아니라 보고 듣고 말하고 행동하는 순간마다 점검합니다.",
+          "revised": "군자가 일상에서 아홉 가지를 계속 생각해야 한다는 뜻입니다. 마음속으로만 수양하려 하지 않고 보고 듣고 말하고 행동하는 순간마다 자신을 점검합니다.",
+          "reason": "추상적 마음과 행동하는 순간을 비교한 어긋난 구조를 고칩니다.",
+          "approval_status": "approved",
+          "approval_message": "수정후 다음 시작",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "군자가 일상에서 아홉 가지를 계속 생각해야 한다는 뜻입니다. 수양을 추상적 마음이 아니라 보고 듣고 말하고 행동하는 순간마다 점검합니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_2"
     },
     {
       "book": 16,
@@ -849,5 +863,11 @@
     "path": "1차완성본/쉬운설명카드/16-계씨.html",
     "repository": "hermes-blue/analects",
     "selector": "article.card details.st1 .w > p:not(.wh)"
+  },
+  "latest_style_pass": {
+    "pass": "targeted_type_2",
+    "reviewed": 69,
+    "approved_applied": 1,
+    "status": "approved_applied"
   }
 }

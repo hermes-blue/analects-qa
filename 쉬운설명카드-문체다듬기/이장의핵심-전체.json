@@ -2133,10 +2133,22 @@
           "chapter": 34,
           "id": "ly-07-34",
           "original": "위기 때만 비는 기도보다 평소의 삶이 먼저 하늘 앞에 부끄럽지 않아야 한다",
-          "previous_revision": "위기 때만 비는 기도보다 평소의 삶이 먼저 하늘 앞에 부끄럽지 않아야 한다",
-          "reason": "기도와 삶을 직접 비교하는 구문 정리",
-          "revised": "위기에 닥쳐서만 기도하기보다 평소부터 하늘 앞에 부끄럽지 않게 살아야 한다",
-          "revision_round": 2
+          "previous_revision": "위기에 닥쳐서만 기도하기보다 평소부터 하늘 앞에 부끄럽지 않게 살아야 한다",
+          "reason": "닥치는 주체인 위기에 맞춰 조사를 고칩니다.",
+          "revised": "위기가 닥쳤을 때만 기도하기보다 평소부터 하늘 앞에 부끄럽지 않게 살아야 한다",
+          "revision_round": 2,
+          "revision_history": [
+            {
+              "pass": "targeted_type_2",
+              "previous_revision": "위기에 닥쳐서만 기도하기보다 평소부터 하늘 앞에 부끄럽지 않게 살아야 한다",
+              "revised": "위기가 닥쳤을 때만 기도하기보다 평소부터 하늘 앞에 부끄럽지 않게 살아야 한다",
+              "reason": "닥치는 주체인 위기에 맞춰 조사를 고칩니다.",
+              "approval_status": "approved",
+              "approval_message": "수정후 다음 시작",
+              "date": "2026-09-08"
+            }
+          ],
+          "last_revision_pass": "targeted_type_2"
         },
         {
           "changed": true,
@@ -2215,6 +2227,10 @@
         "reviewed": 37,
         "round_2_approved_applied": 20,
         "unchanged": 13
+      },
+      "latest_style_pass": {
+        "pass": "targeted_type_2",
+        "approved_applied": 1
       }
     },
     {
@@ -6178,5 +6194,10 @@
   "source_html_applied": false,
   "total": 498,
   "unchanged": 132,
-  "round_3_applied": 40
+  "round_3_applied": 40,
+  "latest_style_pass": {
+    "pass": "targeted_type_2",
+    "approved_applied": 1,
+    "reviewed": 498
+  }
 }

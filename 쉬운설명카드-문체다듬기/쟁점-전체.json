@@ -2,12 +2,12 @@
   "schema_version": "1.1",
   "scope": "說",
   "scope_name": "쟁점",
-  "status": "approved_targeted_type_1_applied",
-  "method": "20편의 핵심·語·問·說 전체 6,921개 본문 항목을 순서대로 읽고 유형 1 후보 81곳을 전후 대조한 뒤 사용자 승인에 따라 반영. 내용·해석 검수는 하지 않음.",
+  "status": "approved_targeted_type_2_applied",
+  "method": "20편의 핵심·語·問·說 전체 6,921개 본문 항목을 순서대로 읽고 유형 2 후보 109곳을 전후 대조한 뒤 사용자 승인에 따라 반영. 내용·해석 검수는 하지 않음.",
   "count_unit": "텍스트 필드: 한자 풀이 1개, 질문 또는 답변 1개, 쟁점의 견해 설명 1개",
   "total": 1040,
-  "changed": 27,
-  "unchanged": 1013,
+  "changed": 47,
+  "unchanged": 993,
   "card_count": 498,
   "book_count": 20,
   "content_review_performed": false,
@@ -151,10 +151,24 @@
           "key": "ly-01-04:說:1:2",
           "label": "주희(朱熹) 《논어집주》",
           "original": "뒤에 나오는 세 가지, 곧 남의 일을 맡은 태도·친구와의 신의·배운 것의 익힘을 날마다 점검했다고 봅니다.",
-          "reason": "나열한 항목 중 어색한 관형어와 명사형을 풀어 씀.",
-          "revised": "뒤에 나오는 세 가지, 곧 남의 일을 맡았을 때의 태도·친구와의 신의·배운 것을 얼마나 익혔는지를 날마다 점검했다고 봅니다.",
+          "reason": "나열한 세 항목을 모두 간접 의문절로 맞춥니다.",
+          "revised": "뒤에 나오는 세 가지, 곧 남의 일을 맡았을 때 어떤 태도로 임했는지, 친구와 신의를 지켰는지, 배운 것을 얼마나 익혔는지를 날마다 점검했다고 봅니다.",
           "scope": "說",
-          "side": 2
+          "side": 2,
+          "revision_history": [
+            {
+              "pass": "targeted_type_2",
+              "previous_revision": "뒤에 나오는 세 가지, 곧 남의 일을 맡았을 때의 태도·친구와의 신의·배운 것을 얼마나 익혔는지를 날마다 점검했다고 봅니다.",
+              "revised": "뒤에 나오는 세 가지, 곧 남의 일을 맡았을 때 어떤 태도로 임했는지, 친구와 신의를 지켰는지, 배운 것을 얼마나 익혔는지를 날마다 점검했다고 봅니다.",
+              "reason": "나열한 세 항목을 모두 간접 의문절로 맞춥니다.",
+              "approval_status": "approved",
+              "approval_message": "수정후 다음 시작",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "뒤에 나오는 세 가지, 곧 남의 일을 맡았을 때의 태도·친구와의 신의·배운 것을 얼마나 익혔는지를 날마다 점검했다고 봅니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_2"
         },
         {
           "book": 1,
@@ -326,17 +340,31 @@
         },
         {
           "book": 1,
-          "changed": false,
+          "changed": true,
           "heading": "공자님은 정치 정보를 캐물은 걸까, 사람들이 먼저 말한 걸까?본문 속 논쟁형",
           "id": "ly-01-10",
           "index": 1,
           "key": "ly-01-10:說:1:1",
           "label": "이렇게 보면",
           "original": "자금의 질문은 공자님도 다른 사람들처럼 각 나라의 정사를 일부러 알아낸 것인지 묻습니다. 결과만 보면 어디를 가든 정치 이야기를 들었습니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "자금의 질문은 공자님도 다른 사람들처럼 각 나라의 정사를 일부러 알아낸 것인지 묻습니다. 결과만 보면 어디를 가든 정치 이야기를 들었습니다.",
+          "reason": "질문하는 주체를 ‘질문’에서 ‘자금’으로 바로잡습니다.",
+          "revised": "자금은 공자님도 다른 사람들처럼 각 나라의 정사를 일부러 알아낸 것인지 묻습니다. 결과만 보면 어디를 가든 정치 이야기를 들었습니다.",
           "scope": "說",
-          "side": 1
+          "side": 1,
+          "revision_history": [
+            {
+              "pass": "targeted_type_2",
+              "previous_revision": "자금의 질문은 공자님도 다른 사람들처럼 각 나라의 정사를 일부러 알아낸 것인지 묻습니다. 결과만 보면 어디를 가든 정치 이야기를 들었습니다.",
+              "revised": "자금은 공자님도 다른 사람들처럼 각 나라의 정사를 일부러 알아낸 것인지 묻습니다. 결과만 보면 어디를 가든 정치 이야기를 들었습니다.",
+              "reason": "질문하는 주체를 ‘질문’에서 ‘자금’으로 바로잡습니다.",
+              "approval_status": "approved",
+              "approval_message": "수정후 다음 시작",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "자금의 질문은 공자님도 다른 사람들처럼 각 나라의 정사를 일부러 알아낸 것인지 묻습니다. 결과만 보면 어디를 가든 정치 이야기를 들었습니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_2"
         },
         {
           "book": 1,
@@ -595,6 +623,12 @@
         "path": "1차완성본/쉬운설명카드/01-학이.html",
         "repository": "hermes-blue/analects",
         "selector": "article.card details.st3 .js .side > p"
+      },
+      "latest_style_pass": {
+        "pass": "targeted_type_2",
+        "reviewed": 40,
+        "approved_applied": 2,
+        "status": "approved_applied"
       }
     },
     {
@@ -869,17 +903,31 @@
         },
         {
           "book": 2,
-          "changed": false,
+          "changed": true,
           "heading": "한 번의 좋은 행동만 보고 좋은 사람이라고 판단해도 될까?인물 평가형",
           "id": "ly-02-10",
           "index": 1,
           "key": "ly-02-10:說:1:2",
           "label": "이렇게도 보면",
           "original": "이 장은 무엇을 했는지, 어떤 이유와 경로로 했는지, 평소 무엇을 편안하게 여기는지까지 세 겹으로 살피라고 합니다. 사람 평가는 순간의 행동보다 반복되는 방향을 보라는 뜻입니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "이 장은 무엇을 했는지, 어떤 이유와 경로로 했는지, 평소 무엇을 편안하게 여기는지까지 세 겹으로 살피라고 합니다. 사람 평가는 순간의 행동보다 반복되는 방향을 보라는 뜻입니다.",
+          "reason": "주어처럼 놓인 ‘사람 평가’를 상황을 나타내는 절로 고칩니다.",
+          "revised": "이 장은 무엇을 했는지, 어떤 이유와 경로로 했는지, 평소 무엇을 편안하게 여기는지까지 세 겹으로 살피라고 합니다. 사람을 평가할 때는 순간의 행동보다 반복되는 방향을 보라는 뜻입니다.",
           "scope": "說",
-          "side": 2
+          "side": 2,
+          "revision_history": [
+            {
+              "pass": "targeted_type_2",
+              "previous_revision": "이 장은 무엇을 했는지, 어떤 이유와 경로로 했는지, 평소 무엇을 편안하게 여기는지까지 세 겹으로 살피라고 합니다. 사람 평가는 순간의 행동보다 반복되는 방향을 보라는 뜻입니다.",
+              "revised": "이 장은 무엇을 했는지, 어떤 이유와 경로로 했는지, 평소 무엇을 편안하게 여기는지까지 세 겹으로 살피라고 합니다. 사람을 평가할 때는 순간의 행동보다 반복되는 방향을 보라는 뜻입니다.",
+              "reason": "주어처럼 놓인 ‘사람 평가’를 상황을 나타내는 절로 고칩니다.",
+              "approval_status": "approved",
+              "approval_message": "수정후 다음 시작",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "이 장은 무엇을 했는지, 어떤 이유와 경로로 했는지, 평소 무엇을 편안하게 여기는지까지 세 겹으로 살피라고 합니다. 사람 평가는 순간의 행동보다 반복되는 방향을 보라는 뜻입니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_2"
         },
         {
           "book": 2,
@@ -981,17 +1029,31 @@
         },
         {
           "book": 2,
-          "changed": false,
+          "changed": true,
           "heading": "‘周는 충실하고 믿음직함’ vs ‘周는 의로 맺는 관계’周·比",
           "id": "ly-02-14",
           "index": 1,
           "key": "ly-02-14:說:1:2",
           "label": "왕인지(王引之) 《경의술문》",
           "original": "周와 比 모두 사람끼리 가까이 맺는다는 뜻이 있다고 봅니다. 다만 군자는 의로 뭉치고, 소인은 자기 이익 때문에 뭉친다는 차이라고 풉니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "周와 比 모두 사람끼리 가까이 맺는다는 뜻이 있다고 봅니다. 다만 군자는 의로 뭉치고, 소인은 자기 이익 때문에 뭉친다는 차이라고 풉니다.",
+          "reason": "‘맺다’의 빠진 목적어를 보완합니다.",
+          "revised": "周와 比 모두 사람끼리 가까이 관계를 맺는다는 뜻이 있다고 봅니다. 다만 군자는 의로 뭉치고, 소인은 자기 이익 때문에 뭉친다는 차이라고 풉니다.",
           "scope": "說",
-          "side": 2
+          "side": 2,
+          "revision_history": [
+            {
+              "pass": "targeted_type_2",
+              "previous_revision": "周와 比 모두 사람끼리 가까이 맺는다는 뜻이 있다고 봅니다. 다만 군자는 의로 뭉치고, 소인은 자기 이익 때문에 뭉친다는 차이라고 풉니다.",
+              "revised": "周와 比 모두 사람끼리 가까이 관계를 맺는다는 뜻이 있다고 봅니다. 다만 군자는 의로 뭉치고, 소인은 자기 이익 때문에 뭉친다는 차이라고 풉니다.",
+              "reason": "‘맺다’의 빠진 목적어를 보완합니다.",
+              "approval_status": "approved",
+              "approval_message": "수정후 다음 시작",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "周와 比 모두 사람끼리 가까이 맺는다는 뜻이 있다고 봅니다. 다만 군자는 의로 뭉치고, 소인은 자기 이익 때문에 뭉친다는 차이라고 풉니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_2"
         },
         {
           "book": 2,
@@ -1163,17 +1225,31 @@
         },
         {
           "book": 2,
-          "changed": false,
+          "changed": true,
           "heading": "백성에게 공경과 충성을 요구하기 전에 누가 먼저 바뀌어야 할까?문장 안 긴장형",
           "id": "ly-02-20",
           "index": 1,
           "key": "ly-02-20:說:1:1",
           "label": "이렇게 보면",
           "original": "계강자의 질문은 백성을 공경하고 충성하며 힘쓰게 만드는 방법을 묻습니다. 문제의 초점이 아래 사람에게 있는 것처럼 시작합니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "계강자의 질문은 백성을 공경하고 충성하며 힘쓰게 만드는 방법을 묻습니다. 문제의 초점이 아래 사람에게 있는 것처럼 시작합니다.",
+          "reason": "질문하는 주체와 공경·충성하는 주체를 각각 바로잡습니다.",
+          "revised": "계강자는 백성이 공경하고 충성하며 힘쓰게 할 방법을 묻습니다. 문제의 초점이 아래 사람에게 있는 것처럼 시작합니다.",
           "scope": "說",
-          "side": 1
+          "side": 1,
+          "revision_history": [
+            {
+              "pass": "targeted_type_2",
+              "previous_revision": "계강자의 질문은 백성을 공경하고 충성하며 힘쓰게 만드는 방법을 묻습니다. 문제의 초점이 아래 사람에게 있는 것처럼 시작합니다.",
+              "revised": "계강자는 백성이 공경하고 충성하며 힘쓰게 할 방법을 묻습니다. 문제의 초점이 아래 사람에게 있는 것처럼 시작합니다.",
+              "reason": "질문하는 주체와 공경·충성하는 주체를 각각 바로잡습니다.",
+              "approval_status": "approved",
+              "approval_message": "수정후 다음 시작",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "계강자의 질문은 백성을 공경하고 충성하며 힘쓰게 만드는 방법을 묻습니다. 문제의 초점이 아래 사람에게 있는 것처럼 시작합니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_2"
         },
         {
           "book": 2,
@@ -1261,17 +1337,31 @@
         },
         {
           "book": 2,
-          "changed": false,
+          "changed": true,
           "heading": "공자님은 백 세 뒤의 미래를 예언할 수 있다고 한 걸까?오해 교정형",
           "id": "ly-02-23",
           "index": 1,
           "key": "ly-02-23:說:1:2",
           "label": "이렇게도 보면",
           "original": "공자님의 답은 하·은·주가 이전 제도를 무엇은 잇고 무엇은 고쳤는지를 살피는 데 있습니다. 구체적 사건 예언이 아니라 역사 변화의 패턴을 추론할 수 있다는 말입니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "공자님의 답은 하·은·주가 이전 제도를 무엇은 잇고 무엇은 고쳤는지를 살피는 데 있습니다. 구체적 사건 예언이 아니라 역사 변화의 패턴을 추론할 수 있다는 말입니다.",
+          "reason": "‘이전 제도를 무엇은’의 조사 중첩과 ‘답은 … 데 있다’의 호응을 바로잡습니다.",
+          "revised": "공자님의 답은 하·은·주가 이전 제도에서 무엇을 잇고 무엇을 고쳤는지 살펴보라는 것입니다. 구체적 사건 예언이 아니라 역사 변화의 패턴을 추론할 수 있다는 말입니다.",
           "scope": "說",
-          "side": 2
+          "side": 2,
+          "revision_history": [
+            {
+              "pass": "targeted_type_2",
+              "previous_revision": "공자님의 답은 하·은·주가 이전 제도를 무엇은 잇고 무엇은 고쳤는지를 살피는 데 있습니다. 구체적 사건 예언이 아니라 역사 변화의 패턴을 추론할 수 있다는 말입니다.",
+              "revised": "공자님의 답은 하·은·주가 이전 제도에서 무엇을 잇고 무엇을 고쳤는지 살펴보라는 것입니다. 구체적 사건 예언이 아니라 역사 변화의 패턴을 추론할 수 있다는 말입니다.",
+              "reason": "‘이전 제도를 무엇은’의 조사 중첩과 ‘답은 … 데 있다’의 호응을 바로잡습니다.",
+              "approval_status": "approved",
+              "approval_message": "수정후 다음 시작",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "공자님의 답은 하·은·주가 이전 제도를 무엇은 잇고 무엇은 고쳤는지를 살피는 데 있습니다. 구체적 사건 예언이 아니라 역사 변화의 패턴을 추론할 수 있다는 말입니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_2"
         },
         {
           "book": 2,
@@ -1320,6 +1410,12 @@
         "path": "1차완성본/쉬운설명카드/02-위정.html",
         "repository": "hermes-blue/analects",
         "selector": "article.card details.st3 .js .side > p"
+      },
+      "latest_style_pass": {
+        "pass": "targeted_type_2",
+        "reviewed": 50,
+        "approved_applied": 4,
+        "status": "approved_applied"
       }
     },
     {
@@ -1636,17 +1732,31 @@
         },
         {
           "book": 3,
-          "changed": false,
+          "changed": true,
           "heading": "‘모른다’고 한 사람이 왜 곧 ‘알면 천하가 손바닥처럼 보인다’고 했을까?문장 안 긴장형",
           "id": "ly-03-11",
           "index": 1,
           "key": "ly-03-11:說:1:1",
           "label": "이렇게 보면",
           "original": "공자님은 큰 제사의 뜻을 묻자 ‘모른다’고 답합니다. 문자 그대로라면 지식 부족처럼 보입니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "공자님은 큰 제사의 뜻을 묻자 ‘모른다’고 답합니다. 문자 그대로라면 지식 부족처럼 보입니다.",
+          "reason": "묻는 사람과 답하는 사람이 같은 주체로 읽히지 않게 합니다.",
+          "revised": "누군가 큰 제사의 뜻을 묻자 공자님은 ‘모른다’고 답합니다. 문자 그대로라면 지식 부족처럼 보입니다.",
           "scope": "說",
-          "side": 1
+          "side": 1,
+          "revision_history": [
+            {
+              "pass": "targeted_type_2",
+              "previous_revision": "공자님은 큰 제사의 뜻을 묻자 ‘모른다’고 답합니다. 문자 그대로라면 지식 부족처럼 보입니다.",
+              "revised": "누군가 큰 제사의 뜻을 묻자 공자님은 ‘모른다’고 답합니다. 문자 그대로라면 지식 부족처럼 보입니다.",
+              "reason": "묻는 사람과 답하는 사람이 같은 주체로 읽히지 않게 합니다.",
+              "approval_status": "approved",
+              "approval_message": "수정후 다음 시작",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "공자님은 큰 제사의 뜻을 묻자 ‘모른다’고 답합니다. 문자 그대로라면 지식 부족처럼 보입니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_2"
         },
         {
           "book": 3,
@@ -2056,17 +2166,31 @@
         },
         {
           "book": 3,
-          "changed": false,
+          "changed": true,
           "heading": "아름다운 예술과 좋은 예술은 같은 말일까?문장 안 긴장형",
           "id": "ly-03-25",
           "index": 1,
           "key": "ly-03-25:說:1:1",
           "label": "이렇게 보면",
           "original": "무왕의 음악도 공자님에게 ‘아름다움’은 완전하다고 평가받습니다. 작품의 형식과 음악적 완성도는 최고라는 뜻입니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "무왕의 음악도 공자님에게 ‘아름다움’은 완전하다고 평가받습니다. 작품의 형식과 음악적 완성도는 최고라는 뜻입니다.",
+          "reason": "평가 주체를 앞에 두어 피동문에 겹친 주제어를 정리합니다.",
+          "revised": "공자님은 무왕의 음악도 ‘아름다움’은 완전하다고 평가합니다. 작품의 형식과 음악적 완성도는 최고라는 뜻입니다.",
           "scope": "說",
-          "side": 1
+          "side": 1,
+          "revision_history": [
+            {
+              "pass": "targeted_type_2",
+              "previous_revision": "무왕의 음악도 공자님에게 ‘아름다움’은 완전하다고 평가받습니다. 작품의 형식과 음악적 완성도는 최고라는 뜻입니다.",
+              "revised": "공자님은 무왕의 음악도 ‘아름다움’은 완전하다고 평가합니다. 작품의 형식과 음악적 완성도는 최고라는 뜻입니다.",
+              "reason": "평가 주체를 앞에 두어 피동문에 겹친 주제어를 정리합니다.",
+              "approval_status": "approved",
+              "approval_message": "수정후 다음 시작",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "무왕의 음악도 공자님에게 ‘아름다움’은 완전하다고 평가받습니다. 작품의 형식과 음악적 완성도는 최고라는 뜻입니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_2"
         },
         {
           "book": 3,
@@ -2131,7 +2255,7 @@
         "selector": "article.card details.st3 .js .side > p"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_1",
+        "pass": "targeted_type_2",
         "reviewed": 54,
         "approved_applied": 2,
         "status": "approved_applied"
@@ -2591,17 +2715,31 @@
         },
         {
           "book": 4,
-          "changed": false,
+          "changed": true,
           "heading": "‘벼슬한 사람 vs 일반 백성’ vs ‘도덕적인 사람 vs 이익만 좇는 사람’君子·小人",
           "id": "ly-04-16",
           "index": 1,
           "key": "ly-04-16:說:1:1",
           "label": "정현(鄭玄) 계열 고주",
           "original": "君子와 小人을 먼저 사회적 지위로 읽습니다. 벼슬한 사람은 義를 알아야 하고, 생업을 꾸리는 일반 백성은 현실의 利에 밝을 수밖에 있다는 정치·경제적 맥락입니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "君子와 小人을 먼저 사회적 지위로 읽습니다. 벼슬한 사람은 義를 알아야 하고, 생업을 꾸리는 일반 백성은 현실의 利에 밝을 수밖에 있다는 정치·경제적 맥락입니다.",
+          "reason": "‘수밖에 없다’에서 빠진 부정 서술어를 복원합니다.",
+          "revised": "君子와 小人을 먼저 사회적 지위로 읽습니다. 벼슬한 사람은 義를 알아야 하고, 생업을 꾸리는 일반 백성은 현실의 利에 밝을 수밖에 없다는 정치·경제적 맥락입니다.",
           "scope": "說",
-          "side": 1
+          "side": 1,
+          "revision_history": [
+            {
+              "pass": "targeted_type_2",
+              "previous_revision": "君子와 小人을 먼저 사회적 지위로 읽습니다. 벼슬한 사람은 義를 알아야 하고, 생업을 꾸리는 일반 백성은 현실의 利에 밝을 수밖에 있다는 정치·경제적 맥락입니다.",
+              "revised": "君子와 小人을 먼저 사회적 지위로 읽습니다. 벼슬한 사람은 義를 알아야 하고, 생업을 꾸리는 일반 백성은 현실의 利에 밝을 수밖에 없다는 정치·경제적 맥락입니다.",
+              "reason": "‘수밖에 없다’에서 빠진 부정 서술어를 복원합니다.",
+              "approval_status": "approved",
+              "approval_message": "수정후 다음 시작",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "君子와 小人을 먼저 사회적 지위로 읽습니다. 벼슬한 사람은 義를 알아야 하고, 생업을 꾸리는 일반 백성은 현실의 利에 밝을 수밖에 있다는 정치·경제적 맥락입니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_2"
         },
         {
           "book": 4,
@@ -2619,17 +2757,31 @@
         },
         {
           "book": 4,
-          "changed": false,
+          "changed": true,
           "heading": "좋은 사람만 배움의 재료일까?문장 안 긴장형",
           "id": "ly-04-17",
           "index": 1,
           "key": "ly-04-17:說:1:1",
           "label": "이렇게 보면",
           "original": "어진 사람을 보면 그 수준에 이르려 하라는 앞문장은 좋은 본보기를 따라 배우는 방식입니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "어진 사람을 보면 그 수준에 이르려 하라는 앞문장은 좋은 본보기를 따라 배우는 방식입니다.",
+          "reason": "‘문장은 방식이다’의 주어·서술어 호응을 고칩니다.",
+          "revised": "어진 사람을 보면 그 수준에 이르려 하라는 앞문장은 좋은 본보기를 따라 배우라고 권합니다.",
           "scope": "說",
-          "side": 1
+          "side": 1,
+          "revision_history": [
+            {
+              "pass": "targeted_type_2",
+              "previous_revision": "어진 사람을 보면 그 수준에 이르려 하라는 앞문장은 좋은 본보기를 따라 배우는 방식입니다.",
+              "revised": "어진 사람을 보면 그 수준에 이르려 하라는 앞문장은 좋은 본보기를 따라 배우라고 권합니다.",
+              "reason": "‘문장은 방식이다’의 주어·서술어 호응을 고칩니다.",
+              "approval_status": "approved",
+              "approval_message": "수정후 다음 시작",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "어진 사람을 보면 그 수준에 이르려 하라는 앞문장은 좋은 본보기를 따라 배우는 방식입니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_2"
         },
         {
           "book": 4,
@@ -2717,17 +2869,31 @@
         },
         {
           "book": 4,
-          "changed": false,
+          "changed": true,
           "heading": "부모님이 살아 계시면 멀리 떠나면 안 된다는 여행 금지 규칙일까?적용 한계형",
           "id": "ly-04-19",
           "index": 1,
           "key": "ly-04-19:說:1:2",
           "label": "이렇게도 보면",
           "original": "뒤의 ‘떠난다면 행선지가 있어야 한다’가 조건을 붙입니다. 핵심은 거리 자체보다 돌봄 책임과 자신의 소재를 알려 부모의 불안을 줄이는 데 있습니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "뒤의 ‘떠난다면 행선지가 있어야 한다’가 조건을 붙입니다. 핵심은 거리 자체보다 돌봄 책임과 자신의 소재를 알려 부모의 불안을 줄이는 데 있습니다.",
+          "reason": "명사와 동사절이 섞인 나열을 동사절로 맞춥니다.",
+          "revised": "뒤의 ‘떠난다면 행선지가 있어야 한다’가 조건을 붙입니다. 핵심은 거리 자체보다 돌볼 책임을 다하고 자신의 소재를 알려 부모의 불안을 줄이는 데 있습니다.",
           "scope": "說",
-          "side": 2
+          "side": 2,
+          "revision_history": [
+            {
+              "pass": "targeted_type_2",
+              "previous_revision": "뒤의 ‘떠난다면 행선지가 있어야 한다’가 조건을 붙입니다. 핵심은 거리 자체보다 돌봄 책임과 자신의 소재를 알려 부모의 불안을 줄이는 데 있습니다.",
+              "revised": "뒤의 ‘떠난다면 행선지가 있어야 한다’가 조건을 붙입니다. 핵심은 거리 자체보다 돌볼 책임을 다하고 자신의 소재를 알려 부모의 불안을 줄이는 데 있습니다.",
+              "reason": "명사와 동사절이 섞인 나열을 동사절로 맞춥니다.",
+              "approval_status": "approved",
+              "approval_message": "수정후 다음 시작",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "뒤의 ‘떠난다면 행선지가 있어야 한다’가 조건을 붙입니다. 핵심은 거리 자체보다 돌봄 책임과 자신의 소재를 알려 부모의 불안을 줄이는 데 있습니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_2"
         },
         {
           "book": 4,
@@ -2745,17 +2911,31 @@
         },
         {
           "book": 4,
-          "changed": false,
+          "changed": true,
           "heading": "같은 ‘아버지의 도를 삼 년 바꾸지 않는다’는 말이 왜 논어에 두 번 나올까?장간 긴장형",
           "id": "ly-04-20",
           "index": 1,
           "key": "ly-04-20:說:1:2",
           "label": "이렇게도 보면",
           "original": "논어에는 중요하게 전승된 말이 서로 다른 편에 반복되는 경우가 있습니다. 이 장은 새로운 교훈을 억지로 만들기보다, 논어가 여러 전승을 묶어 편집된 책이라는 흔적을 보여 주는 사례로 볼 수 있습니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "논어에는 중요하게 전승된 말이 서로 다른 편에 반복되는 경우가 있습니다. 이 장은 새로운 교훈을 억지로 만들기보다, 논어가 여러 전승을 묶어 편집된 책이라는 흔적을 보여 주는 사례로 볼 수 있습니다.",
+          "reason": "능동·피동이 어긋나게 이어진 관형절을 고칩니다.",
+          "revised": "논어에는 중요하게 전승된 말이 서로 다른 편에 반복되는 경우가 있습니다. 이 장은 새로운 교훈을 억지로 만들기보다, 논어가 여러 전승을 모아 편집한 책이라는 흔적을 보여 주는 사례로 볼 수 있습니다.",
           "scope": "說",
-          "side": 2
+          "side": 2,
+          "revision_history": [
+            {
+              "pass": "targeted_type_2",
+              "previous_revision": "논어에는 중요하게 전승된 말이 서로 다른 편에 반복되는 경우가 있습니다. 이 장은 새로운 교훈을 억지로 만들기보다, 논어가 여러 전승을 묶어 편집된 책이라는 흔적을 보여 주는 사례로 볼 수 있습니다.",
+              "revised": "논어에는 중요하게 전승된 말이 서로 다른 편에 반복되는 경우가 있습니다. 이 장은 새로운 교훈을 억지로 만들기보다, 논어가 여러 전승을 모아 편집한 책이라는 흔적을 보여 주는 사례로 볼 수 있습니다.",
+              "reason": "능동·피동이 어긋나게 이어진 관형절을 고칩니다.",
+              "approval_status": "approved",
+              "approval_message": "수정후 다음 시작",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "논어에는 중요하게 전승된 말이 서로 다른 편에 반복되는 경우가 있습니다. 이 장은 새로운 교훈을 억지로 만들기보다, 논어가 여러 전승을 묶어 편집된 책이라는 흔적을 보여 주는 사례로 볼 수 있습니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_2"
         },
         {
           "book": 4,
@@ -2944,6 +3124,12 @@
         "path": "1차완성본/쉬운설명카드/04-이인.html",
         "repository": "hermes-blue/analects",
         "selector": "article.card details.st3 .js .side > p"
+      },
+      "latest_style_pass": {
+        "pass": "targeted_type_2",
+        "reviewed": 56,
+        "approved_applied": 4,
+        "status": "approved_applied"
       }
     },
     {
@@ -4307,17 +4493,31 @@
         },
         {
           "book": 6,
-          "changed": false,
+          "changed": true,
           "heading": "‘수고한 뒤 성과를 얻는다’ vs ‘힘든 일은 먼저 맡고 이익은 양보한다’先難而後獲",
           "id": "ly-06-20",
           "index": 1,
           "key": "ly-06-20:說:1:1",
           "label": "공안국(孔安國) — 《논어집해》 인용",
           "original": "먼저 힘들게 일한 뒤 그 공을 얻는 것이 인이라고 풉니다. 한 사람이 노력과 보상을 차례로 얻는다는 뜻입니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "먼저 힘들게 일한 뒤 그 공을 얻는 것이 인이라고 풉니다. 한 사람이 노력과 보상을 차례로 얻는다는 뜻입니다.",
+          "reason": "‘노력을 얻다’의 잘못된 목적어 연결을 고칩니다.",
+          "revised": "먼저 힘들게 일한 뒤 그 공을 얻는 것이 인이라고 풉니다. 한 사람이 먼저 노력한 뒤 그 보상을 얻는다는 뜻입니다.",
           "scope": "說",
-          "side": 1
+          "side": 1,
+          "revision_history": [
+            {
+              "pass": "targeted_type_2",
+              "previous_revision": "먼저 힘들게 일한 뒤 그 공을 얻는 것이 인이라고 풉니다. 한 사람이 노력과 보상을 차례로 얻는다는 뜻입니다.",
+              "revised": "먼저 힘들게 일한 뒤 그 공을 얻는 것이 인이라고 풉니다. 한 사람이 먼저 노력한 뒤 그 보상을 얻는다는 뜻입니다.",
+              "reason": "‘노력을 얻다’의 잘못된 목적어 연결을 고칩니다.",
+              "approval_status": "approved",
+              "approval_message": "수정후 다음 시작",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "먼저 힘들게 일한 뒤 그 공을 얻는 것이 인이라고 풉니다. 한 사람이 노력과 보상을 차례로 얻는다는 뜻입니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_2"
         },
         {
           "book": 6,
@@ -4578,7 +4778,7 @@
         "selector": "article.card details.st3 .js .side > p"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_1",
+        "pass": "targeted_type_2",
         "reviewed": 58,
         "approved_applied": 1,
         "status": "approved_applied"
@@ -6586,17 +6786,31 @@
         },
         {
           "book": 9,
-          "changed": false,
+          "changed": true,
           "heading": "‘형상 너머라 힘으로는 닿을 수 없는 것’ vs ‘날마다 하는 일 속에 우뚝 선 것’卓爾",
           "id": "ly-09-10",
           "index": 1,
           "key": "ly-09-10:說:1:1",
           "label": "손작(孫綽) — 황간(皇侃) 《논어의소》 인용 · 하안(何晏) 《논어집해》",
           "original": "한계가 있는 높이는 큰 산이라도 오를 수 있고 형체가 있는 굳음은 쇠와 돌이라도 뚫을 수 있는데, 공자의 도는 우러를수록 높고 파고들수록 굳어 사람의 힘으로는 닿을 수 없는 다른 세계의 것이라고 봅니다. 《집해》도 앞에 있다 뒤에 있다는 말을 ‘황홀해서 모양으로 그릴 수 없다’고 풀었습니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "한계가 있는 높이는 큰 산이라도 오를 수 있고 형체가 있는 굳음은 쇠와 돌이라도 뚫을 수 있는데, 공자의 도는 우러를수록 높고 파고들수록 굳어 사람의 힘으로는 닿을 수 없는 다른 세계의 것이라고 봅니다. 《집해》도 앞에 있다 뒤에 있다는 말을 ‘황홀해서 모양으로 그릴 수 없다’고 풀었습니다.",
+          "reason": "높이와 굳음을 오르거나 뚫는 듯한 문장을 조건절로 정리합니다.",
+          "revised": "높이에 한계가 있으면 큰 산이라도 오를 수 있고 단단해도 형체가 있으면 쇠와 돌이라도 뚫을 수 있는데, 공자의 도는 우러를수록 높고 파고들수록 굳어 사람의 힘으로는 닿을 수 없는 다른 세계의 것이라고 봅니다. 《집해》도 앞에 있다 뒤에 있다는 말을 ‘황홀해서 모양으로 그릴 수 없다’고 풀었습니다.",
           "scope": "說",
-          "side": 1
+          "side": 1,
+          "revision_history": [
+            {
+              "pass": "targeted_type_2",
+              "previous_revision": "한계가 있는 높이는 큰 산이라도 오를 수 있고 형체가 있는 굳음은 쇠와 돌이라도 뚫을 수 있는데, 공자의 도는 우러를수록 높고 파고들수록 굳어 사람의 힘으로는 닿을 수 없는 다른 세계의 것이라고 봅니다. 《집해》도 앞에 있다 뒤에 있다는 말을 ‘황홀해서 모양으로 그릴 수 없다’고 풀었습니다.",
+              "revised": "높이에 한계가 있으면 큰 산이라도 오를 수 있고 단단해도 형체가 있으면 쇠와 돌이라도 뚫을 수 있는데, 공자의 도는 우러를수록 높고 파고들수록 굳어 사람의 힘으로는 닿을 수 없는 다른 세계의 것이라고 봅니다. 《집해》도 앞에 있다 뒤에 있다는 말을 ‘황홀해서 모양으로 그릴 수 없다’고 풀었습니다.",
+              "reason": "높이와 굳음을 오르거나 뚫는 듯한 문장을 조건절로 정리합니다.",
+              "approval_status": "approved",
+              "approval_message": "수정후 다음 시작",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "한계가 있는 높이는 큰 산이라도 오를 수 있고 형체가 있는 굳음은 쇠와 돌이라도 뚫을 수 있는데, 공자의 도는 우러를수록 높고 파고들수록 굳어 사람의 힘으로는 닿을 수 없는 다른 세계의 것이라고 봅니다. 《집해》도 앞에 있다 뒤에 있다는 말을 ‘황홀해서 모양으로 그릴 수 없다’고 풀었습니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_2"
         },
         {
           "book": 9,
@@ -7191,6 +7405,12 @@
         "path": "1차완성본/쉬운설명카드/09-자한.html",
         "repository": "hermes-blue/analects",
         "selector": "article.card details.st3 .js .side > p"
+      },
+      "latest_style_pass": {
+        "pass": "targeted_type_2",
+        "reviewed": 60,
+        "approved_applied": 1,
+        "status": "approved_applied"
       }
     },
     {
@@ -7493,17 +7713,31 @@
         },
         {
           "book": 10,
-          "changed": false,
+          "changed": true,
           "heading": "‘약을 보낸 사정을 모름’ vs ‘약의 성질을 모름’未達",
           "id": "ly-10-11",
           "index": 1,
           "key": "ly-10-11:說:1:2",
           "label": "정약용(丁若鏞) 《논어고금주》",
           "original": "계강자가 좋은 뜻으로 보낸 약인데 그 사정을 따질 까닭은 없다고 봅니다. 처방을 보지 못해 약의 성질과 자기 병에 맞는지를 알 수 없었으므로 먹지 않았다는 뜻으로 풉니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "계강자가 좋은 뜻으로 보낸 약인데 그 사정을 따질 까닭은 없다고 봅니다. 처방을 보지 못해 약의 성질과 자기 병에 맞는지를 알 수 없었으므로 먹지 않았다는 뜻으로 풉니다.",
+          "reason": "알 수 없는 두 내용을 같은 절 구조로 나열합니다.",
+          "revised": "계강자가 좋은 뜻으로 보낸 약인데 그 사정을 따질 까닭은 없다고 봅니다. 처방을 보지 못해 약의 성질이 어떤지, 자기 병에 맞는지 알 수 없었으므로 먹지 않았다는 뜻으로 풉니다.",
           "scope": "說",
-          "side": 2
+          "side": 2,
+          "revision_history": [
+            {
+              "pass": "targeted_type_2",
+              "previous_revision": "계강자가 좋은 뜻으로 보낸 약인데 그 사정을 따질 까닭은 없다고 봅니다. 처방을 보지 못해 약의 성질과 자기 병에 맞는지를 알 수 없었으므로 먹지 않았다는 뜻으로 풉니다.",
+              "revised": "계강자가 좋은 뜻으로 보낸 약인데 그 사정을 따질 까닭은 없다고 봅니다. 처방을 보지 못해 약의 성질이 어떤지, 자기 병에 맞는지 알 수 없었으므로 먹지 않았다는 뜻으로 풉니다.",
+              "reason": "알 수 없는 두 내용을 같은 절 구조로 나열합니다.",
+              "approval_status": "approved",
+              "approval_message": "수정후 다음 시작",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "계강자가 좋은 뜻으로 보낸 약인데 그 사정을 따질 까닭은 없다고 봅니다. 처방을 보지 못해 약의 성질과 자기 병에 맞는지를 알 수 없었으므로 먹지 않았다는 뜻으로 풉니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_2"
         },
         {
           "book": 10,
@@ -7748,6 +7982,12 @@
         "path": "1차완성본/쉬운설명카드/10-향당.html",
         "repository": "hermes-blue/analects",
         "selector": "article.card details.st3 .js .side > p"
+      },
+      "latest_style_pass": {
+        "pass": "targeted_type_2",
+        "reviewed": 38,
+        "approved_applied": 1,
+        "status": "approved_applied"
       }
     },
     {
@@ -8120,17 +8360,31 @@
         },
         {
           "book": 11,
-          "changed": false,
+          "changed": true,
           "heading": "‘장부라는 창고를 고쳐 지음’ vs ‘장부라는 새 돈을 주조함’爲長府",
           "id": "ly-11-13",
           "index": 1,
           "key": "ly-11-13:說:1:1",
           "label": "정현(鄭玄)·왕숙(王肅) — 《논어고금주》 인용",
           "original": "長府를 재물을 보관하는 창고로 보고, 노나라가 그 건물을 새로 고치려 했다고 풉니다. 민자건은 백성과 재물을 수고롭게 하는 공사를 그만두고 옛 제도를 따르라고 말한 셈입니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "長府를 재물을 보관하는 창고로 보고, 노나라가 그 건물을 새로 고치려 했다고 풉니다. 민자건은 백성과 재물을 수고롭게 하는 공사를 그만두고 옛 제도를 따르라고 말한 셈입니다.",
+          "reason": "사람과 재물에 각각 맞는 서술어를 씁니다.",
+          "revised": "長府를 재물을 보관하는 창고로 보고, 노나라가 그 건물을 새로 고치려 했다고 풉니다. 민자건은 백성을 수고롭게 하고 재물을 소모하는 공사를 그만두고 옛 제도를 따르라고 말한 셈입니다.",
           "scope": "說",
-          "side": 1
+          "side": 1,
+          "revision_history": [
+            {
+              "pass": "targeted_type_2",
+              "previous_revision": "長府를 재물을 보관하는 창고로 보고, 노나라가 그 건물을 새로 고치려 했다고 풉니다. 민자건은 백성과 재물을 수고롭게 하는 공사를 그만두고 옛 제도를 따르라고 말한 셈입니다.",
+              "revised": "長府를 재물을 보관하는 창고로 보고, 노나라가 그 건물을 새로 고치려 했다고 풉니다. 민자건은 백성을 수고롭게 하고 재물을 소모하는 공사를 그만두고 옛 제도를 따르라고 말한 셈입니다.",
+              "reason": "사람과 재물에 각각 맞는 서술어를 씁니다.",
+              "approval_status": "approved",
+              "approval_message": "수정후 다음 시작",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "長府를 재물을 보관하는 창고로 보고, 노나라가 그 건물을 새로 고치려 했다고 풉니다. 민자건은 백성과 재물을 수고롭게 하는 공사를 그만두고 옛 제도를 따르라고 말한 셈입니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_2"
         },
         {
           "book": 11,
@@ -8501,6 +8755,12 @@
         "path": "1차완성본/쉬운설명카드/11-선진.html",
         "repository": "hermes-blue/analects",
         "selector": "article.card details.st3 .js .side > p"
+      },
+      "latest_style_pass": {
+        "pass": "targeted_type_2",
+        "reviewed": 52,
+        "approved_applied": 1,
+        "status": "approved_applied"
       }
     },
     {
@@ -9013,17 +9273,31 @@
         },
         {
           "book": 12,
-          "changed": false,
+          "changed": true,
           "heading": "나쁜 사람을 없애면 좋은 사회가 될까?본문 속 논쟁형",
           "id": "ly-12-19",
           "index": 1,
           "key": "ly-12-19:說:1:1",
           "label": "이렇게 보면",
           "original": "계강자는 무도한 사람을 죽여 바른 사람들을 이루게 하는 강한 처벌을 해결책으로 제안합니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "계강자는 무도한 사람을 죽여 바른 사람들을 이루게 하는 강한 처벌을 해결책으로 제안합니다.",
+          "reason": "사람을 이룬다는 어색한 사동 구성을 바로잡습니다.",
+          "revised": "계강자는 무도한 사람을 죽여 사람들이 바르게 살게 하는 강한 처벌을 해결책으로 제안합니다.",
           "scope": "說",
-          "side": 1
+          "side": 1,
+          "revision_history": [
+            {
+              "pass": "targeted_type_2",
+              "previous_revision": "계강자는 무도한 사람을 죽여 바른 사람들을 이루게 하는 강한 처벌을 해결책으로 제안합니다.",
+              "revised": "계강자는 무도한 사람을 죽여 사람들이 바르게 살게 하는 강한 처벌을 해결책으로 제안합니다.",
+              "reason": "사람을 이룬다는 어색한 사동 구성을 바로잡습니다.",
+              "approval_status": "approved",
+              "approval_message": "수정후 다음 시작",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "계강자는 무도한 사람을 죽여 바른 사람들을 이루게 하는 강한 처벌을 해결책으로 제안합니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_2"
         },
         {
           "book": 12,
@@ -9198,6 +9472,12 @@
         "path": "1차완성본/쉬운설명카드/12-안연.html",
         "repository": "hermes-blue/analects",
         "selector": "article.card details.st3 .js .side > p"
+      },
+      "latest_style_pass": {
+        "pass": "targeted_type_2",
+        "reviewed": 48,
+        "approved_applied": 1,
+        "status": "approved_applied"
       }
     },
     {
@@ -9710,17 +9990,31 @@
         },
         {
           "book": 13,
-          "changed": false,
+          "changed": true,
           "heading": "아버지의 범죄를 고발하는 것이 정직일까, 숨겨 주는 것이 정직일까?현실 선택형",
           "id": "ly-13-18",
           "index": 2,
           "key": "ly-13-18:說:2:1",
           "label": "이렇게 보면",
           "original": "섭공은 아버지가 양을 훔치자 아들이 고발한 사람을 ‘곧은 사람’의 사례로 내세웁니다. 사실과 공적 규범을 가족 관계보다 앞에 둔 판단입니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "섭공은 아버지가 양을 훔치자 아들이 고발한 사람을 ‘곧은 사람’의 사례로 내세웁니다. 사실과 공적 규범을 가족 관계보다 앞에 둔 판단입니다.",
+          "reason": "고발한 주체와 평가받는 대상이 같은 아들임을 분명히 합니다.",
+          "revised": "섭공은 아버지가 양을 훔치자 이를 고발한 아들을 ‘곧은 사람’의 사례로 내세웁니다. 사실과 공적 규범을 가족 관계보다 앞에 둔 판단입니다.",
           "scope": "說",
-          "side": 1
+          "side": 1,
+          "revision_history": [
+            {
+              "pass": "targeted_type_2",
+              "previous_revision": "섭공은 아버지가 양을 훔치자 아들이 고발한 사람을 ‘곧은 사람’의 사례로 내세웁니다. 사실과 공적 규범을 가족 관계보다 앞에 둔 판단입니다.",
+              "revised": "섭공은 아버지가 양을 훔치자 이를 고발한 아들을 ‘곧은 사람’의 사례로 내세웁니다. 사실과 공적 규범을 가족 관계보다 앞에 둔 판단입니다.",
+              "reason": "고발한 주체와 평가받는 대상이 같은 아들임을 분명히 합니다.",
+              "approval_status": "approved",
+              "approval_message": "수정후 다음 시작",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "섭공은 아버지가 양을 훔치자 아들이 고발한 사람을 ‘곧은 사람’의 사례로 내세웁니다. 사실과 공적 규범을 가족 관계보다 앞에 둔 판단입니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_2"
         },
         {
           "book": 13,
@@ -10091,6 +10385,12 @@
         "path": "1차완성본/쉬운설명카드/13-자로.html",
         "repository": "hermes-blue/analects",
         "selector": "article.card details.st3 .js .side > p"
+      },
+      "latest_style_pass": {
+        "pass": "targeted_type_2",
+        "reviewed": 62,
+        "approved_applied": 1,
+        "status": "approved_applied"
       }
     },
     {
@@ -10596,8 +10896,8 @@
           "key": "ly-14-17:說:1:1",
           "label": "이렇게 보면",
           "original": "자로와 이어지는 자공의 질문은 관중이 자기 주군 공자 규를 따라 죽지 않고 오히려 제환공을 섬긴 일을 충절의 실패로 봅니다. 개인적 신의와 주군에 대한 의리를 기준으로 삼은 판단입니다.",
-          "reason": "충절의 실패를 직접 서술",
-          "revised": "자로와 이어지는 자공의 질문은 관중이 자기 주군 공자 규를 따라 죽지 않고 오히려 제환공을 섬긴 일을 충절을 지키지 못한 일로 봅니다. 개인적 신의와 주군에 대한 의리를 기준으로 삼은 판단입니다.",
+          "reason": "판단하는 주체를 질문에서 질문한 사람으로 바로잡습니다.",
+          "revised": "자로와 뒤이어 질문한 자공은 관중이 자기 주군 공자 규를 따라 죽지 않고 오히려 제환공을 섬긴 일을 충절을 지키지 못한 일로 봅니다. 개인적 신의와 주군에 대한 의리를 기준으로 삼은 판단입니다.",
           "scope": "說",
           "side": 1,
           "revision_history": [
@@ -10609,11 +10909,20 @@
               "approval_status": "approved",
               "approval_message": "굿 수정, 수정후 다음 시작",
               "date": "2026-09-08"
+            },
+            {
+              "pass": "targeted_type_2",
+              "previous_revision": "자로와 이어지는 자공의 질문은 관중이 자기 주군 공자 규를 따라 죽지 않고 오히려 제환공을 섬긴 일을 충절을 지키지 못한 일로 봅니다. 개인적 신의와 주군에 대한 의리를 기준으로 삼은 판단입니다.",
+              "revised": "자로와 뒤이어 질문한 자공은 관중이 자기 주군 공자 규를 따라 죽지 않고 오히려 제환공을 섬긴 일을 충절을 지키지 못한 일로 봅니다. 개인적 신의와 주군에 대한 의리를 기준으로 삼은 판단입니다.",
+              "reason": "판단하는 주체를 질문에서 질문한 사람으로 바로잡습니다.",
+              "approval_status": "approved",
+              "approval_message": "수정후 다음 시작",
+              "date": "2026-09-08"
             }
           ],
-          "previous_revision": "자로와 이어지는 자공의 질문은 관중이 자기 주군 공자 규를 따라 죽지 않고 오히려 제환공을 섬긴 일을 충절의 실패로 봅니다. 개인적 신의와 주군에 대한 의리를 기준으로 삼은 판단입니다.",
+          "previous_revision": "자로와 이어지는 자공의 질문은 관중이 자기 주군 공자 규를 따라 죽지 않고 오히려 제환공을 섬긴 일을 충절을 지키지 못한 일로 봅니다. 개인적 신의와 주군에 대한 의리를 기준으로 삼은 판단입니다.",
           "approval_status": "approved",
-          "last_revision_pass": "targeted_type_1"
+          "last_revision_pass": "targeted_type_2"
         },
         {
           "book": 14,
@@ -11518,7 +11827,7 @@
         "selector": "article.card details.st3 .js .side > p"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_1",
+        "pass": "targeted_type_2",
         "reviewed": 99,
         "approved_applied": 1,
         "status": "approved_applied"
@@ -12230,17 +12539,31 @@
         },
         {
           "book": 15,
-          "changed": false,
+          "changed": true,
           "heading": "‘사람을 시험해 본 뒤 칭찬함’ vs ‘《춘추》로 시비를 바로잡음’其有所試矣",
           "id": "ly-15-24",
           "index": 1,
           "key": "ly-15-24:說:1:1",
           "label": "포함(包咸) — 《논어집해》 인용",
           "original": "공자는 사람을 칭찬하기 전에 실제로 써 보고 능력을 시험했다고 풉니다. 이어지는 ‘삼대의 곧은 도’는 마융이 백성을 사사로움 없이 부린 원칙으로 읽습니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "공자는 사람을 칭찬하기 전에 실제로 써 보고 능력을 시험했다고 풉니다. 이어지는 ‘삼대의 곧은 도’는 마융이 백성을 사사로움 없이 부린 원칙으로 읽습니다.",
+          "reason": "해석하는 사람과 해석 대상을 분명히 합니다.",
+          "revised": "공자는 사람을 칭찬하기 전에 실제로 써 보고 능력을 시험했다고 풉니다. 마융은 이어지는 ‘삼대의 곧은 도’를 백성을 사사로움 없이 부린 원칙으로 읽습니다.",
           "scope": "說",
-          "side": 1
+          "side": 1,
+          "revision_history": [
+            {
+              "pass": "targeted_type_2",
+              "previous_revision": "공자는 사람을 칭찬하기 전에 실제로 써 보고 능력을 시험했다고 풉니다. 이어지는 ‘삼대의 곧은 도’는 마융이 백성을 사사로움 없이 부린 원칙으로 읽습니다.",
+              "revised": "공자는 사람을 칭찬하기 전에 실제로 써 보고 능력을 시험했다고 풉니다. 마융은 이어지는 ‘삼대의 곧은 도’를 백성을 사사로움 없이 부린 원칙으로 읽습니다.",
+              "reason": "해석하는 사람과 해석 대상을 분명히 합니다.",
+              "approval_status": "approved",
+              "approval_message": "수정후 다음 시작",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "공자는 사람을 칭찬하기 전에 실제로 써 보고 능력을 시험했다고 풉니다. 이어지는 ‘삼대의 곧은 도’는 마융이 백성을 사사로움 없이 부린 원칙으로 읽습니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_2"
         },
         {
           "book": 15,
@@ -12767,7 +13090,7 @@
         "selector": "article.card details.st3 .js .side > p"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_1",
+        "pass": "targeted_type_2",
         "reviewed": 86,
         "approved_applied": 1,
         "status": "approved_applied"
@@ -13756,17 +14079,31 @@
         },
         {
           "book": 17,
-          "changed": false,
+          "changed": true,
           "heading": "‘전갈한 사람이 듣게 함’ vs ‘문밖의 유비가 듣게 함’使之聞之",
           "id": "ly-17-20",
           "index": 1,
           "key": "ly-17-20:說:1:2",
           "label": "채청(蔡淸)·정약용(丁若鏞) 《논어고금주》",
           "original": "노랫소리가 밖까지 퍼져 유비 자신이 듣게 했다고 봅니다. 병을 핑계로 만나지 않았음을 일부러 알려, 유비가 거절당한 까닭을 스스로 생각하게 했다는 풀이입니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "노랫소리가 밖까지 퍼져 유비 자신이 듣게 했다고 봅니다. 병을 핑계로 만나지 않았음을 일부러 알려, 유비가 거절당한 까닭을 스스로 생각하게 했다는 풀이입니다.",
+          "reason": "소리를 퍼뜨려 듣게 하는 주체와 서술어를 맞춥니다.",
+          "revised": "노랫소리를 밖까지 퍼뜨려 유비 자신이 듣게 했다고 봅니다. 병을 핑계로 만나지 않았음을 일부러 알려, 유비가 거절당한 까닭을 스스로 생각하게 했다는 풀이입니다.",
           "scope": "說",
-          "side": 2
+          "side": 2,
+          "revision_history": [
+            {
+              "pass": "targeted_type_2",
+              "previous_revision": "노랫소리가 밖까지 퍼져 유비 자신이 듣게 했다고 봅니다. 병을 핑계로 만나지 않았음을 일부러 알려, 유비가 거절당한 까닭을 스스로 생각하게 했다는 풀이입니다.",
+              "revised": "노랫소리를 밖까지 퍼뜨려 유비 자신이 듣게 했다고 봅니다. 병을 핑계로 만나지 않았음을 일부러 알려, 유비가 거절당한 까닭을 스스로 생각하게 했다는 풀이입니다.",
+              "reason": "소리를 퍼뜨려 듣게 하는 주체와 서술어를 맞춥니다.",
+              "approval_status": "approved",
+              "approval_message": "수정후 다음 시작",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "노랫소리가 밖까지 퍼져 유비 자신이 듣게 했다고 봅니다. 병을 핑계로 만나지 않았음을 일부러 알려, 유비가 거절당한 까닭을 스스로 생각하게 했다는 풀이입니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_2"
         },
         {
           "book": 17,
@@ -13969,6 +14306,12 @@
         "path": "1차완성본/쉬운설명카드/17-양화.html",
         "repository": "hermes-blue/analects",
         "selector": "article.card details.st3 .js .side > p"
+      },
+      "latest_style_pass": {
+        "pass": "targeted_type_2",
+        "reviewed": 53,
+        "approved_applied": 1,
+        "status": "approved_applied"
       }
     },
     {
@@ -13991,17 +14334,31 @@
         },
         {
           "book": 18,
-          "changed": false,
+          "changed": true,
           "heading": "‘주왕의 이복형’ vs ‘주왕의 숙부 세대’미자는 주왕과 어떤 관계인가",
           "id": "ly-18-01",
           "index": 1,
           "key": "ly-18-01:說:1:2",
           "label": "요내(姚鼐) — 《맹자》 전승을 따름",
           "original": "《맹자》의 표현을 근거로 미자를 비간처럼 주왕의 숙부 세대로 봅니다. 그러면 세 사람의 신분 관계와 왜 서로 다른 방식으로 책임을 졌는지 배경부터 달라집니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "《맹자》의 표현을 근거로 미자를 비간처럼 주왕의 숙부 세대로 봅니다. 그러면 세 사람의 신분 관계와 왜 서로 다른 방식으로 책임을 졌는지 배경부터 달라집니다.",
+          "reason": "신분 관계와 책임을 진 배경을 같은 명사구 형태로 연결합니다.",
+          "revised": "《맹자》의 표현을 근거로 미자를 비간처럼 주왕의 숙부 세대로 봅니다. 그러면 세 사람의 신분 관계와 서로 다른 방식으로 책임을 진 배경부터 달라집니다.",
           "scope": "說",
-          "side": 2
+          "side": 2,
+          "revision_history": [
+            {
+              "pass": "targeted_type_2",
+              "previous_revision": "《맹자》의 표현을 근거로 미자를 비간처럼 주왕의 숙부 세대로 봅니다. 그러면 세 사람의 신분 관계와 왜 서로 다른 방식으로 책임을 졌는지 배경부터 달라집니다.",
+              "revised": "《맹자》의 표현을 근거로 미자를 비간처럼 주왕의 숙부 세대로 봅니다. 그러면 세 사람의 신분 관계와 서로 다른 방식으로 책임을 진 배경부터 달라집니다.",
+              "reason": "신분 관계와 책임을 진 배경을 같은 명사구 형태로 연결합니다.",
+              "approval_status": "approved",
+              "approval_message": "수정후 다음 시작",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "《맹자》의 표현을 근거로 미자를 비간처럼 주왕의 숙부 세대로 봅니다. 그러면 세 사람의 신분 관계와 왜 서로 다른 방식으로 책임을 졌는지 배경부터 달라집니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_2"
         },
         {
           "book": 18,
@@ -14302,6 +14659,12 @@
         "path": "1차완성본/쉬운설명카드/18-미자.html",
         "repository": "hermes-blue/analects",
         "selector": "article.card details.st3 .js .side > p"
+      },
+      "latest_style_pass": {
+        "pass": "targeted_type_2",
+        "reviewed": 22,
+        "approved_applied": 1,
+        "status": "approved_applied"
       }
     },
     {
@@ -15168,8 +15531,8 @@
     }
   ],
   "latest_style_pass": {
-    "pass": "targeted_type_1",
+    "pass": "targeted_type_2",
     "reviewed": 1040,
-    "approved_applied": 5
+    "approved_applied": 22
   }
 }

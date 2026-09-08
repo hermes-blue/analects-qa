@@ -1374,15 +1374,29 @@
     },
     {
       "book": 11,
-      "changed": false,
+      "changed": true,
       "id": "ly-11-24",
       "index": 5,
       "key": "ly-11-24:語:5",
       "label": "惡夫佞者오부녕자",
       "original": "말을 잘 꾸며 논리를 이기는 사람을 싫어한다는 뜻입니다. 그럴듯한 말보다 실제로 사람을 해치지 않는 판단과 준비가 더 중요하다는 맥락입니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "말을 잘 꾸며 논리를 이기는 사람을 싫어한다는 뜻입니다. 그럴듯한 말보다 실제로 사람을 해치지 않는 판단과 준비가 더 중요하다는 맥락입니다.",
-      "scope": "語"
+      "reason": "이기다의 대상과 조사를 자연스럽게 연결합니다.",
+      "revised": "말을 잘 꾸며 논쟁에서 이기는 사람을 싫어한다는 뜻입니다. 그럴듯한 말보다 실제로 사람을 해치지 않는 판단과 준비가 더 중요하다는 맥락입니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_2",
+          "previous_revision": "말을 잘 꾸며 논리를 이기는 사람을 싫어한다는 뜻입니다. 그럴듯한 말보다 실제로 사람을 해치지 않는 판단과 준비가 더 중요하다는 맥락입니다.",
+          "revised": "말을 잘 꾸며 논쟁에서 이기는 사람을 싫어한다는 뜻입니다. 그럴듯한 말보다 실제로 사람을 해치지 않는 판단과 준비가 더 중요하다는 맥락입니다.",
+          "reason": "이기다의 대상과 조사를 자연스럽게 연결합니다.",
+          "approval_status": "approved",
+          "approval_message": "수정후 다음 시작",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "말을 잘 꾸며 논리를 이기는 사람을 싫어한다는 뜻입니다. 그럴듯한 말보다 실제로 사람을 해치지 않는 판단과 준비가 더 중요하다는 맥락입니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_2"
     },
     {
       "book": 11,
@@ -1434,15 +1448,29 @@
     },
     {
       "book": 11,
-      "changed": false,
+      "changed": true,
       "id": "ly-11-25",
       "index": 5,
       "key": "ly-11-25:語:5",
       "label": "吾與點也오여점야",
       "original": "나는 증점의 뜻에 동의한다는 공자님의 말입니다. 정치 기술을 직접 말한 다른 제자들과 달리, 이미 질서와 조화가 생활 속에 이루어진 모습을 공감한 것으로 읽힙니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "나는 증점의 뜻에 동의한다는 공자님의 말입니다. 정치 기술을 직접 말한 다른 제자들과 달리, 이미 질서와 조화가 생활 속에 이루어진 모습을 공감한 것으로 읽힙니다.",
-      "scope": "語"
+      "reason": "공감하다에 맞는 조사를 씁니다.",
+      "revised": "나는 증점의 뜻에 동의한다는 공자님의 말입니다. 정치 기술을 직접 말한 다른 제자들과 달리, 이미 질서와 조화가 생활 속에 이루어진 모습에 공감한 것으로 읽힙니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_2",
+          "previous_revision": "나는 증점의 뜻에 동의한다는 공자님의 말입니다. 정치 기술을 직접 말한 다른 제자들과 달리, 이미 질서와 조화가 생활 속에 이루어진 모습을 공감한 것으로 읽힙니다.",
+          "revised": "나는 증점의 뜻에 동의한다는 공자님의 말입니다. 정치 기술을 직접 말한 다른 제자들과 달리, 이미 질서와 조화가 생활 속에 이루어진 모습에 공감한 것으로 읽힙니다.",
+          "reason": "공감하다에 맞는 조사를 씁니다.",
+          "approval_status": "approved",
+          "approval_message": "수정후 다음 시작",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "나는 증점의 뜻에 동의한다는 공자님의 말입니다. 정치 기술을 직접 말한 다른 제자들과 달리, 이미 질서와 조화가 생활 속에 이루어진 모습을 공감한 것으로 읽힙니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_2"
     }
   ],
   "method": "문체 패턴으로 후보를 찾고 후보 문장의 표현과 문맥을 검토하는 선별 교정. 내용 검수는 하지 않음.",
@@ -1465,9 +1493,9 @@
     "selector": "article.card details.st1 .w > p:not(.wh)"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_1",
+    "pass": "targeted_type_2",
     "reviewed": 119,
-    "approved_applied": 1,
+    "approved_applied": 2,
     "status": "approved_applied"
   }
 }

@@ -706,16 +706,30 @@
     },
     {
       "book": 15,
-      "changed": false,
+      "changed": true,
       "field": "질문",
       "id": "ly-15-09",
       "index": 1,
       "key": "ly-15-09:問:1:q",
       "label": "질문",
       "original": "공자님은 왜 仁을 실천하는 방법을 묻자 ‘도구를 먼저 갈라’는 비유를 썼나요?",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "공자님은 왜 仁을 실천하는 방법을 묻자 ‘도구를 먼저 갈라’는 비유를 썼나요?",
-      "scope": "問"
+      "reason": "묻는 사람과 답하는 사람을 구분합니다.",
+      "revised": "누군가 仁을 실천하는 방법을 묻자 공자님은 왜 ‘도구를 먼저 갈라’는 비유를 썼나요?",
+      "scope": "問",
+      "revision_history": [
+        {
+          "pass": "targeted_type_2",
+          "previous_revision": "공자님은 왜 仁을 실천하는 방법을 묻자 ‘도구를 먼저 갈라’는 비유를 썼나요?",
+          "revised": "누군가 仁을 실천하는 방법을 묻자 공자님은 왜 ‘도구를 먼저 갈라’는 비유를 썼나요?",
+          "reason": "묻는 사람과 답하는 사람을 구분합니다.",
+          "approval_status": "approved",
+          "approval_message": "수정후 다음 시작",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "공자님은 왜 仁을 실천하는 방법을 묻자 ‘도구를 먼저 갈라’는 비유를 썼나요?",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_2"
     },
     {
       "book": 15,
@@ -823,16 +837,30 @@
     },
     {
       "book": 15,
-      "changed": false,
+      "changed": true,
       "field": "답변",
       "id": "ly-15-10",
       "index": 2,
       "key": "ly-15-10:問:2:a",
       "label": "답변",
       "original": "韶는 조화롭고 바른 음악의 상징, 鄭聲은 감각적 자극에 치우친 음악으로 여겼습니다. 정치에서 사람의 마음과 풍속을 만드는 문화의 힘을 중요하게 본 것입니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "韶는 조화롭고 바른 음악의 상징, 鄭聲은 감각적 자극에 치우친 음악으로 여겼습니다. 정치에서 사람의 마음과 풍속을 만드는 문화의 힘을 중요하게 본 것입니다.",
-      "scope": "問"
+      "reason": "뒤의 여겼다는 서술어에 맞춰 병렬 구성을 고칩니다.",
+      "revised": "韶는 조화롭고 바른 음악의 상징으로, 鄭聲은 감각적 자극에 치우친 음악으로 여겼습니다. 정치에서 사람의 마음과 풍속을 만드는 문화의 힘을 중요하게 본 것입니다.",
+      "scope": "問",
+      "revision_history": [
+        {
+          "pass": "targeted_type_2",
+          "previous_revision": "韶는 조화롭고 바른 음악의 상징, 鄭聲은 감각적 자극에 치우친 음악으로 여겼습니다. 정치에서 사람의 마음과 풍속을 만드는 문화의 힘을 중요하게 본 것입니다.",
+          "revised": "韶는 조화롭고 바른 음악의 상징으로, 鄭聲은 감각적 자극에 치우친 음악으로 여겼습니다. 정치에서 사람의 마음과 풍속을 만드는 문화의 힘을 중요하게 본 것입니다.",
+          "reason": "뒤의 여겼다는 서술어에 맞춰 병렬 구성을 고칩니다.",
+          "approval_status": "approved",
+          "approval_message": "수정후 다음 시작",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "韶는 조화롭고 바른 음악의 상징, 鄭聲은 감각적 자극에 치우친 음악으로 여겼습니다. 정치에서 사람의 마음과 풍속을 만드는 문화의 힘을 중요하게 본 것입니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_2"
     },
     {
       "book": 15,
@@ -2774,16 +2802,30 @@
     },
     {
       "book": 15,
-      "changed": false,
+      "changed": true,
       "field": "질문",
       "id": "ly-15-35",
       "index": 2,
       "key": "ly-15-35:問:2:q",
       "label": "질문",
       "original": "왜 하필 ‘師’까지 양보하지 말라고 했나요?",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "왜 하필 ‘師’까지 양보하지 말라고 했나요?",
-      "scope": "問"
+      "reason": "양보를 받는 대상의 조사를 보충합니다.",
+      "revised": "왜 하필 ‘師’에게까지 양보하지 말라고 했나요?",
+      "scope": "問",
+      "revision_history": [
+        {
+          "pass": "targeted_type_2",
+          "previous_revision": "왜 하필 ‘師’까지 양보하지 말라고 했나요?",
+          "revised": "왜 하필 ‘師’에게까지 양보하지 말라고 했나요?",
+          "reason": "양보를 받는 대상의 조사를 보충합니다.",
+          "approval_status": "approved",
+          "approval_message": "수정후 다음 시작",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "왜 하필 ‘師’까지 양보하지 말라고 했나요?",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_2"
     },
     {
       "book": 15,
@@ -3355,9 +3397,9 @@
     "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_1",
+    "pass": "targeted_type_2",
     "reviewed": 252,
-    "approved_applied": 4,
+    "approved_applied": 3,
     "status": "approved_applied"
   }
 }

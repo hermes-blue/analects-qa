@@ -1026,15 +1026,29 @@
     },
     {
       "book": 14,
-      "changed": false,
+      "changed": true,
       "id": "ly-14-20",
       "index": 3,
       "key": "ly-14-20:語:3",
       "label": "治賓客치빈객",
       "original": "외교 사절과 손님을 잘 처리한다는 뜻입니다. 위나라에 외교를 담당할 유능한 인재가 있었음을 보여 줍니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "외교 사절과 손님을 잘 처리한다는 뜻입니다. 위나라에 외교를 담당할 유능한 인재가 있었음을 보여 줍니다.",
-      "scope": "語"
+      "reason": "사람을 처리한다는 어색한 목적어·서술어 연결을 고칩니다.",
+      "revised": "외교 사절과 손님을 잘 접대한다는 뜻입니다. 위나라에 외교를 담당할 유능한 인재가 있었음을 보여 줍니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_2",
+          "previous_revision": "외교 사절과 손님을 잘 처리한다는 뜻입니다. 위나라에 외교를 담당할 유능한 인재가 있었음을 보여 줍니다.",
+          "revised": "외교 사절과 손님을 잘 접대한다는 뜻입니다. 위나라에 외교를 담당할 유능한 인재가 있었음을 보여 줍니다.",
+          "reason": "사람을 처리한다는 어색한 목적어·서술어 연결을 고칩니다.",
+          "approval_status": "approved",
+          "approval_message": "수정후 다음 시작",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "외교 사절과 손님을 잘 처리한다는 뜻입니다. 위나라에 외교를 담당할 유능한 인재가 있었음을 보여 줍니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_2"
     },
     {
       "book": 14,
@@ -2391,9 +2405,9 @@
     "selector": "article.card details.st1 .w > p:not(.wh)"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_1",
+    "pass": "targeted_type_2",
     "reviewed": 195,
-    "approved_applied": 2,
+    "approved_applied": 1,
     "status": "approved_applied"
   }
 }

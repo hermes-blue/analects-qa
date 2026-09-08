@@ -501,8 +501,8 @@
       "key": "ly-14-17:說:1:1",
       "label": "이렇게 보면",
       "original": "자로와 이어지는 자공의 질문은 관중이 자기 주군 공자 규를 따라 죽지 않고 오히려 제환공을 섬긴 일을 충절의 실패로 봅니다. 개인적 신의와 주군에 대한 의리를 기준으로 삼은 판단입니다.",
-      "reason": "충절의 실패를 직접 서술",
-      "revised": "자로와 이어지는 자공의 질문은 관중이 자기 주군 공자 규를 따라 죽지 않고 오히려 제환공을 섬긴 일을 충절을 지키지 못한 일로 봅니다. 개인적 신의와 주군에 대한 의리를 기준으로 삼은 판단입니다.",
+      "reason": "판단하는 주체를 질문에서 질문한 사람으로 바로잡습니다.",
+      "revised": "자로와 뒤이어 질문한 자공은 관중이 자기 주군 공자 규를 따라 죽지 않고 오히려 제환공을 섬긴 일을 충절을 지키지 못한 일로 봅니다. 개인적 신의와 주군에 대한 의리를 기준으로 삼은 판단입니다.",
       "scope": "說",
       "side": 1,
       "revision_history": [
@@ -514,11 +514,20 @@
           "approval_status": "approved",
           "approval_message": "굿 수정, 수정후 다음 시작",
           "date": "2026-09-08"
+        },
+        {
+          "pass": "targeted_type_2",
+          "previous_revision": "자로와 이어지는 자공의 질문은 관중이 자기 주군 공자 규를 따라 죽지 않고 오히려 제환공을 섬긴 일을 충절을 지키지 못한 일로 봅니다. 개인적 신의와 주군에 대한 의리를 기준으로 삼은 판단입니다.",
+          "revised": "자로와 뒤이어 질문한 자공은 관중이 자기 주군 공자 규를 따라 죽지 않고 오히려 제환공을 섬긴 일을 충절을 지키지 못한 일로 봅니다. 개인적 신의와 주군에 대한 의리를 기준으로 삼은 판단입니다.",
+          "reason": "판단하는 주체를 질문에서 질문한 사람으로 바로잡습니다.",
+          "approval_status": "approved",
+          "approval_message": "수정후 다음 시작",
+          "date": "2026-09-08"
         }
       ],
-      "previous_revision": "자로와 이어지는 자공의 질문은 관중이 자기 주군 공자 규를 따라 죽지 않고 오히려 제환공을 섬긴 일을 충절의 실패로 봅니다. 개인적 신의와 주군에 대한 의리를 기준으로 삼은 판단입니다.",
+      "previous_revision": "자로와 이어지는 자공의 질문은 관중이 자기 주군 공자 규를 따라 죽지 않고 오히려 제환공을 섬긴 일을 충절을 지키지 못한 일로 봅니다. 개인적 신의와 주군에 대한 의리를 기준으로 삼은 판단입니다.",
       "approval_status": "approved",
-      "last_revision_pass": "targeted_type_1"
+      "last_revision_pass": "targeted_type_2"
     },
     {
       "book": 14,
@@ -1423,7 +1432,7 @@
     "selector": "article.card details.st3 .js .side > p"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_1",
+    "pass": "targeted_type_2",
     "reviewed": 99,
     "approved_applied": 1,
     "status": "approved_applied"
