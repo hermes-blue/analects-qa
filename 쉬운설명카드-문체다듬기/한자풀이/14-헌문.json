@@ -2026,15 +2026,29 @@
     },
     {
       "book": 14,
-      "changed": false,
+      "changed": true,
       "id": "ly-14-39",
       "index": 3,
       "key": "ly-14-39:語:3",
       "label": "辟色피색",
       "original": "윗사람의 얼굴빛이나 태도가 자신을 받아들이지 않음을 보고 물러나는 것을 뜻합니다. 상황의 기색을 읽고 위험을 피하는 처신입니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "윗사람의 얼굴빛이나 태도가 자신을 받아들이지 않음을 보고 물러나는 것을 뜻합니다. 상황의 기색을 읽고 위험을 피하는 처신입니다.",
-      "scope": "語"
+      "reason": "「받아들이지 않음을 보고」를 서술형으로 풀고, 얼굴빛과 태도를 보고 판단하는 관계를 분명히 합니다.",
+      "revised": "윗사람의 얼굴빛이나 태도를 보고 자신을 받아들이지 않는다고 판단해 물러나는 것을 뜻합니다. 상황의 기색을 읽고 위험을 피하는 처신입니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_14",
+          "previous_revision": "윗사람의 얼굴빛이나 태도가 자신을 받아들이지 않음을 보고 물러나는 것을 뜻합니다. 상황의 기색을 읽고 위험을 피하는 처신입니다.",
+          "revised": "윗사람의 얼굴빛이나 태도를 보고 자신을 받아들이지 않는다고 판단해 물러나는 것을 뜻합니다. 상황의 기색을 읽고 위험을 피하는 처신입니다.",
+          "reason": "「받아들이지 않음을 보고」를 서술형으로 풀고, 얼굴빛과 태도를 보고 판단하는 관계를 분명히 합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨 반영후 계속 돌려",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "윗사람의 얼굴빛이나 태도가 자신을 받아들이지 않음을 보고 물러나는 것을 뜻합니다. 상황의 기색을 읽고 위험을 피하는 처신입니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_14"
     },
     {
       "book": 14,
@@ -2559,9 +2573,9 @@
     "selector": "article.card details.st1 .w > p:not(.wh)"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_6",
+    "pass": "targeted_type_14",
     "scanned": 195,
     "approved_applied": 1,
-    "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
+    "method": "전체 검색 후 일반 명사 등 제외, 후보 438개 문맥 검토. 모든 문장 종합 정독 아님"
   }
 }

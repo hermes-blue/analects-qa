@@ -176,15 +176,29 @@
     },
     {
       "book": 4,
-      "changed": false,
+      "changed": true,
       "id": "ly-04-03",
       "index": 3,
       "key": "ly-04-03:語:3",
       "label": "惡人오인",
       "original": "사람의 그릇됨을 제대로 미워할 수 있다는 뜻입니다. 仁이 단순한 무조건적 친절이 아니라, 옳고 그름을 분별해 잘못을 거부하는 힘도 포함함을 보여줍니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "사람의 그릇됨을 제대로 미워할 수 있다는 뜻입니다. 仁이 단순한 무조건적 친절이 아니라, 옳고 그름을 분별해 잘못을 거부하는 힘도 포함함을 보여줍니다.",
-      "scope": "語"
+      "reason": "「포함함을 보여줍니다」를 「포함합니다」로 바꾸어 설명하려는 내용을 직접 전합니다.",
+      "revised": "사람의 그릇됨을 제대로 미워할 수 있다는 뜻입니다. 仁은 무조건적인 친절뿐 아니라, 옳고 그름을 분별해 잘못을 거부하는 힘도 포함합니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_14",
+          "previous_revision": "사람의 그릇됨을 제대로 미워할 수 있다는 뜻입니다. 仁이 단순한 무조건적 친절이 아니라, 옳고 그름을 분별해 잘못을 거부하는 힘도 포함함을 보여줍니다.",
+          "revised": "사람의 그릇됨을 제대로 미워할 수 있다는 뜻입니다. 仁은 무조건적인 친절뿐 아니라, 옳고 그름을 분별해 잘못을 거부하는 힘도 포함합니다.",
+          "reason": "「포함함을 보여줍니다」를 「포함합니다」로 바꾸어 설명하려는 내용을 직접 전합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨 반영후 계속 돌려",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "사람의 그릇됨을 제대로 미워할 수 있다는 뜻입니다. 仁이 단순한 무조건적 친절이 아니라, 옳고 그름을 분별해 잘못을 거부하는 힘도 포함함을 보여줍니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_14"
     },
     {
       "book": 4,
@@ -1720,9 +1734,9 @@
     "selector": "article.card details.st1 .w > p:not(.wh)"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_8",
+    "pass": "targeted_type_14",
     "scanned": 115,
     "approved_applied": 1,
-    "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
+    "method": "전체 검색 후 일반 명사 등 제외, 후보 438개 문맥 검토. 모든 문장 종합 정독 아님"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "apply_status": "유형 13 승인안 20곳을 수정본 JSON에 반영. 원본 HTML 미적용.",
+  "apply_status": "유형 14 승인안 11곳을 수정본 JSON에 반영. 원본 HTML 미적용.",
   "book_count": 20,
   "card_count": 498,
   "content_review_performed": false,
@@ -412,7 +412,7 @@
     },
     {
       "book_count": 20,
-      "changed": 319,
+      "changed": 326,
       "labels_preserved": true,
       "method": "전 항목에서 문체 패턴으로 후보를 찾아 후보 문장의 문맥을 확인하는 선별 교정.",
       "name": "한자풀이",
@@ -581,20 +581,20 @@
           "scanned_text_fields": 15
         }
       ],
-      "status": "approved_targeted_type_4_applied",
+      "status": "approved_targeted_type_14_applied",
       "text_fields": 2311,
-      "unchanged": 2051,
+      "unchanged": 1985,
       "unique_cards": 498,
       "latest_style_pass": {
-        "pass": "targeted_type_4",
-        "approved_applied": 77,
+        "pass": "targeted_type_14",
+        "approved_applied": 7,
         "reviewed": 2311,
-        "method": "20편의 핵심·語·問·說 전체 6,921개 본문 항목을 순서대로 읽고 유형 4 후보 127곳을 전후 대조한 뒤 사용자 승인에 따라 반영. 내용·해석 검수는 하지 않음."
+        "method": "전체 검색 후 일반 명사 등 제외, 후보 438개 문맥 검토. 모든 문장 종합 정독 아님"
       }
     },
     {
       "book_count": 20,
-      "changed": 244,
+      "changed": 246,
       "labels_preserved": true,
       "method": "전 항목에서 문체 패턴으로 후보를 찾아 후보 문장의 문맥을 확인하는 선별 교정.",
       "name": "의문",
@@ -763,20 +763,20 @@
           "scanned_text_fields": 18
         }
       ],
-      "status": "approved_targeted_type_4_applied",
+      "status": "approved_targeted_type_14_applied",
       "text_fields": 3072,
-      "unchanged": 2877,
+      "unchanged": 2826,
       "unique_cards": 498,
       "latest_style_pass": {
-        "pass": "targeted_type_4",
-        "approved_applied": 35,
+        "pass": "targeted_type_14",
+        "approved_applied": 2,
         "reviewed": 3072,
-        "method": "20편의 핵심·語·問·說 전체 6,921개 본문 항목을 순서대로 읽고 유형 4 후보 127곳을 전후 대조한 뒤 사용자 승인에 따라 반영. 내용·해석 검수는 하지 않음."
+        "method": "전체 검색 후 일반 명사 등 제외, 후보 438개 문맥 검토. 모든 문장 종합 정독 아님"
       }
     },
     {
       "book_count": 20,
-      "changed": 194,
+      "changed": 196,
       "labels_preserved": true,
       "method": "전 항목에서 문체 패턴으로 후보를 찾아 후보 문장의 문맥을 확인하는 선별 교정.",
       "name": "쟁점",
@@ -945,30 +945,32 @@
           "scanned_text_fields": 8
         }
       ],
-      "status": "approved_targeted_type_4_applied",
+      "status": "approved_targeted_type_14_applied",
       "text_fields": 1040,
-      "unchanged": 943,
+      "unchanged": 844,
       "unique_cards": 498,
       "latest_style_pass": {
-        "pass": "targeted_type_4",
-        "approved_applied": 15,
+        "pass": "targeted_type_14",
+        "approved_applied": 2,
         "reviewed": 1040,
-        "method": "20편의 핵심·語·問·說 전체 6,921개 본문 항목을 순서대로 읽고 유형 4 후보 127곳을 전후 대조한 뒤 사용자 승인에 따라 반영. 내용·해석 검수는 하지 않음."
+        "method": "전체 검색 후 일반 명사 등 제외, 후보 438개 문맥 검토. 모든 문장 종합 정독 아님"
       }
     }
   ],
-  "status": "approved_targeted_type_13_applied",
-  "total_changed_text_fields": 1123,
+  "status": "approved_targeted_type_14_applied",
+  "total_changed_text_fields": 1134,
   "last_completed_pass": {
-    "type": 13,
-    "scope": "무생물 주어의 판단·인지 표현",
+    "type": 14,
+    "scope": "명사형 어미로 딱딱해진 서술",
     "status": "approved_applied",
     "scanned": 6921,
-    "keyword_matches_context_reviewed": 408,
-    "approved_applied": 20,
-    "retained_matches": 388,
-    "approval_message": "제이슨 반영후 동사나 형용사를 명사화한것들 찾아봐",
-    "method": "전체 검색 후 후보 408개 문맥 검토. 모든 문장 종합 정독 아님"
+    "keyword_matches": 761,
+    "excluded_lexical_matches": 323,
+    "keyword_matches_context_reviewed": 438,
+    "approved_applied": 11,
+    "retained_matches": 427,
+    "approval_message": "제이슨 반영후 계속 돌려",
+    "method": "전체 검색 후 일반 명사 등 제외, 후보 438개 문맥 검토. 모든 문장 종합 정독 아님"
   },
   "targeted_reviews": [
     {
@@ -2125,6 +2127,19 @@
       "retained_matches": 388,
       "approval_message": "제이슨 반영후 동사나 형용사를 명사화한것들 찾아봐",
       "method": "전체 검색 후 후보 408개 문맥 검토. 모든 문장 종합 정독 아님"
+    },
+    {
+      "type": 14,
+      "scope": "명사형 어미로 딱딱해진 서술",
+      "status": "approved_applied",
+      "scanned": 6921,
+      "keyword_matches": 761,
+      "excluded_lexical_matches": 323,
+      "keyword_matches_context_reviewed": 438,
+      "approved_applied": 11,
+      "retained_matches": 427,
+      "approval_message": "제이슨 반영후 계속 돌려",
+      "method": "전체 검색 후 일반 명사 등 제외, 후보 438개 문맥 검토. 모든 문장 종합 정독 아님"
     }
   ]
 }
