@@ -1,0 +1,42 @@
+{
+  "상태": "사용자 승인 후 본문 JSON 반영 완료",
+  "승인안커밋": "2851de917c0e3c29b93814254ed7492499bc7d5c",
+  "반영기준main": "60a02eab38b1ba390104bc16f79f06725eee0119",
+  "승인요청": "오케이 제이슨 반영후 다음 유형 도 돌려",
+  "전체편수": 20,
+  "전체장수": 498,
+  "수정장수": 25,
+  "수정곳수": 25,
+  "변경본문파일수": 15,
+  "검증": {
+    "정확한수정전일치": 25,
+    "승인안전체반영": true,
+    "역치환원본복원": true,
+    "장수ID순서보호필드보존": true,
+    "향당": 17,
+    "요왈": 3,
+    "글자수": "1·2편 줄바꿈 포함, 3~19편 줄바꿈 제외; 기존 필드만 갱신"
+  },
+  "본문SHA": {
+    "sourcecards-stage1-copyedit-20260907/round3/01-hakyi.json": "65b15f3f682339725ac0d31481d8daf3c2f64080",
+    "sourcecards-stage1-copyedit-20260907/round3/02-wijeong.json": "18290dbbeb6159ea4ba90cebca5146f8a1f5a4b3",
+    "sourcecards-stage1-copyedit-20260907/round3/03-palil.json": "6ca452c413b721767802255754a38201cd631d74",
+    "sourcecards-stage1-copyedit-20260907/round3/04-iin.json": "7df83014891e2ec7e9c9f5e1c44cab99d9e093a4",
+    "sourcecards-stage1-copyedit-20260907/round3/05-gongyajang.json": "ec490bb0508b8aa828959b5ce75a091cb8bed184",
+    "sourcecards-stage1-copyedit-20260907/round3/06-yongya.json": "8759f28cc8cd35145186650ce66e1a847a9074fb",
+    "sourcecards-stage1-copyedit-20260907/round3/07-suli.json": "4f961190f798fbf4f8a0aecb0c726d0efe5bb590",
+    "sourcecards-stage1-copyedit-20260907/round3/08-taebaek.json": "2c93fbeec1eca0f09a729b9c19e4a751ba2f1e64",
+    "sourcecards-stage1-copyedit-20260907/round3/09-jahan.json": "5476e450489b5154ad5e0521a319eaaadd24237f",
+    "sourcecards-stage1-copyedit-20260907/round3/10-hyangdang.json": "6d1ddf2d2010cbda9bd84204d67fb43b2bd7b05a",
+    "sourcecards-stage1-copyedit-20260907/round3/11-seonjin.json": "b2a33b69b01ec7bd923c24ea9620d847bad23c0b",
+    "sourcecards-stage1-copyedit-20260907/round3/12-anyeon.json": "c6d11927f8284a13781ae2d0fe7d66e6278cac90",
+    "sourcecards-stage1-copyedit-20260907/round3/13-jaro.json": "8a9e1622d308239dde08e302e018e6a4022aca56",
+    "sourcecards-stage1-copyedit-20260907/round3/14-heonmun.json": "82e06ddabea94171fd7a0d84431f5cf3542fc508",
+    "sourcecards-stage1-copyedit-20260907/round3/15-wiryeonggong.json": "8424c418429be75c6e7291314aed3dce936fa7ec",
+    "sourcecards-stage1-copyedit-20260907/round3/16-gyessi.json": "fea183d90e0c21c1822d0e6656b2f68cf68d7cd9",
+    "sourcecards-stage1-copyedit-20260907/round3/17-yanghwa.json": "a04ca93543231a8ebe785d705d577778a892fad6",
+    "sourcecards-stage1-copyedit-20260907/round3/18-mija.json": "b91c3477cf4af34323414420f3472da2db4dac1c",
+    "sourcecards-stage1-copyedit-20260907/round3/19-jajang.json": "74c919e21b1a9c6ff20915bf3ab6655d4a1ce78e",
+    "sourcecards-stage1-copyedit-20260907/round3/20-yowal.json": "adf1b1f363740361dbc52878b0a802d4e5d4dbcc"
+  }
+}
