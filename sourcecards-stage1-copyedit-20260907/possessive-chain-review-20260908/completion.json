@@ -38,5 +38,12 @@
     "sourcecards-stage1-copyedit-20260907/round3/18-mija.json": "b91c3477cf4af34323414420f3472da2db4dac1c",
     "sourcecards-stage1-copyedit-20260907/round3/19-jajang.json": "74c919e21b1a9c6ff20915bf3ab6655d4a1ce78e",
     "sourcecards-stage1-copyedit-20260907/round3/20-yowal.json": "adf1b1f363740361dbc52878b0a802d4e5d4dbcc"
+  },
+  "반영커밋": "9f120754830f832ed09bf82dcd07621e342dbab0",
+  "원격검증": {
+    "확인main": "75123c800c1029fd679f9baff01ca2143fe1f51c",
+    "본문파일수": 20,
+    "내용및SHA전체일치": true,
+    "승인안25곳전체반영": true
   }
 }
