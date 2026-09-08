@@ -1,0 +1,59 @@
+name: TEMP Apply Stage2 Repetitive Commentary 38
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/temp-apply-stage2-repetitive-commentary-38.yml']
+permissions:
+  contents: write
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Apply approved edits
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json, glob
+          from pathlib import Path
+          audit_path=Path('sourcecards-targeted-review-7passes/cycle2-pass8-repetitive-commentary/audit.json')
+          audit=json.loads(audit_path.read_text(encoding='utf-8'))
+          cs=audit['후보']
+          if len(cs)!=38: raise SystemExit(f'expected 38 candidates, got {len(cs)}')
+          staged={}; ids=set()
+          for c in cs:
+              p=Path(c['파일'])
+              text=staged.get(p,p.read_text(encoding='utf-8'))
+              old,new=c['수정전전체'],c['수정후전체']
+              n=text.count(old)
+              if n!=1: raise SystemExit(f"{c['구절ID']}: expected 1 exact match, got {n}")
+              text=text.replace(old,new,1)
+              json.loads(text)
+              staged[p]=text; ids.add(c['구절ID'])
+          if len(ids)!=38: raise SystemExit(f'expected 38 unique ids, got {len(ids)}')
+          for p,text in staged.items(): p.write_text(text,encoding='utf-8')
+          for c in cs:
+              c['승인상태']='승인완료'; c['본문반영']=True
+          audit['승인상태']='승인완료'; audit['본문반영수']=38; audit['반영완료']=True
+          audit_path.write_text(json.dumps(audit,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          files=sorted(glob.glob('sourcecards-style-polish/[0-9][0-9]-*.json'))
+          if len(files)!=20: raise SystemExit(f'expected 20 files, got {len(files)}')
+          total=0
+          for fn in files:
+              data=json.loads(Path(fn).read_text(encoding='utf-8'))
+              total += len(data['장'])
+          if total!=498: raise SystemExit(f'expected 498 chapters, got {total}')
+          print(f'applied 38 edits; touched files={len(staged)}; total chapters={total}')
+          PY
+      - name: Commit
+        shell: bash
+        run: |
+          git diff --check
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add sourcecards-style-polish/ sourcecards-targeted-review-7passes/cycle2-pass8-repetitive-commentary/audit.json
+          git commit -m '사료카드 2단계 반복 해설·상투 마무리 승인 38건 실제 반영'
+          git push origin main
