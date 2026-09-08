@@ -1,0 +1,40 @@
+name: TEMP Stage2 Juseok Subject Split
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/temp-stage2-juseok-subject-split.yml']
+permissions:
+  contents: write
+jobs:
+  split:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Split document-subject matches
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json,re
+          from pathlib import Path
+          p=Path('sourcecards-targeted-review-7passes/cycle2-pass13-juseok-subject/all-matches.json')
+          d=json.loads(p.read_text(encoding='utf-8'))
+          rows=[r for r in d['항목'] if r['문서주어']]
+          if len(rows)!=76: raise SystemExit(len(rows))
+          base=p.parent
+          for n,(a,b) in enumerate([(0,38),(38,76)],1):
+              out=[f'# 문서 주어 주석 계열 {a+1}~{b}','']
+              for i,r in enumerate(rows[a:b],a+1):
+                  out.append(f"{i}. {r['구절ID']} | {r['편장']} | {r['문장']} | 전체: {r['전체여는말']}")
+              (base/f'document-subject-{n}.md').write_text('\n'.join(out)+'\n',encoding='utf-8')
+          print('split',len(rows))
+          PY
+      - name: Commit
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add sourcecards-targeted-review-7passes/cycle2-pass13-juseok-subject/document-subject-*.md
+          git commit -m '사료카드 2단계 주석 문서주어 76건 분할 정리'
+          git push origin main
