@@ -1,0 +1,64 @@
+name: TEMP Apply sourcecards stage2 pass1
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/temp-apply-sourcecards-stage2-pass1.yml'
+permissions:
+  contents: write
+jobs:
+  apply:
+    if: github.event.head_commit.message == 'TEMP: apply sourcecards stage2 pass1 approved 16'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Apply approved 16 replacements
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          audit_path = Path('sourcecards-targeted-review-7passes/pass1-subject-predicate/audit.json')
+          audit = json.loads(audit_path.read_text(encoding='utf-8'))
+          candidates = audit['후보']
+          assert len(candidates) == 16, len(candidates)
+
+          touched = set()
+          for c in candidates:
+              p = Path(c['파일'])
+              old = c['수정전']
+              new = c['수정후제안']
+              text = p.read_text(encoding='utf-8')
+              n = text.count(old)
+              if n != 1:
+                  raise SystemExit(f'{p}: expected exactly 1 match for {c["구절ID"]}, got {n}')
+              text = text.replace(old, new, 1)
+              # JSON validity check after replacement
+              json.loads(text)
+              p.write_text(text, encoding='utf-8')
+              touched.add(str(p))
+              c['승인상태'] = '승인완료'
+              c['본문반영'] = True
+
+          audit['본문반영수'] = 16
+          audit['승인상태'] = '승인완료'
+          audit['반영완료'] = True
+          audit_path.write_text(json.dumps(audit, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+
+          # Verify only intended card files were touched by the script.
+          expected = {c['파일'] for c in candidates}
+          if touched != expected:
+              raise SystemExit(f'touched mismatch: {touched ^ expected}')
+          print('Applied', len(candidates), 'approved replacements across', len(touched), 'files')
+          PY
+      - name: Commit approved changes
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add sourcecards-style-polish/ sourcecards-targeted-review-7passes/pass1-subject-predicate/audit.json
+          git diff --cached --check
+          git commit -m '사료카드 2단계 1바퀴 승인 16건 반영'
+          git push origin main
