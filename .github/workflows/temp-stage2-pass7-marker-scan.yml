@@ -1,0 +1,52 @@
+name: TEMP Stage2 Pass7 Marker Scan
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/temp-stage2-pass7-marker-scan.yml'
+permissions:
+  contents: write
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Scan markers
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json,glob,re
+          from pathlib import Path
+          pats=[
+            r'하게 되',r'되었',r'되었습니다',r'되어 ',r'되어\.',r'되면서',r'되며',r'되는 ',
+            r'받아들여지',r'이루어지',r'기록되',r'전해지',r'쓰이',r'사용되',r'불리',r'여겨지',
+            r'에 의해',r'로 인해',r'을 통해',r'를 통해',r'바탕으로',r'과정에서',r'관점에서',
+            r'초점을 맞',r'연결되',r'관련되',r'드러나',r'나타나',r'담겨',r'실려'
+          ]
+          rx=re.compile('|'.join(pats))
+          rows=[]
+          for fn in sorted(glob.glob('sourcecards-style-polish/[0-9][0-9]-*.json')):
+              data=json.loads(Path(fn).read_text(encoding='utf-8'))
+              for ch in data['장']:
+                  text=ch['여는말']
+                  ms=sorted(set(m.group(0) for m in rx.finditer(text)))
+                  if ms:
+                      rows.append((ch['구절ID'],ch['편장'],fn,', '.join(ms),text))
+          out=Path('sourcecards-targeted-review-7passes/pass7-translationese-passive/marker-scan.md')
+          lines=['# 7바퀴 직역투·피동 표지어 재검토 목록','',f'- 표지어 적중 장수: {len(rows)}','- 주의: 표지어 적중 자체는 수정 사유가 아니며, 문맥상 부자연스러운 경우만 후보화','']
+          for cid,pc,fn,ms,text in rows:
+              lines.append(f'- `{cid}` | {pc} | `{fn}` | 표지: {ms} | {text}')
+          out.write_text('\n'.join(lines)+'\n',encoding='utf-8')
+          PY
+      - name: Commit report
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add sourcecards-targeted-review-7passes/pass7-translationese-passive/marker-scan.md
+          git commit -m '사료카드 2단계 7바퀴 직역투·피동 표지어 목록 추가'
+          git push origin main
