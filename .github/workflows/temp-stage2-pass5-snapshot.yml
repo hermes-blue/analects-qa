@@ -1,0 +1,46 @@
+name: TEMP Stage2 Pass5 Snapshot
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/temp-stage2-pass5-snapshot.yml'
+permissions:
+  contents: write
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Build 498-opening snapshot
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json, glob, subprocess
+          from pathlib import Path
+          rows=[]
+          for fn in sorted(glob.glob('sourcecards-style-polish/[0-9][0-9]-*.json')):
+              data=json.loads(Path(fn).read_text(encoding='utf-8'))
+              for ch in data['장']:
+                  rows.append((ch['구절ID'], ch['편장'], ch['여는말']))
+          if len(rows) != 498:
+              raise SystemExit(f'expected 498 openings, got {len(rows)}')
+          out=Path('sourcecards-targeted-review-7passes/pass5-ai-translationese/all-openings-current.md')
+          out.parent.mkdir(parents=True, exist_ok=True)
+          head=subprocess.check_output(['git','rev-parse','HEAD'], text=True).strip()
+          lines=['# 사료카드 2단계 5바퀴 현재 여는말 498장 스냅샷','',f'- 기준 커밋: `{head}`','- 목적: AI 말투·직역투·부자연스러운 추상명사 주어·~의 연쇄 전수검토용','']
+          for i,(cid,pc,text) in enumerate(rows,1):
+              lines.append(f'{i:03d}. `{cid}` | {pc} | {text}')
+          out.write_text('\n'.join(lines)+'\n',encoding='utf-8')
+          PY
+      - name: Commit snapshot
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add sourcecards-targeted-review-7passes/pass5-ai-translationese/all-openings-current.md
+          git commit -m '사료카드 2단계 5바퀴 498장 현재본 스냅샷 추가'
+          git push origin main
