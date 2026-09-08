@@ -2,12 +2,12 @@
   "schema_version": "1.1",
   "scope": "說",
   "scope_name": "쟁점",
-  "status": "approved_targeted_type_5_applied",
-  "method": "최신 수정문 전체에서 유형 5 표현을 검색하고 검색 결과의 문맥을 검토한 뒤, 승인된 14곳만 반영. 내용·해석 검수는 하지 않음.",
+  "status": "approved_targeted_type_6_applied",
+  "method": "최신 수정문 6,921개 전체에서 피동 표현을 검색하고 검색 결과 247개의 문맥을 검토한 뒤, 승인된 유형 6 수정안 31곳만 반영. 내용·해석 검수는 하지 않음.",
   "count_unit": "텍스트 필드: 한자 풀이 1개, 질문 또는 답변 1개, 쟁점의 견해 설명 1개",
   "total": 1040,
-  "changed": 103,
-  "unchanged": 937,
+  "changed": 105,
+  "unchanged": 935,
   "card_count": 498,
   "book_count": 20,
   "content_review_performed": false,
@@ -1435,17 +1435,31 @@
         },
         {
           "book": 2,
-          "changed": false,
+          "changed": true,
           "heading": "해서는 안 될 일을 하는 것과 해야 할 일을 안 하는 것, 무엇이 더 비겁할까?문장 안 긴장형",
           "id": "ly-02-24",
           "index": 1,
           "key": "ly-02-24:說:1:1",
           "label": "이렇게 보면",
           "original": "자기와 관계없는 신에게 이익을 바라며 제사하는 것은 해서는 안 될 일을 하는 비굴함으로 제시됩니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "자기와 관계없는 신에게 이익을 바라며 제사하는 것은 해서는 안 될 일을 하는 비굴함으로 제시됩니다.",
+          "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+          "revised": "자기와 관계없는 신에게 이익을 바라며 제사하는 것은 해서는 안 될 비굴한 행동이라고 봅니다.",
           "scope": "說",
-          "side": 1
+          "side": 1,
+          "revision_history": [
+            {
+              "pass": "targeted_type_6",
+              "previous_revision": "자기와 관계없는 신에게 이익을 바라며 제사하는 것은 해서는 안 될 일을 하는 비굴함으로 제시됩니다.",
+              "revised": "자기와 관계없는 신에게 이익을 바라며 제사하는 것은 해서는 안 될 비굴한 행동이라고 봅니다.",
+              "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨에 반영후 계속 돌려",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "자기와 관계없는 신에게 이익을 바라며 제사하는 것은 해서는 안 될 일을 하는 비굴함으로 제시됩니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_6"
         },
         {
           "book": 2,
@@ -1496,10 +1510,10 @@
         "selector": "article.card details.st3 .js .side > p"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_4",
-        "reviewed": 50,
-        "approved_applied": 3,
-        "status": "approved_applied"
+        "pass": "targeted_type_6",
+        "scanned": 50,
+        "approved_applied": 1,
+        "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
       }
     },
     {
@@ -4848,17 +4862,31 @@
         },
         {
           "book": 6,
-          "changed": false,
+          "changed": true,
           "heading": "노나라는 주례의 나라였는데 왜 또 ‘한 번 변해야’ 했을까?장간 긴장형",
           "id": "ly-06-22",
           "index": 1,
           "key": "ly-06-22:說:1:1",
           "label": "이렇게 보면",
           "original": "노나라는 주공의 전통을 간직한 나라라 공자님에게 이상에 가까운 곳으로 평가됩니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "노나라는 주공의 전통을 간직한 나라라 공자님에게 이상에 가까운 곳으로 평가됩니다.",
+          "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+          "revised": "공자님은 주공의 전통을 간직한 노나라를 자신의 이상에 가까운 곳으로 평가합니다.",
           "scope": "說",
-          "side": 1
+          "side": 1,
+          "revision_history": [
+            {
+              "pass": "targeted_type_6",
+              "previous_revision": "노나라는 주공의 전통을 간직한 나라라 공자님에게 이상에 가까운 곳으로 평가됩니다.",
+              "revised": "공자님은 주공의 전통을 간직한 노나라를 자신의 이상에 가까운 곳으로 평가합니다.",
+              "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨에 반영후 계속 돌려",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "노나라는 주공의 전통을 간직한 나라라 공자님에게 이상에 가까운 곳으로 평가됩니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_6"
         },
         {
           "book": 6,
@@ -5119,9 +5147,9 @@
         "selector": "article.card details.st3 .js .side > p"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_5",
+        "pass": "targeted_type_6",
         "scanned": 58,
-        "approved_applied": 2,
+        "approved_applied": 1,
         "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
       }
     },
@@ -16465,8 +16493,8 @@
     }
   ],
   "latest_style_pass": {
-    "pass": "targeted_type_5",
+    "pass": "targeted_type_6",
     "scanned": 1040,
-    "approved_applied": 6
+    "approved_applied": 2
   }
 }

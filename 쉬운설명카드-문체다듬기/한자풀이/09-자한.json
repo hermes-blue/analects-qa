@@ -1518,15 +1518,29 @@
     },
     {
       "book": 9,
-      "changed": false,
+      "changed": true,
       "id": "ly-09-25",
       "index": 1,
       "key": "ly-09-25:語:1",
       "label": "三軍삼군",
       "original": "큰 군대를 가리키는 표현입니다. 강한 조직과 외적 힘의 상징으로 제시되어, 한 개인의 내면적 뜻과 대비됩니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "큰 군대를 가리키는 표현입니다. 강한 조직과 외적 힘의 상징으로 제시되어, 한 개인의 내면적 뜻과 대비됩니다.",
-      "scope": "語"
+      "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+      "revised": "큰 군대를 가리키는 표현입니다. 강한 조직과 외적 힘을 상징하며, 한 개인이 마음속에 품은 뜻과 대비됩니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_6",
+          "previous_revision": "큰 군대를 가리키는 표현입니다. 강한 조직과 외적 힘의 상징으로 제시되어, 한 개인의 내면적 뜻과 대비됩니다.",
+          "revised": "큰 군대를 가리키는 표현입니다. 강한 조직과 외적 힘을 상징하며, 한 개인이 마음속에 품은 뜻과 대비됩니다.",
+          "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 계속 돌려",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "큰 군대를 가리키는 표현입니다. 강한 조직과 외적 힘의 상징으로 제시되어, 한 개인의 내면적 뜻과 대비됩니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_6"
     },
     {
       "book": 9,
@@ -1846,15 +1860,29 @@
     },
     {
       "book": 9,
-      "changed": false,
+      "changed": true,
       "id": "ly-09-30",
       "index": 3,
       "key": "ly-09-30:語:3",
       "label": "室是遠而실시원이",
       "original": "그 사람의 집이 멀다는 뜻입니다. 시에서는 행동하지 못하는 이유로 제시되지만, 공자님은 진짜 문제는 거리가 아니라 마음의 간절함이라고 봅니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "그 사람의 집이 멀다는 뜻입니다. 시에서는 행동하지 못하는 이유로 제시되지만, 공자님은 진짜 문제는 거리가 아니라 마음의 간절함이라고 봅니다.",
-      "scope": "語"
+      "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+      "revised": "그 사람의 집이 멀다는 뜻입니다. 시에서는 집이 멀어 행동하지 못한다고 하지만, 공자님은 진짜 문제는 거리가 아니라 마음의 간절함이라고 봅니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_6",
+          "previous_revision": "그 사람의 집이 멀다는 뜻입니다. 시에서는 행동하지 못하는 이유로 제시되지만, 공자님은 진짜 문제는 거리가 아니라 마음의 간절함이라고 봅니다.",
+          "revised": "그 사람의 집이 멀다는 뜻입니다. 시에서는 집이 멀어 행동하지 못한다고 하지만, 공자님은 진짜 문제는 거리가 아니라 마음의 간절함이라고 봅니다.",
+          "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 계속 돌려",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "그 사람의 집이 멀다는 뜻입니다. 시에서는 행동하지 못하는 이유로 제시되지만, 공자님은 진짜 문제는 거리가 아니라 마음의 간절함이라고 봅니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_6"
     },
     {
       "book": 9,
@@ -1915,9 +1943,9 @@
     "selector": "article.card details.st1 .w > p:not(.wh)"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_4",
-    "reviewed": 146,
-    "approved_applied": 3,
-    "status": "approved_applied"
+    "pass": "targeted_type_6",
+    "scanned": 146,
+    "approved_applied": 2,
+    "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
   }
 }

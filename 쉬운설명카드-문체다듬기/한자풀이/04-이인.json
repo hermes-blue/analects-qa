@@ -64,15 +64,29 @@
     },
     {
       "book": 4,
-      "changed": false,
+      "changed": true,
       "id": "ly-04-02",
       "index": 1,
       "key": "ly-04-02:語:1",
       "label": "不仁者불인자",
       "original": "仁이 자기 안에 자리 잡지 않은 사람을 말합니다. 외부 상황이 좋을 때나 나쁠 때나 마음의 중심을 지키기 어려운 사람으로 설명됩니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "仁이 자기 안에 자리 잡지 않은 사람을 말합니다. 외부 상황이 좋을 때나 나쁠 때나 마음의 중심을 지키기 어려운 사람으로 설명됩니다.",
-      "scope": "語"
+      "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+      "revised": "仁이 자기 안에 자리 잡지 않은 사람을 말합니다. 외부 상황이 좋을 때나 나쁠 때나 마음의 중심을 지키기 어려운 사람입니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_6",
+          "previous_revision": "仁이 자기 안에 자리 잡지 않은 사람을 말합니다. 외부 상황이 좋을 때나 나쁠 때나 마음의 중심을 지키기 어려운 사람으로 설명됩니다.",
+          "revised": "仁이 자기 안에 자리 잡지 않은 사람을 말합니다. 외부 상황이 좋을 때나 나쁠 때나 마음의 중심을 지키기 어려운 사람입니다.",
+          "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 계속 돌려",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "仁이 자기 안에 자리 잡지 않은 사람을 말합니다. 외부 상황이 좋을 때나 나쁠 때나 마음의 중심을 지키기 어려운 사람으로 설명됩니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_6"
     },
     {
       "book": 4,
@@ -678,15 +692,29 @@
     },
     {
       "book": 4,
-      "changed": false,
+      "changed": true,
       "id": "ly-04-11",
       "index": 4,
       "key": "ly-04-11:語:4",
       "label": "懷惠회혜",
       "original": "자신에게 돌아올 혜택과 이익을 마음에 둔다는 뜻입니다. 무엇이 바른가보다 나에게 어떤 이득이 생기는가를 먼저 생각하는 태도로 묘사됩니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "자신에게 돌아올 혜택과 이익을 마음에 둔다는 뜻입니다. 무엇이 바른가보다 나에게 어떤 이득이 생기는가를 먼저 생각하는 태도로 묘사됩니다.",
-      "scope": "語"
+      "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+      "revised": "자신에게 돌아올 혜택과 이익을 마음에 둔다는 뜻입니다. 무엇이 바른가보다 나에게 어떤 이득이 생기는가를 먼저 생각하는 태도입니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_6",
+          "previous_revision": "자신에게 돌아올 혜택과 이익을 마음에 둔다는 뜻입니다. 무엇이 바른가보다 나에게 어떤 이득이 생기는가를 먼저 생각하는 태도로 묘사됩니다.",
+          "revised": "자신에게 돌아올 혜택과 이익을 마음에 둔다는 뜻입니다. 무엇이 바른가보다 나에게 어떤 이득이 생기는가를 먼저 생각하는 태도입니다.",
+          "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 계속 돌려",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "자신에게 돌아올 혜택과 이익을 마음에 둔다는 뜻입니다. 무엇이 바른가보다 나에게 어떤 이득이 생기는가를 먼저 생각하는 태도로 묘사됩니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_6"
     },
     {
       "book": 4,
@@ -1436,15 +1464,29 @@
     },
     {
       "book": 4,
-      "changed": false,
+      "changed": true,
       "id": "ly-04-24",
       "index": 3,
       "key": "ly-04-24:語:3",
       "label": "欲욕",
       "original": "군자가 의식적으로 그렇게 되기를 바란다는 뜻입니다. 訥과 敏은 타고난 성격보다 스스로 길러야 할 태도로 제시됩니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "군자가 의식적으로 그렇게 되기를 바란다는 뜻입니다. 訥과 敏은 타고난 성격보다 스스로 길러야 할 태도로 제시됩니다.",
-      "scope": "語"
+      "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+      "revised": "군자가 의식적으로 그렇게 되기를 바란다는 뜻입니다. 訥과 敏은 타고난 성격이라기보다 스스로 길러야 할 태도라는 말입니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_6",
+          "previous_revision": "군자가 의식적으로 그렇게 되기를 바란다는 뜻입니다. 訥과 敏은 타고난 성격보다 스스로 길러야 할 태도로 제시됩니다.",
+          "revised": "군자가 의식적으로 그렇게 되기를 바란다는 뜻입니다. 訥과 敏은 타고난 성격이라기보다 스스로 길러야 할 태도라는 말입니다.",
+          "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 계속 돌려",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "군자가 의식적으로 그렇게 되기를 바란다는 뜻입니다. 訥과 敏은 타고난 성격보다 스스로 길러야 할 태도로 제시됩니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_6"
     },
     {
       "book": 4,
@@ -1650,9 +1692,9 @@
     "selector": "article.card details.st1 .w > p:not(.wh)"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_4",
-    "reviewed": 115,
-    "approved_applied": 7,
-    "status": "approved_applied"
+    "pass": "targeted_type_6",
+    "scanned": 115,
+    "approved_applied": 3,
+    "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
   }
 }

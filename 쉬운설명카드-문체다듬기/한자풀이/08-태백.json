@@ -368,15 +368,29 @@
     },
     {
       "book": 8,
-      "changed": false,
+      "changed": true,
       "id": "ly-08-06",
       "index": 5,
       "key": "ly-08-06:語:5",
       "label": "不可奪불가탈",
       "original": "뜻을 빼앗거나 바꾸게 할 수 없다는 말입니다. 위험과 이익이 앞에 있어도 중요한 원칙을 지켜 내는 굳셈이 군자의 핵심 조건으로 제시됩니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "뜻을 빼앗거나 바꾸게 할 수 없다는 말입니다. 위험과 이익이 앞에 있어도 중요한 원칙을 지켜 내는 굳셈이 군자의 핵심 조건으로 제시됩니다.",
-      "scope": "語"
+      "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+      "revised": "뜻을 빼앗거나 바꾸게 할 수 없다는 말입니다. 군자는 위험과 이익이 앞에 있어도 중요한 원칙을 굳게 지켜야 한다고 봅니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_6",
+          "previous_revision": "뜻을 빼앗거나 바꾸게 할 수 없다는 말입니다. 위험과 이익이 앞에 있어도 중요한 원칙을 지켜 내는 굳셈이 군자의 핵심 조건으로 제시됩니다.",
+          "revised": "뜻을 빼앗거나 바꾸게 할 수 없다는 말입니다. 군자는 위험과 이익이 앞에 있어도 중요한 원칙을 굳게 지켜야 한다고 봅니다.",
+          "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 계속 돌려",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "뜻을 빼앗거나 바꾸게 할 수 없다는 말입니다. 위험과 이익이 앞에 있어도 중요한 원칙을 지켜 내는 굳셈이 군자의 핵심 조건으로 제시됩니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_6"
     },
     {
       "book": 8,
@@ -1020,15 +1034,29 @@
     },
     {
       "book": 8,
-      "changed": false,
+      "changed": true,
       "id": "ly-08-18",
       "index": 2,
       "key": "ly-08-18:語:2",
       "label": "舜禹순우",
       "original": "순임금과 우임금을 함께 가리킵니다. 둘은 천하를 맡은 이상적 통치자의 사례로 제시되며, 권력을 소유물처럼 여기지 않은 태도가 칭찬됩니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "순임금과 우임금을 함께 가리킵니다. 둘은 천하를 맡은 이상적 통치자의 사례로 제시되며, 권력을 소유물처럼 여기지 않은 태도가 칭찬됩니다.",
-      "scope": "語"
+      "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+      "revised": "순임금과 우임금을 함께 가리킵니다. 공자님은 두 사람을 천하를 맡은 이상적인 통치자의 예로 들고, 권력을 소유물처럼 여기지 않은 태도를 칭찬합니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_6",
+          "previous_revision": "순임금과 우임금을 함께 가리킵니다. 둘은 천하를 맡은 이상적 통치자의 사례로 제시되며, 권력을 소유물처럼 여기지 않은 태도가 칭찬됩니다.",
+          "revised": "순임금과 우임금을 함께 가리킵니다. 공자님은 두 사람을 천하를 맡은 이상적인 통치자의 예로 들고, 권력을 소유물처럼 여기지 않은 태도를 칭찬합니다.",
+          "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 계속 돌려",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "순임금과 우임금을 함께 가리킵니다. 둘은 천하를 맡은 이상적 통치자의 사례로 제시되며, 권력을 소유물처럼 여기지 않은 태도가 칭찬됩니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_6"
     },
     {
       "book": 8,
@@ -1283,9 +1311,9 @@
     "selector": "article.card details.st1 .w > p:not(.wh)"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_4",
-    "reviewed": 98,
+    "pass": "targeted_type_6",
+    "scanned": 98,
     "approved_applied": 2,
-    "status": "approved_applied"
+    "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
   }
 }

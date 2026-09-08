@@ -945,15 +945,29 @@
     },
     {
       "book": 15,
-      "changed": false,
+      "changed": true,
       "id": "ly-15-18",
       "index": 3,
       "key": "ly-15-18:語:3",
       "label": "無能무능",
       "original": "여기서는 단순한 재주 부족보다 맡은 일을 제대로 수행할 수 없는 상태를 뜻합니다. 군자가 스스로 개선해야 할 핵심 문제로 제시됩니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "여기서는 단순한 재주 부족보다 맡은 일을 제대로 수행할 수 없는 상태를 뜻합니다. 군자가 스스로 개선해야 할 핵심 문제로 제시됩니다.",
-      "scope": "語"
+      "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+      "revised": "여기서는 단순한 재주 부족보다 맡은 일을 제대로 수행할 수 없는 상태를 뜻합니다. 군자가 스스로 고쳐야 할 중요한 문제입니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_6",
+          "previous_revision": "여기서는 단순한 재주 부족보다 맡은 일을 제대로 수행할 수 없는 상태를 뜻합니다. 군자가 스스로 개선해야 할 핵심 문제로 제시됩니다.",
+          "revised": "여기서는 단순한 재주 부족보다 맡은 일을 제대로 수행할 수 없는 상태를 뜻합니다. 군자가 스스로 고쳐야 할 중요한 문제입니다.",
+          "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 계속 돌려",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "여기서는 단순한 재주 부족보다 맡은 일을 제대로 수행할 수 없는 상태를 뜻합니다. 군자가 스스로 개선해야 할 핵심 문제로 제시됩니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_6"
     },
     {
       "book": 15,
@@ -1063,9 +1077,23 @@
       "key": "ly-15-20:語:4",
       "label": "小人소인",
       "original": "문제가 생기면 먼저 남의 탓과 요구로 돌리는 사람을 뜻합니다. 책임의 방향이 군자와 반대로 설정됩니다.",
-      "reason": "기존 뜻을 유지하며 추상적 명사 결합과 호응을 자연스럽게 풀어 씀.",
-      "revised": "문제가 생기면 먼저 남을 탓하고 남에게 요구부터 하는 사람을 뜻합니다. 책임의 방향이 군자와 반대로 설정됩니다.",
-      "scope": "語"
+      "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+      "revised": "문제가 생기면 먼저 남을 탓하고 남에게 요구부터 하는 사람을 뜻합니다. 책임을 자신에게 묻는 군자와 달리 남에게 묻습니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_6",
+          "previous_revision": "문제가 생기면 먼저 남을 탓하고 남에게 요구부터 하는 사람을 뜻합니다. 책임의 방향이 군자와 반대로 설정됩니다.",
+          "revised": "문제가 생기면 먼저 남을 탓하고 남에게 요구부터 하는 사람을 뜻합니다. 책임을 자신에게 묻는 군자와 달리 남에게 묻습니다.",
+          "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 계속 돌려",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "문제가 생기면 먼저 남을 탓하고 남에게 요구부터 하는 사람을 뜻합니다. 책임의 방향이 군자와 반대로 설정됩니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_6"
     },
     {
       "book": 15,
@@ -1105,15 +1133,29 @@
     },
     {
       "book": 15,
-      "changed": false,
+      "changed": true,
       "id": "ly-15-21",
       "index": 4,
       "key": "ly-15-21:語:4",
       "label": "黨당",
       "original": "원칙보다 사적 이해와 친분으로 뭉친 파벌을 뜻합니다. 함께 어울리는 群과 구분되어 비판됩니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "원칙보다 사적 이해와 친분으로 뭉친 파벌을 뜻합니다. 함께 어울리는 群과 구분되어 비판됩니다.",
-      "scope": "語"
+      "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+      "revised": "원칙보다 사적 이해와 친분으로 뭉친 파벌을 뜻합니다. 공자님은 함께 어울리는 群과 이런 파벌을 구분하고, 파벌을 짓는 태도를 비판합니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_6",
+          "previous_revision": "원칙보다 사적 이해와 친분으로 뭉친 파벌을 뜻합니다. 함께 어울리는 群과 구분되어 비판됩니다.",
+          "revised": "원칙보다 사적 이해와 친분으로 뭉친 파벌을 뜻합니다. 공자님은 함께 어울리는 群과 이런 파벌을 구분하고, 파벌을 짓는 태도를 비판합니다.",
+          "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 계속 돌려",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "원칙보다 사적 이해와 친분으로 뭉친 파벌을 뜻합니다. 함께 어울리는 群과 구분되어 비판됩니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_6"
     },
     {
       "book": 15,
@@ -2180,9 +2222,9 @@
     "selector": "article.card details.st1 .w > p:not(.wh)"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_4",
-    "reviewed": 165,
-    "approved_applied": 6,
-    "status": "approved_applied"
+    "pass": "targeted_type_6",
+    "scanned": 165,
+    "approved_applied": 3,
+    "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
   }
 }

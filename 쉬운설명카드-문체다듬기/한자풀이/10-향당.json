@@ -130,9 +130,23 @@
       "key": "ly-10-03:語:1",
       "label": "使擯사빈",
       "original": "사신을 맞아 접빈 의례를 담당하게 한다는 뜻입니다. 개인 손님 안내가 아니라 국가를 대표하는 외교 역할이어서 표정과 몸짓까지 엄격한 예가 요구됩니다.",
-      "reason": "뜻과 판단의 강도를 유지하며 명사형·직역식 서술·호응을 다듬음.",
-      "revised": "사신을 맞아 접빈 의례를 담당하게 한다는 뜻입니다. 개인적으로 손님을 안내하는 일이 아니라 국가를 대표하는 외교 역할이어서 표정과 몸짓까지 엄격한 예가 요구됩니다.",
-      "scope": "語"
+      "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+      "revised": "사신을 맞아 접빈 의례를 담당하게 한다는 뜻입니다. 개인적으로 손님을 안내하는 일이 아니라 국가를 대표하는 외교 역할이어서 표정과 몸짓 하나하나에서도 예를 엄격히 지켜야 합니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_6",
+          "previous_revision": "사신을 맞아 접빈 의례를 담당하게 한다는 뜻입니다. 개인적으로 손님을 안내하는 일이 아니라 국가를 대표하는 외교 역할이어서 표정과 몸짓까지 엄격한 예가 요구됩니다.",
+          "revised": "사신을 맞아 접빈 의례를 담당하게 한다는 뜻입니다. 개인적으로 손님을 안내하는 일이 아니라 국가를 대표하는 외교 역할이어서 표정과 몸짓 하나하나에서도 예를 엄격히 지켜야 합니다.",
+          "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 계속 돌려",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "사신을 맞아 접빈 의례를 담당하게 한다는 뜻입니다. 개인적으로 손님을 안내하는 일이 아니라 국가를 대표하는 외교 역할이어서 표정과 몸짓까지 엄격한 예가 요구됩니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_6"
     },
     {
       "book": 10,
@@ -1532,9 +1546,9 @@
     "selector": "article.card details.st1 .w > p:not(.wh)"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_4",
-    "reviewed": 118,
-    "approved_applied": 3,
-    "status": "approved_applied"
+    "pass": "targeted_type_6",
+    "scanned": 118,
+    "approved_applied": 1,
+    "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
   }
 }

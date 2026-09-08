@@ -1558,16 +1558,30 @@
     },
     {
       "book": 3,
-      "changed": false,
+      "changed": true,
       "field": "질문",
       "id": "ly-03-19",
       "index": 3,
       "key": "ly-03-19:問:3:q",
       "label": "질문",
       "original": "‘君使臣以禮’에서 군주에게 요구되는 禮는 무엇인가요?",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "‘君使臣以禮’에서 군주에게 요구되는 禮는 무엇인가요?",
-      "scope": "問"
+      "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+      "revised": "‘君使臣以禮’에서 군주가 지켜야 할 禮는 무엇인가요?",
+      "scope": "問",
+      "revision_history": [
+        {
+          "pass": "targeted_type_6",
+          "previous_revision": "‘君使臣以禮’에서 군주에게 요구되는 禮는 무엇인가요?",
+          "revised": "‘君使臣以禮’에서 군주가 지켜야 할 禮는 무엇인가요?",
+          "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 계속 돌려",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "‘君使臣以禮’에서 군주에게 요구되는 禮는 무엇인가요?",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_6"
     },
     {
       "book": 3,
@@ -2177,9 +2191,9 @@
     "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_4",
-    "reviewed": 156,
+    "pass": "targeted_type_6",
+    "scanned": 156,
     "approved_applied": 1,
-    "status": "approved_applied"
+    "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
   }
 }

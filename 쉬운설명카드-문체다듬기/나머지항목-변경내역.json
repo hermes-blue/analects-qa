@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1",
   "scope": "語·問·說 문체 수정",
-  "total_changed": 566,
+  "total_changed": 593,
   "by_scope": {
-    "語": 266,
-    "問": 197,
-    "說": 103
+    "語": 288,
+    "問": 200,
+    "說": 105
   },
   "content_review_performed": false,
   "apply_rule": "id·scope·index·field 또는 side·label과 original이 현재 원본에 모두 일치하는 항목만 revised로 적용. 카드 전체를 대체하지 않음.",
@@ -4497,8 +4497,8 @@
       "key": "ly-07-17:語:3",
       "label": "書서",
       "original": "고대의 역사·정치 문서를 모은 『서』를 뜻합니다. 詩와 함께 공적인 교육의 핵심 텍스트였기 때문에 지역 사투리보다 정통적인 말로 읽는 것이 요구되었습니다.",
-      "reason": "받침 있는 명사 뒤 서술격 조사 활용을 바로잡습니다.",
-      "revised": "고대의 역사·정치 문서를 모은 『서』를 뜻합니다. 詩와 함께 공적인 교육의 핵심 문헌이었기 때문에 지역 사투리보다 정통적인 말로 읽는 것이 요구되었습니다.",
+      "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+      "revised": "고대의 역사·정치 문서를 모은 『서』를 뜻합니다. 詩와 함께 공적인 교육의 핵심 문헌이었기 때문에 지역 사투리보다 정통적인 말로 읽어야 했습니다.",
       "scope": "語",
       "revision_history": [
         {
@@ -4509,11 +4509,20 @@
           "approval_status": "approved",
           "approval_message": "수정후 다음 시작",
           "date": "2026-09-08"
+        },
+        {
+          "pass": "targeted_type_6",
+          "previous_revision": "고대의 역사·정치 문서를 모은 『서』를 뜻합니다. 詩와 함께 공적인 교육의 핵심 문헌이었기 때문에 지역 사투리보다 정통적인 말로 읽는 것이 요구되었습니다.",
+          "revised": "고대의 역사·정치 문서를 모은 『서』를 뜻합니다. 詩와 함께 공적인 교육의 핵심 문헌이었기 때문에 지역 사투리보다 정통적인 말로 읽어야 했습니다.",
+          "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 계속 돌려",
+          "date": "2026-09-08"
         }
       ],
-      "previous_revision": "고대의 역사·정치 문서를 모은 『서』를 뜻합니다. 詩와 함께 공적인 교육의 핵심 문헌였기 때문에 지역 사투리보다 정통적인 말로 읽는 것이 요구되었습니다.",
+      "previous_revision": "고대의 역사·정치 문서를 모은 『서』를 뜻합니다. 詩와 함께 공적인 교육의 핵심 문헌이었기 때문에 지역 사투리보다 정통적인 말로 읽는 것이 요구되었습니다.",
       "approval_status": "approved",
-      "last_revision_pass": "targeted_type_2",
+      "last_revision_pass": "targeted_type_6",
       "source": {
         "blob_sha": "101d445b691af4fe769b64448011834773fc676c",
         "branch": "트랙/뉴코퍼스",
@@ -4527,7 +4536,7 @@
       "replacements": [
         [
           "고대의 역사·정치 문서를 모은 『서』를 뜻합니다. 詩와 함께 공적인 교육의 핵심 텍스트였기 때문에 지역 사투리보다 정통적인 말로 읽는 것이 요구되었습니다.",
-          "고대의 역사·정치 문서를 모은 『서』를 뜻합니다. 詩와 함께 공적인 교육의 핵심 문헌이었기 때문에 지역 사투리보다 정통적인 말로 읽는 것이 요구되었습니다."
+          "고대의 역사·정치 문서를 모은 『서』를 뜻합니다. 詩와 함께 공적인 교육의 핵심 문헌이었기 때문에 지역 사투리보다 정통적인 말로 읽어야 했습니다."
         ]
       ]
     },
@@ -5733,9 +5742,23 @@
       "key": "ly-10-03:語:1",
       "label": "使擯사빈",
       "original": "사신을 맞아 접빈 의례를 담당하게 한다는 뜻입니다. 개인 손님 안내가 아니라 국가를 대표하는 외교 역할이어서 표정과 몸짓까지 엄격한 예가 요구됩니다.",
-      "reason": "뜻과 판단의 강도를 유지하며 명사형·직역식 서술·호응을 다듬음.",
-      "revised": "사신을 맞아 접빈 의례를 담당하게 한다는 뜻입니다. 개인적으로 손님을 안내하는 일이 아니라 국가를 대표하는 외교 역할이어서 표정과 몸짓까지 엄격한 예가 요구됩니다.",
+      "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+      "revised": "사신을 맞아 접빈 의례를 담당하게 한다는 뜻입니다. 개인적으로 손님을 안내하는 일이 아니라 국가를 대표하는 외교 역할이어서 표정과 몸짓 하나하나에서도 예를 엄격히 지켜야 합니다.",
       "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_6",
+          "previous_revision": "사신을 맞아 접빈 의례를 담당하게 한다는 뜻입니다. 개인적으로 손님을 안내하는 일이 아니라 국가를 대표하는 외교 역할이어서 표정과 몸짓까지 엄격한 예가 요구됩니다.",
+          "revised": "사신을 맞아 접빈 의례를 담당하게 한다는 뜻입니다. 개인적으로 손님을 안내하는 일이 아니라 국가를 대표하는 외교 역할이어서 표정과 몸짓 하나하나에서도 예를 엄격히 지켜야 합니다.",
+          "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 계속 돌려",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "사신을 맞아 접빈 의례를 담당하게 한다는 뜻입니다. 개인적으로 손님을 안내하는 일이 아니라 국가를 대표하는 외교 역할이어서 표정과 몸짓까지 엄격한 예가 요구됩니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_6",
       "source": {
         "blob_sha": "096e28e98ea4c6569110a538191880a1ac6cede8",
         "branch": "트랙/뉴코퍼스",
@@ -5748,8 +5771,8 @@
       "book_name": "향당",
       "replacements": [
         [
-          "개인 손님 안내가 아니라",
-          "개인적으로 손님을 안내하는 일이 아니라"
+          "사신을 맞아 접빈 의례를 담당하게 한다는 뜻입니다. 개인 손님 안내가 아니라 국가를 대표하는 외교 역할이어서 표정과 몸짓까지 엄격한 예가 요구됩니다.",
+          "사신을 맞아 접빈 의례를 담당하게 한다는 뜻입니다. 개인적으로 손님을 안내하는 일이 아니라 국가를 대표하는 외교 역할이어서 표정과 몸짓 하나하나에서도 예를 엄격히 지켜야 합니다."
         ]
       ]
     },
@@ -8261,9 +8284,23 @@
       "key": "ly-15-20:語:4",
       "label": "小人소인",
       "original": "문제가 생기면 먼저 남의 탓과 요구로 돌리는 사람을 뜻합니다. 책임의 방향이 군자와 반대로 설정됩니다.",
-      "reason": "기존 뜻을 유지하며 추상적 명사 결합과 호응을 자연스럽게 풀어 씀.",
-      "revised": "문제가 생기면 먼저 남을 탓하고 남에게 요구부터 하는 사람을 뜻합니다. 책임의 방향이 군자와 반대로 설정됩니다.",
+      "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+      "revised": "문제가 생기면 먼저 남을 탓하고 남에게 요구부터 하는 사람을 뜻합니다. 책임을 자신에게 묻는 군자와 달리 남에게 묻습니다.",
       "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_6",
+          "previous_revision": "문제가 생기면 먼저 남을 탓하고 남에게 요구부터 하는 사람을 뜻합니다. 책임의 방향이 군자와 반대로 설정됩니다.",
+          "revised": "문제가 생기면 먼저 남을 탓하고 남에게 요구부터 하는 사람을 뜻합니다. 책임을 자신에게 묻는 군자와 달리 남에게 묻습니다.",
+          "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 계속 돌려",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "문제가 생기면 먼저 남을 탓하고 남에게 요구부터 하는 사람을 뜻합니다. 책임의 방향이 군자와 반대로 설정됩니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_6",
       "source": {
         "blob_sha": "bf4095ccec09b5c2b5f74960dd33fde8da5220be",
         "branch": "트랙/뉴코퍼스",
@@ -8276,8 +8313,8 @@
       "book_name": "위령공",
       "replacements": [
         [
-          "문제가 생기면 먼저 남의 탓과 요구로 돌리는 사람을 뜻합니다.",
-          "문제가 생기면 먼저 남을 탓하고 남에게 요구부터 하는 사람을 뜻합니다."
+          "문제가 생기면 먼저 남의 탓과 요구로 돌리는 사람을 뜻합니다. 책임의 방향이 군자와 반대로 설정됩니다.",
+          "문제가 생기면 먼저 남을 탓하고 남에게 요구부터 하는 사람을 뜻합니다. 책임을 자신에게 묻는 군자와 달리 남에게 묻습니다."
         ]
       ]
     },
@@ -14114,8 +14151,8 @@
       "key": "ly-09-23:問:3:a",
       "label": "답변",
       "original": "듣기 좋은 표현에는 만족하지만 그 말의 속뜻과 자신에게 요구되는 변화를 깊이 생각하지 않는 상태입니다. 기분 좋은 수용이 실제 성찰로 이어지지 않는 태도를 경계한 것입니다.",
-      "reason": "수용·성찰을 행동으로 풀기",
-      "revised": "듣기 좋은 표현에는 만족하지만 그 말의 속뜻과 자신에게 요구되는 변화를 깊이 생각하지 않는 상태입니다. 기분 좋게 받아들이기만 하고 실제로 자신을 돌아보지는 않는 태도를 경계한 것입니다.",
+      "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+      "revised": "듣기 좋은 표현에는 만족하지만 그 말의 속뜻과 자신이 어떻게 달라져야 하는지를 깊이 생각하지 않는 상태입니다. 기분 좋게 받아들이기만 하고 실제로 자신을 돌아보지는 않는 태도를 경계한 것입니다.",
       "scope": "問",
       "revision_history": [
         {
@@ -14126,11 +14163,20 @@
           "approval_status": "approved",
           "approval_message": "굿 수정, 수정후 다음 시작",
           "date": "2026-09-08"
+        },
+        {
+          "pass": "targeted_type_6",
+          "previous_revision": "듣기 좋은 표현에는 만족하지만 그 말의 속뜻과 자신에게 요구되는 변화를 깊이 생각하지 않는 상태입니다. 기분 좋게 받아들이기만 하고 실제로 자신을 돌아보지는 않는 태도를 경계한 것입니다.",
+          "revised": "듣기 좋은 표현에는 만족하지만 그 말의 속뜻과 자신이 어떻게 달라져야 하는지를 깊이 생각하지 않는 상태입니다. 기분 좋게 받아들이기만 하고 실제로 자신을 돌아보지는 않는 태도를 경계한 것입니다.",
+          "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 계속 돌려",
+          "date": "2026-09-08"
         }
       ],
-      "previous_revision": "듣기 좋은 표현에는 만족하지만 그 말의 속뜻과 자신에게 요구되는 변화를 깊이 생각하지 않는 상태입니다. 기분 좋은 수용이 실제 성찰로 이어지지 않는 태도를 경계한 것입니다.",
+      "previous_revision": "듣기 좋은 표현에는 만족하지만 그 말의 속뜻과 자신에게 요구되는 변화를 깊이 생각하지 않는 상태입니다. 기분 좋게 받아들이기만 하고 실제로 자신을 돌아보지는 않는 태도를 경계한 것입니다.",
       "approval_status": "approved",
-      "last_revision_pass": "targeted_type_1",
+      "last_revision_pass": "targeted_type_6",
       "source": {
         "blob_sha": "575486d765f742fc9fdea0d92141603d4be1f322",
         "branch": "트랙/뉴코퍼스",
@@ -14144,7 +14190,7 @@
       "replacements": [
         [
           "듣기 좋은 표현에는 만족하지만 그 말의 속뜻과 자신에게 요구되는 변화를 깊이 생각하지 않는 상태입니다. 기분 좋은 수용이 실제 성찰로 이어지지 않는 태도를 경계한 것입니다.",
-          "듣기 좋은 표현에는 만족하지만 그 말의 속뜻과 자신에게 요구되는 변화를 깊이 생각하지 않는 상태입니다. 기분 좋게 받아들이기만 하고 실제로 자신을 돌아보지는 않는 태도를 경계한 것입니다."
+          "듣기 좋은 표현에는 만족하지만 그 말의 속뜻과 자신이 어떻게 달라져야 하는지를 깊이 생각하지 않는 상태입니다. 기분 좋게 받아들이기만 하고 실제로 자신을 돌아보지는 않는 태도를 경계한 것입니다."
         ]
       ]
     },
@@ -22910,10 +22956,1151 @@
           "나루터가 어디인지 묻는다는 뜻입니다. 길을 묻는 말이지만 ‘어떤 길을 택할 것인가’라는 삶의 방향 문제와 겹쳐 읽힙니다."
         ]
       ]
+    },
+    {
+      "book": 1,
+      "changed": true,
+      "id": "ly-01-04",
+      "index": 4,
+      "key": "ly-01-04:語:4",
+      "label": "信신",
+      "original": "친구와의 관계에서 약속을 지키는 것만이 아니라 믿을 만한 사람으로 행동했는지를 묻습니다. 말과 행동이 서로 어긋나지 않는 태도가 교제의 중요한 기준으로 제시됩니다.",
+      "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+      "revised": "친구와의 관계에서 약속을 지키는 것만이 아니라 믿을 만한 사람으로 행동했는지를 묻습니다. 친구를 사귈 때 말과 행동이 서로 어긋나지 않는지를 중요하게 봅니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_6",
+          "previous_revision": "친구와의 관계에서 약속을 지키는 것만이 아니라 믿을 만한 사람으로 행동했는지를 묻습니다. 말과 행동이 서로 어긋나지 않는 태도가 교제의 중요한 기준으로 제시됩니다.",
+          "revised": "친구와의 관계에서 약속을 지키는 것만이 아니라 믿을 만한 사람으로 행동했는지를 묻습니다. 친구를 사귈 때 말과 행동이 서로 어긋나지 않는지를 중요하게 봅니다.",
+          "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 계속 돌려",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "친구와의 관계에서 약속을 지키는 것만이 아니라 믿을 만한 사람으로 행동했는지를 묻습니다. 말과 행동이 서로 어긋나지 않는 태도가 교제의 중요한 기준으로 제시됩니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_6",
+      "source": {
+        "blob_sha": "c33214e810660bb771b07a02630a71d805ce36bd",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/01-학이.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "학이",
+      "replacements": [
+        [
+          "친구와의 관계에서 약속을 지키는 것만이 아니라 믿을 만한 사람으로 행동했는지를 묻습니다. 말과 행동이 서로 어긋나지 않는 태도가 교제의 중요한 기준으로 제시됩니다.",
+          "친구와의 관계에서 약속을 지키는 것만이 아니라 믿을 만한 사람으로 행동했는지를 묻습니다. 친구를 사귈 때 말과 행동이 서로 어긋나지 않는지를 중요하게 봅니다."
+        ]
+      ]
+    },
+    {
+      "book": 2,
+      "changed": true,
+      "heading": "해서는 안 될 일을 하는 것과 해야 할 일을 안 하는 것, 무엇이 더 비겁할까?문장 안 긴장형",
+      "id": "ly-02-24",
+      "index": 1,
+      "key": "ly-02-24:說:1:1",
+      "label": "이렇게 보면",
+      "original": "자기와 관계없는 신에게 이익을 바라며 제사하는 것은 해서는 안 될 일을 하는 비굴함으로 제시됩니다.",
+      "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+      "revised": "자기와 관계없는 신에게 이익을 바라며 제사하는 것은 해서는 안 될 비굴한 행동이라고 봅니다.",
+      "scope": "說",
+      "side": 1,
+      "revision_history": [
+        {
+          "pass": "targeted_type_6",
+          "previous_revision": "자기와 관계없는 신에게 이익을 바라며 제사하는 것은 해서는 안 될 일을 하는 비굴함으로 제시됩니다.",
+          "revised": "자기와 관계없는 신에게 이익을 바라며 제사하는 것은 해서는 안 될 비굴한 행동이라고 봅니다.",
+          "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 계속 돌려",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "자기와 관계없는 신에게 이익을 바라며 제사하는 것은 해서는 안 될 일을 하는 비굴함으로 제시됩니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_6",
+      "source": {
+        "blob_sha": "c298f413ceb0d7f682002ee317d58f9ee9e0e448",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/02-위정.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st3 .js .side > p"
+      },
+      "book_name": "위정",
+      "replacements": [
+        [
+          "자기와 관계없는 신에게 이익을 바라며 제사하는 것은 해서는 안 될 일을 하는 비굴함으로 제시됩니다.",
+          "자기와 관계없는 신에게 이익을 바라며 제사하는 것은 해서는 안 될 비굴한 행동이라고 봅니다."
+        ]
+      ]
+    },
+    {
+      "book": 3,
+      "changed": true,
+      "id": "ly-03-04",
+      "index": 5,
+      "key": "ly-03-04:語:5",
+      "label": "戚척",
+      "original": "가까운 이를 잃은 슬픔과 애통함을 뜻합니다. 이 장에서는 喪禮의 형식을 살아 있게 만드는 마음으로, 능숙한 의례보다 우선하는 것으로 제시됩니다.",
+      "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+      "revised": "가까운 이를 잃은 슬픔과 애통함을 뜻합니다. 이 장에서는 喪禮의 형식을 살아 있게 만드는 이 마음을 능숙한 의례보다 앞세웁니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_6",
+          "previous_revision": "가까운 이를 잃은 슬픔과 애통함을 뜻합니다. 이 장에서는 喪禮의 형식을 살아 있게 만드는 마음으로, 능숙한 의례보다 우선하는 것으로 제시됩니다.",
+          "revised": "가까운 이를 잃은 슬픔과 애통함을 뜻합니다. 이 장에서는 喪禮의 형식을 살아 있게 만드는 이 마음을 능숙한 의례보다 앞세웁니다.",
+          "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 계속 돌려",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "가까운 이를 잃은 슬픔과 애통함을 뜻합니다. 이 장에서는 喪禮의 형식을 살아 있게 만드는 마음으로, 능숙한 의례보다 우선하는 것으로 제시됩니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_6",
+      "source": {
+        "blob_sha": "a569dc24bc1cdff4db47200f0cefeab8df87d605",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/03-팔일.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "팔일",
+      "replacements": [
+        [
+          "가까운 이를 잃은 슬픔과 애통함을 뜻합니다. 이 장에서는 喪禮의 형식을 살아 있게 만드는 마음으로, 능숙한 의례보다 우선하는 것으로 제시됩니다.",
+          "가까운 이를 잃은 슬픔과 애통함을 뜻합니다. 이 장에서는 喪禮의 형식을 살아 있게 만드는 이 마음을 능숙한 의례보다 앞세웁니다."
+        ]
+      ]
+    },
+    {
+      "book": 3,
+      "changed": true,
+      "field": "질문",
+      "id": "ly-03-19",
+      "index": 3,
+      "key": "ly-03-19:問:3:q",
+      "label": "질문",
+      "original": "‘君使臣以禮’에서 군주에게 요구되는 禮는 무엇인가요?",
+      "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+      "revised": "‘君使臣以禮’에서 군주가 지켜야 할 禮는 무엇인가요?",
+      "scope": "問",
+      "revision_history": [
+        {
+          "pass": "targeted_type_6",
+          "previous_revision": "‘君使臣以禮’에서 군주에게 요구되는 禮는 무엇인가요?",
+          "revised": "‘君使臣以禮’에서 군주가 지켜야 할 禮는 무엇인가요?",
+          "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 계속 돌려",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "‘君使臣以禮’에서 군주에게 요구되는 禮는 무엇인가요?",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_6",
+      "source": {
+        "blob_sha": "a569dc24bc1cdff4db47200f0cefeab8df87d605",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/03-팔일.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
+      },
+      "book_name": "팔일",
+      "replacements": [
+        [
+          "‘君使臣以禮’에서 군주에게 요구되는 禮는 무엇인가요?",
+          "‘君使臣以禮’에서 군주가 지켜야 할 禮는 무엇인가요?"
+        ]
+      ]
+    },
+    {
+      "book": 3,
+      "changed": true,
+      "id": "ly-03-19",
+      "index": 3,
+      "key": "ly-03-19:語:3",
+      "label": "臣事君신사군",
+      "original": "신하가 임금을 섬기는 관계입니다. 여기서도 단순 복종보다 자신의 책임과 마음을 다해 직무를 수행하는 忠이 요구됩니다.",
+      "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+      "revised": "신하가 임금을 섬기는 관계입니다. 여기서도 단순히 복종하는 데 그치지 않고, 자신의 책임을 다하며 온 마음으로 직무를 수행하는 忠을 갖춰야 합니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_6",
+          "previous_revision": "신하가 임금을 섬기는 관계입니다. 여기서도 단순 복종보다 자신의 책임과 마음을 다해 직무를 수행하는 忠이 요구됩니다.",
+          "revised": "신하가 임금을 섬기는 관계입니다. 여기서도 단순히 복종하는 데 그치지 않고, 자신의 책임을 다하며 온 마음으로 직무를 수행하는 忠을 갖춰야 합니다.",
+          "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 계속 돌려",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "신하가 임금을 섬기는 관계입니다. 여기서도 단순 복종보다 자신의 책임과 마음을 다해 직무를 수행하는 忠이 요구됩니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_6",
+      "source": {
+        "blob_sha": "a569dc24bc1cdff4db47200f0cefeab8df87d605",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/03-팔일.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "팔일",
+      "replacements": [
+        [
+          "신하가 임금을 섬기는 관계입니다. 여기서도 단순 복종보다 자신의 책임과 마음을 다해 직무를 수행하는 忠이 요구됩니다.",
+          "신하가 임금을 섬기는 관계입니다. 여기서도 단순히 복종하는 데 그치지 않고, 자신의 책임을 다하며 온 마음으로 직무를 수행하는 忠을 갖춰야 합니다."
+        ]
+      ]
+    },
+    {
+      "book": 3,
+      "changed": true,
+      "id": "ly-03-19",
+      "index": 4,
+      "key": "ly-03-19:語:4",
+      "label": "以忠이충",
+      "original": "신하가 자기 마음과 힘을 다해 임금을 섬긴다는 뜻입니다. 禮와 忠은 서로 다른 지위에 맞는 쌍방의 책임으로 제시되어 한쪽만의 의무가 아닙니다.",
+      "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+      "revised": "신하가 자기 마음과 힘을 다해 임금을 섬긴다는 뜻입니다. 禮와 忠은 임금과 신하가 각자의 지위에 맞게 다해야 할 책임이므로, 어느 한쪽만의 의무가 아닙니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_6",
+          "previous_revision": "신하가 자기 마음과 힘을 다해 임금을 섬긴다는 뜻입니다. 禮와 忠은 서로 다른 지위에 맞는 쌍방의 책임으로 제시되어 한쪽만의 의무가 아닙니다.",
+          "revised": "신하가 자기 마음과 힘을 다해 임금을 섬긴다는 뜻입니다. 禮와 忠은 임금과 신하가 각자의 지위에 맞게 다해야 할 책임이므로, 어느 한쪽만의 의무가 아닙니다.",
+          "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 계속 돌려",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "신하가 자기 마음과 힘을 다해 임금을 섬긴다는 뜻입니다. 禮와 忠은 서로 다른 지위에 맞는 쌍방의 책임으로 제시되어 한쪽만의 의무가 아닙니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_6",
+      "source": {
+        "blob_sha": "a569dc24bc1cdff4db47200f0cefeab8df87d605",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/03-팔일.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "팔일",
+      "replacements": [
+        [
+          "신하가 자기 마음과 힘을 다해 임금을 섬긴다는 뜻입니다. 禮와 忠은 서로 다른 지위에 맞는 쌍방의 책임으로 제시되어 한쪽만의 의무가 아닙니다.",
+          "신하가 자기 마음과 힘을 다해 임금을 섬긴다는 뜻입니다. 禮와 忠은 임금과 신하가 각자의 지위에 맞게 다해야 할 책임이므로, 어느 한쪽만의 의무가 아닙니다."
+        ]
+      ]
+    },
+    {
+      "book": 4,
+      "changed": true,
+      "id": "ly-04-02",
+      "index": 1,
+      "key": "ly-04-02:語:1",
+      "label": "不仁者불인자",
+      "original": "仁이 자기 안에 자리 잡지 않은 사람을 말합니다. 외부 상황이 좋을 때나 나쁠 때나 마음의 중심을 지키기 어려운 사람으로 설명됩니다.",
+      "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+      "revised": "仁이 자기 안에 자리 잡지 않은 사람을 말합니다. 외부 상황이 좋을 때나 나쁠 때나 마음의 중심을 지키기 어려운 사람입니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_6",
+          "previous_revision": "仁이 자기 안에 자리 잡지 않은 사람을 말합니다. 외부 상황이 좋을 때나 나쁠 때나 마음의 중심을 지키기 어려운 사람으로 설명됩니다.",
+          "revised": "仁이 자기 안에 자리 잡지 않은 사람을 말합니다. 외부 상황이 좋을 때나 나쁠 때나 마음의 중심을 지키기 어려운 사람입니다.",
+          "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 계속 돌려",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "仁이 자기 안에 자리 잡지 않은 사람을 말합니다. 외부 상황이 좋을 때나 나쁠 때나 마음의 중심을 지키기 어려운 사람으로 설명됩니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_6",
+      "source": {
+        "blob_sha": "f392e8b176615e6c7c0afffbfb04618d24a2a853",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/04-이인.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "이인",
+      "replacements": [
+        [
+          "仁이 자기 안에 자리 잡지 않은 사람을 말합니다. 외부 상황이 좋을 때나 나쁠 때나 마음의 중심을 지키기 어려운 사람으로 설명됩니다.",
+          "仁이 자기 안에 자리 잡지 않은 사람을 말합니다. 외부 상황이 좋을 때나 나쁠 때나 마음의 중심을 지키기 어려운 사람입니다."
+        ]
+      ]
+    },
+    {
+      "book": 4,
+      "changed": true,
+      "id": "ly-04-11",
+      "index": 4,
+      "key": "ly-04-11:語:4",
+      "label": "懷惠회혜",
+      "original": "자신에게 돌아올 혜택과 이익을 마음에 둔다는 뜻입니다. 무엇이 바른가보다 나에게 어떤 이득이 생기는가를 먼저 생각하는 태도로 묘사됩니다.",
+      "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+      "revised": "자신에게 돌아올 혜택과 이익을 마음에 둔다는 뜻입니다. 무엇이 바른가보다 나에게 어떤 이득이 생기는가를 먼저 생각하는 태도입니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_6",
+          "previous_revision": "자신에게 돌아올 혜택과 이익을 마음에 둔다는 뜻입니다. 무엇이 바른가보다 나에게 어떤 이득이 생기는가를 먼저 생각하는 태도로 묘사됩니다.",
+          "revised": "자신에게 돌아올 혜택과 이익을 마음에 둔다는 뜻입니다. 무엇이 바른가보다 나에게 어떤 이득이 생기는가를 먼저 생각하는 태도입니다.",
+          "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 계속 돌려",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "자신에게 돌아올 혜택과 이익을 마음에 둔다는 뜻입니다. 무엇이 바른가보다 나에게 어떤 이득이 생기는가를 먼저 생각하는 태도로 묘사됩니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_6",
+      "source": {
+        "blob_sha": "f392e8b176615e6c7c0afffbfb04618d24a2a853",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/04-이인.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "이인",
+      "replacements": [
+        [
+          "자신에게 돌아올 혜택과 이익을 마음에 둔다는 뜻입니다. 무엇이 바른가보다 나에게 어떤 이득이 생기는가를 먼저 생각하는 태도로 묘사됩니다.",
+          "자신에게 돌아올 혜택과 이익을 마음에 둔다는 뜻입니다. 무엇이 바른가보다 나에게 어떤 이득이 생기는가를 먼저 생각하는 태도입니다."
+        ]
+      ]
+    },
+    {
+      "book": 4,
+      "changed": true,
+      "id": "ly-04-24",
+      "index": 3,
+      "key": "ly-04-24:語:3",
+      "label": "欲욕",
+      "original": "군자가 의식적으로 그렇게 되기를 바란다는 뜻입니다. 訥과 敏은 타고난 성격보다 스스로 길러야 할 태도로 제시됩니다.",
+      "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+      "revised": "군자가 의식적으로 그렇게 되기를 바란다는 뜻입니다. 訥과 敏은 타고난 성격이라기보다 스스로 길러야 할 태도라는 말입니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_6",
+          "previous_revision": "군자가 의식적으로 그렇게 되기를 바란다는 뜻입니다. 訥과 敏은 타고난 성격보다 스스로 길러야 할 태도로 제시됩니다.",
+          "revised": "군자가 의식적으로 그렇게 되기를 바란다는 뜻입니다. 訥과 敏은 타고난 성격이라기보다 스스로 길러야 할 태도라는 말입니다.",
+          "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 계속 돌려",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "군자가 의식적으로 그렇게 되기를 바란다는 뜻입니다. 訥과 敏은 타고난 성격보다 스스로 길러야 할 태도로 제시됩니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_6",
+      "source": {
+        "blob_sha": "f392e8b176615e6c7c0afffbfb04618d24a2a853",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/04-이인.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "이인",
+      "replacements": [
+        [
+          "군자가 의식적으로 그렇게 되기를 바란다는 뜻입니다. 訥과 敏은 타고난 성격보다 스스로 길러야 할 태도로 제시됩니다.",
+          "군자가 의식적으로 그렇게 되기를 바란다는 뜻입니다. 訥과 敏은 타고난 성격이라기보다 스스로 길러야 할 태도라는 말입니다."
+        ]
+      ]
+    },
+    {
+      "book": 5,
+      "changed": true,
+      "id": "ly-05-04",
+      "index": 2,
+      "key": "ly-05-04:語:2",
+      "label": "佞녕",
+      "original": "말을 교묘하고 능숙하게 잘하는 재주를 가리킵니다. 이 장에서는 좋은 능력으로 칭찬되지 않고, 사람을 말로 눌러 오히려 미움을 사기 쉬운 위험한 재주로 다뤄집니다.",
+      "reason": "누가 좋은 능력으로 칭찬하고 위험한 재주로 보는지 설명하는 문맥에서 불필요한 피동을 덜어 냅니다.",
+      "revised": "말을 교묘하고 능숙하게 잘하는 재주를 가리킵니다. 이 장에서는 좋은 능력으로 칭찬하지 않고, 사람을 말로 눌러 오히려 미움을 사기 쉬운 위험한 재주로 봅니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_6",
+          "previous_revision": "말을 교묘하고 능숙하게 잘하는 재주를 가리킵니다. 이 장에서는 좋은 능력으로 칭찬되지 않고, 사람을 말로 눌러 오히려 미움을 사기 쉬운 위험한 재주로 다뤄집니다.",
+          "revised": "말을 교묘하고 능숙하게 잘하는 재주를 가리킵니다. 이 장에서는 좋은 능력으로 칭찬하지 않고, 사람을 말로 눌러 오히려 미움을 사기 쉬운 위험한 재주로 봅니다.",
+          "reason": "누가 좋은 능력으로 칭찬하고 위험한 재주로 보는지 설명하는 문맥에서 불필요한 피동을 덜어 냅니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 계속 돌려",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "말을 교묘하고 능숙하게 잘하는 재주를 가리킵니다. 이 장에서는 좋은 능력으로 칭찬되지 않고, 사람을 말로 눌러 오히려 미움을 사기 쉬운 위험한 재주로 다뤄집니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_6",
+      "source": {
+        "blob_sha": "222e20ea42d90cf5c8d49d5cd063fbba6b37b8c7",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/05-공야장.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "공야장",
+      "replacements": [
+        [
+          "말을 교묘하고 능숙하게 잘하는 재주를 가리킵니다. 이 장에서는 좋은 능력으로 칭찬되지 않고, 사람을 말로 눌러 오히려 미움을 사기 쉬운 위험한 재주로 다뤄집니다.",
+          "말을 교묘하고 능숙하게 잘하는 재주를 가리킵니다. 이 장에서는 좋은 능력으로 칭찬하지 않고, 사람을 말로 눌러 오히려 미움을 사기 쉬운 위험한 재주로 봅니다."
+        ]
+      ]
+    },
+    {
+      "book": 6,
+      "changed": true,
+      "id": "ly-06-14",
+      "index": 1,
+      "key": "ly-06-14:語:1",
+      "label": "祝鮀之佞축타지녕",
+      "original": "축타처럼 뛰어난 말재주를 가리킵니다. 당시 사회에서 살아남으려면 능숙한 언변이 요구되는 현실을 공자님이 씁쓸하게 지적하는 표현입니다.",
+      "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+      "revised": "축타처럼 뛰어난 말재주를 가리킵니다. 당시 사회에서 살아남으려면 말을 능숙하게 해야 하는 현실을 공자님이 씁쓸하게 지적하는 표현입니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_6",
+          "previous_revision": "축타처럼 뛰어난 말재주를 가리킵니다. 당시 사회에서 살아남으려면 능숙한 언변이 요구되는 현실을 공자님이 씁쓸하게 지적하는 표현입니다.",
+          "revised": "축타처럼 뛰어난 말재주를 가리킵니다. 당시 사회에서 살아남으려면 말을 능숙하게 해야 하는 현실을 공자님이 씁쓸하게 지적하는 표현입니다.",
+          "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 계속 돌려",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "축타처럼 뛰어난 말재주를 가리킵니다. 당시 사회에서 살아남으려면 능숙한 언변이 요구되는 현실을 공자님이 씁쓸하게 지적하는 표현입니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_6",
+      "source": {
+        "blob_sha": "f5853d2851095f9bf9d03b017aa678d398a2c040",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/06-옹야.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "옹야",
+      "replacements": [
+        [
+          "축타처럼 뛰어난 말재주를 가리킵니다. 당시 사회에서 살아남으려면 능숙한 언변이 요구되는 현실을 공자님이 씁쓸하게 지적하는 표현입니다.",
+          "축타처럼 뛰어난 말재주를 가리킵니다. 당시 사회에서 살아남으려면 말을 능숙하게 해야 하는 현실을 공자님이 씁쓸하게 지적하는 표현입니다."
+        ]
+      ]
+    },
+    {
+      "book": 6,
+      "changed": true,
+      "heading": "노나라는 주례의 나라였는데 왜 또 ‘한 번 변해야’ 했을까?장간 긴장형",
+      "id": "ly-06-22",
+      "index": 1,
+      "key": "ly-06-22:說:1:1",
+      "label": "이렇게 보면",
+      "original": "노나라는 주공의 전통을 간직한 나라라 공자님에게 이상에 가까운 곳으로 평가됩니다.",
+      "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+      "revised": "공자님은 주공의 전통을 간직한 노나라를 자신의 이상에 가까운 곳으로 평가합니다.",
+      "scope": "說",
+      "side": 1,
+      "revision_history": [
+        {
+          "pass": "targeted_type_6",
+          "previous_revision": "노나라는 주공의 전통을 간직한 나라라 공자님에게 이상에 가까운 곳으로 평가됩니다.",
+          "revised": "공자님은 주공의 전통을 간직한 노나라를 자신의 이상에 가까운 곳으로 평가합니다.",
+          "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 계속 돌려",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "노나라는 주공의 전통을 간직한 나라라 공자님에게 이상에 가까운 곳으로 평가됩니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_6",
+      "source": {
+        "blob_sha": "f5853d2851095f9bf9d03b017aa678d398a2c040",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/06-옹야.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st3 .js .side > p"
+      },
+      "book_name": "옹야",
+      "replacements": [
+        [
+          "노나라는 주공의 전통을 간직한 나라라 공자님에게 이상에 가까운 곳으로 평가됩니다.",
+          "공자님은 주공의 전통을 간직한 노나라를 자신의 이상에 가까운 곳으로 평가합니다."
+        ]
+      ]
+    },
+    {
+      "book": 8,
+      "changed": true,
+      "id": "ly-08-06",
+      "index": 5,
+      "key": "ly-08-06:語:5",
+      "label": "不可奪불가탈",
+      "original": "뜻을 빼앗거나 바꾸게 할 수 없다는 말입니다. 위험과 이익이 앞에 있어도 중요한 원칙을 지켜 내는 굳셈이 군자의 핵심 조건으로 제시됩니다.",
+      "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+      "revised": "뜻을 빼앗거나 바꾸게 할 수 없다는 말입니다. 군자는 위험과 이익이 앞에 있어도 중요한 원칙을 굳게 지켜야 한다고 봅니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_6",
+          "previous_revision": "뜻을 빼앗거나 바꾸게 할 수 없다는 말입니다. 위험과 이익이 앞에 있어도 중요한 원칙을 지켜 내는 굳셈이 군자의 핵심 조건으로 제시됩니다.",
+          "revised": "뜻을 빼앗거나 바꾸게 할 수 없다는 말입니다. 군자는 위험과 이익이 앞에 있어도 중요한 원칙을 굳게 지켜야 한다고 봅니다.",
+          "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 계속 돌려",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "뜻을 빼앗거나 바꾸게 할 수 없다는 말입니다. 위험과 이익이 앞에 있어도 중요한 원칙을 지켜 내는 굳셈이 군자의 핵심 조건으로 제시됩니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_6",
+      "source": {
+        "blob_sha": "2e1d6800360c25a2104b4ec5cd1ae44b588154c6",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/08-태백.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "태백",
+      "replacements": [
+        [
+          "뜻을 빼앗거나 바꾸게 할 수 없다는 말입니다. 위험과 이익이 앞에 있어도 중요한 원칙을 지켜 내는 굳셈이 군자의 핵심 조건으로 제시됩니다.",
+          "뜻을 빼앗거나 바꾸게 할 수 없다는 말입니다. 군자는 위험과 이익이 앞에 있어도 중요한 원칙을 굳게 지켜야 한다고 봅니다."
+        ]
+      ]
+    },
+    {
+      "book": 8,
+      "changed": true,
+      "id": "ly-08-18",
+      "index": 2,
+      "key": "ly-08-18:語:2",
+      "label": "舜禹순우",
+      "original": "순임금과 우임금을 함께 가리킵니다. 둘은 천하를 맡은 이상적 통치자의 사례로 제시되며, 권력을 소유물처럼 여기지 않은 태도가 칭찬됩니다.",
+      "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+      "revised": "순임금과 우임금을 함께 가리킵니다. 공자님은 두 사람을 천하를 맡은 이상적인 통치자의 예로 들고, 권력을 소유물처럼 여기지 않은 태도를 칭찬합니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_6",
+          "previous_revision": "순임금과 우임금을 함께 가리킵니다. 둘은 천하를 맡은 이상적 통치자의 사례로 제시되며, 권력을 소유물처럼 여기지 않은 태도가 칭찬됩니다.",
+          "revised": "순임금과 우임금을 함께 가리킵니다. 공자님은 두 사람을 천하를 맡은 이상적인 통치자의 예로 들고, 권력을 소유물처럼 여기지 않은 태도를 칭찬합니다.",
+          "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 계속 돌려",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "순임금과 우임금을 함께 가리킵니다. 둘은 천하를 맡은 이상적 통치자의 사례로 제시되며, 권력을 소유물처럼 여기지 않은 태도가 칭찬됩니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_6",
+      "source": {
+        "blob_sha": "2e1d6800360c25a2104b4ec5cd1ae44b588154c6",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/08-태백.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "태백",
+      "replacements": [
+        [
+          "순임금과 우임금을 함께 가리킵니다. 둘은 천하를 맡은 이상적 통치자의 사례로 제시되며, 권력을 소유물처럼 여기지 않은 태도가 칭찬됩니다.",
+          "순임금과 우임금을 함께 가리킵니다. 공자님은 두 사람을 천하를 맡은 이상적인 통치자의 예로 들고, 권력을 소유물처럼 여기지 않은 태도를 칭찬합니다."
+        ]
+      ]
+    },
+    {
+      "book": 9,
+      "changed": true,
+      "id": "ly-09-25",
+      "index": 1,
+      "key": "ly-09-25:語:1",
+      "label": "三軍삼군",
+      "original": "큰 군대를 가리키는 표현입니다. 강한 조직과 외적 힘의 상징으로 제시되어, 한 개인의 내면적 뜻과 대비됩니다.",
+      "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+      "revised": "큰 군대를 가리키는 표현입니다. 강한 조직과 외적 힘을 상징하며, 한 개인이 마음속에 품은 뜻과 대비됩니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_6",
+          "previous_revision": "큰 군대를 가리키는 표현입니다. 강한 조직과 외적 힘의 상징으로 제시되어, 한 개인의 내면적 뜻과 대비됩니다.",
+          "revised": "큰 군대를 가리키는 표현입니다. 강한 조직과 외적 힘을 상징하며, 한 개인이 마음속에 품은 뜻과 대비됩니다.",
+          "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 계속 돌려",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "큰 군대를 가리키는 표현입니다. 강한 조직과 외적 힘의 상징으로 제시되어, 한 개인의 내면적 뜻과 대비됩니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_6",
+      "source": {
+        "blob_sha": "575486d765f742fc9fdea0d92141603d4be1f322",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/09-자한.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "자한",
+      "replacements": [
+        [
+          "큰 군대를 가리키는 표현입니다. 강한 조직과 외적 힘의 상징으로 제시되어, 한 개인의 내면적 뜻과 대비됩니다.",
+          "큰 군대를 가리키는 표현입니다. 강한 조직과 외적 힘을 상징하며, 한 개인이 마음속에 품은 뜻과 대비됩니다."
+        ]
+      ]
+    },
+    {
+      "book": 9,
+      "changed": true,
+      "id": "ly-09-30",
+      "index": 3,
+      "key": "ly-09-30:語:3",
+      "label": "室是遠而실시원이",
+      "original": "그 사람의 집이 멀다는 뜻입니다. 시에서는 행동하지 못하는 이유로 제시되지만, 공자님은 진짜 문제는 거리가 아니라 마음의 간절함이라고 봅니다.",
+      "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+      "revised": "그 사람의 집이 멀다는 뜻입니다. 시에서는 집이 멀어 행동하지 못한다고 하지만, 공자님은 진짜 문제는 거리가 아니라 마음의 간절함이라고 봅니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_6",
+          "previous_revision": "그 사람의 집이 멀다는 뜻입니다. 시에서는 행동하지 못하는 이유로 제시되지만, 공자님은 진짜 문제는 거리가 아니라 마음의 간절함이라고 봅니다.",
+          "revised": "그 사람의 집이 멀다는 뜻입니다. 시에서는 집이 멀어 행동하지 못한다고 하지만, 공자님은 진짜 문제는 거리가 아니라 마음의 간절함이라고 봅니다.",
+          "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 계속 돌려",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "그 사람의 집이 멀다는 뜻입니다. 시에서는 행동하지 못하는 이유로 제시되지만, 공자님은 진짜 문제는 거리가 아니라 마음의 간절함이라고 봅니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_6",
+      "source": {
+        "blob_sha": "575486d765f742fc9fdea0d92141603d4be1f322",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/09-자한.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "자한",
+      "replacements": [
+        [
+          "그 사람의 집이 멀다는 뜻입니다. 시에서는 행동하지 못하는 이유로 제시되지만, 공자님은 진짜 문제는 거리가 아니라 마음의 간절함이라고 봅니다.",
+          "그 사람의 집이 멀다는 뜻입니다. 시에서는 집이 멀어 행동하지 못한다고 하지만, 공자님은 진짜 문제는 거리가 아니라 마음의 간절함이라고 봅니다."
+        ]
+      ]
+    },
+    {
+      "book": 10,
+      "changed": true,
+      "field": "답변",
+      "id": "ly-10-05",
+      "index": 2,
+      "key": "ly-10-05:問:2:a",
+      "label": "답변",
+      "original": "당시 외교 의례에서는 몸짓 하나하나가 상대 국가에 대한 존중을 나타냈습니다. 예는 마음속 공경만이 아니라 정확한 동작과 절차를 통해 밖으로 표현되었습니다.",
+      "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+      "revised": "당시 외교 의례에서는 몸짓 하나하나가 상대 국가에 대한 존중을 나타냈습니다. 마음속 공경을 정확한 동작과 절차로 드러내며 예를 갖추었습니다.",
+      "scope": "問",
+      "revision_history": [
+        {
+          "pass": "targeted_type_6",
+          "previous_revision": "당시 외교 의례에서는 몸짓 하나하나가 상대 국가에 대한 존중을 나타냈습니다. 예는 마음속 공경만이 아니라 정확한 동작과 절차를 통해 밖으로 표현되었습니다.",
+          "revised": "당시 외교 의례에서는 몸짓 하나하나가 상대 국가에 대한 존중을 나타냈습니다. 마음속 공경을 정확한 동작과 절차로 드러내며 예를 갖추었습니다.",
+          "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 계속 돌려",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "당시 외교 의례에서는 몸짓 하나하나가 상대 국가에 대한 존중을 나타냈습니다. 예는 마음속 공경만이 아니라 정확한 동작과 절차를 통해 밖으로 표현되었습니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_6",
+      "source": {
+        "blob_sha": "096e28e98ea4c6569110a538191880a1ac6cede8",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/10-향당.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
+      },
+      "book_name": "향당",
+      "replacements": [
+        [
+          "당시 외교 의례에서는 몸짓 하나하나가 상대 국가에 대한 존중을 나타냈습니다. 예는 마음속 공경만이 아니라 정확한 동작과 절차를 통해 밖으로 표현되었습니다.",
+          "당시 외교 의례에서는 몸짓 하나하나가 상대 국가에 대한 존중을 나타냈습니다. 마음속 공경을 정확한 동작과 절차로 드러내며 예를 갖추었습니다."
+        ]
+      ]
+    },
+    {
+      "book": 11,
+      "changed": true,
+      "id": "ly-11-03",
+      "index": 2,
+      "key": "ly-11-03:語:2",
+      "label": "回회",
+      "original": "안회의 이름입니다. 공자님의 말을 깊이 이해하고 기쁘게 받아들이는 제자로 묘사되어, 단순한 순종과 높은 이해력의 차이를 보여 줍니다.",
+      "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+      "revised": "안회의 이름입니다. 안회는 단순히 순종한 것이 아니라 공자님의 말을 깊이 이해하고 기쁘게 받아들인 제자입니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_6",
+          "previous_revision": "안회의 이름입니다. 공자님의 말을 깊이 이해하고 기쁘게 받아들이는 제자로 묘사되어, 단순한 순종과 높은 이해력의 차이를 보여 줍니다.",
+          "revised": "안회의 이름입니다. 안회는 단순히 순종한 것이 아니라 공자님의 말을 깊이 이해하고 기쁘게 받아들인 제자입니다.",
+          "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 계속 돌려",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "안회의 이름입니다. 공자님의 말을 깊이 이해하고 기쁘게 받아들이는 제자로 묘사되어, 단순한 순종과 높은 이해력의 차이를 보여 줍니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_6",
+      "source": {
+        "blob_sha": "816ad65fdf62c262291949e5551e4676aa25b7b7",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/11-선진.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "선진",
+      "replacements": [
+        [
+          "안회의 이름입니다. 공자님의 말을 깊이 이해하고 기쁘게 받아들이는 제자로 묘사되어, 단순한 순종과 높은 이해력의 차이를 보여 줍니다.",
+          "안회의 이름입니다. 안회는 단순히 순종한 것이 아니라 공자님의 말을 깊이 이해하고 기쁘게 받아들인 제자입니다."
+        ]
+      ]
+    },
+    {
+      "book": 12,
+      "changed": true,
+      "id": "ly-12-07",
+      "index": 2,
+      "key": "ly-12-07:語:2",
+      "label": "足兵족병",
+      "original": "국가를 지킬 군사력이 충분한 상태를 뜻합니다. 중요하지만 백성의 생존과 신뢰보다 먼저 버릴 수 있는 것으로 제시되어 정치의 우선순위가 드러납니다.",
+      "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+      "revised": "국가를 지킬 군사력이 충분한 상태를 뜻합니다. 공자님은 군사력이 중요하지만 백성의 생존과 신뢰보다는 먼저 버릴 수 있다고 보아, 정치에서 무엇을 우선해야 하는지 밝힙니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_6",
+          "previous_revision": "국가를 지킬 군사력이 충분한 상태를 뜻합니다. 중요하지만 백성의 생존과 신뢰보다 먼저 버릴 수 있는 것으로 제시되어 정치의 우선순위가 드러납니다.",
+          "revised": "국가를 지킬 군사력이 충분한 상태를 뜻합니다. 공자님은 군사력이 중요하지만 백성의 생존과 신뢰보다는 먼저 버릴 수 있다고 보아, 정치에서 무엇을 우선해야 하는지 밝힙니다.",
+          "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 계속 돌려",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "국가를 지킬 군사력이 충분한 상태를 뜻합니다. 중요하지만 백성의 생존과 신뢰보다 먼저 버릴 수 있는 것으로 제시되어 정치의 우선순위가 드러납니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_6",
+      "source": {
+        "blob_sha": "3bb3dcb4ca5735dac947735bf406fdafaae89bf5",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/12-안연.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "안연",
+      "replacements": [
+        [
+          "국가를 지킬 군사력이 충분한 상태를 뜻합니다. 중요하지만 백성의 생존과 신뢰보다 먼저 버릴 수 있는 것으로 제시되어 정치의 우선순위가 드러납니다.",
+          "국가를 지킬 군사력이 충분한 상태를 뜻합니다. 공자님은 군사력이 중요하지만 백성의 생존과 신뢰보다는 먼저 버릴 수 있다고 보아, 정치에서 무엇을 우선해야 하는지 밝힙니다."
+        ]
+      ]
+    },
+    {
+      "book": 13,
+      "changed": true,
+      "id": "ly-13-02",
+      "index": 4,
+      "key": "ly-13-02:語:4",
+      "label": "擧賢才거현재",
+      "original": "덕과 능력이 있는 사람을 찾아 등용한다는 뜻입니다. 지도자가 모든 일을 직접 하기보다 좋은 인재를 알아보고 알맞은 자리에 쓰는 일이 정치의 핵심으로 제시됩니다.",
+      "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+      "revised": "덕과 능력이 있는 사람을 찾아 등용한다는 뜻입니다. 공자님은 지도자가 모든 일을 직접 하기보다 좋은 인재를 알아보고 알맞은 자리에 쓰는 일을 정치의 핵심으로 봅니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_6",
+          "previous_revision": "덕과 능력이 있는 사람을 찾아 등용한다는 뜻입니다. 지도자가 모든 일을 직접 하기보다 좋은 인재를 알아보고 알맞은 자리에 쓰는 일이 정치의 핵심으로 제시됩니다.",
+          "revised": "덕과 능력이 있는 사람을 찾아 등용한다는 뜻입니다. 공자님은 지도자가 모든 일을 직접 하기보다 좋은 인재를 알아보고 알맞은 자리에 쓰는 일을 정치의 핵심으로 봅니다.",
+          "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 계속 돌려",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "덕과 능력이 있는 사람을 찾아 등용한다는 뜻입니다. 지도자가 모든 일을 직접 하기보다 좋은 인재를 알아보고 알맞은 자리에 쓰는 일이 정치의 핵심으로 제시됩니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_6",
+      "source": {
+        "blob_sha": "e9779822bb2b17ca431de651cab7e85168c58eb8",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/13-자로.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "자로",
+      "replacements": [
+        [
+          "덕과 능력이 있는 사람을 찾아 등용한다는 뜻입니다. 지도자가 모든 일을 직접 하기보다 좋은 인재를 알아보고 알맞은 자리에 쓰는 일이 정치의 핵심으로 제시됩니다.",
+          "덕과 능력이 있는 사람을 찾아 등용한다는 뜻입니다. 공자님은 지도자가 모든 일을 직접 하기보다 좋은 인재를 알아보고 알맞은 자리에 쓰는 일을 정치의 핵심으로 봅니다."
+        ]
+      ]
+    },
+    {
+      "book": 13,
+      "changed": true,
+      "id": "ly-13-05",
+      "index": 4,
+      "key": "ly-13-05:語:4",
+      "label": "使於四方사어사방",
+      "original": "다른 나라에 사신으로 나가는 일을 뜻합니다. 외운 문장을 반복하는 데서 끝나지 않고 낯선 상황에서 스스로 판단하고 말할 능력이 요구됩니다.",
+      "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+      "revised": "다른 나라에 사신으로 나가는 일을 뜻합니다. 외운 문장을 반복하는 데서 끝나지 않고 낯선 상황에서 스스로 판단하고 말할 수 있어야 합니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_6",
+          "previous_revision": "다른 나라에 사신으로 나가는 일을 뜻합니다. 외운 문장을 반복하는 데서 끝나지 않고 낯선 상황에서 스스로 판단하고 말할 능력이 요구됩니다.",
+          "revised": "다른 나라에 사신으로 나가는 일을 뜻합니다. 외운 문장을 반복하는 데서 끝나지 않고 낯선 상황에서 스스로 판단하고 말할 수 있어야 합니다.",
+          "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 계속 돌려",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "다른 나라에 사신으로 나가는 일을 뜻합니다. 외운 문장을 반복하는 데서 끝나지 않고 낯선 상황에서 스스로 판단하고 말할 능력이 요구됩니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_6",
+      "source": {
+        "blob_sha": "e9779822bb2b17ca431de651cab7e85168c58eb8",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/13-자로.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "자로",
+      "replacements": [
+        [
+          "다른 나라에 사신으로 나가는 일을 뜻합니다. 외운 문장을 반복하는 데서 끝나지 않고 낯선 상황에서 스스로 판단하고 말할 능력이 요구됩니다.",
+          "다른 나라에 사신으로 나가는 일을 뜻합니다. 외운 문장을 반복하는 데서 끝나지 않고 낯선 상황에서 스스로 판단하고 말할 수 있어야 합니다."
+        ]
+      ]
+    },
+    {
+      "book": 13,
+      "changed": true,
+      "id": "ly-13-28",
+      "index": 4,
+      "key": "ly-13-28:語:4",
+      "label": "兄弟형제",
+      "original": "형제 관계에서는 화목과 온화함이 강조됩니다. 같은 옳은 뜻도 관계의 성격에 맞는 방식으로 표현해야 한다는 점을 보여 줍니다.",
+      "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+      "revised": "형제 관계에서는 화목하고 온화하게 지내야 한다고 강조합니다. 같은 옳은 뜻도 관계의 성격에 맞는 방식으로 표현해야 한다는 점을 보여 줍니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_6",
+          "previous_revision": "형제 관계에서는 화목과 온화함이 강조됩니다. 같은 옳은 뜻도 관계의 성격에 맞는 방식으로 표현해야 한다는 점을 보여 줍니다.",
+          "revised": "형제 관계에서는 화목하고 온화하게 지내야 한다고 강조합니다. 같은 옳은 뜻도 관계의 성격에 맞는 방식으로 표현해야 한다는 점을 보여 줍니다.",
+          "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 계속 돌려",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "형제 관계에서는 화목과 온화함이 강조됩니다. 같은 옳은 뜻도 관계의 성격에 맞는 방식으로 표현해야 한다는 점을 보여 줍니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_6",
+      "source": {
+        "blob_sha": "e9779822bb2b17ca431de651cab7e85168c58eb8",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/13-자로.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "자로",
+      "replacements": [
+        [
+          "형제 관계에서는 화목과 온화함이 강조됩니다. 같은 옳은 뜻도 관계의 성격에 맞는 방식으로 표현해야 한다는 점을 보여 줍니다.",
+          "형제 관계에서는 화목하고 온화하게 지내야 한다고 강조합니다. 같은 옳은 뜻도 관계의 성격에 맞는 방식으로 표현해야 한다는 점을 보여 줍니다."
+        ]
+      ]
+    },
+    {
+      "book": 14,
+      "changed": true,
+      "id": "ly-14-12",
+      "index": 3,
+      "key": "ly-14-12:語:3",
+      "label": "滕薛大夫등설대부",
+      "original": "작은 나라의 대부처럼 직접 정치를 책임지는 자리를 가리킵니다. 맹공작은 욕심은 적지만 실무 능력 면에서는 이런 자리에 맞지 않는다고 평가됩니다.",
+      "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+      "revised": "작은 나라의 대부처럼 직접 정치를 책임지는 자리를 가리킵니다. 공자님은 맹공작이 욕심은 적지만 실무 능력 면에서는 이런 자리에 맞지 않는다고 봅니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_6",
+          "previous_revision": "작은 나라의 대부처럼 직접 정치를 책임지는 자리를 가리킵니다. 맹공작은 욕심은 적지만 실무 능력 면에서는 이런 자리에 맞지 않는다고 평가됩니다.",
+          "revised": "작은 나라의 대부처럼 직접 정치를 책임지는 자리를 가리킵니다. 공자님은 맹공작이 욕심은 적지만 실무 능력 면에서는 이런 자리에 맞지 않는다고 봅니다.",
+          "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 계속 돌려",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "작은 나라의 대부처럼 직접 정치를 책임지는 자리를 가리킵니다. 맹공작은 욕심은 적지만 실무 능력 면에서는 이런 자리에 맞지 않는다고 평가됩니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_6",
+      "source": {
+        "blob_sha": "1d5c9f60733d7c923dbcea667ed7b3893c8fdad1",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/14-헌문.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "헌문",
+      "replacements": [
+        [
+          "작은 나라의 대부처럼 직접 정치를 책임지는 자리를 가리킵니다. 맹공작은 욕심은 적지만 실무 능력 면에서는 이런 자리에 맞지 않는다고 평가됩니다.",
+          "작은 나라의 대부처럼 직접 정치를 책임지는 자리를 가리킵니다. 공자님은 맹공작이 욕심은 적지만 실무 능력 면에서는 이런 자리에 맞지 않는다고 봅니다."
+        ]
+      ]
+    },
+    {
+      "book": 15,
+      "changed": true,
+      "field": "답변",
+      "id": "ly-15-06",
+      "index": 3,
+      "key": "ly-15-06:問:3:a",
+      "label": "답변",
+      "original": "둘 다 칭찬하지만 성격이 다릅니다. 사어는 한결같은 강직함, 거백옥은 상황에 맞게 출처를 조절하는 군자다운 지혜가 강조됩니다.",
+      "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+      "revised": "둘 다 칭찬하지만 성격이 다릅니다. 공자님은 사어의 한결같은 강직함을 칭찬합니다. 거백옥에게서는 상황에 맞게 출처를 조절하는 군자다운 지혜를 높이 봅니다.",
+      "scope": "問",
+      "revision_history": [
+        {
+          "pass": "targeted_type_6",
+          "previous_revision": "둘 다 칭찬하지만 성격이 다릅니다. 사어는 한결같은 강직함, 거백옥은 상황에 맞게 출처를 조절하는 군자다운 지혜가 강조됩니다.",
+          "revised": "둘 다 칭찬하지만 성격이 다릅니다. 공자님은 사어의 한결같은 강직함을 칭찬합니다. 거백옥에게서는 상황에 맞게 출처를 조절하는 군자다운 지혜를 높이 봅니다.",
+          "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 계속 돌려",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "둘 다 칭찬하지만 성격이 다릅니다. 사어는 한결같은 강직함, 거백옥은 상황에 맞게 출처를 조절하는 군자다운 지혜가 강조됩니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_6",
+      "source": {
+        "blob_sha": "bf4095ccec09b5c2b5f74960dd33fde8da5220be",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/15-위령공.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
+      },
+      "book_name": "위령공",
+      "replacements": [
+        [
+          "둘 다 칭찬하지만 성격이 다릅니다. 사어는 한결같은 강직함, 거백옥은 상황에 맞게 출처를 조절하는 군자다운 지혜가 강조됩니다.",
+          "둘 다 칭찬하지만 성격이 다릅니다. 공자님은 사어의 한결같은 강직함을 칭찬합니다. 거백옥에게서는 상황에 맞게 출처를 조절하는 군자다운 지혜를 높이 봅니다."
+        ]
+      ]
+    },
+    {
+      "book": 15,
+      "changed": true,
+      "id": "ly-15-18",
+      "index": 3,
+      "key": "ly-15-18:語:3",
+      "label": "無能무능",
+      "original": "여기서는 단순한 재주 부족보다 맡은 일을 제대로 수행할 수 없는 상태를 뜻합니다. 군자가 스스로 개선해야 할 핵심 문제로 제시됩니다.",
+      "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+      "revised": "여기서는 단순한 재주 부족보다 맡은 일을 제대로 수행할 수 없는 상태를 뜻합니다. 군자가 스스로 고쳐야 할 중요한 문제입니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_6",
+          "previous_revision": "여기서는 단순한 재주 부족보다 맡은 일을 제대로 수행할 수 없는 상태를 뜻합니다. 군자가 스스로 개선해야 할 핵심 문제로 제시됩니다.",
+          "revised": "여기서는 단순한 재주 부족보다 맡은 일을 제대로 수행할 수 없는 상태를 뜻합니다. 군자가 스스로 고쳐야 할 중요한 문제입니다.",
+          "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 계속 돌려",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "여기서는 단순한 재주 부족보다 맡은 일을 제대로 수행할 수 없는 상태를 뜻합니다. 군자가 스스로 개선해야 할 핵심 문제로 제시됩니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_6",
+      "source": {
+        "blob_sha": "bf4095ccec09b5c2b5f74960dd33fde8da5220be",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/15-위령공.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "위령공",
+      "replacements": [
+        [
+          "여기서는 단순한 재주 부족보다 맡은 일을 제대로 수행할 수 없는 상태를 뜻합니다. 군자가 스스로 개선해야 할 핵심 문제로 제시됩니다.",
+          "여기서는 단순한 재주 부족보다 맡은 일을 제대로 수행할 수 없는 상태를 뜻합니다. 군자가 스스로 고쳐야 할 중요한 문제입니다."
+        ]
+      ]
+    },
+    {
+      "book": 15,
+      "changed": true,
+      "id": "ly-15-21",
+      "index": 4,
+      "key": "ly-15-21:語:4",
+      "label": "黨당",
+      "original": "원칙보다 사적 이해와 친분으로 뭉친 파벌을 뜻합니다. 함께 어울리는 群과 구분되어 비판됩니다.",
+      "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+      "revised": "원칙보다 사적 이해와 친분으로 뭉친 파벌을 뜻합니다. 공자님은 함께 어울리는 群과 이런 파벌을 구분하고, 파벌을 짓는 태도를 비판합니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_6",
+          "previous_revision": "원칙보다 사적 이해와 친분으로 뭉친 파벌을 뜻합니다. 함께 어울리는 群과 구분되어 비판됩니다.",
+          "revised": "원칙보다 사적 이해와 친분으로 뭉친 파벌을 뜻합니다. 공자님은 함께 어울리는 群과 이런 파벌을 구분하고, 파벌을 짓는 태도를 비판합니다.",
+          "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 계속 돌려",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "원칙보다 사적 이해와 친분으로 뭉친 파벌을 뜻합니다. 함께 어울리는 群과 구분되어 비판됩니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_6",
+      "source": {
+        "blob_sha": "bf4095ccec09b5c2b5f74960dd33fde8da5220be",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/15-위령공.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "위령공",
+      "replacements": [
+        [
+          "원칙보다 사적 이해와 친분으로 뭉친 파벌을 뜻합니다. 함께 어울리는 群과 구분되어 비판됩니다.",
+          "원칙보다 사적 이해와 친분으로 뭉친 파벌을 뜻합니다. 공자님은 함께 어울리는 群과 이런 파벌을 구분하고, 파벌을 짓는 태도를 비판합니다."
+        ]
+      ]
+    },
+    {
+      "book": 19,
+      "changed": true,
+      "id": "ly-19-22",
+      "index": 2,
+      "key": "ly-19-22:語:2",
+      "label": "文武之道문무지도",
+      "original": "문왕·무왕의 정치와 예악, 문화적 전통을 넓게 가리킵니다. 특정 책 한 권보다 사람들 속에 남아 있는 살아 있는 전통으로 설명됩니다.",
+      "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+      "revised": "문왕·무왕의 정치와 예악, 문화적 전통을 넓게 가리킵니다. 특정 책 한 권보다 사람들 속에 살아 있는 전통을 뜻합니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_6",
+          "previous_revision": "문왕·무왕의 정치와 예악, 문화적 전통을 넓게 가리킵니다. 특정 책 한 권보다 사람들 속에 남아 있는 살아 있는 전통으로 설명됩니다.",
+          "revised": "문왕·무왕의 정치와 예악, 문화적 전통을 넓게 가리킵니다. 특정 책 한 권보다 사람들 속에 살아 있는 전통을 뜻합니다.",
+          "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영후 계속 돌려",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "문왕·무왕의 정치와 예악, 문화적 전통을 넓게 가리킵니다. 특정 책 한 권보다 사람들 속에 남아 있는 살아 있는 전통으로 설명됩니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_6",
+      "source": {
+        "blob_sha": "50679eceddd3d454aa9f88bdecb4c2f3e1704622",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/19-자장.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "자장",
+      "replacements": [
+        [
+          "문왕·무왕의 정치와 예악, 문화적 전통을 넓게 가리킵니다. 특정 책 한 권보다 사람들 속에 남아 있는 살아 있는 전통으로 설명됩니다.",
+          "문왕·무왕의 정치와 예악, 문화적 전통을 넓게 가리킵니다. 특정 책 한 권보다 사람들 속에 살아 있는 전통을 뜻합니다."
+        ]
+      ]
     }
   ],
   "latest_style_pass": {
-    "pass": "targeted_type_5",
-    "approved_applied": 14
+    "pass": "targeted_type_6",
+    "approved_applied": 31
   }
 }

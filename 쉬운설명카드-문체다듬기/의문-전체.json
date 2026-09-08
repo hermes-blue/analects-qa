@@ -2,12 +2,12 @@
   "schema_version": "1.1",
   "scope": "問",
   "scope_name": "의문",
-  "status": "approved_targeted_type_5_applied",
-  "method": "최신 수정문 전체에서 유형 5 표현을 검색하고 검색 결과의 문맥을 검토한 뒤, 승인된 14곳만 반영. 내용·해석 검수는 하지 않음.",
+  "status": "approved_targeted_type_6_applied",
+  "method": "최신 수정문 6,921개 전체에서 피동 표현을 검색하고 검색 결과 247개의 문맥을 검토한 뒤, 승인된 유형 6 수정안 31곳만 반영. 내용·해석 검수는 하지 않음.",
   "count_unit": "텍스트 필드: 한자 풀이 1개, 질문 또는 답변 1개, 쟁점의 견해 설명 1개",
   "total": 3072,
-  "changed": 197,
-  "unchanged": 2875,
+  "changed": 200,
+  "unchanged": 2872,
   "card_count": 498,
   "book_count": 20,
   "content_review_performed": false,
@@ -5005,16 +5005,30 @@
         },
         {
           "book": 3,
-          "changed": false,
+          "changed": true,
           "field": "질문",
           "id": "ly-03-19",
           "index": 3,
           "key": "ly-03-19:問:3:q",
           "label": "질문",
           "original": "‘君使臣以禮’에서 군주에게 요구되는 禮는 무엇인가요?",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "‘君使臣以禮’에서 군주에게 요구되는 禮는 무엇인가요?",
-          "scope": "問"
+          "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+          "revised": "‘君使臣以禮’에서 군주가 지켜야 할 禮는 무엇인가요?",
+          "scope": "問",
+          "revision_history": [
+            {
+              "pass": "targeted_type_6",
+              "previous_revision": "‘君使臣以禮’에서 군주에게 요구되는 禮는 무엇인가요?",
+              "revised": "‘君使臣以禮’에서 군주가 지켜야 할 禮는 무엇인가요?",
+              "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨에 반영후 계속 돌려",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "‘君使臣以禮’에서 군주에게 요구되는 禮는 무엇인가요?",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_6"
         },
         {
           "book": 3,
@@ -5624,10 +5638,10 @@
         "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_4",
-        "reviewed": 156,
+        "pass": "targeted_type_6",
+        "scanned": 156,
         "approved_applied": 1,
-        "status": "approved_applied"
+        "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
       }
     },
     {
@@ -19382,8 +19396,8 @@
           "key": "ly-09-23:問:3:a",
           "label": "답변",
           "original": "듣기 좋은 표현에는 만족하지만 그 말의 속뜻과 자신에게 요구되는 변화를 깊이 생각하지 않는 상태입니다. 기분 좋은 수용이 실제 성찰로 이어지지 않는 태도를 경계한 것입니다.",
-          "reason": "수용·성찰을 행동으로 풀기",
-          "revised": "듣기 좋은 표현에는 만족하지만 그 말의 속뜻과 자신에게 요구되는 변화를 깊이 생각하지 않는 상태입니다. 기분 좋게 받아들이기만 하고 실제로 자신을 돌아보지는 않는 태도를 경계한 것입니다.",
+          "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+          "revised": "듣기 좋은 표현에는 만족하지만 그 말의 속뜻과 자신이 어떻게 달라져야 하는지를 깊이 생각하지 않는 상태입니다. 기분 좋게 받아들이기만 하고 실제로 자신을 돌아보지는 않는 태도를 경계한 것입니다.",
           "scope": "問",
           "revision_history": [
             {
@@ -19394,11 +19408,20 @@
               "approval_status": "approved",
               "approval_message": "굿 수정, 수정후 다음 시작",
               "date": "2026-09-08"
+            },
+            {
+              "pass": "targeted_type_6",
+              "previous_revision": "듣기 좋은 표현에는 만족하지만 그 말의 속뜻과 자신에게 요구되는 변화를 깊이 생각하지 않는 상태입니다. 기분 좋게 받아들이기만 하고 실제로 자신을 돌아보지는 않는 태도를 경계한 것입니다.",
+              "revised": "듣기 좋은 표현에는 만족하지만 그 말의 속뜻과 자신이 어떻게 달라져야 하는지를 깊이 생각하지 않는 상태입니다. 기분 좋게 받아들이기만 하고 실제로 자신을 돌아보지는 않는 태도를 경계한 것입니다.",
+              "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨에 반영후 계속 돌려",
+              "date": "2026-09-08"
             }
           ],
-          "previous_revision": "듣기 좋은 표현에는 만족하지만 그 말의 속뜻과 자신에게 요구되는 변화를 깊이 생각하지 않는 상태입니다. 기분 좋은 수용이 실제 성찰로 이어지지 않는 태도를 경계한 것입니다.",
+          "previous_revision": "듣기 좋은 표현에는 만족하지만 그 말의 속뜻과 자신에게 요구되는 변화를 깊이 생각하지 않는 상태입니다. 기분 좋게 받아들이기만 하고 실제로 자신을 돌아보지는 않는 태도를 경계한 것입니다.",
           "approval_status": "approved",
-          "last_revision_pass": "targeted_type_1"
+          "last_revision_pass": "targeted_type_6"
         },
         {
           "book": 9,
@@ -19981,10 +20004,10 @@
         "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_4",
-        "reviewed": 186,
+        "pass": "targeted_type_6",
+        "scanned": 186,
         "approved_applied": 1,
-        "status": "approved_applied"
+        "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
       }
     },
     {
@@ -20386,16 +20409,30 @@
         },
         {
           "book": 10,
-          "changed": false,
+          "changed": true,
           "field": "답변",
           "id": "ly-10-05",
           "index": 2,
           "key": "ly-10-05:問:2:a",
           "label": "답변",
           "original": "당시 외교 의례에서는 몸짓 하나하나가 상대 국가에 대한 존중을 나타냈습니다. 예는 마음속 공경만이 아니라 정확한 동작과 절차를 통해 밖으로 표현되었습니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "당시 외교 의례에서는 몸짓 하나하나가 상대 국가에 대한 존중을 나타냈습니다. 예는 마음속 공경만이 아니라 정확한 동작과 절차를 통해 밖으로 표현되었습니다.",
-          "scope": "問"
+          "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+          "revised": "당시 외교 의례에서는 몸짓 하나하나가 상대 국가에 대한 존중을 나타냈습니다. 마음속 공경을 정확한 동작과 절차로 드러내며 예를 갖추었습니다.",
+          "scope": "問",
+          "revision_history": [
+            {
+              "pass": "targeted_type_6",
+              "previous_revision": "당시 외교 의례에서는 몸짓 하나하나가 상대 국가에 대한 존중을 나타냈습니다. 예는 마음속 공경만이 아니라 정확한 동작과 절차를 통해 밖으로 표현되었습니다.",
+              "revised": "당시 외교 의례에서는 몸짓 하나하나가 상대 국가에 대한 존중을 나타냈습니다. 마음속 공경을 정확한 동작과 절차로 드러내며 예를 갖추었습니다.",
+              "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨에 반영후 계속 돌려",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "당시 외교 의례에서는 몸짓 하나하나가 상대 국가에 대한 존중을 나타냈습니다. 예는 마음속 공경만이 아니라 정확한 동작과 절차를 통해 밖으로 표현되었습니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_6"
         },
         {
           "book": 10,
@@ -22290,10 +22327,10 @@
         "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_4",
-        "reviewed": 162,
-        "approved_applied": 2,
-        "status": "approved_applied"
+        "pass": "targeted_type_6",
+        "scanned": 162,
+        "approved_applied": 1,
+        "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
       }
     },
     {
@@ -33272,16 +33309,30 @@
         },
         {
           "book": 15,
-          "changed": false,
+          "changed": true,
           "field": "답변",
           "id": "ly-15-06",
           "index": 3,
           "key": "ly-15-06:問:3:a",
           "label": "답변",
           "original": "둘 다 칭찬하지만 성격이 다릅니다. 사어는 한결같은 강직함, 거백옥은 상황에 맞게 출처를 조절하는 군자다운 지혜가 강조됩니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "둘 다 칭찬하지만 성격이 다릅니다. 사어는 한결같은 강직함, 거백옥은 상황에 맞게 출처를 조절하는 군자다운 지혜가 강조됩니다.",
-          "scope": "問"
+          "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+          "revised": "둘 다 칭찬하지만 성격이 다릅니다. 공자님은 사어의 한결같은 강직함을 칭찬합니다. 거백옥에게서는 상황에 맞게 출처를 조절하는 군자다운 지혜를 높이 봅니다.",
+          "scope": "問",
+          "revision_history": [
+            {
+              "pass": "targeted_type_6",
+              "previous_revision": "둘 다 칭찬하지만 성격이 다릅니다. 사어는 한결같은 강직함, 거백옥은 상황에 맞게 출처를 조절하는 군자다운 지혜가 강조됩니다.",
+              "revised": "둘 다 칭찬하지만 성격이 다릅니다. 공자님은 사어의 한결같은 강직함을 칭찬합니다. 거백옥에게서는 상황에 맞게 출처를 조절하는 군자다운 지혜를 높이 봅니다.",
+              "reason": "불필요한 피동을 덜고, 누가 무엇을 하거나 어떤 태도를 갖춰야 하는지 직접 서술합니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨에 반영후 계속 돌려",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "둘 다 칭찬하지만 성격이 다릅니다. 사어는 한결같은 강직함, 거백옥은 상황에 맞게 출처를 조절하는 군자다운 지혜가 강조됩니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_6"
         },
         {
           "book": 15,
@@ -36211,10 +36262,10 @@
         "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_4",
-        "reviewed": 252,
-        "approved_applied": 3,
-        "status": "approved_applied"
+        "pass": "targeted_type_6",
+        "scanned": 252,
+        "approved_applied": 1,
+        "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
       }
     },
     {
@@ -42816,8 +42867,8 @@
     }
   ],
   "latest_style_pass": {
-    "pass": "targeted_type_5",
+    "pass": "targeted_type_6",
     "scanned": 3072,
-    "approved_applied": 2
+    "approved_applied": 4
   }
 }
