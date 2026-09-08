@@ -1,0 +1,37 @@
+{
+  "type": "동사·형용사의 -음·-ㅁ 명사화 추가 검토",
+  "status": "승인 대기",
+  "body_applied": false,
+  "basis_commit": "41101f48964a08e56c58edd5e05144acce6491d1",
+  "source_folder": "sourcecards-stage1-copyedit-20260907/round3",
+  "checked_chapters": 498,
+  "proposed_chapters": 2,
+  "proposed_changes": 2,
+  "unchanged_chapters": 496,
+  "proposals": [
+    {
+      "after": "앞에 나오는 ‘족공’도 충분히 공손하다는 칭찬이 아닙니다.",
+      "before": "앞에 나오는 ‘족공’도 공손함이 충분하다는 칭찬이 아닙니다.",
+      "book": "공야장",
+      "chapter": 24,
+      "field": "장[].수정본문",
+      "id": "ly-05-24",
+      "number": 1,
+      "path": "sourcecards-stage1-copyedit-20260907/round3/05-gongyajang.json",
+      "reason": "공손함이 충분하다를 형용사 서술로 풀기",
+      "status": "승인 대기"
+    },
+    {
+      "after": "이어 임금에게 곧은 신하가 아버지에게는 모진 자식일 수 있다며 나라와 가족의 이해가 다르다고 설명합니다.",
+      "before": "이어 임금에게 곧은 신하가 아버지에게는 모진 자식일 수 있다며 나라와 가족의 이해가 다름을 논합니다.",
+      "book": "자로",
+      "chapter": 18,
+      "field": "장[].수정본문",
+      "id": "ly-13-18",
+      "number": 2,
+      "path": "sourcecards-stage1-copyedit-20260907/round3/13-jaro.json",
+      "reason": "다름을 논하다를 서술 내용이 바로 이어지도록 풀기",
+      "status": "승인 대기"
+    }
+  ]
+}
