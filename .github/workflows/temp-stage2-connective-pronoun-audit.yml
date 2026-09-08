@@ -1,0 +1,58 @@
+name: TEMP Stage2 Connective Pronoun Audit
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/temp-stage2-connective-pronoun-audit.yml']
+permissions:
+  contents: write
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Build snapshot and marker scan
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json, glob, re, subprocess, collections
+          from pathlib import Path
+          rows=[]
+          for fn in sorted(glob.glob('sourcecards-style-polish/[0-9][0-9]-*.json')):
+              data=json.loads(Path(fn).read_text(encoding='utf-8'))
+              for ch in data['장']:
+                  rows.append((ch['구절ID'],ch['편장'],fn,ch['여는말']))
+          if len(rows)!=498: raise SystemExit(len(rows))
+          base=Path('sourcecards-targeted-review-7passes/cycle2-pass9-connectives-pronouns')
+          base.mkdir(parents=True,exist_ok=True)
+          head=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
+          markers=['이어 ','이어서 ','뒤에는','뒤에서','뒤이어','또 ','또한','함께 ','이를 ','이것을 ','그것을 ','이 말','그 말','이 주석','이 기록','이 글','이 대목','이 설명','이 풀이','이 사례','이 이야기','그 사정','그 뜻','그 이유','그 차이','이 차이']
+          counts=collections.Counter(); hits=[]
+          full=['# 사료카드 2단계 연결부사·지시어 반복 전수검토 현재본','',f'- 기준 커밋: `{head}`','- 대상: 498장 전체 여는말','- 기준: 연결부사·지시어 자체를 금지하지 않고, 문장 조립 흔적처럼 반복되거나 지시 대상이 불필요하게 흐려지는 경우만 후보화','']
+          for i,(cid,pc,fn,text) in enumerate(rows,1):
+              full.append(f'{i:03d}. `{cid}` | {pc} | {text}')
+              matched=[]
+              for m in markers:
+                  c=text.count(m)
+                  if c:
+                      counts[m]+=c; matched.append((m,c))
+              if matched:
+                  hits.append((i,cid,pc,fn,matched,text))
+          (base/'all-openings-current.md').write_text('\n'.join(full)+'\n',encoding='utf-8')
+          scan=['# 연결부사·지시어 보조 스캔','',f'- 기준 커밋: `{head}`',f'- 표지 적중 장수: {len(hits)}','', '## 표현별 횟수']
+          for k,v in counts.most_common(): scan.append(f'- `{k.strip()}`: {v}회')
+          scan += ['', '## 적중 목록']
+          for i,cid,pc,fn,matched,text in hits:
+              scan.append(f'- {i:03d}. `{cid}` | {pc} | `{fn}` | {matched} | {text}')
+          (base/'marker-scan.md').write_text('\n'.join(scan)+'\n',encoding='utf-8')
+          PY
+      - name: Commit
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add sourcecards-targeted-review-7passes/cycle2-pass9-connectives-pronouns/
+          git commit -m '사료카드 2단계 연결부사·지시어 전수검토 입력 추가'
+          git push origin main
