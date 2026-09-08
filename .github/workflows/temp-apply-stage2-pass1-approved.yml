@@ -23,10 +23,26 @@ jobs:
           from pathlib import Path
 
           audit_path = Path('sourcecards-targeted-review-7passes/pass1-subject-predicate/audit.json')
+          table_path = Path('sourcecards-targeted-review-7passes/pass1-subject-predicate/approval-table.md')
+          status_path = Path('sourcecards-targeted-review-7passes/pass1-subject-predicate/application-status.json')
           audit = json.loads(audit_path.read_text(encoding='utf-8'))
           candidates = audit['후보']
           if len(candidates) != 16:
               raise SystemExit(f'candidate count mismatch: {len(candidates)}')
+
+          # Correct one review-record ID/path mismatch found during pre-application validation.
+          fixed = False
+          for c in candidates:
+              if c['구절ID'] == 'ly-09-17' and '같은 말이 반복되는 이유' in c['수정전']:
+                  c['구절ID'] = 'ly-07-17'
+                  c['편장'] = '술이 17'
+                  c['파일'] = 'sourcecards-style-polish/07-suli.json'
+                  c['수정전'] = '『논어집석』에 실린 한 주석은 같은 말이 반복되는 이유를 끊어 읽는 방법에서 찾습니다.'
+                  c['수정후제안'] = '『논어집석』에 소개된 주석가는 같은 말이 반복되는 이유를 끊어 읽는 방법에서 찾습니다.'
+                  c['이유'] = '이유를 찾는 실제 주체를 문서가 아닌 주석가로 분명히 함'
+                  fixed = True
+          if not fixed:
+              raise SystemExit('expected review-record mismatch was not found')
 
           staged = {}
           for c in candidates:
@@ -52,7 +68,24 @@ jobs:
           audit['승인상태'] = '승인완료'
           audit['본문반영수'] = 16
           audit['반영완료'] = True
+          audit['검증메모'] = '승인표의 자한 17 표기는 실제 술이 17(ly-07-17) 문장으로 확인되어 ID/파일 경로를 바로잡은 뒤 반영함.'
           audit_path.write_text(json.dumps(audit, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+
+          table = table_path.read_text(encoding='utf-8')
+          table = table.replace('| 자한 17 | ly-09-17 |', '| 술이 17 | ly-07-17 |')
+          table_path.write_text(table, encoding='utf-8')
+
+          status = {
+              '작업': '사료카드 2단계 1바퀴 주어·서술어 호응',
+              '승인': True,
+              '승인건수': 16,
+              '본문반영': True,
+              '본문반영건수': 16,
+              '반영검증': '각 수정전 문장이 해당 JSON에 정확히 1회 존재하는지 확인 후 치환, JSON 파싱 검증 완료',
+              '기록정정': '승인표의 자한 17 표기는 실제 술이 17(ly-07-17) 문장으로 확인되어 정정함',
+              '다음검토': '2바퀴 조사·목적어 호응 결과 2건 승인 대기'
+          }
+          status_path.write_text(json.dumps(status, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
 
           print(f'validated and applied 16 edits across {len(staged)} JSON files')
           PY
@@ -61,10 +94,10 @@ jobs:
         run: |
           git diff --check
           changed=$(git diff --name-only -- sourcecards-style-polish/ | wc -l)
-          test "$changed" -eq 11
+          test "$changed" -eq 12
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add sourcecards-style-polish/ sourcecards-targeted-review-7passes/pass1-subject-predicate/audit.json
+          git add sourcecards-style-polish/ sourcecards-targeted-review-7passes/pass1-subject-predicate/
           git commit -m '사료카드 2단계 1바퀴 승인 16건 실제 반영'
           git push origin main
-# trigger existing workflow
+# corrected review id and trigger
