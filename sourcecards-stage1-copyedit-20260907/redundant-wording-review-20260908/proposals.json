@@ -1,0 +1,94 @@
+{
+  "review_type": "뜻이 겹치는 수식어·군더더기 표현",
+  "status": "승인 대기",
+  "body_applied": false,
+  "base_commit": "4b3d20812676ad7885b061b8e7dd9f179840e5f2",
+  "body_folder": "sourcecards-stage1-copyedit-20260907/round3/",
+  "total": 7,
+  "proposals": [
+    {
+      "after": "자장이 열 왕조 뒤의 일을 알 수 있느냐고 묻자,",
+      "before": "자장이 앞으로 열 왕조 뒤의 일을 알 수 있느냐고 묻자,",
+      "book": "위정",
+      "chapter": 23,
+      "field": "장[].수정본문",
+      "file": "sourcecards-stage1-copyedit-20260907/round3/02-wijeong.json",
+      "id": "ly-02-23",
+      "number": 1,
+      "reason": "‘열 왕조 뒤’에 미래 시점이 드러나므로 ‘앞으로’가 중복됨",
+      "status": "승인 대기"
+    },
+    {
+      "after": "관해서는 듣기 어려웠다는 것이",
+      "before": "관해서는 쉽게 듣기 어려웠다는 것이",
+      "book": "공야장",
+      "chapter": 12,
+      "field": "장[].수정본문",
+      "file": "sourcecards-stage1-copyedit-20260907/round3/05-gongyajang.json",
+      "id": "ly-05-12",
+      "number": 2,
+      "reason": "‘듣기 어려웠다’만으로 뜻이 전달되어 ‘쉽게’가 불필요하게 겹침",
+      "status": "승인 대기"
+    },
+    {
+      "after": "그는 생길 만한 일에 꼼꼼히 대비했습니다.",
+      "before": "그는 생길 만한 일에 미리 꼼꼼히 대비했습니다.",
+      "book": "공야장",
+      "chapter": 19,
+      "field": "장[].수정본문",
+      "file": "sourcecards-stage1-copyedit-20260907/round3/05-gongyajang.json",
+      "id": "ly-05-19",
+      "number": 3,
+      "reason": "앞날의 일을 준비한다는 뜻이 ‘대비하다’에 들어 있어 ‘미리’를 덜 수 있음",
+      "status": "승인 대기"
+    },
+    {
+      "after": "속수는 그중 검소한 편이었습니다.",
+      "before": "속수는 그중 검소한 편에 속했습니다.",
+      "book": "술이",
+      "chapter": 7,
+      "field": "장[].수정본문",
+      "file": "sourcecards-stage1-copyedit-20260907/round3/07-suli.json",
+      "id": "ly-07-07",
+      "number": 4,
+      "reason": "정도의 비교를 나타내는 ‘편’ 뒤의 ‘속하다’를 덜어 같은 뜻을 간결하게 표현",
+      "status": "승인 대기"
+    },
+    {
+      "after": "다투게 된 까닭을 그대로 두면 송사가 또 생깁니다.",
+      "before": "다투게 된 까닭을 그대로 두면 다음 송사가 또 생깁니다.",
+      "book": "안연",
+      "chapter": 13,
+      "field": "장[].수정본문",
+      "file": "sourcecards-stage1-copyedit-20260907/round3/12-anyeon.json",
+      "id": "ly-12-13",
+      "number": 5,
+      "reason": "‘또 생긴다’에 다음 일이 생긴다는 뜻이 있어 ‘다음’을 덜 수 있음",
+      "status": "승인 대기"
+    },
+    {
+      "after": "좋은 대우를 받는지에 따라 군자와 소인을 가르지는 않았습니다.",
+      "before": "좋은 대우를 받는지 여부로 군자와 소인을 가르지는 않았습니다.",
+      "book": "위령공",
+      "chapter": 1,
+      "field": "장[].수정본문",
+      "file": "sourcecards-stage1-copyedit-20260907/round3/15-wiryeonggong.json",
+      "id": "ly-15-01",
+      "number": 6,
+      "reason": "‘-는지’에 양쪽 가능성이 포함되어 ‘여부’를 따로 덧붙이지 않아도 됨",
+      "status": "승인 대기"
+    },
+    {
+      "after": "많이 외운 것만으로 자신을 설명할 수 있겠느냐고",
+      "before": "많이 외워 기억하는 것만으로 자신을 설명할 수 있겠느냐고",
+      "book": "위령공",
+      "chapter": 2,
+      "field": "장[].수정본문",
+      "file": "sourcecards-stage1-copyedit-20260907/round3/15-wiryeonggong.json",
+      "id": "ly-15-02",
+      "number": 7,
+      "reason": "‘외우다’와 ‘기억하다’가 같은 역할을 겹쳐 하는 부분을 간결하게 표현",
+      "status": "승인 대기"
+    }
+  ]
+}
