@@ -1,0 +1,58 @@
+name: TEMP Stage2 Unnecessary Metaphor Candidates
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/temp-stage2-unnecessary-metaphor-candidates.yml']
+permissions:
+  contents: write
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Validate 5 candidates
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json, glob, subprocess
+          from pathlib import Path
+          base=Path('sourcecards-targeted-review-7passes/cycle2-pass12-unnecessary-metaphor')
+          spec=[]
+          for ln in (base/'candidate-spec.tsv').read_text(encoding='utf-8').splitlines():
+              if not ln.strip(): continue
+              p=ln.split('\t')
+              if len(p)!=4: raise SystemExit(f'bad row: {ln!r}')
+              spec.append(p)
+          if len(spec)!=5: raise SystemExit(f'expected 5 got {len(spec)}')
+          rows={}
+          for fn in sorted(glob.glob('sourcecards-style-polish/[0-9][0-9]-*.json')):
+              data=json.loads(Path(fn).read_text(encoding='utf-8'))
+              for ch in data['장']:
+                  rows[ch['구절ID']]=(fn,ch)
+          if len(rows)!=498: raise SystemExit(f'expected 498 got {len(rows)}')
+          audits=[]
+          md=['# 사료카드 2단계 불필요한 비유·이미지화 수정안 5건','',f'- 검토 기준 커밋: `{subprocess.check_output(["git","rev-parse","HEAD"],text=True).strip()}`','- 대상: 여는말 498장 전체','- 보조 이미지 표현 적중: 168장','- 최종 후보: 5장','- 실제 본문 JSON 반영: **0건 (승인 대기)**','- 원칙: 원문·주석 자체의 비유는 보존하고, 여는말 작성자가 덧붙인 장식적 이미지화만 제거','', '| 편·장 | 수정 전 | 수정 후 제안 | 이유 |','|---|---|---|---|']
+          def esc(s): return s.replace('|','\\|').replace('\n',' ')
+          for cid,old,new,reason in spec:
+              if cid not in rows: raise SystemExit(f'missing {cid}')
+              fn,ch=rows[cid]; text=ch['여는말']
+              if text!=old: raise SystemExit(f'{cid}: current opening mismatch\nCURRENT:{text}\nOLD:{old}')
+              audits.append({'구절ID':cid,'편장':ch['편장'],'파일':fn,'수정전전체':old,'수정후전체':new,'이유':reason,'승인상태':'승인대기','본문반영':False})
+              md.append(f'| {ch["편장"]} | {esc(old)} | {esc(new)} | {esc(reason)} |')
+          out={'작업':'사료카드 2단계 불필요한 비유·이미지화 전수검토','대상장수':498,'휴리스틱적중장수':168,'후보수':5,'검토완료':True,'승인상태':'승인대기','본문반영수':0,'검토원칙':['498장 전체 여는말 검토','원문·주석 자체의 비유는 보존','여는말 작성자가 추가한 비유·이미지화만 후보화','직접 서술이 더 명확한 경우만 수정','정보·해석·조건·부정·추정 강도 유지'],'후보':audits}
+          (base/'approval-table.md').write_text('\n'.join(md)+'\n',encoding='utf-8')
+          (base/'audit.json').write_text(json.dumps(out,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          (base/'README.md').write_text('# 불필요한 비유·이미지화 전수검토\n\n- 498장 전체 검토\n- 이미지 표현 보조 적중 168장\n- 원문 자체 비유를 제외한 최종 후보 5장\n- 본문 반영 0건 / 승인 대기\n',encoding='utf-8')
+          print('validated',len(spec),'of',len(rows))
+          PY
+      - name: Commit review files
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add sourcecards-targeted-review-7passes/cycle2-pass12-unnecessary-metaphor/approval-table.md sourcecards-targeted-review-7passes/cycle2-pass12-unnecessary-metaphor/audit.json sourcecards-targeted-review-7passes/cycle2-pass12-unnecessary-metaphor/README.md
+          git commit -m '사료카드 2단계 불필요한 비유 5건 수정안 정리'
+          git push origin main
