@@ -445,10 +445,24 @@
       "key": "ly-04-15:說:1:2",
       "label": "주희(朱熹) 《논어집주》",
       "original": "공자님의 ‘하나’는 더 근본적인 하나의 이치이고, 증자가 제자들이 이해하기 쉽게 그것을 忠과 恕라는 실천 언어로 풀어 주었다고 봅니다.",
-      "reason": "실천 언어라는 추상적 표현을 풀어 씀.",
-      "revised": "공자님의 ‘하나’는 더 근본적인 하나의 이치이고, 증자가 제자들이 이해하기 쉽게 그것을 忠과 恕라는 실천에 관한 말로 풀어 주었다고 봅니다.",
+      "reason": "‘풀다’로 둘러 말한 부분을 구체적인 설명으로 바꾸되, 원래 해석과 판단의 강도는 유지합니다.",
+      "revised": "공자님의 ‘하나’는 더 근본적인 하나의 이치이고, 증자가 제자들이 이해하기 쉽게 그것을 忠과 恕라는 실천에 관한 말로 설명했다고 봅니다.",
       "scope": "說",
-      "side": 2
+      "side": 2,
+      "revision_history": [
+        {
+          "pass": "targeted_type_8",
+          "previous_revision": "공자님의 ‘하나’는 더 근본적인 하나의 이치이고, 증자가 제자들이 이해하기 쉽게 그것을 忠과 恕라는 실천에 관한 말로 풀어 주었다고 봅니다.",
+          "revised": "공자님의 ‘하나’는 더 근본적인 하나의 이치이고, 증자가 제자들이 이해하기 쉽게 그것을 忠과 恕라는 실천에 관한 말로 설명했다고 봅니다.",
+          "reason": "‘풀다’로 둘러 말한 부분을 구체적인 설명으로 바꾸되, 원래 해석과 판단의 강도는 유지합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영해",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "공자님의 ‘하나’는 더 근본적인 하나의 이치이고, 증자가 제자들이 이해하기 쉽게 그것을 忠과 恕라는 실천에 관한 말로 풀어 주었다고 봅니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_8"
     },
     {
       "book": 4,
@@ -895,9 +909,9 @@
     "selector": "article.card details.st3 .js .side > p"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_4",
-    "reviewed": 56,
-    "approved_applied": 2,
-    "status": "approved_applied"
+    "pass": "targeted_type_8",
+    "scanned": 56,
+    "approved_applied": 1,
+    "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
   }
 }

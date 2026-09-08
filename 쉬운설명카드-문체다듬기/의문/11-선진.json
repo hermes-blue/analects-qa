@@ -475,16 +475,30 @@
     },
     {
       "book": 11,
-      "changed": false,
+      "changed": true,
       "field": "답변",
       "id": "ly-11-06",
       "index": 2,
       "key": "ly-11-06:問:2:a",
       "label": "답변",
       "original": "안회와 같은 수준의 好學을 보이는 제자가 지금은 없다는 탄식입니다. 다른 제자들이 공부하지 않았다는 뜻이 아니라, 공자님이 안회의 배움의 깊이를 특별히 높게 본 것입니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "안회와 같은 수준의 好學을 보이는 제자가 지금은 없다는 탄식입니다. 다른 제자들이 공부하지 않았다는 뜻이 아니라, 공자님이 안회의 배움의 깊이를 특별히 높게 본 것입니다.",
-      "scope": "問"
+      "reason": "‘안회의 배움의 깊이’에서 겹치는 ‘의’를 풀어 씁니다.",
+      "revised": "안회와 같은 수준의 好學을 보이는 제자가 지금은 없다는 탄식입니다. 다른 제자들이 공부하지 않았다는 뜻이 아니라, 공자님이 안회의 깊은 배움을 특별히 높게 본 것입니다.",
+      "scope": "問",
+      "revision_history": [
+        {
+          "pass": "targeted_type_7",
+          "previous_revision": "안회와 같은 수준의 好學을 보이는 제자가 지금은 없다는 탄식입니다. 다른 제자들이 공부하지 않았다는 뜻이 아니라, 공자님이 안회의 배움의 깊이를 특별히 높게 본 것입니다.",
+          "revised": "안회와 같은 수준의 好學을 보이는 제자가 지금은 없다는 탄식입니다. 다른 제자들이 공부하지 않았다는 뜻이 아니라, 공자님이 안회의 깊은 배움을 특별히 높게 본 것입니다.",
+          "reason": "‘안회의 배움의 깊이’에서 겹치는 ‘의’를 풀어 씁니다.",
+          "approval_status": "approved",
+          "approval_message": "수정후에 ,  , ~풉니다 이런 표현들도 남발되는데 이유가 뭐지 이거 일단 다 조사해서 수정안 제시",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "안회와 같은 수준의 好學을 보이는 제자가 지금은 없다는 탄식입니다. 다른 제자들이 공부하지 않았다는 뜻이 아니라, 공자님이 안회의 배움의 깊이를 특별히 높게 본 것입니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_7"
     },
     {
       "book": 11,
@@ -2085,9 +2099,9 @@
     "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_4",
-    "reviewed": 150,
-    "approved_applied": 3,
-    "status": "approved_applied"
+    "pass": "targeted_type_7",
+    "scanned": 150,
+    "approved_applied": 1,
+    "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
   }
 }

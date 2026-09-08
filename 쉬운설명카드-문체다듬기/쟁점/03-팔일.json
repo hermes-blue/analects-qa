@@ -74,17 +74,31 @@
     },
     {
       "book": 3,
-      "changed": false,
+      "changed": true,
       "heading": "‘세 집안이 함께 둔 사당’ vs ‘세 집안 각자의 사당’三家之堂",
       "id": "ly-03-02",
       "index": 1,
       "key": "ly-03-02:說:1:2",
       "label": "정약용(丁若鏞) 《논어고금주》",
       "original": "맹손·숙손·계손 세 집안이 저마다 환공의 사당을 두고 각각 《옹》을 불렀다고 봅니다. 공자가 ‘삼가’라고 한 것은 세 집안 모두가 같은 참람한 일을 했기 때문이라고 풉니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "맹손·숙손·계손 세 집안이 저마다 환공의 사당을 두고 각각 《옹》을 불렀다고 봅니다. 공자가 ‘삼가’라고 한 것은 세 집안 모두가 같은 참람한 일을 했기 때문이라고 풉니다.",
+      "reason": "인물의 행동이나 발언 이유를 설명하는 문맥에 맞게 서술어를 바꿉니다. 해석이라는 성격은 유지합니다.",
+      "revised": "맹손·숙손·계손 세 집안이 저마다 환공의 사당을 두고 각각 《옹》을 불렀다고 봅니다. 공자가 ‘삼가’라고 한 것은 세 집안 모두가 같은 참람한 일을 했기 때문이라고 설명합니다.",
       "scope": "說",
-      "side": 2
+      "side": 2,
+      "revision_history": [
+        {
+          "pass": "targeted_type_8",
+          "previous_revision": "맹손·숙손·계손 세 집안이 저마다 환공의 사당을 두고 각각 《옹》을 불렀다고 봅니다. 공자가 ‘삼가’라고 한 것은 세 집안 모두가 같은 참람한 일을 했기 때문이라고 풉니다.",
+          "revised": "맹손·숙손·계손 세 집안이 저마다 환공의 사당을 두고 각각 《옹》을 불렀다고 봅니다. 공자가 ‘삼가’라고 한 것은 세 집안 모두가 같은 참람한 일을 했기 때문이라고 설명합니다.",
+          "reason": "인물의 행동이나 발언 이유를 설명하는 문맥에 맞게 서술어를 바꿉니다. 해석이라는 성격은 유지합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영해",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "맹손·숙손·계손 세 집안이 저마다 환공의 사당을 두고 각각 《옹》을 불렀다고 봅니다. 공자가 ‘삼가’라고 한 것은 세 집안 모두가 같은 참람한 일을 했기 때문이라고 풉니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_8"
     },
     {
       "book": 3,
@@ -863,9 +877,9 @@
     "selector": "article.card details.st3 .js .side > p"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_4",
-    "reviewed": 54,
-    "approved_applied": 2,
-    "status": "approved_applied"
+    "pass": "targeted_type_8",
+    "scanned": 54,
+    "approved_applied": 1,
+    "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
   }
 }

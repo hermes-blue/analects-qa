@@ -224,15 +224,29 @@
     },
     {
       "book": 11,
-      "changed": false,
+      "changed": true,
       "id": "ly-11-04",
       "index": 3,
       "key": "ly-11-04:語:3",
       "label": "父母昆弟부모곤제",
       "original": "부모와 형제를 함께 가리킵니다. 가장 가까운 가족 관계에서의 평가가 실제 효행의 중요한 증거로 제시됩니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "부모와 형제를 함께 가리킵니다. 가장 가까운 가족 관계에서의 평가가 실제 효행의 중요한 증거로 제시됩니다.",
-      "scope": "語"
+      "reason": "‘가족 관계에서의 평가’를 ‘가족이 어떻게 평가하는지’로 바꾸어 평가 주체를 드러냅니다.",
+      "revised": "부모와 형제를 함께 가리킵니다. 가장 가까운 가족이 어떻게 평가하는지가 실제 효행의 중요한 증거로 제시됩니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_7",
+          "previous_revision": "부모와 형제를 함께 가리킵니다. 가장 가까운 가족 관계에서의 평가가 실제 효행의 중요한 증거로 제시됩니다.",
+          "revised": "부모와 형제를 함께 가리킵니다. 가장 가까운 가족이 어떻게 평가하는지가 실제 효행의 중요한 증거로 제시됩니다.",
+          "reason": "‘가족 관계에서의 평가’를 ‘가족이 어떻게 평가하는지’로 바꾸어 평가 주체를 드러냅니다.",
+          "approval_status": "approved",
+          "approval_message": "수정후에 ,  , ~풉니다 이런 표현들도 남발되는데 이유가 뭐지 이거 일단 다 조사해서 수정안 제시",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "부모와 형제를 함께 가리킵니다. 가장 가까운 가족 관계에서의 평가가 실제 효행의 중요한 증거로 제시됩니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_7"
     },
     {
       "book": 11,
@@ -1619,7 +1633,7 @@
     "selector": "article.card details.st1 .w > p:not(.wh)"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_6",
+    "pass": "targeted_type_7",
     "scanned": 119,
     "approved_applied": 1,
     "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"

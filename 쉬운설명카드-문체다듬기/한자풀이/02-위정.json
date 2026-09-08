@@ -244,15 +244,29 @@
     },
     {
       "book": 2,
-      "changed": false,
+      "changed": true,
       "id": "ly-02-05",
       "index": 1,
       "key": "ly-02-05:語:1",
       "label": "無違무위",
       "original": "‘거스르지 말라’는 말을 부모의 모든 뜻에 무조건 복종하라는 뜻으로 읽지 않습니다. 이어지는 설명에서 공자님은 孝를 禮에 어긋나지 않게 행하는 것으로 풀어 줍니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "‘거스르지 말라’는 말을 부모의 모든 뜻에 무조건 복종하라는 뜻으로 읽지 않습니다. 이어지는 설명에서 공자님은 孝를 禮에 어긋나지 않게 행하는 것으로 풀어 줍니다.",
-      "scope": "語"
+      "reason": "인물의 행동이나 발언 이유를 설명하는 문맥에 맞게 서술어를 바꿉니다. 해석이라는 성격은 유지합니다.",
+      "revised": "‘거스르지 말라’는 말을 부모의 모든 뜻에 무조건 복종하라는 뜻으로 읽지 않습니다. 이어 공자님은 孝를 행할 때 禮에 어긋나지 않아야 한다고 설명합니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_8",
+          "previous_revision": "‘거스르지 말라’는 말을 부모의 모든 뜻에 무조건 복종하라는 뜻으로 읽지 않습니다. 이어지는 설명에서 공자님은 孝를 禮에 어긋나지 않게 행하는 것으로 풀어 줍니다.",
+          "revised": "‘거스르지 말라’는 말을 부모의 모든 뜻에 무조건 복종하라는 뜻으로 읽지 않습니다. 이어 공자님은 孝를 행할 때 禮에 어긋나지 않아야 한다고 설명합니다.",
+          "reason": "인물의 행동이나 발언 이유를 설명하는 문맥에 맞게 서술어를 바꿉니다. 해석이라는 성격은 유지합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영해",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "‘거스르지 말라’는 말을 부모의 모든 뜻에 무조건 복종하라는 뜻으로 읽지 않습니다. 이어지는 설명에서 공자님은 孝를 禮에 어긋나지 않게 행하는 것으로 풀어 줍니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_8"
     },
     {
       "book": 2,
@@ -262,8 +276,8 @@
       "key": "ly-02-05:語:2",
       "label": "樊遲御번지어",
       "original": "번지가 수레를 몰던 장면입니다. 공자님은 맹의자에게 짧게 답한 뒤 번지에게 그 뜻을 다시 풀어 주어, 無違가 무엇을 가리키는지 독자가 알 수 있게 합니다.",
-      "reason": "장면·독자 안내를 덜고 당시 행동과 설명을 바로 씁니다.",
-      "revised": "번지가 수레를 몰았습니다. 공자님은 맹의자에게 짧게 답한 뒤 번지에게 無違가 무엇을 가리키는지 다시 풀어 주었습니다.",
+      "reason": "인물의 행동이나 발언 이유를 설명하는 문맥에 맞게 서술어를 바꿉니다. 해석이라는 성격은 유지합니다.",
+      "revised": "번지가 수레를 몰았습니다. 공자님은 맹의자에게 짧게 답한 뒤 번지에게 無違가 무엇을 가리키는지 다시 설명했습니다.",
       "scope": "語",
       "revision_history": [
         {
@@ -274,11 +288,20 @@
           "approval_status": "approved",
           "approval_message": "수정후보 제이슨에 반영",
           "date": "2026-09-08"
+        },
+        {
+          "pass": "targeted_type_8",
+          "previous_revision": "번지가 수레를 몰았습니다. 공자님은 맹의자에게 짧게 답한 뒤 번지에게 無違가 무엇을 가리키는지 다시 풀어 주었습니다.",
+          "revised": "번지가 수레를 몰았습니다. 공자님은 맹의자에게 짧게 답한 뒤 번지에게 無違가 무엇을 가리키는지 다시 설명했습니다.",
+          "reason": "인물의 행동이나 발언 이유를 설명하는 문맥에 맞게 서술어를 바꿉니다. 해석이라는 성격은 유지합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영해",
+          "date": "2026-09-08"
         }
       ],
-      "previous_revision": "번지가 수레를 몰던 장면입니다. 공자님은 맹의자에게 짧게 답한 뒤 번지에게 그 뜻을 다시 풀어 주어, 無違가 무엇을 가리키는지 독자가 알 수 있게 합니다.",
+      "previous_revision": "번지가 수레를 몰았습니다. 공자님은 맹의자에게 짧게 답한 뒤 번지에게 無違가 무엇을 가리키는지 다시 풀어 주었습니다.",
       "approval_status": "approved",
-      "last_revision_pass": "targeted_type_3"
+      "last_revision_pass": "targeted_type_8"
     },
     {
       "book": 2,
@@ -1603,9 +1626,9 @@
     "selector": "article.card details.st1 .w > p:not(.wh)"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_4",
-    "reviewed": 113,
-    "approved_applied": 5,
-    "status": "approved_applied"
+    "pass": "targeted_type_8",
+    "scanned": 113,
+    "approved_applied": 2,
+    "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
   }
 }

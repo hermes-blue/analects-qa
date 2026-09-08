@@ -1,5 +1,5 @@
 {
-  "apply_status": "유형 6 승인안 31곳을 수정본 JSON에 모두 반영. 원본 HTML 미적용.",
+  "apply_status": "유형 7 승인안 12곳과 유형 8 승인안 99곳을 수정본 JSON에 반영. 원본 HTML 미적용.",
   "book_count": 20,
   "card_count": 498,
   "content_review_performed": false,
@@ -412,7 +412,7 @@
     },
     {
       "book_count": 20,
-      "changed": 288,
+      "changed": 300,
       "labels_preserved": true,
       "method": "전 항목에서 문체 패턴으로 후보를 찾아 후보 문장의 문맥을 확인하는 선별 교정.",
       "name": "한자풀이",
@@ -594,7 +594,7 @@
     },
     {
       "book_count": 20,
-      "changed": 200,
+      "changed": 207,
       "labels_preserved": true,
       "method": "전 항목에서 문체 패턴으로 후보를 찾아 후보 문장의 문맥을 확인하는 선별 교정.",
       "name": "의문",
@@ -776,7 +776,7 @@
     },
     {
       "book_count": 20,
-      "changed": 105,
+      "changed": 180,
       "labels_preserved": true,
       "method": "전 항목에서 문체 패턴으로 후보를 찾아 후보 문장의 문맥을 확인하는 선별 교정.",
       "name": "쟁점",
@@ -957,17 +957,20 @@
       }
     }
   ],
-  "status": "approved_targeted_type_6_applied",
-  "total_changed_text_fields": 959,
+  "status": "approved_targeted_type_8_applied",
+  "total_changed_text_fields": 1053,
   "last_completed_pass": {
-    "type": 6,
-    "scope": "설명을 불필요하게 피동형으로 돌리는 표현",
+    "type": 8,
+    "scope": "풉니다 및 풀다 계열의 반복·부적절한 서술어",
     "status": "approved_applied",
     "scanned": 6921,
-    "keyword_matches_context_reviewed": 247,
-    "approved_applied": 31,
-    "approval_message": "제이슨에 반영후 계속 돌려",
-    "method": "전체 검색 및 검색 결과 문맥 확인; 모든 문장 종합 정독 아님"
+    "keyword_matches_context_reviewed": 593,
+    "exact_phrase_text_fields": 375,
+    "exact_phrase_occurrences": 376,
+    "approved_applied": 99,
+    "retained_matches": 494,
+    "approval_message": "제이슨에 반영해",
+    "method": "전체 검색 후 일치 문구 문맥 검토. 검색 일치 수에 베풀다·되풀이하다·식물 풀 등 다른 용례 포함. 모든 문장 종합 정독 아님"
   },
   "targeted_reviews": [
     {
@@ -2045,6 +2048,30 @@
       "approved_applied": 31,
       "approval_message": "제이슨에 반영후 계속 돌려",
       "method": "전체 검색 및 검색 결과 문맥 확인; 모든 문장 종합 정독 아님"
+    },
+    {
+      "type": 7,
+      "scope": "불필요한 의와 명사 연결",
+      "status": "approved_applied",
+      "scanned": 6921,
+      "keyword_matches_context_reviewed": 301,
+      "approved_applied": 12,
+      "approval_message": "수정후에 ,  , ~풉니다 이런 표현들도 남발되는데 이유가 뭐지 이거 일단 다 조사해서 수정안 제시",
+      "method": "전체 검색 및 검색 결과 문맥 확인; 모든 문장 종합 정독 아님",
+      "reaffirmed_approval_message": "제이슨에 반영해"
+    },
+    {
+      "type": 8,
+      "scope": "풉니다 및 풀다 계열의 반복·부적절한 서술어",
+      "status": "approved_applied",
+      "scanned": 6921,
+      "keyword_matches_context_reviewed": 593,
+      "exact_phrase_text_fields": 375,
+      "exact_phrase_occurrences": 376,
+      "approved_applied": 99,
+      "retained_matches": 494,
+      "approval_message": "제이슨에 반영해",
+      "method": "전체 검색 후 일치 문구 문맥 검토. 검색 일치 수에 베풀다·되풀이하다·식물 풀 등 다른 용례 포함. 모든 문장 종합 정독 아님"
     }
   ]
 }

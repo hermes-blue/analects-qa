@@ -478,15 +478,29 @@
     },
     {
       "book": 10,
-      "changed": false,
+      "changed": true,
       "id": "ly-10-08",
       "index": 2,
       "key": "ly-10-08:語:2",
       "label": "膾不厭細회불염세",
       "original": "회는 잘게 썰수록 좋다는 뜻입니다. 맛의 섬세함만이 아니라 당시 생식의 위생과 조리의 정갈함을 함께 고려한 생활 태도로 읽힙니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "회는 잘게 썰수록 좋다는 뜻입니다. 맛의 섬세함만이 아니라 당시 생식의 위생과 조리의 정갈함을 함께 고려한 생활 태도로 읽힙니다.",
-      "scope": "語"
+      "reason": "‘맛의 섬세함·생식의 위생·조리의 정갈함’을 무엇을 살폈는지 알 수 있게 풀어 씁니다.",
+      "revised": "회는 잘게 썰수록 좋다는 뜻입니다. 맛이 섬세한지뿐 아니라 당시 날로 먹는 음식이 위생적인지, 정갈하게 조리했는지도 함께 고려한 생활 태도로 읽힙니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_7",
+          "previous_revision": "회는 잘게 썰수록 좋다는 뜻입니다. 맛의 섬세함만이 아니라 당시 생식의 위생과 조리의 정갈함을 함께 고려한 생활 태도로 읽힙니다.",
+          "revised": "회는 잘게 썰수록 좋다는 뜻입니다. 맛이 섬세한지뿐 아니라 당시 날로 먹는 음식이 위생적인지, 정갈하게 조리했는지도 함께 고려한 생활 태도로 읽힙니다.",
+          "reason": "‘맛의 섬세함·생식의 위생·조리의 정갈함’을 무엇을 살폈는지 알 수 있게 풀어 씁니다.",
+          "approval_status": "approved",
+          "approval_message": "수정후에 ,  , ~풉니다 이런 표현들도 남발되는데 이유가 뭐지 이거 일단 다 조사해서 수정안 제시",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "회는 잘게 썰수록 좋다는 뜻입니다. 맛의 섬세함만이 아니라 당시 생식의 위생과 조리의 정갈함을 함께 고려한 생활 태도로 읽힙니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_7"
     },
     {
       "book": 10,
@@ -1546,7 +1560,7 @@
     "selector": "article.card details.st1 .w > p:not(.wh)"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_6",
+    "pass": "targeted_type_7",
     "scanned": 118,
     "approved_applied": 1,
     "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"

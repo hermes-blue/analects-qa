@@ -2,12 +2,12 @@
   "schema_version": "1.1",
   "scope": "語",
   "scope_name": "한자풀이",
-  "status": "approved_targeted_type_6_applied",
-  "method": "최신 수정문 6,921개 전체에서 피동 표현을 검색하고 검색 결과 247개의 문맥을 검토한 뒤, 승인된 유형 6 수정안 31곳만 반영. 내용·해석 검수는 하지 않음.",
+  "status": "approved_targeted_type_8_applied",
+  "method": "전체 최신 revised 6,921개에서 풀다 계열을 넓게 검색하고 593개 문구의 문맥을 검토한 뒤 승인된 99곳만 반영. 다른 용례인 베풀다·되풀이하다·식물 풀도 검색 일치 수에 포함. 내용·해석 검수는 하지 않음.",
   "count_unit": "텍스트 필드: 한자 풀이 1개, 질문 또는 답변 1개, 쟁점의 견해 설명 1개",
   "total": 2311,
-  "changed": 288,
-  "unchanged": 2023,
+  "changed": 300,
+  "unchanged": 2011,
   "card_count": 498,
   "book_count": 20,
   "content_review_performed": false,
@@ -500,15 +500,29 @@
         },
         {
           "book": 1,
-          "changed": false,
+          "changed": true,
           "id": "ly-01-07",
           "index": 5,
           "key": "ly-01-07:語:5",
           "label": "未學而學미학이학",
           "original": "스스로 정식으로 배우지 않았다고 해도 이런 도리를 실천한다면 배운 사람으로 보겠다는 말입니다. 學의 기준을 지식의 양보다 삶에서 드러나는 태도에 두고 있습니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "스스로 정식으로 배우지 않았다고 해도 이런 도리를 실천한다면 배운 사람으로 보겠다는 말입니다. 學의 기준을 지식의 양보다 삶에서 드러나는 태도에 두고 있습니다.",
-          "scope": "語"
+          "reason": "‘지식의 양’을 ‘얼마나 많이 아는지’로 풀어 판단 기준을 쉽게 읽히게 합니다.",
+          "revised": "스스로 정식으로 배우지 않았다고 해도 이런 도리를 실천한다면 배운 사람으로 보겠다는 말입니다. 學의 기준을 얼마나 많이 아는지보다 삶에서 어떤 태도를 보이는지에 두고 있습니다.",
+          "scope": "語",
+          "revision_history": [
+            {
+              "pass": "targeted_type_7",
+              "previous_revision": "스스로 정식으로 배우지 않았다고 해도 이런 도리를 실천한다면 배운 사람으로 보겠다는 말입니다. 學의 기준을 지식의 양보다 삶에서 드러나는 태도에 두고 있습니다.",
+              "revised": "스스로 정식으로 배우지 않았다고 해도 이런 도리를 실천한다면 배운 사람으로 보겠다는 말입니다. 學의 기준을 얼마나 많이 아는지보다 삶에서 어떤 태도를 보이는지에 두고 있습니다.",
+              "reason": "‘지식의 양’을 ‘얼마나 많이 아는지’로 풀어 판단 기준을 쉽게 읽히게 합니다.",
+              "approval_status": "approved",
+              "approval_message": "수정후에 ,  , ~풉니다 이런 표현들도 남발되는데 이유가 뭐지 이거 일단 다 조사해서 수정안 제시",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "스스로 정식으로 배우지 않았다고 해도 이런 도리를 실천한다면 배운 사람으로 보겠다는 말입니다. 學의 기준을 지식의 양보다 삶에서 드러나는 태도에 두고 있습니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_7"
         },
         {
           "book": 1,
@@ -1024,15 +1038,29 @@
         },
         {
           "book": 1,
-          "changed": false,
+          "changed": true,
           "id": "ly-01-16",
           "index": 1,
           "key": "ly-01-16:語:1",
           "label": "不患불환",
           "original": "여기서 患은 걱정하고 마음을 쓰는 것입니다. 공자님은 관심의 방향을 남의 평가에서 돌려, 내가 다른 사람을 제대로 보고 있는가 하는 문제로 옮깁니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "여기서 患은 걱정하고 마음을 쓰는 것입니다. 공자님은 관심의 방향을 남의 평가에서 돌려, 내가 다른 사람을 제대로 보고 있는가 하는 문제로 옮깁니다.",
-          "scope": "語"
+          "reason": "‘관심의 방향·남의 평가’를 풀어 무엇에 관심을 두라는 말인지 바로 드러냅니다.",
+          "revised": "여기서 患은 걱정하고 마음을 쓰는 것입니다. 공자님은 남이 나를 어떻게 평가하는지보다 내가 다른 사람을 제대로 보고 있는지에 관심을 돌립니다.",
+          "scope": "語",
+          "revision_history": [
+            {
+              "pass": "targeted_type_7",
+              "previous_revision": "여기서 患은 걱정하고 마음을 쓰는 것입니다. 공자님은 관심의 방향을 남의 평가에서 돌려, 내가 다른 사람을 제대로 보고 있는가 하는 문제로 옮깁니다.",
+              "revised": "여기서 患은 걱정하고 마음을 쓰는 것입니다. 공자님은 남이 나를 어떻게 평가하는지보다 내가 다른 사람을 제대로 보고 있는지에 관심을 돌립니다.",
+              "reason": "‘관심의 방향·남의 평가’를 풀어 무엇에 관심을 두라는 말인지 바로 드러냅니다.",
+              "approval_status": "approved",
+              "approval_message": "수정후에 ,  , ~풉니다 이런 표현들도 남발되는데 이유가 뭐지 이거 일단 다 조사해서 수정안 제시",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "여기서 患은 걱정하고 마음을 쓰는 것입니다. 공자님은 관심의 방향을 남의 평가에서 돌려, 내가 다른 사람을 제대로 보고 있는가 하는 문제로 옮깁니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_7"
         },
         {
           "book": 1,
@@ -1093,9 +1121,9 @@
         "selector": "article.card details.st1 .w > p:not(.wh)"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_6",
+        "pass": "targeted_type_7",
         "scanned": 74,
-        "approved_applied": 1,
+        "approved_applied": 2,
         "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
       }
     },
@@ -1345,15 +1373,29 @@
         },
         {
           "book": 2,
-          "changed": false,
+          "changed": true,
           "id": "ly-02-05",
           "index": 1,
           "key": "ly-02-05:語:1",
           "label": "無違무위",
           "original": "‘거스르지 말라’는 말을 부모의 모든 뜻에 무조건 복종하라는 뜻으로 읽지 않습니다. 이어지는 설명에서 공자님은 孝를 禮에 어긋나지 않게 행하는 것으로 풀어 줍니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "‘거스르지 말라’는 말을 부모의 모든 뜻에 무조건 복종하라는 뜻으로 읽지 않습니다. 이어지는 설명에서 공자님은 孝를 禮에 어긋나지 않게 행하는 것으로 풀어 줍니다.",
-          "scope": "語"
+          "reason": "인물의 행동이나 발언 이유를 설명하는 문맥에 맞게 서술어를 바꿉니다. 해석이라는 성격은 유지합니다.",
+          "revised": "‘거스르지 말라’는 말을 부모의 모든 뜻에 무조건 복종하라는 뜻으로 읽지 않습니다. 이어 공자님은 孝를 행할 때 禮에 어긋나지 않아야 한다고 설명합니다.",
+          "scope": "語",
+          "revision_history": [
+            {
+              "pass": "targeted_type_8",
+              "previous_revision": "‘거스르지 말라’는 말을 부모의 모든 뜻에 무조건 복종하라는 뜻으로 읽지 않습니다. 이어지는 설명에서 공자님은 孝를 禮에 어긋나지 않게 행하는 것으로 풀어 줍니다.",
+              "revised": "‘거스르지 말라’는 말을 부모의 모든 뜻에 무조건 복종하라는 뜻으로 읽지 않습니다. 이어 공자님은 孝를 행할 때 禮에 어긋나지 않아야 한다고 설명합니다.",
+              "reason": "인물의 행동이나 발언 이유를 설명하는 문맥에 맞게 서술어를 바꿉니다. 해석이라는 성격은 유지합니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨에 반영해",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "‘거스르지 말라’는 말을 부모의 모든 뜻에 무조건 복종하라는 뜻으로 읽지 않습니다. 이어지는 설명에서 공자님은 孝를 禮에 어긋나지 않게 행하는 것으로 풀어 줍니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_8"
         },
         {
           "book": 2,
@@ -1363,8 +1405,8 @@
           "key": "ly-02-05:語:2",
           "label": "樊遲御번지어",
           "original": "번지가 수레를 몰던 장면입니다. 공자님은 맹의자에게 짧게 답한 뒤 번지에게 그 뜻을 다시 풀어 주어, 無違가 무엇을 가리키는지 독자가 알 수 있게 합니다.",
-          "reason": "장면·독자 안내를 덜고 당시 행동과 설명을 바로 씁니다.",
-          "revised": "번지가 수레를 몰았습니다. 공자님은 맹의자에게 짧게 답한 뒤 번지에게 無違가 무엇을 가리키는지 다시 풀어 주었습니다.",
+          "reason": "인물의 행동이나 발언 이유를 설명하는 문맥에 맞게 서술어를 바꿉니다. 해석이라는 성격은 유지합니다.",
+          "revised": "번지가 수레를 몰았습니다. 공자님은 맹의자에게 짧게 답한 뒤 번지에게 無違가 무엇을 가리키는지 다시 설명했습니다.",
           "scope": "語",
           "revision_history": [
             {
@@ -1375,11 +1417,20 @@
               "approval_status": "approved",
               "approval_message": "수정후보 제이슨에 반영",
               "date": "2026-09-08"
+            },
+            {
+              "pass": "targeted_type_8",
+              "previous_revision": "번지가 수레를 몰았습니다. 공자님은 맹의자에게 짧게 답한 뒤 번지에게 無違가 무엇을 가리키는지 다시 풀어 주었습니다.",
+              "revised": "번지가 수레를 몰았습니다. 공자님은 맹의자에게 짧게 답한 뒤 번지에게 無違가 무엇을 가리키는지 다시 설명했습니다.",
+              "reason": "인물의 행동이나 발언 이유를 설명하는 문맥에 맞게 서술어를 바꿉니다. 해석이라는 성격은 유지합니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨에 반영해",
+              "date": "2026-09-08"
             }
           ],
-          "previous_revision": "번지가 수레를 몰던 장면입니다. 공자님은 맹의자에게 짧게 답한 뒤 번지에게 그 뜻을 다시 풀어 주어, 無違가 무엇을 가리키는지 독자가 알 수 있게 합니다.",
+          "previous_revision": "번지가 수레를 몰았습니다. 공자님은 맹의자에게 짧게 답한 뒤 번지에게 無違가 무엇을 가리키는지 다시 풀어 주었습니다.",
           "approval_status": "approved",
-          "last_revision_pass": "targeted_type_3"
+          "last_revision_pass": "targeted_type_8"
         },
         {
           "book": 2,
@@ -2704,10 +2755,10 @@
         "selector": "article.card details.st1 .w > p:not(.wh)"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_4",
-        "reviewed": 113,
-        "approved_applied": 5,
-        "status": "approved_applied"
+        "pass": "targeted_type_8",
+        "scanned": 113,
+        "approved_applied": 2,
+        "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
       }
     },
     {
@@ -5173,15 +5224,29 @@
         },
         {
           "book": 4,
-          "changed": false,
+          "changed": true,
           "id": "ly-04-13",
           "index": 2,
           "key": "ly-04-13:語:2",
           "label": "爲國위국",
           "original": "나라를 다스린다는 뜻입니다. 공자님은 국가 운영의 거대한 문제를 禮讓이라는 일상의 관계 원칙과 연결해, 정치의 바탕을 사람 사이의 태도에서 찾습니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "나라를 다스린다는 뜻입니다. 공자님은 국가 운영의 거대한 문제를 禮讓이라는 일상의 관계 원칙과 연결해, 정치의 바탕을 사람 사이의 태도에서 찾습니다.",
-          "scope": "語"
+          "reason": "‘국가 운영의’라는 명사 연결을 ‘나라를 다스리는’으로 풀어 씁니다.",
+          "revised": "나라를 다스린다는 뜻입니다. 공자님은 나라를 다스리는 큰 문제를 禮讓이라는 일상의 관계 원칙과 연결해, 정치의 바탕을 사람 사이의 태도에서 찾습니다.",
+          "scope": "語",
+          "revision_history": [
+            {
+              "pass": "targeted_type_7",
+              "previous_revision": "나라를 다스린다는 뜻입니다. 공자님은 국가 운영의 거대한 문제를 禮讓이라는 일상의 관계 원칙과 연결해, 정치의 바탕을 사람 사이의 태도에서 찾습니다.",
+              "revised": "나라를 다스린다는 뜻입니다. 공자님은 나라를 다스리는 큰 문제를 禮讓이라는 일상의 관계 원칙과 연결해, 정치의 바탕을 사람 사이의 태도에서 찾습니다.",
+              "reason": "‘국가 운영의’라는 명사 연결을 ‘나라를 다스리는’으로 풀어 씁니다.",
+              "approval_status": "approved",
+              "approval_message": "수정후에 ,  , ~풉니다 이런 표현들도 남발되는데 이유가 뭐지 이거 일단 다 조사해서 수정안 제시",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "나라를 다스린다는 뜻입니다. 공자님은 국가 운영의 거대한 문제를 禮讓이라는 일상의 관계 원칙과 연결해, 정치의 바탕을 사람 사이의 태도에서 찾습니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_7"
         },
         {
           "book": 4,
@@ -5309,15 +5374,29 @@
         },
         {
           "book": 4,
-          "changed": false,
+          "changed": true,
           "id": "ly-04-15",
           "index": 1,
           "key": "ly-04-15:語:1",
           "label": "一以貫之일이관지",
           "original": "공자님의 道가 흩어진 여러 가르침의 모음이 아니라 하나의 원리로 꿰어져 있다는 뜻입니다. 제자 증자는 그 하나를 忠과 恕로 풀어 설명합니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "공자님의 道가 흩어진 여러 가르침의 모음이 아니라 하나의 원리로 꿰어져 있다는 뜻입니다. 제자 증자는 그 하나를 忠과 恕로 풀어 설명합니다.",
-          "scope": "語"
+          "reason": "‘풀다’로 둘러 말한 부분을 구체적인 설명으로 바꾸되, 원래 해석과 판단의 강도는 유지합니다.",
+          "revised": "공자님의 道가 흩어진 여러 가르침의 모음이 아니라 하나의 원리로 꿰어져 있다는 뜻입니다. 제자 증자는 그 하나를 忠과 恕라고 설명합니다.",
+          "scope": "語",
+          "revision_history": [
+            {
+              "pass": "targeted_type_8",
+              "previous_revision": "공자님의 道가 흩어진 여러 가르침의 모음이 아니라 하나의 원리로 꿰어져 있다는 뜻입니다. 제자 증자는 그 하나를 忠과 恕로 풀어 설명합니다.",
+              "revised": "공자님의 道가 흩어진 여러 가르침의 모음이 아니라 하나의 원리로 꿰어져 있다는 뜻입니다. 제자 증자는 그 하나를 忠과 恕라고 설명합니다.",
+              "reason": "‘풀다’로 둘러 말한 부분을 구체적인 설명으로 바꾸되, 원래 해석과 판단의 강도는 유지합니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨에 반영해",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "공자님의 道가 흩어진 여러 가르침의 모음이 아니라 하나의 원리로 꿰어져 있다는 뜻입니다. 제자 증자는 그 하나를 忠과 恕로 풀어 설명합니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_8"
         },
         {
           "book": 4,
@@ -6099,9 +6178,9 @@
         "selector": "article.card details.st1 .w > p:not(.wh)"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_6",
+        "pass": "targeted_type_8",
         "scanned": 115,
-        "approved_applied": 3,
+        "approved_applied": 1,
         "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
       }
     },
@@ -8160,15 +8239,29 @@
         },
         {
           "book": 6,
-          "changed": false,
+          "changed": true,
           "id": "ly-06-03",
           "index": 3,
           "key": "ly-06-03:語:3",
           "label": "周急不繼富주급불계부",
           "original": "군자는 급하고 어려운 사람을 도와주되 이미 넉넉한 사람에게 더 보태지는 않는다는 뜻입니다. 분배의 기준을 친분보다 필요의 정도에 둡니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "군자는 급하고 어려운 사람을 도와주되 이미 넉넉한 사람에게 더 보태지는 않는다는 뜻입니다. 분배의 기준을 친분보다 필요의 정도에 둡니다.",
-          "scope": "語"
+          "reason": "‘분배·친분·필요의 정도’를 실제 나누어 주는 상황에 맞춰 풀어 씁니다.",
+          "revised": "군자는 급하고 어려운 사람을 도와주되 이미 넉넉한 사람에게 더 보태지는 않는다는 뜻입니다. 나누어 줄 때는 얼마나 친한지보다 도움이 얼마나 필요한지를 기준으로 삼습니다.",
+          "scope": "語",
+          "revision_history": [
+            {
+              "pass": "targeted_type_7",
+              "previous_revision": "군자는 급하고 어려운 사람을 도와주되 이미 넉넉한 사람에게 더 보태지는 않는다는 뜻입니다. 분배의 기준을 친분보다 필요의 정도에 둡니다.",
+              "revised": "군자는 급하고 어려운 사람을 도와주되 이미 넉넉한 사람에게 더 보태지는 않는다는 뜻입니다. 나누어 줄 때는 얼마나 친한지보다 도움이 얼마나 필요한지를 기준으로 삼습니다.",
+              "reason": "‘분배·친분·필요의 정도’를 실제 나누어 주는 상황에 맞춰 풀어 씁니다.",
+              "approval_status": "approved",
+              "approval_message": "수정후에 ,  , ~풉니다 이런 표현들도 남발되는데 이유가 뭐지 이거 일단 다 조사해서 수정안 제시",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "군자는 급하고 어려운 사람을 도와주되 이미 넉넉한 사람에게 더 보태지는 않는다는 뜻입니다. 분배의 기준을 친분보다 필요의 정도에 둡니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_7"
         },
         {
           "book": 6,
@@ -9198,15 +9291,29 @@
         },
         {
           "book": 6,
-          "changed": false,
+          "changed": true,
           "id": "ly-06-18",
           "index": 5,
           "key": "ly-06-18:語:5",
           "label": "知好樂지호락",
           "original": "앎·좋아함·즐김의 세 단계를 묶어 볼 수 있습니다. 배움이 머리의 이해에서 마음의 애정으로, 다시 삶의 자연스러운 기쁨으로 깊어지는 과정을 나타냅니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "앎·좋아함·즐김의 세 단계를 묶어 볼 수 있습니다. 배움이 머리의 이해에서 마음의 애정으로, 다시 삶의 자연스러운 기쁨으로 깊어지는 과정을 나타냅니다.",
-          "scope": "語"
+          "reason": "‘머리의 이해·마음의 애정·삶의 기쁨’을 이해하고 좋아하고 즐기는 과정으로 풀어 씁니다.",
+          "revised": "앎·좋아함·즐김의 세 단계를 묶어 볼 수 있습니다. 배움이 머리로 이해하고 마음으로 좋아하는 단계를 거쳐, 삶에서 자연스럽게 즐기는 경지로 깊어지는 과정을 나타냅니다.",
+          "scope": "語",
+          "revision_history": [
+            {
+              "pass": "targeted_type_7",
+              "previous_revision": "앎·좋아함·즐김의 세 단계를 묶어 볼 수 있습니다. 배움이 머리의 이해에서 마음의 애정으로, 다시 삶의 자연스러운 기쁨으로 깊어지는 과정을 나타냅니다.",
+              "revised": "앎·좋아함·즐김의 세 단계를 묶어 볼 수 있습니다. 배움이 머리로 이해하고 마음으로 좋아하는 단계를 거쳐, 삶에서 자연스럽게 즐기는 경지로 깊어지는 과정을 나타냅니다.",
+              "reason": "‘머리의 이해·마음의 애정·삶의 기쁨’을 이해하고 좋아하고 즐기는 과정으로 풀어 씁니다.",
+              "approval_status": "approved",
+              "approval_message": "수정후에 ,  , ~풉니다 이런 표현들도 남발되는데 이유가 뭐지 이거 일단 다 조사해서 수정안 제시",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "앎·좋아함·즐김의 세 단계를 묶어 볼 수 있습니다. 배움이 머리의 이해에서 마음의 애정으로, 다시 삶의 자연스러운 기쁨으로 깊어지는 과정을 나타냅니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_7"
         },
         {
           "book": 6,
@@ -9861,9 +9968,9 @@
         "selector": "article.card details.st1 .w > p:not(.wh)"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_6",
+        "pass": "targeted_type_7",
         "scanned": 137,
-        "approved_applied": 1,
+        "approved_applied": 2,
         "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
       }
     },
@@ -11074,15 +11181,29 @@
         },
         {
           "book": 7,
-          "changed": false,
+          "changed": true,
           "id": "ly-07-20",
           "index": 4,
           "key": "ly-07-20:語:4",
           "label": "神신",
           "original": "귀신이나 신령한 존재를 가리킵니다. 이 구절은 그 존재를 곧바로 부정한다기보다, 확인하기 어려운 초자연적 문제를 공자님의 평소 가르침의 중심에 두지 않았다는 뜻입니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "귀신이나 신령한 존재를 가리킵니다. 이 구절은 그 존재를 곧바로 부정한다기보다, 확인하기 어려운 초자연적 문제를 공자님의 평소 가르침의 중심에 두지 않았다는 뜻입니다.",
-          "scope": "語"
+          "reason": "‘공자님의 평소 가르침의’라는 겹친 수식을 ‘공자님이 평소 가르칠 때’로 풉니다.",
+          "revised": "귀신이나 신령한 존재를 가리킵니다. 이 구절은 그 존재를 곧바로 부정한다기보다, 공자님이 평소 가르칠 때 확인하기 어려운 초자연적 문제를 중심에 두지 않았다는 뜻입니다.",
+          "scope": "語",
+          "revision_history": [
+            {
+              "pass": "targeted_type_7",
+              "previous_revision": "귀신이나 신령한 존재를 가리킵니다. 이 구절은 그 존재를 곧바로 부정한다기보다, 확인하기 어려운 초자연적 문제를 공자님의 평소 가르침의 중심에 두지 않았다는 뜻입니다.",
+              "revised": "귀신이나 신령한 존재를 가리킵니다. 이 구절은 그 존재를 곧바로 부정한다기보다, 공자님이 평소 가르칠 때 확인하기 어려운 초자연적 문제를 중심에 두지 않았다는 뜻입니다.",
+              "reason": "‘공자님의 평소 가르침의’라는 겹친 수식을 ‘공자님이 평소 가르칠 때’로 풉니다.",
+              "approval_status": "approved",
+              "approval_message": "수정후에 ,  , ~풉니다 이런 표현들도 남발되는데 이유가 뭐지 이거 일단 다 조사해서 수정안 제시",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "귀신이나 신령한 존재를 가리킵니다. 이 구절은 그 존재를 곧바로 부정한다기보다, 확인하기 어려운 초자연적 문제를 공자님의 평소 가르침의 중심에 두지 않았다는 뜻입니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_7"
         },
         {
           "book": 7,
@@ -12163,7 +12284,7 @@
         "selector": "article.card details.st1 .w > p:not(.wh)"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_6",
+        "pass": "targeted_type_7",
         "scanned": 171,
         "approved_applied": 1,
         "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
@@ -15919,15 +16040,29 @@
         },
         {
           "book": 10,
-          "changed": false,
+          "changed": true,
           "id": "ly-10-08",
           "index": 2,
           "key": "ly-10-08:語:2",
           "label": "膾不厭細회불염세",
           "original": "회는 잘게 썰수록 좋다는 뜻입니다. 맛의 섬세함만이 아니라 당시 생식의 위생과 조리의 정갈함을 함께 고려한 생활 태도로 읽힙니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "회는 잘게 썰수록 좋다는 뜻입니다. 맛의 섬세함만이 아니라 당시 생식의 위생과 조리의 정갈함을 함께 고려한 생활 태도로 읽힙니다.",
-          "scope": "語"
+          "reason": "‘맛의 섬세함·생식의 위생·조리의 정갈함’을 무엇을 살폈는지 알 수 있게 풀어 씁니다.",
+          "revised": "회는 잘게 썰수록 좋다는 뜻입니다. 맛이 섬세한지뿐 아니라 당시 날로 먹는 음식이 위생적인지, 정갈하게 조리했는지도 함께 고려한 생활 태도로 읽힙니다.",
+          "scope": "語",
+          "revision_history": [
+            {
+              "pass": "targeted_type_7",
+              "previous_revision": "회는 잘게 썰수록 좋다는 뜻입니다. 맛의 섬세함만이 아니라 당시 생식의 위생과 조리의 정갈함을 함께 고려한 생활 태도로 읽힙니다.",
+              "revised": "회는 잘게 썰수록 좋다는 뜻입니다. 맛이 섬세한지뿐 아니라 당시 날로 먹는 음식이 위생적인지, 정갈하게 조리했는지도 함께 고려한 생활 태도로 읽힙니다.",
+              "reason": "‘맛의 섬세함·생식의 위생·조리의 정갈함’을 무엇을 살폈는지 알 수 있게 풀어 씁니다.",
+              "approval_status": "approved",
+              "approval_message": "수정후에 ,  , ~풉니다 이런 표현들도 남발되는데 이유가 뭐지 이거 일단 다 조사해서 수정안 제시",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "회는 잘게 썰수록 좋다는 뜻입니다. 맛의 섬세함만이 아니라 당시 생식의 위생과 조리의 정갈함을 함께 고려한 생활 태도로 읽힙니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_7"
         },
         {
           "book": 10,
@@ -16987,7 +17122,7 @@
         "selector": "article.card details.st1 .w > p:not(.wh)"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_6",
+        "pass": "targeted_type_7",
         "scanned": 118,
         "approved_applied": 1,
         "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
@@ -17219,15 +17354,29 @@
         },
         {
           "book": 11,
-          "changed": false,
+          "changed": true,
           "id": "ly-11-04",
           "index": 3,
           "key": "ly-11-04:語:3",
           "label": "父母昆弟부모곤제",
           "original": "부모와 형제를 함께 가리킵니다. 가장 가까운 가족 관계에서의 평가가 실제 효행의 중요한 증거로 제시됩니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "부모와 형제를 함께 가리킵니다. 가장 가까운 가족 관계에서의 평가가 실제 효행의 중요한 증거로 제시됩니다.",
-          "scope": "語"
+          "reason": "‘가족 관계에서의 평가’를 ‘가족이 어떻게 평가하는지’로 바꾸어 평가 주체를 드러냅니다.",
+          "revised": "부모와 형제를 함께 가리킵니다. 가장 가까운 가족이 어떻게 평가하는지가 실제 효행의 중요한 증거로 제시됩니다.",
+          "scope": "語",
+          "revision_history": [
+            {
+              "pass": "targeted_type_7",
+              "previous_revision": "부모와 형제를 함께 가리킵니다. 가장 가까운 가족 관계에서의 평가가 실제 효행의 중요한 증거로 제시됩니다.",
+              "revised": "부모와 형제를 함께 가리킵니다. 가장 가까운 가족이 어떻게 평가하는지가 실제 효행의 중요한 증거로 제시됩니다.",
+              "reason": "‘가족 관계에서의 평가’를 ‘가족이 어떻게 평가하는지’로 바꾸어 평가 주체를 드러냅니다.",
+              "approval_status": "approved",
+              "approval_message": "수정후에 ,  , ~풉니다 이런 표현들도 남발되는데 이유가 뭐지 이거 일단 다 조사해서 수정안 제시",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "부모와 형제를 함께 가리킵니다. 가장 가까운 가족 관계에서의 평가가 실제 효행의 중요한 증거로 제시됩니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_7"
         },
         {
           "book": 11,
@@ -18614,7 +18763,7 @@
         "selector": "article.card details.st1 .w > p:not(.wh)"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_6",
+        "pass": "targeted_type_7",
         "scanned": 119,
         "approved_applied": 1,
         "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
@@ -20292,8 +20441,8 @@
           "key": "ly-13-03:語:4",
           "label": "禮樂不興예악불흥",
           "original": "예와 음악이 제대로 일어나지 않는다는 뜻입니다. 正名의 실패가 행정 용어의 혼란에서 끝나지 않고 공동체의 질서와 문화 전체로 번진다는 흐름입니다.",
-          "reason": "예와 음악이 일어난다는 직역투를 바꿉니다.",
-          "revised": "예와 음악이 제대로 시행되지 않는다는 뜻입니다. 正名의 실패가 행정 용어의 혼란에서 끝나지 않고 공동체의 질서와 문화 전체로 번진다는 흐름입니다.",
+          "reason": "‘正名의 실패·행정 용어의 혼란’을 조건과 결과로 풀어 문제의 확산 과정을 드러냅니다.",
+          "revised": "예와 음악이 제대로 시행되지 않는다는 뜻입니다. 正名에 실패하면 행정 용어가 혼란스러워지는 데 그치지 않고 공동체의 질서와 문화 전체로 문제가 번진다는 흐름입니다.",
           "scope": "語",
           "revision_history": [
             {
@@ -20304,11 +20453,20 @@
               "approval_status": "approved",
               "approval_message": "제이슨에 반영",
               "date": "2026-09-08"
+            },
+            {
+              "pass": "targeted_type_7",
+              "previous_revision": "예와 음악이 제대로 시행되지 않는다는 뜻입니다. 正名의 실패가 행정 용어의 혼란에서 끝나지 않고 공동체의 질서와 문화 전체로 번진다는 흐름입니다.",
+              "revised": "예와 음악이 제대로 시행되지 않는다는 뜻입니다. 正名에 실패하면 행정 용어가 혼란스러워지는 데 그치지 않고 공동체의 질서와 문화 전체로 문제가 번진다는 흐름입니다.",
+              "reason": "‘正名의 실패·행정 용어의 혼란’을 조건과 결과로 풀어 문제의 확산 과정을 드러냅니다.",
+              "approval_status": "approved",
+              "approval_message": "수정후에 ,  , ~풉니다 이런 표현들도 남발되는데 이유가 뭐지 이거 일단 다 조사해서 수정안 제시",
+              "date": "2026-09-08"
             }
           ],
-          "previous_revision": "예와 음악이 제대로 일어나지 않는다는 뜻입니다. 正名의 실패가 행정 용어의 혼란에서 끝나지 않고 공동체의 질서와 문화 전체로 번진다는 흐름입니다.",
+          "previous_revision": "예와 음악이 제대로 시행되지 않는다는 뜻입니다. 正名의 실패가 행정 용어의 혼란에서 끝나지 않고 공동체의 질서와 문화 전체로 번진다는 흐름입니다.",
           "approval_status": "approved",
-          "last_revision_pass": "targeted_type_4"
+          "last_revision_pass": "targeted_type_7"
         },
         {
           "book": 13,
@@ -21475,15 +21633,29 @@
         },
         {
           "book": 13,
-          "changed": false,
+          "changed": true,
           "id": "ly-13-24",
           "index": 3,
           "key": "ly-13-24:語:3",
           "label": "善者好之선자호지",
           "original": "좋은 사람들이 그를 좋아한다는 뜻입니다. 평가의 숫자보다 평가하는 사람의 기준과 인품이 중요하다는 점을 보여 줍니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "좋은 사람들이 그를 좋아한다는 뜻입니다. 평가의 숫자보다 평가하는 사람의 기준과 인품이 중요하다는 점을 보여 줍니다.",
-          "scope": "語"
+          "reason": "‘평가의 숫자’를 ‘평가하는 사람이 몇 명인지’로 풀어 비교 대상을 분명히 합니다.",
+          "revised": "좋은 사람들이 그를 좋아한다는 뜻입니다. 평가하는 사람이 몇 명인지보다 그들의 기준과 인품이 중요하다는 점을 보여 줍니다.",
+          "scope": "語",
+          "revision_history": [
+            {
+              "pass": "targeted_type_7",
+              "previous_revision": "좋은 사람들이 그를 좋아한다는 뜻입니다. 평가의 숫자보다 평가하는 사람의 기준과 인품이 중요하다는 점을 보여 줍니다.",
+              "revised": "좋은 사람들이 그를 좋아한다는 뜻입니다. 평가하는 사람이 몇 명인지보다 그들의 기준과 인품이 중요하다는 점을 보여 줍니다.",
+              "reason": "‘평가의 숫자’를 ‘평가하는 사람이 몇 명인지’로 풀어 비교 대상을 분명히 합니다.",
+              "approval_status": "approved",
+              "approval_message": "수정후에 ,  , ~풉니다 이런 표현들도 남발되는데 이유가 뭐지 이거 일단 다 조사해서 수정안 제시",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "좋은 사람들이 그를 좋아한다는 뜻입니다. 평가의 숫자보다 평가하는 사람의 기준과 인품이 중요하다는 점을 보여 줍니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_7"
         },
         {
           "book": 13,
@@ -21820,9 +21992,9 @@
         "selector": "article.card details.st1 .w > p:not(.wh)"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_6",
+        "pass": "targeted_type_7",
         "scanned": 127,
-        "approved_applied": 3,
+        "approved_applied": 2,
         "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
       }
     },
@@ -27876,15 +28048,29 @@
         },
         {
           "book": 17,
-          "changed": false,
+          "changed": true,
           "id": "ly-17-06",
           "index": 1,
           "key": "ly-17-06:語:1",
           "label": "五者於天下오자어천하",
           "original": "恭·寬·信·敏·惠 다섯 덕을 어디서나 실천한다는 뜻입니다. 仁을 추상적 마음이 아니라 반복 가능한 행동 기준으로 풀어 줍니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "恭·寬·信·敏·惠 다섯 덕을 어디서나 실천한다는 뜻입니다. 仁을 추상적 마음이 아니라 반복 가능한 행동 기준으로 풀어 줍니다.",
-          "scope": "語"
+          "reason": "‘풀다’로 둘러 말한 부분을 구체적인 설명으로 바꾸되, 원래 해석과 판단의 강도는 유지합니다.",
+          "revised": "恭·寬·信·敏·惠 다섯 덕을 어디서나 실천한다는 뜻입니다. 仁을 추상적인 마음이 아니라 거듭 실천할 수 있는 행동 기준으로 설명합니다.",
+          "scope": "語",
+          "revision_history": [
+            {
+              "pass": "targeted_type_8",
+              "previous_revision": "恭·寬·信·敏·惠 다섯 덕을 어디서나 실천한다는 뜻입니다. 仁을 추상적 마음이 아니라 반복 가능한 행동 기준으로 풀어 줍니다.",
+              "revised": "恭·寬·信·敏·惠 다섯 덕을 어디서나 실천한다는 뜻입니다. 仁을 추상적인 마음이 아니라 거듭 실천할 수 있는 행동 기준으로 설명합니다.",
+              "reason": "‘풀다’로 둘러 말한 부분을 구체적인 설명으로 바꾸되, 원래 해석과 판단의 강도는 유지합니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨에 반영해",
+              "date": "2026-09-08"
+            }
+          ],
+          "previous_revision": "恭·寬·信·敏·惠 다섯 덕을 어디서나 실천한다는 뜻입니다. 仁을 추상적 마음이 아니라 반복 가능한 행동 기준으로 풀어 줍니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_8"
         },
         {
           "book": 17,
@@ -29184,10 +29370,10 @@
         "selector": "article.card details.st1 .w > p:not(.wh)"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_4",
-        "reviewed": 118,
-        "approved_applied": 3,
-        "status": "approved_applied"
+        "pass": "targeted_type_8",
+        "scanned": 118,
+        "approved_applied": 1,
+        "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
       }
     },
     {
@@ -31826,8 +32012,8 @@
     }
   ],
   "latest_style_pass": {
-    "pass": "targeted_type_6",
+    "pass": "targeted_type_8",
     "scanned": 2311,
-    "approved_applied": 25
+    "approved_applied": 4
   }
 }

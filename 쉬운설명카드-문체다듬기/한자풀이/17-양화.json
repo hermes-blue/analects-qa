@@ -308,15 +308,29 @@
     },
     {
       "book": 17,
-      "changed": false,
+      "changed": true,
       "id": "ly-17-06",
       "index": 1,
       "key": "ly-17-06:語:1",
       "label": "五者於天下오자어천하",
       "original": "恭·寬·信·敏·惠 다섯 덕을 어디서나 실천한다는 뜻입니다. 仁을 추상적 마음이 아니라 반복 가능한 행동 기준으로 풀어 줍니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "恭·寬·信·敏·惠 다섯 덕을 어디서나 실천한다는 뜻입니다. 仁을 추상적 마음이 아니라 반복 가능한 행동 기준으로 풀어 줍니다.",
-      "scope": "語"
+      "reason": "‘풀다’로 둘러 말한 부분을 구체적인 설명으로 바꾸되, 원래 해석과 판단의 강도는 유지합니다.",
+      "revised": "恭·寬·信·敏·惠 다섯 덕을 어디서나 실천한다는 뜻입니다. 仁을 추상적인 마음이 아니라 거듭 실천할 수 있는 행동 기준으로 설명합니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_8",
+          "previous_revision": "恭·寬·信·敏·惠 다섯 덕을 어디서나 실천한다는 뜻입니다. 仁을 추상적 마음이 아니라 반복 가능한 행동 기준으로 풀어 줍니다.",
+          "revised": "恭·寬·信·敏·惠 다섯 덕을 어디서나 실천한다는 뜻입니다. 仁을 추상적인 마음이 아니라 거듭 실천할 수 있는 행동 기준으로 설명합니다.",
+          "reason": "‘풀다’로 둘러 말한 부분을 구체적인 설명으로 바꾸되, 원래 해석과 판단의 강도는 유지합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영해",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "恭·寬·信·敏·惠 다섯 덕을 어디서나 실천한다는 뜻입니다. 仁을 추상적 마음이 아니라 반복 가능한 행동 기준으로 풀어 줍니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_8"
     },
     {
       "book": 17,
@@ -1616,9 +1630,9 @@
     "selector": "article.card details.st1 .w > p:not(.wh)"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_4",
-    "reviewed": 118,
-    "approved_applied": 3,
-    "status": "approved_applied"
+    "pass": "targeted_type_8",
+    "scanned": 118,
+    "approved_applied": 1,
+    "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
   }
 }

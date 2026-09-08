@@ -228,17 +228,31 @@
     },
     {
       "book": 8,
-      "changed": false,
+      "changed": true,
       "heading": "‘일반 백성’ vs ‘배우는 제자들’民의 대상",
       "id": "ly-08-09",
       "index": 1,
       "key": "ly-08-09:說:1:1",
       "label": "정현(鄭玄)",
       "original": "民을 보통 백성으로 봅니다. 임금은 백성이 바른 길을 따르게 할 수는 있어도, 그 이치의 처음과 끝까지 모두 알게 하기는 어렵다고 풉니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "民을 보통 백성으로 봅니다. 임금은 백성이 바른 길을 따르게 할 수는 있어도, 그 이치의 처음과 끝까지 모두 알게 하기는 어렵다고 풉니다.",
+      "reason": "‘풀다’로 둘러 말한 부분을 구체적인 설명으로 바꾸되, 원래 해석과 판단의 강도는 유지합니다.",
+      "revised": "民을 보통 백성으로 봅니다. 임금은 백성이 바른 길을 따르게 할 수는 있어도, 그 이치의 처음과 끝까지 모두 알게 하기는 어렵다는 뜻으로 해석합니다.",
       "scope": "說",
-      "side": 1
+      "side": 1,
+      "revision_history": [
+        {
+          "pass": "targeted_type_8",
+          "previous_revision": "民을 보통 백성으로 봅니다. 임금은 백성이 바른 길을 따르게 할 수는 있어도, 그 이치의 처음과 끝까지 모두 알게 하기는 어렵다고 풉니다.",
+          "revised": "民을 보통 백성으로 봅니다. 임금은 백성이 바른 길을 따르게 할 수는 있어도, 그 이치의 처음과 끝까지 모두 알게 하기는 어렵다는 뜻으로 해석합니다.",
+          "reason": "‘풀다’로 둘러 말한 부분을 구체적인 설명으로 바꾸되, 원래 해석과 판단의 강도는 유지합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영해",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "民을 보통 백성으로 봅니다. 임금은 백성이 바른 길을 따르게 할 수는 있어도, 그 이치의 처음과 끝까지 모두 알게 하기는 어렵다고 풉니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_8"
     },
     {
       "book": 8,
@@ -410,17 +424,31 @@
     },
     {
       "book": 8,
-      "changed": false,
+      "changed": true,
       "heading": "‘흐트러진 음악을 바로잡았다’ vs ‘음악의 마지막 악장’關雎之亂",
       "id": "ly-08-15",
       "index": 1,
       "key": "ly-08-15:說:1:1",
       "label": "정현(鄭玄)",
       "original": "亂을 실제로 어지러워진 음악으로 봅니다. 정악이 무너진 시대에 악사 지가 《관저》의 소리를 알아보고 다시 정리했다고 풉니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "亂을 실제로 어지러워진 음악으로 봅니다. 정악이 무너진 시대에 악사 지가 《관저》의 소리를 알아보고 다시 정리했다고 풉니다.",
+      "reason": "인물의 행동이나 발언 이유를 설명하는 문맥에 맞게 서술어를 바꿉니다. 해석이라는 성격은 유지합니다.",
+      "revised": "亂을 실제로 어지러워진 음악으로 봅니다. 정악이 무너진 시대에 악사 지가 《관저》의 소리를 알아보고 다시 정리했다는 설명입니다.",
       "scope": "說",
-      "side": 1
+      "side": 1,
+      "revision_history": [
+        {
+          "pass": "targeted_type_8",
+          "previous_revision": "亂을 실제로 어지러워진 음악으로 봅니다. 정악이 무너진 시대에 악사 지가 《관저》의 소리를 알아보고 다시 정리했다고 풉니다.",
+          "revised": "亂을 실제로 어지러워진 음악으로 봅니다. 정악이 무너진 시대에 악사 지가 《관저》의 소리를 알아보고 다시 정리했다는 설명입니다.",
+          "reason": "인물의 행동이나 발언 이유를 설명하는 문맥에 맞게 서술어를 바꿉니다. 해석이라는 성격은 유지합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨에 반영해",
+          "date": "2026-09-08"
+        }
+      ],
+      "previous_revision": "亂을 실제로 어지러워진 음악으로 봅니다. 정악이 무너진 시대에 악사 지가 《관저》의 소리를 알아보고 다시 정리했다고 풉니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_8"
     },
     {
       "book": 8,
@@ -639,9 +667,9 @@
     "selector": "article.card details.st3 .js .side > p"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_3",
-    "reviewed": 42,
+    "pass": "targeted_type_8",
+    "scanned": 42,
     "approved_applied": 2,
-    "status": "approved_applied"
+    "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
   }
 }
