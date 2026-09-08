@@ -1,0 +1,57 @@
+name: TEMP Stage2 Cycle2 Pass4 Connector Scan
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/temp-stage2-cycle2-pass4-connectors.yml'
+permissions:
+  contents: write
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Build snapshot and connector scan
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json,glob,re,subprocess
+          from pathlib import Path
+          rows=[]
+          for fn in sorted(glob.glob('sourcecards-style-polish/[0-9][0-9]-*.json')):
+              data=json.loads(Path(fn).read_text(encoding='utf-8'))
+              for ch in data['장']:
+                  rows.append((ch['구절ID'],ch['편장'],fn,ch['여는말']))
+          if len(rows)!=498: raise SystemExit(f'expected 498 openings, got {len(rows)}')
+          base=Path('sourcecards-targeted-review-7passes/cycle2-pass4-connectors')
+          base.mkdir(parents=True,exist_ok=True)
+          head=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
+          lines=['# 사료카드 2단계 2회전 4바퀴 현재 여는말 498장','',f'- 기준 커밋: `{head}`','- 표적: 직역투 연결 표현(~을/를 통해, 바탕으로, 관련지어, 관점에서, 과정에서 등). 자연스러운 경우 유지.','']
+          for i,(cid,pc,fn,text) in enumerate(rows,1):
+              lines.append(f'{i:03d}. `{cid}` | {pc} | {text}')
+          (base/'all-openings-current.md').write_text('\n'.join(lines)+'\n',encoding='utf-8')
+          pats=[
+            r'을 통해',r'를 통해',r'통하여',r'바탕으로',r'근거로',r'관련지어',r'연결해',r'연결하며',r'연결하여',r'관점에서',r'입장에서',r'과정에서',r'점에서',r'맥락에서',r'배경으로',r'중심으로',r'대비하며',r'비추어',r'통해,'
+          ]
+          rx=re.compile('|'.join(pats))
+          hits=[]
+          for cid,pc,fn,text in rows:
+              ms=sorted(set(m.group(0) for m in rx.finditer(text)))
+              if ms: hits.append((cid,pc,fn,', '.join(ms),text))
+          ml=['# 2회전 4바퀴 직역투 연결표현 보조 스캔','',f'- 표지어 적중 장수: {len(hits)}','- 표지어 자체는 수정 사유가 아니며, 직접 서술보다 번역식 우회가 생기는 경우만 후보화.','']
+          for cid,pc,fn,ms,text in hits:
+              ml.append(f'- `{cid}` | {pc} | `{fn}` | 표지: {ms} | {text}')
+          (base/'marker-scan.md').write_text('\n'.join(ml)+'\n',encoding='utf-8')
+          PY
+      - name: Commit review inputs
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add sourcecards-targeted-review-7passes/cycle2-pass4-connectors/
+          git commit -m '사료카드 2단계 2회전 4바퀴 현재본·연결표현 표지 추가'
+          git push origin main
