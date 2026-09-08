@@ -1,0 +1,55 @@
+name: TEMP Stage2 Juseok Subject Audit
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/temp-stage2-juseok-subject-audit.yml']
+permissions:
+  contents: write
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Scan all 498 openings
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json, glob, re, subprocess
+          from pathlib import Path
+          rows=[]
+          pat_doc=re.compile(r'(?:(?:이|그|옛|여러|뒤의|앞의|여기 실린|해당|다른|한)\s*)?주석(?:은|이|에서는|들은|도)')
+          pat_person=re.compile(r'주석(?:가|자)(?:는|들은|가|들이)')
+          for fn in sorted(glob.glob('sourcecards-style-polish/[0-9][0-9]-*.json')):
+              data=json.loads(Path(fn).read_text(encoding='utf-8'))
+              for ch in data['장']:
+                  text=ch['여는말']
+                  sents=[s.strip() for s in re.split(r'(?<=[.!?])\s+',text) if s.strip()]
+                  for idx,s in enumerate(sents,1):
+                      d=pat_doc.findall(s); p=pat_person.findall(s)
+                      if d or p:
+                          rows.append({'구절ID':ch['구절ID'],'편장':ch['편장'],'파일':fn,'문장번호':idx,'문장':s,'문서주어':d,'사람주어':p,'전체여는말':text})
+          unique=sorted(set(r['구절ID'] for r in rows))
+          doc=[r for r in rows if r['문서주어']]
+          person=[r for r in rows if r['사람주어']]
+          base=Path('sourcecards-targeted-review-7passes/cycle2-pass13-juseok-subject')
+          base.mkdir(parents=True,exist_ok=True)
+          head=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
+          md=['# 사료카드 2단계 `주석` 주어 전수조사','',f'- 기준 커밋: `{head}`','- 대상: 498장 전체 여는말',f'- `주석` 계열이 주어로 쓰인 문장: **{len(rows)}문장 / {len(unique)}장**',f'- 문서 자체 주어 (`주석은/이 주석은/옛 주석은/여러 주석은...`): **{len(doc)}문장**',f'- 사람 주어 (`주석가는/주석자는...`): **{len(person)}문장**','- 주의: 출현 자체가 수정 사유는 아님. 문서가 판단·주목·살핌 같은 사람의 인지 행위를 수행해 어색한 경우를 후속 후보로 분리.','', '## A. 문서 자체가 주어인 문장','']
+          for i,r in enumerate(doc,1): md.append(f"{i}. `{r['구절ID']}` | {r['편장']} | {r['문장']}")
+          md += ['', '## B. 주석가·주석자처럼 실제 사람을 주어로 둔 문장','']
+          for i,r in enumerate(person,1): md.append(f"{i}. `{r['구절ID']}` | {r['편장']} | {r['문장']}")
+          (base/'all-matches.md').write_text('\n'.join(md)+'\n',encoding='utf-8')
+          (base/'all-matches.json').write_text(json.dumps({'기준커밋':head,'대상장수':498,'전체문장수':len(rows),'전체장수':len(unique),'문서주어문장수':len(doc),'사람주어문장수':len(person),'항목':rows},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          print('all',len(rows),'chapters',len(unique),'doc',len(doc),'person',len(person))
+          PY
+      - name: Commit report
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add sourcecards-targeted-review-7passes/cycle2-pass13-juseok-subject/
+          git commit -m '사료카드 2단계 주석 주어 전수조사'
+          git push origin main
