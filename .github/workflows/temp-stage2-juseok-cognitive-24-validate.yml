@@ -1,0 +1,59 @@
+name: TEMP Stage2 Juseok Cognitive 24 Validate
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/temp-stage2-juseok-cognitive-24-validate.yml']
+permissions:
+  contents: write
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Validate 24 rewrites
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json, glob, subprocess
+          from pathlib import Path
+          base=Path('sourcecards-targeted-review-7passes/cycle2-pass13-juseok-subject')
+          spec=json.loads((base/'candidate-rewrites-24.json').read_text(encoding='utf-8'))['후보']
+          if len(spec)!=24: raise SystemExit(f'expected 24 got {len(spec)}')
+          rows={}
+          for fn in sorted(glob.glob('sourcecards-style-polish/[0-9][0-9]-*.json')):
+              data=json.loads(Path(fn).read_text(encoding='utf-8'))
+              for ch in data['장']:
+                  rows[ch['구절ID']]=(fn,ch)
+          if len(rows)!=498: raise SystemExit(f'chapters {len(rows)}')
+          ids=[]; audits=[]
+          md=['# 사료카드 2단계 `주석` 인지행위형 24건 재작성안','',f'- 검토 기준 커밋: `{subprocess.check_output(["git","rev-parse","HEAD"],text=True).strip()}`','- 대상: 498장 전체 중 `주석` 문서주어+인지행위형 우선검토 24건','- 실제 본문 JSON 반영: **0건 (승인 대기)**','- 원칙: `주석은`만 삭제하지 않고, 사람·사건·대조·해석을 앞으로 끌어와 여는말 전체를 재구성. 추상명사 주어·불필요한 피동도 피함.','', '| 편·장 | 수정 전 | 수정 후 제안 |','|---|---|---|']
+          def esc(s): return s.replace('|','\\|').replace('\n',' ')
+          for c in spec:
+              cid=c['구절ID']; new=c['수정후']
+              if cid not in rows: raise SystemExit(f'missing {cid}')
+              fn,ch=rows[cid]; old=ch['여는말']
+              if cid in ids: raise SystemExit(f'duplicate {cid}')
+              ids.append(cid)
+              audits.append({'구절ID':cid,'편장':ch['편장'],'파일':fn,'수정전전체':old,'수정후전체':new,'승인상태':'승인대기','본문반영':False})
+              md.append(f'| {ch["편장"]} | {esc(old)} | {esc(new)} |')
+          # make sure all 24 current openings still contain a 주석-related cognitive structure or were in the prebuilt cognitive list
+          target_ids=set()
+          cog=(base/'cognitive-subjects.md').read_text(encoding='utf-8')
+          for cid in ids:
+              if cid not in cog: raise SystemExit(f'{cid} not in cognitive source list')
+          out={'작업':'사료카드 2단계 주석 문서주어+인지행위형 24건 재작성','대상장수':498,'전수주석계열장수':97,'문서주어문장수':76,'인지행위형후보수':24,'검토완료':True,'승인상태':'승인대기','본문반영수':0,'후보':audits}
+          (base/'approval-table-24.md').write_text('\n'.join(md)+'\n',encoding='utf-8')
+          (base/'audit-24.json').write_text(json.dumps(out,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          print('validated',len(ids),'of',len(rows))
+          PY
+      - name: Commit review files
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add sourcecards-targeted-review-7passes/cycle2-pass13-juseok-subject/approval-table-24.md sourcecards-targeted-review-7passes/cycle2-pass13-juseok-subject/audit-24.json
+          git commit -m '사료카드 2단계 주석 인지행위형 24건 재작성안 정리'
+          git push origin main
