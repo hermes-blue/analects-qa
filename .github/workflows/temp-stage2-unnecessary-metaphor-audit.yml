@@ -1,0 +1,62 @@
+name: TEMP Stage2 Unnecessary Metaphor Audit
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/temp-stage2-unnecessary-metaphor-audit.yml']
+permissions:
+  contents: write
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Build metaphor audit input
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json, glob, subprocess
+          from pathlib import Path
+          terms=['흐르','뿌리','바탕','다리','거울','윤곽','문턱','길목','나침반','울타리','뼈대','씨앗','열매','꽃','스며','번지','꿰','엮','그리','그림','빗대','비유','길','문','그릇','저울','틀','축','토대','기둥','껍질','옷','색깔','색채','무게','빛','그림자','파고들','겹겹','풀어내','펼쳐','고리','맥','흔적','발자취']
+          rows=[]
+          for fn in sorted(glob.glob('sourcecards-style-polish/[0-9][0-9]-*.json')):
+              data=json.loads(Path(fn).read_text(encoding='utf-8'))
+              for ch in data['장']:
+                  opening=ch['여는말']
+                  src=[]
+                  rd=ch.get('_읽기용',{})
+                  for d in rd.get('원문덩이',[]):
+                      src.append(str(d.get('우리말','')))
+                  source=' '.join(src)
+                  hits=[]
+                  for t in terms:
+                      if t in opening:
+                          hits.append({'term':t,'opening_count':opening.count(t),'source_has':t in source})
+                  rows.append({'id':ch['구절ID'],'편장':ch['편장'],'file':fn,'opening':opening,'source':source,'hits':hits})
+          if len(rows)!=498: raise SystemExit(f'expected 498 got {len(rows)}')
+          base=Path('sourcecards-targeted-review-7passes/cycle2-pass12-unnecessary-metaphor')
+          base.mkdir(parents=True,exist_ok=True)
+          head=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
+          full=['# 사료카드 2단계 불필요한 비유 전수검토 현재본','',f'- 기준 커밋: `{head}`','- 대상: 여는말 498장 전체','- 기준: 원문·주석 자체 비유는 유지, 여는말 작성자가 추가한 장식적 이미지화만 후보화','']
+          for i,r in enumerate(rows,1):
+              full.append(f"{i:03d}. `{r['id']}` | {r['편장']} | {r['opening']}")
+          (base/'all-openings-current.md').write_text('\n'.join(full)+'\n',encoding='utf-8')
+          flagged=[r for r in rows if r['hits']]
+          md=['# 불필요한 비유 보조 스캔','',f'- 기준 커밋: `{head}`',f'- 전체: {len(rows)}장',f'- 이미지 표현 휴리스틱 적중: {len(flagged)}장','- 주의: 적중=수정 후보가 아님. 사료 자체의 비유와 문자 그대로의 표현을 다수 포함.','']
+          for i,r in enumerate(flagged,1):
+              hs=', '.join(f"{h['term']}[원문{'있음' if h['source_has'] else '없음'}]" for h in r['hits'])
+              md += [f"## {i}. {r['편장']} `{r['id']}`",f"- 적중: {hs}",f"- 여는말: {r['opening']}",f"- 사료번역: {r['source']}",'']
+          (base/'heuristic-scan.md').write_text('\n'.join(md)+'\n',encoding='utf-8')
+          (base/'heuristic-scan.json').write_text(json.dumps({'기준커밋':head,'대상장수':498,'적중장수':len(flagged),'항목':flagged},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          print('rows',len(rows),'flagged',len(flagged))
+          PY
+      - name: Commit report
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add sourcecards-targeted-review-7passes/cycle2-pass12-unnecessary-metaphor/
+          git commit -m '사료카드 2단계 불필요한 비유 전수검토 입력 추가'
+          git push origin main
