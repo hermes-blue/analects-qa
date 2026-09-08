@@ -1,0 +1,54 @@
+name: TEMP Stage2 Remaining Juseok Strict Rescan
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/temp-stage2-remaining-juseok-strict-rescan.yml']
+permissions:
+  contents: write
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Scan latest 498 openings
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json,glob,re,subprocess
+          from pathlib import Path
+          files=sorted(glob.glob('sourcecards-style-polish/[0-9][0-9]-*.json'))
+          if len(files)!=20: raise SystemExit(len(files))
+          rows=[]; total=0
+          start_pat=re.compile(r'^(?:(?:이|그|옛|여러|뒤의|앞의|여기 실린|해당|다른|한|주희의 말을 잇는 이)\s+)?주석(?:은|이|들은|에서는|도)')
+          person_pat=re.compile(r'^주석(?:가|자)(?:는|들은|가|들이)')
+          for fn in files:
+              data=json.loads(Path(fn).read_text(encoding='utf-8'))
+              for ch in data['장']:
+                  total+=1
+                  text=ch['여는말']
+                  sents=[s.strip() for s in re.split(r'(?<=[.!?])\s+',text) if s.strip()]
+                  for i,s in enumerate(sents,1):
+                      if person_pat.search(s): continue
+                      if start_pat.search(s):
+                          rows.append({'구절ID':ch['구절ID'],'편장':ch['편장'],'파일':fn,'문장번호':i,'문장':s,'전체여는말':text})
+          if total!=498: raise SystemExit(total)
+          base=Path('sourcecards-targeted-review-7passes/cycle2-pass13-juseok-subject')
+          head=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
+          md=['# 잔여 `주석` 문장 시작 최신 엄격 재검토 입력','',f'- 기준 커밋: `{head}`',f'- 20개 JSON / {total}장',f'- 잔여 문장 수: **{len(rows)}**','']
+          for i,r in enumerate(rows,1):
+              md += [f'## {i}. {r["편장"]} `{r["구절ID"]}`',f'- 문장: {r["문장"]}',f'- 전체 여는말: {r["전체여는말"]}','']
+          (base/'remaining-juseok-latest-strict-input.md').write_text('\n'.join(md)+'\n',encoding='utf-8')
+          (base/'remaining-juseok-latest-strict-input.json').write_text(json.dumps({'기준커밋':head,'대상장수':total,'잔여문장수':len(rows),'항목':rows},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          print('remaining',len(rows))
+          PY
+      - name: Commit report
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add sourcecards-targeted-review-7passes/cycle2-pass13-juseok-subject/remaining-juseok-latest-strict-input.*
+          git commit -m '사료카드 2단계 잔여 주석 문장 최신 재추출'
+          git push origin main
