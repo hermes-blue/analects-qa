@@ -2,12 +2,12 @@
   "schema_version": "1.1",
   "scope": "語",
   "scope_name": "한자풀이",
-  "status": "approved_targeted_type_16_followup_2_applied",
-  "method": "20편 revised 6,921개 전체 검색, 말입니다 종결 후보 문구 436개(적중 문장 439개) 문맥 검토 후 승인된 6곳 반영. 전체 문구 정독 아님.",
+  "status": "approved_targeted_type_16_followup_4_applied",
+  "method": "20편 revised 6,921개 전체 검색, 뜻입니다 적중 문구 1,685개(출현 1,708회) 중 195개 문맥 검토 후 승인된 4곳 반영. 전체 문구 정독 아님.",
   "count_unit": "텍스트 필드: 한자 풀이 1개, 질문 또는 답변 1개, 쟁점의 견해 설명 1개",
   "total": 2311,
-  "changed": 364,
-  "unchanged": 1947,
+  "changed": 365,
+  "unchanged": 1946,
   "card_count": 498,
   "book_count": 20,
   "content_review_performed": false,
@@ -11059,8 +11059,8 @@
           "key": "ly-07-12:語:1",
           "label": "所慎소신",
           "original": "특별히 삼가고 신중히 다룬 일을 말합니다. 공자님의 관심이 추상적인 덕목에만 있지 않고, 실제로 큰 결과를 낳는 일에서는 더욱 조심해야 한다는 태도까지 포함했음을 보여 줍니다.",
-          "reason": "‘관심이 태도까지 포함했음’으로 묶은 긴 서술을, 공자님이 무엇에 관심을 두고 어떻게 보셨는지로 풉니다.",
-          "revised": "특별히 삼가고 신중히 다룬 일을 말합니다. 공자님은 추상적인 덕목에만 관심을 둔 것이 아니라, 실제로 큰 결과를 낳는 일에서는 더욱 조심해야 한다고 보셨다는 뜻입니다.",
+          "reason": "공자님을 주어로 삼고도 「보셨다는 뜻입니다」로 한 번 더 감싸는 서술을 덜어, 공자님이 어떻게 보셨는지 직접 전합니다. 추상적인 덕목에 대한 관심과 큰 결과를 낳는 일에서의 신중함은 그대로 보존합니다.",
+          "revised": "특별히 삼가고 신중히 다룬 일을 말합니다. 공자님은 추상적인 덕목에만 관심을 둔 것이 아니라, 실제로 큰 결과를 낳는 일에서는 더욱 조심해야 한다고 보셨습니다.",
           "scope": "語",
           "revision_history": [
             {
@@ -11071,11 +11071,20 @@
               "approval_status": "approved",
               "approval_message": "제이슨 반영후 계속 돌려",
               "date": "2026-09-09"
+            },
+            {
+              "pass": "targeted_type_16_followup_4",
+              "previous_revision": "특별히 삼가고 신중히 다룬 일을 말합니다. 공자님은 추상적인 덕목에만 관심을 둔 것이 아니라, 실제로 큰 결과를 낳는 일에서는 더욱 조심해야 한다고 보셨다는 뜻입니다.",
+              "revised": "특별히 삼가고 신중히 다룬 일을 말합니다. 공자님은 추상적인 덕목에만 관심을 둔 것이 아니라, 실제로 큰 결과를 낳는 일에서는 더욱 조심해야 한다고 보셨습니다.",
+              "reason": "공자님을 주어로 삼고도 「보셨다는 뜻입니다」로 한 번 더 감싸는 서술을 덜어, 공자님이 어떻게 보셨는지 직접 전합니다. 추상적인 덕목에 대한 관심과 큰 결과를 낳는 일에서의 신중함은 그대로 보존합니다.",
+              "approval_status": "approved",
+              "approval_message": "반영후 더 찾아",
+              "date": "2026-09-09"
             }
           ],
-          "previous_revision": "특별히 삼가고 신중히 다룬 일을 말합니다. 공자님의 관심이 추상적인 덕목에만 있지 않고, 실제로 큰 결과를 낳는 일에서는 더욱 조심해야 한다는 태도까지 포함했음을 보여 줍니다.",
+          "previous_revision": "특별히 삼가고 신중히 다룬 일을 말합니다. 공자님은 추상적인 덕목에만 관심을 둔 것이 아니라, 실제로 큰 결과를 낳는 일에서는 더욱 조심해야 한다고 보셨다는 뜻입니다.",
           "approval_status": "approved",
-          "last_revision_pass": "targeted_type_14_followup_2"
+          "last_revision_pass": "targeted_type_16_followup_4"
         },
         {
           "book": 7,
@@ -12707,10 +12716,10 @@
         "selector": "article.card details.st1 .w > p:not(.wh)"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_16_followup_2",
+        "pass": "targeted_type_16_followup_4",
         "scanned": 171,
         "approved_applied": 1,
-        "method": "20편 revised 6,921개 전체 검색, 말입니다 종결 후보 문구 436개(적중 문장 439개) 문맥 검토 후 승인된 6곳 반영. 전체 문구 정독 아님."
+        "method": "20편 revised 6,921개 전체 검색, 뜻입니다 적중 문구 1,685개(출현 1,708회) 중 195개 문맥 검토 후 승인된 4곳 반영. 전체 문구 정독 아님."
       }
     },
     {
@@ -19039,15 +19048,29 @@
         },
         {
           "book": 11,
-          "changed": false,
+          "changed": true,
           "id": "ly-11-21",
           "index": 5,
           "key": "ly-11-21:語:5",
           "label": "由也兼人 故退之유야겸인 고퇴지",
           "original": "자로는 남보다 앞서려는 기질이 있어 한 걸음 물리게 했다는 뜻입니다. 공자님의 교육이 정답 암기보다 사람의 실제 성장을 목표로 했음을 잘 보여 줍니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "자로는 남보다 앞서려는 기질이 있어 한 걸음 물리게 했다는 뜻입니다. 공자님의 교육이 정답 암기보다 사람의 실제 성장을 목표로 했음을 잘 보여 줍니다.",
-          "scope": "語"
+          "reason": "「자로는 … 물리게 했다는 뜻입니다」에서 자로를 물러서게 한 사람이 드러나지 않습니다. 지도한 공자님과 지도를 받은 자로를 구분해 직접 서술합니다. 뒤의 교육 목적에 관한 문장은 유지합니다.",
+          "revised": "공자님은 남보다 앞서려는 기질이 있는 자로를 한 걸음 물러서게 하셨습니다. 공자님의 교육이 정답 암기보다 사람의 실제 성장을 목표로 했음을 잘 보여 줍니다.",
+          "scope": "語",
+          "revision_history": [
+            {
+              "pass": "targeted_type_16_followup_4",
+              "previous_revision": "자로는 남보다 앞서려는 기질이 있어 한 걸음 물리게 했다는 뜻입니다. 공자님의 교육이 정답 암기보다 사람의 실제 성장을 목표로 했음을 잘 보여 줍니다.",
+              "revised": "공자님은 남보다 앞서려는 기질이 있는 자로를 한 걸음 물러서게 하셨습니다. 공자님의 교육이 정답 암기보다 사람의 실제 성장을 목표로 했음을 잘 보여 줍니다.",
+              "reason": "「자로는 … 물리게 했다는 뜻입니다」에서 자로를 물러서게 한 사람이 드러나지 않습니다. 지도한 공자님과 지도를 받은 자로를 구분해 직접 서술합니다. 뒤의 교육 목적에 관한 문장은 유지합니다.",
+              "approval_status": "approved",
+              "approval_message": "반영후 더 찾아",
+              "date": "2026-09-09"
+            }
+          ],
+          "previous_revision": "자로는 남보다 앞서려는 기질이 있어 한 걸음 물리게 했다는 뜻입니다. 공자님의 교육이 정답 암기보다 사람의 실제 성장을 목표로 했음을 잘 보여 줍니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_16_followup_4"
         },
         {
           "book": 11,
@@ -19363,10 +19386,10 @@
         "selector": "article.card details.st1 .w > p:not(.wh)"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_16_followup_1",
+        "pass": "targeted_type_16_followup_4",
         "scanned": 119,
         "approved_applied": 1,
-        "method": "20편 revised 6,921개 전체 검색, 명사 26종 종결 후보 문구 539개(적중 문장 551개) 문맥 검토 후 승인된 9곳 반영. 전체 문구 정독 아님."
+        "method": "20편 revised 6,921개 전체 검색, 뜻입니다 적중 문구 1,685개(출현 1,708회) 중 195개 문맥 검토 후 승인된 4곳 반영. 전체 문구 정독 아님."
       }
     },
     {
@@ -33008,8 +33031,8 @@
     }
   ],
   "latest_style_pass": {
-    "pass": "targeted_type_16_followup_2",
+    "pass": "targeted_type_16_followup_4",
     "scanned": 2311,
-    "approved_applied": 3
+    "approved_applied": 2
   }
 }

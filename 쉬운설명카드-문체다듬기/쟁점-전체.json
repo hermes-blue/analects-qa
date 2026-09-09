@@ -2,12 +2,12 @@
   "schema_version": "1.1",
   "scope": "說",
   "scope_name": "쟁점",
-  "status": "approved_targeted_type_16_followup_3_applied",
-  "method": "20편 revised 6,921개 전체 검색, 것입니다 종결 후보 문구 602개(적중 문장 617개) 문맥 검토 후 승인된 8곳 반영. 전체 문구 정독 아님.",
+  "status": "approved_targeted_type_16_followup_4_applied",
+  "method": "20편 revised 6,921개 전체 검색, 뜻입니다 적중 문구 1,685개(출현 1,708회) 중 195개 문맥 검토 후 승인된 4곳 반영. 전체 문구 정독 아님.",
   "count_unit": "텍스트 필드: 한자 풀이 1개, 질문 또는 답변 1개, 쟁점의 견해 설명 1개",
   "total": 1040,
-  "changed": 217,
-  "unchanged": 823,
+  "changed": 218,
+  "unchanged": 822,
   "card_count": 498,
   "book_count": 20,
   "content_review_performed": false,
@@ -14090,17 +14090,31 @@
         },
         {
           "book": 15,
-          "changed": false,
+          "changed": true,
           "heading": "‘자기 안에 도리를 얻어 앎’ vs ‘남의 덕을 알아봄’",
           "id": "ly-15-03",
           "index": 1,
           "key": "ly-15-03:說:1:2",
           "label": "정약용(丁若鏞) 《논어고금주》",
           "original": "知德을 다른 사람에게 덕이 있음을 알아보는 일로 풉니다. 공자와 자로가 여러 나라를 다녔지만 자신들을 알아주는 사람을 만나지 못하자, 공자가 세상에 덕을 알아보는 이가 드물다고 함께 탄식한 말이라는 뜻입니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "知德을 다른 사람에게 덕이 있음을 알아보는 일로 풉니다. 공자와 자로가 여러 나라를 다녔지만 자신들을 알아주는 사람을 만나지 못하자, 공자가 세상에 덕을 알아보는 이가 드물다고 함께 탄식한 말이라는 뜻입니다.",
+          "reason": "「탄식한 말이라는 뜻입니다」의 겹친 해설을 정약용의 해석으로 직접 전합니다. 해석한 사람은 정약용, 함께 탄식한 사람은 공자와 자로임을 밝힙니다. 여러 나라를 다녔으나 자신들을 알아주는 사람을 만나지 못했다는 사정은 그대로 둡니다.",
+          "revised": "知德을 다른 사람에게 덕이 있음을 알아보는 일로 풉니다. 정약용은 공자와 자로가 여러 나라를 다녔지만 자신들을 알아주는 사람을 만나지 못하자, 공자가 자로와 함께 세상에 덕을 알아보는 이가 드물다고 탄식했다고 봅니다.",
           "scope": "說",
-          "side": 2
+          "side": 2,
+          "revision_history": [
+            {
+              "pass": "targeted_type_16_followup_4",
+              "previous_revision": "知德을 다른 사람에게 덕이 있음을 알아보는 일로 풉니다. 공자와 자로가 여러 나라를 다녔지만 자신들을 알아주는 사람을 만나지 못하자, 공자가 세상에 덕을 알아보는 이가 드물다고 함께 탄식한 말이라는 뜻입니다.",
+              "revised": "知德을 다른 사람에게 덕이 있음을 알아보는 일로 풉니다. 정약용은 공자와 자로가 여러 나라를 다녔지만 자신들을 알아주는 사람을 만나지 못하자, 공자가 자로와 함께 세상에 덕을 알아보는 이가 드물다고 탄식했다고 봅니다.",
+              "reason": "「탄식한 말이라는 뜻입니다」의 겹친 해설을 정약용의 해석으로 직접 전합니다. 해석한 사람은 정약용, 함께 탄식한 사람은 공자와 자로임을 밝힙니다. 여러 나라를 다녔으나 자신들을 알아주는 사람을 만나지 못했다는 사정은 그대로 둡니다.",
+              "approval_status": "approved",
+              "approval_message": "반영후 더 찾아",
+              "date": "2026-09-09"
+            }
+          ],
+          "previous_revision": "知德을 다른 사람에게 덕이 있음을 알아보는 일로 풉니다. 공자와 자로가 여러 나라를 다녔지만 자신들을 알아주는 사람을 만나지 못하자, 공자가 세상에 덕을 알아보는 이가 드물다고 함께 탄식한 말이라는 뜻입니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_16_followup_4"
         },
         {
           "book": 15,
@@ -15531,10 +15545,10 @@
         "selector": "article.card details.st3 .js .side > p"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_16_followup_1",
+        "pass": "targeted_type_16_followup_4",
         "scanned": 86,
         "approved_applied": 1,
-        "method": "20편 revised 6,921개 전체 검색, 명사 26종 종결 후보 문구 539개(적중 문장 551개) 문맥 검토 후 승인된 9곳 반영. 전체 문구 정독 아님."
+        "method": "20편 revised 6,921개 전체 검색, 뜻입니다 적중 문구 1,685개(출현 1,708회) 중 195개 문맥 검토 후 승인된 4곳 반영. 전체 문구 정독 아님."
       }
     },
     {
@@ -18361,7 +18375,7 @@
     }
   ],
   "latest_style_pass": {
-    "pass": "targeted_type_16_followup_3",
+    "pass": "targeted_type_16_followup_4",
     "scanned": 1040,
     "approved_applied": 1
   }
