@@ -1,3 +1,6 @@
+<!-- nominalization-review2-20260909 completed -->
+명사화 표현 재검수: 승인한 **12장·12곳 반영 완료**. [수정 전후 및 검증 기록](../nominalization-review2-20260909/README.md)
+
 <!-- nominalization-review-20260908 completed -->
 동사·형용사의 ‘-음·-ㅁ’ 명사화 검수: 승인한 **16장·16곳 반영 완료**. [수정 전후 및 기록](../nominalization-review-20260908/README.md)
 
