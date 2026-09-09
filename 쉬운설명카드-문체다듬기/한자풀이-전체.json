@@ -2,12 +2,12 @@
   "schema_version": "1.1",
   "scope": "語",
   "scope_name": "한자풀이",
-  "status": "approved_targeted_type_16_applied",
-  "method": "20편 revised 6,921개 전체 검색, 추상명사 45종 종결 후보 문구 523개(적중 문장 528개) 문맥 검토 후 승인된 43곳 반영. 전체 문구 정독 아님.",
+  "status": "approved_targeted_type_16_followup_1_applied",
+  "method": "20편 revised 6,921개 전체 검색, 명사 26종 종결 후보 문구 539개(적중 문장 551개) 문맥 검토 후 승인된 9곳 반영. 전체 문구 정독 아님.",
   "count_unit": "텍스트 필드: 한자 풀이 1개, 질문 또는 답변 1개, 쟁점의 견해 설명 1개",
   "total": 2311,
-  "changed": 361,
-  "unchanged": 1950,
+  "changed": 362,
+  "unchanged": 1949,
   "card_count": 498,
   "book_count": 20,
   "content_review_performed": false,
@@ -18935,15 +18935,29 @@
         },
         {
           "book": 11,
-          "changed": false,
+          "changed": true,
           "id": "ly-11-21",
           "index": 1,
           "key": "ly-11-21:語:1",
           "label": "聞斯行諸문사행저",
           "original": "들은 것을 곧 실행해야 하느냐는 같은 질문입니다. 공자님은 질문 내용보다 묻는 사람의 기질을 보고 자로와 염유에게 서로 다른 답을 줍니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "들은 것을 곧 실행해야 하느냐는 같은 질문입니다. 공자님은 질문 내용보다 묻는 사람의 기질을 보고 자로와 염유에게 서로 다른 답을 줍니다.",
-          "scope": "語"
+          "reason": "「같은 질문입니다」만으로는 비교 대상이 드러나지 않아, 두 제자가 같은 내용을 물었다고 직접 서술합니다.",
+          "revised": "자로와 염유는 모두 들은 것을 곧 실행해야 하느냐고 묻습니다. 공자님은 질문 내용보다 묻는 사람의 기질을 보고 자로와 염유에게 서로 다른 답을 줍니다.",
+          "scope": "語",
+          "revision_history": [
+            {
+              "pass": "targeted_type_16_followup_1",
+              "previous_revision": "들은 것을 곧 실행해야 하느냐는 같은 질문입니다. 공자님은 질문 내용보다 묻는 사람의 기질을 보고 자로와 염유에게 서로 다른 답을 줍니다.",
+              "revised": "자로와 염유는 모두 들은 것을 곧 실행해야 하느냐고 묻습니다. 공자님은 질문 내용보다 묻는 사람의 기질을 보고 자로와 염유에게 서로 다른 답을 줍니다.",
+              "reason": "「같은 질문입니다」만으로는 비교 대상이 드러나지 않아, 두 제자가 같은 내용을 물었다고 직접 서술합니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨 반영됐는지 확인후 안됐으면 반영하고  계속 찾아",
+              "date": "2026-09-09"
+            }
+          ],
+          "previous_revision": "들은 것을 곧 실행해야 하느냐는 같은 질문입니다. 공자님은 질문 내용보다 묻는 사람의 기질을 보고 자로와 염유에게 서로 다른 답을 줍니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_16_followup_1"
         },
         {
           "book": 11,
@@ -19321,10 +19335,10 @@
         "selector": "article.card details.st1 .w > p:not(.wh)"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_16",
+        "pass": "targeted_type_16_followup_1",
         "scanned": 119,
         "approved_applied": 1,
-        "method": "20편 revised 6,921개 전체 검색, 추상명사 45종 종결 후보 문구 523개(적중 문장 528개) 문맥 검토 후 승인된 43곳 반영. 전체 문구 정독 아님."
+        "method": "20편 revised 6,921개 전체 검색, 명사 26종 종결 후보 문구 539개(적중 문장 551개) 문맥 검토 후 승인된 9곳 반영. 전체 문구 정독 아님."
       }
     },
     {
@@ -32952,8 +32966,8 @@
     }
   ],
   "latest_style_pass": {
-    "pass": "targeted_type_16",
+    "pass": "targeted_type_16_followup_1",
     "scanned": 2311,
-    "approved_applied": 28
+    "approved_applied": 1
   }
 }

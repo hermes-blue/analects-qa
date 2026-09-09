@@ -396,17 +396,31 @@
     },
     {
       "book": 2,
-      "changed": false,
+      "changed": true,
       "heading": "‘말이 앞서는 자공의 병을 고침’ vs ‘누구에게나 필요한 군자의 공부’子貢",
       "id": "ly-02-13",
       "index": 1,
       "key": "ly-02-13:說:1:1",
       "label": "범조우(范祖禹) — 《논어집석》 인용",
       "original": "자공은 말하기보다 실행하기를 더 어려워했다고 봅니다. 그래서 이 대답은 자공의 말 많은 병을 바로잡아 준 맞춤 가르침이라는 풀이입니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "자공은 말하기보다 실행하기를 더 어려워했다고 봅니다. 그래서 이 대답은 자공의 말 많은 병을 바로잡아 준 맞춤 가르침이라는 풀이입니다.",
+      "reason": "「이 대답은 … 가르침이라는 풀이입니다」로 설명을 겹쳐 붙이지 않고, 범조우가 대답의 목적을 어떻게 보았는지 밝힙니다.",
+      "revised": "자공은 말하기보다 실행하기를 더 어려워했다고 봅니다. 그래서 범조우는 이 대답이 자공의 말 많은 병을 바로잡아 준 맞춤 가르침이라고 봅니다.",
       "scope": "說",
-      "side": 1
+      "side": 1,
+      "revision_history": [
+        {
+          "pass": "targeted_type_16_followup_1",
+          "previous_revision": "자공은 말하기보다 실행하기를 더 어려워했다고 봅니다. 그래서 이 대답은 자공의 말 많은 병을 바로잡아 준 맞춤 가르침이라는 풀이입니다.",
+          "revised": "자공은 말하기보다 실행하기를 더 어려워했다고 봅니다. 그래서 범조우는 이 대답이 자공의 말 많은 병을 바로잡아 준 맞춤 가르침이라고 봅니다.",
+          "reason": "「이 대답은 … 가르침이라는 풀이입니다」로 설명을 겹쳐 붙이지 않고, 범조우가 대답의 목적을 어떻게 보았는지 밝힙니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨 반영됐는지 확인후 안됐으면 반영하고  계속 찾아",
+          "date": "2026-09-09"
+        }
+      ],
+      "previous_revision": "자공은 말하기보다 실행하기를 더 어려워했다고 봅니다. 그래서 이 대답은 자공의 말 많은 병을 바로잡아 준 맞춤 가르침이라는 풀이입니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_16_followup_1"
     },
     {
       "book": 2,
@@ -886,9 +900,9 @@
     "selector": "article.card details.st3 .js .side > p"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_9",
+    "pass": "targeted_type_16_followup_1",
     "scanned": 50,
     "approved_applied": 1,
-    "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
+    "method": "20편 revised 6,921개 전체 검색, 명사 26종 종결 후보 문구 539개(적중 문장 551개) 문맥 검토 후 승인된 9곳 반영. 전체 문구 정독 아님."
   }
 }

@@ -2,12 +2,12 @@
   "schema_version": "1.1",
   "scope": "問",
   "scope_name": "의문",
-  "status": "approved_targeted_type_16_applied",
-  "method": "20편 revised 6,921개 전체 검색, 추상명사 45종 종결 후보 문구 523개(적중 문장 528개) 문맥 검토 후 승인된 43곳 반영. 전체 문구 정독 아님.",
+  "status": "approved_targeted_type_16_followup_1_applied",
+  "method": "20편 revised 6,921개 전체 검색, 명사 26종 종결 후보 문구 539개(적중 문장 551개) 문맥 검토 후 승인된 9곳 반영. 전체 문구 정독 아님.",
   "count_unit": "텍스트 필드: 한자 풀이 1개, 질문 또는 답변 1개, 쟁점의 견해 설명 1개",
   "total": 3072,
-  "changed": 258,
-  "unchanged": 2814,
+  "changed": 260,
+  "unchanged": 2812,
   "card_count": 498,
   "book_count": 20,
   "content_review_performed": false,
@@ -12209,16 +12209,30 @@
         },
         {
           "book": 6,
-          "changed": false,
+          "changed": true,
           "field": "답변",
           "id": "ly-06-21",
           "index": 1,
           "key": "ly-06-21:問:1:a",
           "label": "답변",
           "original": "물은 끊임없이 움직이며 변화에 대응하는 모습이 지혜와 닮고, 산은 한곳에 굳게 서서 안정된 모습이 仁과 닮았다고 본 비유입니다. 자연의 성질로 사람의 덕을 설명한 것입니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "물은 끊임없이 움직이며 변화에 대응하는 모습이 지혜와 닮고, 산은 한곳에 굳게 서서 안정된 모습이 仁과 닮았다고 본 비유입니다. 자연의 성질로 사람의 덕을 설명한 것입니다.",
-          "scope": "問"
+          "reason": "「물은·산은 … 비유입니다」로 주어와 종결이 어긋나지 않도록, 공자님이 두 모습을 각각의 덕과 견주었다고 서술합니다.",
+          "revised": "공자님은 끊임없이 움직이며 변화에 대응하는 물의 모습이 지혜와 닮고, 한곳에 굳게 서서 안정된 산의 모습이 仁과 닮았다고 보셨습니다. 자연의 성질로 사람의 덕을 설명한 것입니다.",
+          "scope": "問",
+          "revision_history": [
+            {
+              "pass": "targeted_type_16_followup_1",
+              "previous_revision": "물은 끊임없이 움직이며 변화에 대응하는 모습이 지혜와 닮고, 산은 한곳에 굳게 서서 안정된 모습이 仁과 닮았다고 본 비유입니다. 자연의 성질로 사람의 덕을 설명한 것입니다.",
+              "revised": "공자님은 끊임없이 움직이며 변화에 대응하는 물의 모습이 지혜와 닮고, 한곳에 굳게 서서 안정된 산의 모습이 仁과 닮았다고 보셨습니다. 자연의 성질로 사람의 덕을 설명한 것입니다.",
+              "reason": "「물은·산은 … 비유입니다」로 주어와 종결이 어긋나지 않도록, 공자님이 두 모습을 각각의 덕과 견주었다고 서술합니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨 반영됐는지 확인후 안됐으면 반영하고  계속 찾아",
+              "date": "2026-09-09"
+            }
+          ],
+          "previous_revision": "물은 끊임없이 움직이며 변화에 대응하는 모습이 지혜와 닮고, 산은 한곳에 굳게 서서 안정된 모습이 仁과 닮았다고 본 비유입니다. 자연의 성질로 사람의 덕을 설명한 것입니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_16_followup_1"
         },
         {
           "book": 6,
@@ -12853,10 +12867,10 @@
         "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_14",
+        "pass": "targeted_type_16_followup_1",
         "scanned": 168,
         "approved_applied": 1,
-        "method": "전체 검색 후 일반 명사 등 제외, 후보 438개 문맥 검토. 모든 문장 종합 정독 아님"
+        "method": "20편 revised 6,921개 전체 검색, 명사 26종 종결 후보 문구 539개(적중 문장 551개) 문맥 검토 후 승인된 9곳 반영. 전체 문구 정독 아님."
       }
     },
     {
@@ -39524,16 +39538,30 @@
         },
         {
           "book": 17,
-          "changed": false,
+          "changed": true,
           "field": "답변",
           "id": "ly-17-16",
           "index": 1,
           "key": "ly-17-16:問:1:a",
           "label": "답변",
           "original": "옛날에는 거칠더라도 솔직하고, 방자해도 호방하며, 어리석어도 곧은 면이 있었다고 봅니다. 문제는 후대에 같은 결함이 위선·무질서·속임수로 바뀌었다는 탄식입니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "옛날에는 거칠더라도 솔직하고, 방자해도 호방하며, 어리석어도 곧은 면이 있었다고 봅니다. 문제는 후대에 같은 결함이 위선·무질서·속임수로 바뀌었다는 탄식입니다.",
-          "scope": "問"
+          "reason": "문제가 탄식이라는 뜻으로 읽히는 주술 호응을 바로잡습니다. 판단과 탄식의 주체를 밝히고 「그러나」로 과거와 후대의 대비를 연결합니다.",
+          "revised": "공자님은 옛날에는 거칠더라도 솔직하고, 방자해도 호방하며, 어리석어도 곧은 면이 있었다고 보셨습니다. 그러나 후대에는 같은 결함이 위선·무질서·속임수로 바뀌었다고 탄식하셨습니다.",
+          "scope": "問",
+          "revision_history": [
+            {
+              "pass": "targeted_type_16_followup_1",
+              "previous_revision": "옛날에는 거칠더라도 솔직하고, 방자해도 호방하며, 어리석어도 곧은 면이 있었다고 봅니다. 문제는 후대에 같은 결함이 위선·무질서·속임수로 바뀌었다는 탄식입니다.",
+              "revised": "공자님은 옛날에는 거칠더라도 솔직하고, 방자해도 호방하며, 어리석어도 곧은 면이 있었다고 보셨습니다. 그러나 후대에는 같은 결함이 위선·무질서·속임수로 바뀌었다고 탄식하셨습니다.",
+              "reason": "문제가 탄식이라는 뜻으로 읽히는 주술 호응을 바로잡습니다. 판단과 탄식의 주체를 밝히고 「그러나」로 과거와 후대의 대비를 연결합니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨 반영됐는지 확인후 안됐으면 반영하고  계속 찾아",
+              "date": "2026-09-09"
+            }
+          ],
+          "previous_revision": "옛날에는 거칠더라도 솔직하고, 방자해도 호방하며, 어리석어도 곧은 면이 있었다고 봅니다. 문제는 후대에 같은 결함이 위선·무질서·속임수로 바뀌었다는 탄식입니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_16_followup_1"
         },
         {
           "book": 17,
@@ -40481,10 +40509,10 @@
         "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_14_followup_2",
+        "pass": "targeted_type_16_followup_1",
         "scanned": 156,
         "approved_applied": 1,
-        "method": "20편 revised 6,921개 전체 검색 후 후보 533개 문맥 검토. 승인된 10곳 반영. 모든 문장 종합 정독 아님."
+        "method": "20편 revised 6,921개 전체 검색, 명사 26종 종결 후보 문구 539개(적중 문장 551개) 문맥 검토 후 승인된 9곳 반영. 전체 문구 정독 아님."
       }
     },
     {
@@ -43820,8 +43848,8 @@
     }
   ],
   "latest_style_pass": {
-    "pass": "targeted_type_16",
+    "pass": "targeted_type_16_followup_1",
     "scanned": 3072,
-    "approved_applied": 11
+    "approved_applied": 2
   }
 }
