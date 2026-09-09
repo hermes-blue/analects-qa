@@ -1,5 +1,5 @@
 {
-  "apply_status": "유형 14 승인안 11곳을 수정본 JSON에 반영. 원본 HTML 미적용.",
+  "apply_status": "유형 14 추가 검토 승인안 11곳을 수정본 JSON에 반영. 원본 HTML 미적용.",
   "book_count": 20,
   "card_count": 498,
   "content_review_performed": false,
@@ -412,7 +412,7 @@
     },
     {
       "book_count": 20,
-      "changed": 326,
+      "changed": 330,
       "labels_preserved": true,
       "method": "전 항목에서 문체 패턴으로 후보를 찾아 후보 문장의 문맥을 확인하는 선별 교정.",
       "name": "한자풀이",
@@ -581,20 +581,20 @@
           "scanned_text_fields": 15
         }
       ],
-      "status": "approved_targeted_type_14_applied",
+      "status": "approved_targeted_type_14_followup_1_applied",
       "text_fields": 2311,
-      "unchanged": 1985,
+      "unchanged": 1981,
       "unique_cards": 498,
       "latest_style_pass": {
-        "pass": "targeted_type_14",
-        "approved_applied": 7,
+        "pass": "targeted_type_14_followup_1",
+        "approved_applied": 4,
         "reviewed": 2311,
-        "method": "전체 검색 후 일반 명사 등 제외, 후보 438개 문맥 검토. 모든 문장 종합 정독 아님"
+        "method": "20편 최신 revised 전체 검색 후 앞 회차 중복 및 일반 명사 등을 제외하고 추가 후보 147개 문맥 검토. 모든 문장 종합 정독 아님"
       }
     },
     {
       "book_count": 20,
-      "changed": 246,
+      "changed": 247,
       "labels_preserved": true,
       "method": "전 항목에서 문체 패턴으로 후보를 찾아 후보 문장의 문맥을 확인하는 선별 교정.",
       "name": "의문",
@@ -763,20 +763,20 @@
           "scanned_text_fields": 18
         }
       ],
-      "status": "approved_targeted_type_14_applied",
+      "status": "approved_targeted_type_14_followup_1_applied",
       "text_fields": 3072,
-      "unchanged": 2826,
+      "unchanged": 2825,
       "unique_cards": 498,
       "latest_style_pass": {
-        "pass": "targeted_type_14",
-        "approved_applied": 2,
+        "pass": "targeted_type_14_followup_1",
+        "approved_applied": 1,
         "reviewed": 3072,
-        "method": "전체 검색 후 일반 명사 등 제외, 후보 438개 문맥 검토. 모든 문장 종합 정독 아님"
+        "method": "20편 최신 revised 전체 검색 후 앞 회차 중복 및 일반 명사 등을 제외하고 추가 후보 147개 문맥 검토. 모든 문장 종합 정독 아님"
       }
     },
     {
       "book_count": 20,
-      "changed": 196,
+      "changed": 201,
       "labels_preserved": true,
       "method": "전 항목에서 문체 패턴으로 후보를 찾아 후보 문장의 문맥을 확인하는 선별 교정.",
       "name": "쟁점",
@@ -945,32 +945,35 @@
           "scanned_text_fields": 8
         }
       ],
-      "status": "approved_targeted_type_14_applied",
+      "status": "approved_targeted_type_14_followup_1_applied",
       "text_fields": 1040,
-      "unchanged": 844,
+      "unchanged": 839,
       "unique_cards": 498,
       "latest_style_pass": {
-        "pass": "targeted_type_14",
-        "approved_applied": 2,
+        "pass": "targeted_type_14_followup_1",
+        "approved_applied": 6,
         "reviewed": 1040,
-        "method": "전체 검색 후 일반 명사 등 제외, 후보 438개 문맥 검토. 모든 문장 종합 정독 아님"
+        "method": "20편 최신 revised 전체 검색 후 앞 회차 중복 및 일반 명사 등을 제외하고 추가 후보 147개 문맥 검토. 모든 문장 종합 정독 아님"
       }
     }
   ],
-  "status": "approved_targeted_type_14_applied",
-  "total_changed_text_fields": 1134,
+  "status": "approved_targeted_type_14_followup_1_applied",
+  "total_changed_text_fields": 1144,
   "last_completed_pass": {
     "type": 14,
-    "scope": "명사형 어미로 딱딱해진 서술",
+    "followup": 1,
+    "scope": "명사형 어미 추가 검토",
     "status": "approved_applied",
     "scanned": 6921,
-    "keyword_matches": 761,
-    "excluded_lexical_matches": 323,
-    "keyword_matches_context_reviewed": 438,
+    "keyword_matches": 4684,
+    "previously_reviewed_overlap": 436,
+    "new_search_matches": 4248,
+    "excluded_lexical_matches": 4101,
+    "keyword_matches_context_reviewed": 147,
     "approved_applied": 11,
-    "retained_matches": 427,
-    "approval_message": "제이슨 반영후 계속 돌려",
-    "method": "전체 검색 후 일반 명사 등 제외, 후보 438개 문맥 검토. 모든 문장 종합 정독 아님"
+    "retained_matches": 136,
+    "approval_message": "제이슨 반영",
+    "method": "20편 최신 revised 전체 검색 후 앞 회차 중복 및 일반 명사 등을 제외하고 추가 후보 147개 문맥 검토. 모든 문장 종합 정독 아님"
   },
   "targeted_reviews": [
     {
@@ -2140,6 +2143,22 @@
       "retained_matches": 427,
       "approval_message": "제이슨 반영후 계속 돌려",
       "method": "전체 검색 후 일반 명사 등 제외, 후보 438개 문맥 검토. 모든 문장 종합 정독 아님"
+    },
+    {
+      "type": 14,
+      "followup": 1,
+      "scope": "명사형 어미 추가 검토",
+      "status": "approved_applied",
+      "scanned": 6921,
+      "keyword_matches": 4684,
+      "previously_reviewed_overlap": 436,
+      "new_search_matches": 4248,
+      "excluded_lexical_matches": 4101,
+      "keyword_matches_context_reviewed": 147,
+      "approved_applied": 11,
+      "retained_matches": 136,
+      "approval_message": "제이슨 반영",
+      "method": "20편 최신 revised 전체 검색 후 앞 회차 중복 및 일반 명사 등을 제외하고 추가 후보 147개 문맥 검토. 모든 문장 종합 정독 아님"
     }
   ]
 }

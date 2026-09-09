@@ -1018,15 +1018,29 @@
     },
     {
       "book": 6,
-      "changed": false,
+      "changed": true,
       "id": "ly-06-16",
       "index": 1,
       "key": "ly-06-16:語:1",
       "label": "質질",
       "original": "꾸미기 이전의 바탕과 소박한 본성을 가리킵니다. 質은 반드시 좋은 것만은 아니며, 文의 다듬음이 부족하면 거칠고 세련되지 못한 상태로 흐를 수 있습니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "꾸미기 이전의 바탕과 소박한 본성을 가리킵니다. 質은 반드시 좋은 것만은 아니며, 文의 다듬음이 부족하면 거칠고 세련되지 못한 상태로 흐를 수 있습니다.",
-      "scope": "語"
+      "reason": "「文의 다듬음」이라는 명사 연결을 「文으로 다듬다」로 풉니다. 충분히 다듬지 못했을 때 생기는 결과는 유지합니다.",
+      "revised": "꾸미기 이전의 바탕과 소박한 본성을 가리킵니다. 質은 반드시 좋은 것만은 아니며, 文으로 충분히 다듬지 않으면 거칠고 세련되지 못한 상태로 흐를 수 있습니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_14_followup_1",
+          "previous_revision": "꾸미기 이전의 바탕과 소박한 본성을 가리킵니다. 質은 반드시 좋은 것만은 아니며, 文의 다듬음이 부족하면 거칠고 세련되지 못한 상태로 흐를 수 있습니다.",
+          "revised": "꾸미기 이전의 바탕과 소박한 본성을 가리킵니다. 質은 반드시 좋은 것만은 아니며, 文으로 충분히 다듬지 않으면 거칠고 세련되지 못한 상태로 흐를 수 있습니다.",
+          "reason": "「文의 다듬음」이라는 명사 연결을 「文으로 다듬다」로 풉니다. 충분히 다듬지 못했을 때 생기는 결과는 유지합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨 반영",
+          "date": "2026-09-09"
+        }
+      ],
+      "previous_revision": "꾸미기 이전의 바탕과 소박한 본성을 가리킵니다. 質은 반드시 좋은 것만은 아니며, 文의 다듬음이 부족하면 거칠고 세련되지 못한 상태로 흐를 수 있습니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_14_followup_1"
     },
     {
       "book": 6,
@@ -1900,9 +1914,9 @@
     "selector": "article.card details.st1 .w > p:not(.wh)"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_9",
+    "pass": "targeted_type_14_followup_1",
     "scanned": 137,
     "approved_applied": 1,
-    "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
+    "method": "20편 최신 revised 전체 검색 후 앞 회차 중복 및 일반 명사 등을 제외하고 추가 후보 147개 문맥 검토. 모든 문장 종합 정독 아님"
   }
 }

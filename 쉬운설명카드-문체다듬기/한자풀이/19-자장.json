@@ -1252,15 +1252,29 @@
     },
     {
       "book": 19,
-      "changed": false,
+      "changed": true,
       "id": "ly-19-21",
       "index": 2,
       "key": "ly-19-21:語:2",
       "label": "如日月之食여일월지식",
       "original": "군자의 잘못을 일식과 월식에 비유한 표현입니다. 밝은 해와 달의 가림이 모두에게 보이듯, 큰 사람의 허물도 사람들에게 쉽게 드러납니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "군자의 잘못을 일식과 월식에 비유한 표현입니다. 밝은 해와 달의 가림이 모두에게 보이듯, 큰 사람의 허물도 사람들에게 쉽게 드러납니다.",
-      "scope": "語"
+      "reason": "「해와 달의 가림」을 「해와 달이 가려지면」으로 바꿉니다. 원문에 근거한 일식·월식 비유는 유지합니다.",
+      "revised": "군자의 잘못을 일식과 월식에 비유한 표현입니다. 밝은 해와 달이 가려지면 모두가 볼 수 있듯, 큰 사람의 허물도 사람들에게 쉽게 드러납니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_14_followup_1",
+          "previous_revision": "군자의 잘못을 일식과 월식에 비유한 표현입니다. 밝은 해와 달의 가림이 모두에게 보이듯, 큰 사람의 허물도 사람들에게 쉽게 드러납니다.",
+          "revised": "군자의 잘못을 일식과 월식에 비유한 표현입니다. 밝은 해와 달이 가려지면 모두가 볼 수 있듯, 큰 사람의 허물도 사람들에게 쉽게 드러납니다.",
+          "reason": "「해와 달의 가림」을 「해와 달이 가려지면」으로 바꿉니다. 원문에 근거한 일식·월식 비유는 유지합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨 반영",
+          "date": "2026-09-09"
+        }
+      ],
+      "previous_revision": "군자의 잘못을 일식과 월식에 비유한 표현입니다. 밝은 해와 달의 가림이 모두에게 보이듯, 큰 사람의 허물도 사람들에게 쉽게 드러납니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_14_followup_1"
     },
     {
       "book": 19,
@@ -1573,9 +1587,9 @@
     "selector": "article.card details.st1 .w > p:not(.wh)"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_9",
+    "pass": "targeted_type_14_followup_1",
     "scanned": 114,
     "approved_applied": 1,
-    "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
+    "method": "20편 최신 revised 전체 검색 후 앞 회차 중복 및 일반 명사 등을 제외하고 추가 후보 147개 문맥 검토. 모든 문장 종합 정독 아님"
   }
 }

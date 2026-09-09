@@ -214,17 +214,31 @@
     },
     {
       "book": 4,
-      "changed": false,
+      "changed": true,
       "heading": "‘잘못한 사람의 仁을 알아본다’ vs ‘잘못을 살피는 사람이 仁을 행한다’觀過斯知仁矣",
       "id": "ly-04-07",
       "index": 1,
       "key": "ly-04-07:說:1:1",
       "label": "공안국(孔安國) — 《논어집해》 인용",
       "original": "사람마다 처지와 능력이 다름을 살펴 잘못을 알맞게 판단해 주는 것 자체가 仁이라고 풉니다. 초점이 ‘판단하는 사람’에게 있습니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "사람마다 처지와 능력이 다름을 살펴 잘못을 알맞게 판단해 주는 것 자체가 仁이라고 풉니다. 초점이 ‘판단하는 사람’에게 있습니다.",
+      "reason": "「다름을 살펴」를 「어떻게 다른지 살펴」로 바꾸어 살피는 내용을 자연스럽게 이어 줍니다.",
+      "revised": "사람마다 처지와 능력이 어떻게 다른지 살펴 잘못을 알맞게 판단해 주는 것 자체가 仁이라고 풉니다. 초점이 ‘판단하는 사람’에게 있습니다.",
       "scope": "說",
-      "side": 1
+      "side": 1,
+      "revision_history": [
+        {
+          "pass": "targeted_type_14_followup_1",
+          "previous_revision": "사람마다 처지와 능력이 다름을 살펴 잘못을 알맞게 판단해 주는 것 자체가 仁이라고 풉니다. 초점이 ‘판단하는 사람’에게 있습니다.",
+          "revised": "사람마다 처지와 능력이 어떻게 다른지 살펴 잘못을 알맞게 판단해 주는 것 자체가 仁이라고 풉니다. 초점이 ‘판단하는 사람’에게 있습니다.",
+          "reason": "「다름을 살펴」를 「어떻게 다른지 살펴」로 바꾸어 살피는 내용을 자연스럽게 이어 줍니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨 반영",
+          "date": "2026-09-09"
+        }
+      ],
+      "previous_revision": "사람마다 처지와 능력이 다름을 살펴 잘못을 알맞게 판단해 주는 것 자체가 仁이라고 풉니다. 초점이 ‘판단하는 사람’에게 있습니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_14_followup_1"
     },
     {
       "book": 4,
@@ -923,9 +937,9 @@
     "selector": "article.card details.st3 .js .side > p"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_13",
+    "pass": "targeted_type_14_followup_1",
     "scanned": 56,
     "approved_applied": 1,
-    "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
+    "method": "20편 최신 revised 전체 검색 후 앞 회차 중복 및 일반 명사 등을 제외하고 추가 후보 147개 문맥 검토. 모든 문장 종합 정독 아님"
   }
 }

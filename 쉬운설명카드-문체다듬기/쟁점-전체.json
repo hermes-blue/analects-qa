@@ -2,12 +2,12 @@
   "schema_version": "1.1",
   "scope": "說",
   "scope_name": "쟁점",
-  "status": "approved_targeted_type_14_applied",
-  "method": "전체 검색 후 일반 명사 등 제외, 후보 438개 문맥 검토. 모든 문장 종합 정독 아님",
+  "status": "approved_targeted_type_14_followup_1_applied",
+  "method": "20편 최신 revised 전체 검색 후 앞 회차 중복 및 일반 명사 등을 제외하고 추가 후보 147개 문맥 검토. 모든 문장 종합 정독 아님",
   "count_unit": "텍스트 필드: 한자 풀이 1개, 질문 또는 답변 1개, 쟁점의 견해 설명 1개",
   "total": 1040,
-  "changed": 196,
-  "unchanged": 844,
+  "changed": 201,
+  "unchanged": 839,
   "card_count": 498,
   "book_count": 20,
   "content_review_performed": false,
@@ -326,17 +326,31 @@
         },
         {
           "book": 1,
-          "changed": false,
+          "changed": true,
           "heading": "‘백성’이 감화된다 vs ‘모든 사람’이 스스로 행한다民",
           "id": "ly-01-09",
           "index": 1,
           "key": "ly-01-09:說:1:1",
           "label": "공안국(孔安國) — 《논어정의》 인용",
           "original": "임금이 상례와 제사를 정성껏 행하면 백성이 그 덕에 감화되어 인정이 두터워진다고 봅니다. 民을 다스림을 받는 백성으로 읽은 것입니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "임금이 상례와 제사를 정성껏 행하면 백성이 그 덕에 감화되어 인정이 두터워진다고 봅니다. 民을 다스림을 받는 백성으로 읽은 것입니다.",
+          "reason": "「民을 다스림을 받는」에서 겹치는 「을」과 명사형 피동 표현을 풉니다. 임금은 앞 문장에서 이미 제시된 주체입니다.",
+          "revised": "임금이 상례와 제사를 정성껏 행하면 백성이 그 덕에 감화되어 인정이 두터워진다고 봅니다. 民을 임금이 다스리는 백성으로 읽은 것입니다.",
           "scope": "說",
-          "side": 1
+          "side": 1,
+          "revision_history": [
+            {
+              "pass": "targeted_type_14_followup_1",
+              "previous_revision": "임금이 상례와 제사를 정성껏 행하면 백성이 그 덕에 감화되어 인정이 두터워진다고 봅니다. 民을 다스림을 받는 백성으로 읽은 것입니다.",
+              "revised": "임금이 상례와 제사를 정성껏 행하면 백성이 그 덕에 감화되어 인정이 두터워진다고 봅니다. 民을 임금이 다스리는 백성으로 읽은 것입니다.",
+              "reason": "「民을 다스림을 받는」에서 겹치는 「을」과 명사형 피동 표현을 풉니다. 임금은 앞 문장에서 이미 제시된 주체입니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨 반영",
+              "date": "2026-09-09"
+            }
+          ],
+          "previous_revision": "임금이 상례와 제사를 정성껏 행하면 백성이 그 덕에 감화되어 인정이 두터워진다고 봅니다. 民을 다스림을 받는 백성으로 읽은 것입니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_14_followup_1"
         },
         {
           "book": 1,
@@ -662,10 +676,10 @@
         "selector": "article.card details.st3 .js .side > p"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_13",
+        "pass": "targeted_type_14_followup_1",
         "scanned": 40,
         "approved_applied": 1,
-        "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
+        "method": "20편 최신 revised 전체 검색 후 앞 회차 중복 및 일반 명사 등을 제외하고 추가 후보 147개 문맥 검토. 모든 문장 종합 정독 아님"
       }
     },
     {
@@ -1687,8 +1701,8 @@
           "key": "ly-03-03:說:1:2",
           "label": "이렇게도 보면",
           "original": "3장은 사람에게 어질음이 없으면 예와 음악이 무슨 소용이냐고 묻습니다. 형식의 자격 문제에서 더 깊게 들어가, 그 형식을 움직이는 사람의 마음까지 문제 삼습니다.",
-          "reason": "예와 음악이 무슨 소용인지 묻고 사람의 마음을 문제 삼은 주체를 공자님으로 밝힙니다.",
-          "revised": "3장에서 공자님은 사람에게 어질음이 없으면 예와 음악이 무슨 소용이냐고 묻습니다. 형식의 자격 문제에서 더 깊게 들어가, 그 형식을 움직이는 사람의 마음까지 문제 삼습니다.",
+          "reason": "「사람에게 어질음이 없다」를 「사람이 어질지 않다」로 풀어 자연스럽게 연결합니다. 명사형 표기 문제도 함께 없어집니다.",
+          "revised": "3장에서 공자님은 사람이 어질지 않으면 예와 음악이 무슨 소용이냐고 묻습니다. 형식의 자격 문제에서 더 깊게 들어가, 그 형식을 움직이는 사람의 마음까지 문제 삼습니다.",
           "scope": "說",
           "side": 2,
           "revision_history": [
@@ -1700,11 +1714,20 @@
               "approval_status": "approved",
               "approval_message": "제이슨 반영후 동사나 형용사를 명사화한것들 찾아봐",
               "date": "2026-09-08"
+            },
+            {
+              "pass": "targeted_type_14_followup_1",
+              "previous_revision": "3장에서 공자님은 사람에게 어질음이 없으면 예와 음악이 무슨 소용이냐고 묻습니다. 형식의 자격 문제에서 더 깊게 들어가, 그 형식을 움직이는 사람의 마음까지 문제 삼습니다.",
+              "revised": "3장에서 공자님은 사람이 어질지 않으면 예와 음악이 무슨 소용이냐고 묻습니다. 형식의 자격 문제에서 더 깊게 들어가, 그 형식을 움직이는 사람의 마음까지 문제 삼습니다.",
+              "reason": "「사람에게 어질음이 없다」를 「사람이 어질지 않다」로 풀어 자연스럽게 연결합니다. 명사형 표기 문제도 함께 없어집니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨 반영",
+              "date": "2026-09-09"
             }
           ],
-          "previous_revision": "3장은 사람에게 어질음이 없으면 예와 음악이 무슨 소용이냐고 묻습니다. 형식의 자격 문제에서 더 깊게 들어가, 그 형식을 움직이는 사람의 마음까지 문제 삼습니다.",
+          "previous_revision": "3장에서 공자님은 사람에게 어질음이 없으면 예와 음악이 무슨 소용이냐고 묻습니다. 형식의 자격 문제에서 더 깊게 들어가, 그 형식을 움직이는 사람의 마음까지 문제 삼습니다.",
           "approval_status": "approved",
-          "last_revision_pass": "targeted_type_13"
+          "last_revision_pass": "targeted_type_14_followup_1"
         },
         {
           "book": 3,
@@ -1932,17 +1955,31 @@
         },
         {
           "book": 3,
-          "changed": false,
+          "changed": true,
           "heading": "‘모른다’고 한 사람이 왜 곧 ‘알면 천하가 손바닥처럼 보인다’고 했을까?문장 안 긴장형",
           "id": "ly-03-11",
           "index": 1,
           "key": "ly-03-11:說:1:2",
           "label": "이렇게도 보면",
           "original": "그런데 곧 그 뜻을 아는 사람에게 천하 다스림은 손바닥처럼 분명하다고 말합니다. 전통적으로는 몰라서가 아니라 잘못된 현실에서 함부로 설명하지 않은 완곡한 거절로 읽습니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "그런데 곧 그 뜻을 아는 사람에게 천하 다스림은 손바닥처럼 분명하다고 말합니다. 전통적으로는 몰라서가 아니라 잘못된 현실에서 함부로 설명하지 않은 완곡한 거절로 읽습니다.",
+          "reason": "「사람에게 천하 다스림은 분명하다」를 사람이 무엇을 아는지 설명하는 문장으로 풉니다. 손바닥 비유와 뒤의 전통적 해석은 유지합니다.",
+          "revised": "그런데 곧 그 뜻을 아는 사람은 천하를 다스리는 일도 손바닥을 보듯 분명하게 안다고 말합니다. 전통적으로는 몰라서가 아니라 잘못된 현실에서 함부로 설명하지 않은 완곡한 거절로 읽습니다.",
           "scope": "說",
-          "side": 2
+          "side": 2,
+          "revision_history": [
+            {
+              "pass": "targeted_type_14_followup_1",
+              "previous_revision": "그런데 곧 그 뜻을 아는 사람에게 천하 다스림은 손바닥처럼 분명하다고 말합니다. 전통적으로는 몰라서가 아니라 잘못된 현실에서 함부로 설명하지 않은 완곡한 거절로 읽습니다.",
+              "revised": "그런데 곧 그 뜻을 아는 사람은 천하를 다스리는 일도 손바닥을 보듯 분명하게 안다고 말합니다. 전통적으로는 몰라서가 아니라 잘못된 현실에서 함부로 설명하지 않은 완곡한 거절로 읽습니다.",
+              "reason": "「사람에게 천하 다스림은 분명하다」를 사람이 무엇을 아는지 설명하는 문장으로 풉니다. 손바닥 비유와 뒤의 전통적 해석은 유지합니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨 반영",
+              "date": "2026-09-09"
+            }
+          ],
+          "previous_revision": "그런데 곧 그 뜻을 아는 사람에게 천하 다스림은 손바닥처럼 분명하다고 말합니다. 전통적으로는 몰라서가 아니라 잘못된 현실에서 함부로 설명하지 않은 완곡한 거절로 읽습니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_14_followup_1"
         },
         {
           "book": 3,
@@ -2455,10 +2492,10 @@
         "selector": "article.card details.st3 .js .side > p"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_13",
+        "pass": "targeted_type_14_followup_1",
         "scanned": 54,
-        "approved_applied": 1,
-        "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
+        "approved_applied": 2,
+        "method": "20편 최신 revised 전체 검색 후 앞 회차 중복 및 일반 명사 등을 제외하고 추가 후보 147개 문맥 검토. 모든 문장 종합 정독 아님"
       }
     },
     {
@@ -2677,17 +2714,31 @@
         },
         {
           "book": 4,
-          "changed": false,
+          "changed": true,
           "heading": "‘잘못한 사람의 仁을 알아본다’ vs ‘잘못을 살피는 사람이 仁을 행한다’觀過斯知仁矣",
           "id": "ly-04-07",
           "index": 1,
           "key": "ly-04-07:說:1:1",
           "label": "공안국(孔安國) — 《논어집해》 인용",
           "original": "사람마다 처지와 능력이 다름을 살펴 잘못을 알맞게 판단해 주는 것 자체가 仁이라고 풉니다. 초점이 ‘판단하는 사람’에게 있습니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "사람마다 처지와 능력이 다름을 살펴 잘못을 알맞게 판단해 주는 것 자체가 仁이라고 풉니다. 초점이 ‘판단하는 사람’에게 있습니다.",
+          "reason": "「다름을 살펴」를 「어떻게 다른지 살펴」로 바꾸어 살피는 내용을 자연스럽게 이어 줍니다.",
+          "revised": "사람마다 처지와 능력이 어떻게 다른지 살펴 잘못을 알맞게 판단해 주는 것 자체가 仁이라고 풉니다. 초점이 ‘판단하는 사람’에게 있습니다.",
           "scope": "說",
-          "side": 1
+          "side": 1,
+          "revision_history": [
+            {
+              "pass": "targeted_type_14_followup_1",
+              "previous_revision": "사람마다 처지와 능력이 다름을 살펴 잘못을 알맞게 판단해 주는 것 자체가 仁이라고 풉니다. 초점이 ‘판단하는 사람’에게 있습니다.",
+              "revised": "사람마다 처지와 능력이 어떻게 다른지 살펴 잘못을 알맞게 판단해 주는 것 자체가 仁이라고 풉니다. 초점이 ‘판단하는 사람’에게 있습니다.",
+              "reason": "「다름을 살펴」를 「어떻게 다른지 살펴」로 바꾸어 살피는 내용을 자연스럽게 이어 줍니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨 반영",
+              "date": "2026-09-09"
+            }
+          ],
+          "previous_revision": "사람마다 처지와 능력이 다름을 살펴 잘못을 알맞게 판단해 주는 것 자체가 仁이라고 풉니다. 초점이 ‘판단하는 사람’에게 있습니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_14_followup_1"
         },
         {
           "book": 4,
@@ -3386,10 +3437,10 @@
         "selector": "article.card details.st3 .js .side > p"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_13",
+        "pass": "targeted_type_14_followup_1",
         "scanned": 56,
         "approved_applied": 1,
-        "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
+        "method": "20편 최신 revised 전체 검색 후 앞 회차 중복 및 일반 명사 등을 제외하고 추가 후보 147개 문맥 검토. 모든 문장 종합 정독 아님"
       }
     },
     {
@@ -9788,17 +9839,31 @@
         },
         {
           "book": 11,
-          "changed": false,
+          "changed": true,
           "heading": "‘타고난 재능과 성향의 차이’ vs ‘예의 기준을 넘고 못 미침’過·不及",
           "id": "ly-11-15",
           "index": 1,
           "key": "ly-11-15:說:1:2",
           "label": "정약용(丁若鏞) 《논어고금주》",
           "original": "두 사람의 재능에 높고 낮음이 있다고 판정한 말로 보지 않습니다. 자장은 예의 알맞은 선을 넘어섰고 자하는 그 선에 미치지 못했으며, 둘 다 예의 중도를 잃었다는 뜻으로 풉니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "두 사람의 재능에 높고 낮음이 있다고 판정한 말로 보지 않습니다. 자장은 예의 알맞은 선을 넘어섰고 자하는 그 선에 미치지 못했으며, 둘 다 예의 중도를 잃었다는 뜻으로 풉니다.",
+          "reason": "「재능에 높고 낮음이 있다」를 두 사람의 재능을 비교하는 서술로 풉니다. 우열을 판정한 말로 읽지 않는 부정은 그대로 둡니다.",
+          "revised": "두 사람 가운데 누가 더 재능이 뛰어난지 판정한 말로 보지 않습니다. 자장은 예의 알맞은 선을 넘어섰고 자하는 그 선에 미치지 못했으며, 둘 다 예의 중도를 잃었다는 뜻으로 풉니다.",
           "scope": "說",
-          "side": 2
+          "side": 2,
+          "revision_history": [
+            {
+              "pass": "targeted_type_14_followup_1",
+              "previous_revision": "두 사람의 재능에 높고 낮음이 있다고 판정한 말로 보지 않습니다. 자장은 예의 알맞은 선을 넘어섰고 자하는 그 선에 미치지 못했으며, 둘 다 예의 중도를 잃었다는 뜻으로 풉니다.",
+              "revised": "두 사람 가운데 누가 더 재능이 뛰어난지 판정한 말로 보지 않습니다. 자장은 예의 알맞은 선을 넘어섰고 자하는 그 선에 미치지 못했으며, 둘 다 예의 중도를 잃었다는 뜻으로 풉니다.",
+              "reason": "「재능에 높고 낮음이 있다」를 두 사람의 재능을 비교하는 서술로 풉니다. 우열을 판정한 말로 읽지 않는 부정은 그대로 둡니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨 반영",
+              "date": "2026-09-09"
+            }
+          ],
+          "previous_revision": "두 사람의 재능에 높고 낮음이 있다고 판정한 말로 보지 않습니다. 자장은 예의 알맞은 선을 넘어섰고 자하는 그 선에 미치지 못했으며, 둘 다 예의 중도를 잃었다는 뜻으로 풉니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_14_followup_1"
         },
         {
           "book": 11,
@@ -10143,10 +10208,10 @@
         "selector": "article.card details.st3 .js .side > p"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_8",
+        "pass": "targeted_type_14_followup_1",
         "scanned": 52,
-        "approved_applied": 9,
-        "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
+        "approved_applied": 1,
+        "method": "20편 최신 revised 전체 검색 후 앞 회차 중복 및 일반 명사 등을 제외하고 추가 후보 147개 문맥 검토. 모든 문장 종합 정독 아님"
       }
     },
     {
@@ -16268,17 +16333,31 @@
         },
         {
           "book": 17,
-          "changed": false,
+          "changed": true,
           "heading": "‘전갈한 사람이 듣게 함’ vs ‘문밖의 유비가 듣게 함’使之聞之",
           "id": "ly-17-20",
           "index": 1,
           "key": "ly-17-20:說:1:1",
           "label": "하안(何晏)·장남헌(張南軒) 계열",
           "original": "공자가 거문고를 탄 것은 말을 전한 사람이 듣고 병이 아님을 깨닫게 하려는 행동이었다고 봅니다. 문밖의 유비에게는 직접 들리지 않았다고 본 풀이입니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "공자가 거문고를 탄 것은 말을 전한 사람이 듣고 병이 아님을 깨닫게 하려는 행동이었다고 봅니다. 문밖의 유비에게는 직접 들리지 않았다고 본 풀이입니다.",
+          "reason": "「병이 아님을 깨닫게 하다」를 「병들지 않았다는 사실을 알리다」로 풉니다. 듣는 사람이 유비가 아니라 말을 전한 사람이라는 견해와 「~라고 봅니다」를 유지합니다.",
+          "revised": "공자가 거문고를 탄 것은 말을 전한 사람에게 병들지 않았다는 사실을 알리려는 행동이었다고 봅니다. 문밖의 유비에게는 직접 들리지 않았다고 본 풀이입니다.",
           "scope": "說",
-          "side": 1
+          "side": 1,
+          "revision_history": [
+            {
+              "pass": "targeted_type_14_followup_1",
+              "previous_revision": "공자가 거문고를 탄 것은 말을 전한 사람이 듣고 병이 아님을 깨닫게 하려는 행동이었다고 봅니다. 문밖의 유비에게는 직접 들리지 않았다고 본 풀이입니다.",
+              "revised": "공자가 거문고를 탄 것은 말을 전한 사람에게 병들지 않았다는 사실을 알리려는 행동이었다고 봅니다. 문밖의 유비에게는 직접 들리지 않았다고 본 풀이입니다.",
+              "reason": "「병이 아님을 깨닫게 하다」를 「병들지 않았다는 사실을 알리다」로 풉니다. 듣는 사람이 유비가 아니라 말을 전한 사람이라는 견해와 「~라고 봅니다」를 유지합니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨 반영",
+              "date": "2026-09-09"
+            }
+          ],
+          "previous_revision": "공자가 거문고를 탄 것은 말을 전한 사람이 듣고 병이 아님을 깨닫게 하려는 행동이었다고 봅니다. 문밖의 유비에게는 직접 들리지 않았다고 본 풀이입니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_14_followup_1"
         },
         {
           "book": 17,
@@ -16525,10 +16604,10 @@
         "selector": "article.card details.st3 .js .side > p"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_9",
+        "pass": "targeted_type_14_followup_1",
         "scanned": 53,
         "approved_applied": 1,
-        "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
+        "method": "20편 최신 revised 전체 검색 후 앞 회차 중복 및 일반 명사 등을 제외하고 추가 후보 147개 문맥 검토. 모든 문장 종합 정독 아님"
       }
     },
     {
@@ -17968,7 +18047,8 @@
     }
   ],
   "latest_style_pass": {
-    "pass": "targeted_type_14",
-    "approved_applied": 2
+    "pass": "targeted_type_14_followup_1",
+    "scanned": 1040,
+    "approved_applied": 6
   }
 }

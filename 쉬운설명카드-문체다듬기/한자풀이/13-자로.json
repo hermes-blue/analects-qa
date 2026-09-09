@@ -1484,15 +1484,29 @@
     },
     {
       "book": 13,
-      "changed": false,
+      "changed": true,
       "id": "ly-13-26",
       "index": 2,
       "key": "ly-13-26:語:2",
       "label": "驕而不泰교이불태",
       "original": "겉으로는 거만하지만 마음은 편안하지 못한 상태를 뜻합니다. 소인의 교만이 내면의 안정과 자신감에서 나온 것이 아님을 대비합니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "겉으로는 거만하지만 마음은 편안하지 못한 상태를 뜻합니다. 소인의 교만이 내면의 안정과 자신감에서 나온 것이 아님을 대비합니다.",
-      "scope": "語"
+      "reason": "「아님을 대비합니다」로 감싼 서술을 직접 전합니다. 소인의 교만이 내면의 안정이나 자신감에서 비롯된 것이 아니라는 뜻을 유지합니다.",
+      "revised": "겉으로는 거만하지만 마음은 편안하지 못한 상태를 뜻합니다. 소인은 내면이 안정되고 자신감이 있어서 교만한 것이 아닙니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_14_followup_1",
+          "previous_revision": "겉으로는 거만하지만 마음은 편안하지 못한 상태를 뜻합니다. 소인의 교만이 내면의 안정과 자신감에서 나온 것이 아님을 대비합니다.",
+          "revised": "겉으로는 거만하지만 마음은 편안하지 못한 상태를 뜻합니다. 소인은 내면이 안정되고 자신감이 있어서 교만한 것이 아닙니다.",
+          "reason": "「아님을 대비합니다」로 감싼 서술을 직접 전합니다. 소인의 교만이 내면의 안정이나 자신감에서 비롯된 것이 아니라는 뜻을 유지합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨 반영",
+          "date": "2026-09-09"
+        }
+      ],
+      "previous_revision": "겉으로는 거만하지만 마음은 편안하지 못한 상태를 뜻합니다. 소인의 교만이 내면의 안정과 자신감에서 나온 것이 아님을 대비합니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_14_followup_1"
     },
     {
       "book": 13,
@@ -1747,9 +1761,9 @@
     "selector": "article.card details.st1 .w > p:not(.wh)"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_9",
+    "pass": "targeted_type_14_followup_1",
     "scanned": 127,
     "approved_applied": 1,
-    "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
+    "method": "20편 최신 revised 전체 검색 후 앞 회차 중복 및 일반 명사 등을 제외하고 추가 후보 147개 문맥 검토. 모든 문장 종합 정독 아님"
   }
 }

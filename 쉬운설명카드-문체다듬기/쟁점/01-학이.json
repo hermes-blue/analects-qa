@@ -312,17 +312,31 @@
     },
     {
       "book": 1,
-      "changed": false,
+      "changed": true,
       "heading": "‘백성’이 감화된다 vs ‘모든 사람’이 스스로 행한다民",
       "id": "ly-01-09",
       "index": 1,
       "key": "ly-01-09:說:1:1",
       "label": "공안국(孔安國) — 《논어정의》 인용",
       "original": "임금이 상례와 제사를 정성껏 행하면 백성이 그 덕에 감화되어 인정이 두터워진다고 봅니다. 民을 다스림을 받는 백성으로 읽은 것입니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "임금이 상례와 제사를 정성껏 행하면 백성이 그 덕에 감화되어 인정이 두터워진다고 봅니다. 民을 다스림을 받는 백성으로 읽은 것입니다.",
+      "reason": "「民을 다스림을 받는」에서 겹치는 「을」과 명사형 피동 표현을 풉니다. 임금은 앞 문장에서 이미 제시된 주체입니다.",
+      "revised": "임금이 상례와 제사를 정성껏 행하면 백성이 그 덕에 감화되어 인정이 두터워진다고 봅니다. 民을 임금이 다스리는 백성으로 읽은 것입니다.",
       "scope": "說",
-      "side": 1
+      "side": 1,
+      "revision_history": [
+        {
+          "pass": "targeted_type_14_followup_1",
+          "previous_revision": "임금이 상례와 제사를 정성껏 행하면 백성이 그 덕에 감화되어 인정이 두터워진다고 봅니다. 民을 다스림을 받는 백성으로 읽은 것입니다.",
+          "revised": "임금이 상례와 제사를 정성껏 행하면 백성이 그 덕에 감화되어 인정이 두터워진다고 봅니다. 民을 임금이 다스리는 백성으로 읽은 것입니다.",
+          "reason": "「民을 다스림을 받는」에서 겹치는 「을」과 명사형 피동 표현을 풉니다. 임금은 앞 문장에서 이미 제시된 주체입니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨 반영",
+          "date": "2026-09-09"
+        }
+      ],
+      "previous_revision": "임금이 상례와 제사를 정성껏 행하면 백성이 그 덕에 감화되어 인정이 두터워진다고 봅니다. 民을 다스림을 받는 백성으로 읽은 것입니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_14_followup_1"
     },
     {
       "book": 1,
@@ -648,9 +662,9 @@
     "selector": "article.card details.st3 .js .side > p"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_13",
+    "pass": "targeted_type_14_followup_1",
     "scanned": 40,
     "approved_applied": 1,
-    "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
+    "method": "20편 최신 revised 전체 검색 후 앞 회차 중복 및 일반 명사 등을 제외하고 추가 후보 147개 문맥 검토. 모든 문장 종합 정독 아님"
   }
 }
