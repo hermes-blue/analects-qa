@@ -1,3 +1,6 @@
+<!-- long-adnominal-review2-20260909 completed -->
+긴 관형절 재검수: 승인한 **3장·3곳 반영 완료**. [수정 전후 및 검증 기록](../long-adnominal-review2-20260909/README.md)
+
 <!-- long-adnominal-review-20260909 completed -->
 긴 관형절 검수: 승인한 **13장·13곳 반영 완료**. [수정 전후 및 검증 기록](../long-adnominal-review-20260909/README.md)
 
