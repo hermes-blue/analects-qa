@@ -1,0 +1,67 @@
+{
+  "base_commit": "c25b77d37b9e86bf3616cabda0f341bd590958d1",
+  "body_applied": true,
+  "excluded": [
+    {
+      "id": "ly-15-01",
+      "reason": "답변 뒤 다음 날 떠났다는 짧은 시간 순서는 자연스러워 유지"
+    }
+  ],
+  "github_published": true,
+  "method": "수정본문 전체 순차 읽기 및 후보 장 문맥 재대조",
+  "previous_approved_review": {
+    "body_commit": "bb95a813ef757b0b5fa386c2561a0180ccd867d3",
+    "count": 6,
+    "records": "sourcecards-stage1-copyedit-20260907/long-sentence-review-20260909",
+    "remote_verified_files": 20,
+    "status": "반영 완료"
+  },
+  "proposals": [
+    {
+      "after": "사마우는 그것만으로 군자라고 할 수 있느냐고 되묻습니다. 이에 공자는 자신을 돌아보아 거리낌이 없다면 무엇을 근심하고 두려워하겠느냐고 답합니다.",
+      "approval": "approved",
+      "before": "사마우가 그것만으로 군자라고 할 수 있느냐고 되묻자, 공자는 자신을 돌아보아 거리낌이 없다면 무엇을 근심하고 두려워하겠느냐고 말합니다.",
+      "body_applied": true,
+      "file": "sourcecards-stage1-copyedit-20260907/round3/07-suli.json",
+      "id": "ly-07-36",
+      "label": "술이 36장",
+      "source_sha": "793bc24debd57bc78b9362c09b252d3d259f01aa"
+    },
+    {
+      "after": "성에서 빠져나오던 자고가 돌아가라고 말렸습니다. 그러나 자로는 녹을 받던 집안이 어려움에 처했는데 자신이 피할 수는 없다며 들어갔습니다.",
+      "approval": "approved",
+      "before": "성에서 빠져나오던 자고가 돌아가라고 말렸지만, 자로는 녹을 받던 집안이 어려움에 처했는데 자신이 피할 수는 없다며 들어갔습니다.",
+      "body_applied": true,
+      "file": "sourcecards-stage1-copyedit-20260907/round3/11-seonjin.json",
+      "id": "ly-11-12",
+      "label": "선진 12장",
+      "source_sha": "e1ef20488f3717b4347e3ce0ce9b9064ea926c5f"
+    },
+    {
+      "after": "사마우는 그것만으로 군자라 할 수 있느냐고 되물었습니다. 그러자 공자는 자기 마음을 돌아보아 부끄러움이 없다면 무엇을 걱정하고 두려워하겠느냐고 답했습니다.",
+      "approval": "approved",
+      "before": "사마우가 그것만으로 군자라 할 수 있느냐고 되묻자, 공자는 자기 마음을 돌아보아 부끄러움이 없다면 무엇을 걱정하고 두려워하겠느냐고 했습니다.",
+      "body_applied": true,
+      "file": "sourcecards-stage1-copyedit-20260907/round3/12-anyeon.json",
+      "id": "ly-12-04",
+      "label": "안연 4장",
+      "source_sha": "d82c22b063eba5dd3f6c463b0ede2bd8805ffc0d"
+    },
+    {
+      "after": "이어 등공을 찾아가 계포가 옛 주인 항우를 위해 싸운 것을 모두 죄로 삼을 수 있느냐고 물었습니다. 그러면서 고조에게 사면을 건의해 달라고 청했습니다.",
+      "approval": "approved",
+      "before": "이어 등공을 찾아가 계포가 옛 주인 항우를 위해 싸운 것을 모두 죄로 삼을 수 있느냐며, 고조에게 사면을 건의해 달라고 청했습니다.",
+      "body_applied": true,
+      "file": "sourcecards-stage1-copyedit-20260907/round3/17-yanghwa.json",
+      "id": "ly-17-23",
+      "label": "양화23장",
+      "source_sha": "1c1f9f70dfcdad62abd3b7dba3df58dcedd780da"
+    }
+  ],
+  "read_order": "학이→요왈",
+  "reviewed_chapters": 498,
+  "status": "반영 완료",
+  "approval_message": "제이슨 반영하고 계속 찾아",
+  "application_base": "c25b77d37b9e86bf3616cabda0f341bd590958d1",
+  "body_commit": "7442d62e5b6f7f295eb12219074006941051756a"
+}
