@@ -1,3 +1,6 @@
+<!-- noun-predicate-review-20260909 completed -->
+명사 종결 검수: 승인한 **16장·16곳 반영 완료**. [수정 전후 및 검증 기록](../noun-predicate-review-20260909/README.md)
+
 <!-- long-adnominal-review3-20260909 reviewed -->
 긴 관형절 3차 검수: **20편 498장 전체 재검토 완료 · 추가 제안 0곳**. [검수 결과 및 기록](../long-adnominal-review3-20260909/README.md)
 
