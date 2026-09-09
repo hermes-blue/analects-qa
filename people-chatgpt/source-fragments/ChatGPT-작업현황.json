@@ -95,14 +95,18 @@
       "파일": "people-chatgpt/source-fragments/009-계환자.json"
     },
     {
-      "blobSHA": "93c1ea95768bb86c827bbd37de14596e9270c370",
+      "blobSHA": "d220cfd55e269c538dca95b76c28bee39f1c72bc",
       "순서": 10,
       "원본인물배열번호": 9,
       "원본파일": "people/01-거백옥-고요.json",
       "이름": "고요",
       "조각수": 2,
       "커밋": "c3c3712c86ff99dde5371be6d1db63e2ec6914a6",
-      "파일": "people-chatgpt/source-fragments/010-고요.json"
+      "파일": "people-chatgpt/source-fragments/010-고요.json",
+      "현재한줄글자수": [
+        93,
+        83
+      ]
     },
     {
       "blobSHA": "07195dc544ec309e304226aa5ebf4d8ca2de7548",
@@ -185,7 +189,7 @@
       "파일": "people-chatgpt/source-fragments/018-공자규.json"
     },
     {
-      "blobSHA": "eb91e27af91d158c85e9874748dbaa5a7655d647",
+      "blobSHA": "ffa5625eb8cc76040efe991e577fe9ba5193b011",
       "순서": 19,
       "원본인물배열번호": 8,
       "원본파일": "people/02-공명가-궐당동자.json",
@@ -195,7 +199,7 @@
       "파일": "people-chatgpt/source-fragments/019-관중.json",
       "현재한줄글자수": [
         79,
-        86,
+        84,
         99,
         85,
         112,
@@ -673,7 +677,7 @@
       "파일": "people-chatgpt/source-fragments/063-새벽문지기.json"
     },
     {
-      "blobSHA": "9fc5bd76c32636ddd728fdca54bb316fa9e5ec36",
+      "blobSHA": "faa6e82423a07fac4a26b2e595732a99b110e55c",
       "순서": 64,
       "원본인물배열번호": 3,
       "원본파일": "people/07-삼반료-숙손무숙.json",
@@ -1216,14 +1220,23 @@
       "파일": "people-chatgpt/source-fragments/112-자복경백.json"
     },
     {
-      "blobSHA": "f4f2b9ed8b0b92a313d4992d10fb5c8dde60c967",
+      "blobSHA": "166398c3ab3d4f4fad9d30b31ef9a7d2c7b6aecc",
       "순서": 113,
       "원본인물배열번호": 2,
       "원본파일": "people/12-자로-자하.json",
       "이름": "자산",
       "조각수": 7,
       "커밋": "b5ae2c125938ab2bf2b9db7f92971985ccd7e5c2",
-      "파일": "people-chatgpt/source-fragments/113-자산.json"
+      "파일": "people-chatgpt/source-fragments/113-자산.json",
+      "현재한줄글자수": [
+        96,
+        97,
+        93,
+        95,
+        93,
+        107,
+        92
+      ]
     },
     {
       "blobSHA": "2ed65407bc066ee7c7270d38b5b0a96f0f160cd3",
@@ -2058,6 +2071,19 @@
       "작성일": "2026-09-09",
       "작업ID": "인물카드-유형별33차-견주다-승인반영",
       "후보검토기준커밋": "545702f9985d9306005cbc1f4b648e573af02586"
+    },
+    {
+      "기준커밋": "396ec204d43fb9e2f34622961eed2ec49c8929bc",
+      "범위": "사료 여는 말",
+      "보고서": "people-chatgpt/ChatGPT-유형별34차-빗대다-승인반영.json",
+      "수정본문수": 4,
+      "승인내용": "제이슨 반영후 계속 찾아",
+      "승인후보LibraryID": "libfile_9f5155b6fb90819190365494d98ae0ff",
+      "승인후보버전": 0,
+      "승인후보파일": "인물카드-유형별34차-빗대다-수정전후-6곳.md",
+      "작성일": "2026-09-09",
+      "작업ID": "인물카드-유형별34차-빗대다-승인반영",
+      "후보검토기준커밋": "e7f26e65e5f511a29d03c9810dcf6e93d6c94afa"
     }
   ],
   "버전": "1.1",
@@ -5573,7 +5599,7 @@
       "조각": 5
     }
   ],
-  "상태": "유형별 33차 견주다 승인 후보 반영 완료. 별도 검토 JSON.",
+  "상태": "유형별 34차 빗대다 승인 후보 반영 완료. 별도 검토 JSON.",
   "작성일": "2026-09-07",
   "작성자": "ChatGPT",
   "작업": "인물카드 사료조각 제목·소개문",
@@ -5595,20 +5621,20 @@
     ]
   },
   "최근문체수정": {
-    "기준커밋": "6df43ac309c2d76a2bf5423b4a01737bba7e9683",
+    "기준커밋": "396ec204d43fb9e2f34622961eed2ec49c8929bc",
     "범위": "사료 여는 말",
-    "보고서": "people-chatgpt/ChatGPT-유형별33차-견주다-승인반영.json",
+    "보고서": "people-chatgpt/ChatGPT-유형별34차-빗대다-승인반영.json",
     "수정본문수": 4,
-    "승인내용": "제이슨 반영후 계속 찾아 비슷한 표현",
-    "승인후보LibraryID": "libfile_74c1f0a5b9308191a1766eb094700c4e",
+    "승인내용": "제이슨 반영후 계속 찾아",
+    "승인후보LibraryID": "libfile_9f5155b6fb90819190365494d98ae0ff",
     "승인후보버전": 0,
-    "승인후보파일": "인물카드-유형별33차-견주다-수정전후-6곳.md",
+    "승인후보파일": "인물카드-유형별34차-빗대다-수정전후-6곳.md",
     "작성일": "2026-09-09",
-    "작업ID": "인물카드-유형별33차-견주다-승인반영",
-    "후보검토기준커밋": "545702f9985d9306005cbc1f4b648e573af02586"
+    "작업ID": "인물카드-유형별34차-빗대다-승인반영",
+    "후보검토기준커밋": "e7f26e65e5f511a29d03c9810dcf6e93d6c94afa"
   },
   "통합본": "people-chatgpt/ChatGPT-인물사료조각-전체.json",
-  "통합본blobSHA": "8f06c83b50591b905050e9d7781bf6178b8249cb",
+  "통합본blobSHA": "6010c3cc1260c42705851a265c0b2b84edbe51d4",
   "파일럿": {
     "결과": [
       {
