@@ -1,0 +1,73 @@
+{
+  "status": "반영 완료",
+  "approval_message": "제이슨 반응하고 계속 찾아",
+  "version": "연결어 보완 최종 승인안",
+  "proposals": [
+    {
+      "after": "주희가 인용한 소식에 따르면, 공문자는 자기 사위의 혼인 문제에 개입했습니다. 그런데 사위가 공문자의 뜻을 따르지 않자 공격하려고 공자에게 의견까지 물었다고 합니다.",
+      "approval": "approved",
+      "before": "주희가 인용한 소식에 따르면, 공문자는 자기 사위의 혼인 문제에 개입했고, 사위가 공문자의 뜻을 따르지 않자 공격하려고 공자에게 의견까지 물었다고 합니다.",
+      "count_mode": "exclude_lf",
+      "file": "sourcecards-stage1-copyedit-20260907/round3/05-gongyajang.json",
+      "id": "ly-05-14",
+      "label": "공야장 14장",
+      "name": "05-gongyajang",
+      "body_applied": true
+    },
+    {
+      "after": "주희는 공자가 젊고 기운이 있을 때는 주공이 한 일을 자신도 해 보고 싶은 마음이 꿈에까지 이어졌다고 보았습니다. 그러나 공자가 늙어서는 그만큼 해낼 힘이 없어졌다고 해석했습니다.",
+      "approval": "approved",
+      "before": "주희는 젊고 기운이 있을 때는 주공이 한 일을 자신도 해 보고 싶은 마음이 꿈에까지 이어졌지만, 늙어서는 그만큼 해낼 힘이 없어진 것으로 읽었습니다.",
+      "count_mode": "exclude_lf",
+      "file": "sourcecards-stage1-copyedit-20260907/round3/07-suli.json",
+      "id": "ly-07-05",
+      "label": "술이 5장",
+      "name": "07-suli",
+      "body_applied": true
+    },
+    {
+      "after": "한나라 소후가 법을 행하기 어렵다고 하자, 신불해는 공에 따라 상을 주고 능력에 따라 벼슬을 주어야 한다고 했습니다. 그러면서 임금이 측근의 부탁을 들어주는 것을 문제로 지적했습니다.",
+      "approval": "approved",
+      "before": "한나라 소후가 법을 행하기 어렵다 하자 신불해는 공에 따라 상을, 능력에 따라 벼슬을 주어야 하는데, 임금이 측근의 부탁을 들어주는 것이 문제라고 했습니다.",
+      "count_mode": "exclude_lf",
+      "file": "sourcecards-stage1-copyedit-20260907/round3/13-jaro.json",
+      "id": "ly-13-06",
+      "label": "자로6장",
+      "name": "13-jaro",
+      "body_applied": true
+    },
+    {
+      "after": "『사기』에 따르면 그는 황제에게 몸을 상하게 하는 형벌을 받으면 고치고 새로 살고 싶어도 길이 막힌다고 호소했습니다. 그러면서 관청의 종이 되어 아버지의 형벌을 대신하겠다고 청했습니다.",
+      "approval": "approved",
+      "before": "『사기』에 따르면 그는 황제에게 몸을 상하게 하는 형벌을 받으면 고치고 새로 살고 싶어도 길이 막힌다며, 관청의 종이 되어 아버지의 형벌을 대신하겠다고 청했습니다.",
+      "count_mode": "exclude_lf",
+      "file": "sourcecards-stage1-copyedit-20260907/round3/13-jaro.json",
+      "id": "ly-13-11",
+      "label": "자로11장",
+      "name": "13-jaro",
+      "body_applied": true
+    },
+    {
+      "after": "『사기』에 따르면 곁에 있던 사람들이 비겁하다며 떠나려 했습니다. 이에 인상여는 자신과 염파가 버티고 있어야 진나라가 함부로 공격하지 못한다고 설명했습니다.",
+      "approval": "approved",
+      "before": "『사기』에 따르면 곁에 있던 사람들이 비겁하다며 떠나려 하자, 인상여는 자신과 염파가 버티고 있어야 진나라가 함부로 공격하지 못한다고 설명했습니다.",
+      "count_mode": "exclude_lf",
+      "file": "sourcecards-stage1-copyedit-20260907/round3/15-wiryeonggong.json",
+      "id": "ly-15-14",
+      "label": "위령공14장",
+      "name": "15-wiryeonggong",
+      "body_applied": true
+    },
+    {
+      "after": "자유는 재산이 있는 집과 없는 집이 어떻게 같을 수 있느냐고 다시 물었습니다. 그러자 공자님은 넉넉해도 예를 넘지 말고, 가난하면 시신을 거두어 묻는 데 힘쓰라고 답하셨습니다.",
+      "approval": "approved",
+      "before": "자유가 재산이 있는 집과 없는 집이 어떻게 같을 수 있느냐고 다시 묻자, 넉넉해도 예를 넘지 말고 가난하면 시신을 거두어 묻는 데 힘쓰라고 하셨습니다.",
+      "count_mode": "exclude_lf",
+      "file": "sourcecards-stage1-copyedit-20260907/round3/19-jajang.json",
+      "id": "ly-19-14",
+      "label": "자장14장",
+      "name": "19-jajang",
+      "body_applied": true
+    }
+  ]
+}
