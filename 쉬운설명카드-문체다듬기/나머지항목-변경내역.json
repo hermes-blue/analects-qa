@@ -1,10 +1,10 @@
 {
   "schema_version": "1.1",
   "scope": "語·問·說 문체 수정",
-  "total_changed": 838,
+  "total_changed": 843,
   "by_scope": {
-    "語": 362,
-    "問": 260,
+    "語": 364,
+    "問": 263,
     "說": 216
   },
   "content_review_performed": false,
@@ -6095,8 +6095,8 @@
       "key": "ly-10-17:語:6",
       "label": "時哉時哉시재시재",
       "original": "때에 맞구나라는 감탄을 거듭한 말입니다. 단순히 좋은 계절이라는 뜻보다 나아가고 머무는 행동이 상황에 알맞다는 의미로 전통적으로 많이 읽습니다.",
-      "reason": "뜻과 판단의 강도를 유지하며 명사형·직역식 서술·호응을 다듬음.",
-      "revised": "때에 맞구나라는 감탄을 거듭한 말입니다. 단순히 좋은 계절이라는 뜻보다 나아가고 머무는 행동이 상황에 알맞다는 뜻으로 풀이하는 전통적 해석이 많습니다.",
+      "reason": "「맞구나라는 감탄을 거듭한 말」로 발화를 겹쳐 감싸지 않고, 누가 거듭 감탄했는지 직접 서술합니다.",
+      "revised": "공자님은 때에 맞는다며 거듭 감탄하셨습니다. 단순히 좋은 계절이라는 뜻보다 나아가고 머무는 행동이 상황에 알맞다는 뜻으로 풀이하는 전통적 해석이 많습니다.",
       "scope": "語",
       "source": {
         "blob_sha": "096e28e98ea4c6569110a538191880a1ac6cede8",
@@ -6110,10 +6110,24 @@
       "book_name": "향당",
       "replacements": [
         [
-          "알맞다는 의미로 전통적으로 많이 읽습니다.",
-          "알맞다는 뜻으로 풀이하는 전통적 해석이 많습니다."
+          "때에 맞구나라는 감탄을 거듭한 말입니다. 단순히 좋은 계절이라는 뜻보다 나아가고 머무는 행동이 상황에 알맞다는 의미로 전통적으로 많이 읽습니다.",
+          "공자님은 때에 맞는다며 거듭 감탄하셨습니다. 단순히 좋은 계절이라는 뜻보다 나아가고 머무는 행동이 상황에 알맞다는 뜻으로 풀이하는 전통적 해석이 많습니다."
         ]
-      ]
+      ],
+      "revision_history": [
+        {
+          "pass": "targeted_type_16_followup_2",
+          "previous_revision": "때에 맞구나라는 감탄을 거듭한 말입니다. 단순히 좋은 계절이라는 뜻보다 나아가고 머무는 행동이 상황에 알맞다는 뜻으로 풀이하는 전통적 해석이 많습니다.",
+          "revised": "공자님은 때에 맞는다며 거듭 감탄하셨습니다. 단순히 좋은 계절이라는 뜻보다 나아가고 머무는 행동이 상황에 알맞다는 뜻으로 풀이하는 전통적 해석이 많습니다.",
+          "reason": "「맞구나라는 감탄을 거듭한 말」로 발화를 겹쳐 감싸지 않고, 누가 거듭 감탄했는지 직접 서술합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨 반영후 더 찾아",
+          "date": "2026-09-09"
+        }
+      ],
+      "previous_revision": "때에 맞구나라는 감탄을 거듭한 말입니다. 단순히 좋은 계절이라는 뜻보다 나아가고 머무는 행동이 상황에 알맞다는 뜻으로 풀이하는 전통적 해석이 많습니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_16_followup_2"
     },
     {
       "book": 11,
@@ -35214,10 +35228,223 @@
           "말에 흠이 없는 사람, 행동이 천하지 않은 군자, 엄한 낯으로 소인을 멀리하는 사람을 나란히 든 것으로 봅니다. 하안은 공자가 세 부류를 모두 좋은 사람으로 인정했다고 봅니다."
         ]
       ]
+    },
+    {
+      "book": 7,
+      "changed": true,
+      "id": "ly-07-16",
+      "index": 1,
+      "key": "ly-07-16:語:1",
+      "label": "加我數年가아수년",
+      "original": "자신에게 몇 년의 시간이 더 주어진다면이라는 말입니다. 이미 높은 경지에 이른 뒤에도 더 배울 시간을 원했다는 점에서 공자님의 평생 학습 태도가 드러납니다.",
+      "reason": "조건형 어미에 「이라는 말입니다」를 붙인 어색한 구조를 고칩니다. 뒤 문장에도 제시된, 더 배울 시간을 바란 주체를 밝힙니다.",
+      "revised": "공자님은 자신에게 몇 년의 시간이 더 주어지기를 바라셨습니다. 이미 높은 경지에 이른 뒤에도 더 배울 시간을 원했다는 점에서 공자님의 평생 학습 태도가 드러납니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_16_followup_2",
+          "previous_revision": "자신에게 몇 년의 시간이 더 주어진다면이라는 말입니다. 이미 높은 경지에 이른 뒤에도 더 배울 시간을 원했다는 점에서 공자님의 평생 학습 태도가 드러납니다.",
+          "revised": "공자님은 자신에게 몇 년의 시간이 더 주어지기를 바라셨습니다. 이미 높은 경지에 이른 뒤에도 더 배울 시간을 원했다는 점에서 공자님의 평생 학습 태도가 드러납니다.",
+          "reason": "조건형 어미에 「이라는 말입니다」를 붙인 어색한 구조를 고칩니다. 뒤 문장에도 제시된, 더 배울 시간을 바란 주체를 밝힙니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨 반영후 더 찾아",
+          "date": "2026-09-09"
+        }
+      ],
+      "previous_revision": "자신에게 몇 년의 시간이 더 주어진다면이라는 말입니다. 이미 높은 경지에 이른 뒤에도 더 배울 시간을 원했다는 점에서 공자님의 평생 학습 태도가 드러납니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_16_followup_2",
+      "source": {
+        "blob_sha": "101d445b691af4fe769b64448011834773fc676c",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/07-술이.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "술이",
+      "replacements": [
+        [
+          "자신에게 몇 년의 시간이 더 주어진다면이라는 말입니다. 이미 높은 경지에 이른 뒤에도 더 배울 시간을 원했다는 점에서 공자님의 평생 학습 태도가 드러납니다.",
+          "공자님은 자신에게 몇 년의 시간이 더 주어지기를 바라셨습니다. 이미 높은 경지에 이른 뒤에도 더 배울 시간을 원했다는 점에서 공자님의 평생 학습 태도가 드러납니다."
+        ]
+      ]
+    },
+    {
+      "book": 19,
+      "changed": true,
+      "id": "ly-19-25",
+      "index": 1,
+      "key": "ly-19-25:語:1",
+      "label": "子爲恭也자위공야",
+      "original": "진자금이 자공이 스승에게 공손하려고 일부러 자신을 낮춘다고 본 말입니다. 자공의 칭찬을 사실보다 과장된 겸양으로 의심합니다.",
+      "reason": "「진자금이 자공이」로 주어가 겹치고 「본 말입니다」로 끝나는 구조를 고칩니다. 판단하는 진자금과 판단 대상인 자공을 구분합니다.",
+      "revised": "진자금은 자공이 스승에게 공손하려고 일부러 자신을 낮춘다고 봅니다. 자공의 칭찬을 사실보다 과장된 겸양으로 의심합니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_16_followup_2",
+          "previous_revision": "진자금이 자공이 스승에게 공손하려고 일부러 자신을 낮춘다고 본 말입니다. 자공의 칭찬을 사실보다 과장된 겸양으로 의심합니다.",
+          "revised": "진자금은 자공이 스승에게 공손하려고 일부러 자신을 낮춘다고 봅니다. 자공의 칭찬을 사실보다 과장된 겸양으로 의심합니다.",
+          "reason": "「진자금이 자공이」로 주어가 겹치고 「본 말입니다」로 끝나는 구조를 고칩니다. 판단하는 진자금과 판단 대상인 자공을 구분합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨 반영후 더 찾아",
+          "date": "2026-09-09"
+        }
+      ],
+      "previous_revision": "진자금이 자공이 스승에게 공손하려고 일부러 자신을 낮춘다고 본 말입니다. 자공의 칭찬을 사실보다 과장된 겸양으로 의심합니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_16_followup_2",
+      "source": {
+        "blob_sha": "50679eceddd3d454aa9f88bdecb4c2f3e1704622",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/19-자장.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st1 .w > p:not(.wh)"
+      },
+      "book_name": "자장",
+      "replacements": [
+        [
+          "진자금이 자공이 스승에게 공손하려고 일부러 자신을 낮춘다고 본 말입니다. 자공의 칭찬을 사실보다 과장된 겸양으로 의심합니다.",
+          "진자금은 자공이 스승에게 공손하려고 일부러 자신을 낮춘다고 봅니다. 자공의 칭찬을 사실보다 과장된 겸양으로 의심합니다."
+        ]
+      ]
+    },
+    {
+      "book": 15,
+      "changed": true,
+      "field": "답변",
+      "id": "ly-15-12",
+      "index": 3,
+      "key": "ly-15-12:問:3:a",
+      "label": "답변",
+      "original": "욕망이 존재한다는 사실 자체를 비난한 것은 아닙니다. 문제는 덕을 향한 관심과 노력이 욕망보다 훨씬 약한 현실이며, 수양의 우선순위를 돌아보게 하는 말입니다.",
+      "reason": "「문제는 … 현실이며 … 말입니다」에서 어긋나는 주술 관계를 고칩니다. 공자님의 비판 대상과 독자가 돌아볼 내용을 연결하고 「훨씬」의 강도를 유지합니다.",
+      "revised": "욕망이 존재한다는 사실 자체를 비난한 것은 아닙니다. 공자님은 덕을 향한 관심과 노력이 욕망보다 훨씬 약한 현실을 문제 삼아, 수양에서 무엇을 앞세워야 하는지 돌아보게 하셨습니다.",
+      "scope": "問",
+      "revision_history": [
+        {
+          "pass": "targeted_type_16_followup_2",
+          "previous_revision": "욕망이 존재한다는 사실 자체를 비난한 것은 아닙니다. 문제는 덕을 향한 관심과 노력이 욕망보다 훨씬 약한 현실이며, 수양의 우선순위를 돌아보게 하는 말입니다.",
+          "revised": "욕망이 존재한다는 사실 자체를 비난한 것은 아닙니다. 공자님은 덕을 향한 관심과 노력이 욕망보다 훨씬 약한 현실을 문제 삼아, 수양에서 무엇을 앞세워야 하는지 돌아보게 하셨습니다.",
+          "reason": "「문제는 … 현실이며 … 말입니다」에서 어긋나는 주술 관계를 고칩니다. 공자님의 비판 대상과 독자가 돌아볼 내용을 연결하고 「훨씬」의 강도를 유지합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨 반영후 더 찾아",
+          "date": "2026-09-09"
+        }
+      ],
+      "previous_revision": "욕망이 존재한다는 사실 자체를 비난한 것은 아닙니다. 문제는 덕을 향한 관심과 노력이 욕망보다 훨씬 약한 현실이며, 수양의 우선순위를 돌아보게 하는 말입니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_16_followup_2",
+      "source": {
+        "blob_sha": "bf4095ccec09b5c2b5f74960dd33fde8da5220be",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/15-위령공.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
+      },
+      "book_name": "위령공",
+      "replacements": [
+        [
+          "욕망이 존재한다는 사실 자체를 비난한 것은 아닙니다. 문제는 덕을 향한 관심과 노력이 욕망보다 훨씬 약한 현실이며, 수양의 우선순위를 돌아보게 하는 말입니다.",
+          "욕망이 존재한다는 사실 자체를 비난한 것은 아닙니다. 공자님은 덕을 향한 관심과 노력이 욕망보다 훨씬 약한 현실을 문제 삼아, 수양에서 무엇을 앞세워야 하는지 돌아보게 하셨습니다."
+        ]
+      ]
+    },
+    {
+      "book": 15,
+      "changed": true,
+      "field": "답변",
+      "id": "ly-15-31",
+      "index": 1,
+      "key": "ly-15-31:問:1:a",
+      "label": "답변",
+      "original": "현실의 생계를 무시하라는 뜻은 아닙니다. 군자의 궁극적 관심은 먹고사는 이익보다 道를 배우고 실천하는 데 있어야 한다는 우선순위의 말입니다.",
+      "reason": "「궁극적 관심은 … 우선순위의 말입니다」의 어긋난 호응과 불필요한 명사 연결을 고칩니다. 생계를 무시하라는 뜻이 아니라는 앞 문장과, 도를 우선한다는 판단은 보존합니다.",
+      "revised": "현실의 생계를 무시하라는 뜻은 아닙니다. 공자님은 군자가 먹고사는 이익보다 道를 배우고 실천하는 일을 우선해야 한다고 보셨습니다.",
+      "scope": "問",
+      "revision_history": [
+        {
+          "pass": "targeted_type_16_followup_2",
+          "previous_revision": "현실의 생계를 무시하라는 뜻은 아닙니다. 군자의 궁극적 관심은 먹고사는 이익보다 道를 배우고 실천하는 데 있어야 한다는 우선순위의 말입니다.",
+          "revised": "현실의 생계를 무시하라는 뜻은 아닙니다. 공자님은 군자가 먹고사는 이익보다 道를 배우고 실천하는 일을 우선해야 한다고 보셨습니다.",
+          "reason": "「궁극적 관심은 … 우선순위의 말입니다」의 어긋난 호응과 불필요한 명사 연결을 고칩니다. 생계를 무시하라는 뜻이 아니라는 앞 문장과, 도를 우선한다는 판단은 보존합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨 반영후 더 찾아",
+          "date": "2026-09-09"
+        }
+      ],
+      "previous_revision": "현실의 생계를 무시하라는 뜻은 아닙니다. 군자의 궁극적 관심은 먹고사는 이익보다 道를 배우고 실천하는 데 있어야 한다는 우선순위의 말입니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_16_followup_2",
+      "source": {
+        "blob_sha": "bf4095ccec09b5c2b5f74960dd33fde8da5220be",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/15-위령공.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
+      },
+      "book_name": "위령공",
+      "replacements": [
+        [
+          "현실의 생계를 무시하라는 뜻은 아닙니다. 군자의 궁극적 관심은 먹고사는 이익보다 道를 배우고 실천하는 데 있어야 한다는 우선순위의 말입니다.",
+          "현실의 생계를 무시하라는 뜻은 아닙니다. 공자님은 군자가 먹고사는 이익보다 道를 배우고 실천하는 일을 우선해야 한다고 보셨습니다."
+        ]
+      ]
+    },
+    {
+      "book": 15,
+      "changed": true,
+      "field": "답변",
+      "id": "ly-15-40",
+      "index": 1,
+      "key": "ly-15-40:問:1:a",
+      "label": "답변",
+      "original": "핵심은 표현의 목적이 상대에게 뜻을 정확히 전달하는 데 있다는 말입니다. 화려한 수사 자체를 목표로 삼아 내용보다 겉치레가 앞서는 것을 경계한 것입니다.",
+      "reason": "「핵심은 … 목적이 … 있다는 말입니다」로 설명을 겹치지 않고 표현의 목적을 바로 서술합니다.",
+      "revised": "표현의 목적은 상대에게 뜻을 정확히 전달하는 데 있습니다. 화려한 수사 자체를 목표로 삼아 내용보다 겉치레가 앞서는 것을 경계한 것입니다.",
+      "scope": "問",
+      "revision_history": [
+        {
+          "pass": "targeted_type_16_followup_2",
+          "previous_revision": "핵심은 표현의 목적이 상대에게 뜻을 정확히 전달하는 데 있다는 말입니다. 화려한 수사 자체를 목표로 삼아 내용보다 겉치레가 앞서는 것을 경계한 것입니다.",
+          "revised": "표현의 목적은 상대에게 뜻을 정확히 전달하는 데 있습니다. 화려한 수사 자체를 목표로 삼아 내용보다 겉치레가 앞서는 것을 경계한 것입니다.",
+          "reason": "「핵심은 … 목적이 … 있다는 말입니다」로 설명을 겹치지 않고 표현의 목적을 바로 서술합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨 반영후 더 찾아",
+          "date": "2026-09-09"
+        }
+      ],
+      "previous_revision": "핵심은 표현의 목적이 상대에게 뜻을 정확히 전달하는 데 있다는 말입니다. 화려한 수사 자체를 목표로 삼아 내용보다 겉치레가 앞서는 것을 경계한 것입니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_16_followup_2",
+      "source": {
+        "blob_sha": "bf4095ccec09b5c2b5f74960dd33fde8da5220be",
+        "branch": "트랙/뉴코퍼스",
+        "commit": "40dc71fe2376f34ae3343c25cd683b7e3cf0c85b",
+        "identity": "article.card의 id 그대로 사용",
+        "path": "1차완성본/쉬운설명카드/15-위령공.html",
+        "repository": "hermes-blue/analects",
+        "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
+      },
+      "book_name": "위령공",
+      "replacements": [
+        [
+          "핵심은 표현의 목적이 상대에게 뜻을 정확히 전달하는 데 있다는 말입니다. 화려한 수사 자체를 목표로 삼아 내용보다 겉치레가 앞서는 것을 경계한 것입니다.",
+          "표현의 목적은 상대에게 뜻을 정확히 전달하는 데 있습니다. 화려한 수사 자체를 목표로 삼아 내용보다 겉치레가 앞서는 것을 경계한 것입니다."
+        ]
+      ]
     }
   ],
   "latest_style_pass": {
-    "pass": "targeted_type_16_followup_1",
-    "approved_applied": 9
+    "pass": "targeted_type_16_followup_2",
+    "approved_applied": 6
   }
 }

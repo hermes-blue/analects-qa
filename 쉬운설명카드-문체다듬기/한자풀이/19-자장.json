@@ -1522,15 +1522,29 @@
     },
     {
       "book": 19,
-      "changed": false,
+      "changed": true,
       "id": "ly-19-25",
       "index": 1,
       "key": "ly-19-25:語:1",
       "label": "子爲恭也자위공야",
       "original": "진자금이 자공이 스승에게 공손하려고 일부러 자신을 낮춘다고 본 말입니다. 자공의 칭찬을 사실보다 과장된 겸양으로 의심합니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "진자금이 자공이 스승에게 공손하려고 일부러 자신을 낮춘다고 본 말입니다. 자공의 칭찬을 사실보다 과장된 겸양으로 의심합니다.",
-      "scope": "語"
+      "reason": "「진자금이 자공이」로 주어가 겹치고 「본 말입니다」로 끝나는 구조를 고칩니다. 판단하는 진자금과 판단 대상인 자공을 구분합니다.",
+      "revised": "진자금은 자공이 스승에게 공손하려고 일부러 자신을 낮춘다고 봅니다. 자공의 칭찬을 사실보다 과장된 겸양으로 의심합니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_16_followup_2",
+          "previous_revision": "진자금이 자공이 스승에게 공손하려고 일부러 자신을 낮춘다고 본 말입니다. 자공의 칭찬을 사실보다 과장된 겸양으로 의심합니다.",
+          "revised": "진자금은 자공이 스승에게 공손하려고 일부러 자신을 낮춘다고 봅니다. 자공의 칭찬을 사실보다 과장된 겸양으로 의심합니다.",
+          "reason": "「진자금이 자공이」로 주어가 겹치고 「본 말입니다」로 끝나는 구조를 고칩니다. 판단하는 진자금과 판단 대상인 자공을 구분합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨 반영후 더 찾아",
+          "date": "2026-09-09"
+        }
+      ],
+      "previous_revision": "진자금이 자공이 스승에게 공손하려고 일부러 자신을 낮춘다고 본 말입니다. 자공의 칭찬을 사실보다 과장된 겸양으로 의심합니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_16_followup_2"
     },
     {
       "book": 19,
@@ -1601,9 +1615,9 @@
     "selector": "article.card details.st1 .w > p:not(.wh)"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_16",
+    "pass": "targeted_type_16_followup_2",
     "scanned": 114,
     "approved_applied": 1,
-    "method": "20편 revised 6,921개 전체 검색, 추상명사 45종 종결 후보 문구 523개(적중 문장 528개) 문맥 검토 후 승인된 43곳 반영. 전체 문구 정독 아님."
+    "method": "20편 revised 6,921개 전체 검색, 말입니다 종결 후보 문구 436개(적중 문장 439개) 문맥 검토 후 승인된 6곳 반영. 전체 문구 정독 아님."
   }
 }

@@ -2,12 +2,12 @@
   "schema_version": "1.1",
   "scope": "語",
   "scope_name": "한자풀이",
-  "status": "approved_targeted_type_16_followup_1_applied",
-  "method": "20편 revised 6,921개 전체 검색, 명사 26종 종결 후보 문구 539개(적중 문장 551개) 문맥 검토 후 승인된 9곳 반영. 전체 문구 정독 아님.",
+  "status": "approved_targeted_type_16_followup_2_applied",
+  "method": "20편 revised 6,921개 전체 검색, 말입니다 종결 후보 문구 436개(적중 문장 439개) 문맥 검토 후 승인된 6곳 반영. 전체 문구 정독 아님.",
   "count_unit": "텍스트 필드: 한자 풀이 1개, 질문 또는 답변 1개, 쟁점의 견해 설명 1개",
   "total": 2311,
-  "changed": 362,
-  "unchanged": 1949,
+  "changed": 364,
+  "unchanged": 1947,
   "card_count": 498,
   "book_count": 20,
   "content_review_performed": false,
@@ -11283,15 +11283,29 @@
         },
         {
           "book": 7,
-          "changed": false,
+          "changed": true,
           "id": "ly-07-16",
           "index": 1,
           "key": "ly-07-16:語:1",
           "label": "加我數年가아수년",
           "original": "자신에게 몇 년의 시간이 더 주어진다면이라는 말입니다. 이미 높은 경지에 이른 뒤에도 더 배울 시간을 원했다는 점에서 공자님의 평생 학습 태도가 드러납니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "자신에게 몇 년의 시간이 더 주어진다면이라는 말입니다. 이미 높은 경지에 이른 뒤에도 더 배울 시간을 원했다는 점에서 공자님의 평생 학습 태도가 드러납니다.",
-          "scope": "語"
+          "reason": "조건형 어미에 「이라는 말입니다」를 붙인 어색한 구조를 고칩니다. 뒤 문장에도 제시된, 더 배울 시간을 바란 주체를 밝힙니다.",
+          "revised": "공자님은 자신에게 몇 년의 시간이 더 주어지기를 바라셨습니다. 이미 높은 경지에 이른 뒤에도 더 배울 시간을 원했다는 점에서 공자님의 평생 학습 태도가 드러납니다.",
+          "scope": "語",
+          "revision_history": [
+            {
+              "pass": "targeted_type_16_followup_2",
+              "previous_revision": "자신에게 몇 년의 시간이 더 주어진다면이라는 말입니다. 이미 높은 경지에 이른 뒤에도 더 배울 시간을 원했다는 점에서 공자님의 평생 학습 태도가 드러납니다.",
+              "revised": "공자님은 자신에게 몇 년의 시간이 더 주어지기를 바라셨습니다. 이미 높은 경지에 이른 뒤에도 더 배울 시간을 원했다는 점에서 공자님의 평생 학습 태도가 드러납니다.",
+              "reason": "조건형 어미에 「이라는 말입니다」를 붙인 어색한 구조를 고칩니다. 뒤 문장에도 제시된, 더 배울 시간을 바란 주체를 밝힙니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨 반영후 더 찾아",
+              "date": "2026-09-09"
+            }
+          ],
+          "previous_revision": "자신에게 몇 년의 시간이 더 주어진다면이라는 말입니다. 이미 높은 경지에 이른 뒤에도 더 배울 시간을 원했다는 점에서 공자님의 평생 학습 태도가 드러납니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_16_followup_2"
         },
         {
           "book": 7,
@@ -12693,10 +12707,10 @@
         "selector": "article.card details.st1 .w > p:not(.wh)"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_16",
+        "pass": "targeted_type_16_followup_2",
         "scanned": 171,
         "approved_applied": 1,
-        "method": "20편 revised 6,921개 전체 검색, 추상명사 45종 종결 후보 문구 523개(적중 문장 528개) 문맥 검토 후 승인된 43곳 반영. 전체 문구 정독 아님."
+        "method": "20편 revised 6,921개 전체 검색, 말입니다 종결 후보 문구 436개(적중 문장 439개) 문맥 검토 후 승인된 6곳 반영. 전체 문구 정독 아님."
       }
     },
     {
@@ -17608,9 +17622,23 @@
           "key": "ly-10-17:語:6",
           "label": "時哉時哉시재시재",
           "original": "때에 맞구나라는 감탄을 거듭한 말입니다. 단순히 좋은 계절이라는 뜻보다 나아가고 머무는 행동이 상황에 알맞다는 의미로 전통적으로 많이 읽습니다.",
-          "reason": "뜻과 판단의 강도를 유지하며 명사형·직역식 서술·호응을 다듬음.",
-          "revised": "때에 맞구나라는 감탄을 거듭한 말입니다. 단순히 좋은 계절이라는 뜻보다 나아가고 머무는 행동이 상황에 알맞다는 뜻으로 풀이하는 전통적 해석이 많습니다.",
-          "scope": "語"
+          "reason": "「맞구나라는 감탄을 거듭한 말」로 발화를 겹쳐 감싸지 않고, 누가 거듭 감탄했는지 직접 서술합니다.",
+          "revised": "공자님은 때에 맞는다며 거듭 감탄하셨습니다. 단순히 좋은 계절이라는 뜻보다 나아가고 머무는 행동이 상황에 알맞다는 뜻으로 풀이하는 전통적 해석이 많습니다.",
+          "scope": "語",
+          "revision_history": [
+            {
+              "pass": "targeted_type_16_followup_2",
+              "previous_revision": "때에 맞구나라는 감탄을 거듭한 말입니다. 단순히 좋은 계절이라는 뜻보다 나아가고 머무는 행동이 상황에 알맞다는 뜻으로 풀이하는 전통적 해석이 많습니다.",
+              "revised": "공자님은 때에 맞는다며 거듭 감탄하셨습니다. 단순히 좋은 계절이라는 뜻보다 나아가고 머무는 행동이 상황에 알맞다는 뜻으로 풀이하는 전통적 해석이 많습니다.",
+              "reason": "「맞구나라는 감탄을 거듭한 말」로 발화를 겹쳐 감싸지 않고, 누가 거듭 감탄했는지 직접 서술합니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨 반영후 더 찾아",
+              "date": "2026-09-09"
+            }
+          ],
+          "previous_revision": "때에 맞구나라는 감탄을 거듭한 말입니다. 단순히 좋은 계절이라는 뜻보다 나아가고 머무는 행동이 상황에 알맞다는 뜻으로 풀이하는 전통적 해석이 많습니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_16_followup_2"
         },
         {
           "book": 10,
@@ -17657,10 +17685,10 @@
         "selector": "article.card details.st1 .w > p:not(.wh)"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_16",
+        "pass": "targeted_type_16_followup_2",
         "scanned": 118,
-        "approved_applied": 3,
-        "method": "20편 revised 6,921개 전체 검색, 추상명사 45종 종결 후보 문구 523개(적중 문장 528개) 문맥 검토 후 승인된 43곳 반영. 전체 문구 정독 아님."
+        "approved_applied": 1,
+        "method": "20편 revised 6,921개 전체 검색, 말입니다 종결 후보 문구 436개(적중 문장 439개) 문맥 검토 후 승인된 6곳 반영. 전체 문구 정독 아님."
       }
     },
     {
@@ -32617,15 +32645,29 @@
         },
         {
           "book": 19,
-          "changed": false,
+          "changed": true,
           "id": "ly-19-25",
           "index": 1,
           "key": "ly-19-25:語:1",
           "label": "子爲恭也자위공야",
           "original": "진자금이 자공이 스승에게 공손하려고 일부러 자신을 낮춘다고 본 말입니다. 자공의 칭찬을 사실보다 과장된 겸양으로 의심합니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "진자금이 자공이 스승에게 공손하려고 일부러 자신을 낮춘다고 본 말입니다. 자공의 칭찬을 사실보다 과장된 겸양으로 의심합니다.",
-          "scope": "語"
+          "reason": "「진자금이 자공이」로 주어가 겹치고 「본 말입니다」로 끝나는 구조를 고칩니다. 판단하는 진자금과 판단 대상인 자공을 구분합니다.",
+          "revised": "진자금은 자공이 스승에게 공손하려고 일부러 자신을 낮춘다고 봅니다. 자공의 칭찬을 사실보다 과장된 겸양으로 의심합니다.",
+          "scope": "語",
+          "revision_history": [
+            {
+              "pass": "targeted_type_16_followup_2",
+              "previous_revision": "진자금이 자공이 스승에게 공손하려고 일부러 자신을 낮춘다고 본 말입니다. 자공의 칭찬을 사실보다 과장된 겸양으로 의심합니다.",
+              "revised": "진자금은 자공이 스승에게 공손하려고 일부러 자신을 낮춘다고 봅니다. 자공의 칭찬을 사실보다 과장된 겸양으로 의심합니다.",
+              "reason": "「진자금이 자공이」로 주어가 겹치고 「본 말입니다」로 끝나는 구조를 고칩니다. 판단하는 진자금과 판단 대상인 자공을 구분합니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨 반영후 더 찾아",
+              "date": "2026-09-09"
+            }
+          ],
+          "previous_revision": "진자금이 자공이 스승에게 공손하려고 일부러 자신을 낮춘다고 본 말입니다. 자공의 칭찬을 사실보다 과장된 겸양으로 의심합니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_16_followup_2"
         },
         {
           "book": 19,
@@ -32696,10 +32738,10 @@
         "selector": "article.card details.st1 .w > p:not(.wh)"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_16",
+        "pass": "targeted_type_16_followup_2",
         "scanned": 114,
         "approved_applied": 1,
-        "method": "20편 revised 6,921개 전체 검색, 추상명사 45종 종결 후보 문구 523개(적중 문장 528개) 문맥 검토 후 승인된 43곳 반영. 전체 문구 정독 아님."
+        "method": "20편 revised 6,921개 전체 검색, 말입니다 종결 후보 문구 436개(적중 문장 439개) 문맥 검토 후 승인된 6곳 반영. 전체 문구 정독 아님."
       }
     },
     {
@@ -32966,8 +33008,8 @@
     }
   ],
   "latest_style_pass": {
-    "pass": "targeted_type_16_followup_1",
+    "pass": "targeted_type_16_followup_2",
     "scanned": 2311,
-    "approved_applied": 1
+    "approved_applied": 3
   }
 }
