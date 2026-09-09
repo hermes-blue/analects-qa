@@ -2680,9 +2680,23 @@
       "key": "ly-15-31:問:3:a",
       "label": "답변",
       "original": "가난보다 더 근본적으로 걱정할 것은 자신이 바른 길을 배우고 실천하고 있는가라는 뜻입니다. 외적 조건보다 삶의 방향을 우선하라는 결론입니다.",
-      "reason": "추상적인 한자어를 풀어 씀.",
-      "revised": "가난보다 더 근본적으로 걱정할 것은 자신이 바른 길을 배우고 실천하고 있는가라는 뜻입니다. 겉으로 드러나는 조건보다 삶의 방향을 우선하라는 결론입니다.",
-      "scope": "問"
+      "reason": "「걱정할 것은 … 있는가라는 뜻입니다」로 질문과 뜻풀이를 겹쳐 붙인 구조를 덜어냅니다. 가난보다 도를 더 염려해야 한다는 우선순위는 그대로 둡니다.",
+      "revised": "가난보다 자신이 바른 길을 배우고 실천하고 있는지를 더 걱정해야 합니다. 겉으로 드러나는 조건보다 삶의 방향을 우선하라는 결론입니다.",
+      "scope": "問",
+      "revision_history": [
+        {
+          "pass": "targeted_type_16_followup_5",
+          "previous_revision": "가난보다 더 근본적으로 걱정할 것은 자신이 바른 길을 배우고 실천하고 있는가라는 뜻입니다. 겉으로 드러나는 조건보다 삶의 방향을 우선하라는 결론입니다.",
+          "revised": "가난보다 자신이 바른 길을 배우고 실천하고 있는지를 더 걱정해야 합니다. 겉으로 드러나는 조건보다 삶의 방향을 우선하라는 결론입니다.",
+          "reason": "「걱정할 것은 … 있는가라는 뜻입니다」로 질문과 뜻풀이를 겹쳐 붙인 구조를 덜어냅니다. 가난보다 도를 더 염려해야 한다는 우선순위는 그대로 둡니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨 반응하고 계속 찾아",
+          "date": "2026-09-09"
+        }
+      ],
+      "previous_revision": "가난보다 더 근본적으로 걱정할 것은 자신이 바른 길을 배우고 실천하고 있는가라는 뜻입니다. 겉으로 드러나는 조건보다 삶의 방향을 우선하라는 결론입니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_16_followup_5"
     },
     {
       "book": 15,
@@ -3606,9 +3620,9 @@
     "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_16_followup_2",
+    "pass": "targeted_type_16_followup_5",
     "scanned": 252,
-    "approved_applied": 3,
-    "method": "20편 revised 6,921개 전체 검색, 말입니다 종결 후보 문구 436개(적중 문장 439개) 문맥 검토 후 승인된 6곳 반영. 전체 문구 정독 아님."
+    "approved_applied": 1,
+    "method": "20편 revised 6,921개 전체 검색, 뜻입니다 적중 문구 1,681개(출현 1,704회) 중 미검토 의문·쟁점 469개 문맥 검토 후 승인된 5곳 반영. 전체 문구 정독 아님."
   }
 }

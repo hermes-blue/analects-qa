@@ -1845,16 +1845,30 @@
     },
     {
       "book": 14,
-      "changed": false,
+      "changed": true,
       "field": "답변",
       "id": "ly-14-23",
       "index": 1,
       "key": "ly-14-23:問:1:a",
       "label": "답변",
       "original": "충성은 무조건 비위를 맞추는 것이 아니라 사실을 숨기지 않고, 필요하면 임금의 뜻을 거슬러서라도 바른 말을 해야 한다는 뜻입니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "충성은 무조건 비위를 맞추는 것이 아니라 사실을 숨기지 않고, 필요하면 임금의 뜻을 거슬러서라도 바른 말을 해야 한다는 뜻입니다.",
-      "scope": "問"
+      "reason": "「충성은 … 해야 한다는 뜻입니다」에서 주어와 서술이 어색하게 맞물립니다. 임금을 섬기는 사람이 어떻게 행동해야 하는지 직접 쓰고, 비위를 맞추는 일과 바른 말을 하는 일의 대비를 보존합니다.",
+      "revised": "임금에게 충성한다고 해서 무조건 비위를 맞추어서는 안 됩니다. 사실을 숨기지 않고, 필요하면 임금의 뜻을 거슬러서라도 바른 말을 해야 합니다.",
+      "scope": "問",
+      "revision_history": [
+        {
+          "pass": "targeted_type_16_followup_5",
+          "previous_revision": "충성은 무조건 비위를 맞추는 것이 아니라 사실을 숨기지 않고, 필요하면 임금의 뜻을 거슬러서라도 바른 말을 해야 한다는 뜻입니다.",
+          "revised": "임금에게 충성한다고 해서 무조건 비위를 맞추어서는 안 됩니다. 사실을 숨기지 않고, 필요하면 임금의 뜻을 거슬러서라도 바른 말을 해야 합니다.",
+          "reason": "「충성은 … 해야 한다는 뜻입니다」에서 주어와 서술이 어색하게 맞물립니다. 임금을 섬기는 사람이 어떻게 행동해야 하는지 직접 쓰고, 비위를 맞추는 일과 바른 말을 하는 일의 대비를 보존합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨 반응하고 계속 찾아",
+          "date": "2026-09-09"
+        }
+      ],
+      "previous_revision": "충성은 무조건 비위를 맞추는 것이 아니라 사실을 숨기지 않고, 필요하면 임금의 뜻을 거슬러서라도 바른 말을 해야 한다는 뜻입니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_16_followup_5"
     },
     {
       "book": 14,
@@ -3885,9 +3899,9 @@
     "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_16_followup_3",
+    "pass": "targeted_type_16_followup_5",
     "scanned": 282,
     "approved_applied": 1,
-    "method": "20편 revised 6,921개 전체 검색, 것입니다 종결 후보 문구 602개(적중 문장 617개) 문맥 검토 후 승인된 8곳 반영. 전체 문구 정독 아님."
+    "method": "20편 revised 6,921개 전체 검색, 뜻입니다 적중 문구 1,681개(출현 1,704회) 중 미검토 의문·쟁점 469개 문맥 검토 후 승인된 5곳 반영. 전체 문구 정독 아님."
   }
 }
