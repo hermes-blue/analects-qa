@@ -1,3 +1,6 @@
+<!-- long-sentence-review-20260909 completed -->
+긴 문장 검수: 연결어를 보완한 승인안 **6장·6곳 반영 완료**. [수정 전후 및 검증 기록](../long-sentence-review-20260909/README.md)
+
 <!-- noun-predicate-review4-20260909 completed -->
 명사 종결 4차 검수: 승인한 **4장·4곳 반영 완료**. [수정 전후 및 검증 기록](../noun-predicate-review4-20260909/README.md)
 
