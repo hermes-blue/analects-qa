@@ -1,0 +1,109 @@
+name: TEMP Apply Stage2 Nested9 And Rescan Delayed
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/temp-apply-stage2-nested9-and-rescan-delayed.yml']
+permissions:
+  contents: write
+jobs:
+  work:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Apply approved 9 and rescan delayed-head clauses
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json,glob,re,subprocess
+          from pathlib import Path
+          base=Path('sourcecards-targeted-review-7passes/cycle2-pass18-nested-modifiers')
+          p=base/'approval-table-9.md'
+          rows=[]
+          for ln in p.read_text(encoding='utf-8').splitlines():
+              if not ln.startswith('| ') or ln.startswith('|---') or ln.startswith('| 편·장'):
+                  continue
+              parts=[x.strip() for x in ln.split('|')[1:-1]]
+              if len(parts)==4: rows.append(parts)
+          if len(rows)!=9: raise SystemExit(f'rows={len(rows)}')
+          files=sorted(glob.glob('sourcecards-style-polish/[0-9][0-9]-*.json'))
+          if len(files)!=20: raise SystemExit(f'files={len(files)}')
+          data_by_file={}; by_pj={}; total=0
+          for fn in files:
+              d=json.loads(Path(fn).read_text(encoding='utf-8')); data_by_file[fn]=d
+              for ch in d['장']:
+                  total+=1; by_pj[ch['편장']]=(fn,ch)
+          if total!=498: raise SystemExit(f'chapters={total}')
+          changed=set(); audit=[]
+          for pj,old,new,reason in rows:
+              fn,ch=by_pj[pj]
+              if ch['여는말']!=old:
+                  raise SystemExit(f'{pj} mismatch\nCURRENT={ch["여는말"]}\nOLD={old}')
+              ch['여는말']=new; changed.add(fn)
+              audit.append({'편장':pj,'파일':fn,'수정전':old,'수정후':new,'승인상태':'승인완료','본문반영':True})
+          for fn in changed:
+              Path(fn).write_text(json.dumps(data_by_file[fn],ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          p.write_text(p.read_text(encoding='utf-8').replace('**승인 대기 / 본문 JSON 미반영**','**승인완료 / 본문 JSON 9건 반영완료**',1),encoding='utf-8')
+          (base/'application-audit-9.json').write_text(json.dumps({'작업':'관형절 3차 중첩 수식 9건','승인상태':'승인완료','본문반영수':9,'후보':audit},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+
+          # Fourth pass: delayed heads / long objects / two-layer embedded clauses, including shorter sentences.
+          rel=re.compile(r'(?:하는|한|했던|하던|되는|된|라는|이라는|하려는|해야 하는|할 수 있는|해야 할|하게 하는|도록 하는)')
+          emb=re.compile(r'(?:는지|인지|었는지|였는지|할지|을지|라는 뜻|다는 뜻|것으로|것이|것을|까닭을|이유를)')
+          pred=re.compile(r'(?:설명합니다|풀이합니다|살핍니다|비교합니다|소개합니다|전합니다|말합니다|봅니다|평가합니다|따집니다|논합니다|구별합니다|밝힙니다|이야기합니다|알려 줍니다|강조합니다|해석합니다|읽습니다|답합니다)\.?$')
+          hits=[]
+          for fn in files:
+              d=json.loads(Path(fn).read_text(encoding='utf-8'))
+              for ch in d['장']:
+                  text=ch['여는말']
+                  sents=[s.strip() for s in re.split(r'(?<=[.!?])\s+',text) if s.strip()]
+                  for i,s in enumerate(sents,1):
+                      rs=rel.findall(s); es=emb.findall(s)
+                      comma=s.count(',')+s.count('，')
+                      score=0
+                      if len(s)>=55: score+=2
+                      elif len(s)>=42: score+=1
+                      if len(rs)>=2: score+=2
+                      if len(es)>=2: score+=2
+                      elif len(es)==1: score+=1
+                      if comma>=1: score+=1
+                      if re.search(r'(?:하는|한|된|라는|이라는).{6,34}(?:것|말|뜻|풀이|경우|사람|일|태도|장면|내용|기록|대목)(?:을|를|이|가|은|는)',s): score+=2
+                      if re.search(r'(?:는지|인지|였는지|었는지).{2,40}(?:는지|인지|였는지|었는지)',s): score+=2
+                      if pred.search(s): score+=1
+                      # High recall but avoid trivial short clauses.
+                      if score>=6 and len(s)>=38:
+                          hits.append({'구절ID':ch['구절ID'],'편장':ch['편장'],'파일':fn,'문장번호':i,'문장':s,'전체여는말':text,'길이':len(s),'관형수':len(rs),'내포수':len(es),'쉼표수':comma,'점수':score})
+          hits.sort(key=lambda h:(-h['점수'],-h['길이']))
+          out=Path('sourcecards-targeted-review-7passes/cycle2-pass19-delayed-head-clauses')
+          out.mkdir(parents=True,exist_ok=True)
+          head=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
+          md=['# 관형절 4차 — 주어·핵심어가 늦게 나오는 중첩 문장 스캔','',f'- 기준 커밋: `{head}`','- 대상: 20파일 / 498장',f'- 휴리스틱 적중: **{len(hits)}문장**','- 긴 목적어·간접의문절·수식절 뒤에 핵심 서술이 늦게 나오는 문장을 넓게 포착. 자동 수정 대상 아님.','']
+          for i,h in enumerate(hits,1):
+              md.append(f"{i}. `{h['구절ID']}` | {h['편장']} | 점수={h['점수']} 길이={h['길이']} 관형={h['관형수']} 내포={h['내포수']} | {h['문장']} | 전체: {h['전체여는말']}")
+          (out/'heuristic-hits.md').write_text('\n'.join(md)+'\n',encoding='utf-8')
+          (out/'heuristic-hits.json').write_text(json.dumps({'기준커밋':head,'대상장수':498,'적중문장수':len(hits),'항목':hits},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          for n,a in enumerate(range(0,len(hits),25),1):
+              part=hits[a:a+25]
+              cm=[f'# 관형절 4차 후보 {a+1}~{a+len(part)}','']
+              for j,h in enumerate(part,a+1): cm.append(f"{j}. {h['구절ID']} | {h['편장']} | 점수={h['점수']} 길이={h['길이']} | 문장: {h['문장']} | 전체: {h['전체여는말']}")
+              (out/f'review-chunk-{n}.md').write_text('\n'.join(cm)+'\n',encoding='utf-8')
+          print('applied',len(rows),'pass4_hits',len(hits))
+          PY
+      - name: Validate and commit
+        shell: bash
+        run: |
+          git diff --check
+          python - <<'PY'
+          import json,glob
+          from pathlib import Path
+          fs=glob.glob('sourcecards-style-polish/[0-9][0-9]-*.json')
+          assert len(fs)==20
+          assert sum(len(json.loads(Path(f).read_text(encoding='utf-8'))['장']) for f in fs)==498
+          print('validated 20 JSON / 498 chapters')
+          PY
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add sourcecards-style-polish/ sourcecards-targeted-review-7passes/cycle2-pass18-nested-modifiers/ sourcecards-targeted-review-7passes/cycle2-pass19-delayed-head-clauses/
+          git commit -m '사료카드 2단계 관형절 3차 9건 반영 및 4차 재스캔'
+          git push origin main
