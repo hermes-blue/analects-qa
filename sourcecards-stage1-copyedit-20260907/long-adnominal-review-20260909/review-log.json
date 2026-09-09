@@ -1,0 +1,950 @@
+{
+  "status": "승인 대기",
+  "body_applied": false,
+  "scope": "sourcecards-stage1-copyedit-20260907/round3",
+  "prior_nominalization_12": "반영 완료 · completion.json 및 원격 20개 파일 확인",
+  "basis_commit": "34de1ee572c874054b8aad9984e8041606668d7d",
+  "pre_upload_main": "9c03573103e6d9089d5432e11a5bf1793d9eaf0d",
+  "body_files": [
+    {
+      "path": "sourcecards-stage1-copyedit-20260907/round3/01-hakyi.json",
+      "sha": "96c5ffdfbf4ee3c6116ad1f3cbe7fc000fb37f97",
+      "chapters": 16
+    },
+    {
+      "path": "sourcecards-stage1-copyedit-20260907/round3/02-wijeong.json",
+      "sha": "aaefdb94f5d948279e94ec2ca8d4d4fd88797748",
+      "chapters": 24
+    },
+    {
+      "path": "sourcecards-stage1-copyedit-20260907/round3/03-palil.json",
+      "sha": "2864516543dc7ef5392edd60ccf7f5d542b38e62",
+      "chapters": 26
+    },
+    {
+      "path": "sourcecards-stage1-copyedit-20260907/round3/04-iin.json",
+      "sha": "63015b48ff2e358175fd599b9c0d02a74bdd89ec",
+      "chapters": 26
+    },
+    {
+      "path": "sourcecards-stage1-copyedit-20260907/round3/05-gongyajang.json",
+      "sha": "6711b3c57260a2509c0bd517b33e957196644d73",
+      "chapters": 27
+    },
+    {
+      "path": "sourcecards-stage1-copyedit-20260907/round3/06-yongya.json",
+      "sha": "30544b9d4a4563ab76deeb0606c36ff91f281cbc",
+      "chapters": 28
+    },
+    {
+      "path": "sourcecards-stage1-copyedit-20260907/round3/07-suli.json",
+      "sha": "f784fdce8b916a0553c9cf4ad4bdcd64bdba0796",
+      "chapters": 37
+    },
+    {
+      "path": "sourcecards-stage1-copyedit-20260907/round3/08-taebaek.json",
+      "sha": "8d411e0040aa5c71d4ba72914a676fc61ef12cf2",
+      "chapters": 21
+    },
+    {
+      "path": "sourcecards-stage1-copyedit-20260907/round3/09-jahan.json",
+      "sha": "040ff003d93858cf8a297b6d5035eb28231f73ff",
+      "chapters": 30
+    },
+    {
+      "path": "sourcecards-stage1-copyedit-20260907/round3/10-hyangdang.json",
+      "sha": "d169fcc0be6deed9ff2e59271796925bc927d522",
+      "chapters": 17
+    },
+    {
+      "path": "sourcecards-stage1-copyedit-20260907/round3/11-seonjin.json",
+      "sha": "52c5fcadda886b5a20574eca2b813f5d9eb1771c",
+      "chapters": 25
+    },
+    {
+      "path": "sourcecards-stage1-copyedit-20260907/round3/12-anyeon.json",
+      "sha": "673fb05c1d0df8aed213758637f42a9f1d1ff358",
+      "chapters": 24
+    },
+    {
+      "path": "sourcecards-stage1-copyedit-20260907/round3/13-jaro.json",
+      "sha": "358e392335469778e2420dd230de1ca141cafd03",
+      "chapters": 30
+    },
+    {
+      "path": "sourcecards-stage1-copyedit-20260907/round3/14-heonmun.json",
+      "sha": "9a90983c37942d857a431d19984faad435388706",
+      "chapters": 47
+    },
+    {
+      "path": "sourcecards-stage1-copyedit-20260907/round3/15-wiryeonggong.json",
+      "sha": "306d4033f6d663520f1e111d1ea096c5a3fa0c29",
+      "chapters": 41
+    },
+    {
+      "path": "sourcecards-stage1-copyedit-20260907/round3/16-gyessi.json",
+      "sha": "6514102be2ad737599bad646b3750b0d4a7f3f05",
+      "chapters": 14
+    },
+    {
+      "path": "sourcecards-stage1-copyedit-20260907/round3/17-yanghwa.json",
+      "sha": "81d96049c5c2bd1c12769e6e05073dc7cc6a7448",
+      "chapters": 26
+    },
+    {
+      "path": "sourcecards-stage1-copyedit-20260907/round3/18-mija.json",
+      "sha": "36aa367146677874a8a3170b9c735416816e212f",
+      "chapters": 11
+    },
+    {
+      "path": "sourcecards-stage1-copyedit-20260907/round3/19-jajang.json",
+      "sha": "29574fc373d26ffded560f6667253e29ba079e6c",
+      "chapters": 25
+    },
+    {
+      "path": "sourcecards-stage1-copyedit-20260907/round3/20-yowal.json",
+      "sha": "adf1b1f363740361dbc52878b0a802d4e5d4dbcc",
+      "chapters": 3
+    }
+  ],
+  "read_chapters": 498,
+  "read_groups": 91,
+  "groups": [
+    {
+      "end": 6,
+      "file": "01-hakyi.json",
+      "judgment": "전체 문맥 독해. 단순 병렬·조건은 유지; 절차 나열과 복수 인용이 뒤 명사를 길게 꾸미는 01-12,02-18 후보 검토.",
+      "start": 1,
+      "number": 1,
+      "candidate_ids": []
+    },
+    {
+      "end": 12,
+      "file": "01-hakyi.json",
+      "judgment": "전체 문맥 독해. 단순 병렬·조건은 유지; 절차 나열과 복수 인용이 뒤 명사를 길게 꾸미는 01-12,02-18 후보 검토.",
+      "start": 7,
+      "number": 2,
+      "candidate_ids": [
+        "ly-01-12"
+      ]
+    },
+    {
+      "end": 16,
+      "file": "01-hakyi.json",
+      "judgment": "전체 문맥 독해. 단순 병렬·조건은 유지; 절차 나열과 복수 인용이 뒤 명사를 길게 꾸미는 01-12,02-18 후보 검토.",
+      "start": 13,
+      "number": 3,
+      "candidate_ids": []
+    },
+    {
+      "end": 6,
+      "file": "02-wijeong.json",
+      "judgment": "전체 문맥 독해. 단순 병렬·조건은 유지; 절차 나열과 복수 인용이 뒤 명사를 길게 꾸미는 01-12,02-18 후보 검토.",
+      "start": 1,
+      "number": 4,
+      "candidate_ids": []
+    },
+    {
+      "end": 12,
+      "file": "02-wijeong.json",
+      "judgment": "전체 문맥 독해. 단순 병렬·조건은 유지; 절차 나열과 복수 인용이 뒤 명사를 길게 꾸미는 01-12,02-18 후보 검토.",
+      "start": 7,
+      "number": 5,
+      "candidate_ids": []
+    },
+    {
+      "end": 18,
+      "file": "02-wijeong.json",
+      "judgment": "전체 문맥 독해. 단순 병렬·조건은 유지; 절차 나열과 복수 인용이 뒤 명사를 길게 꾸미는 01-12,02-18 후보 검토.",
+      "start": 13,
+      "number": 6,
+      "candidate_ids": [
+        "ly-02-18"
+      ]
+    },
+    {
+      "end": 24,
+      "file": "02-wijeong.json",
+      "judgment": "전체 문맥 독해. 단순 병렬·조건은 유지; 절차 나열과 복수 인용이 뒤 명사를 길게 꾸미는 01-12,02-18 후보 검토.",
+      "start": 19,
+      "number": 7,
+      "candidate_ids": []
+    },
+    {
+      "end": 6,
+      "file": "03-palil.json",
+      "judgment": "전체 문맥 독해. 설명에 필요한 인물 수식과 자연스러운 인용 유지. 03-26 두 주체 사건이 이야기 앞에 겹친 문장 후보.",
+      "start": 1,
+      "number": 8,
+      "candidate_ids": []
+    },
+    {
+      "end": 12,
+      "file": "03-palil.json",
+      "judgment": "전체 문맥 독해. 설명에 필요한 인물 수식과 자연스러운 인용 유지. 03-26 두 주체 사건이 이야기 앞에 겹친 문장 후보.",
+      "start": 7,
+      "number": 9,
+      "candidate_ids": []
+    },
+    {
+      "end": 18,
+      "file": "03-palil.json",
+      "judgment": "전체 문맥 독해. 설명에 필요한 인물 수식과 자연스러운 인용 유지. 03-26 두 주체 사건이 이야기 앞에 겹친 문장 후보.",
+      "start": 13,
+      "number": 10,
+      "candidate_ids": []
+    },
+    {
+      "end": 24,
+      "file": "03-palil.json",
+      "judgment": "전체 문맥 독해. 설명에 필요한 인물 수식과 자연스러운 인용 유지. 03-26 두 주체 사건이 이야기 앞에 겹친 문장 후보.",
+      "start": 19,
+      "number": 11,
+      "candidate_ids": []
+    },
+    {
+      "end": 26,
+      "file": "03-palil.json",
+      "judgment": "전체 문맥 독해. 설명에 필요한 인물 수식과 자연스러운 인용 유지. 03-26 두 주체 사건이 이야기 앞에 겹친 문장 후보.",
+      "start": 25,
+      "number": 12,
+      "candidate_ids": [
+        "ly-03-26"
+      ]
+    },
+    {
+      "end": 6,
+      "file": "04-iin.json",
+      "judgment": "전체 문맥 독해. 설명에 필요한 인물 수식과 자연스러운 인용 유지. 03-26 두 주체 사건이 이야기 앞에 겹친 문장 후보.",
+      "start": 1,
+      "number": 13,
+      "candidate_ids": []
+    },
+    {
+      "end": 12,
+      "file": "04-iin.json",
+      "judgment": "전체 문맥 독해. 설명에 필요한 인물 수식과 자연스러운 인용 유지. 03-26 두 주체 사건이 이야기 앞에 겹친 문장 후보.",
+      "start": 7,
+      "number": 14,
+      "candidate_ids": []
+    },
+    {
+      "end": 18,
+      "file": "04-iin.json",
+      "judgment": "전체 문맥 독해. 설명에 필요한 인물 수식과 자연스러운 인용 유지. 03-26 두 주체 사건이 이야기 앞에 겹친 문장 후보.",
+      "start": 13,
+      "number": 15,
+      "candidate_ids": []
+    },
+    {
+      "end": 24,
+      "file": "04-iin.json",
+      "judgment": "전체 문맥 독해. 설명에 필요한 인물 수식과 자연스러운 인용 유지. 03-26 두 주체 사건이 이야기 앞에 겹친 문장 후보.",
+      "start": 19,
+      "number": 16,
+      "candidate_ids": []
+    },
+    {
+      "end": 26,
+      "file": "04-iin.json",
+      "judgment": "전체 문맥 독해. 설명에 필요한 인물 수식과 자연스러운 인용 유지. 03-26 두 주체 사건이 이야기 앞에 겹친 문장 후보.",
+      "start": 25,
+      "number": 17,
+      "candidate_ids": []
+    },
+    {
+      "end": 6,
+      "file": "05-gongyajang.json",
+      "judgment": "전체 문맥 독해. 설명에 필요한 인물 수식과 자연스러운 인용 유지. 03-26 두 주체 사건이 이야기 앞에 겹친 문장 후보.",
+      "start": 1,
+      "number": 18,
+      "candidate_ids": []
+    },
+    {
+      "end": 12,
+      "file": "05-gongyajang.json",
+      "judgment": "전체 문맥 독해. 설명에 필요한 인물 수식과 자연스러운 인용 유지. 03-26 두 주체 사건이 이야기 앞에 겹친 문장 후보.",
+      "start": 7,
+      "number": 19,
+      "candidate_ids": []
+    },
+    {
+      "end": 18,
+      "file": "05-gongyajang.json",
+      "judgment": "전체 문맥 독해. 설명에 필요한 인물 수식과 자연스러운 인용 유지. 03-26 두 주체 사건이 이야기 앞에 겹친 문장 후보.",
+      "start": 13,
+      "number": 20,
+      "candidate_ids": []
+    },
+    {
+      "end": 24,
+      "file": "05-gongyajang.json",
+      "judgment": "전체 문맥 독해. 설명에 필요한 인물 수식과 자연스러운 인용 유지. 03-26 두 주체 사건이 이야기 앞에 겹친 문장 후보.",
+      "start": 19,
+      "number": 21,
+      "candidate_ids": []
+    },
+    {
+      "end": 27,
+      "file": "05-gongyajang.json",
+      "judgment": "전체 문맥 독해. 설명에 필요한 인물 수식과 자연스러운 인용 유지. 03-26 두 주체 사건이 이야기 앞에 겹친 문장 후보.",
+      "start": 25,
+      "number": 22,
+      "candidate_ids": []
+    },
+    {
+      "end": 6,
+      "file": "06-yongya.json",
+      "judgment": "전체 문맥 독해. 가설·병렬 대비 유지. 06-16 긴 질문을 대목에 매다는 구조 후보.",
+      "start": 1,
+      "number": 23,
+      "candidate_ids": []
+    },
+    {
+      "end": 12,
+      "file": "06-yongya.json",
+      "judgment": "전체 문맥 독해. 가설·병렬 대비 유지. 06-16 긴 질문을 대목에 매다는 구조 후보.",
+      "start": 7,
+      "number": 24,
+      "candidate_ids": []
+    },
+    {
+      "end": 18,
+      "file": "06-yongya.json",
+      "judgment": "전체 문맥 독해. 가설·병렬 대비 유지. 06-16 긴 질문을 대목에 매다는 구조 후보.",
+      "start": 13,
+      "number": 25,
+      "candidate_ids": [
+        "ly-06-16"
+      ]
+    },
+    {
+      "end": 24,
+      "file": "06-yongya.json",
+      "judgment": "전체 문맥 독해. 가설·병렬 대비 유지. 06-16 긴 질문을 대목에 매다는 구조 후보.",
+      "start": 19,
+      "number": 26,
+      "candidate_ids": []
+    },
+    {
+      "end": 28,
+      "file": "06-yongya.json",
+      "judgment": "전체 문맥 독해. 가설·병렬 대비 유지. 06-16 긴 질문을 대목에 매다는 구조 후보.",
+      "start": 25,
+      "number": 27,
+      "candidate_ids": []
+    },
+    {
+      "end": 6,
+      "file": "07-suli.json",
+      "judgment": "전체 문맥 독해. 규정·인용이 긴 수식을 이룰 때만 후보. 07-09 조건 둘은 또로, 07-17 이유는 이 역시로, 07-29 노래하다가 전환 보존. 태백의 덕목 나열·조건은 유지.",
+      "start": 1,
+      "number": 28,
+      "candidate_ids": []
+    },
+    {
+      "end": 12,
+      "file": "07-suli.json",
+      "judgment": "전체 문맥 독해. 규정·인용이 긴 수식을 이룰 때만 후보. 07-09 조건 둘은 또로, 07-17 이유는 이 역시로, 07-29 노래하다가 전환 보존. 태백의 덕목 나열·조건은 유지.",
+      "start": 7,
+      "number": 29,
+      "candidate_ids": [
+        "ly-07-09"
+      ]
+    },
+    {
+      "end": 18,
+      "file": "07-suli.json",
+      "judgment": "전체 문맥 독해. 규정·인용이 긴 수식을 이룰 때만 후보. 07-09 조건 둘은 또로, 07-17 이유는 이 역시로, 07-29 노래하다가 전환 보존. 태백의 덕목 나열·조건은 유지.",
+      "start": 13,
+      "number": 30,
+      "candidate_ids": [
+        "ly-07-17"
+      ]
+    },
+    {
+      "end": 24,
+      "file": "07-suli.json",
+      "judgment": "전체 문맥 독해. 규정·인용이 긴 수식을 이룰 때만 후보. 07-09 조건 둘은 또로, 07-17 이유는 이 역시로, 07-29 노래하다가 전환 보존. 태백의 덕목 나열·조건은 유지.",
+      "start": 19,
+      "number": 31,
+      "candidate_ids": []
+    },
+    {
+      "end": 30,
+      "file": "07-suli.json",
+      "judgment": "전체 문맥 독해. 규정·인용이 긴 수식을 이룰 때만 후보. 07-09 조건 둘은 또로, 07-17 이유는 이 역시로, 07-29 노래하다가 전환 보존. 태백의 덕목 나열·조건은 유지.",
+      "start": 25,
+      "number": 32,
+      "candidate_ids": [
+        "ly-07-29"
+      ]
+    },
+    {
+      "end": 36,
+      "file": "07-suli.json",
+      "judgment": "전체 문맥 독해. 규정·인용이 긴 수식을 이룰 때만 후보. 07-09 조건 둘은 또로, 07-17 이유는 이 역시로, 07-29 노래하다가 전환 보존. 태백의 덕목 나열·조건은 유지.",
+      "start": 31,
+      "number": 33,
+      "candidate_ids": []
+    },
+    {
+      "end": 37,
+      "file": "07-suli.json",
+      "judgment": "전체 문맥 독해. 규정·인용이 긴 수식을 이룰 때만 후보. 07-09 조건 둘은 또로, 07-17 이유는 이 역시로, 07-29 노래하다가 전환 보존. 태백의 덕목 나열·조건은 유지.",
+      "start": 37,
+      "number": 34,
+      "candidate_ids": []
+    },
+    {
+      "end": 6,
+      "file": "08-taebaek.json",
+      "judgment": "전체 문맥 독해. 규정·인용이 긴 수식을 이룰 때만 후보. 07-09 조건 둘은 또로, 07-17 이유는 이 역시로, 07-29 노래하다가 전환 보존. 태백의 덕목 나열·조건은 유지.",
+      "start": 1,
+      "number": 35,
+      "candidate_ids": []
+    },
+    {
+      "end": 12,
+      "file": "08-taebaek.json",
+      "judgment": "전체 문맥 독해. 규정·인용이 긴 수식을 이룰 때만 후보. 07-09 조건 둘은 또로, 07-17 이유는 이 역시로, 07-29 노래하다가 전환 보존. 태백의 덕목 나열·조건은 유지.",
+      "start": 7,
+      "number": 36,
+      "candidate_ids": []
+    },
+    {
+      "end": 18,
+      "file": "08-taebaek.json",
+      "judgment": "전체 문맥 독해. 규정·인용이 긴 수식을 이룰 때만 후보. 07-09 조건 둘은 또로, 07-17 이유는 이 역시로, 07-29 노래하다가 전환 보존. 태백의 덕목 나열·조건은 유지.",
+      "start": 13,
+      "number": 37,
+      "candidate_ids": []
+    },
+    {
+      "end": 21,
+      "file": "08-taebaek.json",
+      "judgment": "전체 문맥 독해. 규정·인용이 긴 수식을 이룰 때만 후보. 07-09 조건 둘은 또로, 07-17 이유는 이 역시로, 07-29 노래하다가 전환 보존. 태백의 덕목 나열·조건은 유지.",
+      "start": 19,
+      "number": 38,
+      "candidate_ids": []
+    },
+    {
+      "end": 6,
+      "file": "09-jahan.json",
+      "judgment": "전체 문맥 독해. 09-13 대비하는 두 견해는 나누지 않음. 09-30 시 앞의 장문 수식 후보.",
+      "start": 1,
+      "number": 39,
+      "candidate_ids": []
+    },
+    {
+      "end": 12,
+      "file": "09-jahan.json",
+      "judgment": "전체 문맥 독해. 09-13 대비하는 두 견해는 나누지 않음. 09-30 시 앞의 장문 수식 후보.",
+      "start": 7,
+      "number": 40,
+      "candidate_ids": []
+    },
+    {
+      "end": 18,
+      "file": "09-jahan.json",
+      "judgment": "전체 문맥 독해. 09-13 대비하는 두 견해는 나누지 않음. 09-30 시 앞의 장문 수식 후보.",
+      "start": 13,
+      "number": 41,
+      "candidate_ids": []
+    },
+    {
+      "end": 24,
+      "file": "09-jahan.json",
+      "judgment": "전체 문맥 독해. 09-13 대비하는 두 견해는 나누지 않음. 09-30 시 앞의 장문 수식 후보.",
+      "start": 19,
+      "number": 42,
+      "candidate_ids": []
+    },
+    {
+      "end": 30,
+      "file": "09-jahan.json",
+      "judgment": "전체 문맥 독해. 09-13 대비하는 두 견해는 나누지 않음. 09-30 시 앞의 장문 수식 후보.",
+      "start": 25,
+      "number": 43,
+      "candidate_ids": [
+        "ly-09-30"
+      ]
+    },
+    {
+      "end": 6,
+      "file": "10-hyangdang.json",
+      "judgment": "전체 17장 독해. 예법의 절차 나열은 행위자·시간 관계가 분명해 유지. ly-10-18 추가 안 함.",
+      "start": 1,
+      "number": 44,
+      "candidate_ids": []
+    },
+    {
+      "end": 12,
+      "file": "10-hyangdang.json",
+      "judgment": "전체 17장 독해. 예법의 절차 나열은 행위자·시간 관계가 분명해 유지. ly-10-18 추가 안 함.",
+      "start": 7,
+      "number": 45,
+      "candidate_ids": []
+    },
+    {
+      "end": 17,
+      "file": "10-hyangdang.json",
+      "judgment": "전체 17장 독해. 예법의 절차 나열은 행위자·시간 관계가 분명해 유지. ly-10-18 추가 안 함.",
+      "start": 13,
+      "number": 46,
+      "candidate_ids": []
+    },
+    {
+      "end": 6,
+      "file": "11-seonjin.json",
+      "judgment": "전체 문맥 독해. 11-03 관찰 반전,11-17 문지기와 고사 이중 수식 후보. 인용이 길어도 순서가 바로 통하는 증점 포부 유지.",
+      "start": 1,
+      "number": 47,
+      "candidate_ids": [
+        "ly-11-03"
+      ]
+    },
+    {
+      "end": 12,
+      "file": "11-seonjin.json",
+      "judgment": "전체 문맥 독해. 11-03 관찰 반전,11-17 문지기와 고사 이중 수식 후보. 인용이 길어도 순서가 바로 통하는 증점 포부 유지.",
+      "start": 7,
+      "number": 48,
+      "candidate_ids": []
+    },
+    {
+      "end": 18,
+      "file": "11-seonjin.json",
+      "judgment": "전체 문맥 독해. 11-03 관찰 반전,11-17 문지기와 고사 이중 수식 후보. 인용이 길어도 순서가 바로 통하는 증점 포부 유지.",
+      "start": 13,
+      "number": 49,
+      "candidate_ids": [
+        "ly-11-17"
+      ]
+    },
+    {
+      "end": 24,
+      "file": "11-seonjin.json",
+      "judgment": "전체 문맥 독해. 11-03 관찰 반전,11-17 문지기와 고사 이중 수식 후보. 인용이 길어도 순서가 바로 통하는 증점 포부 유지.",
+      "start": 19,
+      "number": 50,
+      "candidate_ids": []
+    },
+    {
+      "end": 25,
+      "file": "11-seonjin.json",
+      "judgment": "전체 문맥 독해. 11-03 관찰 반전,11-17 문지기와 고사 이중 수식 후보. 인용이 길어도 순서가 바로 통하는 증점 포부 유지.",
+      "start": 25,
+      "number": 51,
+      "candidate_ids": []
+    },
+    {
+      "end": 6,
+      "file": "12-anyeon.json",
+      "judgment": "전체 문맥 독해. 12-18 사건과 응답을 대목 수식에서 풀기 후보. 정보 범위 흔들리는 12-04는 유지.",
+      "start": 1,
+      "number": 52,
+      "candidate_ids": []
+    },
+    {
+      "end": 12,
+      "file": "12-anyeon.json",
+      "judgment": "전체 문맥 독해. 12-18 사건과 응답을 대목 수식에서 풀기 후보. 정보 범위 흔들리는 12-04는 유지.",
+      "start": 7,
+      "number": 53,
+      "candidate_ids": []
+    },
+    {
+      "end": 18,
+      "file": "12-anyeon.json",
+      "judgment": "전체 문맥 독해. 12-18 사건과 응답을 대목 수식에서 풀기 후보. 정보 범위 흔들리는 12-04는 유지.",
+      "start": 13,
+      "number": 54,
+      "candidate_ids": [
+        "ly-12-18"
+      ]
+    },
+    {
+      "end": 24,
+      "file": "12-anyeon.json",
+      "judgment": "전체 문맥 독해. 12-18 사건과 응답을 대목 수식에서 풀기 후보. 정보 범위 흔들리는 12-04는 유지.",
+      "start": 19,
+      "number": 55,
+      "candidate_ids": []
+    },
+    {
+      "end": 6,
+      "file": "13-jaro.json",
+      "judgment": "전체 문맥 독해. 13-05 까닭 앞 긴 인용 후보.13-11 조건 자체가 긴 인용은 억지로 나누면 반복이 늘어 유지.",
+      "start": 1,
+      "number": 56,
+      "candidate_ids": [
+        "ly-13-05"
+      ]
+    },
+    {
+      "end": 12,
+      "file": "13-jaro.json",
+      "judgment": "전체 문맥 독해. 13-05 까닭 앞 긴 인용 후보.13-11 조건 자체가 긴 인용은 억지로 나누면 반복이 늘어 유지.",
+      "start": 7,
+      "number": 57,
+      "candidate_ids": []
+    },
+    {
+      "end": 18,
+      "file": "13-jaro.json",
+      "judgment": "전체 문맥 독해. 13-05 까닭 앞 긴 인용 후보.13-11 조건 자체가 긴 인용은 억지로 나누면 반복이 늘어 유지.",
+      "start": 13,
+      "number": 58,
+      "candidate_ids": []
+    },
+    {
+      "end": 24,
+      "file": "13-jaro.json",
+      "judgment": "전체 문맥 독해. 13-05 까닭 앞 긴 인용 후보.13-11 조건 자체가 긴 인용은 억지로 나누면 반복이 늘어 유지.",
+      "start": 19,
+      "number": 59,
+      "candidate_ids": []
+    },
+    {
+      "end": 30,
+      "file": "13-jaro.json",
+      "judgment": "전체 문맥 독해. 13-05 까닭 앞 긴 인용 후보.13-11 조건 자체가 긴 인용은 억지로 나누면 반복이 늘어 유지.",
+      "start": 25,
+      "number": 60,
+      "candidate_ids": []
+    },
+    {
+      "end": 6,
+      "file": "14-heonmun.json",
+      "judgment": "전체 문맥 독해. 현명한 사람이었으리라는 추정 등 수식은 추정의 출처·범위를 지키기 위해 유지. 길더라도 수식 대상이 바로 식별되는 조건·비유·병렬은 제외.",
+      "start": 1,
+      "number": 61,
+      "candidate_ids": []
+    },
+    {
+      "end": 12,
+      "file": "14-heonmun.json",
+      "judgment": "전체 문맥 독해. 현명한 사람이었으리라는 추정 등 수식은 추정의 출처·범위를 지키기 위해 유지. 길더라도 수식 대상이 바로 식별되는 조건·비유·병렬은 제외.",
+      "start": 7,
+      "number": 62,
+      "candidate_ids": []
+    },
+    {
+      "end": 18,
+      "file": "14-heonmun.json",
+      "judgment": "전체 문맥 독해. 현명한 사람이었으리라는 추정 등 수식은 추정의 출처·범위를 지키기 위해 유지. 길더라도 수식 대상이 바로 식별되는 조건·비유·병렬은 제외.",
+      "start": 13,
+      "number": 63,
+      "candidate_ids": []
+    },
+    {
+      "end": 24,
+      "file": "14-heonmun.json",
+      "judgment": "전체 문맥 독해. 현명한 사람이었으리라는 추정 등 수식은 추정의 출처·범위를 지키기 위해 유지. 길더라도 수식 대상이 바로 식별되는 조건·비유·병렬은 제외.",
+      "start": 19,
+      "number": 64,
+      "candidate_ids": []
+    },
+    {
+      "end": 30,
+      "file": "14-heonmun.json",
+      "judgment": "전체 문맥 독해. 현명한 사람이었으리라는 추정 등 수식은 추정의 출처·범위를 지키기 위해 유지. 길더라도 수식 대상이 바로 식별되는 조건·비유·병렬은 제외.",
+      "start": 25,
+      "number": 65,
+      "candidate_ids": []
+    },
+    {
+      "end": 36,
+      "file": "14-heonmun.json",
+      "judgment": "전체 문맥 독해. 현명한 사람이었으리라는 추정 등 수식은 추정의 출처·범위를 지키기 위해 유지. 길더라도 수식 대상이 바로 식별되는 조건·비유·병렬은 제외.",
+      "start": 31,
+      "number": 66,
+      "candidate_ids": []
+    },
+    {
+      "end": 42,
+      "file": "14-heonmun.json",
+      "judgment": "전체 문맥 독해. 현명한 사람이었으리라는 추정 등 수식은 추정의 출처·범위를 지키기 위해 유지. 길더라도 수식 대상이 바로 식별되는 조건·비유·병렬은 제외.",
+      "start": 37,
+      "number": 67,
+      "candidate_ids": []
+    },
+    {
+      "end": 47,
+      "file": "14-heonmun.json",
+      "judgment": "전체 문맥 독해. 현명한 사람이었으리라는 추정 등 수식은 추정의 출처·범위를 지키기 위해 유지. 길더라도 수식 대상이 바로 식별되는 조건·비유·병렬은 제외.",
+      "start": 43,
+      "number": 68,
+      "candidate_ids": []
+    },
+    {
+      "end": 6,
+      "file": "15-wiryeonggong.json",
+      "judgment": "전체 문맥 독해. 15-02 화살·새·이야기,16-08 지각절·이야기 중첩 후보. 장문 자체는 오류로 삼지 않음.",
+      "start": 1,
+      "number": 69,
+      "candidate_ids": [
+        "ly-15-02"
+      ]
+    },
+    {
+      "end": 12,
+      "file": "15-wiryeonggong.json",
+      "judgment": "전체 문맥 독해. 15-02 화살·새·이야기,16-08 지각절·이야기 중첩 후보. 장문 자체는 오류로 삼지 않음.",
+      "start": 7,
+      "number": 70,
+      "candidate_ids": []
+    },
+    {
+      "end": 18,
+      "file": "15-wiryeonggong.json",
+      "judgment": "전체 문맥 독해. 15-02 화살·새·이야기,16-08 지각절·이야기 중첩 후보. 장문 자체는 오류로 삼지 않음.",
+      "start": 13,
+      "number": 71,
+      "candidate_ids": []
+    },
+    {
+      "end": 24,
+      "file": "15-wiryeonggong.json",
+      "judgment": "전체 문맥 독해. 15-02 화살·새·이야기,16-08 지각절·이야기 중첩 후보. 장문 자체는 오류로 삼지 않음.",
+      "start": 19,
+      "number": 72,
+      "candidate_ids": []
+    },
+    {
+      "end": 30,
+      "file": "15-wiryeonggong.json",
+      "judgment": "전체 문맥 독해. 15-02 화살·새·이야기,16-08 지각절·이야기 중첩 후보. 장문 자체는 오류로 삼지 않음.",
+      "start": 25,
+      "number": 73,
+      "candidate_ids": []
+    },
+    {
+      "end": 36,
+      "file": "15-wiryeonggong.json",
+      "judgment": "전체 문맥 독해. 15-02 화살·새·이야기,16-08 지각절·이야기 중첩 후보. 장문 자체는 오류로 삼지 않음.",
+      "start": 31,
+      "number": 74,
+      "candidate_ids": []
+    },
+    {
+      "end": 41,
+      "file": "15-wiryeonggong.json",
+      "judgment": "전체 문맥 독해. 15-02 화살·새·이야기,16-08 지각절·이야기 중첩 후보. 장문 자체는 오류로 삼지 않음.",
+      "start": 37,
+      "number": 75,
+      "candidate_ids": []
+    },
+    {
+      "end": 6,
+      "file": "16-gyessi.json",
+      "judgment": "전체 문맥 독해. 15-02 화살·새·이야기,16-08 지각절·이야기 중첩 후보. 장문 자체는 오류로 삼지 않음.",
+      "start": 1,
+      "number": 76,
+      "candidate_ids": []
+    },
+    {
+      "end": 12,
+      "file": "16-gyessi.json",
+      "judgment": "전체 문맥 독해. 15-02 화살·새·이야기,16-08 지각절·이야기 중첩 후보. 장문 자체는 오류로 삼지 않음.",
+      "start": 7,
+      "number": 77,
+      "candidate_ids": [
+        "ly-16-08"
+      ]
+    },
+    {
+      "end": 14,
+      "file": "16-gyessi.json",
+      "judgment": "전체 문맥 독해. 15-02 화살·새·이야기,16-08 지각절·이야기 중첩 후보. 장문 자체는 오류로 삼지 않음.",
+      "start": 13,
+      "number": 78,
+      "candidate_ids": []
+    },
+    {
+      "end": 6,
+      "file": "17-yanghwa.json",
+      "judgment": "전체 문맥 독해. 17-24 세 겹 행동→덕목→태도 나열 후보. 17-01 예법 조건은 적용 범위 보존 위해 유지.",
+      "start": 1,
+      "number": 79,
+      "candidate_ids": []
+    },
+    {
+      "end": 12,
+      "file": "17-yanghwa.json",
+      "judgment": "전체 문맥 독해. 17-24 세 겹 행동→덕목→태도 나열 후보. 17-01 예법 조건은 적용 범위 보존 위해 유지.",
+      "start": 7,
+      "number": 80,
+      "candidate_ids": []
+    },
+    {
+      "end": 18,
+      "file": "17-yanghwa.json",
+      "judgment": "전체 문맥 독해. 17-24 세 겹 행동→덕목→태도 나열 후보. 17-01 예법 조건은 적용 범위 보존 위해 유지.",
+      "start": 13,
+      "number": 81,
+      "candidate_ids": []
+    },
+    {
+      "end": 24,
+      "file": "17-yanghwa.json",
+      "judgment": "전체 문맥 독해. 17-24 세 겹 행동→덕목→태도 나열 후보. 17-01 예법 조건은 적용 범위 보존 위해 유지.",
+      "start": 19,
+      "number": 82,
+      "candidate_ids": [
+        "ly-17-24"
+      ]
+    },
+    {
+      "end": 26,
+      "file": "17-yanghwa.json",
+      "judgment": "전체 문맥 독해. 17-24 세 겹 행동→덕목→태도 나열 후보. 17-01 예법 조건은 적용 범위 보존 위해 유지.",
+      "start": 25,
+      "number": 83,
+      "candidate_ids": []
+    },
+    {
+      "end": 6,
+      "file": "18-mija.json",
+      "judgment": "전체 문맥 독해. 19-09 조건·요청·뒤따름을 묶은 모습 수식 후보. 역사적 추정과 논어의 조건문·필요한 비유 유지. 요왈3 포함.",
+      "start": 1,
+      "number": 84,
+      "candidate_ids": []
+    },
+    {
+      "end": 11,
+      "file": "18-mija.json",
+      "judgment": "전체 문맥 독해. 19-09 조건·요청·뒤따름을 묶은 모습 수식 후보. 역사적 추정과 논어의 조건문·필요한 비유 유지. 요왈3 포함.",
+      "start": 7,
+      "number": 85,
+      "candidate_ids": []
+    },
+    {
+      "end": 6,
+      "file": "19-jajang.json",
+      "judgment": "전체 문맥 독해. 19-09 조건·요청·뒤따름을 묶은 모습 수식 후보. 역사적 추정과 논어의 조건문·필요한 비유 유지. 요왈3 포함.",
+      "start": 1,
+      "number": 86,
+      "candidate_ids": []
+    },
+    {
+      "end": 12,
+      "file": "19-jajang.json",
+      "judgment": "전체 문맥 독해. 19-09 조건·요청·뒤따름을 묶은 모습 수식 후보. 역사적 추정과 논어의 조건문·필요한 비유 유지. 요왈3 포함.",
+      "start": 7,
+      "number": 87,
+      "candidate_ids": [
+        "ly-19-09"
+      ]
+    },
+    {
+      "end": 18,
+      "file": "19-jajang.json",
+      "judgment": "전체 문맥 독해. 19-09 조건·요청·뒤따름을 묶은 모습 수식 후보. 역사적 추정과 논어의 조건문·필요한 비유 유지. 요왈3 포함.",
+      "start": 13,
+      "number": 88,
+      "candidate_ids": []
+    },
+    {
+      "end": 24,
+      "file": "19-jajang.json",
+      "judgment": "전체 문맥 독해. 19-09 조건·요청·뒤따름을 묶은 모습 수식 후보. 역사적 추정과 논어의 조건문·필요한 비유 유지. 요왈3 포함.",
+      "start": 19,
+      "number": 89,
+      "candidate_ids": []
+    },
+    {
+      "end": 25,
+      "file": "19-jajang.json",
+      "judgment": "전체 문맥 독해. 19-09 조건·요청·뒤따름을 묶은 모습 수식 후보. 역사적 추정과 논어의 조건문·필요한 비유 유지. 요왈3 포함.",
+      "start": 25,
+      "number": 90,
+      "candidate_ids": []
+    },
+    {
+      "end": 3,
+      "file": "20-yowal.json",
+      "judgment": "전체 문맥 독해. 19-09 조건·요청·뒤따름을 묶은 모습 수식 후보. 역사적 추정과 논어의 조건문·필요한 비유 유지. 요왈3 포함.",
+      "start": 1,
+      "number": 91,
+      "candidate_ids": []
+    }
+  ],
+  "initial_candidate_ids": [
+    "ly-01-12",
+    "ly-02-18",
+    "ly-03-26",
+    "ly-06-16",
+    "ly-07-09",
+    "ly-07-17",
+    "ly-07-29",
+    "ly-09-30",
+    "ly-11-03",
+    "ly-11-17",
+    "ly-12-18",
+    "ly-13-05",
+    "ly-15-02",
+    "ly-16-08",
+    "ly-17-24",
+    "ly-19-09"
+  ],
+  "final_candidate_ids": [
+    "ly-02-18",
+    "ly-03-26",
+    "ly-06-16",
+    "ly-07-09",
+    "ly-07-17",
+    "ly-07-29",
+    "ly-09-30",
+    "ly-11-03",
+    "ly-11-17",
+    "ly-12-18",
+    "ly-13-05",
+    "ly-15-02",
+    "ly-19-09"
+  ],
+  "excluded": [
+    {
+      "id": "ly-01-12",
+      "reason": "순서도 있었다를 앉았다·나누기도 했다로 바꾸면 예식의 절차 설명이 실제 행동이나 선택적 행동처럼 달라질 수 있음. 원문 유지."
+    },
+    {
+      "id": "ly-16-08",
+      "reason": "앞 문장에서 행위자가 분명하며 다가·보고가 이미 사건을 자연스럽게 이음. 한 무제 반복과 따르면 전환만으로 얻는 이점이 작음."
+    },
+    {
+      "id": "ly-17-24",
+      "reason": "행동을 덕목으로 오인하는 세 가지를 같은 구조로 나열한 문장. 둘과 하나로 나누면 균형이 깨지고 태도를 들었습니다가 반복됨. 승인 명사화 반영본 유지."
+    }
+  ],
+  "final_evaluation": {
+    "all_candidates_compared_with_full_context": true,
+    "changes_not_applied": true,
+    "principles": [
+      "관형절의 길이만으로 오류 판정하지 않음",
+      "자연스러운 인물 설명·병렬·조건·원전 비유 유지",
+      "복수 인용과 중첩 수식으로 서술이 늦어지는 곳만 제안",
+      "또·그러나·이 역시·그래서·그런 뒤에 및 기존 연결 어미로 관계 보존",
+      "문헌 귀속·추정·조건·인과·행동의 실제 여부 보존"
+    ],
+    "adjustments": [
+      "팔일26 '-았는데' 대조 복원",
+      "옹야16 중복 주제 조사 조정",
+      "자한30 원문의 문헌 정보 순서 유지",
+      "선진3 '편에서도' 추가 관계 유지"
+    ]
+  },
+  "validation": {
+    "body_count": 20,
+    "chapter_count": 498,
+    "unique_ids": 498,
+    "hyangdang_chapters": 17,
+    "yowal_chapters": 3,
+    "exact_before_match": 13,
+    "proposals_unique": 13,
+    "protected_fields_unmodified": true,
+    "pre_upload_body_sha_unchanged": true
+  },
+  "upload_main": "945967b246bdb7e10bde09e7b5fd9a9803325fcf"
+}
