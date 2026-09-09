@@ -412,7 +412,7 @@
     },
     {
       "book_count": 20,
-      "changed": 366,
+      "changed": 367,
       "labels_preserved": true,
       "method": "전 항목에서 문체 패턴으로 후보를 찾아 후보 문장의 문맥을 확인하는 선별 교정.",
       "name": "한자풀이",
@@ -581,20 +581,20 @@
           "scanned_text_fields": 15
         }
       ],
-      "status": "approved_long_sentence_connectives_3_applied",
+      "status": "approved_long_sentence_connectives_4_applied",
       "text_fields": 2311,
-      "unchanged": 1945,
+      "unchanged": 1944,
       "unique_cards": 498,
       "latest_style_pass": {
-        "pass": "long_sentence_connectives_3",
-        "approved_applied": 2,
+        "pass": "long_sentence_connectives_4",
+        "approved_applied": 1,
         "reviewed": 2311,
-        "method": "20편 revised 6,921개 검색. 최장 문장 68~69자인 새 후보 106개 전체 문맥 검토 후 승인된 8곳 반영. 연결어·지시어·접속사로 앞뒤 관계와 주체를 명확히 함. 전체 문구 정독 아님."
+        "method": "20편 revised 6,921개 검색. 최장 문장 65~67자인 새 후보 206개 전체 문맥 검토 후 승인된 8곳 반영. 연결어·지시어·접속사로 앞뒤 관계와 주체를 명확히 함. 전체 문구 정독 아님. 위정 6장 의문 답변 첫 문장의 주어·서술어 의미 호응 오류는 사용자 지적을 반영해 함께 수정함."
       }
     },
     {
       "book_count": 20,
-      "changed": 282,
+      "changed": 283,
       "labels_preserved": true,
       "method": "전 항목에서 문체 패턴으로 후보를 찾아 후보 문장의 문맥을 확인하는 선별 교정.",
       "name": "의문",
@@ -763,20 +763,20 @@
           "scanned_text_fields": 18
         }
       ],
-      "status": "approved_long_sentence_connectives_3_applied",
+      "status": "approved_long_sentence_connectives_4_applied",
       "text_fields": 3072,
-      "unchanged": 2790,
+      "unchanged": 2789,
       "unique_cards": 498,
       "latest_style_pass": {
-        "pass": "long_sentence_connectives_3",
-        "approved_applied": 2,
+        "pass": "long_sentence_connectives_4",
+        "approved_applied": 1,
         "reviewed": 3072,
-        "method": "20편 revised 6,921개 검색. 최장 문장 68~69자인 새 후보 106개 전체 문맥 검토 후 승인된 8곳 반영. 연결어·지시어·접속사로 앞뒤 관계와 주체를 명확히 함. 전체 문구 정독 아님."
+        "method": "20편 revised 6,921개 검색. 최장 문장 65~67자인 새 후보 206개 전체 문맥 검토 후 승인된 8곳 반영. 연결어·지시어·접속사로 앞뒤 관계와 주체를 명확히 함. 전체 문구 정독 아님. 위정 6장 의문 답변 첫 문장의 주어·서술어 의미 호응 오류는 사용자 지적을 반영해 함께 수정함."
       }
     },
     {
       "book_count": 20,
-      "changed": 235,
+      "changed": 240,
       "labels_preserved": true,
       "method": "전 항목에서 문체 패턴으로 후보를 찾아 후보 문장의 문맥을 확인하는 선별 교정.",
       "name": "쟁점",
@@ -945,32 +945,32 @@
           "scanned_text_fields": 8
         }
       ],
-      "status": "approved_long_sentence_connectives_3_applied",
+      "status": "approved_long_sentence_connectives_4_applied",
       "text_fields": 1040,
-      "unchanged": 805,
+      "unchanged": 800,
       "unique_cards": 498,
       "latest_style_pass": {
-        "pass": "long_sentence_connectives_3",
-        "approved_applied": 4,
+        "pass": "long_sentence_connectives_4",
+        "approved_applied": 6,
         "reviewed": 1040,
-        "method": "20편 revised 6,921개 검색. 최장 문장 68~69자인 새 후보 106개 전체 문맥 검토 후 승인된 8곳 반영. 연결어·지시어·접속사로 앞뒤 관계와 주체를 명확히 함. 전체 문구 정독 아님."
+        "method": "20편 revised 6,921개 검색. 최장 문장 65~67자인 새 후보 206개 전체 문맥 검토 후 승인된 8곳 반영. 연결어·지시어·접속사로 앞뒤 관계와 주체를 명확히 함. 전체 문구 정독 아님. 위정 6장 의문 답변 첫 문장의 주어·서술어 의미 호응 오류는 사용자 지적을 반영해 함께 수정함."
       }
     }
   ],
-  "status": "approved_long_sentence_connectives_3_applied",
-  "total_changed_text_fields": 1249,
+  "status": "approved_long_sentence_connectives_4_applied",
+  "total_changed_text_fields": 1256,
   "last_completed_pass": {
     "existing14_verified_commit": "b638c7ae2a82dd31d96dba17116f3e85d4d2272b",
     "type": 15,
     "scope": "지나치게 긴 문장 — 연결어·지시어·접속사 보완",
     "status": "approved_applied",
     "scanned": 6921,
-    "matched_fields": 106,
-    "context_reviewed": 106,
+    "matched_fields": 206,
+    "context_reviewed": 206,
     "approved_applied": 8,
-    "retained": 98,
-    "approval_message": "아마 기존 8곳은 다른곳에서 반영했을거야 혹시모르니 확인해보고 네가 말한것도 제이슨 반영",
-    "method": "20편 revised 6,921개 검색. 최장 문장 68~69자인 새 후보 106개 전체 문맥 검토 후 승인된 8곳 반영. 연결어·지시어·접속사로 앞뒤 관계와 주체를 명확히 함. 전체 문구 정독 아님.",
+    "retained": 198,
+    "approval_message": "제이슨 반영하고 , 병은 스스로 완전히 피하기 어려운 걱정입니다.>> 근데 이런 거 지금 이것도 문자 이상한 문자이거든 이런 거 어떤 유형이라고 봐야 되냐 이거 지금 말도 안 되잖아. 지금 병은 어려운 걱정입니다. 이게 무슨 소리야, 이거 말도 안 되잖아.",
+    "method": "20편 revised 6,921개 검색. 최장 문장 65~67자인 새 후보 206개 전체 문맥 검토 후 승인된 8곳 반영. 연결어·지시어·접속사로 앞뒤 관계와 주체를 명확히 함. 전체 문구 정독 아님. 위정 6장 의문 답변 첫 문장의 주어·서술어 의미 호응 오류는 사용자 지적을 반영해 함께 수정함.",
     "previous_type16_followup6_9": "not_approved_do_not_apply"
   },
   "targeted_reviews": [
@@ -2324,6 +2324,20 @@
       "retained": 98,
       "approval_message": "아마 기존 8곳은 다른곳에서 반영했을거야 혹시모르니 확인해보고 네가 말한것도 제이슨 반영",
       "method": "20편 revised 6,921개 검색. 최장 문장 68~69자인 새 후보 106개 전체 문맥 검토 후 승인된 8곳 반영. 연결어·지시어·접속사로 앞뒤 관계와 주체를 명확히 함. 전체 문구 정독 아님.",
+      "previous_type16_followup6_9": "not_approved_do_not_apply"
+    },
+    {
+      "existing14_verified_commit": "b638c7ae2a82dd31d96dba17116f3e85d4d2272b",
+      "type": 15,
+      "scope": "지나치게 긴 문장 — 연결어·지시어·접속사 보완",
+      "status": "approved_applied",
+      "scanned": 6921,
+      "matched_fields": 206,
+      "context_reviewed": 206,
+      "approved_applied": 8,
+      "retained": 198,
+      "approval_message": "제이슨 반영하고 , 병은 스스로 완전히 피하기 어려운 걱정입니다.>> 근데 이런 거 지금 이것도 문자 이상한 문자이거든 이런 거 어떤 유형이라고 봐야 되냐 이거 지금 말도 안 되잖아. 지금 병은 어려운 걱정입니다. 이게 무슨 소리야, 이거 말도 안 되잖아.",
+      "method": "20편 revised 6,921개 검색. 최장 문장 65~67자인 새 후보 206개 전체 문맥 검토 후 승인된 8곳 반영. 연결어·지시어·접속사로 앞뒤 관계와 주체를 명확히 함. 전체 문구 정독 아님. 위정 6장 의문 답변 첫 문장의 주어·서술어 의미 호응 오류는 사용자 지적을 반영해 함께 수정함.",
       "previous_type16_followup6_9": "not_approved_do_not_apply"
     }
   ]
