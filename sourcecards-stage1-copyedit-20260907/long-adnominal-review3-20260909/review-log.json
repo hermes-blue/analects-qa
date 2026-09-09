@@ -1,0 +1,1657 @@
+{
+  "review_type": "지나치게 긴 관형절·겹친 수식",
+  "review_round": 3,
+  "date": "2026-09-09",
+  "status": "검수 완료 · 추가 제안 없음",
+  "repository": "hermes-blue/analects-qa",
+  "branch": "main",
+  "body_directory": "sourcecards-stage1-copyedit-20260907/round3/",
+  "body_field": "장[].수정본문",
+  "source_main_checked_before_publication": "f7d96cda80ff35597176e20a1c2fde58c9ed5b90",
+  "total_books": 20,
+  "total_chapters": 498,
+  "batch_count": 91,
+  "coverage": {
+    "order": "학이→요왈",
+    "full_chapter_context_read": true,
+    "unique_ids": 498,
+    "omitted_ids": [],
+    "duplicate_ids": []
+  },
+  "criteria": [
+    "길이 자체를 오류로 보지 않습니다.",
+    "긴 관형절·겹친 수식 때문에 인물, 대상, 핵심 서술을 다시 읽어야 하는지 판단합니다.",
+    "연결어가 나타내는 대조, 조건, 인과, 순서를 유지합니다.",
+    "인용·전승·주석의 범위를 보존하고 추정이나 가능성을 실제 행적으로 바꾸지 않습니다.",
+    "자연스러운 병렬과 필요한 정의는 유지하며 같은 인물 소개가 반복되는 대안은 채택하지 않습니다.",
+    "이전 제외 판단을 유지하고 수정 수를 채우기 위해 기준을 넓히지 않습니다."
+  ],
+  "previous_approved_changes": {
+    "count": 3,
+    "ids": [
+      "ly-07-36",
+      "ly-11-04",
+      "ly-16-09"
+    ],
+    "status": "반영 완료",
+    "completion_path": "sourcecards-stage1-copyedit-20260907/long-adnominal-review2-20260909/completion.json"
+  },
+  "body_files": [
+    {
+      "path": "sourcecards-stage1-copyedit-20260907/round3/01-hakyi.json",
+      "sha": "96c5ffdfbf4ee3c6116ad1f3cbe7fc000fb37f97",
+      "matches_reviewed_body": true
+    },
+    {
+      "path": "sourcecards-stage1-copyedit-20260907/round3/02-wijeong.json",
+      "sha": "e4078b066a43801892a09de2bf43aac79956ee8d",
+      "matches_reviewed_body": true
+    },
+    {
+      "path": "sourcecards-stage1-copyedit-20260907/round3/03-palil.json",
+      "sha": "27597088af76a82376d8b29f8239e9df7b5fefeb",
+      "matches_reviewed_body": true
+    },
+    {
+      "path": "sourcecards-stage1-copyedit-20260907/round3/04-iin.json",
+      "sha": "63015b48ff2e358175fd599b9c0d02a74bdd89ec",
+      "matches_reviewed_body": true
+    },
+    {
+      "path": "sourcecards-stage1-copyedit-20260907/round3/05-gongyajang.json",
+      "sha": "6711b3c57260a2509c0bd517b33e957196644d73",
+      "matches_reviewed_body": true
+    },
+    {
+      "path": "sourcecards-stage1-copyedit-20260907/round3/06-yongya.json",
+      "sha": "77a1ee021ef8eb4743b93c6cfac5a376c34720a4",
+      "matches_reviewed_body": true
+    },
+    {
+      "path": "sourcecards-stage1-copyedit-20260907/round3/07-suli.json",
+      "sha": "ecb673556df2c9f7cc5149f8ccf0813f4321cbd7",
+      "matches_reviewed_body": true
+    },
+    {
+      "path": "sourcecards-stage1-copyedit-20260907/round3/08-taebaek.json",
+      "sha": "8d411e0040aa5c71d4ba72914a676fc61ef12cf2",
+      "matches_reviewed_body": true
+    },
+    {
+      "path": "sourcecards-stage1-copyedit-20260907/round3/09-jahan.json",
+      "sha": "6d02f2dd63b5ae5421144f28e452f036ef564a94",
+      "matches_reviewed_body": true
+    },
+    {
+      "path": "sourcecards-stage1-copyedit-20260907/round3/10-hyangdang.json",
+      "sha": "d169fcc0be6deed9ff2e59271796925bc927d522",
+      "matches_reviewed_body": true
+    },
+    {
+      "path": "sourcecards-stage1-copyedit-20260907/round3/11-seonjin.json",
+      "sha": "6e669ecd28ef75f6bf3c77715c8c28560a89d6bd",
+      "matches_reviewed_body": true
+    },
+    {
+      "path": "sourcecards-stage1-copyedit-20260907/round3/12-anyeon.json",
+      "sha": "d82c22b063eba5dd3f6c463b0ede2bd8805ffc0d",
+      "matches_reviewed_body": true
+    },
+    {
+      "path": "sourcecards-stage1-copyedit-20260907/round3/13-jaro.json",
+      "sha": "7e84cb4bd47a873058abdd77c777555b6acd3fb6",
+      "matches_reviewed_body": true
+    },
+    {
+      "path": "sourcecards-stage1-copyedit-20260907/round3/14-heonmun.json",
+      "sha": "9a90983c37942d857a431d19984faad435388706",
+      "matches_reviewed_body": true
+    },
+    {
+      "path": "sourcecards-stage1-copyedit-20260907/round3/15-wiryeonggong.json",
+      "sha": "594a2c1f6b4311cb525ee799c3df3aaab5337687",
+      "matches_reviewed_body": true
+    },
+    {
+      "path": "sourcecards-stage1-copyedit-20260907/round3/16-gyessi.json",
+      "sha": "3c2054d92e63719d2bb072d7adda79cbfa66d767",
+      "matches_reviewed_body": true
+    },
+    {
+      "path": "sourcecards-stage1-copyedit-20260907/round3/17-yanghwa.json",
+      "sha": "81d96049c5c2bd1c12769e6e05073dc7cc6a7448",
+      "matches_reviewed_body": true
+    },
+    {
+      "path": "sourcecards-stage1-copyedit-20260907/round3/18-mija.json",
+      "sha": "36aa367146677874a8a3170b9c735416816e212f",
+      "matches_reviewed_body": true
+    },
+    {
+      "path": "sourcecards-stage1-copyedit-20260907/round3/19-jajang.json",
+      "sha": "17b30b72c2f292659501106e1a5c55e6edff9292",
+      "matches_reviewed_body": true
+    },
+    {
+      "path": "sourcecards-stage1-copyedit-20260907/round3/20-yowal.json",
+      "sha": "adf1b1f363740361dbc52878b0a802d4e5d4dbcc",
+      "matches_reviewed_body": true
+    }
+  ],
+  "batches": [
+    {
+      "book": 1,
+      "end": 6,
+      "judgment": "스승·제자와 배움 수식 명확",
+      "start": 1,
+      "batch": 1,
+      "ids": [
+        "ly-01-01",
+        "ly-01-02",
+        "ly-01-03",
+        "ly-01-04",
+        "ly-01-05",
+        "ly-01-06"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 1,
+      "end": 12,
+      "judgment": "예식의 순서를 실제 행위로 바꾸지 않음",
+      "start": 7,
+      "batch": 2,
+      "ids": [
+        "ly-01-07",
+        "ly-01-08",
+        "ly-01-09",
+        "ly-01-10",
+        "ly-01-11",
+        "ly-01-12"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 1,
+      "end": 16,
+      "judgment": "1-14 이전 제외 판단 유지, 반복을 늘리지 않음",
+      "start": 13,
+      "batch": 3,
+      "ids": [
+        "ly-01-13",
+        "ly-01-14",
+        "ly-01-15",
+        "ly-01-16"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 2,
+      "end": 6,
+      "judgment": "왕조·부자 관계의 수식 범위 명확",
+      "start": 1,
+      "batch": 4,
+      "ids": [
+        "ly-02-01",
+        "ly-02-02",
+        "ly-02-03",
+        "ly-02-04",
+        "ly-02-05",
+        "ly-02-06"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 2,
+      "end": 12,
+      "judgment": "예법 조건과 대조 유지",
+      "start": 7,
+      "batch": 5,
+      "ids": [
+        "ly-02-07",
+        "ly-02-08",
+        "ly-02-09",
+        "ly-02-10",
+        "ly-02-11",
+        "ly-02-12"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 2,
+      "end": 18,
+      "judgment": "인용 대상·전승 범위 명확",
+      "start": 13,
+      "batch": 6,
+      "ids": [
+        "ly-02-13",
+        "ly-02-14",
+        "ly-02-15",
+        "ly-02-16",
+        "ly-02-17",
+        "ly-02-18"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 2,
+      "end": 24,
+      "judgment": "수레 비유와 제사 자격의 수식은 필요",
+      "start": 19,
+      "batch": 7,
+      "ids": [
+        "ly-02-19",
+        "ly-02-20",
+        "ly-02-21",
+        "ly-02-22",
+        "ly-02-23",
+        "ly-02-24"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 3,
+      "end": 6,
+      "judgment": "제사·노래 인용 대상 명확",
+      "start": 1,
+      "batch": 8,
+      "ids": [
+        "ly-03-01",
+        "ly-03-02",
+        "ly-03-03",
+        "ly-03-04",
+        "ly-03-05",
+        "ly-03-06"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 3,
+      "end": 12,
+      "judgment": "후손·제사 주체, 은주 비교 수식 유지",
+      "start": 7,
+      "batch": 9,
+      "ids": [
+        "ly-03-07",
+        "ly-03-08",
+        "ly-03-09",
+        "ly-03-10",
+        "ly-03-11",
+        "ly-03-12"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 3,
+      "end": 18,
+      "judgment": "활쏘기·예법의 조건을 살려 읽음",
+      "start": 13,
+      "batch": 10,
+      "ids": [
+        "ly-03-13",
+        "ly-03-14",
+        "ly-03-15",
+        "ly-03-16",
+        "ly-03-17",
+        "ly-03-18"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 3,
+      "end": 24,
+      "judgment": "공경·왕위 비유는 필요한 설명",
+      "start": 19,
+      "batch": 11,
+      "ids": [
+        "ly-03-19",
+        "ly-03-20",
+        "ly-03-21",
+        "ly-03-22",
+        "ly-03-23",
+        "ly-03-24"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 3,
+      "end": 26,
+      "judgment": "상중 음악 사례의 연결 원활",
+      "start": 25,
+      "batch": 12,
+      "ids": [
+        "ly-03-25",
+        "ly-03-26"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 4,
+      "end": 6,
+      "judgment": "가정과 주석의 유보 명확",
+      "start": 1,
+      "batch": 13,
+      "ids": [
+        "ly-04-01",
+        "ly-04-02",
+        "ly-04-03",
+        "ly-04-04",
+        "ly-04-05",
+        "ly-04-06"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 4,
+      "end": 12,
+      "judgment": "4-11 후임이 이어받는 일 수식은 문맥상 자연스러움",
+      "start": 7,
+      "batch": 14,
+      "ids": [
+        "ly-04-07",
+        "ly-04-08",
+        "ly-04-09",
+        "ly-04-10",
+        "ly-04-11",
+        "ly-04-12"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 4,
+      "end": 18,
+      "judgment": "효·충고의 조건 범위 유지",
+      "start": 13,
+      "batch": 15,
+      "ids": [
+        "ly-04-13",
+        "ly-04-14",
+        "ly-04-15",
+        "ly-04-16",
+        "ly-04-17",
+        "ly-04-18"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 4,
+      "end": 24,
+      "judgment": "노인 예우와 시구의 수식 명확",
+      "start": 19,
+      "batch": 16,
+      "ids": [
+        "ly-04-19",
+        "ly-04-20",
+        "ly-04-21",
+        "ly-04-22",
+        "ly-04-23",
+        "ly-04-24"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 4,
+      "end": 26,
+      "judgment": "벗의 충고 조건은 분리 불필요",
+      "start": 25,
+      "batch": 17,
+      "ids": [
+        "ly-04-25",
+        "ly-04-26"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 5,
+      "end": 6,
+      "judgment": "인용 뒤 공자의 말 수식 자연스러움",
+      "start": 1,
+      "batch": 18,
+      "ids": [
+        "ly-05-01",
+        "ly-05-02",
+        "ly-05-03",
+        "ly-05-04",
+        "ly-05-05",
+        "ly-05-06"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 5,
+      "end": 12,
+      "judgment": "세 인재의 능력과 학습 비교 병렬 유지",
+      "start": 7,
+      "batch": 19,
+      "ids": [
+        "ly-05-07",
+        "ly-05-08",
+        "ly-05-09",
+        "ly-05-10",
+        "ly-05-11",
+        "ly-05-12"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 5,
+      "end": 18,
+      "judgment": "주희 풀이의 인과와 인물관계 보존",
+      "start": 13,
+      "batch": 20,
+      "ids": [
+        "ly-05-13",
+        "ly-05-14",
+        "ly-05-15",
+        "ly-05-16",
+        "ly-05-17",
+        "ly-05-18"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 5,
+      "end": 24,
+      "judgment": "추정과 전승 구별, 새 수식 문제 없음",
+      "start": 19,
+      "batch": 21,
+      "ids": [
+        "ly-05-19",
+        "ly-05-20",
+        "ly-05-21",
+        "ly-05-22",
+        "ly-05-23",
+        "ly-05-24"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 5,
+      "end": 27,
+      "judgment": "학습 태도의 병렬 묘사 유지",
+      "start": 25,
+      "batch": 22,
+      "ids": [
+        "ly-05-25",
+        "ly-05-26",
+        "ly-05-27"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 6,
+      "end": 6,
+      "judgment": "두 사람 대조와 가정 명확",
+      "start": 1,
+      "batch": 23,
+      "ids": [
+        "ly-06-01",
+        "ly-06-02",
+        "ly-06-03",
+        "ly-06-04",
+        "ly-06-05",
+        "ly-06-06"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 6,
+      "end": 12,
+      "judgment": "문수·병상·습관 수식은 필요한 정보",
+      "start": 7,
+      "batch": 24,
+      "ids": [
+        "ly-06-07",
+        "ly-06-08",
+        "ly-06-09",
+        "ly-06-10",
+        "ly-06-11",
+        "ly-06-12"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 6,
+      "end": 18,
+      "judgment": "군사 후위·외교·예절에서 주어 연결 명확",
+      "start": 13,
+      "batch": 25,
+      "ids": [
+        "ly-06-13",
+        "ly-06-14",
+        "ly-06-15",
+        "ly-06-16",
+        "ly-06-17",
+        "ly-06-18"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 6,
+      "end": 24,
+      "judgment": "6-21 산물 병렬 비유는 쪼개지 않음",
+      "start": 19,
+      "batch": 26,
+      "ids": [
+        "ly-06-19",
+        "ly-06-20",
+        "ly-06-21",
+        "ly-06-22",
+        "ly-06-23",
+        "ly-06-24"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 6,
+      "end": 28,
+      "judgment": "조건별 능력과 도리 설명 유지",
+      "start": 25,
+      "batch": 27,
+      "ids": [
+        "ly-06-25",
+        "ly-06-26",
+        "ly-06-27",
+        "ly-06-28"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 7,
+      "end": 6,
+      "judgment": "주공·예악 인용 수식과 반전의 연결 확인",
+      "start": 1,
+      "batch": 28,
+      "ids": [
+        "ly-07-01",
+        "ly-07-02",
+        "ly-07-03",
+        "ly-07-04",
+        "ly-07-05",
+        "ly-07-06"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 7,
+      "end": 12,
+      "judgment": "예물·예법 조건 유지",
+      "start": 7,
+      "batch": 29,
+      "ids": [
+        "ly-07-07",
+        "ly-07-08",
+        "ly-07-09",
+        "ly-07-10",
+        "ly-07-11",
+        "ly-07-12"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 7,
+      "end": 18,
+      "judgment": "시·주역·섭공 묘사의 인용 범위 유지",
+      "start": 13,
+      "batch": 30,
+      "ids": [
+        "ly-07-13",
+        "ly-07-14",
+        "ly-07-15",
+        "ly-07-16",
+        "ly-07-17",
+        "ly-07-18"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 7,
+      "end": 24,
+      "judgment": "7-24 긴 가정은 바탕/행동 대조 명확",
+      "start": 19,
+      "batch": 31,
+      "ids": [
+        "ly-07-19",
+        "ly-07-20",
+        "ly-07-21",
+        "ly-07-22",
+        "ly-07-23",
+        "ly-07-24"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 7,
+      "end": 30,
+      "judgment": "옛시와 혼인 사례 주체 명확",
+      "start": 25,
+      "batch": 32,
+      "ids": [
+        "ly-07-25",
+        "ly-07-26",
+        "ly-07-27",
+        "ly-07-28",
+        "ly-07-29",
+        "ly-07-30"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 7,
+      "end": 36,
+      "judgment": "7-36 승인 반영 뒤 인과·주희 설명 연결 원활",
+      "start": 31,
+      "batch": 33,
+      "ids": [
+        "ly-07-31",
+        "ly-07-32",
+        "ly-07-33",
+        "ly-07-34",
+        "ly-07-35",
+        "ly-07-36"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 7,
+      "end": 37,
+      "judgment": "세 쌍의 인상 병렬 유지",
+      "start": 37,
+      "batch": 34,
+      "ids": [
+        "ly-07-37"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 8,
+      "end": 6,
+      "judgment": "손발·유비·친구 평가 수식 명확",
+      "start": 1,
+      "batch": 35,
+      "ids": [
+        "ly-08-01",
+        "ly-08-02",
+        "ly-08-03",
+        "ly-08-04",
+        "ly-08-05",
+        "ly-08-06"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 8,
+      "end": 12,
+      "judgment": "8-12 인용 속 풀이 범위 유지",
+      "start": 7,
+      "batch": 36,
+      "ids": [
+        "ly-08-07",
+        "ly-08-08",
+        "ly-08-09",
+        "ly-08-10",
+        "ly-08-11",
+        "ly-08-12"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 8,
+      "end": 18,
+      "judgment": "8-13 조건별 가능성,8-16 병렬 덕목 유지",
+      "start": 13,
+      "batch": 37,
+      "ids": [
+        "ly-08-13",
+        "ly-08-14",
+        "ly-08-15",
+        "ly-08-16",
+        "ly-08-17",
+        "ly-08-18"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 8,
+      "end": 21,
+      "judgment": "농사·요임금·우의 공적 서술 명확",
+      "start": 19,
+      "batch": 38,
+      "ids": [
+        "ly-08-19",
+        "ly-08-20",
+        "ly-08-21"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 9,
+      "end": 6,
+      "judgment": "전언과 용어 풀이의 수식 대상이 분명하여 유지했습니다.",
+      "start": 1,
+      "batch": 39,
+      "ids": [
+        "ly-09-01",
+        "ly-09-02",
+        "ly-09-03",
+        "ly-09-04",
+        "ly-09-05",
+        "ly-09-06"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 9,
+      "end": 12,
+      "judgment": "9장 8절은 배움의 적용을 기다린 공자를 가리키며, 분리할 때 주어가 거듭되어 유지했습니다.",
+      "start": 7,
+      "batch": 40,
+      "ids": [
+        "ly-09-07",
+        "ly-09-08",
+        "ly-09-09",
+        "ly-09-10",
+        "ly-09-11",
+        "ly-09-12"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 9,
+      "end": 18,
+      "judgment": "9장 13절은 상반된 두 생각을 대등하게 제시하므로 유지했습니다.",
+      "start": 13,
+      "batch": 41,
+      "ids": [
+        "ly-09-13",
+        "ly-09-14",
+        "ly-09-15",
+        "ly-09-16",
+        "ly-09-17",
+        "ly-09-18"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 9,
+      "end": 24,
+      "judgment": "회상과 늦게 배우는 가정의 범위를 유지했습니다.",
+      "start": 19,
+      "batch": 42,
+      "ids": [
+        "ly-09-19",
+        "ly-09-20",
+        "ly-09-21",
+        "ly-09-22",
+        "ly-09-23",
+        "ly-09-24"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 9,
+      "end": 30,
+      "judgment": "9장 28절의 세 덕목 병렬과 29절의 조건을 유지했습니다.",
+      "start": 25,
+      "batch": 43,
+      "ids": [
+        "ly-09-25",
+        "ly-09-26",
+        "ly-09-27",
+        "ly-09-28",
+        "ly-09-29",
+        "ly-09-30"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 10,
+      "end": 6,
+      "judgment": "자리별 예절과 규를 든 사신 설명에서 수식 대상이 분명했습니다.",
+      "start": 1,
+      "batch": 44,
+      "ids": [
+        "ly-10-01",
+        "ly-10-02",
+        "ly-10-03",
+        "ly-10-04",
+        "ly-10-05",
+        "ly-10-06"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 10,
+      "end": 12,
+      "judgment": "예서의 절차와 실제 행적을 구분하는 접속 관계를 유지했습니다.",
+      "start": 7,
+      "batch": 45,
+      "ids": [
+        "ly-10-07",
+        "ly-10-08",
+        "ly-10-09",
+        "ly-10-10",
+        "ly-10-11",
+        "ly-10-12"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 10,
+      "end": 17,
+      "judgment": "14절의 관습 예시와 17절의 승차 절차가 길지 않고 순서가 명확했습니다.",
+      "start": 13,
+      "batch": 46,
+      "ids": [
+        "ly-10-13",
+        "ly-10-14",
+        "ly-10-15",
+        "ly-10-16",
+        "ly-10-17"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 11,
+      "end": 6,
+      "judgment": "11장 4절의 승인 반영문을 문맥과 대조했습니다. 후대 전승의 범위를 보존했고 새 수식 중첩은 없습니다.",
+      "start": 1,
+      "batch": 47,
+      "ids": [
+        "ly-11-01",
+        "ly-11-02",
+        "ly-11-03",
+        "ly-11-04",
+        "ly-11-05",
+        "ly-11-06"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 11,
+      "end": 12,
+      "judgment": "애도와 예절의 설명은 조건·대조를 유지해야 하며 수식 대상을 다시 찾을 정도로 길지 않습니다.",
+      "start": 7,
+      "batch": 48,
+      "ids": [
+        "ly-11-07",
+        "ly-11-08",
+        "ly-11-09",
+        "ly-11-10",
+        "ly-11-11",
+        "ly-11-12"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 11,
+      "end": 18,
+      "judgment": "15절의 제자 성향 비교, 17절의 문지기 설명은 인물 관계가 분명합니다.",
+      "start": 13,
+      "batch": 49,
+      "ids": [
+        "ly-11-13",
+        "ly-11-14",
+        "ly-11-15",
+        "ly-11-16",
+        "ly-11-17",
+        "ly-11-18"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 11,
+      "end": 24,
+      "judgment": "21절의 자로 질문은 문장 앞에 놓여 답과 직접 이어집니다. 23절의 큰 신하 정의는 필요한 수식입니다.",
+      "start": 19,
+      "batch": 50,
+      "ids": [
+        "ly-11-19",
+        "ly-11-20",
+        "ly-11-21",
+        "ly-11-22",
+        "ly-11-23",
+        "ly-11-24"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 11,
+      "end": 25,
+      "judgment": "제자 포부와 양보 없는 말투의 대비를 유지했습니다.",
+      "start": 25,
+      "batch": 51,
+      "ids": [
+        "ly-11-25"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 12,
+      "end": 6,
+      "judgment": "4절의 규 정의는 병렬 목적어와 인물 행적을 혼동시키지 않아 유지했습니다. 5절 위로의 대상도 분명합니다.",
+      "start": 1,
+      "batch": 52,
+      "ids": [
+        "ly-12-01",
+        "ly-12-02",
+        "ly-12-03",
+        "ly-12-04",
+        "ly-12-05",
+        "ly-12-06"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 12,
+      "end": 12,
+      "judgment": "송사 신뢰·세금 감축·임금 역할을 설명하는 조건과 인용을 보존했습니다.",
+      "start": 7,
+      "batch": 53,
+      "ids": [
+        "ly-12-07",
+        "ly-12-08",
+        "ly-12-09",
+        "ly-12-10",
+        "ly-12-11",
+        "ly-12-12"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 12,
+      "end": 18,
+      "judgment": "15절의 관직 유래 설명 능력과 실천의 대비는 분리하면 대등성이 약해져 유지했습니다.",
+      "start": 13,
+      "batch": 54,
+      "ids": [
+        "ly-12-13",
+        "ly-12-14",
+        "ly-12-15",
+        "ly-12-16",
+        "ly-12-17",
+        "ly-12-18"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 12,
+      "end": 24,
+      "judgment": "20절의 인정받는 사람과 유명한 사람 구별, 23절의 충고 한계는 필요한 수식입니다.",
+      "start": 19,
+      "batch": 55,
+      "ids": [
+        "ly-12-19",
+        "ly-12-20",
+        "ly-12-21",
+        "ly-12-22",
+        "ly-12-23",
+        "ly-12-24"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 13,
+      "end": 6,
+      "judgment": "6절의 신불해 답변은 길지만 상·벼슬의 기준과 청탁의 대조가 명료하며 관형절 중첩 대상이 아닙니다.",
+      "start": 1,
+      "batch": 56,
+      "ids": [
+        "ly-13-01",
+        "ly-13-02",
+        "ly-13-03",
+        "ly-13-04",
+        "ly-13-05",
+        "ly-13-06"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 13,
+      "end": 12,
+      "judgment": "12절의 학교 개교와 아이 성장 비교는 두 시간의 차이를 설명하는 병렬 구조라 유지했습니다.",
+      "start": 7,
+      "batch": 57,
+      "ids": [
+        "ly-13-07",
+        "ly-13-08",
+        "ly-13-09",
+        "ly-13-10",
+        "ly-13-11",
+        "ly-13-12"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 13,
+      "end": 18,
+      "judgment": "15절의 임금 노릇 즐거움 설명은 주장의 범위를 한 문장에 모아 유지했습니다.",
+      "start": 13,
+      "batch": 58,
+      "ids": [
+        "ly-13-13",
+        "ly-13-14",
+        "ly-13-15",
+        "ly-13-16",
+        "ly-13-17",
+        "ly-13-18"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 13,
+      "end": 24,
+      "judgment": "20절의 선비 기준과 24절 질문은 각각 평가할 대상을 명확히 하므로 유지했습니다.",
+      "start": 19,
+      "batch": 59,
+      "ids": [
+        "ly-13-19",
+        "ly-13-20",
+        "ly-13-21",
+        "ly-13-22",
+        "ly-13-23",
+        "ly-13-24"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 13,
+      "end": 30,
+      "judgment": "25절의 직무 열거, 27절의 성품 풀이, 30절의 군사 신호 필요 조건을 유지했습니다.",
+      "start": 25,
+      "batch": 60,
+      "ids": [
+        "ly-13-25",
+        "ly-13-26",
+        "ly-13-27",
+        "ly-13-28",
+        "ly-13-29",
+        "ly-13-30"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 14,
+      "end": 6,
+      "judgment": "2절의 마음속 욕심 확인은 집주의 풀이로 제시되며, 중첩을 풀어도 해석을 거듭 말하게 되어 유지했습니다.",
+      "start": 1,
+      "batch": 61,
+      "ids": [
+        "ly-14-01",
+        "ly-14-02",
+        "ly-14-03",
+        "ly-14-04",
+        "ly-14-05",
+        "ly-14-06"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 14,
+      "end": 12,
+      "judgment": "12절의 청렴하되 처리 재주는 부족한 사람이라는 정의는 대조의 범위를 보존했습니다.",
+      "start": 7,
+      "batch": 62,
+      "ids": [
+        "ly-14-07",
+        "ly-14-08",
+        "ly-14-09",
+        "ly-14-10",
+        "ly-14-11",
+        "ly-14-12"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 14,
+      "end": 18,
+      "judgment": "14절의 말·웃음·수수 병렬과 17절의 무력에만 기대지 않았다는 범위를 유지했습니다.",
+      "start": 13,
+      "batch": 63,
+      "ids": [
+        "ly-14-13",
+        "ly-14-14",
+        "ly-14-15",
+        "ly-14-16",
+        "ly-14-17",
+        "ly-14-18"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 14,
+      "end": 24,
+      "judgment": "19절의 능력·마음·태도 병렬과 21절의 약속 이행 수고를 설명하는 수식은 자연스럽습니다.",
+      "start": 19,
+      "batch": 64,
+      "ids": [
+        "ly-14-19",
+        "ly-14-20",
+        "ly-14-21",
+        "ly-14-22",
+        "ly-14-23",
+        "ly-14-24"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 14,
+      "end": 30,
+      "judgment": "27절의 제사 담당자 비유, 28절의 담당 업무 가정은 필요한 행위 관계를 담으며 유지했습니다.",
+      "start": 25,
+      "batch": 65,
+      "ids": [
+        "ly-14-25",
+        "ly-14-26",
+        "ly-14-27",
+        "ly-14-28",
+        "ly-14-29",
+        "ly-14-30"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 14,
+      "end": 36,
+      "judgment": "31절의 자공 경계는 집주 풀이로 한정됩니다. 36절의 공정한 대우 정의도 분명합니다.",
+      "start": 31,
+      "batch": 66,
+      "ids": [
+        "ly-14-31",
+        "ly-14-32",
+        "ly-14-33",
+        "ly-14-34",
+        "ly-14-35",
+        "ly-14-36"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 14,
+      "end": 42,
+      "judgment": "41절 문지기의 정체는 추정으로 제시되어, 단정적 소개로 풀지 않았습니다. 42절 물 비유를 유지했습니다.",
+      "start": 37,
+      "batch": 67,
+      "ids": [
+        "ly-14-37",
+        "ly-14-38",
+        "ly-14-39",
+        "ly-14-40",
+        "ly-14-41",
+        "ly-14-42"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 14,
+      "end": 47,
+      "judgment": "43절의 상중 통치 절차와 47절 아이의 예법 학습은 순차 서술이어서 중첩 문제가 없습니다.",
+      "start": 43,
+      "batch": 68,
+      "ids": [
+        "ly-14-43",
+        "ly-14-44",
+        "ly-14-45",
+        "ly-14-46",
+        "ly-14-47"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 15,
+      "end": 6,
+      "judgment": "2절의 전승 속 공자 소개와 6절의 거백옥 처신 능력은 필요한 범위를 유지했습니다.",
+      "start": 1,
+      "batch": 69,
+      "ids": [
+        "ly-15-01",
+        "ly-15-02",
+        "ly-15-03",
+        "ly-15-04",
+        "ly-15-05",
+        "ly-15-06"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 15,
+      "end": 12,
+      "judgment": "12절의 긴 인용 수식은 앞 회차 제외 판단을 유지했습니다. 분리하면서 ‘이때’를 보태면 전언을 동시 사건으로 확정할 우려가 있습니다.",
+      "start": 7,
+      "batch": 70,
+      "ids": [
+        "ly-15-07",
+        "ly-15-08",
+        "ly-15-09",
+        "ly-15-10",
+        "ly-15-11",
+        "ly-15-12"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 15,
+      "end": 18,
+      "judgment": "17절의 네 가지 군자 행동과 18절의 공멸·복자천 병렬 소개는 서로 견주게 하는 구조이므로 유지했습니다.",
+      "start": 13,
+      "batch": 71,
+      "ids": [
+        "ly-15-13",
+        "ly-15-14",
+        "ly-15-15",
+        "ly-15-16",
+        "ly-15-17",
+        "ly-15-18"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 15,
+      "end": 24,
+      "judgment": "19절의 선행 여부 풀이와 23절의 가정은 확정된 사실로 바꾸지 않고 유지했습니다.",
+      "start": 19,
+      "batch": 72,
+      "ids": [
+        "ly-15-19",
+        "ly-15-20",
+        "ly-15-21",
+        "ly-15-22",
+        "ly-15-23",
+        "ly-15-24"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 15,
+      "end": 30,
+      "judgment": "28절의 공격 사다리 소식은 이동 이유로 앞에 놓여 바로 이해됩니다. 30절 비교 비유를 유지했습니다.",
+      "start": 25,
+      "batch": 73,
+      "ids": [
+        "ly-15-25",
+        "ly-15-26",
+        "ly-15-27",
+        "ly-15-28",
+        "ly-15-29",
+        "ly-15-30"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 15,
+      "end": 36,
+      "judgment": "31절의 허행 주장과 33절의 두 능력 비교는 범위가 분명합니다.",
+      "start": 31,
+      "batch": 74,
+      "ids": [
+        "ly-15-31",
+        "ly-15-32",
+        "ly-15-33",
+        "ly-15-34",
+        "ly-15-35",
+        "ly-15-36"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 15,
+      "end": 41,
+      "judgment": "38절의 고장 소개와 40절의 편지 일화는 짧은 사건 연결이며, 문장을 늘려 소개를 반복할 필요가 없습니다.",
+      "start": 37,
+      "batch": 75,
+      "ids": [
+        "ly-15-37",
+        "ly-15-38",
+        "ly-15-39",
+        "ly-15-40",
+        "ly-15-41"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 16,
+      "end": 6,
+      "judgment": "4절의 세 부류 벗과 6절의 세 말실수는 각 항목을 나란히 놓는 필요한 수식으로 유지했습니다.",
+      "start": 1,
+      "batch": 76,
+      "ids": [
+        "ly-16-01",
+        "ly-16-02",
+        "ly-16-03",
+        "ly-16-04",
+        "ly-16-05",
+        "ly-16-06"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 16,
+      "end": 12,
+      "judgment": "8절 장막 일화는 앞 회차의 유지 판단과 같습니다. 9절 승인문은 질문·답의 연결과 후대 전승 표시가 자연스럽습니다. 11절 두 유형의 대비를 유지했습니다.",
+      "start": 7,
+      "batch": 77,
+      "ids": [
+        "ly-16-07",
+        "ly-16-08",
+        "ly-16-09",
+        "ly-16-10",
+        "ly-16-11",
+        "ly-16-12"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 16,
+      "end": 14,
+      "judgment": "백어 문답과 호칭 규정은 차례가 분명하여 유지했습니다.",
+      "start": 13,
+      "batch": 78,
+      "ids": [
+        "ly-16-13",
+        "ly-16-14"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 17,
+      "end": 6,
+      "judgment": "1절의 선물 답례 규정은 적용 대상을 한정하는 필요한 수식입니다. 3절의 가장 어리석은 사람 풀이도 주석의 범위를 유지했습니다.",
+      "start": 1,
+      "batch": 79,
+      "ids": [
+        "ly-17-01",
+        "ly-17-02",
+        "ly-17-03",
+        "ly-17-04",
+        "ly-17-05",
+        "ly-17-06"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 17,
+      "end": 12,
+      "judgment": "7절의 자로 걱정과 공자 가능성 대비, 8절 여섯 덕목 병렬은 의미 연결이 명료합니다.",
+      "start": 7,
+      "batch": 80,
+      "ids": [
+        "ly-17-07",
+        "ly-17-08",
+        "ly-17-09",
+        "ly-17-10",
+        "ly-17-11",
+        "ly-17-12"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 17,
+      "end": 18,
+      "judgment": "17절 이상적인 신하의 정의를 실제 행적으로 바꾸지 않도록 앞 회차 제외 판단을 유지했습니다.",
+      "start": 13,
+      "batch": 81,
+      "ids": [
+        "ly-17-13",
+        "ly-17-14",
+        "ly-17-15",
+        "ly-17-16",
+        "ly-17-17",
+        "ly-17-18"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 17,
+      "end": 24,
+      "judgment": "24절의 세 태도 병렬을 유지했습니다. 문장 분리는 앞의 두 항목과 마지막 항목을 불필요하게 나눕니다.",
+      "start": 19,
+      "batch": 82,
+      "ids": [
+        "ly-17-19",
+        "ly-17-20",
+        "ly-17-21",
+        "ly-17-22",
+        "ly-17-23",
+        "ly-17-24"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 17,
+      "end": 26,
+      "judgment": "25절의 규정과 현대 평가의 구분, 26절의 광장 관계 설명은 수식 대상이 명확합니다.",
+      "start": 25,
+      "batch": 83,
+      "ids": [
+        "ly-17-25",
+        "ly-17-26"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 18,
+      "end": 6,
+      "judgment": "1절의 세 사람 선택 병렬과 5절 봉황 설명은 필요한 수식이며 해요체를 유지했습니다.",
+      "start": 1,
+      "batch": 84,
+      "ids": [
+        "ly-18-01",
+        "ly-18-02",
+        "ly-18-03",
+        "ly-18-04",
+        "ly-18-05",
+        "ly-18-06"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 18,
+      "end": 11,
+      "judgment": "8절의 은자 평가와 11절의 명명 규정은 대상이 분명하고, 주석의 불확실성도 보존했습니다.",
+      "start": 7,
+      "batch": 85,
+      "ids": [
+        "ly-18-07",
+        "ly-18-08",
+        "ly-18-09",
+        "ly-18-10",
+        "ly-18-11"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 19,
+      "end": 6,
+      "judgment": "3절의 벗 관계 해석과 5절의 배우기 좋아하는 사람 소개는 필요한 대상 한정으로 유지했습니다.",
+      "start": 1,
+      "batch": 86,
+      "ids": [
+        "ly-19-01",
+        "ly-19-02",
+        "ly-19-03",
+        "ly-19-04",
+        "ly-19-05",
+        "ly-19-06"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 19,
+      "end": 12,
+      "judgment": "7절의 장인 작업 비유와 11절의 조문 가정 비교는 수식 대상을 바로 알 수 있어 유지했습니다.",
+      "start": 7,
+      "batch": 87,
+      "ids": [
+        "ly-19-07",
+        "ly-19-08",
+        "ly-19-09",
+        "ly-19-10",
+        "ly-19-11",
+        "ly-19-12"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 19,
+      "end": 18,
+      "judgment": "14절 장례 문답은 발화자와 질문 내용이 바로 연결됩니다. 16절 자장 평가와 임종 전언의 차이도 보존했습니다.",
+      "start": 13,
+      "batch": 88,
+      "ids": [
+        "ly-19-13",
+        "ly-19-14",
+        "ly-19-15",
+        "ly-19-16",
+        "ly-19-17",
+        "ly-19-18"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 19,
+      "end": 24,
+      "judgment": "22절의 관직 명명 질문과 23절의 전해 들은 때 설명은 명확하며, 분리하면 기존 주어를 다시 소개하게 됩니다.",
+      "start": 19,
+      "batch": 89,
+      "ids": [
+        "ly-19-19",
+        "ly-19-20",
+        "ly-19-21",
+        "ly-19-22",
+        "ly-19-23",
+        "ly-19-24"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 19,
+      "end": 25,
+      "judgment": "25절의 가정과 실제 성과를 구별하는 표현은 그대로 유지했습니다.",
+      "start": 25,
+      "batch": 90,
+      "ids": [
+        "ly-19-25"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    },
+    {
+      "book": 20,
+      "end": 3,
+      "judgment": "1절의 여러 정치 과업과 2절의 미덕·악행 열거는 각각 필요한 내용입니다. 3절의 간언 상황은 발화자·시점이 분명하여 유지했습니다.",
+      "start": 1,
+      "batch": 91,
+      "ids": [
+        "ly-20-01",
+        "ly-20-02",
+        "ly-20-03"
+      ],
+      "decision": "유지",
+      "new_proposal_count": 0
+    }
+  ],
+  "final_reassessment": {
+    "new_proposals": 0,
+    "unchanged_chapters": 498,
+    "approval_pending": false,
+    "previous_exclusions_retained": [
+      "ly-01-14",
+      "ly-08-13",
+      "ly-15-12",
+      "ly-16-08",
+      "ly-17-17",
+      "ly-17-24"
+    ],
+    "conclusion": "같은 기준으로 전체 문맥을 재검토했으나 추가 수정안은 없습니다. 이전 제외 사례에 적용한 의미 보존·반복 억제·병렬 유지 판단도 바뀌지 않았습니다."
+  },
+  "body_modified_in_this_review": false
+}
