@@ -1697,16 +1697,30 @@
     },
     {
       "book": 17,
-      "changed": false,
+      "changed": true,
       "field": "답변",
       "id": "ly-17-20",
       "index": 2,
       "key": "ly-17-20:問:2:a",
       "label": "답변",
       "original": "정말 병든 것이 아니라 만나지 않기로 한 의도적 선택임을 유비가 알게 하려는 행동으로 읽힙니다. 직접 꾸짖지 않고 스스로 생각하게 만든 간접적 교육입니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "정말 병든 것이 아니라 만나지 않기로 한 의도적 선택임을 유비가 알게 하려는 행동으로 읽힙니다. 직접 꾸짖지 않고 스스로 생각하게 만든 간접적 교육입니다.",
-      "scope": "問"
+      "reason": "‘의도적 선택임을 알게 하려는’을 구체적인 선택 내용으로 풉니다. ‘행동으로 읽힙니다’는 유지해 해석의 강도를 보존합니다.",
+      "revised": "정말 병든 것이 아니라 일부러 만나지 않기로 했다는 사실을 유비가 알게 하려는 행동으로 읽힙니다. 직접 꾸짖지 않고 스스로 생각하게 만든 간접적 교육입니다.",
+      "scope": "問",
+      "revision_history": [
+        {
+          "pass": "targeted_type_14_followup_2",
+          "previous_revision": "정말 병든 것이 아니라 만나지 않기로 한 의도적 선택임을 유비가 알게 하려는 행동으로 읽힙니다. 직접 꾸짖지 않고 스스로 생각하게 만든 간접적 교육입니다.",
+          "revised": "정말 병든 것이 아니라 일부러 만나지 않기로 했다는 사실을 유비가 알게 하려는 행동으로 읽힙니다. 직접 꾸짖지 않고 스스로 생각하게 만든 간접적 교육입니다.",
+          "reason": "‘의도적 선택임을 알게 하려는’을 구체적인 선택 내용으로 풉니다. ‘행동으로 읽힙니다’는 유지해 해석의 강도를 보존합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨 반영후 계속 돌려",
+          "date": "2026-09-09"
+        }
+      ],
+      "previous_revision": "정말 병든 것이 아니라 만나지 않기로 한 의도적 선택임을 유비가 알게 하려는 행동으로 읽힙니다. 직접 꾸짖지 않고 스스로 생각하게 만든 간접적 교육입니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_14_followup_2"
     },
     {
       "book": 17,
@@ -2251,9 +2265,9 @@
     "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_13",
+    "pass": "targeted_type_14_followup_2",
     "scanned": 156,
     "approved_applied": 1,
-    "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
+    "method": "20편 revised 6,921개 전체 검색 후 후보 533개 문맥 검토. 승인된 10곳 반영. 모든 문장 종합 정독 아님."
   }
 }

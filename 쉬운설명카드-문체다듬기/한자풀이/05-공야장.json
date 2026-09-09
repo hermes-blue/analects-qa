@@ -386,15 +386,29 @@
     },
     {
       "book": 5,
-      "changed": false,
+      "changed": true,
       "id": "ly-05-05",
       "index": 2,
       "key": "ly-05-05:語:2",
       "label": "仕사",
       "original": "관직에 나아가 실제 정치를 맡는다는 뜻입니다. 배운 뒤 곧바로 벼슬하는 것이 당연한 순서가 아니라, 자신이 준비되었는지를 판단하는 과정이 필요함을 보여줍니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "관직에 나아가 실제 정치를 맡는다는 뜻입니다. 배운 뒤 곧바로 벼슬하는 것이 당연한 순서가 아니라, 자신이 준비되었는지를 판단하는 과정이 필요함을 보여줍니다.",
-      "scope": "語"
+      "reason": "‘판단하는 과정이 필요함’을 ‘먼저 판단해야 한다’로 풀어, 명사절이 겹친 서술을 줄입니다.",
+      "revised": "관직에 나아가 실제 정치를 맡는다는 뜻입니다. 배운 뒤 곧바로 벼슬하는 것이 당연한 순서는 아니며, 자신이 준비되었는지 먼저 판단해야 한다는 뜻입니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_14_followup_2",
+          "previous_revision": "관직에 나아가 실제 정치를 맡는다는 뜻입니다. 배운 뒤 곧바로 벼슬하는 것이 당연한 순서가 아니라, 자신이 준비되었는지를 판단하는 과정이 필요함을 보여줍니다.",
+          "revised": "관직에 나아가 실제 정치를 맡는다는 뜻입니다. 배운 뒤 곧바로 벼슬하는 것이 당연한 순서는 아니며, 자신이 준비되었는지 먼저 판단해야 한다는 뜻입니다.",
+          "reason": "‘판단하는 과정이 필요함’을 ‘먼저 판단해야 한다’로 풀어, 명사절이 겹친 서술을 줄입니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨 반영후 계속 돌려",
+          "date": "2026-09-09"
+        }
+      ],
+      "previous_revision": "관직에 나아가 실제 정치를 맡는다는 뜻입니다. 배운 뒤 곧바로 벼슬하는 것이 당연한 순서가 아니라, 자신이 준비되었는지를 판단하는 과정이 필요함을 보여줍니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_14_followup_2"
     },
     {
       "book": 5,
@@ -1897,9 +1911,9 @@
     "selector": "article.card details.st1 .w > p:not(.wh)"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_14",
+    "pass": "targeted_type_14_followup_2",
     "scanned": 134,
     "approved_applied": 1,
-    "method": "전체 검색 후 일반 명사 등 제외, 후보 438개 문맥 검토. 모든 문장 종합 정독 아님"
+    "method": "20편 revised 6,921개 전체 검색 후 후보 533개 문맥 검토. 승인된 10곳 반영. 모든 문장 종합 정독 아님."
   }
 }

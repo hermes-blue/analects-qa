@@ -1011,9 +1011,23 @@
       "key": "ly-01-14:語:4",
       "label": "慎於言신어언",
       "original": "말은 신중하게 하라는 뜻입니다. 행동은 민첩하게 하되 말은 가볍게 앞세우지 않는 대비를 통해, 실천과 발언의 속도를 다르게 가져야 함을 보여줍니다.",
-      "reason": "딱딱한 명사 결합·어순·호응을 문맥의 뜻을 유지하며 다듬음.",
-      "revised": "말은 신중하게 하라는 뜻입니다. 행동은 민첩하게 하되 말은 가볍게 앞세우지 않는 대비를 통해, 실천할 때와 말할 때의 속도가 달라야 함을 보여줍니다.",
-      "scope": "語"
+      "reason": "‘달라야 함을 보여줍니다’로 묶은 서술을 직접적인 당부로 풉니다. 행동은 민첩하게, 말은 신중하게 하라는 대비를 유지합니다.",
+      "revised": "말은 신중하게 하라는 뜻입니다. 행동은 민첩하게 하되 말은 가볍게 앞세우지 않도록, 실천할 때와 말할 때의 속도를 달리하라는 말입니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_14_followup_2",
+          "previous_revision": "말은 신중하게 하라는 뜻입니다. 행동은 민첩하게 하되 말은 가볍게 앞세우지 않는 대비를 통해, 실천할 때와 말할 때의 속도가 달라야 함을 보여줍니다.",
+          "revised": "말은 신중하게 하라는 뜻입니다. 행동은 민첩하게 하되 말은 가볍게 앞세우지 않도록, 실천할 때와 말할 때의 속도를 달리하라는 말입니다.",
+          "reason": "‘달라야 함을 보여줍니다’로 묶은 서술을 직접적인 당부로 풉니다. 행동은 민첩하게, 말은 신중하게 하라는 대비를 유지합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨 반영후 계속 돌려",
+          "date": "2026-09-09"
+        }
+      ],
+      "previous_revision": "말은 신중하게 하라는 뜻입니다. 행동은 민첩하게 하되 말은 가볍게 앞세우지 않는 대비를 통해, 실천할 때와 말할 때의 속도가 달라야 함을 보여줍니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_14_followup_2"
     },
     {
       "book": 1,
@@ -1172,9 +1186,9 @@
     "selector": "article.card details.st1 .w > p:not(.wh)"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_10",
+    "pass": "targeted_type_14_followup_2",
     "scanned": 74,
-    "approved_applied": 2,
-    "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
+    "approved_applied": 1,
+    "method": "20편 revised 6,921개 전체 검색 후 후보 533개 문맥 검토. 승인된 10곳 반영. 모든 문장 종합 정독 아님."
   }
 }

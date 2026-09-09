@@ -224,15 +224,29 @@
     },
     {
       "book": 3,
-      "changed": false,
+      "changed": true,
       "id": "ly-03-04",
       "index": 4,
       "key": "ly-03-04:語:4",
       "label": "喪與其易寧戚상여기이녕척",
       "original": "상례가 매끄럽고 능숙하기만 하느니 차라리 진심으로 슬퍼하는 편이 낫다는 말입니다. 장례의 절차보다 부모를 잃은 슬픔이 본래 마음임을 강조합니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "상례가 매끄럽고 능숙하기만 하느니 차라리 진심으로 슬퍼하는 편이 낫다는 말입니다. 장례의 절차보다 부모를 잃은 슬픔이 본래 마음임을 강조합니다.",
-      "scope": "語"
+      "reason": "‘슬픔이 본래 마음임’을 서술형으로 풀어, 절차보다 슬퍼하는 마음을 앞세운다는 뜻을 분명히 합니다.",
+      "revised": "상례가 매끄럽고 능숙하기만 하느니 차라리 진심으로 슬퍼하는 편이 낫다는 말입니다. 장례에서는 절차보다 부모를 잃고 슬퍼하는 마음이 근본이라고 강조합니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_14_followup_2",
+          "previous_revision": "상례가 매끄럽고 능숙하기만 하느니 차라리 진심으로 슬퍼하는 편이 낫다는 말입니다. 장례의 절차보다 부모를 잃은 슬픔이 본래 마음임을 강조합니다.",
+          "revised": "상례가 매끄럽고 능숙하기만 하느니 차라리 진심으로 슬퍼하는 편이 낫다는 말입니다. 장례에서는 절차보다 부모를 잃고 슬퍼하는 마음이 근본이라고 강조합니다.",
+          "reason": "‘슬픔이 본래 마음임’을 서술형으로 풀어, 절차보다 슬퍼하는 마음을 앞세운다는 뜻을 분명히 합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨 반영후 계속 돌려",
+          "date": "2026-09-09"
+        }
+      ],
+      "previous_revision": "상례가 매끄럽고 능숙하기만 하느니 차라리 진심으로 슬퍼하는 편이 낫다는 말입니다. 장례의 절차보다 부모를 잃은 슬픔이 본래 마음임을 강조합니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_14_followup_2"
     },
     {
       "book": 3,
@@ -1696,9 +1710,9 @@
     "selector": "article.card details.st1 .w > p:not(.wh)"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_12",
+    "pass": "targeted_type_14_followup_2",
     "scanned": 120,
     "approved_applied": 1,
-    "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
+    "method": "20편 revised 6,921개 전체 검색 후 후보 533개 문맥 검토. 승인된 10곳 반영. 모든 문장 종합 정독 아님."
   }
 }

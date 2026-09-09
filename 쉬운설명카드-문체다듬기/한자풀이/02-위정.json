@@ -763,15 +763,29 @@
     },
     {
       "book": 2,
-      "changed": false,
+      "changed": true,
       "id": "ly-02-11",
       "index": 3,
       "key": "ly-02-11:語:3",
       "label": "知新지신",
       "original": "옛것을 익히는 과정에서 새로운 뜻을 알아낸다는 말입니다. 과거의 지식을 보존하는 데서 멈추지 않고, 현재의 이해를 더 깊게 확장해야 함을 나타냅니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "옛것을 익히는 과정에서 새로운 뜻을 알아낸다는 말입니다. 과거의 지식을 보존하는 데서 멈추지 않고, 현재의 이해를 더 깊게 확장해야 함을 나타냅니다.",
-      "scope": "語"
+      "reason": "‘이해를 더 깊게 확장해야 함’을 ‘아는 내용을 더 깊이 이해하라’로 풀어 읽기 쉽게 합니다.",
+      "revised": "옛것을 익히는 과정에서 새로운 뜻을 알아낸다는 말입니다. 과거의 지식을 보존하는 데서 멈추지 않고, 지금 아는 내용을 더 깊이 이해하라는 뜻입니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_14_followup_2",
+          "previous_revision": "옛것을 익히는 과정에서 새로운 뜻을 알아낸다는 말입니다. 과거의 지식을 보존하는 데서 멈추지 않고, 현재의 이해를 더 깊게 확장해야 함을 나타냅니다.",
+          "revised": "옛것을 익히는 과정에서 새로운 뜻을 알아낸다는 말입니다. 과거의 지식을 보존하는 데서 멈추지 않고, 지금 아는 내용을 더 깊이 이해하라는 뜻입니다.",
+          "reason": "‘이해를 더 깊게 확장해야 함’을 ‘아는 내용을 더 깊이 이해하라’로 풀어 읽기 쉽게 합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨 반영후 계속 돌려",
+          "date": "2026-09-09"
+        }
+      ],
+      "previous_revision": "옛것을 익히는 과정에서 새로운 뜻을 알아낸다는 말입니다. 과거의 지식을 보존하는 데서 멈추지 않고, 현재의 이해를 더 깊게 확장해야 함을 나타냅니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_14_followup_2"
     },
     {
       "book": 2,
@@ -1654,9 +1668,9 @@
     "selector": "article.card details.st1 .w > p:not(.wh)"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_14",
+    "pass": "targeted_type_14_followup_2",
     "scanned": 113,
     "approved_applied": 1,
-    "method": "전체 검색 후 일반 명사 등 제외, 후보 438개 문맥 검토. 모든 문장 종합 정독 아님"
+    "method": "20편 revised 6,921개 전체 검색 후 후보 533개 문맥 검토. 승인된 10곳 반영. 모든 문장 종합 정독 아님."
   }
 }

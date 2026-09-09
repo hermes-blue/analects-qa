@@ -698,15 +698,29 @@
     },
     {
       "book": 14,
-      "changed": false,
+      "changed": true,
       "id": "ly-14-13",
       "index": 3,
       "key": "ly-14-13:語:3",
       "label": "公綽之不欲공작지불욕",
       "original": "맹공작의 욕심 적음을 뜻합니다. 재능뿐 아니라 사욕에 끌리지 않는 절제가 온전한 사람의 조건으로 들어갑니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "맹공작의 욕심 적음을 뜻합니다. 재능뿐 아니라 사욕에 끌리지 않는 절제가 온전한 사람의 조건으로 들어갑니다.",
-      "scope": "語"
+      "reason": "조사를 생략하고 ‘적음’으로 묶은 풀이를 평범한 주어·서술어 구조로 바꿉니다.",
+      "revised": "맹공작은 욕심이 적다는 뜻입니다. 재능뿐 아니라 사욕에 끌리지 않는 절제가 온전한 사람의 조건으로 들어갑니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_14_followup_2",
+          "previous_revision": "맹공작의 욕심 적음을 뜻합니다. 재능뿐 아니라 사욕에 끌리지 않는 절제가 온전한 사람의 조건으로 들어갑니다.",
+          "revised": "맹공작은 욕심이 적다는 뜻입니다. 재능뿐 아니라 사욕에 끌리지 않는 절제가 온전한 사람의 조건으로 들어갑니다.",
+          "reason": "조사를 생략하고 ‘적음’으로 묶은 풀이를 평범한 주어·서술어 구조로 바꿉니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨 반영후 계속 돌려",
+          "date": "2026-09-09"
+        }
+      ],
+      "previous_revision": "맹공작의 욕심 적음을 뜻합니다. 재능뿐 아니라 사욕에 끌리지 않는 절제가 온전한 사람의 조건으로 들어갑니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_14_followup_2"
     },
     {
       "book": 14,
@@ -2573,9 +2587,9 @@
     "selector": "article.card details.st1 .w > p:not(.wh)"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_14",
+    "pass": "targeted_type_14_followup_2",
     "scanned": 195,
     "approved_applied": 1,
-    "method": "전체 검색 후 일반 명사 등 제외, 후보 438개 문맥 검토. 모든 문장 종합 정독 아님"
+    "method": "20편 revised 6,921개 전체 검색 후 후보 533개 문맥 검토. 승인된 10곳 반영. 모든 문장 종합 정독 아님."
   }
 }
