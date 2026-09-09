@@ -1,3 +1,6 @@
+<!-- noun-predicate-review4-20260909 completed -->
+명사 종결 4차 검수: 승인한 **4장·4곳 반영 완료**. [수정 전후 및 검증 기록](../noun-predicate-review4-20260909/README.md)
+
 <!-- noun-predicate-review3-20260909 reviewed -->
 명사 종결 3차 검수: **20편 498장 전체 재검토 완료 · 추가 제안 0곳**. [검수 결과 및 기록](../noun-predicate-review3-20260909/README.md)
 
