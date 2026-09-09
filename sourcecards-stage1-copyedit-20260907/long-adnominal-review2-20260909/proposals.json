@@ -1,0 +1,48 @@
+{
+  "basis_commit": "84a2b1cacf3b38a92bb4644f836e5fb99663f769",
+  "body_applied": false,
+  "proposal_count": 3,
+  "proposals": [
+    {
+      "after": "사마우는 형이 난을 일으키려 해서 걱정이 많았습니다.",
+      "before": "사마우는 형이 난을 일으키려 하는 일로 걱정이 많은 사람이었습니다.",
+      "body_applied": false,
+      "chapter": "술이 36",
+      "file": "07-suli.json",
+      "id": "ly-07-36",
+      "number": 1,
+      "origin": "재검토 새 후보",
+      "reason": "하려 하는 일→걱정이 많은 사람 두 겹을 풀되 계획과 걱정의 인과 유지",
+      "status": "승인 대기"
+    },
+    {
+      "after": "다만 후대 사람들이 그려 온 민자건은 자기 억울함을 풀 기회에도 함께 사는 아이의 추위를 먼저 헤아렸습니다.",
+      "before": "다만 후대 사람들이 그려 온 민자건은 자기 억울함을 풀 기회에도 함께 사는 아이의 추위를 먼저 헤아리는 사람이었습니다.",
+      "body_applied": false,
+      "chapter": "선진 4",
+      "file": "11-seonjin.json",
+      "id": "ly-11-04",
+      "number": 2,
+      "origin": "재검토 새 후보",
+      "reason": "민자건 평가 범위 다만 유지, 긴 관형절의 머리명사 사람을 풀어 직접 서술",
+      "status": "승인 대기"
+    },
+    {
+      "after": "진 평공이 칠십에 공부를 시작하려니 늦은 것 같다고 하자, 사광은 불을 켜면 어떻겠느냐고 답했습니다.",
+      "before": "칠십에 공부를 시작하려니 늦은 것 같다는 진 평공에게 사광은 불을 켜면 어떻겠느냐고 답했습니다.",
+      "body_applied": false,
+      "chapter": "계씨 9",
+      "file": "16-gyessi.json",
+      "id": "ly-16-09",
+      "number": 3,
+      "origin": "재검토 새 후보",
+      "reason": "평공의 말을 먼저 제시하고 하자 로 사광의 응답 연결; 인용 뒤로 미뤄진 인물명 전진",
+      "status": "승인 대기"
+    }
+  ],
+  "review_type": "긴·겹친 관형절 재검수",
+  "scope": "sourcecards-stage1-copyedit-20260907/round3/",
+  "status": "승인 대기",
+  "total_chapters": 498,
+  "unchanged_chapters": 495
+}
