@@ -1,12 +1,12 @@
 # 사료카드 1단계 — 명사 종결 재검수 5곳 수정 전후
 
-상태: **사용자 승인 대기 · 새 5곳은 본문 JSON 미반영**
+상태: **승인한 5장·5곳 본문 JSON 반영 및 원격 검증 완료**
 
 앞 회차 승인안 **16장·16곳은 본문 JSON과 GitHub에 반영 완료**했습니다. 원격 본문 20개와 498장의 ID·순서·보호 필드도 확인했습니다.
 
-반영 후 전체 498장을 학이→요왈 순서로 다시 읽고, 96개 묶음으로 문맥을 대조했습니다. 후보 7곳을 최종 재평가해 2곳을 제외하고 **5장·5곳**을 제안합니다. 나머지 493장은 유지합니다.
+반영 후 전체 498장을 학이→요왈 순서로 다시 읽고, 96개 묶음으로 문맥을 대조했습니다. 후보 7곳을 최종 재평가해 2곳을 제외하고 **5장·5곳**을 제안했고, 사용자 승인 후 모두 반영했습니다. 나머지 493장은 유지합니다.
 
-| 편·장 번호 | 수정 전 | 수정 후 제안 |
+| 편·장 번호 | 수정 전 | 수정 후 |
 |---|---|---|
 | 공야장 22 | 가려 사귀는 것과 고친 뒤에도 옛 허물을 들추는 것은 다른 일이었던 셈입니다. | 가려 사귀는 것과 고친 뒤에도 옛 허물을 들추는 것은 다릅니다. |
 | 태백 2 | 상복을 벗는 때와 오래 마음에 두어야 할 인연은 서로 다른 문제입니다. | 상복은 때가 되면 벗어도, 인연은 오래 마음에 두어야 합니다. |
@@ -19,3 +19,5 @@
 [GitHub 비교표](https://github.com/hermes-blue/analects-qa/blob/main/sourcecards-stage1-copyedit-20260907/noun-predicate-review2-20260909/README.md) · [정확한 수정안](https://github.com/hermes-blue/analects-qa/blob/main/sourcecards-stage1-copyedit-20260907/noun-predicate-review2-20260909/proposals.json) · [검수 기록](https://github.com/hermes-blue/analects-qa/blob/main/sourcecards-stage1-copyedit-20260907/noun-predicate-review2-20260909/review-log.json)
 
 [앞 회차 16곳 반영 검증](https://github.com/hermes-blue/analects-qa/blob/main/sourcecards-stage1-copyedit-20260907/noun-predicate-review-20260909/completion.json)
+
+[이번 5곳 반영 검증](https://github.com/hermes-blue/analects-qa/blob/main/sourcecards-stage1-copyedit-20260907/noun-predicate-review2-20260909/completion.json)
