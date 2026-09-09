@@ -1800,16 +1800,30 @@
     },
     {
       "book": 17,
-      "changed": false,
+      "changed": true,
       "field": "답변",
       "id": "ly-17-21",
       "index": 1,
       "key": "ly-17-21:問:1:a",
       "label": "답변",
       "original": "삼년 동안 예악을 멈추면 제도가 무너지고 오래된 곡식과 불씨도 한 차례 바뀌니 1년이면 충분하지 않겠느냐고 현실적 이유를 들었습니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "삼년 동안 예악을 멈추면 제도가 무너지고 오래된 곡식과 불씨도 한 차례 바뀌니 1년이면 충분하지 않겠느냐고 현실적 이유를 들었습니다.",
-      "scope": "問"
+      "reason": "삼년상을 줄이자는 두 가지 이유를 나눕니다. 질문에 나온 재아를 주어로 밝히고, 「또」로 두 번째 이유를 잇습니다.",
+      "revised": "재아는 삼년 동안 예악을 멈추면 제도가 무너진다고 주장했습니다. 또 오래된 곡식과 불씨도 한 차례 바뀌니 1년이면 충분하지 않겠느냐며 현실적 이유를 들었습니다.",
+      "scope": "問",
+      "revision_history": [
+        {
+          "pass": "long_sentence_connectives_2",
+          "previous_revision": "삼년 동안 예악을 멈추면 제도가 무너지고 오래된 곡식과 불씨도 한 차례 바뀌니 1년이면 충분하지 않겠느냐고 현실적 이유를 들었습니다.",
+          "revised": "재아는 삼년 동안 예악을 멈추면 제도가 무너진다고 주장했습니다. 또 오래된 곡식과 불씨도 한 차례 바뀌니 1년이면 충분하지 않겠느냐며 현실적 이유를 들었습니다.",
+          "reason": "삼년상을 줄이자는 두 가지 이유를 나눕니다. 질문에 나온 재아를 주어로 밝히고, 「또」로 두 번째 이유를 잇습니다.",
+          "approval_status": "approved",
+          "approval_message": "네가 수정반영해 14건은",
+          "date": "2026-09-09"
+        }
+      ],
+      "previous_revision": "삼년 동안 예악을 멈추면 제도가 무너지고 오래된 곡식과 불씨도 한 차례 바뀌니 1년이면 충분하지 않겠느냐고 현실적 이유를 들었습니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "long_sentence_connectives_2"
     },
     {
       "book": 17,
@@ -2288,9 +2302,9 @@
     "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_16_followup_5",
+    "pass": "long_sentence_connectives_2",
     "scanned": 156,
     "approved_applied": 1,
-    "method": "20편 revised 6,921개 전체 검색, 뜻입니다 적중 문구 1,681개(출현 1,704회) 중 미검토 의문·쟁점 469개 문맥 검토 후 승인된 5곳 반영. 전체 문구 정독 아님."
+    "method": "20편 revised 6,921개 검색. 최장 문장 70~74자인 새 후보 189개 전체 문맥 검토 후 승인된 14곳 반영. 연결어·지시어·접속사로 앞뒤 관계와 주체를 명확히 함. 전체 문구 정독 아님."
   }
 }

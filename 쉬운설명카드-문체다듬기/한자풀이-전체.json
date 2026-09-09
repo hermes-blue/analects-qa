@@ -2,8 +2,8 @@
   "schema_version": "1.1",
   "scope": "語",
   "scope_name": "한자풀이",
-  "status": "approved_targeted_type_16_followup_4_applied",
-  "method": "20편 revised 6,921개 전체 검색, 뜻입니다 적중 문구 1,685개(출현 1,708회) 중 195개 문맥 검토 후 승인된 4곳 반영. 전체 문구 정독 아님.",
+  "status": "approved_long_sentence_connectives_2_applied",
+  "method": "20편 revised 6,921개 검색. 최장 문장 70~74자인 새 후보 189개 전체 문맥 검토 후 승인된 14곳 반영. 연결어·지시어·접속사로 앞뒤 관계와 주체를 명확히 함. 전체 문구 정독 아님.",
   "count_unit": "텍스트 필드: 한자 풀이 1개, 질문 또는 답변 1개, 쟁점의 견해 설명 1개",
   "total": 2311,
   "changed": 365,
@@ -1819,8 +1819,8 @@
           "key": "ly-02-09:語:1",
           "label": "回회",
           "original": "안회를 가리킵니다. 공자님은 하루 종일 가르침을 듣고도 반박하지 않는 안회를 처음에는 둔해 보인다고 느꼈지만, 뒤에서 그의 실제 이해력을 확인합니다.",
-          "reason": "‘안회가 둔해 보이다’로 안긴문장의 주격 조사를 바로잡습니다.",
-          "revised": "안회를 가리킵니다. 공자님은 하루 종일 가르침을 듣고도 반박하지 않는 안회가 처음에는 둔해 보인다고 느꼈지만, 뒤에서 그의 실제 이해력을 확인합니다.",
+          "reason": "안회에 대한 첫인상과 나중의 확인을 나눕니다. 「그러나 나중에는」으로 대비와 시간 순서를 함께 드러내고, 「그의」가 안회를 가리키도록 앞 문장을 유지합니다.",
+          "revised": "안회를 가리킵니다. 공자님은 하루 종일 가르침을 듣고도 반박하지 않는 안회가 처음에는 둔해 보인다고 느꼈습니다. 그러나 나중에는 그의 실제 이해력을 확인합니다.",
           "scope": "語",
           "revision_history": [
             {
@@ -1831,11 +1831,20 @@
               "approval_status": "approved",
               "approval_message": "수정후 다음 시작",
               "date": "2026-09-08"
+            },
+            {
+              "pass": "long_sentence_connectives_2",
+              "previous_revision": "안회를 가리킵니다. 공자님은 하루 종일 가르침을 듣고도 반박하지 않는 안회가 처음에는 둔해 보인다고 느꼈지만, 뒤에서 그의 실제 이해력을 확인합니다.",
+              "revised": "안회를 가리킵니다. 공자님은 하루 종일 가르침을 듣고도 반박하지 않는 안회가 처음에는 둔해 보인다고 느꼈습니다. 그러나 나중에는 그의 실제 이해력을 확인합니다.",
+              "reason": "안회에 대한 첫인상과 나중의 확인을 나눕니다. 「그러나 나중에는」으로 대비와 시간 순서를 함께 드러내고, 「그의」가 안회를 가리키도록 앞 문장을 유지합니다.",
+              "approval_status": "approved",
+              "approval_message": "네가 수정반영해 14건은",
+              "date": "2026-09-09"
             }
           ],
-          "previous_revision": "안회를 가리킵니다. 공자님은 하루 종일 가르침을 듣고도 반박하지 않는 안회를 처음에는 둔해 보인다고 느꼈지만, 뒤에서 그의 실제 이해력을 확인합니다.",
+          "previous_revision": "안회를 가리킵니다. 공자님은 하루 종일 가르침을 듣고도 반박하지 않는 안회가 처음에는 둔해 보인다고 느꼈지만, 뒤에서 그의 실제 이해력을 확인합니다.",
           "approval_status": "approved",
-          "last_revision_pass": "targeted_type_2"
+          "last_revision_pass": "long_sentence_connectives_2"
         },
         {
           "book": 2,
@@ -2946,10 +2955,10 @@
         "selector": "article.card details.st1 .w > p:not(.wh)"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_16",
+        "pass": "long_sentence_connectives_2",
         "scanned": 113,
-        "approved_applied": 4,
-        "method": "20편 revised 6,921개 전체 검색, 추상명사 45종 종결 후보 문구 523개(적중 문장 528개) 문맥 검토 후 승인된 43곳 반영. 전체 문구 정독 아님."
+        "approved_applied": 1,
+        "method": "20편 revised 6,921개 검색. 최장 문장 70~74자인 새 후보 189개 전체 문맥 검토 후 승인된 14곳 반영. 연결어·지시어·접속사로 앞뒤 관계와 주체를 명확히 함. 전체 문구 정독 아님."
       }
     },
     {
@@ -33031,8 +33040,8 @@
     }
   ],
   "latest_style_pass": {
-    "pass": "targeted_type_16_followup_4",
+    "pass": "long_sentence_connectives_2",
     "scanned": 2311,
-    "approved_applied": 2
+    "approved_applied": 1
   }
 }

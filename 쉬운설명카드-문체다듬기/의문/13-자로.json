@@ -2048,9 +2048,23 @@
       "key": "ly-13-25:問:2:a",
       "label": "답변",
       "original": "원칙보다 자기 기분과 이익을 중시해 함께 일할 때 요구가 까다롭지만, 마음에 드는 이익이나 아첨을 주면 쉽게 만족하기 때문입니다.",
-      "reason": "이익과 아첨에 각각 자연스러운 서술어를 연결.",
-      "revised": "원칙보다 자기 기분과 이익을 중시해 함께 일할 때 요구가 까다롭지만, 마음에 드는 이익을 주거나 아첨하면 쉽게 만족하기 때문입니다.",
-      "scope": "問"
+      "reason": "질문에 나온 소인을 주어로 밝힙니다. 섬기기 어려운 이유와 기쁘게 하기 쉬운 이유를 나누고 「반면」으로 대비합니다.",
+      "revised": "소인은 원칙보다 자기 기분과 이익을 중시해 함께 일할 때 요구가 까다롭습니다. 반면 마음에 드는 이익을 주거나 아첨하면 쉽게 만족합니다.",
+      "scope": "問",
+      "revision_history": [
+        {
+          "pass": "long_sentence_connectives_2",
+          "previous_revision": "원칙보다 자기 기분과 이익을 중시해 함께 일할 때 요구가 까다롭지만, 마음에 드는 이익을 주거나 아첨하면 쉽게 만족하기 때문입니다.",
+          "revised": "소인은 원칙보다 자기 기분과 이익을 중시해 함께 일할 때 요구가 까다롭습니다. 반면 마음에 드는 이익을 주거나 아첨하면 쉽게 만족합니다.",
+          "reason": "질문에 나온 소인을 주어로 밝힙니다. 섬기기 어려운 이유와 기쁘게 하기 쉬운 이유를 나누고 「반면」으로 대비합니다.",
+          "approval_status": "approved",
+          "approval_message": "네가 수정반영해 14건은",
+          "date": "2026-09-09"
+        }
+      ],
+      "previous_revision": "원칙보다 자기 기분과 이익을 중시해 함께 일할 때 요구가 까다롭지만, 마음에 드는 이익을 주거나 아첨하면 쉽게 만족하기 때문입니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "long_sentence_connectives_2"
     },
     {
       "book": 13,
@@ -2554,9 +2568,9 @@
     "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
   },
   "latest_style_pass": {
-    "pass": "long_sentence_connectives_1",
+    "pass": "long_sentence_connectives_2",
     "scanned": 180,
     "approved_applied": 1,
-    "method": "20편 revised 6,921개 검색. 75자 이상 문장을 포함한 문구 157개 전체 문맥 검토 후 승인된 20곳 반영. 연결어·지시어·접속사로 앞뒤 관계와 주체를 명확히 함. 전체 문구 정독 아님."
+    "method": "20편 revised 6,921개 검색. 최장 문장 70~74자인 새 후보 189개 전체 문맥 검토 후 승인된 14곳 반영. 연결어·지시어·접속사로 앞뒤 관계와 주체를 명확히 함. 전체 문구 정독 아님."
   }
 }
