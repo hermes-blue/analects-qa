@@ -1,0 +1,186 @@
+{
+  "status": "반영 완료",
+  "body_commit": "7442d62e5b6f7f295eb12219074006941051756a",
+  "validation": {
+    "body_files": 20,
+    "chapters": 498,
+    "unique_ids": 498,
+    "changed_chapters": 4,
+    "protected_fields_preserved": true,
+    "order_preserved": true
+  },
+  "changes": [
+    {
+      "after_count": 372,
+      "before_count": 367,
+      "count_mode": "exclude_lf",
+      "id": "ly-07-36",
+      "name": "07-suli"
+    },
+    {
+      "after_count": 334,
+      "before_count": 329,
+      "count_mode": "exclude_lf",
+      "id": "ly-11-12",
+      "name": "11-seonjin"
+    },
+    {
+      "after_count": 384,
+      "before_count": 376,
+      "count_mode": "exclude_lf",
+      "id": "ly-12-04",
+      "name": "12-anyeon"
+    },
+    {
+      "after_count": 412,
+      "before_count": 401,
+      "count_mode": "exclude_lf",
+      "id": "ly-17-23",
+      "name": "17-yanghwa"
+    }
+  ],
+  "commits": [
+    {
+      "commit_sha": "bf09d4353cb47020cb88209196d832992f5b8cb1",
+      "content_sha": "580342136b068b540a9fa8ea0f0bb5dfa6882dfd",
+      "file": "sourcecards-stage1-copyedit-20260907/round3/07-suli.json"
+    },
+    {
+      "commit_sha": "e3b7220a279bcd6fb49c5ecc97ed300bb0d458ac",
+      "content_sha": "276f7fb7455861174d58ba4a32ea11add471f2cf",
+      "file": "sourcecards-stage1-copyedit-20260907/round3/11-seonjin.json"
+    },
+    {
+      "commit_sha": "7afdd4f321e759099e15ee932277d570b9958f69",
+      "content_sha": "056a6de139da029d52bd22f3a77d1766089444f3",
+      "file": "sourcecards-stage1-copyedit-20260907/round3/12-anyeon.json"
+    },
+    {
+      "commit_sha": "7442d62e5b6f7f295eb12219074006941051756a",
+      "content_sha": "d0175d112590c1bbd00e6aa9b8145b2b3f8b5fac",
+      "file": "sourcecards-stage1-copyedit-20260907/round3/17-yanghwa.json"
+    }
+  ],
+  "remote_files": [
+    {
+      "chapters": 16,
+      "exact": true,
+      "name": "01-hakyi",
+      "sha": "ec8cb92a0ec29eca415780925d2ff1f6c256f85a"
+    },
+    {
+      "chapters": 24,
+      "exact": true,
+      "name": "02-wijeong",
+      "sha": "9c876a056d3a515dd9255258f617007efe09eb55"
+    },
+    {
+      "chapters": 26,
+      "exact": true,
+      "name": "03-palil",
+      "sha": "27597088af76a82376d8b29f8239e9df7b5fefeb"
+    },
+    {
+      "chapters": 26,
+      "exact": true,
+      "name": "04-iin",
+      "sha": "8fb16ade9de76dc4bdef55a7f73263b9ad098430"
+    },
+    {
+      "chapters": 27,
+      "exact": true,
+      "name": "05-gongyajang",
+      "sha": "4a954d0de1d7d41bef2102b9fcf2034277ceb357"
+    },
+    {
+      "chapters": 28,
+      "exact": true,
+      "name": "06-yongya",
+      "sha": "67817bceb052ec3b421dfcd057ebe2d5cf05d594"
+    },
+    {
+      "chapters": 37,
+      "exact": true,
+      "name": "07-suli",
+      "sha": "580342136b068b540a9fa8ea0f0bb5dfa6882dfd"
+    },
+    {
+      "chapters": 21,
+      "exact": true,
+      "name": "08-taebaek",
+      "sha": "e46755572f5b4a44eb7f7e9a288d05f12f420f46"
+    },
+    {
+      "chapters": 30,
+      "exact": true,
+      "name": "09-jahan",
+      "sha": "36cc133c9235dccf43fd576875440b02d52faab6"
+    },
+    {
+      "chapters": 17,
+      "exact": true,
+      "name": "10-hyangdang",
+      "sha": "dacbe4f855cc2672133056bf08d69df0da41a0d9"
+    },
+    {
+      "chapters": 25,
+      "exact": true,
+      "name": "11-seonjin",
+      "sha": "276f7fb7455861174d58ba4a32ea11add471f2cf"
+    },
+    {
+      "chapters": 24,
+      "exact": true,
+      "name": "12-anyeon",
+      "sha": "056a6de139da029d52bd22f3a77d1766089444f3"
+    },
+    {
+      "chapters": 30,
+      "exact": true,
+      "name": "13-jaro",
+      "sha": "88aab9b327ca739e1ba87d0bd5cd29b32bee98ff"
+    },
+    {
+      "chapters": 47,
+      "exact": true,
+      "name": "14-heonmun",
+      "sha": "b3f1ae2fde7adef2bd65968d2ee6749e7a4484a8"
+    },
+    {
+      "chapters": 41,
+      "exact": true,
+      "name": "15-wiryeonggong",
+      "sha": "502135eb1c7b10bdaf044ace292f8aa860a50e22"
+    },
+    {
+      "chapters": 14,
+      "exact": true,
+      "name": "16-gyessi",
+      "sha": "323cae9355147ca6a25c9ab7466aca0cc18387ab"
+    },
+    {
+      "chapters": 26,
+      "exact": true,
+      "name": "17-yanghwa",
+      "sha": "d0175d112590c1bbd00e6aa9b8145b2b3f8b5fac"
+    },
+    {
+      "chapters": 11,
+      "exact": true,
+      "name": "18-mija",
+      "sha": "36aa367146677874a8a3170b9c735416816e212f"
+    },
+    {
+      "chapters": 25,
+      "exact": true,
+      "name": "19-jajang",
+      "sha": "dfd3beef6482707733a0599f610a739fc0db1e88"
+    },
+    {
+      "chapters": 3,
+      "exact": true,
+      "name": "20-yowal",
+      "sha": "adf1b1f363740361dbc52878b0a802d4e5d4dbcc"
+    }
+  ]
+}
