@@ -1,0 +1,67 @@
+name: TEMP Stage2 Relative Clause Density
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/temp-stage2-relative-clause-density.yml']
+permissions:
+  contents: write
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Scan latest openings
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json,glob,re,subprocess
+          from pathlib import Path
+          files=sorted(glob.glob('sourcecards-style-polish/[0-9][0-9]-*.json'))
+          rows=[]; total=0
+          rel_tokens=['하는','한 ','했던','하던','되는','된 ','라는','이라는','이라고','하려는','하고자 하는','해야 하는','할 수 있는','해야 할','하게 하는','하도록 하는']
+          for fn in files:
+              d=json.loads(Path(fn).read_text(encoding='utf-8'))
+              for ch in d['장']:
+                  total+=1
+                  text=ch['여는말']
+                  sents=[s.strip() for s in re.split(r'(?<=[.!?])\s+',text) if s.strip()]
+                  for i,s in enumerate(sents,1):
+                      counts={t:s.count(t) for t in rel_tokens if t in s}
+                      rel=sum(counts.values())
+                      commas=s.count(',')+s.count('，')
+                      # High-recall heuristic: multiple adnominal clauses, or very long clause-packed sentence.
+                      score=0
+                      if rel>=3: score+=3
+                      elif rel==2: score+=2
+                      if len(s)>=70: score+=2
+                      elif len(s)>=55: score+=1
+                      if commas>=2: score+=1
+                      if re.search(r'(하는|한|된|되는|라는|이라는).{2,28}(하는|한|된|되는|라는|이라는)',s): score+=2
+                      if score>=4:
+                          rows.append({'구절ID':ch['구절ID'],'편장':ch['편장'],'파일':fn,'문장번호':i,'문장':s,'전체여는말':text,'관형표지':counts,'길이':len(s),'쉼표수':commas,'점수':score})
+          if len(files)!=20 or total!=498: raise SystemExit((len(files),total))
+          rows.sort(key=lambda r:(-r['점수'],-r['길이']))
+          base=Path('sourcecards-targeted-review-7passes/cycle2-pass16-relative-clause-density')
+          base.mkdir(parents=True,exist_ok=True)
+          head=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
+          md=['# 사료카드 2단계 관형절 중첩·명사구 과밀 스캔','',f'- 기준 커밋: `{head}`','- 대상: 20파일 / 498장',f'- 휴리스틱 적중 문장: **{len(rows)}문장**','- 자동 수정 대상 아님. 길이 자체가 아니라 관형절이 겹쳐 읽기 어려운 문장만 후속 선별.','']
+          for i,r in enumerate(rows,1):
+              md.append(f"{i}. `{r['구절ID']}` | {r['편장']} | 점수={r['점수']} | 길이={r['길이']} | {r['문장']} | 전체: {r['전체여는말']}")
+          (base/'heuristic-hits.md').write_text('\n'.join(md)+'\n',encoding='utf-8')
+          (base/'heuristic-hits.json').write_text(json.dumps({'기준커밋':head,'대상장수':498,'적중문장수':len(rows),'항목':rows},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          # mark prior pass as skipped, without touching body
+          p15=Path('sourcecards-targeted-review-7passes/cycle2-pass15-meta-intro/skipped-by-user.md')
+          p15.write_text('# 사용자 결정\n\n- 15건 수정안: **전부 보류 / 본문 JSON 미반영**\n- 사유: 사용자가 이 유형은 넘어가고 다른 유형을 진행하도록 지시함.\n',encoding='utf-8')
+          print('hits',len(rows))
+          PY
+      - name: Commit report
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add sourcecards-targeted-review-7passes/cycle2-pass16-relative-clause-density/ sourcecards-targeted-review-7passes/cycle2-pass15-meta-intro/skipped-by-user.md
+          git commit -m '사료카드 2단계 관형절 중첩·명사구 과밀 스캔'
+          git push origin main
