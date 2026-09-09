@@ -2,12 +2,12 @@
   "schema_version": "1.1",
   "scope": "問",
   "scope_name": "의문",
-  "status": "approved_long_sentence_connectives_2_applied",
-  "method": "20편 revised 6,921개 검색. 최장 문장 70~74자인 새 후보 189개 전체 문맥 검토 후 승인된 14곳 반영. 연결어·지시어·접속사로 앞뒤 관계와 주체를 명확히 함. 전체 문구 정독 아님.",
+  "status": "approved_long_sentence_connectives_3_applied",
+  "method": "20편 revised 6,921개 검색. 최장 문장 68~69자인 새 후보 106개 전체 문맥 검토 후 승인된 8곳 반영. 연결어·지시어·접속사로 앞뒤 관계와 주체를 명확히 함. 전체 문구 정독 아님.",
   "count_unit": "텍스트 필드: 한자 풀이 1개, 질문 또는 답변 1개, 쟁점의 견해 설명 1개",
   "total": 3072,
-  "changed": 281,
-  "unchanged": 2791,
+  "changed": 282,
+  "unchanged": 2790,
   "card_count": 498,
   "book_count": 20,
   "content_review_performed": false,
@@ -8897,16 +8897,30 @@
         },
         {
           "book": 5,
-          "changed": false,
+          "changed": true,
           "field": "답변",
           "id": "ly-05-09",
           "index": 2,
           "key": "ly-05-09:問:2:a",
           "label": "답변",
           "original": "재여가 말은 잘했지만 실제 행동이 그 말과 맞지 않는 모습을 보였기 때문입니다. 이전에는 말을 들으면 그 실천도 믿었지만, 이후에는 말과 행동을 함께 확인해야 한다는 판단 기준을 갖게 되었다고 했습니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "재여가 말은 잘했지만 실제 행동이 그 말과 맞지 않는 모습을 보였기 때문입니다. 이전에는 말을 들으면 그 실천도 믿었지만, 이후에는 말과 행동을 함께 확인해야 한다는 판단 기준을 갖게 되었다고 했습니다.",
-          "scope": "問"
+          "reason": "재여를 설명한 뒤 공자님의 판단으로 넘어가는 곳에 주어를 밝힙니다. 「그러나 이후에는」으로 판단이 달라진 시점을 잇고, 공자님이 하신 말씀이라는 서술도 유지합니다.",
+          "revised": "재여가 말은 잘했지만 실제 행동이 그 말과 맞지 않는 모습을 보였기 때문입니다. 공자님은 이전에는 말을 들으면 그 실천도 믿었다고 하셨습니다. 그러나 이후에는 말과 행동을 함께 확인해야 한다는 판단 기준을 갖게 되었다고 하셨습니다.",
+          "scope": "問",
+          "revision_history": [
+            {
+              "pass": "long_sentence_connectives_3",
+              "previous_revision": "재여가 말은 잘했지만 실제 행동이 그 말과 맞지 않는 모습을 보였기 때문입니다. 이전에는 말을 들으면 그 실천도 믿었지만, 이후에는 말과 행동을 함께 확인해야 한다는 판단 기준을 갖게 되었다고 했습니다.",
+              "revised": "재여가 말은 잘했지만 실제 행동이 그 말과 맞지 않는 모습을 보였기 때문입니다. 공자님은 이전에는 말을 들으면 그 실천도 믿었다고 하셨습니다. 그러나 이후에는 말과 행동을 함께 확인해야 한다는 판단 기준을 갖게 되었다고 하셨습니다.",
+              "reason": "재여를 설명한 뒤 공자님의 판단으로 넘어가는 곳에 주어를 밝힙니다. 「그러나 이후에는」으로 판단이 달라진 시점을 잇고, 공자님이 하신 말씀이라는 서술도 유지합니다.",
+              "approval_status": "approved",
+              "approval_message": "아마 기존 8곳은 다른곳에서 반영했을거야 혹시모르니 확인해보고 네가 말한것도 제이슨 반영",
+              "date": "2026-09-09"
+            }
+          ],
+          "previous_revision": "재여가 말은 잘했지만 실제 행동이 그 말과 맞지 않는 모습을 보였기 때문입니다. 이전에는 말을 들으면 그 실천도 믿었지만, 이후에는 말과 행동을 함께 확인해야 한다는 판단 기준을 갖게 되었다고 했습니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "long_sentence_connectives_3"
         },
         {
           "book": 5,
@@ -10554,10 +10568,10 @@
         "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_16",
+        "pass": "long_sentence_connectives_3",
         "scanned": 168,
         "approved_applied": 1,
-        "method": "20편 revised 6,921개 전체 검색, 추상명사 45종 종결 후보 문구 523개(적중 문장 528개) 문맥 검토 후 승인된 43곳 반영. 전체 문구 정독 아님."
+        "method": "20편 revised 6,921개 검색. 최장 문장 68~69자인 새 후보 106개 전체 문맥 검토 후 승인된 8곳 반영. 연결어·지시어·접속사로 앞뒤 관계와 주체를 명확히 함. 전체 문구 정독 아님."
       }
     },
     {
@@ -15928,8 +15942,8 @@
           "key": "ly-07-35:問:3:a",
           "label": "답변",
           "original": "그렇지 않습니다. 지나친 검소함도 ‘固’라는 문제로 지적합니다. 핵심은 사치도 인색함도 아닌 적절한 절제이며, 둘 중 더 큰 폐단을 비교해 차라리 검소함을 택한 것입니다.",
-          "reason": "「핵심은 … 절제이며 … 택한 것입니다」에서 핵심을 설명하다 선택한 사람의 행위로 바뀝니다. 공자님이 절제를 중시하면서 두 폐단을 비교하셨다고 직접 서술합니다.",
-          "revised": "그렇지 않습니다. 지나친 검소함도 ‘固’라는 문제로 지적합니다. 공자님은 사치도 인색함도 피하고 적절히 절제해야 한다고 보셨지만, 둘 중 더 큰 폐단을 비교해 차라리 검소함을 택하셨습니다.",
+          "reason": "절제해야 한다는 원칙과 둘 중 하나를 고를 때의 판단을 나누고, 「다만」으로 선택의 조건을 잇습니다.",
+          "revised": "그렇지 않습니다. 지나친 검소함도 ‘固’라는 문제로 지적합니다. 공자님은 사치도 인색함도 피하고 적절히 절제해야 한다고 보셨습니다. 다만 둘 중 더 큰 폐단을 비교해 차라리 검소함을 택하셨습니다.",
           "scope": "問",
           "revision_history": [
             {
@@ -15940,11 +15954,20 @@
               "approval_status": "approved",
               "approval_message": "제이슨 반영후 더 찾아",
               "date": "2026-09-09"
+            },
+            {
+              "pass": "long_sentence_connectives_3",
+              "previous_revision": "그렇지 않습니다. 지나친 검소함도 ‘固’라는 문제로 지적합니다. 공자님은 사치도 인색함도 피하고 적절히 절제해야 한다고 보셨지만, 둘 중 더 큰 폐단을 비교해 차라리 검소함을 택하셨습니다.",
+              "revised": "그렇지 않습니다. 지나친 검소함도 ‘固’라는 문제로 지적합니다. 공자님은 사치도 인색함도 피하고 적절히 절제해야 한다고 보셨습니다. 다만 둘 중 더 큰 폐단을 비교해 차라리 검소함을 택하셨습니다.",
+              "reason": "절제해야 한다는 원칙과 둘 중 하나를 고를 때의 판단을 나누고, 「다만」으로 선택의 조건을 잇습니다.",
+              "approval_status": "approved",
+              "approval_message": "아마 기존 8곳은 다른곳에서 반영했을거야 혹시모르니 확인해보고 네가 말한것도 제이슨 반영",
+              "date": "2026-09-09"
             }
           ],
-          "previous_revision": "그렇지 않습니다. 지나친 검소함도 ‘固’라는 문제로 지적합니다. 핵심은 사치도 인색함도 아닌 적절한 절제이며, 둘 중 더 큰 폐단을 비교해 차라리 검소함을 택한 것입니다.",
+          "previous_revision": "그렇지 않습니다. 지나친 검소함도 ‘固’라는 문제로 지적합니다. 공자님은 사치도 인색함도 피하고 적절히 절제해야 한다고 보셨지만, 둘 중 더 큰 폐단을 비교해 차라리 검소함을 택하셨습니다.",
           "approval_status": "approved",
-          "last_revision_pass": "targeted_type_16_followup_3"
+          "last_revision_pass": "long_sentence_connectives_3"
         },
         {
           "book": 7,
@@ -16137,10 +16160,10 @@
         "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_16_followup_3",
+        "pass": "long_sentence_connectives_3",
         "scanned": 228,
         "approved_applied": 1,
-        "method": "20편 revised 6,921개 전체 검색, 것입니다 종결 후보 문구 602개(적중 문장 617개) 문맥 검토 후 승인된 8곳 반영. 전체 문구 정독 아님."
+        "method": "20편 revised 6,921개 검색. 최장 문장 68~69자인 새 후보 106개 전체 문맥 검토 후 승인된 8곳 반영. 연결어·지시어·접속사로 앞뒤 관계와 주체를 명확히 함. 전체 문구 정독 아님."
       }
     },
     {
@@ -44188,8 +44211,8 @@
     }
   ],
   "latest_style_pass": {
-    "pass": "long_sentence_connectives_2",
+    "pass": "long_sentence_connectives_3",
     "scanned": 3072,
-    "approved_applied": 6
+    "approved_applied": 2
   }
 }

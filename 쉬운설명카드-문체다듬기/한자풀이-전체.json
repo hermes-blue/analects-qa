@@ -2,12 +2,12 @@
   "schema_version": "1.1",
   "scope": "語",
   "scope_name": "한자풀이",
-  "status": "approved_long_sentence_connectives_2_applied",
-  "method": "20편 revised 6,921개 검색. 최장 문장 70~74자인 새 후보 189개 전체 문맥 검토 후 승인된 14곳 반영. 연결어·지시어·접속사로 앞뒤 관계와 주체를 명확히 함. 전체 문구 정독 아님.",
+  "status": "approved_long_sentence_connectives_3_applied",
+  "method": "20편 revised 6,921개 검색. 최장 문장 68~69자인 새 후보 106개 전체 문맥 검토 후 승인된 8곳 반영. 연결어·지시어·접속사로 앞뒤 관계와 주체를 명확히 함. 전체 문구 정독 아님.",
   "count_unit": "텍스트 필드: 한자 풀이 1개, 질문 또는 답변 1개, 쟁점의 견해 설명 1개",
   "total": 2311,
-  "changed": 365,
-  "unchanged": 1946,
+  "changed": 366,
+  "unchanged": 1945,
   "card_count": 498,
   "book_count": 20,
   "content_review_performed": false,
@@ -6834,15 +6834,29 @@
         },
         {
           "book": 5,
-          "changed": false,
+          "changed": true,
           "id": "ly-05-05",
           "index": 1,
           "key": "ly-05-05:語:1",
           "label": "漆雕開칠조개",
           "original": "공자님의 제자 칠조개입니다. 공자님이 벼슬할 만하다고 보았지만 본인은 아직 자기 공부에 확신이 없다고 사양해, 스스로를 엄격하게 보는 태도가 드러납니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "공자님의 제자 칠조개입니다. 공자님이 벼슬할 만하다고 보았지만 본인은 아직 자기 공부에 확신이 없다고 사양해, 스스로를 엄격하게 보는 태도가 드러납니다.",
-          "scope": "語"
+          "reason": "공자님의 판단과 칠조개의 사양을 나누고 「하지만」으로 대비합니다. 주어가 바뀌는 곳에서 「본인」 대신 칠조개를 명시합니다.",
+          "revised": "공자님의 제자 칠조개입니다. 공자님은 그가 벼슬할 만하다고 보았습니다. 하지만 칠조개는 아직 자기 공부에 확신이 없다고 사양해, 스스로를 엄격하게 보는 태도가 드러납니다.",
+          "scope": "語",
+          "revision_history": [
+            {
+              "pass": "long_sentence_connectives_3",
+              "previous_revision": "공자님의 제자 칠조개입니다. 공자님이 벼슬할 만하다고 보았지만 본인은 아직 자기 공부에 확신이 없다고 사양해, 스스로를 엄격하게 보는 태도가 드러납니다.",
+              "revised": "공자님의 제자 칠조개입니다. 공자님은 그가 벼슬할 만하다고 보았습니다. 하지만 칠조개는 아직 자기 공부에 확신이 없다고 사양해, 스스로를 엄격하게 보는 태도가 드러납니다.",
+              "reason": "공자님의 판단과 칠조개의 사양을 나누고 「하지만」으로 대비합니다. 주어가 바뀌는 곳에서 「본인」 대신 칠조개를 명시합니다.",
+              "approval_status": "approved",
+              "approval_message": "아마 기존 8곳은 다른곳에서 반영했을거야 혹시모르니 확인해보고 네가 말한것도 제이슨 반영",
+              "date": "2026-09-09"
+            }
+          ],
+          "previous_revision": "공자님의 제자 칠조개입니다. 공자님이 벼슬할 만하다고 보았지만 본인은 아직 자기 공부에 확신이 없다고 사양해, 스스로를 엄격하게 보는 태도가 드러납니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "long_sentence_connectives_3"
         },
         {
           "book": 5,
@@ -8371,10 +8385,10 @@
         "selector": "article.card details.st1 .w > p:not(.wh)"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_14_followup_2",
+        "pass": "long_sentence_connectives_3",
         "scanned": 134,
         "approved_applied": 1,
-        "method": "20편 revised 6,921개 전체 검색 후 후보 533개 문맥 검토. 승인된 10곳 반영. 모든 문장 종합 정독 아님."
+        "method": "20편 revised 6,921개 검색. 최장 문장 68~69자인 새 후보 106개 전체 문맥 검토 후 승인된 8곳 반영. 연결어·지시어·접속사로 앞뒤 관계와 주체를 명확히 함. 전체 문구 정독 아님."
       }
     },
     {
@@ -10803,8 +10817,8 @@
           "key": "ly-07-08:語:2",
           "label": "啓계",
           "original": "닫힌 것을 열어 준다는 뜻입니다. 학생이 스스로 궁리해 막힌 지점에 이르렀을 때 스승이 실마리를 열어 준다는 의미라서, 처음부터 답을 모두 대신 주는 방식과 다릅니다.",
-          "reason": "궁리하다가 막힌 상황을 공간의 지점에 도달한 것처럼 길게 쓰지 않고 바로 설명합니다.",
-          "revised": "닫힌 것을 열어 준다는 뜻입니다. 학생이 스스로 궁리하다가 막혔을 때 스승이 실마리를 열어 준다는 의미라서, 처음부터 답을 모두 대신 주는 방식과 다릅니다.",
+          "reason": "학생이 먼저 궁리한다는 조건과 답을 대신 주는 방식과의 차이를 나누고 「따라서」로 잇습니다. 학생과 스승의 역할은 그대로 유지합니다.",
+          "revised": "닫힌 것을 열어 준다는 뜻입니다. 학생이 스스로 궁리하다가 막혔을 때 스승이 실마리를 열어 준다는 의미입니다. 따라서 처음부터 답을 모두 대신 주는 방식과는 다릅니다.",
           "scope": "語",
           "revision_history": [
             {
@@ -10815,11 +10829,20 @@
               "approval_status": "approved",
               "approval_message": "제이슨에 반영후 새로운 유형 시작",
               "date": "2026-09-08"
+            },
+            {
+              "pass": "long_sentence_connectives_3",
+              "previous_revision": "닫힌 것을 열어 준다는 뜻입니다. 학생이 스스로 궁리하다가 막혔을 때 스승이 실마리를 열어 준다는 의미라서, 처음부터 답을 모두 대신 주는 방식과 다릅니다.",
+              "revised": "닫힌 것을 열어 준다는 뜻입니다. 학생이 스스로 궁리하다가 막혔을 때 스승이 실마리를 열어 준다는 의미입니다. 따라서 처음부터 답을 모두 대신 주는 방식과는 다릅니다.",
+              "reason": "학생이 먼저 궁리한다는 조건과 답을 대신 주는 방식과의 차이를 나누고 「따라서」로 잇습니다. 학생과 스승의 역할은 그대로 유지합니다.",
+              "approval_status": "approved",
+              "approval_message": "아마 기존 8곳은 다른곳에서 반영했을거야 혹시모르니 확인해보고 네가 말한것도 제이슨 반영",
+              "date": "2026-09-09"
             }
           ],
-          "previous_revision": "닫힌 것을 열어 준다는 뜻입니다. 학생이 스스로 궁리해 막힌 지점에 이르렀을 때 스승이 실마리를 열어 준다는 의미라서, 처음부터 답을 모두 대신 주는 방식과 다릅니다.",
+          "previous_revision": "닫힌 것을 열어 준다는 뜻입니다. 학생이 스스로 궁리하다가 막혔을 때 스승이 실마리를 열어 준다는 의미라서, 처음부터 답을 모두 대신 주는 방식과 다릅니다.",
           "approval_status": "approved",
-          "last_revision_pass": "targeted_type_11"
+          "last_revision_pass": "long_sentence_connectives_3"
         },
         {
           "book": 7,
@@ -12725,10 +12748,10 @@
         "selector": "article.card details.st1 .w > p:not(.wh)"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_16_followup_4",
+        "pass": "long_sentence_connectives_3",
         "scanned": 171,
         "approved_applied": 1,
-        "method": "20편 revised 6,921개 전체 검색, 뜻입니다 적중 문구 1,685개(출현 1,708회) 중 195개 문맥 검토 후 승인된 4곳 반영. 전체 문구 정독 아님."
+        "method": "20편 revised 6,921개 검색. 최장 문장 68~69자인 새 후보 106개 전체 문맥 검토 후 승인된 8곳 반영. 연결어·지시어·접속사로 앞뒤 관계와 주체를 명확히 함. 전체 문구 정독 아님."
       }
     },
     {
@@ -33040,8 +33063,8 @@
     }
   ],
   "latest_style_pass": {
-    "pass": "long_sentence_connectives_2",
+    "pass": "long_sentence_connectives_3",
     "scanned": 2311,
-    "approved_applied": 1
+    "approved_applied": 2
   }
 }
