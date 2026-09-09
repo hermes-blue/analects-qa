@@ -2,12 +2,12 @@
   "schema_version": "1.1",
   "scope": "問",
   "scope_name": "의문",
-  "status": "approved_targeted_type_16_followup_5_applied",
-  "method": "20편 revised 6,921개 전체 검색, 뜻입니다 적중 문구 1,681개(출현 1,704회) 중 미검토 의문·쟁점 469개 문맥 검토 후 승인된 5곳 반영. 전체 문구 정독 아님.",
+  "status": "approved_long_sentence_connectives_1_applied",
+  "method": "20편 revised 6,921개 검색. 75자 이상 문장을 포함한 문구 157개 전체 문맥 검토 후 승인된 20곳 반영. 연결어·지시어·접속사로 앞뒤 관계와 주체를 명확히 함. 전체 문구 정독 아님.",
   "count_unit": "텍스트 필드: 한자 풀이 1개, 질문 또는 답변 1개, 쟁점의 견해 설명 1개",
   "total": 3072,
-  "changed": 273,
-  "unchanged": 2799,
+  "changed": 277,
+  "unchanged": 2795,
   "card_count": 498,
   "book_count": 20,
   "content_review_performed": false,
@@ -789,16 +789,30 @@
         },
         {
           "book": 1,
-          "changed": false,
+          "changed": true,
           "field": "답변",
           "id": "ly-01-10",
           "index": 1,
           "key": "ly-01-10:問:1:a",
           "label": "답변",
           "original": "공자님이 어느 나라에 가든 그 나라의 정치 사정을 듣게 되는 모습을 보고, 직접 요구해서 얻은 것인지 사람들이 먼저 알려 준 것인지 궁금해 자공에게 물은 것입니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "공자님이 어느 나라에 가든 그 나라의 정치 사정을 듣게 되는 모습을 보고, 직접 요구해서 얻은 것인지 사람들이 먼저 알려 준 것인지 궁금해 자공에게 물은 것입니다.",
-          "scope": "問"
+          "reason": "관찰과 그에 따른 질문을 두 문장으로 나눕니다. 「그래서」로 이유를 잇고, 관찰하고 묻는 자금·정보를 듣는 공자님·질문을 받는 자공을 구별합니다.",
+          "revised": "자금은 공자님이 어느 나라에 가든 그 나라의 정치 사정을 듣게 되는 모습을 보았습니다. 그래서 공자님이 직접 요구해서 얻은 것인지, 사람들이 먼저 알려 준 것인지 궁금해 자공에게 물었습니다.",
+          "scope": "問",
+          "revision_history": [
+            {
+              "pass": "long_sentence_connectives_1",
+              "previous_revision": "공자님이 어느 나라에 가든 그 나라의 정치 사정을 듣게 되는 모습을 보고, 직접 요구해서 얻은 것인지 사람들이 먼저 알려 준 것인지 궁금해 자공에게 물은 것입니다.",
+              "revised": "자금은 공자님이 어느 나라에 가든 그 나라의 정치 사정을 듣게 되는 모습을 보았습니다. 그래서 공자님이 직접 요구해서 얻은 것인지, 사람들이 먼저 알려 준 것인지 궁금해 자공에게 물었습니다.",
+              "reason": "관찰과 그에 따른 질문을 두 문장으로 나눕니다. 「그래서」로 이유를 잇고, 관찰하고 묻는 자금·정보를 듣는 공자님·질문을 받는 자공을 구별합니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨 반영후 같은 유형 계속 찾아 수정할때 연결어 지시어 접속사등 잘 활용하고",
+              "date": "2026-09-09"
+            }
+          ],
+          "previous_revision": "공자님이 어느 나라에 가든 그 나라의 정치 사정을 듣게 되는 모습을 보고, 직접 요구해서 얻은 것인지 사람들이 먼저 알려 준 것인지 궁금해 자공에게 물은 것입니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "long_sentence_connectives_1"
         },
         {
           "book": 1,
@@ -867,16 +881,30 @@
         },
         {
           "book": 1,
-          "changed": false,
+          "changed": true,
           "field": "답변",
           "id": "ly-01-11",
           "index": 1,
           "key": "ly-01-11:問:1:a",
           "label": "답변",
           "original": "아버지가 살아 계실 때는 자식이 마음대로 일을 결정하기 어려우므로 뜻을 통해 사람됨을 보고, 돌아가신 뒤에는 실제 행동을 통해 그 뜻이 어떻게 드러나는지를 본다는 설명입니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "아버지가 살아 계실 때는 자식이 마음대로 일을 결정하기 어려우므로 뜻을 통해 사람됨을 보고, 돌아가신 뒤에는 실제 행동을 통해 그 뜻이 어떻게 드러나는지를 본다는 설명입니다.",
-          "scope": "問"
+          "reason": "97자 문장을 생전의 제약→뜻을 보는 이유→사후의 행동 순서로 나눕니다. 「그래서 이때는·반면」을 쓰고 아버지와 자식의 주체를 명시합니다.",
+          "revised": "아버지가 살아 계실 때는 자식이 마음대로 일을 결정하기 어렵습니다. 그래서 이때는 자식의 뜻을 통해 사람됨을 봅니다. 반면 아버지가 돌아가신 뒤에는 자식의 실제 행동을 통해 그 뜻이 어떻게 드러나는지를 본다는 설명입니다.",
+          "scope": "問",
+          "revision_history": [
+            {
+              "pass": "long_sentence_connectives_1",
+              "previous_revision": "아버지가 살아 계실 때는 자식이 마음대로 일을 결정하기 어려우므로 뜻을 통해 사람됨을 보고, 돌아가신 뒤에는 실제 행동을 통해 그 뜻이 어떻게 드러나는지를 본다는 설명입니다.",
+              "revised": "아버지가 살아 계실 때는 자식이 마음대로 일을 결정하기 어렵습니다. 그래서 이때는 자식의 뜻을 통해 사람됨을 봅니다. 반면 아버지가 돌아가신 뒤에는 자식의 실제 행동을 통해 그 뜻이 어떻게 드러나는지를 본다는 설명입니다.",
+              "reason": "97자 문장을 생전의 제약→뜻을 보는 이유→사후의 행동 순서로 나눕니다. 「그래서 이때는·반면」을 쓰고 아버지와 자식의 주체를 명시합니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨 반영후 같은 유형 계속 찾아 수정할때 연결어 지시어 접속사등 잘 활용하고",
+              "date": "2026-09-09"
+            }
+          ],
+          "previous_revision": "아버지가 살아 계실 때는 자식이 마음대로 일을 결정하기 어려우므로 뜻을 통해 사람됨을 보고, 돌아가신 뒤에는 실제 행동을 통해 그 뜻이 어떻게 드러나는지를 본다는 설명입니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "long_sentence_connectives_1"
         },
         {
           "book": 1,
@@ -1415,10 +1443,10 @@
         "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_4",
-        "reviewed": 96,
-        "approved_applied": 3,
-        "status": "approved_applied"
+        "pass": "long_sentence_connectives_1",
+        "scanned": 96,
+        "approved_applied": 2,
+        "method": "20편 revised 6,921개 검색. 75자 이상 문장을 포함한 문구 157개 전체 문맥 검토 후 승인된 20곳 반영. 연결어·지시어·접속사로 앞뒤 관계와 주체를 명확히 함. 전체 문구 정독 아님."
       }
     },
     {
@@ -28133,16 +28161,30 @@
         },
         {
           "book": 13,
-          "changed": false,
+          "changed": true,
           "field": "답변",
           "id": "ly-13-12",
           "index": 3,
           "key": "ly-13-12:問:3:a",
           "label": "답변",
           "original": "11장은 선한 사람이 오래 다스리면 잔혹한 풍속을 줄일 수 있다고 했고, 12장은 이상적인 왕도 정치도 사회 전체를 仁하게 만드는 데 세대 단위의 시간이 필요하다고 말합니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "11장은 선한 사람이 오래 다스리면 잔혹한 풍속을 줄일 수 있다고 했고, 12장은 이상적인 왕도 정치도 사회 전체를 仁하게 만드는 데 세대 단위의 시간이 필요하다고 말합니다.",
-          "scope": "問"
+          "reason": "두 장의 설명을 한 문장에 몰아넣지 않고 나눕니다. 「한편」으로 다음 장의 설명을 연결하며, 풍속 개선과 사회 전체의 仁이라는 서로 다른 내용은 보존합니다.",
+          "revised": "11장에서는 선한 사람이 오래 다스리면 잔혹한 풍속을 줄일 수 있다고 말합니다. 한편 12장에서는 이상적인 왕도 정치도 사회 전체를 仁하게 만드는 데 세대 단위의 시간이 필요하다고 말합니다.",
+          "scope": "問",
+          "revision_history": [
+            {
+              "pass": "long_sentence_connectives_1",
+              "previous_revision": "11장은 선한 사람이 오래 다스리면 잔혹한 풍속을 줄일 수 있다고 했고, 12장은 이상적인 왕도 정치도 사회 전체를 仁하게 만드는 데 세대 단위의 시간이 필요하다고 말합니다.",
+              "revised": "11장에서는 선한 사람이 오래 다스리면 잔혹한 풍속을 줄일 수 있다고 말합니다. 한편 12장에서는 이상적인 왕도 정치도 사회 전체를 仁하게 만드는 데 세대 단위의 시간이 필요하다고 말합니다.",
+              "reason": "두 장의 설명을 한 문장에 몰아넣지 않고 나눕니다. 「한편」으로 다음 장의 설명을 연결하며, 풍속 개선과 사회 전체의 仁이라는 서로 다른 내용은 보존합니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨 반영후 같은 유형 계속 찾아 수정할때 연결어 지시어 접속사등 잘 활용하고",
+              "date": "2026-09-09"
+            }
+          ],
+          "previous_revision": "11장은 선한 사람이 오래 다스리면 잔혹한 풍속을 줄일 수 있다고 했고, 12장은 이상적인 왕도 정치도 사회 전체를 仁하게 만드는 데 세대 단위의 시간이 필요하다고 말합니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "long_sentence_connectives_1"
         },
         {
           "book": 13,
@@ -29690,10 +29732,10 @@
         "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_13",
+        "pass": "long_sentence_connectives_1",
         "scanned": 180,
         "approved_applied": 1,
-        "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
+        "method": "20편 revised 6,921개 검색. 75자 이상 문장을 포함한 문구 157개 전체 문맥 검토 후 승인된 20곳 반영. 연결어·지시어·접속사로 앞뒤 관계와 주체를 명확히 함. 전체 문구 정독 아님."
       }
     },
     {
@@ -43881,16 +43923,30 @@
         },
         {
           "book": 20,
-          "changed": false,
+          "changed": true,
           "field": "답변",
           "id": "ly-20-02",
           "index": 2,
           "key": "ly-20-02:問:2:a",
           "label": "답변",
           "original": "가르치지 않고 벌주는 잔혹함, 미리 알리지 않고 성과만 요구하는 성급함, 처음엔 느슨하다가 뒤늦게 기한을 몰아붙이는 해침, 줄 것을 주면서도 인색하게 구는 옹색함을 말합니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "가르치지 않고 벌주는 잔혹함, 미리 알리지 않고 성과만 요구하는 성급함, 처음엔 느슨하다가 뒤늦게 기한을 몰아붙이는 해침, 줄 것을 주면서도 인색하게 구는 옹색함을 말합니다.",
-          "scope": "問"
+          "reason": "97자 안에 들어 있던 행동과 평가의 네 쌍을 각각 나눕니다. 「첫째·둘째·셋째·넷째」로 질문의 네 항목과 같은 차례를 유지합니다.",
+          "revised": "첫째는 가르치지 않고 벌주는 잔혹함입니다. 둘째는 미리 알리지 않고 성과만 요구하는 성급함입니다. 셋째는 처음에는 느슨하다가 뒤늦게 기한을 몰아붙이는 해침입니다. 넷째는 줄 것을 주면서도 인색하게 구는 옹색함입니다.",
+          "scope": "問",
+          "revision_history": [
+            {
+              "pass": "long_sentence_connectives_1",
+              "previous_revision": "가르치지 않고 벌주는 잔혹함, 미리 알리지 않고 성과만 요구하는 성급함, 처음엔 느슨하다가 뒤늦게 기한을 몰아붙이는 해침, 줄 것을 주면서도 인색하게 구는 옹색함을 말합니다.",
+              "revised": "첫째는 가르치지 않고 벌주는 잔혹함입니다. 둘째는 미리 알리지 않고 성과만 요구하는 성급함입니다. 셋째는 처음에는 느슨하다가 뒤늦게 기한을 몰아붙이는 해침입니다. 넷째는 줄 것을 주면서도 인색하게 구는 옹색함입니다.",
+              "reason": "97자 안에 들어 있던 행동과 평가의 네 쌍을 각각 나눕니다. 「첫째·둘째·셋째·넷째」로 질문의 네 항목과 같은 차례를 유지합니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨 반영후 같은 유형 계속 찾아 수정할때 연결어 지시어 접속사등 잘 활용하고",
+              "date": "2026-09-09"
+            }
+          ],
+          "previous_revision": "가르치지 않고 벌주는 잔혹함, 미리 알리지 않고 성과만 요구하는 성급함, 처음엔 느슨하다가 뒤늦게 기한을 몰아붙이는 해침, 줄 것을 주면서도 인색하게 구는 옹색함을 말합니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "long_sentence_connectives_1"
         },
         {
           "book": 20,
@@ -44045,15 +44101,15 @@
         "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_3",
-        "reviewed": 18,
-        "approved_applied": 2,
-        "status": "approved_applied"
+        "pass": "long_sentence_connectives_1",
+        "scanned": 18,
+        "approved_applied": 1,
+        "method": "20편 revised 6,921개 검색. 75자 이상 문장을 포함한 문구 157개 전체 문맥 검토 후 승인된 20곳 반영. 연결어·지시어·접속사로 앞뒤 관계와 주체를 명확히 함. 전체 문구 정독 아님."
       }
     }
   ],
   "latest_style_pass": {
-    "pass": "targeted_type_16_followup_5",
+    "pass": "long_sentence_connectives_1",
     "scanned": 3072,
     "approved_applied": 4
   }
