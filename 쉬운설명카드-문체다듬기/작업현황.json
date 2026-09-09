@@ -1,5 +1,5 @@
 {
-  "apply_status": "유형 15 승인안 8곳을 수정본 JSON에 반영. 원본 HTML 미적용.",
+  "apply_status": "유형 15 승인안 2곳을 수정본 JSON에 반영. 원본 HTML 미적용.",
   "book_count": 20,
   "card_count": 498,
   "content_review_performed": false,
@@ -776,7 +776,7 @@
     },
     {
       "book_count": 20,
-      "changed": 209,
+      "changed": 210,
       "labels_preserved": true,
       "method": "전 항목에서 문체 패턴으로 후보를 찾아 후보 문장의 문맥을 확인하는 선별 교정.",
       "name": "쟁점",
@@ -945,32 +945,32 @@
           "scanned_text_fields": 8
         }
       ],
-      "status": "approved_targeted_type_15_followup_2_applied",
+      "status": "approved_targeted_type_15_followup_4_applied",
       "text_fields": 1040,
-      "unchanged": 831,
+      "unchanged": 830,
       "unique_cards": 498,
       "latest_style_pass": {
-        "pass": "targeted_type_15_followup_2",
-        "approved_applied": 8,
+        "pass": "targeted_type_15_followup_4",
+        "approved_applied": 2,
         "reviewed": 1040,
-        "method": "20편 revised 6,921개 전체 검색, 후보 문구 665개(적중 문장 681개) 문맥 검토 후 승인된 8곳 반영. 전체 문구 정독 아님."
+        "method": "20편 revised 6,921개 전체 검색, 후보 문구 103개(적중 문장 104개) 문맥 검토 후 승인된 2곳 반영. 전체 문구 정독 아님."
       }
     }
   ],
-  "status": "approved_targeted_type_15_followup_2_applied",
-  "total_changed_text_fields": 1160,
+  "status": "approved_targeted_type_15_followup_4_applied",
+  "total_changed_text_fields": 1161,
   "last_completed_pass": {
     "type": 15,
     "scope": "지나치게 긴 문장과 관형절",
-    "followup": 2,
+    "followup": 4,
     "status": "approved_applied",
     "scanned": 6921,
-    "keyword_matches_context_reviewed": 665,
-    "matched_sentences": 681,
-    "approved_applied": 8,
-    "retained_matches": 657,
-    "approval_message": "이거는 주어가없잖냐、 다시 수정 、 그리고 제이슨에 반영 그리고 계속 돌려、 같은 유형",
-    "method": "20편 revised 6,921개 전체 검색, 후보 문구 665개(적중 문장 681개) 문맥 검토 후 승인된 8곳 반영. 전체 문구 정독 아님."
+    "keyword_matches_context_reviewed": 103,
+    "matched_sentences": 104,
+    "approved_applied": 2,
+    "retained_matches": 101,
+    "approval_message": "제이슨 반영후  이제 다른 유형、 ～명사입니다 로 끝나는 것중 어색한 것들 골라",
+    "method": "20편 revised 6,921개 전체 검색, 후보 문구 103개(적중 문장 104개) 문맥 검토 후 승인된 2곳 반영. 전체 문구 정독 아님."
   },
   "targeted_reviews": [
     {
@@ -2194,6 +2194,19 @@
       "retained_matches": 657,
       "approval_message": "이거는 주어가없잖냐、 다시 수정 、 그리고 제이슨에 반영 그리고 계속 돌려、 같은 유형",
       "method": "20편 revised 6,921개 전체 검색, 후보 문구 665개(적중 문장 681개) 문맥 검토 후 승인된 8곳 반영. 전체 문구 정독 아님."
+    },
+    {
+      "type": 15,
+      "scope": "지나치게 긴 문장과 관형절",
+      "followup": 4,
+      "status": "approved_applied",
+      "scanned": 6921,
+      "keyword_matches_context_reviewed": 103,
+      "matched_sentences": 104,
+      "approved_applied": 2,
+      "retained_matches": 101,
+      "approval_message": "제이슨 반영후  이제 다른 유형、 ～명사입니다 로 끝나는 것중 어색한 것들 골라",
+      "method": "20편 revised 6,921개 전체 검색, 후보 문구 103개(적중 문장 104개) 문맥 검토 후 승인된 2곳 반영. 전체 문구 정독 아님."
     }
   ]
 }
