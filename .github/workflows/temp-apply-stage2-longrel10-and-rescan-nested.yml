@@ -1,0 +1,105 @@
+name: TEMP Apply Stage2 LongRel10 And Rescan Nested
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/temp-apply-stage2-longrel10-and-rescan-nested.yml']
+permissions:
+  contents: write
+jobs:
+  work:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Apply approved 10 and rescan nested clauses
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json,glob,re,subprocess
+          from pathlib import Path
+          base=Path('sourcecards-targeted-review-7passes/cycle2-pass17-long-relative-clauses')
+          p=base/'approval-table-10.md'
+          rows=[]
+          for ln in p.read_text(encoding='utf-8').splitlines():
+              if not ln.startswith('| ') or ln.startswith('|---') or ln.startswith('| 편·장'):
+                  continue
+              parts=[x.strip() for x in ln.split('|')[1:-1]]
+              if len(parts)==4: rows.append(parts)
+          if len(rows)!=10: raise SystemExit(f'rows={len(rows)}')
+          files=sorted(glob.glob('sourcecards-style-polish/[0-9][0-9]-*.json'))
+          if len(files)!=20: raise SystemExit(f'files={len(files)}')
+          data_by_file={}; by_pj={}; total=0
+          for fn in files:
+              d=json.loads(Path(fn).read_text(encoding='utf-8')); data_by_file[fn]=d
+              for ch in d['장']:
+                  total+=1; by_pj[ch['편장']]=(fn,ch)
+          if total!=498: raise SystemExit(f'chapters={total}')
+          changed=set(); audit=[]
+          for pj,old,new,reason in rows:
+              fn,ch=by_pj[pj]
+              if ch['여는말']!=old:
+                  raise SystemExit(f'{pj} mismatch\nCURRENT={ch["여는말"]}\nOLD={old}')
+              ch['여는말']=new; changed.add(fn)
+              audit.append({'편장':pj,'파일':fn,'수정전':old,'수정후':new,'승인상태':'승인완료','본문반영':True})
+          for fn in changed:
+              Path(fn).write_text(json.dumps(data_by_file[fn],ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          p.write_text(p.read_text(encoding='utf-8').replace('**승인 대기 / 본문 JSON 미반영**','**승인완료 / 본문 JSON 10건 반영완료**',1),encoding='utf-8')
+          (base/'application-audit-10.json').write_text(json.dumps({'작업':'지나치게 긴 관형절·인용절 2차 10건','승인상태':'승인완료','본문반영수':10,'후보':audit},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+
+          # Third pass: shorter but heavily nested modifiers / embedded clauses.
+          # High recall; human review will filter.
+          rel_pat=re.compile(r'(?:하는|한|했던|하던|되는|된|라는|이라는|하려는|해야 하는|할 수 있는|해야 할|하게 하는|하도록 하는)')
+          emb_pat=re.compile(r'(?:는지|인지|었는지|였는지|할지|을지|라는 뜻|다는 뜻|것으로|것이|것을)')
+          seq_pat=re.compile(r'(하는|한|된|되는|라는|이라는).{1,22}(하는|한|된|되는|라는|이라는)')
+          hits=[]
+          for fn in files:
+              d=json.loads(Path(fn).read_text(encoding='utf-8'))
+              for ch in d['장']:
+                  text=ch['여는말']
+                  sents=[s.strip() for s in re.split(r'(?<=[.!?])\s+',text) if s.strip()]
+                  for i,s in enumerate(sents,1):
+                      rels=rel_pat.findall(s); embs=emb_pat.findall(s)
+                      nested=len(rels)+len(embs)
+                      seq=len(seq_pat.findall(s))
+                      # target under 60 too; require genuinely dense nesting
+                      if (nested>=4 and len(s)>=35) or (seq>=2 and len(s)>=35) or (len(rels)>=3 and len(s)>=30):
+                          hits.append({'구절ID':ch['구절ID'],'편장':ch['편장'],'파일':fn,'문장번호':i,'문장':s,'전체여는말':text,'길이':len(s),'관형표지수':len(rels),'내포표지수':len(embs),'중첩연쇄수':seq})
+          # remove duplicates / current-pass edited obvious duplicates still okay for verification, but tag them
+          edited_pj={r[0] for r in rows}
+          for h in hits: h['이번반영장']=h['편장'] in edited_pj
+          hits.sort(key=lambda r:(-r['중첩연쇄수'],-(r['관형표지수']+r['내포표지수']),-r['길이']))
+          out=Path('sourcecards-targeted-review-7passes/cycle2-pass18-nested-modifiers')
+          out.mkdir(parents=True,exist_ok=True)
+          head=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
+          md=['# 관형절 3차 — 길이와 무관한 중첩 수식 스캔','',f'- 기준 커밋: `{head}`','- 대상: 20파일 / 498장',f'- 휴리스틱 적중: **{len(hits)}문장**','- 60자 미만도 포함. 관형절·간접의문절·명사절이 겹친 경우를 넓게 포착. 자동 수정 대상 아님.','']
+          for i,h in enumerate(hits,1):
+              md.append(f"{i}. `{h['구절ID']}` | {h['편장']} | 길이={h['길이']} | 관형={h['관형표지수']} 내포={h['내포표지수']} 연쇄={h['중첩연쇄수']} | {h['문장']} | 전체: {h['전체여는말']}")
+          (out/'heuristic-hits.md').write_text('\n'.join(md)+'\n',encoding='utf-8')
+          (out/'heuristic-hits.json').write_text(json.dumps({'기준커밋':head,'대상장수':498,'적중문장수':len(hits),'항목':hits},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          # chunks 25
+          for n,a in enumerate(range(0,len(hits),25),1):
+              part=hits[a:a+25]
+              cm=[f'# 관형절 3차 후보 {a+1}~{a+len(part)}','']
+              for j,h in enumerate(part,a+1): cm.append(f"{j}. {h['구절ID']} | {h['편장']} | 길이={h['길이']} | 문장: {h['문장']} | 전체: {h['전체여는말']}")
+              (out/f'review-chunk-{n}.md').write_text('\n'.join(cm)+'\n',encoding='utf-8')
+          print('applied',len(rows),'nested_hits',len(hits))
+          PY
+      - name: Validate and commit
+        shell: bash
+        run: |
+          git diff --check
+          python - <<'PY'
+          import json,glob
+          from pathlib import Path
+          fs=glob.glob('sourcecards-style-polish/[0-9][0-9]-*.json')
+          assert len(fs)==20
+          assert sum(len(json.loads(Path(f).read_text(encoding='utf-8'))['장']) for f in fs)==498
+          print('validated 20 JSON / 498 chapters')
+          PY
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add sourcecards-style-polish/ sourcecards-targeted-review-7passes/cycle2-pass17-long-relative-clauses/ sourcecards-targeted-review-7passes/cycle2-pass18-nested-modifiers/
+          git commit -m '사료카드 2단계 장문 관형절 10건 반영 및 중첩수식 3차 스캔'
+          git push origin main
