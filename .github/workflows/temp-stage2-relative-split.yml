@@ -1,0 +1,37 @@
+name: TEMP Stage2 Relative Split
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/temp-stage2-relative-split.yml']
+permissions:
+  contents: write
+jobs:
+  split:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Split report for review
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          base=Path('sourcecards-targeted-review-7passes/cycle2-pass16-relative-clause-density')
+          data=json.loads((base/'heuristic-hits.json').read_text(encoding='utf-8'))['항목']
+          for n,a in enumerate(range(0,len(data),20),1):
+              part=data[a:a+20]
+              out=[f'# 관형절 중첩 후보 {a+1}~{a+len(part)}','']
+              for j,r in enumerate(part,a+1):
+                  out.append(f"{j}. {r['구절ID']} | {r['편장']} | 점수={r['점수']} | 길이={r['길이']} | 문장: {r['문장']} | 전체: {r['전체여는말']}")
+              (base/f'review-chunk-{n}.md').write_text('\n'.join(out)+'\n',encoding='utf-8')
+          PY
+      - name: Commit
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add sourcecards-targeted-review-7passes/cycle2-pass16-relative-clause-density/review-chunk-*.md
+          git commit -m '사료카드 2단계 관형절 중첩 후보 분할'
+          git push origin main
