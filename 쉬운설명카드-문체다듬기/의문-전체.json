@@ -2,12 +2,12 @@
   "schema_version": "1.1",
   "scope": "問",
   "scope_name": "의문",
-  "status": "approved_longest_sentence_ranked_1_applied",
-  "method": "최신 revised 6,921개를 문장부호 기준 11,962개 단위로 분리하여 길이 내림차순 정렬. 전체 순위 1~20위(96~85자)의 문맥을 검토해 9곳 수정, 10곳 유지, 1곳 의미 확인 보류. 전체 문구 정독 아님.",
+  "status": "approved_longest_sentence_ranked_2_applied",
+  "method": "기존에 revised 6,921개에서 산출한 문장 단위 11,962개의 길이 순위를 유지. 최신 revised와 대조한 기존 전체 순위 21~40위(85~82자)의 문맥을 검토해 8곳 수정, 12곳 유지. 전체 문구 정독 아님.",
   "count_unit": "텍스트 필드: 한자 풀이 1개, 질문 또는 답변 1개, 쟁점의 견해 설명 1개",
   "total": 3072,
-  "changed": 286,
-  "unchanged": 2786,
+  "changed": 288,
+  "unchanged": 2784,
   "card_count": 498,
   "book_count": 20,
   "content_review_performed": false,
@@ -14751,16 +14751,30 @@
         },
         {
           "book": 7,
-          "changed": false,
+          "changed": true,
           "field": "답변",
           "id": "ly-07-21",
           "index": 1,
           "key": "ly-07-21:問:1:a",
           "label": "답변",
           "original": "그렇습니다. 좋은 사람에게서는 본받을 점을 배우고, 좋지 않은 모습에서는 내게 같은 문제가 없는지 돌아볼 수 있으므로 누구든 배움의 계기가 될 수 있다는 뜻입니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "그렇습니다. 좋은 사람에게서는 본받을 점을 배우고, 좋지 않은 모습에서는 내게 같은 문제가 없는지 돌아볼 수 있으므로 누구든 배움의 계기가 될 수 있다는 뜻입니다.",
-          "scope": "問"
+          "reason": "좋은 모습과 좋지 않은 모습에서 배우는 방법을 한 문장에 남기고, 그로부터 나오는 결론만 나눴습니다. 「이처럼」으로 두 경우를 받아 누구에게나 배울 수 있다는 설명을 이었습니다.",
+          "revised": "그렇습니다. 좋은 사람에게서는 본받을 점을 배우고, 좋지 않은 모습을 보면 내게 같은 문제가 없는지 돌아볼 수 있습니다. 이처럼 누구든 배움의 계기가 될 수 있다는 뜻입니다.",
+          "scope": "問",
+          "revision_history": [
+            {
+              "pass": "longest_sentence_ranked_2",
+              "previous_revision": "그렇습니다. 좋은 사람에게서는 본받을 점을 배우고, 좋지 않은 모습에서는 내게 같은 문제가 없는지 돌아볼 수 있으므로 누구든 배움의 계기가 될 수 있다는 뜻입니다.",
+              "revised": "그렇습니다. 좋은 사람에게서는 본받을 점을 배우고, 좋지 않은 모습을 보면 내게 같은 문제가 없는지 돌아볼 수 있습니다. 이처럼 누구든 배움의 계기가 될 수 있다는 뜻입니다.",
+              "reason": "좋은 모습과 좋지 않은 모습에서 배우는 방법을 한 문장에 남기고, 그로부터 나오는 결론만 나눴습니다. 「이처럼」으로 두 경우를 받아 누구에게나 배울 수 있다는 설명을 이었습니다.",
+              "approval_status": "approved",
+              "approval_message": "자 일단 그 수정한 거 반영하고 유지하는 거 한번 띄워 봐 내가 확인해 보게.",
+              "date": "2026-09-09"
+            }
+          ],
+          "previous_revision": "그렇습니다. 좋은 사람에게서는 본받을 점을 배우고, 좋지 않은 모습에서는 내게 같은 문제가 없는지 돌아볼 수 있으므로 누구든 배움의 계기가 될 수 있다는 뜻입니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "longest_sentence_ranked_2"
         },
         {
           "book": 7,
@@ -16213,10 +16227,9 @@
         "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
       },
       "latest_style_pass": {
-        "pass": "long_sentence_connectives_3",
-        "scanned": 228,
+        "pass": "longest_sentence_ranked_2",
         "approved_applied": 1,
-        "method": "20편 revised 6,921개 검색. 최장 문장 68~69자인 새 후보 106개 전체 문맥 검토 후 승인된 8곳 반영. 연결어·지시어·접속사로 앞뒤 관계와 주체를 명확히 함. 전체 문구 정독 아님."
+        "method": "기존에 revised 6,921개에서 산출한 문장 단위 11,962개의 길이 순위를 유지. 최신 revised와 대조한 기존 전체 순위 21~40위(85~82자)의 문맥을 검토해 8곳 수정, 12곳 유지. 전체 문구 정독 아님."
       }
     },
     {
@@ -18213,16 +18226,30 @@
         },
         {
           "book": 9,
-          "changed": false,
+          "changed": true,
           "field": "답변",
           "id": "ly-09-02",
           "index": 3,
           "key": "ly-09-02:問:3:a",
           "label": "답변",
           "original": "그렇게 볼 필요는 없습니다. ‘御’를 선택한 것은 자신의 다재다능함을 자랑하려는 것이 아니라, 남의 과도한 칭찬을 낮추어 받으려는 겸양의 표현으로 이해하는 것이 자연스럽습니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "그렇게 볼 필요는 없습니다. ‘御’를 선택한 것은 자신의 다재다능함을 자랑하려는 것이 아니라, 남의 과도한 칭찬을 낮추어 받으려는 겸양의 표현으로 이해하는 것이 자연스럽습니다.",
-          "scope": "問"
+          "reason": "「선택한 것은 … 자랑하려는 것이 아니라 … 받으려는 겸양의 표현으로 이해하는 것이」처럼 겹친 명사절을 줄였습니다. 누구의 말인지 밝히고, 과도한 칭찬에 겸손하게 응답했다는 해석과 「이해하는 것이 자연스럽습니다」의 판단 강도를 유지했습니다.",
+          "revised": "그렇게 볼 필요는 없습니다. ‘御’를 택하겠다는 공자님의 말은 다재다능함을 자랑하기보다 남의 과도한 칭찬을 겸손하게 받아넘긴 표현으로 이해하는 것이 자연스럽습니다.",
+          "scope": "問",
+          "revision_history": [
+            {
+              "pass": "longest_sentence_ranked_2",
+              "previous_revision": "그렇게 볼 필요는 없습니다. ‘御’를 선택한 것은 자신의 다재다능함을 자랑하려는 것이 아니라, 남의 과도한 칭찬을 낮추어 받으려는 겸양의 표현으로 이해하는 것이 자연스럽습니다.",
+              "revised": "그렇게 볼 필요는 없습니다. ‘御’를 택하겠다는 공자님의 말은 다재다능함을 자랑하기보다 남의 과도한 칭찬을 겸손하게 받아넘긴 표현으로 이해하는 것이 자연스럽습니다.",
+              "reason": "「선택한 것은 … 자랑하려는 것이 아니라 … 받으려는 겸양의 표현으로 이해하는 것이」처럼 겹친 명사절을 줄였습니다. 누구의 말인지 밝히고, 과도한 칭찬에 겸손하게 응답했다는 해석과 「이해하는 것이 자연스럽습니다」의 판단 강도를 유지했습니다.",
+              "approval_status": "approved",
+              "approval_message": "자 일단 그 수정한 거 반영하고 유지하는 거 한번 띄워 봐 내가 확인해 보게.",
+              "date": "2026-09-09"
+            }
+          ],
+          "previous_revision": "그렇게 볼 필요는 없습니다. ‘御’를 선택한 것은 자신의 다재다능함을 자랑하려는 것이 아니라, 남의 과도한 칭찬을 낮추어 받으려는 겸양의 표현으로 이해하는 것이 자연스럽습니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "longest_sentence_ranked_2"
         },
         {
           "book": 9,
@@ -20707,10 +20734,9 @@
         "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_10",
-        "scanned": 186,
+        "pass": "longest_sentence_ranked_2",
         "approved_applied": 1,
-        "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
+        "method": "기존에 revised 6,921개에서 산출한 문장 단위 11,962개의 길이 순위를 유지. 최신 revised와 대조한 기존 전체 순위 21~40위(85~82자)의 문맥을 검토해 8곳 수정, 12곳 유지. 전체 문구 정독 아님."
       }
     },
     {
@@ -44277,8 +44303,8 @@
     }
   ],
   "latest_style_pass": {
-    "pass": "longest_sentence_ranked_1",
-    "approved_applied": 4,
-    "method": "최신 revised 6,921개를 문장부호 기준 11,962개 단위로 분리하여 길이 내림차순 정렬. 전체 순위 1~20위(96~85자)의 문맥을 검토해 9곳 수정, 10곳 유지, 1곳 의미 확인 보류. 전체 문구 정독 아님."
+    "pass": "longest_sentence_ranked_2",
+    "approved_applied": 2,
+    "method": "기존에 revised 6,921개에서 산출한 문장 단위 11,962개의 길이 순위를 유지. 최신 revised와 대조한 기존 전체 순위 21~40위(85~82자)의 문맥을 검토해 8곳 수정, 12곳 유지. 전체 문구 정독 아님."
   }
 }

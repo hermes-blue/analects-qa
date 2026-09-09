@@ -1,5 +1,5 @@
 {
-  "apply_status": "전체 문장 길이 순위 1~20위에서 승인된 수정안 9곳을 JSON에 반영. 원본 HTML 미적용.",
+  "apply_status": "전체 문장 길이 순위 21~40위에서 승인된 수정안 8곳을 JSON에 반영. 원본 HTML 미적용.",
   "book_count": 20,
   "card_count": 498,
   "content_review_performed": false,
@@ -594,7 +594,7 @@
     },
     {
       "book_count": 20,
-      "changed": 286,
+      "changed": 288,
       "labels_preserved": true,
       "method": "전 항목에서 문체 패턴으로 후보를 찾아 후보 문장의 문맥을 확인하는 선별 교정.",
       "name": "의문",
@@ -763,20 +763,20 @@
           "scanned_text_fields": 18
         }
       ],
-      "status": "approved_longest_sentence_ranked_1_applied",
+      "status": "approved_longest_sentence_ranked_2_applied",
       "text_fields": 3072,
-      "unchanged": 2786,
+      "unchanged": 2784,
       "unique_cards": 498,
       "latest_style_pass": {
-        "pass": "longest_sentence_ranked_1",
-        "approved_applied": 4,
-        "context_reviewed": 10,
-        "method": "최신 revised 6,921개를 문장부호 기준 11,962개 단위로 분리하여 길이 내림차순 정렬. 전체 순위 1~20위(96~85자)의 문맥을 검토해 9곳 수정, 10곳 유지, 1곳 의미 확인 보류. 전체 문구 정독 아님."
+        "pass": "longest_sentence_ranked_2",
+        "approved_applied": 2,
+        "context_reviewed": 6,
+        "method": "기존에 revised 6,921개에서 산출한 문장 단위 11,962개의 길이 순위를 유지. 최신 revised와 대조한 기존 전체 순위 21~40위(85~82자)의 문맥을 검토해 8곳 수정, 12곳 유지. 전체 문구 정독 아님."
       }
     },
     {
       "book_count": 20,
-      "changed": 242,
+      "changed": 247,
       "labels_preserved": true,
       "method": "전 항목에서 문체 패턴으로 후보를 찾아 후보 문장의 문맥을 확인하는 선별 교정.",
       "name": "쟁점",
@@ -945,35 +945,36 @@
           "scanned_text_fields": 8
         }
       ],
-      "status": "approved_longest_sentence_ranked_1_applied",
+      "status": "approved_longest_sentence_ranked_2_applied",
       "text_fields": 1040,
-      "unchanged": 798,
+      "unchanged": 793,
       "unique_cards": 498,
       "latest_style_pass": {
-        "pass": "longest_sentence_ranked_1",
-        "approved_applied": 4,
-        "context_reviewed": 9,
-        "method": "최신 revised 6,921개를 문장부호 기준 11,962개 단위로 분리하여 길이 내림차순 정렬. 전체 순위 1~20위(96~85자)의 문맥을 검토해 9곳 수정, 10곳 유지, 1곳 의미 확인 보류. 전체 문구 정독 아님."
+        "pass": "longest_sentence_ranked_2",
+        "approved_applied": 6,
+        "context_reviewed": 13,
+        "method": "기존에 revised 6,921개에서 산출한 문장 단위 11,962개의 길이 순위를 유지. 최신 revised와 대조한 기존 전체 순위 21~40위(85~82자)의 문맥을 검토해 8곳 수정, 12곳 유지. 전체 문구 정독 아님."
       }
     }
   ],
-  "status": "approved_longest_sentence_ranked_1_applied",
-  "total_changed_text_fields": 1262,
+  "status": "approved_longest_sentence_ranked_2_applied",
+  "total_changed_text_fields": 1269,
   "last_completed_pass": {
-    "pass": "longest_sentence_ranked_1",
+    "pass": "longest_sentence_ranked_2",
     "scope": "가장 긴 문장부터 순서대로 검토",
     "status": "approved_applied",
-    "scanned_fields": 6921,
+    "ranking_base_commit": "22ba5ee03a05b3cf45baaabcad0abfd6888a005e",
+    "fields_in_full_ranking_search": 6921,
     "ranked_sentence_units": 11962,
-    "reviewed_rank_start": 1,
-    "reviewed_rank_end": 20,
+    "reviewed_rank_start": 21,
+    "reviewed_rank_end": 40,
     "context_reviewed": 20,
-    "approved_applied": 9,
-    "retained": 10,
-    "held_for_meaning": 1,
-    "next_rank": 21,
-    "approval_message": "음 다 수정 뭐지? 제이슨의 반영해. 근데 왜 일부만 있고 예를 들면 뭐 2위라든지 왜 순서대로 다 안 바꾸고 뺀 거는 뭐냐?",
-    "method": "최신 revised 6,921개를 문장부호 기준 11,962개 단위로 분리하여 길이 내림차순 정렬. 전체 순위 1~20위(96~85자)의 문맥을 검토해 9곳 수정, 10곳 유지, 1곳 의미 확인 보류. 전체 문구 정독 아님.",
+    "approved_applied": 8,
+    "retained": 12,
+    "held_for_meaning": 0,
+    "next_rank": 41,
+    "approval_message": "자 일단 그 수정한 거 반영하고 유지하는 거 한번 띄워 봐 내가 확인해 보게.",
+    "method": "기존에 revised 6,921개에서 산출한 문장 단위 11,962개의 길이 순위를 유지. 최신 revised와 대조한 기존 전체 순위 21~40위(85~82자)의 문맥을 검토해 8곳 수정, 12곳 유지. 전체 문구 정독 아님.",
     "previous_six": "rejected_do_not_apply",
     "previous_type16_followup6_9": "not_approved_do_not_apply"
   },
@@ -2359,6 +2360,25 @@
       "next_rank": 21,
       "approval_message": "음 다 수정 뭐지? 제이슨의 반영해. 근데 왜 일부만 있고 예를 들면 뭐 2위라든지 왜 순서대로 다 안 바꾸고 뺀 거는 뭐냐?",
       "method": "최신 revised 6,921개를 문장부호 기준 11,962개 단위로 분리하여 길이 내림차순 정렬. 전체 순위 1~20위(96~85자)의 문맥을 검토해 9곳 수정, 10곳 유지, 1곳 의미 확인 보류. 전체 문구 정독 아님.",
+      "previous_six": "rejected_do_not_apply",
+      "previous_type16_followup6_9": "not_approved_do_not_apply"
+    },
+    {
+      "pass": "longest_sentence_ranked_2",
+      "scope": "가장 긴 문장부터 순서대로 검토",
+      "status": "approved_applied",
+      "ranking_base_commit": "22ba5ee03a05b3cf45baaabcad0abfd6888a005e",
+      "fields_in_full_ranking_search": 6921,
+      "ranked_sentence_units": 11962,
+      "reviewed_rank_start": 21,
+      "reviewed_rank_end": 40,
+      "context_reviewed": 20,
+      "approved_applied": 8,
+      "retained": 12,
+      "held_for_meaning": 0,
+      "next_rank": 41,
+      "approval_message": "자 일단 그 수정한 거 반영하고 유지하는 거 한번 띄워 봐 내가 확인해 보게.",
+      "method": "기존에 revised 6,921개에서 산출한 문장 단위 11,962개의 길이 순위를 유지. 최신 revised와 대조한 기존 전체 순위 21~40위(85~82자)의 문맥을 검토해 8곳 수정, 12곳 유지. 전체 문구 정독 아님.",
       "previous_six": "rejected_do_not_apply",
       "previous_type16_followup6_9": "not_approved_do_not_apply"
     }
