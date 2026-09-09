@@ -1103,16 +1103,30 @@
     },
     {
       "book": 11,
-      "changed": false,
+      "changed": true,
       "field": "답변",
       "id": "ly-11-13",
       "index": 3,
       "key": "ly-11-13:問:3:a",
       "label": "답변",
       "original": "그렇게 단정하기 어렵습니다. 변화 자체를 반대한 것보다 꼭 필요하지 않은 개축을 경계한 맥락이 강합니다. 바꿀 이유가 충분한지 먼저 따져 보라는 태도입니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "그렇게 단정하기 어렵습니다. 변화 자체를 반대한 것보다 꼭 필요하지 않은 개축을 경계한 맥락이 강합니다. 바꿀 이유가 충분한지 먼저 따져 보라는 태도입니다.",
-      "scope": "問"
+      "reason": "「~따져 보라는 태도」를 판단에 앞서 해야 할 일로 명확히 바꿉니다.",
+      "revised": "그렇게 단정하기 어렵습니다. 변화 자체를 반대한 것보다 꼭 필요하지 않은 개축을 경계한 맥락이 강합니다. 바꿀 이유가 충분한지 먼저 따져 보아야 합니다.",
+      "scope": "問",
+      "revision_history": [
+        {
+          "pass": "targeted_type_16",
+          "previous_revision": "그렇게 단정하기 어렵습니다. 변화 자체를 반대한 것보다 꼭 필요하지 않은 개축을 경계한 맥락이 강합니다. 바꿀 이유가 충분한지 먼저 따져 보라는 태도입니다.",
+          "revised": "그렇게 단정하기 어렵습니다. 변화 자체를 반대한 것보다 꼭 필요하지 않은 개축을 경계한 맥락이 강합니다. 바꿀 이유가 충분한지 먼저 따져 보아야 합니다.",
+          "reason": "「~따져 보라는 태도」를 판단에 앞서 해야 할 일로 명확히 바꿉니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨 반영후 계속 찾아",
+          "date": "2026-09-09"
+        }
+      ],
+      "previous_revision": "그렇게 단정하기 어렵습니다. 변화 자체를 반대한 것보다 꼭 필요하지 않은 개축을 경계한 맥락이 강합니다. 바꿀 이유가 충분한지 먼저 따져 보라는 태도입니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_16"
     },
     {
       "book": 11,
@@ -2099,9 +2113,9 @@
     "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_7",
+    "pass": "targeted_type_16",
     "scanned": 150,
     "approved_applied": 1,
-    "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
+    "method": "20편 revised 6,921개 전체 검색, 추상명사 45종 종결 후보 문구 523개(적중 문장 528개) 문맥 검토 후 승인된 43곳 반영. 전체 문구 정독 아님."
   }
 }

@@ -1543,16 +1543,30 @@
     },
     {
       "book": 5,
-      "changed": false,
+      "changed": true,
       "field": "답변",
       "id": "ly-05-18",
       "index": 3,
       "key": "ly-05-18:問:3:a",
       "label": "답변",
       "original": "忠과 清은 매우 귀한 덕이지만 仁의 일부 또는 특정 모습일 뿐, 곧바로 仁 전체를 보장하지는 않는다는 태도입니다. 공자님은 사람을 한 장점만으로 완성된 인격이라 단정하지 않았습니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "忠과 清은 매우 귀한 덕이지만 仁의 일부 또는 특정 모습일 뿐, 곧바로 仁 전체를 보장하지는 않는다는 태도입니다. 공자님은 사람을 한 장점만으로 완성된 인격이라 단정하지 않았습니다.",
-      "scope": "問"
+      "reason": "덕목의 범위에 대한 판단을 「태도」라고 명명하지 않고 직접 밝힙니다.",
+      "revised": "忠과 清은 매우 귀한 덕이지만 仁의 일부 또는 특정 모습일 뿐, 곧바로 仁 전체를 보장하지는 않습니다. 공자님은 사람을 한 장점만으로 완성된 인격이라 단정하지 않았습니다.",
+      "scope": "問",
+      "revision_history": [
+        {
+          "pass": "targeted_type_16",
+          "previous_revision": "忠과 清은 매우 귀한 덕이지만 仁의 일부 또는 특정 모습일 뿐, 곧바로 仁 전체를 보장하지는 않는다는 태도입니다. 공자님은 사람을 한 장점만으로 완성된 인격이라 단정하지 않았습니다.",
+          "revised": "忠과 清은 매우 귀한 덕이지만 仁의 일부 또는 특정 모습일 뿐, 곧바로 仁 전체를 보장하지는 않습니다. 공자님은 사람을 한 장점만으로 완성된 인격이라 단정하지 않았습니다.",
+          "reason": "덕목의 범위에 대한 판단을 「태도」라고 명명하지 않고 직접 밝힙니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨 반영후 계속 찾아",
+          "date": "2026-09-09"
+        }
+      ],
+      "previous_revision": "忠과 清은 매우 귀한 덕이지만 仁의 일부 또는 특정 모습일 뿐, 곧바로 仁 전체를 보장하지는 않는다는 태도입니다. 공자님은 사람을 한 장점만으로 완성된 인격이라 단정하지 않았습니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_16"
     },
     {
       "book": 5,
@@ -2416,9 +2430,9 @@
     "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_9",
+    "pass": "targeted_type_16",
     "scanned": 168,
-    "approved_applied": 2,
-    "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
+    "approved_applied": 1,
+    "method": "20편 revised 6,921개 전체 검색, 추상명사 45종 종결 후보 문구 523개(적중 문장 528개) 문맥 검토 후 승인된 43곳 반영. 전체 문구 정독 아님."
   }
 }

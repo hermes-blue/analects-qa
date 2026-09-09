@@ -562,16 +562,30 @@
     },
     {
       "book": 2,
-      "changed": false,
+      "changed": true,
       "field": "답변",
       "id": "ly-02-07",
       "index": 2,
       "key": "ly-02-07:問:2:a",
       "label": "답변",
       "original": "부모를 동물과 같다고 한 말이 아닙니다. 먹이고 돌보는 행위만 놓고 보면 동물을 기르는 데도 있는 일이므로, 부모 봉양에는 반드시 공경이라는 인간적 의미가 더해져야 한다는 강조입니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "부모를 동물과 같다고 한 말이 아닙니다. 먹이고 돌보는 행위만 놓고 보면 동물을 기르는 데도 있는 일이므로, 부모 봉양에는 반드시 공경이라는 인간적 의미가 더해져야 한다는 강조입니다.",
-      "scope": "問"
+      "reason": "「~해야 한다는 강조」를 당부 자체로 바꿉니다. 「반드시」와 이유를 보존합니다.",
+      "revised": "부모를 동물과 같다고 한 말이 아닙니다. 먹이고 돌보는 행위만 놓고 보면 동물을 기르는 데도 있는 일이므로, 부모 봉양에는 반드시 공경이라는 인간적 의미가 더해져야 합니다.",
+      "scope": "問",
+      "revision_history": [
+        {
+          "pass": "targeted_type_16",
+          "previous_revision": "부모를 동물과 같다고 한 말이 아닙니다. 먹이고 돌보는 행위만 놓고 보면 동물을 기르는 데도 있는 일이므로, 부모 봉양에는 반드시 공경이라는 인간적 의미가 더해져야 한다는 강조입니다.",
+          "revised": "부모를 동물과 같다고 한 말이 아닙니다. 먹이고 돌보는 행위만 놓고 보면 동물을 기르는 데도 있는 일이므로, 부모 봉양에는 반드시 공경이라는 인간적 의미가 더해져야 합니다.",
+          "reason": "「~해야 한다는 강조」를 당부 자체로 바꿉니다. 「반드시」와 이유를 보존합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨 반영후 계속 찾아",
+          "date": "2026-09-09"
+        }
+      ],
+      "previous_revision": "부모를 동물과 같다고 한 말이 아닙니다. 먹이고 돌보는 행위만 놓고 보면 동물을 기르는 데도 있는 일이므로, 부모 봉양에는 반드시 공경이라는 인간적 의미가 더해져야 한다는 강조입니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_16"
     },
     {
       "book": 2,
@@ -2104,9 +2118,9 @@
     "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_9",
+    "pass": "targeted_type_16",
     "scanned": 144,
-    "approved_applied": 5,
-    "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
+    "approved_applied": 1,
+    "method": "20편 revised 6,921개 전체 검색, 추상명사 45종 종결 후보 문구 523개(적중 문장 528개) 문맥 검토 후 승인된 43곳 반영. 전체 문구 정독 아님."
   }
 }

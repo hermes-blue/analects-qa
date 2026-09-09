@@ -2,12 +2,12 @@
   "schema_version": "1.1",
   "scope": "問",
   "scope_name": "의문",
-  "status": "approved_targeted_type_14_followup_2_applied",
-  "method": "20편 revised 6,921개 전체 검색 후 후보 533개 문맥 검토. 승인된 10곳 반영. 모든 문장 종합 정독 아님.",
+  "status": "approved_targeted_type_16_applied",
+  "method": "20편 revised 6,921개 전체 검색, 추상명사 45종 종결 후보 문구 523개(적중 문장 528개) 문맥 검토 후 승인된 43곳 반영. 전체 문구 정독 아님.",
   "count_unit": "텍스트 필드: 한자 풀이 1개, 질문 또는 답변 1개, 쟁점의 견해 설명 1개",
   "total": 3072,
-  "changed": 249,
-  "unchanged": 2823,
+  "changed": 258,
+  "unchanged": 2814,
   "card_count": 498,
   "book_count": 20,
   "content_review_performed": false,
@@ -1985,16 +1985,30 @@
         },
         {
           "book": 2,
-          "changed": false,
+          "changed": true,
           "field": "답변",
           "id": "ly-02-07",
           "index": 2,
           "key": "ly-02-07:問:2:a",
           "label": "답변",
           "original": "부모를 동물과 같다고 한 말이 아닙니다. 먹이고 돌보는 행위만 놓고 보면 동물을 기르는 데도 있는 일이므로, 부모 봉양에는 반드시 공경이라는 인간적 의미가 더해져야 한다는 강조입니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "부모를 동물과 같다고 한 말이 아닙니다. 먹이고 돌보는 행위만 놓고 보면 동물을 기르는 데도 있는 일이므로, 부모 봉양에는 반드시 공경이라는 인간적 의미가 더해져야 한다는 강조입니다.",
-          "scope": "問"
+          "reason": "「~해야 한다는 강조」를 당부 자체로 바꿉니다. 「반드시」와 이유를 보존합니다.",
+          "revised": "부모를 동물과 같다고 한 말이 아닙니다. 먹이고 돌보는 행위만 놓고 보면 동물을 기르는 데도 있는 일이므로, 부모 봉양에는 반드시 공경이라는 인간적 의미가 더해져야 합니다.",
+          "scope": "問",
+          "revision_history": [
+            {
+              "pass": "targeted_type_16",
+              "previous_revision": "부모를 동물과 같다고 한 말이 아닙니다. 먹이고 돌보는 행위만 놓고 보면 동물을 기르는 데도 있는 일이므로, 부모 봉양에는 반드시 공경이라는 인간적 의미가 더해져야 한다는 강조입니다.",
+              "revised": "부모를 동물과 같다고 한 말이 아닙니다. 먹이고 돌보는 행위만 놓고 보면 동물을 기르는 데도 있는 일이므로, 부모 봉양에는 반드시 공경이라는 인간적 의미가 더해져야 합니다.",
+              "reason": "「~해야 한다는 강조」를 당부 자체로 바꿉니다. 「반드시」와 이유를 보존합니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨 반영후 계속 찾아",
+              "date": "2026-09-09"
+            }
+          ],
+          "previous_revision": "부모를 동물과 같다고 한 말이 아닙니다. 먹이고 돌보는 행위만 놓고 보면 동물을 기르는 데도 있는 일이므로, 부모 봉양에는 반드시 공경이라는 인간적 의미가 더해져야 한다는 강조입니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_16"
         },
         {
           "book": 2,
@@ -3527,10 +3541,10 @@
         "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_9",
+        "pass": "targeted_type_16",
         "scanned": 144,
-        "approved_applied": 5,
-        "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
+        "approved_applied": 1,
+        "method": "20편 revised 6,921개 전체 검색, 추상명사 45종 종결 후보 문구 523개(적중 문장 528개) 문맥 검토 후 승인된 43곳 반영. 전체 문구 정독 아님."
       }
     },
     {
@@ -6929,16 +6943,30 @@
         },
         {
           "book": 4,
-          "changed": false,
+          "changed": true,
           "field": "답변",
           "id": "ly-04-14",
           "index": 3,
           "key": "ly-04-14:問:3:a",
           "label": "답변",
           "original": "둘 다 외부의 인정과 지위보다 자신이 어떤 사람이 되어 있는지를 우선합니다. 알아주지 않는다고 원망하지 말고, 오히려 남이 알아볼 만한 덕과 능력을 갖추는 데 집중하라는 흐름입니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "둘 다 외부의 인정과 지위보다 자신이 어떤 사람이 되어 있는지를 우선합니다. 알아주지 않는다고 원망하지 말고, 오히려 남이 알아볼 만한 덕과 능력을 갖추는 데 집중하라는 흐름입니다.",
-          "scope": "問"
+          "reason": "「~집중하라는 흐름」을 덕과 능력을 갖추라는 당부로 바로 서술합니다.",
+          "revised": "둘 다 외부의 인정과 지위보다 자신이 어떤 사람이 되어 있는지를 우선합니다. 알아주지 않는다고 원망하지 말고, 오히려 남이 알아볼 만한 덕과 능력을 갖추는 데 집중해야 합니다.",
+          "scope": "問",
+          "revision_history": [
+            {
+              "pass": "targeted_type_16",
+              "previous_revision": "둘 다 외부의 인정과 지위보다 자신이 어떤 사람이 되어 있는지를 우선합니다. 알아주지 않는다고 원망하지 말고, 오히려 남이 알아볼 만한 덕과 능력을 갖추는 데 집중하라는 흐름입니다.",
+              "revised": "둘 다 외부의 인정과 지위보다 자신이 어떤 사람이 되어 있는지를 우선합니다. 알아주지 않는다고 원망하지 말고, 오히려 남이 알아볼 만한 덕과 능력을 갖추는 데 집중해야 합니다.",
+              "reason": "「~집중하라는 흐름」을 덕과 능력을 갖추라는 당부로 바로 서술합니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨 반영후 계속 찾아",
+              "date": "2026-09-09"
+            }
+          ],
+          "previous_revision": "둘 다 외부의 인정과 지위보다 자신이 어떤 사람이 되어 있는지를 우선합니다. 알아주지 않는다고 원망하지 말고, 오히려 남이 알아볼 만한 덕과 능력을 갖추는 데 집중하라는 흐름입니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_16"
         },
         {
           "book": 4,
@@ -8004,10 +8032,10 @@
         "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_9",
+        "pass": "targeted_type_16",
         "scanned": 156,
-        "approved_applied": 5,
-        "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
+        "approved_applied": 1,
+        "method": "20편 revised 6,921개 전체 검색, 추상명사 45종 종결 후보 문구 523개(적중 문장 528개) 문맥 검토 후 승인된 43곳 반영. 전체 문구 정독 아님."
       }
     },
     {
@@ -9555,16 +9583,30 @@
         },
         {
           "book": 5,
-          "changed": false,
+          "changed": true,
           "field": "답변",
           "id": "ly-05-18",
           "index": 3,
           "key": "ly-05-18:問:3:a",
           "label": "답변",
           "original": "忠과 清은 매우 귀한 덕이지만 仁의 일부 또는 특정 모습일 뿐, 곧바로 仁 전체를 보장하지는 않는다는 태도입니다. 공자님은 사람을 한 장점만으로 완성된 인격이라 단정하지 않았습니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "忠과 清은 매우 귀한 덕이지만 仁의 일부 또는 특정 모습일 뿐, 곧바로 仁 전체를 보장하지는 않는다는 태도입니다. 공자님은 사람을 한 장점만으로 완성된 인격이라 단정하지 않았습니다.",
-          "scope": "問"
+          "reason": "덕목의 범위에 대한 판단을 「태도」라고 명명하지 않고 직접 밝힙니다.",
+          "revised": "忠과 清은 매우 귀한 덕이지만 仁의 일부 또는 특정 모습일 뿐, 곧바로 仁 전체를 보장하지는 않습니다. 공자님은 사람을 한 장점만으로 완성된 인격이라 단정하지 않았습니다.",
+          "scope": "問",
+          "revision_history": [
+            {
+              "pass": "targeted_type_16",
+              "previous_revision": "忠과 清은 매우 귀한 덕이지만 仁의 일부 또는 특정 모습일 뿐, 곧바로 仁 전체를 보장하지는 않는다는 태도입니다. 공자님은 사람을 한 장점만으로 완성된 인격이라 단정하지 않았습니다.",
+              "revised": "忠과 清은 매우 귀한 덕이지만 仁의 일부 또는 특정 모습일 뿐, 곧바로 仁 전체를 보장하지는 않습니다. 공자님은 사람을 한 장점만으로 완성된 인격이라 단정하지 않았습니다.",
+              "reason": "덕목의 범위에 대한 판단을 「태도」라고 명명하지 않고 직접 밝힙니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨 반영후 계속 찾아",
+              "date": "2026-09-09"
+            }
+          ],
+          "previous_revision": "忠과 清은 매우 귀한 덕이지만 仁의 일부 또는 특정 모습일 뿐, 곧바로 仁 전체를 보장하지는 않는다는 태도입니다. 공자님은 사람을 한 장점만으로 완성된 인격이라 단정하지 않았습니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_16"
         },
         {
           "book": 5,
@@ -10428,10 +10470,10 @@
         "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_9",
+        "pass": "targeted_type_16",
         "scanned": 168,
-        "approved_applied": 2,
-        "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
+        "approved_applied": 1,
+        "method": "20편 revised 6,921개 전체 검색, 추상명사 45종 종결 후보 문구 523개(적중 문장 528개) 문맥 검토 후 승인된 43곳 반영. 전체 문구 정독 아님."
       }
     },
     {
@@ -17399,8 +17441,8 @@
           "key": "ly-08-17:問:3:a",
           "label": "답변",
           "original": "심리적으로 늘 초조하라는 뜻은 아닙니다. 배움에 대해 자만하지 않고 지속적으로 긴장과 관심을 유지하라는 태도입니다. 핵심은 성장을 멈추지 않는 꾸준함입니다.",
-          "reason": "배움에 자만하지 말고 지속적으로 관심을 가지라는 답을 성장을 멈추지 않는 꾸준함이라는 말로 반복합니다.",
-          "revised": "심리적으로 늘 초조하라는 뜻은 아닙니다. 배움에 대해 자만하지 않고 지속적으로 긴장과 관심을 유지하라는 태도입니다.",
+          "reason": "「~유지하라는 태도」를 실제 당부로 바꿉니다. 앞 문장의 초조함에 대한 한정은 유지합니다.",
+          "revised": "심리적으로 늘 초조하라는 뜻은 아닙니다. 배움에 대해 자만하지 않고 지속적으로 긴장과 관심을 유지해야 합니다.",
           "scope": "問",
           "revision_history": [
             {
@@ -17411,11 +17453,20 @@
               "approval_status": "approved",
               "approval_message": "제이슨에 반영후 새로운 유형 시작",
               "date": "2026-09-08"
+            },
+            {
+              "pass": "targeted_type_16",
+              "previous_revision": "심리적으로 늘 초조하라는 뜻은 아닙니다. 배움에 대해 자만하지 않고 지속적으로 긴장과 관심을 유지하라는 태도입니다.",
+              "revised": "심리적으로 늘 초조하라는 뜻은 아닙니다. 배움에 대해 자만하지 않고 지속적으로 긴장과 관심을 유지해야 합니다.",
+              "reason": "「~유지하라는 태도」를 실제 당부로 바꿉니다. 앞 문장의 초조함에 대한 한정은 유지합니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨 반영후 계속 찾아",
+              "date": "2026-09-09"
             }
           ],
-          "previous_revision": "심리적으로 늘 초조하라는 뜻은 아닙니다. 배움에 대해 자만하지 않고 지속적으로 긴장과 관심을 유지하라는 태도입니다. 핵심은 성장을 멈추지 않는 꾸준함입니다.",
+          "previous_revision": "심리적으로 늘 초조하라는 뜻은 아닙니다. 배움에 대해 자만하지 않고 지속적으로 긴장과 관심을 유지하라는 태도입니다.",
           "approval_status": "approved",
-          "last_revision_pass": "targeted_type_9"
+          "last_revision_pass": "targeted_type_16"
         },
         {
           "book": 8,
@@ -17764,10 +17815,10 @@
         "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_9",
+        "pass": "targeted_type_16",
         "scanned": 126,
-        "approved_applied": 2,
-        "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
+        "approved_applied": 1,
+        "method": "20편 revised 6,921개 전체 검색, 추상명사 45종 종결 후보 문구 523개(적중 문장 528개) 문맥 검토 후 승인된 43곳 반영. 전체 문구 정독 아님."
       }
     },
     {
@@ -21288,16 +21339,30 @@
         },
         {
           "book": 10,
-          "changed": false,
+          "changed": true,
           "field": "답변",
           "id": "ly-10-09",
           "index": 1,
           "key": "ly-10-09:問:1:a",
           "label": "답변",
           "original": "단순한 강박이라기보다 자리를 바르게 하는 것까지 예의 일부로 여긴 것입니다. 작은 질서를 가볍게 여기지 않는 습관이 몸가짐 전체를 만든다고 본 태도입니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "단순한 강박이라기보다 자리를 바르게 하는 것까지 예의 일부로 여긴 것입니다. 작은 질서를 가볍게 여기지 않는 습관이 몸가짐 전체를 만든다고 본 태도입니다.",
-          "scope": "問"
+          "reason": "「~본 태도」라는 겹친 서술을 누가 어떻게 보았는지 밝히는 문장으로 바꿉니다.",
+          "revised": "단순한 강박이라기보다 자리를 바르게 하는 것까지 예의 일부로 여긴 것입니다. 공자님은 작은 질서를 가볍게 여기지 않는 습관이 몸가짐 전체를 만든다고 보았습니다.",
+          "scope": "問",
+          "revision_history": [
+            {
+              "pass": "targeted_type_16",
+              "previous_revision": "단순한 강박이라기보다 자리를 바르게 하는 것까지 예의 일부로 여긴 것입니다. 작은 질서를 가볍게 여기지 않는 습관이 몸가짐 전체를 만든다고 본 태도입니다.",
+              "revised": "단순한 강박이라기보다 자리를 바르게 하는 것까지 예의 일부로 여긴 것입니다. 공자님은 작은 질서를 가볍게 여기지 않는 습관이 몸가짐 전체를 만든다고 보았습니다.",
+              "reason": "「~본 태도」라는 겹친 서술을 누가 어떻게 보았는지 밝히는 문장으로 바꿉니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨 반영후 계속 찾아",
+              "date": "2026-09-09"
+            }
+          ],
+          "previous_revision": "단순한 강박이라기보다 자리를 바르게 하는 것까지 예의 일부로 여긴 것입니다. 작은 질서를 가볍게 여기지 않는 습관이 몸가짐 전체를 만든다고 본 태도입니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_16"
         },
         {
           "book": 10,
@@ -21609,8 +21674,8 @@
           "key": "ly-10-11:問:3:a",
           "label": "답변",
           "original": "예는 남이 보는 앞에서만 하는 행동이 아니라고 보았기 때문입니다. 상대가 멀리 있어도 존중하는 마음과 절차를 지켜야 관계의 진정성이 유지된다는 태도입니다.",
-          "reason": "관계의 진정성 유지를 사람의 행동으로 풀기",
-          "revised": "예는 남이 보는 앞에서만 하는 행동이 아니라고 보았기 때문입니다. 상대가 멀리 있어도 존중하는 마음과 절차를 지켜야 서로 진실하게 대할 수 있다는 태도입니다.",
+          "reason": "「~수 있다는 태도」 대신 판단 주체와 내용을 직접 서술합니다.",
+          "revised": "예는 남이 보는 앞에서만 하는 행동이 아니라고 보았기 때문입니다. 공자님은 상대가 멀리 있어도 존중하는 마음과 절차를 지켜야 서로 진실하게 대할 수 있다고 보았습니다.",
           "scope": "問",
           "revision_history": [
             {
@@ -21621,11 +21686,20 @@
               "approval_status": "approved",
               "approval_message": "굿 수정, 수정후 다음 시작",
               "date": "2026-09-08"
+            },
+            {
+              "pass": "targeted_type_16",
+              "previous_revision": "예는 남이 보는 앞에서만 하는 행동이 아니라고 보았기 때문입니다. 상대가 멀리 있어도 존중하는 마음과 절차를 지켜야 서로 진실하게 대할 수 있다는 태도입니다.",
+              "revised": "예는 남이 보는 앞에서만 하는 행동이 아니라고 보았기 때문입니다. 공자님은 상대가 멀리 있어도 존중하는 마음과 절차를 지켜야 서로 진실하게 대할 수 있다고 보았습니다.",
+              "reason": "「~수 있다는 태도」 대신 판단 주체와 내용을 직접 서술합니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨 반영후 계속 찾아",
+              "date": "2026-09-09"
             }
           ],
-          "previous_revision": "예는 남이 보는 앞에서만 하는 행동이 아니라고 보았기 때문입니다. 상대가 멀리 있어도 존중하는 마음과 절차를 지켜야 관계의 진정성이 유지된다는 태도입니다.",
+          "previous_revision": "예는 남이 보는 앞에서만 하는 행동이 아니라고 보았기 때문입니다. 상대가 멀리 있어도 존중하는 마음과 절차를 지켜야 서로 진실하게 대할 수 있다는 태도입니다.",
           "approval_status": "approved",
-          "last_revision_pass": "targeted_type_1"
+          "last_revision_pass": "targeted_type_16"
         },
         {
           "book": 10,
@@ -22750,10 +22824,10 @@
         "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_9",
+        "pass": "targeted_type_16",
         "scanned": 162,
-        "approved_applied": 1,
-        "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
+        "approved_applied": 2,
+        "method": "20편 revised 6,921개 전체 검색, 추상명사 45종 종결 후보 문구 523개(적중 문장 528개) 문맥 검토 후 승인된 43곳 반영. 전체 문구 정독 아님."
       }
     },
     {
@@ -23861,16 +23935,30 @@
         },
         {
           "book": 11,
-          "changed": false,
+          "changed": true,
           "field": "답변",
           "id": "ly-11-13",
           "index": 3,
           "key": "ly-11-13:問:3:a",
           "label": "답변",
           "original": "그렇게 단정하기 어렵습니다. 변화 자체를 반대한 것보다 꼭 필요하지 않은 개축을 경계한 맥락이 강합니다. 바꿀 이유가 충분한지 먼저 따져 보라는 태도입니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "그렇게 단정하기 어렵습니다. 변화 자체를 반대한 것보다 꼭 필요하지 않은 개축을 경계한 맥락이 강합니다. 바꿀 이유가 충분한지 먼저 따져 보라는 태도입니다.",
-          "scope": "問"
+          "reason": "「~따져 보라는 태도」를 판단에 앞서 해야 할 일로 명확히 바꿉니다.",
+          "revised": "그렇게 단정하기 어렵습니다. 변화 자체를 반대한 것보다 꼭 필요하지 않은 개축을 경계한 맥락이 강합니다. 바꿀 이유가 충분한지 먼저 따져 보아야 합니다.",
+          "scope": "問",
+          "revision_history": [
+            {
+              "pass": "targeted_type_16",
+              "previous_revision": "그렇게 단정하기 어렵습니다. 변화 자체를 반대한 것보다 꼭 필요하지 않은 개축을 경계한 맥락이 강합니다. 바꿀 이유가 충분한지 먼저 따져 보라는 태도입니다.",
+              "revised": "그렇게 단정하기 어렵습니다. 변화 자체를 반대한 것보다 꼭 필요하지 않은 개축을 경계한 맥락이 강합니다. 바꿀 이유가 충분한지 먼저 따져 보아야 합니다.",
+              "reason": "「~따져 보라는 태도」를 판단에 앞서 해야 할 일로 명확히 바꿉니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨 반영후 계속 찾아",
+              "date": "2026-09-09"
+            }
+          ],
+          "previous_revision": "그렇게 단정하기 어렵습니다. 변화 자체를 반대한 것보다 꼭 필요하지 않은 개축을 경계한 맥락이 강합니다. 바꿀 이유가 충분한지 먼저 따져 보라는 태도입니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_16"
         },
         {
           "book": 11,
@@ -24857,10 +24945,10 @@
         "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_7",
+        "pass": "targeted_type_16",
         "scanned": 150,
         "approved_applied": 1,
-        "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
+        "method": "20편 revised 6,921개 전체 검색, 추상명사 45종 종결 후보 문구 523개(적중 문장 528개) 문맥 검토 후 승인된 43곳 반영. 전체 문구 정독 아님."
       }
     },
     {
@@ -25510,16 +25598,30 @@
         },
         {
           "book": 12,
-          "changed": false,
+          "changed": true,
           "field": "답변",
           "id": "ly-12-08",
           "index": 2,
           "key": "ly-12-08:問:2:a",
           "label": "답변",
           "original": "완전히 같은 것이라는 뜻보다 둘이 모두 중요하다는 강조입니다. 좋은 본바탕이 있어도 표현이 거칠면 전달이 어렵고, 형식만 좋으면 속이 비므로 둘의 조화가 필요합니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "완전히 같은 것이라는 뜻보다 둘이 모두 중요하다는 강조입니다. 좋은 본바탕이 있어도 표현이 거칠면 전달이 어렵고, 형식만 좋으면 속이 비므로 둘의 조화가 필요합니다.",
-          "scope": "問"
+          "reason": "「중요하다는 강조」를 말한 사람이 무엇을 강조했는지 밝히는 문장으로 바꿉니다. 비교의 강도는 그대로 둡니다.",
+          "revised": "자공은 둘이 완전히 같다고 말하기보다 둘이 모두 중요하다고 강조합니다. 좋은 본바탕이 있어도 표현이 거칠면 전달이 어렵고, 형식만 좋으면 속이 비므로 둘의 조화가 필요합니다.",
+          "scope": "問",
+          "revision_history": [
+            {
+              "pass": "targeted_type_16",
+              "previous_revision": "완전히 같은 것이라는 뜻보다 둘이 모두 중요하다는 강조입니다. 좋은 본바탕이 있어도 표현이 거칠면 전달이 어렵고, 형식만 좋으면 속이 비므로 둘의 조화가 필요합니다.",
+              "revised": "자공은 둘이 완전히 같다고 말하기보다 둘이 모두 중요하다고 강조합니다. 좋은 본바탕이 있어도 표현이 거칠면 전달이 어렵고, 형식만 좋으면 속이 비므로 둘의 조화가 필요합니다.",
+              "reason": "「중요하다는 강조」를 말한 사람이 무엇을 강조했는지 밝히는 문장으로 바꿉니다. 비교의 강도는 그대로 둡니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨 반영후 계속 찾아",
+              "date": "2026-09-09"
+            }
+          ],
+          "previous_revision": "완전히 같은 것이라는 뜻보다 둘이 모두 중요하다는 강조입니다. 좋은 본바탕이 있어도 표현이 거칠면 전달이 어렵고, 형식만 좋으면 속이 비므로 둘의 조화가 필요합니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_16"
         },
         {
           "book": 12,
@@ -26476,16 +26578,30 @@
         },
         {
           "book": 12,
-          "changed": false,
+          "changed": true,
           "field": "답변",
           "id": "ly-12-20",
           "index": 1,
           "key": "ly-12-20:問:1:a",
           "label": "답변",
           "original": "達은 덕과 올바른 행동으로 실제 신뢰를 얻는 것이고, 聞은 겉으로 명성이 널리 퍼진 상태입니다. 이름이 알려졌다고 해서 반드시 사람됨까지 훌륭한 것은 아니라는 구분입니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "達은 덕과 올바른 행동으로 실제 신뢰를 얻는 것이고, 聞은 겉으로 명성이 널리 퍼진 상태입니다. 이름이 알려졌다고 해서 반드시 사람됨까지 훌륭한 것은 아니라는 구분입니다.",
-          "scope": "問"
+          "reason": "명성과 사람됨의 차이를 다시 「구분」이라고 부르지 않고 직접 밝힙니다.",
+          "revised": "達은 덕과 올바른 행동으로 실제 신뢰를 얻는 것이고, 聞은 겉으로 명성이 널리 퍼진 상태입니다. 이름이 알려졌다고 해서 반드시 사람됨까지 훌륭한 것은 아닙니다.",
+          "scope": "問",
+          "revision_history": [
+            {
+              "pass": "targeted_type_16",
+              "previous_revision": "達은 덕과 올바른 행동으로 실제 신뢰를 얻는 것이고, 聞은 겉으로 명성이 널리 퍼진 상태입니다. 이름이 알려졌다고 해서 반드시 사람됨까지 훌륭한 것은 아니라는 구분입니다.",
+              "revised": "達은 덕과 올바른 행동으로 실제 신뢰를 얻는 것이고, 聞은 겉으로 명성이 널리 퍼진 상태입니다. 이름이 알려졌다고 해서 반드시 사람됨까지 훌륭한 것은 아닙니다.",
+              "reason": "명성과 사람됨의 차이를 다시 「구분」이라고 부르지 않고 직접 밝힙니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨 반영후 계속 찾아",
+              "date": "2026-09-09"
+            }
+          ],
+          "previous_revision": "達은 덕과 올바른 행동으로 실제 신뢰를 얻는 것이고, 聞은 겉으로 명성이 널리 퍼진 상태입니다. 이름이 알려졌다고 해서 반드시 사람됨까지 훌륭한 것은 아니라는 구분입니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_16"
         },
         {
           "book": 12,
@@ -26900,10 +27016,10 @@
         "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_4",
-        "reviewed": 144,
-        "approved_applied": 3,
-        "status": "approved_applied"
+        "pass": "targeted_type_16",
+        "scanned": 144,
+        "approved_applied": 2,
+        "method": "20편 revised 6,921개 전체 검색, 추상명사 45종 종결 후보 문구 523개(적중 문장 528개) 문맥 검토 후 승인된 43곳 반영. 전체 문구 정독 아님."
       }
     },
     {
@@ -37316,16 +37432,30 @@
         },
         {
           "book": 16,
-          "changed": false,
+          "changed": true,
           "field": "답변",
           "id": "ly-16-05",
           "index": 3,
           "key": "ly-16-05:問:3:a",
           "label": "답변",
           "original": "즐거움 자체를 금지한 것이 아닙니다. 오히려 무엇을 즐기느냐가 중요하다고 말합니다. 좋은 즐거움은 덕을 키우고, 나쁜 즐거움은 습관과 판단을 흐릴 수 있다는 구분입니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "즐거움 자체를 금지한 것이 아닙니다. 오히려 무엇을 즐기느냐가 중요하다고 말합니다. 좋은 즐거움은 덕을 키우고, 나쁜 즐거움은 습관과 판단을 흐릴 수 있다는 구분입니다.",
-          "scope": "問"
+          "reason": "좋고 나쁜 즐거움의 차이를 「구분」으로 묶지 않고 각각의 영향을 서술합니다. 가능성 표현은 보존합니다.",
+          "revised": "즐거움 자체를 금지한 것이 아닙니다. 오히려 무엇을 즐기느냐가 중요하다고 말합니다. 좋은 즐거움은 덕을 키우고, 나쁜 즐거움은 습관과 판단을 흐릴 수 있습니다.",
+          "scope": "問",
+          "revision_history": [
+            {
+              "pass": "targeted_type_16",
+              "previous_revision": "즐거움 자체를 금지한 것이 아닙니다. 오히려 무엇을 즐기느냐가 중요하다고 말합니다. 좋은 즐거움은 덕을 키우고, 나쁜 즐거움은 습관과 판단을 흐릴 수 있다는 구분입니다.",
+              "revised": "즐거움 자체를 금지한 것이 아닙니다. 오히려 무엇을 즐기느냐가 중요하다고 말합니다. 좋은 즐거움은 덕을 키우고, 나쁜 즐거움은 습관과 판단을 흐릴 수 있습니다.",
+              "reason": "좋고 나쁜 즐거움의 차이를 「구분」으로 묶지 않고 각각의 영향을 서술합니다. 가능성 표현은 보존합니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨 반영후 계속 찾아",
+              "date": "2026-09-09"
+            }
+          ],
+          "previous_revision": "즐거움 자체를 금지한 것이 아닙니다. 오히려 무엇을 즐기느냐가 중요하다고 말합니다. 좋은 즐거움은 덕을 키우고, 나쁜 즐거움은 습관과 판단을 흐릴 수 있다는 구분입니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_16"
         },
         {
           "book": 16,
@@ -37824,16 +37954,30 @@
         },
         {
           "book": 16,
-          "changed": false,
+          "changed": true,
           "field": "답변",
           "id": "ly-16-12",
           "index": 1,
           "key": "ly-16-12:問:1:a",
           "label": "답변",
           "original": "부와 권력의 크기만으로 후대의 존경을 얻을 수 없다는 뜻입니다. 백성이 기억하는 기준은 재산이 아니라 그 사람이 남긴 덕과 삶의 가치라는 대비입니다.",
-          "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-          "revised": "부와 권력의 크기만으로 후대의 존경을 얻을 수 없다는 뜻입니다. 백성이 기억하는 기준은 재산이 아니라 그 사람이 남긴 덕과 삶의 가치라는 대비입니다.",
-          "scope": "問"
+          "reason": "「기준은 … 대비입니다」라는 주어·서술어 불일치를 고칩니다. 무엇이 기준인지 바로 연결합니다.",
+          "revised": "부와 권력의 크기만으로 후대의 존경을 얻을 수 없다는 뜻입니다. 백성이 기억하는 기준은 재산이 아니라 그 사람이 남긴 덕과 삶의 가치입니다.",
+          "scope": "問",
+          "revision_history": [
+            {
+              "pass": "targeted_type_16",
+              "previous_revision": "부와 권력의 크기만으로 후대의 존경을 얻을 수 없다는 뜻입니다. 백성이 기억하는 기준은 재산이 아니라 그 사람이 남긴 덕과 삶의 가치라는 대비입니다.",
+              "revised": "부와 권력의 크기만으로 후대의 존경을 얻을 수 없다는 뜻입니다. 백성이 기억하는 기준은 재산이 아니라 그 사람이 남긴 덕과 삶의 가치입니다.",
+              "reason": "「기준은 … 대비입니다」라는 주어·서술어 불일치를 고칩니다. 무엇이 기준인지 바로 연결합니다.",
+              "approval_status": "approved",
+              "approval_message": "제이슨 반영후 계속 찾아",
+              "date": "2026-09-09"
+            }
+          ],
+          "previous_revision": "부와 권력의 크기만으로 후대의 존경을 얻을 수 없다는 뜻입니다. 백성이 기억하는 기준은 재산이 아니라 그 사람이 남긴 덕과 삶의 가치라는 대비입니다.",
+          "approval_status": "approved",
+          "last_revision_pass": "targeted_type_16"
         },
         {
           "book": 16,
@@ -38064,10 +38208,10 @@
         "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
       },
       "latest_style_pass": {
-        "pass": "targeted_type_4",
-        "reviewed": 84,
-        "approved_applied": 1,
-        "status": "approved_applied"
+        "pass": "targeted_type_16",
+        "scanned": 84,
+        "approved_applied": 2,
+        "method": "20편 revised 6,921개 전체 검색, 추상명사 45종 종결 후보 문구 523개(적중 문장 528개) 문맥 검토 후 승인된 43곳 반영. 전체 문구 정독 아님."
       }
     },
     {
@@ -43676,8 +43820,8 @@
     }
   ],
   "latest_style_pass": {
-    "pass": "targeted_type_14_followup_2",
+    "pass": "targeted_type_16",
     "scanned": 3072,
-    "approved_applied": 2
+    "approved_applied": 11
   }
 }

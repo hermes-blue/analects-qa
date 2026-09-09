@@ -54,15 +54,29 @@
     },
     {
       "book": 14,
-      "changed": false,
+      "changed": true,
       "id": "ly-14-01",
       "index": 4,
       "key": "ly-14-01:語:4",
       "label": "穀곡",
       "original": "여기서는 곡식 자체보다 관직의 녹봉을 뜻합니다. 벼슬의 이익을 누리는 일이 정치의 도덕성과 분리될 수 없다는 맥락입니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "여기서는 곡식 자체보다 관직의 녹봉을 뜻합니다. 벼슬의 이익을 누리는 일이 정치의 도덕성과 분리될 수 없다는 맥락입니다.",
-      "scope": "語"
+      "reason": "벼슬의 이익과 도덕성 사이의 관계를 「맥락」으로 둘러 말하지 않습니다.",
+      "revised": "여기서는 곡식 자체보다 관직의 녹봉을 뜻합니다. 벼슬의 이익을 누리는 일은 정치의 도덕성과 분리될 수 없습니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_16",
+          "previous_revision": "여기서는 곡식 자체보다 관직의 녹봉을 뜻합니다. 벼슬의 이익을 누리는 일이 정치의 도덕성과 분리될 수 없다는 맥락입니다.",
+          "revised": "여기서는 곡식 자체보다 관직의 녹봉을 뜻합니다. 벼슬의 이익을 누리는 일은 정치의 도덕성과 분리될 수 없습니다.",
+          "reason": "벼슬의 이익과 도덕성 사이의 관계를 「맥락」으로 둘러 말하지 않습니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨 반영후 계속 찾아",
+          "date": "2026-09-09"
+        }
+      ],
+      "previous_revision": "여기서는 곡식 자체보다 관직의 녹봉을 뜻합니다. 벼슬의 이익을 누리는 일이 정치의 도덕성과 분리될 수 없다는 맥락입니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_16"
     },
     {
       "book": 14,
@@ -2456,15 +2470,29 @@
     },
     {
       "book": 14,
-      "changed": false,
+      "changed": true,
       "id": "ly-14-46",
       "index": 4,
       "key": "ly-14-46:語:4",
       "label": "老而不死是爲賊노이불사시위적",
       "original": "늙도록 덕을 세우지 못한 삶을 매우 거칠게 꾸짖는 표현입니다. 단순히 노인을 비하하기보다 평생의 무책임을 질책하는 맥락입니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "늙도록 덕을 세우지 못한 삶을 매우 거칠게 꾸짖는 표현입니다. 단순히 노인을 비하하기보다 평생의 무책임을 질책하는 맥락입니다.",
-      "scope": "語"
+      "reason": "「질책하는 맥락」을 질책한 사람과 대상으로 풀어 씁니다. 「~하기보다」의 비교 강도는 유지합니다.",
+      "revised": "늙도록 덕을 세우지 못한 삶을 매우 거칠게 꾸짖는 표현입니다. 공자님은 단순히 노인을 비하하기보다 평생의 무책임을 질책합니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_16",
+          "previous_revision": "늙도록 덕을 세우지 못한 삶을 매우 거칠게 꾸짖는 표현입니다. 단순히 노인을 비하하기보다 평생의 무책임을 질책하는 맥락입니다.",
+          "revised": "늙도록 덕을 세우지 못한 삶을 매우 거칠게 꾸짖는 표현입니다. 공자님은 단순히 노인을 비하하기보다 평생의 무책임을 질책합니다.",
+          "reason": "「질책하는 맥락」을 질책한 사람과 대상으로 풀어 씁니다. 「~하기보다」의 비교 강도는 유지합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨 반영후 계속 찾아",
+          "date": "2026-09-09"
+        }
+      ],
+      "previous_revision": "늙도록 덕을 세우지 못한 삶을 매우 거칠게 꾸짖는 표현입니다. 단순히 노인을 비하하기보다 평생의 무책임을 질책하는 맥락입니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_16"
     },
     {
       "book": 14,
@@ -2587,9 +2615,9 @@
     "selector": "article.card details.st1 .w > p:not(.wh)"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_14_followup_2",
+    "pass": "targeted_type_16",
     "scanned": 195,
-    "approved_applied": 1,
-    "method": "20편 revised 6,921개 전체 검색 후 후보 533개 문맥 검토. 승인된 10곳 반영. 모든 문장 종합 정독 아님."
+    "approved_applied": 2,
+    "method": "20편 revised 6,921개 전체 검색, 추상명사 45종 종결 후보 문구 523개(적중 문장 528개) 문맥 검토 후 승인된 43곳 반영. 전체 문구 정독 아님."
   }
 }

@@ -1,5 +1,5 @@
 {
-  "apply_status": "유형 15 승인안 2곳을 수정본 JSON에 반영. 원본 HTML 미적용.",
+  "apply_status": "유형 16 승인안 43곳을 수정본 JSON에 반영. 원본 HTML 미적용.",
   "book_count": 20,
   "card_count": 498,
   "content_review_performed": false,
@@ -412,7 +412,7 @@
     },
     {
       "book_count": 20,
-      "changed": 336,
+      "changed": 361,
       "labels_preserved": true,
       "method": "전 항목에서 문체 패턴으로 후보를 찾아 후보 문장의 문맥을 확인하는 선별 교정.",
       "name": "한자풀이",
@@ -581,20 +581,20 @@
           "scanned_text_fields": 15
         }
       ],
-      "status": "approved_targeted_type_14_followup_2_applied",
+      "status": "approved_targeted_type_16_applied",
       "text_fields": 2311,
-      "unchanged": 1975,
+      "unchanged": 1950,
       "unique_cards": 498,
       "latest_style_pass": {
-        "pass": "targeted_type_14_followup_2",
-        "approved_applied": 7,
+        "pass": "targeted_type_16",
+        "approved_applied": 28,
         "reviewed": 2311,
-        "method": "20편 revised 6,921개 전체 검색 후 후보 533개 문맥 검토. 승인된 10곳 반영. 모든 문장 종합 정독 아님."
+        "method": "20편 revised 6,921개 전체 검색, 추상명사 45종 종결 후보 문구 523개(적중 문장 528개) 문맥 검토 후 승인된 43곳 반영. 전체 문구 정독 아님."
       }
     },
     {
       "book_count": 20,
-      "changed": 249,
+      "changed": 258,
       "labels_preserved": true,
       "method": "전 항목에서 문체 패턴으로 후보를 찾아 후보 문장의 문맥을 확인하는 선별 교정.",
       "name": "의문",
@@ -763,20 +763,20 @@
           "scanned_text_fields": 18
         }
       ],
-      "status": "approved_targeted_type_14_followup_2_applied",
+      "status": "approved_targeted_type_16_applied",
       "text_fields": 3072,
-      "unchanged": 2823,
+      "unchanged": 2814,
       "unique_cards": 498,
       "latest_style_pass": {
-        "pass": "targeted_type_14_followup_2",
-        "approved_applied": 2,
+        "pass": "targeted_type_16",
+        "approved_applied": 11,
         "reviewed": 3072,
-        "method": "20편 revised 6,921개 전체 검색 후 후보 533개 문맥 검토. 승인된 10곳 반영. 모든 문장 종합 정독 아님."
+        "method": "20편 revised 6,921개 전체 검색, 추상명사 45종 종결 후보 문구 523개(적중 문장 528개) 문맥 검토 후 승인된 43곳 반영. 전체 문구 정독 아님."
       }
     },
     {
       "book_count": 20,
-      "changed": 210,
+      "changed": 212,
       "labels_preserved": true,
       "method": "전 항목에서 문체 패턴으로 후보를 찾아 후보 문장의 문맥을 확인하는 선별 교정.",
       "name": "쟁점",
@@ -945,32 +945,31 @@
           "scanned_text_fields": 8
         }
       ],
-      "status": "approved_targeted_type_15_followup_4_applied",
+      "status": "approved_targeted_type_16_applied",
       "text_fields": 1040,
-      "unchanged": 830,
+      "unchanged": 828,
       "unique_cards": 498,
       "latest_style_pass": {
-        "pass": "targeted_type_15_followup_4",
-        "approved_applied": 2,
+        "pass": "targeted_type_16",
+        "approved_applied": 4,
         "reviewed": 1040,
-        "method": "20편 revised 6,921개 전체 검색, 후보 문구 103개(적중 문장 104개) 문맥 검토 후 승인된 2곳 반영. 전체 문구 정독 아님."
+        "method": "20편 revised 6,921개 전체 검색, 추상명사 45종 종결 후보 문구 523개(적중 문장 528개) 문맥 검토 후 승인된 43곳 반영. 전체 문구 정독 아님."
       }
     }
   ],
-  "status": "approved_targeted_type_15_followup_4_applied",
-  "total_changed_text_fields": 1161,
+  "status": "approved_targeted_type_16_applied",
+  "total_changed_text_fields": 1197,
   "last_completed_pass": {
-    "type": 15,
-    "scope": "지나치게 긴 문장과 관형절",
-    "followup": 4,
+    "type": 16,
+    "scope": "어색한 명사입니다 종결",
     "status": "approved_applied",
     "scanned": 6921,
-    "keyword_matches_context_reviewed": 103,
-    "matched_sentences": 104,
-    "approved_applied": 2,
-    "retained_matches": 101,
-    "approval_message": "제이슨 반영후  이제 다른 유형、 ～명사입니다 로 끝나는 것중 어색한 것들 골라",
-    "method": "20편 revised 6,921개 전체 검색, 후보 문구 103개(적중 문장 104개) 문맥 검토 후 승인된 2곳 반영. 전체 문구 정독 아님."
+    "keyword_matches_context_reviewed": 523,
+    "matched_sentences": 528,
+    "approved_applied": 43,
+    "retained_matches": 480,
+    "approval_message": "제이슨 반영후 계속 찾아",
+    "method": "20편 revised 6,921개 전체 검색, 추상명사 45종 종결 후보 문구 523개(적중 문장 528개) 문맥 검토 후 승인된 43곳 반영. 전체 문구 정독 아님."
   },
   "targeted_reviews": [
     {
@@ -2207,6 +2206,18 @@
       "retained_matches": 101,
       "approval_message": "제이슨 반영후  이제 다른 유형、 ～명사입니다 로 끝나는 것중 어색한 것들 골라",
       "method": "20편 revised 6,921개 전체 검색, 후보 문구 103개(적중 문장 104개) 문맥 검토 후 승인된 2곳 반영. 전체 문구 정독 아님."
+    },
+    {
+      "type": 16,
+      "scope": "어색한 명사입니다 종결",
+      "status": "approved_applied",
+      "scanned": 6921,
+      "keyword_matches_context_reviewed": 523,
+      "matched_sentences": 528,
+      "approved_applied": 43,
+      "retained_matches": 480,
+      "approval_message": "제이슨 반영후 계속 찾아",
+      "method": "20편 revised 6,921개 전체 검색, 추상명사 45종 종결 후보 문구 523개(적중 문장 528개) 문맥 검토 후 승인된 43곳 반영. 전체 문구 정독 아님."
     }
   ]
 }

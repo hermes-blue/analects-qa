@@ -1153,16 +1153,30 @@
     },
     {
       "book": 4,
-      "changed": false,
+      "changed": true,
       "field": "답변",
       "id": "ly-04-14",
       "index": 3,
       "key": "ly-04-14:問:3:a",
       "label": "답변",
       "original": "둘 다 외부의 인정과 지위보다 자신이 어떤 사람이 되어 있는지를 우선합니다. 알아주지 않는다고 원망하지 말고, 오히려 남이 알아볼 만한 덕과 능력을 갖추는 데 집중하라는 흐름입니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "둘 다 외부의 인정과 지위보다 자신이 어떤 사람이 되어 있는지를 우선합니다. 알아주지 않는다고 원망하지 말고, 오히려 남이 알아볼 만한 덕과 능력을 갖추는 데 집중하라는 흐름입니다.",
-      "scope": "問"
+      "reason": "「~집중하라는 흐름」을 덕과 능력을 갖추라는 당부로 바로 서술합니다.",
+      "revised": "둘 다 외부의 인정과 지위보다 자신이 어떤 사람이 되어 있는지를 우선합니다. 알아주지 않는다고 원망하지 말고, 오히려 남이 알아볼 만한 덕과 능력을 갖추는 데 집중해야 합니다.",
+      "scope": "問",
+      "revision_history": [
+        {
+          "pass": "targeted_type_16",
+          "previous_revision": "둘 다 외부의 인정과 지위보다 자신이 어떤 사람이 되어 있는지를 우선합니다. 알아주지 않는다고 원망하지 말고, 오히려 남이 알아볼 만한 덕과 능력을 갖추는 데 집중하라는 흐름입니다.",
+          "revised": "둘 다 외부의 인정과 지위보다 자신이 어떤 사람이 되어 있는지를 우선합니다. 알아주지 않는다고 원망하지 말고, 오히려 남이 알아볼 만한 덕과 능력을 갖추는 데 집중해야 합니다.",
+          "reason": "「~집중하라는 흐름」을 덕과 능력을 갖추라는 당부로 바로 서술합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨 반영후 계속 찾아",
+          "date": "2026-09-09"
+        }
+      ],
+      "previous_revision": "둘 다 외부의 인정과 지위보다 자신이 어떤 사람이 되어 있는지를 우선합니다. 알아주지 않는다고 원망하지 말고, 오히려 남이 알아볼 만한 덕과 능력을 갖추는 데 집중하라는 흐름입니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_16"
     },
     {
       "book": 4,
@@ -2228,9 +2242,9 @@
     "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_9",
+    "pass": "targeted_type_16",
     "scanned": 156,
-    "approved_applied": 5,
-    "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
+    "approved_applied": 1,
+    "method": "20편 revised 6,921개 전체 검색, 추상명사 45종 종결 후보 문구 523개(적중 문장 528개) 문맥 검토 후 승인된 43곳 반영. 전체 문구 정독 아님."
   }
 }

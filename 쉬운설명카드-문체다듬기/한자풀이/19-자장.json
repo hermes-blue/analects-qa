@@ -908,15 +908,29 @@
     },
     {
       "book": 19,
-      "changed": false,
+      "changed": true,
       "id": "ly-19-15",
       "index": 4,
       "key": "ly-19-15:語:4",
       "label": "難能與仁난능여인",
       "original": "어려운 일을 해내는 능력과 仁을 구분하는 맥락입니다. 성취의 크기보다 사람을 대하는 진실한 마음이 별도의 기준임을 보여 줍니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "어려운 일을 해내는 능력과 仁을 구분하는 맥락입니다. 성취의 크기보다 사람을 대하는 진실한 마음이 별도의 기준임을 보여 줍니다.",
-      "scope": "語"
+      "reason": "구분하는 내용을 또 「맥락」이라고 부르지 않고 직접 서술합니다.",
+      "revised": "이 장에서는 어려운 일을 해내는 능력과 仁을 구분합니다. 성취의 크기보다 사람을 대하는 진실한 마음이 별도의 기준임을 보여 줍니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_16",
+          "previous_revision": "어려운 일을 해내는 능력과 仁을 구분하는 맥락입니다. 성취의 크기보다 사람을 대하는 진실한 마음이 별도의 기준임을 보여 줍니다.",
+          "revised": "이 장에서는 어려운 일을 해내는 능력과 仁을 구분합니다. 성취의 크기보다 사람을 대하는 진실한 마음이 별도의 기준임을 보여 줍니다.",
+          "reason": "구분하는 내용을 또 「맥락」이라고 부르지 않고 직접 서술합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨 반영후 계속 찾아",
+          "date": "2026-09-09"
+        }
+      ],
+      "previous_revision": "어려운 일을 해내는 능력과 仁을 구분하는 맥락입니다. 성취의 크기보다 사람을 대하는 진실한 마음이 별도의 기준임을 보여 줍니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_16"
     },
     {
       "book": 19,
@@ -1587,9 +1601,9 @@
     "selector": "article.card details.st1 .w > p:not(.wh)"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_14_followup_1",
+    "pass": "targeted_type_16",
     "scanned": 114,
     "approved_applied": 1,
-    "method": "20편 최신 revised 전체 검색 후 앞 회차 중복 및 일반 명사 등을 제외하고 추가 후보 147개 문맥 검토. 모든 문장 종합 정독 아님"
+    "method": "20편 revised 6,921개 전체 검색, 추상명사 45종 종결 후보 문구 523개(적중 문장 528개) 문맥 검토 후 승인된 43곳 반영. 전체 문구 정독 아님."
   }
 }

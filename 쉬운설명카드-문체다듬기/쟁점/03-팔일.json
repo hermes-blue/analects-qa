@@ -503,17 +503,31 @@
     },
     {
       "book": 3,
-      "changed": false,
+      "changed": true,
       "heading": "예를 잘 아는 사람이 왜 현장에서 계속 물었을까?인물 평가형",
       "id": "ly-03-15",
       "index": 1,
       "key": "ly-03-15:說:1:1",
       "label": "이렇게 보면",
       "original": "주변 사람들은 공자님이 매사 묻는 모습을 보고 ‘예를 모르는 것 아니냐’고 비꼽니다. 지식이 많으면 질문이 적어야 한다는 시선입니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "주변 사람들은 공자님이 매사 묻는 모습을 보고 ‘예를 모르는 것 아니냐’고 비꼽니다. 지식이 많으면 질문이 적어야 한다는 시선입니다.",
+      "reason": "생각을 「시선」으로 부르지 않고 앞 문장의 주변 사람들이 어떻게 보았는지 밝힙니다.",
+      "revised": "주변 사람들은 공자님이 매사 묻는 모습을 보고 ‘예를 모르는 것 아니냐’고 비꼽니다. 이들은 지식이 많으면 질문이 적어야 한다고 본 것입니다.",
       "scope": "說",
-      "side": 1
+      "side": 1,
+      "revision_history": [
+        {
+          "pass": "targeted_type_16",
+          "previous_revision": "주변 사람들은 공자님이 매사 묻는 모습을 보고 ‘예를 모르는 것 아니냐’고 비꼽니다. 지식이 많으면 질문이 적어야 한다는 시선입니다.",
+          "revised": "주변 사람들은 공자님이 매사 묻는 모습을 보고 ‘예를 모르는 것 아니냐’고 비꼽니다. 이들은 지식이 많으면 질문이 적어야 한다고 본 것입니다.",
+          "reason": "생각을 「시선」으로 부르지 않고 앞 문장의 주변 사람들이 어떻게 보았는지 밝힙니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨 반영후 계속 찾아",
+          "date": "2026-09-09"
+        }
+      ],
+      "previous_revision": "주변 사람들은 공자님이 매사 묻는 모습을 보고 ‘예를 모르는 것 아니냐’고 비꼽니다. 지식이 많으면 질문이 적어야 한다는 시선입니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_16"
     },
     {
       "book": 3,
@@ -914,9 +928,9 @@
     "selector": "article.card details.st3 .js .side > p"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_14_followup_1",
+    "pass": "targeted_type_16",
     "scanned": 54,
-    "approved_applied": 2,
-    "method": "20편 최신 revised 전체 검색 후 앞 회차 중복 및 일반 명사 등을 제외하고 추가 후보 147개 문맥 검토. 모든 문장 종합 정독 아님"
+    "approved_applied": 1,
+    "method": "20편 revised 6,921개 전체 검색, 추상명사 45종 종결 후보 문구 523개(적중 문장 528개) 문맥 검토 후 승인된 43곳 반영. 전체 문구 정독 아님."
   }
 }

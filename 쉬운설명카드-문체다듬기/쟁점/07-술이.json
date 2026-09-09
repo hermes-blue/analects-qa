@@ -116,17 +116,31 @@
     },
     {
       "book": 7,
-      "changed": false,
+      "changed": true,
       "heading": "‘편안하게 풀어진 모습’ vs ‘단정하게 몸을 가다듬은 모습’申申의 모습",
       "id": "ly-07-04",
       "index": 1,
       "key": "ly-07-04:說:1:1",
       "label": "마융(馬融) 계열 고주",
       "original": "申申과 夭夭를 모두 편안하고 부드러운 모습으로 풉니다. 쉬는 자리의 공자님이 전체적으로 온화했다는 그림입니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "申申과 夭夭를 모두 편안하고 부드러운 모습으로 풉니다. 쉬는 자리의 공자님이 전체적으로 온화했다는 그림입니다.",
+      "reason": "「온화했다는 그림」을 주석가들의 해석으로 서술하여 사실 묘사와 해석의 주체를 분명히 합니다.",
+      "revised": "申申과 夭夭를 모두 편안하고 부드러운 모습으로 풉니다. 마융 계열의 주석가들은 쉬는 자리의 공자님이 전체적으로 온화했다고 봅니다.",
       "scope": "說",
-      "side": 1
+      "side": 1,
+      "revision_history": [
+        {
+          "pass": "targeted_type_16",
+          "previous_revision": "申申과 夭夭를 모두 편안하고 부드러운 모습으로 풉니다. 쉬는 자리의 공자님이 전체적으로 온화했다는 그림입니다.",
+          "revised": "申申과 夭夭를 모두 편안하고 부드러운 모습으로 풉니다. 마융 계열의 주석가들은 쉬는 자리의 공자님이 전체적으로 온화했다고 봅니다.",
+          "reason": "「온화했다는 그림」을 주석가들의 해석으로 서술하여 사실 묘사와 해석의 주체를 분명히 합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨 반영후 계속 찾아",
+          "date": "2026-09-09"
+        }
+      ],
+      "previous_revision": "申申과 夭夭를 모두 편안하고 부드러운 모습으로 풉니다. 쉬는 자리의 공자님이 전체적으로 온화했다는 그림입니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_16"
     },
     {
       "book": 7,
@@ -1367,9 +1381,9 @@
     "selector": "article.card details.st3 .js .side > p"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_9",
+    "pass": "targeted_type_16",
     "scanned": 79,
     "approved_applied": 1,
-    "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
+    "method": "20편 revised 6,921개 전체 검색, 추상명사 45종 종결 후보 문구 523개(적중 문장 528개) 문맥 검토 후 승인된 43곳 반영. 전체 문구 정독 아님."
   }
 }

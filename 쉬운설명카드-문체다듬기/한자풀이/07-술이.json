@@ -1822,15 +1822,29 @@
     },
     {
       "book": 7,
-      "changed": false,
+      "changed": true,
       "id": "ly-07-28",
       "index": 5,
       "key": "ly-07-28:語:5",
       "label": "不與其退불여기퇴",
       "original": "과거의 잘못이나 후퇴까지 옳다고 인정한 것은 아니라는 뜻입니다. 현재의 개선 의지를 받아주는 것과 이전 행동을 정당화하는 것은 다르다는 구분입니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "과거의 잘못이나 후퇴까지 옳다고 인정한 것은 아니라는 뜻입니다. 현재의 개선 의지를 받아주는 것과 이전 행동을 정당화하는 것은 다르다는 구분입니다.",
-      "scope": "語"
+      "reason": "차이를 다시 「구분」이라고 명명하지 않고 두 일이 다르다고 직접 밝힙니다.",
+      "revised": "과거의 잘못이나 후퇴까지 옳다고 인정한 것은 아니라는 뜻입니다. 현재의 개선 의지를 받아주는 일과 이전 행동을 정당화하는 일은 다릅니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_16",
+          "previous_revision": "과거의 잘못이나 후퇴까지 옳다고 인정한 것은 아니라는 뜻입니다. 현재의 개선 의지를 받아주는 것과 이전 행동을 정당화하는 것은 다르다는 구분입니다.",
+          "revised": "과거의 잘못이나 후퇴까지 옳다고 인정한 것은 아니라는 뜻입니다. 현재의 개선 의지를 받아주는 일과 이전 행동을 정당화하는 일은 다릅니다.",
+          "reason": "차이를 다시 「구분」이라고 명명하지 않고 두 일이 다르다고 직접 밝힙니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨 반영후 계속 찾아",
+          "date": "2026-09-09"
+        }
+      ],
+      "previous_revision": "과거의 잘못이나 후퇴까지 옳다고 인정한 것은 아니라는 뜻입니다. 현재의 개선 의지를 받아주는 것과 이전 행동을 정당화하는 것은 다르다는 구분입니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_16"
     },
     {
       "book": 7,
@@ -2387,9 +2401,9 @@
     "selector": "article.card details.st1 .w > p:not(.wh)"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_14_followup_2",
+    "pass": "targeted_type_16",
     "scanned": 171,
-    "approved_applied": 2,
-    "method": "20편 revised 6,921개 전체 검색 후 후보 533개 문맥 검토. 승인된 10곳 반영. 모든 문장 종합 정독 아님."
+    "approved_applied": 1,
+    "method": "20편 revised 6,921개 전체 검색, 추상명사 45종 종결 후보 문구 523개(적중 문장 528개) 문맥 검토 후 승인된 43곳 반영. 전체 문구 정독 아님."
   }
 }

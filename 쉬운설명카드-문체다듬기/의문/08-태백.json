@@ -1436,8 +1436,8 @@
       "key": "ly-08-17:問:3:a",
       "label": "답변",
       "original": "심리적으로 늘 초조하라는 뜻은 아닙니다. 배움에 대해 자만하지 않고 지속적으로 긴장과 관심을 유지하라는 태도입니다. 핵심은 성장을 멈추지 않는 꾸준함입니다.",
-      "reason": "배움에 자만하지 말고 지속적으로 관심을 가지라는 답을 성장을 멈추지 않는 꾸준함이라는 말로 반복합니다.",
-      "revised": "심리적으로 늘 초조하라는 뜻은 아닙니다. 배움에 대해 자만하지 않고 지속적으로 긴장과 관심을 유지하라는 태도입니다.",
+      "reason": "「~유지하라는 태도」를 실제 당부로 바꿉니다. 앞 문장의 초조함에 대한 한정은 유지합니다.",
+      "revised": "심리적으로 늘 초조하라는 뜻은 아닙니다. 배움에 대해 자만하지 않고 지속적으로 긴장과 관심을 유지해야 합니다.",
       "scope": "問",
       "revision_history": [
         {
@@ -1448,11 +1448,20 @@
           "approval_status": "approved",
           "approval_message": "제이슨에 반영후 새로운 유형 시작",
           "date": "2026-09-08"
+        },
+        {
+          "pass": "targeted_type_16",
+          "previous_revision": "심리적으로 늘 초조하라는 뜻은 아닙니다. 배움에 대해 자만하지 않고 지속적으로 긴장과 관심을 유지하라는 태도입니다.",
+          "revised": "심리적으로 늘 초조하라는 뜻은 아닙니다. 배움에 대해 자만하지 않고 지속적으로 긴장과 관심을 유지해야 합니다.",
+          "reason": "「~유지하라는 태도」를 실제 당부로 바꿉니다. 앞 문장의 초조함에 대한 한정은 유지합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨 반영후 계속 찾아",
+          "date": "2026-09-09"
         }
       ],
-      "previous_revision": "심리적으로 늘 초조하라는 뜻은 아닙니다. 배움에 대해 자만하지 않고 지속적으로 긴장과 관심을 유지하라는 태도입니다. 핵심은 성장을 멈추지 않는 꾸준함입니다.",
+      "previous_revision": "심리적으로 늘 초조하라는 뜻은 아닙니다. 배움에 대해 자만하지 않고 지속적으로 긴장과 관심을 유지하라는 태도입니다.",
       "approval_status": "approved",
-      "last_revision_pass": "targeted_type_9"
+      "last_revision_pass": "targeted_type_16"
     },
     {
       "book": 8,
@@ -1801,9 +1810,9 @@
     "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_9",
+    "pass": "targeted_type_16",
     "scanned": 126,
-    "approved_applied": 2,
-    "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
+    "approved_applied": 1,
+    "method": "20편 revised 6,921개 전체 검색, 추상명사 45종 종결 후보 문구 523개(적중 문장 528개) 문맥 검토 후 승인된 43곳 반영. 전체 문구 정독 아님."
   }
 }

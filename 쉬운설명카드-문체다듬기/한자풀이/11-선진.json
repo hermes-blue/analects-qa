@@ -1520,8 +1520,8 @@
       "key": "ly-11-24:語:5",
       "label": "惡夫佞者오부녕자",
       "original": "말을 잘 꾸며 논리를 이기는 사람을 싫어한다는 뜻입니다. 그럴듯한 말보다 실제로 사람을 해치지 않는 판단과 준비가 더 중요하다는 맥락입니다.",
-      "reason": "이기다의 대상과 조사를 자연스럽게 연결합니다.",
-      "revised": "말을 잘 꾸며 논쟁에서 이기는 사람을 싫어한다는 뜻입니다. 그럴듯한 말보다 실제로 사람을 해치지 않는 판단과 준비가 더 중요하다는 맥락입니다.",
+      "reason": "중요성에 대한 판단을 「맥락」으로 돌리지 않고 직접 서술합니다.",
+      "revised": "말을 잘 꾸며 논쟁에서 이기는 사람을 싫어한다는 뜻입니다. 그럴듯한 말보다 실제로 사람을 해치지 않는 판단과 준비가 더 중요합니다.",
       "scope": "語",
       "revision_history": [
         {
@@ -1532,11 +1532,20 @@
           "approval_status": "approved",
           "approval_message": "수정후 다음 시작",
           "date": "2026-09-08"
+        },
+        {
+          "pass": "targeted_type_16",
+          "previous_revision": "말을 잘 꾸며 논쟁에서 이기는 사람을 싫어한다는 뜻입니다. 그럴듯한 말보다 실제로 사람을 해치지 않는 판단과 준비가 더 중요하다는 맥락입니다.",
+          "revised": "말을 잘 꾸며 논쟁에서 이기는 사람을 싫어한다는 뜻입니다. 그럴듯한 말보다 실제로 사람을 해치지 않는 판단과 준비가 더 중요합니다.",
+          "reason": "중요성에 대한 판단을 「맥락」으로 돌리지 않고 직접 서술합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨 반영후 계속 찾아",
+          "date": "2026-09-09"
         }
       ],
-      "previous_revision": "말을 잘 꾸며 논리를 이기는 사람을 싫어한다는 뜻입니다. 그럴듯한 말보다 실제로 사람을 해치지 않는 판단과 준비가 더 중요하다는 맥락입니다.",
+      "previous_revision": "말을 잘 꾸며 논쟁에서 이기는 사람을 싫어한다는 뜻입니다. 그럴듯한 말보다 실제로 사람을 해치지 않는 판단과 준비가 더 중요하다는 맥락입니다.",
       "approval_status": "approved",
-      "last_revision_pass": "targeted_type_2"
+      "last_revision_pass": "targeted_type_16"
     },
     {
       "book": 11,
@@ -1647,9 +1656,9 @@
     "selector": "article.card details.st1 .w > p:not(.wh)"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_14_followup_1",
+    "pass": "targeted_type_16",
     "scanned": 119,
     "approved_applied": 1,
-    "method": "20편 최신 revised 전체 검색 후 앞 회차 중복 및 일반 명사 등을 제외하고 추가 후보 147개 문맥 검토. 모든 문장 종합 정독 아님"
+    "method": "20편 revised 6,921개 전체 검색, 추상명사 45종 종결 후보 문구 523개(적중 문장 528개) 문맥 검토 후 승인된 43곳 반영. 전체 문구 정독 아님."
   }
 }

@@ -700,15 +700,29 @@
     },
     {
       "book": 17,
-      "changed": false,
+      "changed": true,
       "id": "ly-17-11",
       "index": 5,
       "key": "ly-17-11:語:5",
       "label": "禮樂之本예악지본",
       "original": "본문에 직접 나온 고정어는 아니지만 이 문장의 핵심 맥락입니다. 공자님은 도구와 형식보다 질서와 조화라는 예악의 바탕을 보라고 합니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "본문에 직접 나온 고정어는 아니지만 이 문장의 핵심 맥락입니다. 공자님은 도구와 형식보다 질서와 조화라는 예악의 바탕을 보라고 합니다.",
-      "scope": "語"
+      "reason": "풀이용 항목을 「핵심 맥락」이라고 부르지 않고 본문의 핵심을 나타내는 말임을 설명합니다.",
+      "revised": "본문에 직접 나온 고정어는 아니지만, 이 문장의 핵심을 나타냅니다. 공자님은 도구와 형식보다 질서와 조화라는 예악의 바탕을 보라고 합니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "targeted_type_16",
+          "previous_revision": "본문에 직접 나온 고정어는 아니지만 이 문장의 핵심 맥락입니다. 공자님은 도구와 형식보다 질서와 조화라는 예악의 바탕을 보라고 합니다.",
+          "revised": "본문에 직접 나온 고정어는 아니지만, 이 문장의 핵심을 나타냅니다. 공자님은 도구와 형식보다 질서와 조화라는 예악의 바탕을 보라고 합니다.",
+          "reason": "풀이용 항목을 「핵심 맥락」이라고 부르지 않고 본문의 핵심을 나타내는 말임을 설명합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨 반영후 계속 찾아",
+          "date": "2026-09-09"
+        }
+      ],
+      "previous_revision": "본문에 직접 나온 고정어는 아니지만 이 문장의 핵심 맥락입니다. 공자님은 도구와 형식보다 질서와 조화라는 예악의 바탕을 보라고 합니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_16"
     },
     {
       "book": 17,
@@ -1700,9 +1714,9 @@
     "selector": "article.card details.st1 .w > p:not(.wh)"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_14",
+    "pass": "targeted_type_16",
     "scanned": 118,
-    "approved_applied": 2,
-    "method": "전체 검색 후 일반 명사 등 제외, 후보 438개 문맥 검토. 모든 문장 종합 정독 아님"
+    "approved_applied": 1,
+    "method": "20편 revised 6,921개 전체 검색, 추상명사 45종 종결 후보 문구 523개(적중 문장 528개) 문맥 검토 후 승인된 43곳 반영. 전체 문구 정독 아님."
   }
 }
