@@ -1,5 +1,5 @@
 {
-  "apply_status": "긴 문장·연결어 보완 승인안 8곳을 수정본 JSON에 반영. 원본 HTML 미적용.",
+  "apply_status": "전체 문장 길이 순위 1~20위에서 승인된 수정안 9곳을 JSON에 반영. 원본 HTML 미적용.",
   "book_count": 20,
   "card_count": 498,
   "content_review_performed": false,
@@ -412,7 +412,7 @@
     },
     {
       "book_count": 20,
-      "changed": 367,
+      "changed": 368,
       "labels_preserved": true,
       "method": "전 항목에서 문체 패턴으로 후보를 찾아 후보 문장의 문맥을 확인하는 선별 교정.",
       "name": "한자풀이",
@@ -581,20 +581,20 @@
           "scanned_text_fields": 15
         }
       ],
-      "status": "approved_long_sentence_connectives_4_applied",
+      "status": "approved_longest_sentence_ranked_1_applied",
       "text_fields": 2311,
-      "unchanged": 1944,
+      "unchanged": 1943,
       "unique_cards": 498,
       "latest_style_pass": {
-        "pass": "long_sentence_connectives_4",
+        "pass": "longest_sentence_ranked_1",
         "approved_applied": 1,
-        "reviewed": 2311,
-        "method": "20편 revised 6,921개 검색. 최장 문장 65~67자인 새 후보 206개 전체 문맥 검토 후 승인된 8곳 반영. 연결어·지시어·접속사로 앞뒤 관계와 주체를 명확히 함. 전체 문구 정독 아님. 위정 6장 의문 답변 첫 문장의 주어·서술어 의미 호응 오류는 사용자 지적을 반영해 함께 수정함."
+        "context_reviewed": 1,
+        "method": "최신 revised 6,921개를 문장부호 기준 11,962개 단위로 분리하여 길이 내림차순 정렬. 전체 순위 1~20위(96~85자)의 문맥을 검토해 9곳 수정, 10곳 유지, 1곳 의미 확인 보류. 전체 문구 정독 아님."
       }
     },
     {
       "book_count": 20,
-      "changed": 283,
+      "changed": 286,
       "labels_preserved": true,
       "method": "전 항목에서 문체 패턴으로 후보를 찾아 후보 문장의 문맥을 확인하는 선별 교정.",
       "name": "의문",
@@ -763,20 +763,20 @@
           "scanned_text_fields": 18
         }
       ],
-      "status": "approved_long_sentence_connectives_4_applied",
+      "status": "approved_longest_sentence_ranked_1_applied",
       "text_fields": 3072,
-      "unchanged": 2789,
+      "unchanged": 2786,
       "unique_cards": 498,
       "latest_style_pass": {
-        "pass": "long_sentence_connectives_4",
-        "approved_applied": 1,
-        "reviewed": 3072,
-        "method": "20편 revised 6,921개 검색. 최장 문장 65~67자인 새 후보 206개 전체 문맥 검토 후 승인된 8곳 반영. 연결어·지시어·접속사로 앞뒤 관계와 주체를 명확히 함. 전체 문구 정독 아님. 위정 6장 의문 답변 첫 문장의 주어·서술어 의미 호응 오류는 사용자 지적을 반영해 함께 수정함."
+        "pass": "longest_sentence_ranked_1",
+        "approved_applied": 4,
+        "context_reviewed": 10,
+        "method": "최신 revised 6,921개를 문장부호 기준 11,962개 단위로 분리하여 길이 내림차순 정렬. 전체 순위 1~20위(96~85자)의 문맥을 검토해 9곳 수정, 10곳 유지, 1곳 의미 확인 보류. 전체 문구 정독 아님."
       }
     },
     {
       "book_count": 20,
-      "changed": 240,
+      "changed": 242,
       "labels_preserved": true,
       "method": "전 항목에서 문체 패턴으로 후보를 찾아 후보 문장의 문맥을 확인하는 선별 교정.",
       "name": "쟁점",
@@ -945,32 +945,36 @@
           "scanned_text_fields": 8
         }
       ],
-      "status": "approved_long_sentence_connectives_4_applied",
+      "status": "approved_longest_sentence_ranked_1_applied",
       "text_fields": 1040,
-      "unchanged": 800,
+      "unchanged": 798,
       "unique_cards": 498,
       "latest_style_pass": {
-        "pass": "long_sentence_connectives_4",
-        "approved_applied": 6,
-        "reviewed": 1040,
-        "method": "20편 revised 6,921개 검색. 최장 문장 65~67자인 새 후보 206개 전체 문맥 검토 후 승인된 8곳 반영. 연결어·지시어·접속사로 앞뒤 관계와 주체를 명확히 함. 전체 문구 정독 아님. 위정 6장 의문 답변 첫 문장의 주어·서술어 의미 호응 오류는 사용자 지적을 반영해 함께 수정함."
+        "pass": "longest_sentence_ranked_1",
+        "approved_applied": 4,
+        "context_reviewed": 9,
+        "method": "최신 revised 6,921개를 문장부호 기준 11,962개 단위로 분리하여 길이 내림차순 정렬. 전체 순위 1~20위(96~85자)의 문맥을 검토해 9곳 수정, 10곳 유지, 1곳 의미 확인 보류. 전체 문구 정독 아님."
       }
     }
   ],
-  "status": "approved_long_sentence_connectives_4_applied",
-  "total_changed_text_fields": 1256,
+  "status": "approved_longest_sentence_ranked_1_applied",
+  "total_changed_text_fields": 1262,
   "last_completed_pass": {
-    "existing14_verified_commit": "b638c7ae2a82dd31d96dba17116f3e85d4d2272b",
-    "type": 15,
-    "scope": "지나치게 긴 문장 — 연결어·지시어·접속사 보완",
+    "pass": "longest_sentence_ranked_1",
+    "scope": "가장 긴 문장부터 순서대로 검토",
     "status": "approved_applied",
-    "scanned": 6921,
-    "matched_fields": 206,
-    "context_reviewed": 206,
-    "approved_applied": 8,
-    "retained": 198,
-    "approval_message": "제이슨 반영하고 , 병은 스스로 완전히 피하기 어려운 걱정입니다.>> 근데 이런 거 지금 이것도 문자 이상한 문자이거든 이런 거 어떤 유형이라고 봐야 되냐 이거 지금 말도 안 되잖아. 지금 병은 어려운 걱정입니다. 이게 무슨 소리야, 이거 말도 안 되잖아.",
-    "method": "20편 revised 6,921개 검색. 최장 문장 65~67자인 새 후보 206개 전체 문맥 검토 후 승인된 8곳 반영. 연결어·지시어·접속사로 앞뒤 관계와 주체를 명확히 함. 전체 문구 정독 아님. 위정 6장 의문 답변 첫 문장의 주어·서술어 의미 호응 오류는 사용자 지적을 반영해 함께 수정함.",
+    "scanned_fields": 6921,
+    "ranked_sentence_units": 11962,
+    "reviewed_rank_start": 1,
+    "reviewed_rank_end": 20,
+    "context_reviewed": 20,
+    "approved_applied": 9,
+    "retained": 10,
+    "held_for_meaning": 1,
+    "next_rank": 21,
+    "approval_message": "음 다 수정 뭐지? 제이슨의 반영해. 근데 왜 일부만 있고 예를 들면 뭐 2위라든지 왜 순서대로 다 안 바꾸고 뺀 거는 뭐냐?",
+    "method": "최신 revised 6,921개를 문장부호 기준 11,962개 단위로 분리하여 길이 내림차순 정렬. 전체 순위 1~20위(96~85자)의 문맥을 검토해 9곳 수정, 10곳 유지, 1곳 의미 확인 보류. 전체 문구 정독 아님.",
+    "previous_six": "rejected_do_not_apply",
     "previous_type16_followup6_9": "not_approved_do_not_apply"
   },
   "targeted_reviews": [
@@ -2338,6 +2342,24 @@
       "retained": 198,
       "approval_message": "제이슨 반영하고 , 병은 스스로 완전히 피하기 어려운 걱정입니다.>> 근데 이런 거 지금 이것도 문자 이상한 문자이거든 이런 거 어떤 유형이라고 봐야 되냐 이거 지금 말도 안 되잖아. 지금 병은 어려운 걱정입니다. 이게 무슨 소리야, 이거 말도 안 되잖아.",
       "method": "20편 revised 6,921개 검색. 최장 문장 65~67자인 새 후보 206개 전체 문맥 검토 후 승인된 8곳 반영. 연결어·지시어·접속사로 앞뒤 관계와 주체를 명확히 함. 전체 문구 정독 아님. 위정 6장 의문 답변 첫 문장의 주어·서술어 의미 호응 오류는 사용자 지적을 반영해 함께 수정함.",
+      "previous_type16_followup6_9": "not_approved_do_not_apply"
+    },
+    {
+      "pass": "longest_sentence_ranked_1",
+      "scope": "가장 긴 문장부터 순서대로 검토",
+      "status": "approved_applied",
+      "scanned_fields": 6921,
+      "ranked_sentence_units": 11962,
+      "reviewed_rank_start": 1,
+      "reviewed_rank_end": 20,
+      "context_reviewed": 20,
+      "approved_applied": 9,
+      "retained": 10,
+      "held_for_meaning": 1,
+      "next_rank": 21,
+      "approval_message": "음 다 수정 뭐지? 제이슨의 반영해. 근데 왜 일부만 있고 예를 들면 뭐 2위라든지 왜 순서대로 다 안 바꾸고 뺀 거는 뭐냐?",
+      "method": "최신 revised 6,921개를 문장부호 기준 11,962개 단위로 분리하여 길이 내림차순 정렬. 전체 순위 1~20위(96~85자)의 문맥을 검토해 9곳 수정, 10곳 유지, 1곳 의미 확인 보류. 전체 문구 정독 아님.",
+      "previous_six": "rejected_do_not_apply",
       "previous_type16_followup6_9": "not_approved_do_not_apply"
     }
   ]

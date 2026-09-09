@@ -1,0 +1,186 @@
+{
+  "base_commit": "22ba5ee03a05b3cf45baaabcad0abfd6888a005e",
+  "total_fields": 6921,
+  "total_sentence_units": 11962,
+  "reviewed_ranks": [
+    1,
+    20
+  ],
+  "context_reviewed": 20,
+  "proposed": 9,
+  "maintained": 10,
+  "held": 1,
+  "next_rank": 21,
+  "excluded_previous_six": true,
+  "json_applied": true,
+  "records": [
+    {
+      "rank": 1,
+      "key": "ly-04-04:問:1:a",
+      "length": 96,
+      "decision": "propose",
+      "reason": "「뜻으로 보기보다 … 상태에서 벗어난다는 뜻으로 이해하는 것이」처럼 겹친 설명을 줄였습니다. 두 해석을 비교하는 관계와 단정하지 않는 어조를 유지해, 문장을 억지로 나누지 않고 구조를 단순하게 했습니다.",
+      "application_status": "approved_applied"
+    },
+    {
+      "rank": 2,
+      "key": "ly-14-27:說:1:1",
+      "length": 95,
+      "decision": "maintain",
+      "reason": "직접 인용 두 개를 대조해 장을 나누는 방식이 분명합니다. 길이만으로 자연스러운 대등절을 나누지 않습니다."
+    },
+    {
+      "rank": 3,
+      "key": "ly-05-20:問:2:a",
+      "length": 93,
+      "decision": "propose",
+      "reason": "「능력을 발휘하는 것은 … 원칙을 지키는 일은 … 보았기 때문」이라는 겹친 명사절을 두 판단으로 나눴습니다. 공자님을 판단 주체로 밝히고 「그러나」로 평화로운 때와 혼란한 때를 대비했습니다.",
+      "application_status": "approved_applied"
+    },
+    {
+      "rank": 4,
+      "key": "ly-08-20:問:2:a",
+      "length": 92,
+      "decision": "propose",
+      "reason": "「인재를 많이 얻기 어려웠다는 사실을 들어」라는 긴 앞부분을 독립시켰습니다. 「공자님은 이 사례를 들어」로 그 사실을 누가 어떤 설명에 사용했는지 이어 주었습니다.",
+      "application_status": "approved_applied"
+    },
+    {
+      "rank": 5,
+      "key": "ly-07-11:語:3",
+      "length": 91,
+      "decision": "propose",
+      "reason": "해석의 기준과 그 해석이 뜻하는 바를 나눴습니다. 첫 문장에서 가능성과 방법을 구별하고, 「곧」으로 구체적인 뜻을 이어 설명했습니다. 해석을 제안하는 어조와 조건을 유지했습니다.",
+      "application_status": "approved_applied"
+    },
+    {
+      "rank": 6,
+      "key": "ly-07-06:問:1:a",
+      "length": 90,
+      "decision": "maintain",
+      "reason": "네 항목을 같은 구조로 열거해 순서가 분명하므로 유지합니다."
+    },
+    {
+      "rank": 7,
+      "key": "ly-12-04:說:1:1",
+      "length": 90,
+      "decision": "propose",
+      "reason": "긴 직접 인용 뒤에 이어진 시점 판단을 나눴습니다. 인용문은 그대로 두고, 「즉」으로 그 인용이 어떤 시점의 불안을 뜻하는지 연결했습니다. 주희의 해석이며 불안해한 사람은 사마우라는 점을 밝혔습니다.",
+      "application_status": "approved_applied"
+    },
+    {
+      "rank": 8,
+      "key": "ly-18-08:問:3:a",
+      "length": 90,
+      "decision": "maintain",
+      "reason": "인물들의 실천과 공자님의 기준을 대조하는 구조가 분명하므로 유지합니다."
+    },
+    {
+      "rank": 9,
+      "key": "ly-09-10:說:1:2",
+      "length": 89,
+      "decision": "propose",
+      "reason": "「말 밖에 따로 어떤 물건이 있는 것이 아니라 … 것을 그렇게 말했을 뿐」이라는 중첩을 풀었습니다. 오씨의 설명과 주희의 설명을 구분하고, 「그는」은 주희를 받도록 했습니다. 모호했던 「하다 보니」는 문맥에 맞춰 안회의 배움으로 명시했습니다.",
+      "application_status": "approved_applied"
+    },
+    {
+      "rank": 10,
+      "key": "ly-13-06:說:1:2",
+      "length": 89,
+      "decision": "hold",
+      "reason": "「백성에게 금한 것을 제 몸에는 행하지 않으면 나라가 망한다」에서 무엇을 행하지 않는다는 뜻인지 앞 설명과 잘 맞지 않습니다. 문장 분리만으로 처리하지 않고 의미 확인 대상으로 보류합니다."
+    },
+    {
+      "rank": 11,
+      "key": "ly-15-21:說:1:2",
+      "length": 89,
+      "decision": "maintain",
+      "reason": "긴 부분의 대부분이 보존해야 할 직접 인용이며, 강희와 정약용의 판단 주체가 이미 명확하므로 유지합니다."
+    },
+    {
+      "rank": 12,
+      "key": "ly-03-03:問:3:a",
+      "length": 88,
+      "decision": "maintain",
+      "reason": "앞의 두 장과 이 장의 관계를 대등하게 설명하고 있어 유지합니다."
+    },
+    {
+      "rank": 13,
+      "key": "ly-05-12:說:1:1",
+      "length": 88,
+      "decision": "maintain",
+      "reason": "文章과 性·天道의 뜻을 나란히 비교하는 구조가 분명하므로 유지합니다."
+    },
+    {
+      "rank": 14,
+      "key": "ly-08-13:問:3:a",
+      "length": 88,
+      "decision": "maintain",
+      "reason": "정치가 바를 때와 그릇될 때의 조건을 대조하는 구조가 분명하므로 유지합니다."
+    },
+    {
+      "rank": 15,
+      "key": "ly-14-13:說:1:2",
+      "length": 88,
+      "decision": "propose",
+      "reason": "「… 목숨을 내놓는 일은 … 할 수 있었으므로」라는 긴 근거와 뒤의 해석을 나눴습니다. 「그래서」로 이유를 연결하고, 이 설명이 호씨의 견해임을 밝혔습니다. 직접 인용은 보존했습니다.",
+      "application_status": "approved_applied"
+    },
+    {
+      "rank": 16,
+      "key": "ly-03-26:問:3:a",
+      "length": 87,
+      "decision": "propose",
+      "reason": "세 상황과 각각 필요한 마음을 먼저 제시한 뒤, 그 마음이 없을 때의 판단을 나눴습니다. 「이런 마음」으로 앞의 너그러움·공경·슬픔을 받아 긴 수식어가 붙은 조건절을 줄였습니다.",
+      "application_status": "approved_applied"
+    },
+    {
+      "rank": 17,
+      "key": "ly-15-08:說:1:2",
+      "length": 87,
+      "decision": "maintain",
+      "reason": "타인을 해치지 않는 행동과 필요할 때 자신을 버리는 행동의 연결이 분명하므로 유지합니다."
+    },
+    {
+      "rank": 18,
+      "key": "ly-07-19:說:1:1",
+      "length": 86,
+      "decision": "propose",
+      "reason": "타고난 앎의 범위·배워야 아는 내용·공자가 배운 이유가 한 문장에 겹쳐 있어 나눴습니다. 「다만」으로 범위를 한정하고 「그래서」로 배움의 이유를 연결했습니다. 윤씨의 견해임을 유지했습니다.",
+      "application_status": "approved_applied"
+    },
+    {
+      "rank": 19,
+      "key": "ly-04-12:問:3:a",
+      "length": 85,
+      "decision": "maintain",
+      "reason": "앞 장의 관심과 이 장의 결과를 대비하는 문장으로, 길이만으로 나누지 않습니다."
+    },
+    {
+      "rank": 20,
+      "key": "ly-13-10:問:1:a",
+      "length": 85,
+      "decision": "maintain",
+      "reason": "정치를 맡는 조건과 단기·수년 뒤 성과가 자연스럽게 이어져 있어 유지합니다."
+    }
+  ],
+  "approval_message": "음 다 수정 뭐지? 제이슨의 반영해. 근데 왜 일부만 있고 예를 들면 뭐 2위라든지 왜 순서대로 다 안 바꾸고 뺀 거는 뭐냐?",
+  "summary": {
+    "pass": "longest_sentence_ranked_1",
+    "scope": "가장 긴 문장부터 순서대로 검토",
+    "status": "approved_applied",
+    "scanned_fields": 6921,
+    "ranked_sentence_units": 11962,
+    "reviewed_rank_start": 1,
+    "reviewed_rank_end": 20,
+    "context_reviewed": 20,
+    "approved_applied": 9,
+    "retained": 10,
+    "held_for_meaning": 1,
+    "next_rank": 21,
+    "approval_message": "음 다 수정 뭐지? 제이슨의 반영해. 근데 왜 일부만 있고 예를 들면 뭐 2위라든지 왜 순서대로 다 안 바꾸고 뺀 거는 뭐냐?",
+    "method": "최신 revised 6,921개를 문장부호 기준 11,962개 단위로 분리하여 길이 내림차순 정렬. 전체 순위 1~20위(96~85자)의 문맥을 검토해 9곳 수정, 10곳 유지, 1곳 의미 확인 보류. 전체 문구 정독 아님.",
+    "previous_six": "rejected_do_not_apply",
+    "previous_type16_followup6_9": "not_approved_do_not_apply"
+  }
+}
