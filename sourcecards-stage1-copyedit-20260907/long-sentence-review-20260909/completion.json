@@ -1,0 +1,162 @@
+{
+  "status": "반영 완료",
+  "base_commit": "9dc79f3044b074d3992e0ccab0132664f3cd88d8",
+  "body_commit": "bb95a813ef757b0b5fa386c2561a0180ccd867d3",
+  "validation": {
+    "changed_chapters": 6,
+    "changed_files": 5,
+    "chapters": 498,
+    "order_preserved": true,
+    "protected_fields_preserved": true,
+    "unique_ids": 498
+  },
+  "commits": [
+    {
+      "commit_sha": "b8e340e41fb6d40c7b25c42644121b543f400ab3",
+      "content_sha": "4a954d0de1d7d41bef2102b9fcf2034277ceb357",
+      "name": "05-gongyajang"
+    },
+    {
+      "commit_sha": "116ececadc58808550052bdcd32647abe358f924",
+      "content_sha": "793bc24debd57bc78b9362c09b252d3d259f01aa",
+      "name": "07-suli"
+    },
+    {
+      "commit_sha": "920f1ad2b588a8601c83c1c1be35c4c8812d0a38",
+      "content_sha": "88aab9b327ca739e1ba87d0bd5cd29b32bee98ff",
+      "name": "13-jaro"
+    },
+    {
+      "commit_sha": "561c00ae66c25c91c8638413db2ef00b3bc6a9e0",
+      "content_sha": "502135eb1c7b10bdaf044ace292f8aa860a50e22",
+      "name": "15-wiryeonggong"
+    },
+    {
+      "commit_sha": "bb95a813ef757b0b5fa386c2561a0180ccd867d3",
+      "content_sha": "dfd3beef6482707733a0599f610a739fc0db1e88",
+      "name": "19-jajang"
+    }
+  ],
+  "remote_files": [
+    {
+      "name": "01-hakyi",
+      "sha": "ec8cb92a0ec29eca415780925d2ff1f6c256f85a",
+      "exact": true,
+      "chapters": 16
+    },
+    {
+      "name": "02-wijeong",
+      "sha": "9c876a056d3a515dd9255258f617007efe09eb55",
+      "exact": true,
+      "chapters": 24
+    },
+    {
+      "name": "03-palil",
+      "sha": "27597088af76a82376d8b29f8239e9df7b5fefeb",
+      "exact": true,
+      "chapters": 26
+    },
+    {
+      "name": "04-iin",
+      "sha": "8fb16ade9de76dc4bdef55a7f73263b9ad098430",
+      "exact": true,
+      "chapters": 26
+    },
+    {
+      "name": "05-gongyajang",
+      "sha": "4a954d0de1d7d41bef2102b9fcf2034277ceb357",
+      "exact": true,
+      "chapters": 27
+    },
+    {
+      "name": "06-yongya",
+      "sha": "67817bceb052ec3b421dfcd057ebe2d5cf05d594",
+      "exact": true,
+      "chapters": 28
+    },
+    {
+      "name": "07-suli",
+      "sha": "793bc24debd57bc78b9362c09b252d3d259f01aa",
+      "exact": true,
+      "chapters": 37
+    },
+    {
+      "name": "08-taebaek",
+      "sha": "e46755572f5b4a44eb7f7e9a288d05f12f420f46",
+      "exact": true,
+      "chapters": 21
+    },
+    {
+      "name": "09-jahan",
+      "sha": "36cc133c9235dccf43fd576875440b02d52faab6",
+      "exact": true,
+      "chapters": 30
+    },
+    {
+      "name": "10-hyangdang",
+      "sha": "dacbe4f855cc2672133056bf08d69df0da41a0d9",
+      "exact": true,
+      "chapters": 17
+    },
+    {
+      "name": "11-seonjin",
+      "sha": "e1ef20488f3717b4347e3ce0ce9b9064ea926c5f",
+      "exact": true,
+      "chapters": 25
+    },
+    {
+      "name": "12-anyeon",
+      "sha": "d82c22b063eba5dd3f6c463b0ede2bd8805ffc0d",
+      "exact": true,
+      "chapters": 24
+    },
+    {
+      "name": "13-jaro",
+      "sha": "88aab9b327ca739e1ba87d0bd5cd29b32bee98ff",
+      "exact": true,
+      "chapters": 30
+    },
+    {
+      "name": "14-heonmun",
+      "sha": "b3f1ae2fde7adef2bd65968d2ee6749e7a4484a8",
+      "exact": true,
+      "chapters": 47
+    },
+    {
+      "name": "15-wiryeonggong",
+      "sha": "502135eb1c7b10bdaf044ace292f8aa860a50e22",
+      "exact": true,
+      "chapters": 41
+    },
+    {
+      "name": "16-gyessi",
+      "sha": "323cae9355147ca6a25c9ab7466aca0cc18387ab",
+      "exact": true,
+      "chapters": 14
+    },
+    {
+      "name": "17-yanghwa",
+      "sha": "1c1f9f70dfcdad62abd3b7dba3df58dcedd780da",
+      "exact": true,
+      "chapters": 26
+    },
+    {
+      "name": "18-mija",
+      "sha": "36aa367146677874a8a3170b9c735416816e212f",
+      "exact": true,
+      "chapters": 11
+    },
+    {
+      "name": "19-jajang",
+      "sha": "dfd3beef6482707733a0599f610a739fc0db1e88",
+      "exact": true,
+      "chapters": 25
+    },
+    {
+      "name": "20-yowal",
+      "sha": "adf1b1f363740361dbc52878b0a802d4e5d4dbcc",
+      "exact": true,
+      "chapters": 3
+    }
+  ]
+}
