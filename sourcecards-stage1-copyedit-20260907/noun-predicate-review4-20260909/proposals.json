@@ -1,0 +1,55 @@
+{
+  "application_commit": "2e9eddcd42b206bad91844824b4b5c5029961352",
+  "base": "396ec204d43fb9e2f34622961eed2ec49c8929bc",
+  "body_applied": true,
+  "excluded": [
+    "ly-06-23",
+    "ly-12-04"
+  ],
+  "github_writes": true,
+  "proposals": [
+    {
+      "after": "안회의 생활을 보면 이 장의 ‘배불리 먹거나 편안한 집에서 살기를 바라지 않는다’는 말이 떠오릅니다.",
+      "approval_status": "approved",
+      "before": "‘배불리 먹거나 편안한 집에서 살기를 바라지 않는다’는 이 장의 말을 떠올리게 하는 제자입니다.",
+      "body_applied": true,
+      "file": "sourcecards-stage1-copyedit-20260907/round3/01-hakyi.json",
+      "id": "ly-01-14",
+      "label": "학이 14",
+      "source_sha": "96c5ffdfbf4ee3c6116ad1f3cbe7fc000fb37f97"
+    },
+    {
+      "after": "부탁한 사람은 식초를 얻었으니, 겉으로 보면 미생고가 친절하게 도와준 듯합니다.",
+      "approval_status": "approved",
+      "before": "부탁한 사람은 식초를 얻었으니, 겉으로는 친절한 일입니다.",
+      "body_applied": true,
+      "file": "sourcecards-stage1-copyedit-20260907/round3/05-gongyajang.json",
+      "id": "ly-05-23",
+      "label": "공야장 23",
+      "source_sha": "c33028eb74a4ed7682ffe97d12755dffd0354b6d"
+    },
+    {
+      "after": "실제로 모든 곳에서 이랬는지는 별개지만, 이 규정대로라면 한 번 치료를 잘하는 것만으로는 충분하지 않았습니다.",
+      "approval_status": "approved",
+      "before": "실제로 모든 곳에서 이랬는지는 별개지만, 한 번 치료를 잘하는 것만으로 충분하다고 보지 않은 규정입니다.",
+      "body_applied": true,
+      "file": "sourcecards-stage1-copyedit-20260907/round3/13-jaro.json",
+      "id": "ly-13-22",
+      "label": "자로 22",
+      "source_sha": "a3364386484fc677ad1680149d3f56821e428c9c"
+    },
+    {
+      "after": "나라의 이해가 얽힌 외교 문서는 한 사람이 잘 쓰는 것만으로 완성되지 않았습니다.",
+      "approval_status": "approved",
+      "before": "나라의 이해가 얽힌 외교에서는 혼자 잘 썼다고 끝나는 일이 아니었습니다.",
+      "body_applied": true,
+      "file": "sourcecards-stage1-copyedit-20260907/round3/14-heonmun.json",
+      "id": "ly-14-09",
+      "label": "헌문 9",
+      "source_sha": "7b852993e84ee3ef810ef2beab66888a77e21960"
+    }
+  ],
+  "reviewed_chapters": 498,
+  "reviewed_files": 20,
+  "status": "반영 완료"
+}
