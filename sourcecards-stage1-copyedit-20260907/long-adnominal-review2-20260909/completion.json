@@ -1,0 +1,172 @@
+{
+  "status": "반영 완료",
+  "body_applied": true,
+  "applied_changes": 3,
+  "applied_chapters": 3,
+  "unchanged_chapters": 495,
+  "total_books": 20,
+  "total_chapters": 498,
+  "pre_apply_main": "a485ca97bb3088590da3eefc23fc68ae498dbb3a",
+  "exact_proposals_applied": true,
+  "protected_fields_preserved": true,
+  "ids_and_order_preserved": true,
+  "length_changes": [
+    {
+      "after": 367,
+      "before": 375,
+      "id": "ly-07-36",
+      "method": "exclude_newlines"
+    },
+    {
+      "after": 365,
+      "before": 371,
+      "id": "ly-11-04",
+      "method": "exclude_newlines"
+    },
+    {
+      "after": 379,
+      "before": 376,
+      "id": "ly-16-09",
+      "method": "exclude_newlines"
+    }
+  ],
+  "commits": [
+    {
+      "commit_sha": "94f62e91f5ae45681ef9a6b75b7a25e8426802cb",
+      "content_sha": "ecb673556df2c9f7cc5149f8ccf0813f4321cbd7",
+      "file": "07-suli.json"
+    },
+    {
+      "commit_sha": "ccd4b1f865229ba09421f63f40b37f484ef1f9cf",
+      "content_sha": "6e669ecd28ef75f6bf3c77715c8c28560a89d6bd",
+      "file": "11-seonjin.json"
+    },
+    {
+      "commit_sha": "bf12f0ec3a019dab1b3e731d43d52d3570fa404b",
+      "content_sha": "3c2054d92e63719d2bb072d7adda79cbfa66d767",
+      "file": "16-gyessi.json"
+    }
+  ],
+  "remote_files": [
+    {
+      "path": "sourcecards-stage1-copyedit-20260907/round3/01-hakyi.json",
+      "before_sha": "96c5ffdfbf4ee3c6116ad1f3cbe7fc000fb37f97",
+      "after_sha": "96c5ffdfbf4ee3c6116ad1f3cbe7fc000fb37f97",
+      "verified": true
+    },
+    {
+      "path": "sourcecards-stage1-copyedit-20260907/round3/02-wijeong.json",
+      "before_sha": "e4078b066a43801892a09de2bf43aac79956ee8d",
+      "after_sha": "e4078b066a43801892a09de2bf43aac79956ee8d",
+      "verified": true
+    },
+    {
+      "path": "sourcecards-stage1-copyedit-20260907/round3/03-palil.json",
+      "before_sha": "27597088af76a82376d8b29f8239e9df7b5fefeb",
+      "after_sha": "27597088af76a82376d8b29f8239e9df7b5fefeb",
+      "verified": true
+    },
+    {
+      "path": "sourcecards-stage1-copyedit-20260907/round3/04-iin.json",
+      "before_sha": "63015b48ff2e358175fd599b9c0d02a74bdd89ec",
+      "after_sha": "63015b48ff2e358175fd599b9c0d02a74bdd89ec",
+      "verified": true
+    },
+    {
+      "path": "sourcecards-stage1-copyedit-20260907/round3/05-gongyajang.json",
+      "before_sha": "6711b3c57260a2509c0bd517b33e957196644d73",
+      "after_sha": "6711b3c57260a2509c0bd517b33e957196644d73",
+      "verified": true
+    },
+    {
+      "path": "sourcecards-stage1-copyedit-20260907/round3/06-yongya.json",
+      "before_sha": "77a1ee021ef8eb4743b93c6cfac5a376c34720a4",
+      "after_sha": "77a1ee021ef8eb4743b93c6cfac5a376c34720a4",
+      "verified": true
+    },
+    {
+      "path": "sourcecards-stage1-copyedit-20260907/round3/07-suli.json",
+      "before_sha": "cad26f110bd6fd3d9b4d0b996521a2c079994cf5",
+      "after_sha": "ecb673556df2c9f7cc5149f8ccf0813f4321cbd7",
+      "verified": true
+    },
+    {
+      "path": "sourcecards-stage1-copyedit-20260907/round3/08-taebaek.json",
+      "before_sha": "8d411e0040aa5c71d4ba72914a676fc61ef12cf2",
+      "after_sha": "8d411e0040aa5c71d4ba72914a676fc61ef12cf2",
+      "verified": true
+    },
+    {
+      "path": "sourcecards-stage1-copyedit-20260907/round3/09-jahan.json",
+      "before_sha": "6d02f2dd63b5ae5421144f28e452f036ef564a94",
+      "after_sha": "6d02f2dd63b5ae5421144f28e452f036ef564a94",
+      "verified": true
+    },
+    {
+      "path": "sourcecards-stage1-copyedit-20260907/round3/10-hyangdang.json",
+      "before_sha": "d169fcc0be6deed9ff2e59271796925bc927d522",
+      "after_sha": "d169fcc0be6deed9ff2e59271796925bc927d522",
+      "verified": true
+    },
+    {
+      "path": "sourcecards-stage1-copyedit-20260907/round3/11-seonjin.json",
+      "before_sha": "2d19370b095afca3b739f6515c2ce9bbe84b9530",
+      "after_sha": "6e669ecd28ef75f6bf3c77715c8c28560a89d6bd",
+      "verified": true
+    },
+    {
+      "path": "sourcecards-stage1-copyedit-20260907/round3/12-anyeon.json",
+      "before_sha": "d82c22b063eba5dd3f6c463b0ede2bd8805ffc0d",
+      "after_sha": "d82c22b063eba5dd3f6c463b0ede2bd8805ffc0d",
+      "verified": true
+    },
+    {
+      "path": "sourcecards-stage1-copyedit-20260907/round3/13-jaro.json",
+      "before_sha": "7e84cb4bd47a873058abdd77c777555b6acd3fb6",
+      "after_sha": "7e84cb4bd47a873058abdd77c777555b6acd3fb6",
+      "verified": true
+    },
+    {
+      "path": "sourcecards-stage1-copyedit-20260907/round3/14-heonmun.json",
+      "before_sha": "9a90983c37942d857a431d19984faad435388706",
+      "after_sha": "9a90983c37942d857a431d19984faad435388706",
+      "verified": true
+    },
+    {
+      "path": "sourcecards-stage1-copyedit-20260907/round3/15-wiryeonggong.json",
+      "before_sha": "594a2c1f6b4311cb525ee799c3df3aaab5337687",
+      "after_sha": "594a2c1f6b4311cb525ee799c3df3aaab5337687",
+      "verified": true
+    },
+    {
+      "path": "sourcecards-stage1-copyedit-20260907/round3/16-gyessi.json",
+      "before_sha": "6514102be2ad737599bad646b3750b0d4a7f3f05",
+      "after_sha": "3c2054d92e63719d2bb072d7adda79cbfa66d767",
+      "verified": true
+    },
+    {
+      "path": "sourcecards-stage1-copyedit-20260907/round3/17-yanghwa.json",
+      "before_sha": "81d96049c5c2bd1c12769e6e05073dc7cc6a7448",
+      "after_sha": "81d96049c5c2bd1c12769e6e05073dc7cc6a7448",
+      "verified": true
+    },
+    {
+      "path": "sourcecards-stage1-copyedit-20260907/round3/18-mija.json",
+      "before_sha": "36aa367146677874a8a3170b9c735416816e212f",
+      "after_sha": "36aa367146677874a8a3170b9c735416816e212f",
+      "verified": true
+    },
+    {
+      "path": "sourcecards-stage1-copyedit-20260907/round3/19-jajang.json",
+      "before_sha": "17b30b72c2f292659501106e1a5c55e6edff9292",
+      "after_sha": "17b30b72c2f292659501106e1a5c55e6edff9292",
+      "verified": true
+    },
+    {
+      "path": "sourcecards-stage1-copyedit-20260907/round3/20-yowal.json",
+      "before_sha": "adf1b1f363740361dbc52878b0a802d4e5d4dbcc",
+      "after_sha": "adf1b1f363740361dbc52878b0a802d4e5d4dbcc",
+      "verified": true
+    }
+  ]
+}
