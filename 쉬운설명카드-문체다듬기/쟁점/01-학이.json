@@ -151,8 +151,8 @@
       "key": "ly-01-04:說:1:2",
       "label": "주희(朱熹) 《논어집주》",
       "original": "뒤에 나오는 세 가지, 곧 남의 일을 맡은 태도·친구와의 신의·배운 것의 익힘을 날마다 점검했다고 봅니다.",
-      "reason": "나열한 세 항목을 모두 간접 의문절로 맞춥니다.",
-      "revised": "뒤에 나오는 세 가지, 곧 남의 일을 맡았을 때 어떤 태도로 임했는지, 친구와 신의를 지켰는지, 배운 것을 얼마나 익혔는지를 날마다 점검했다고 봅니다.",
+      "reason": "승인된 문장 분리와 접속사·지시어·연결어 보완.",
+      "revised": "날마다 점검한 것은 뒤에 나오는 세 가지라고 봅니다. 곧 남의 일을 맡았을 때 어떤 태도로 임했는지, 친구와 신의를 지켰는지, 배운 것을 얼마나 익혔는지를 돌아보았다는 것입니다.",
       "scope": "說",
       "side": 2,
       "revision_history": [
@@ -164,11 +164,20 @@
           "approval_status": "approved",
           "approval_message": "수정후 다음 시작",
           "date": "2026-09-08"
+        },
+        {
+          "pass": "longest_sentence_ranked_2_retained_12",
+          "previous_revision": "뒤에 나오는 세 가지, 곧 남의 일을 맡았을 때 어떤 태도로 임했는지, 친구와 신의를 지켰는지, 배운 것을 얼마나 익혔는지를 날마다 점검했다고 봅니다.",
+          "revised": "날마다 점검한 것은 뒤에 나오는 세 가지라고 봅니다. 곧 남의 일을 맡았을 때 어떤 태도로 임했는지, 친구와 신의를 지켰는지, 배운 것을 얼마나 익혔는지를 돌아보았다는 것입니다.",
+          "reason": "승인된 문장 분리와 접속사·지시어·연결어 보완.",
+          "approval_status": "approved",
+          "approval_message": "전부 제이슨 반영 , 그리고 그 다음 순위도 이어서 시작",
+          "date": "2026-09-09"
         }
       ],
-      "previous_revision": "뒤에 나오는 세 가지, 곧 남의 일을 맡았을 때의 태도·친구와의 신의·배운 것을 얼마나 익혔는지를 날마다 점검했다고 봅니다.",
+      "previous_revision": "뒤에 나오는 세 가지, 곧 남의 일을 맡았을 때 어떤 태도로 임했는지, 친구와 신의를 지켰는지, 배운 것을 얼마나 익혔는지를 날마다 점검했다고 봅니다.",
       "approval_status": "approved",
-      "last_revision_pass": "targeted_type_2"
+      "last_revision_pass": "longest_sentence_ranked_2_retained_12"
     },
     {
       "book": 1,
@@ -662,9 +671,8 @@
     "selector": "article.card details.st3 .js .side > p"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_14_followup_1",
-    "scanned": 40,
+    "pass": "longest_sentence_ranked_2_retained_12",
     "approved_applied": 1,
-    "method": "20편 최신 revised 전체 검색 후 앞 회차 중복 및 일반 명사 등을 제외하고 추가 후보 147개 문맥 검토. 모든 문장 종합 정독 아님"
+    "method": "기존 21~40위에서 유지했던 12곳을 사용자 승인 문구 그대로 분리·연결. 31위는 승인된 간접 서술 전환 포함."
   }
 }

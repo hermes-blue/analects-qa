@@ -1,5 +1,5 @@
 {
-  "apply_status": "전체 문장 길이 순위 21~40위에서 승인된 수정안 8곳을 JSON에 반영. 원본 HTML 미적용.",
+  "apply_status": "기존 21~40위에서 유지했던 12곳을 사용자 승인 문구 그대로 분리·연결. 31위는 승인된 간접 서술 전환 포함. JSON·전체 묶음 반영 완료. 원본 HTML 미적용.",
   "book_count": 20,
   "card_count": 498,
   "content_review_performed": false,
@@ -412,7 +412,7 @@
     },
     {
       "book_count": 20,
-      "changed": 368,
+      "changed": 369,
       "labels_preserved": true,
       "method": "전 항목에서 문체 패턴으로 후보를 찾아 후보 문장의 문맥을 확인하는 선별 교정.",
       "name": "한자풀이",
@@ -581,9 +581,9 @@
           "scanned_text_fields": 15
         }
       ],
-      "status": "approved_longest_sentence_ranked_1_applied",
+      "status": "approved_longest_sentence_ranked_2_retained_12_applied",
       "text_fields": 2311,
-      "unchanged": 1943,
+      "unchanged": 1942,
       "unique_cards": 498,
       "latest_style_pass": {
         "pass": "longest_sentence_ranked_1",
@@ -594,7 +594,7 @@
     },
     {
       "book_count": 20,
-      "changed": 288,
+      "changed": 292,
       "labels_preserved": true,
       "method": "전 항목에서 문체 패턴으로 후보를 찾아 후보 문장의 문맥을 확인하는 선별 교정.",
       "name": "의문",
@@ -763,9 +763,9 @@
           "scanned_text_fields": 18
         }
       ],
-      "status": "approved_longest_sentence_ranked_2_applied",
+      "status": "approved_longest_sentence_ranked_2_retained_12_applied",
       "text_fields": 3072,
-      "unchanged": 2784,
+      "unchanged": 2780,
       "unique_cards": 498,
       "latest_style_pass": {
         "pass": "longest_sentence_ranked_2",
@@ -776,7 +776,7 @@
     },
     {
       "book_count": 20,
-      "changed": 247,
+      "changed": 252,
       "labels_preserved": true,
       "method": "전 항목에서 문체 패턴으로 후보를 찾아 후보 문장의 문맥을 확인하는 선별 교정.",
       "name": "쟁점",
@@ -945,9 +945,9 @@
           "scanned_text_fields": 8
         }
       ],
-      "status": "approved_longest_sentence_ranked_2_applied",
+      "status": "approved_longest_sentence_ranked_2_retained_12_applied",
       "text_fields": 1040,
-      "unchanged": 793,
+      "unchanged": 788,
       "unique_cards": 498,
       "latest_style_pass": {
         "pass": "longest_sentence_ranked_2",
@@ -958,26 +958,8 @@
     }
   ],
   "status": "approved_longest_sentence_ranked_2_applied",
-  "total_changed_text_fields": 1269,
-  "last_completed_pass": {
-    "pass": "longest_sentence_ranked_2",
-    "scope": "가장 긴 문장부터 순서대로 검토",
-    "status": "approved_applied",
-    "ranking_base_commit": "22ba5ee03a05b3cf45baaabcad0abfd6888a005e",
-    "fields_in_full_ranking_search": 6921,
-    "ranked_sentence_units": 11962,
-    "reviewed_rank_start": 21,
-    "reviewed_rank_end": 40,
-    "context_reviewed": 20,
-    "approved_applied": 8,
-    "retained": 12,
-    "held_for_meaning": 0,
-    "next_rank": 41,
-    "approval_message": "자 일단 그 수정한 거 반영하고 유지하는 거 한번 띄워 봐 내가 확인해 보게.",
-    "method": "기존에 revised 6,921개에서 산출한 문장 단위 11,962개의 길이 순위를 유지. 최신 revised와 대조한 기존 전체 순위 21~40위(85~82자)의 문맥을 검토해 8곳 수정, 12곳 유지. 전체 문구 정독 아님.",
-    "previous_six": "rejected_do_not_apply",
-    "previous_type16_followup6_9": "not_approved_do_not_apply"
-  },
+  "total_changed_text_fields": 1279,
+  "last_completed_pass": "longest_sentence_ranked_2_retained_12",
   "targeted_reviews": [
     {
       "type": 1,
@@ -2381,6 +2363,28 @@
       "method": "기존에 revised 6,921개에서 산출한 문장 단위 11,962개의 길이 순위를 유지. 최신 revised와 대조한 기존 전체 순위 21~40위(85~82자)의 문맥을 검토해 8곳 수정, 12곳 유지. 전체 문구 정독 아님.",
       "previous_six": "rejected_do_not_apply",
       "previous_type16_followup6_9": "not_approved_do_not_apply"
+    },
+    {
+      "pass_name": "longest_sentence_ranked_2_retained_12",
+      "status": "approved_applied",
+      "approved_applied": 12,
+      "ranks": [
+        23,
+        25,
+        26,
+        28,
+        29,
+        31,
+        32,
+        33,
+        36,
+        37,
+        38,
+        40
+      ],
+      "next_rank": 41,
+      "approval_message": "전부 제이슨 반영 , 그리고 그 다음 순위도 이어서 시작",
+      "method": "기존 21~40위에서 유지했던 12곳을 사용자 승인 문구 그대로 분리·연결. 31위는 승인된 간접 서술 전환 포함."
     }
   ]
 }

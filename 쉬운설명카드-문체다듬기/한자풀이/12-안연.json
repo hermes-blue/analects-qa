@@ -1383,15 +1383,29 @@
     },
     {
       "book": 12,
-      "changed": false,
+      "changed": true,
       "id": "ly-12-22",
       "index": 5,
       "key": "ly-12-22:語:5",
       "label": "知人之效지인지효",
       "original": "순임금이 고요를, 탕왕이 이윤을 알아본 사례처럼 사람을 정확히 보는 눈은 한 사람의 평가에서 끝나지 않고 정치 전체의 방향을 바꿀 수 있다는 뜻입니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "순임금이 고요를, 탕왕이 이윤을 알아본 사례처럼 사람을 정확히 보는 눈은 한 사람의 평가에서 끝나지 않고 정치 전체의 방향을 바꿀 수 있다는 뜻입니다.",
-      "scope": "語"
+      "reason": "승인된 문장 분리와 접속사·지시어·연결어 보완.",
+      "revised": "순임금은 고요를, 탕왕은 이윤을 알아보았습니다. 이 사례들처럼 사람을 정확히 보는 눈은 한 사람을 평가하는 데 그치지 않고 정치 전체의 방향을 바꿀 수 있다는 뜻입니다.",
+      "scope": "語",
+      "revision_history": [
+        {
+          "pass": "longest_sentence_ranked_2_retained_12",
+          "previous_revision": "순임금이 고요를, 탕왕이 이윤을 알아본 사례처럼 사람을 정확히 보는 눈은 한 사람의 평가에서 끝나지 않고 정치 전체의 방향을 바꿀 수 있다는 뜻입니다.",
+          "revised": "순임금은 고요를, 탕왕은 이윤을 알아보았습니다. 이 사례들처럼 사람을 정확히 보는 눈은 한 사람을 평가하는 데 그치지 않고 정치 전체의 방향을 바꿀 수 있다는 뜻입니다.",
+          "reason": "승인된 문장 분리와 접속사·지시어·연결어 보완.",
+          "approval_status": "approved",
+          "approval_message": "전부 제이슨 반영 , 그리고 그 다음 순위도 이어서 시작",
+          "date": "2026-09-09"
+        }
+      ],
+      "previous_revision": "순임금이 고요를, 탕왕이 이윤을 알아본 사례처럼 사람을 정확히 보는 눈은 한 사람의 평가에서 끝나지 않고 정치 전체의 방향을 바꿀 수 있다는 뜻입니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "longest_sentence_ranked_2_retained_12"
     },
     {
       "book": 12,
@@ -1522,9 +1536,8 @@
     "selector": "article.card details.st1 .w > p:not(.wh)"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_16",
-    "scanned": 109,
-    "approved_applied": 3,
-    "method": "20편 revised 6,921개 전체 검색, 추상명사 45종 종결 후보 문구 523개(적중 문장 528개) 문맥 검토 후 승인된 43곳 반영. 전체 문구 정독 아님."
+    "pass": "longest_sentence_ranked_2_retained_12",
+    "approved_applied": 1,
+    "method": "기존 21~40위에서 유지했던 12곳을 사용자 승인 문구 그대로 분리·연결. 31위는 승인된 간접 서술 전환 포함."
   }
 }

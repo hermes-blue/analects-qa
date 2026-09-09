@@ -775,16 +775,30 @@
     },
     {
       "book": 4,
-      "changed": false,
+      "changed": true,
       "field": "답변",
       "id": "ly-04-10",
       "index": 1,
       "key": "ly-04-10:問:1:a",
       "label": "답변",
       "original": "무조건 중립을 지키라는 뜻이 아닙니다. 미리 ‘반드시 이렇게 해야 한다’거나 ‘절대 하지 않겠다’고 사사롭게 정해 두지 말고, 그 상황에서 무엇이 義로운지를 기준으로 판단하라는 뜻입니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "무조건 중립을 지키라는 뜻이 아닙니다. 미리 ‘반드시 이렇게 해야 한다’거나 ‘절대 하지 않겠다’고 사사롭게 정해 두지 말고, 그 상황에서 무엇이 義로운지를 기준으로 판단하라는 뜻입니다.",
-      "scope": "問"
+      "reason": "승인된 문장 분리와 접속사·지시어·연결어 보완.",
+      "revised": "무조건 중립을 지키라는 뜻이 아닙니다. 미리 ‘반드시 이렇게 해야 한다’거나 ‘절대 하지 않겠다’고 사사롭게 정해 두지 말라는 뜻입니다. 그 대신 그 상황에서 무엇이 義로운지를 기준으로 판단하라고 합니다.",
+      "scope": "問",
+      "revision_history": [
+        {
+          "pass": "longest_sentence_ranked_2_retained_12",
+          "previous_revision": "무조건 중립을 지키라는 뜻이 아닙니다. 미리 ‘반드시 이렇게 해야 한다’거나 ‘절대 하지 않겠다’고 사사롭게 정해 두지 말고, 그 상황에서 무엇이 義로운지를 기준으로 판단하라는 뜻입니다.",
+          "revised": "무조건 중립을 지키라는 뜻이 아닙니다. 미리 ‘반드시 이렇게 해야 한다’거나 ‘절대 하지 않겠다’고 사사롭게 정해 두지 말라는 뜻입니다. 그 대신 그 상황에서 무엇이 義로운지를 기준으로 판단하라고 합니다.",
+          "reason": "승인된 문장 분리와 접속사·지시어·연결어 보완.",
+          "approval_status": "approved",
+          "approval_message": "전부 제이슨 반영 , 그리고 그 다음 순위도 이어서 시작",
+          "date": "2026-09-09"
+        }
+      ],
+      "previous_revision": "무조건 중립을 지키라는 뜻이 아닙니다. 미리 ‘반드시 이렇게 해야 한다’거나 ‘절대 하지 않겠다’고 사사롭게 정해 두지 말고, 그 상황에서 무엇이 義로운지를 기준으로 판단하라는 뜻입니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "longest_sentence_ranked_2_retained_12"
     },
     {
       "book": 4,
@@ -2270,8 +2284,8 @@
     "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
   },
   "latest_style_pass": {
-    "pass": "longest_sentence_ranked_1",
+    "pass": "longest_sentence_ranked_2_retained_12",
     "approved_applied": 1,
-    "method": "최신 revised 6,921개를 문장부호 기준 11,962개 단위로 분리하여 길이 내림차순 정렬. 전체 순위 1~20위(96~85자)의 문맥을 검토해 9곳 수정, 10곳 유지, 1곳 의미 확인 보류. 전체 문구 정독 아님."
+    "method": "기존 21~40위에서 유지했던 12곳을 사용자 승인 문구 그대로 분리·연결. 31위는 승인된 간접 서술 전환 포함."
   }
 }
