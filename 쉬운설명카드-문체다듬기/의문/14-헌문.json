@@ -1115,16 +1115,30 @@
     },
     {
       "book": 14,
-      "changed": false,
+      "changed": true,
       "field": "답변",
       "id": "ly-14-14",
       "index": 1,
       "key": "ly-14-14:問:1:a",
       "label": "답변",
       "original": "공명가는 과장된 소문이라고 바로잡았습니다. 그는 말해야 할 때 말하고, 즐거울 때 웃으며, 의에 맞을 때 취했기 때문에 사람들이 싫어하지 않았다는 것입니다.",
-      "reason": "이번 문체 점검에서 수정 대상으로 선택하지 않아 보존.",
-      "revised": "공명가는 과장된 소문이라고 바로잡았습니다. 그는 말해야 할 때 말하고, 즐거울 때 웃으며, 의에 맞을 때 취했기 때문에 사람들이 싫어하지 않았다는 것입니다.",
-      "scope": "問"
+      "reason": "「그는 … 않았다는 것입니다」의 「그」가 바로 앞의 공명가를 가리키는 듯합니다. 설명한 사람은 공명가, 설명 대상은 공숙문자임을 밝히고 설명 내용을 직접 전합니다.",
+      "revised": "공명가는 과장된 소문이라고 바로잡았습니다. 공명가에 따르면 공숙문자는 말해야 할 때 말하고, 즐거울 때 웃으며, 의에 맞을 때 취했기 때문에 사람들이 싫어하지 않았습니다.",
+      "scope": "問",
+      "revision_history": [
+        {
+          "pass": "targeted_type_16_followup_3",
+          "previous_revision": "공명가는 과장된 소문이라고 바로잡았습니다. 그는 말해야 할 때 말하고, 즐거울 때 웃으며, 의에 맞을 때 취했기 때문에 사람들이 싫어하지 않았다는 것입니다.",
+          "revised": "공명가는 과장된 소문이라고 바로잡았습니다. 공명가에 따르면 공숙문자는 말해야 할 때 말하고, 즐거울 때 웃으며, 의에 맞을 때 취했기 때문에 사람들이 싫어하지 않았습니다.",
+          "reason": "「그는 … 않았다는 것입니다」의 「그」가 바로 앞의 공명가를 가리키는 듯합니다. 설명한 사람은 공명가, 설명 대상은 공숙문자임을 밝히고 설명 내용을 직접 전합니다.",
+          "approval_status": "approved",
+          "approval_message": "제이슨 반영후 더 찾아",
+          "date": "2026-09-09"
+        }
+      ],
+      "previous_revision": "공명가는 과장된 소문이라고 바로잡았습니다. 그는 말해야 할 때 말하고, 즐거울 때 웃으며, 의에 맞을 때 취했기 때문에 사람들이 싫어하지 않았다는 것입니다.",
+      "approval_status": "approved",
+      "last_revision_pass": "targeted_type_16_followup_3"
     },
     {
       "book": 14,
@@ -3871,9 +3885,9 @@
     "selector": "article.card details.st2 .qs > li > p.q, article.card details.st2 .qs > li > p.a"
   },
   "latest_style_pass": {
-    "pass": "targeted_type_13",
+    "pass": "targeted_type_16_followup_3",
     "scanned": 282,
-    "approved_applied": 4,
-    "method": "전체 최신 수정문 대상 유형 검색 후 검색 결과 문맥 검토"
+    "approved_applied": 1,
+    "method": "20편 revised 6,921개 전체 검색, 것입니다 종결 후보 문구 602개(적중 문장 617개) 문맥 검토 후 승인된 8곳 반영. 전체 문구 정독 아님."
   }
 }
