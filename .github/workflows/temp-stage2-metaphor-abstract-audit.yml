@@ -1,0 +1,57 @@
+name: TEMP Stage2 Metaphor Abstract Audit
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/temp-stage2-metaphor-abstract-audit.yml']
+permissions:
+  contents: write
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Build full review input and heuristic hits
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json,glob,re,subprocess
+          from pathlib import Path
+          files=sorted(glob.glob('sourcecards-style-polish/[0-9][0-9]-*.json'))
+          rows=[]
+          for fn in files:
+              d=json.loads(Path(fn).read_text(encoding='utf-8'))
+              for ch in d['장']:
+                  rows.append({'구절ID':ch['구절ID'],'편장':ch['편장'],'파일':fn,'여는말':ch['여는말']})
+          if len(files)!=20 or len(rows)!=498: raise SystemExit((len(files),len(rows)))
+          metaphor=['흐르','뿌리','바탕','토대','틀','길','문턱','벽','발판','열쇠','고리','축','층','그림','빛','색채','온도','거리','무게','중심','잣대','경계','흐름','연결','쌓','넓혀','걷어','비추','스며','파고','품고','끌어','밀어','열어','닫아','가리','드러내','담아','이어','퍼지','번지']
+          abstract=['맥락','구조','관계','방향','방식','차원','측면','지점','과정','상태','역할','기준','관점','의미','성격','배경','양상','범위','원리','논리','문제의식','핵심','쟁점','기능','효과','작용','전개','구도','틀에서','흐름 속','차원에서','맥락에서','관계 속','지점에서']
+          hits=[]
+          for r in rows:
+              ms=[k for k in metaphor if k in r['여는말']]
+              aa=[k for k in abstract if k in r['여는말']]
+              if ms or aa:
+                  hits.append({**r,'비유표지':ms,'추상표지':aa})
+          base=Path('sourcecards-targeted-review-7passes/cycle2-pass14-metaphor-abstract')
+          base.mkdir(parents=True,exist_ok=True)
+          head=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
+          allmd=['# 사료카드 2단계 불필요한 비유·추상표현 전수검토 입력','',f'- 기준 커밋: `{head}`','- 대상: 20파일 / 498장','']
+          for i,r in enumerate(rows,1): allmd.append(f"{i}. {r['구절ID']} | {r['편장']} | {r['여는말']}")
+          (base/'all-openings.md').write_text('\n'.join(allmd)+'\n',encoding='utf-8')
+          hmd=['# 휴리스틱 적중 목록','',f'- 전체 498장 중 적중: **{len(hits)}장**','- 표지는 검토 보조용이며 자동 수정 기준이 아님.','']
+          for i,r in enumerate(hits,1):
+              hmd.append(f"{i}. {r['구절ID']} | {r['편장']} | 비유={','.join(r['비유표지']) or '-'} | 추상={','.join(r['추상표지']) or '-'} | {r['여는말']}")
+          (base/'heuristic-hits.md').write_text('\n'.join(hmd)+'\n',encoding='utf-8')
+          (base/'heuristic-hits.json').write_text(json.dumps({'기준커밋':head,'대상장수':498,'적중장수':len(hits),'항목':hits},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          print('rows',len(rows),'hits',len(hits))
+          PY
+      - name: Commit reports
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add sourcecards-targeted-review-7passes/cycle2-pass14-metaphor-abstract/
+          git commit -m '사료카드 2단계 불필요한 비유·추상표현 전수검토 입력 생성'
+          git push origin main
