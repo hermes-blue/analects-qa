@@ -1,6 +1,6 @@
 {
   "review_type": "어색한 명사 서술어 종결(~명사입니다 및 그 과거형)",
-  "status": "사용자 승인 대기·본문 미반영",
+  "status": "사용자 승인 후 반영 완료",
   "date": "2026-09-09",
   "basis_commit": "081158454914edb3cbddcb883b93a5e689bbec4a",
   "prepublication_main": "ce61016d7dabf4b082c096ab70da95137394c8ab",
@@ -1883,5 +1883,314 @@
     "new_proposals_applied": false,
     "body_files_changed": 0,
     "all_20_body_shas_unchanged_before_publication": true
+  },
+  "application": {
+    "status": "반영 완료·원격 검증 완료",
+    "approval_message": "제이슨 반영후 같은거 계속 도려",
+    "date": "2026-09-09",
+    "base_head": "3dcddffb2096e60ab9c5302a40b8c9d563019e75",
+    "applied_body_head": "358e672ecf41bd6f7757491a116b71322ba981af",
+    "approved_sites": 16,
+    "applied_sites": 16,
+    "changed_chapters": 16,
+    "changed_files": 14,
+    "total_files": 20,
+    "total_chapters": 498,
+    "unique_ids": 498,
+    "chapter_order_preserved": true,
+    "protected_fields_preserved": true,
+    "allowed_fields": [
+      "장[].수정본문",
+      "장[].글자수 (기존 필드에 한함)"
+    ],
+    "count_rules": [
+      {
+        "after_count": 349,
+        "before_count": 355,
+        "file": "02-wijeong.json",
+        "id": "ly-02-16",
+        "mode": "줄바꿈 포함"
+      },
+      {
+        "after_count": 319,
+        "before_count": 324,
+        "file": "04-iin.json",
+        "id": "ly-04-12",
+        "mode": "줄바꿈 제외"
+      },
+      {
+        "after_count": 387,
+        "before_count": 387,
+        "file": "05-gongyajang.json",
+        "id": "ly-05-19",
+        "mode": "줄바꿈 제외"
+      },
+      {
+        "after_count": 357,
+        "before_count": 356,
+        "file": "05-gongyajang.json",
+        "id": "ly-05-21",
+        "mode": "줄바꿈 제외"
+      },
+      {
+        "after_count": 368,
+        "before_count": 372,
+        "file": "06-yongya.json",
+        "id": "ly-06-26",
+        "mode": "줄바꿈 제외"
+      },
+      {
+        "after_count": 341,
+        "before_count": 344,
+        "file": "07-suli.json",
+        "id": "ly-07-22",
+        "mode": "줄바꿈 제외"
+      },
+      {
+        "after_count": 326,
+        "before_count": 329,
+        "file": "09-jahan.json",
+        "id": "ly-09-30",
+        "mode": "줄바꿈 제외"
+      },
+      {
+        "after_count": 355,
+        "before_count": 358,
+        "file": "10-hyangdang.json",
+        "id": "ly-10-13",
+        "mode": "줄바꿈 제외"
+      },
+      {
+        "after_count": 362,
+        "before_count": 365,
+        "file": "11-seonjin.json",
+        "id": "ly-11-04",
+        "mode": "줄바꿈 제외"
+      },
+      {
+        "after_count": 409,
+        "before_count": 408,
+        "file": "13-jaro.json",
+        "id": "ly-13-11",
+        "mode": "줄바꿈 제외"
+      },
+      {
+        "after_count": 333,
+        "before_count": 340,
+        "file": "14-heonmun.json",
+        "id": "ly-14-21",
+        "mode": "줄바꿈 제외"
+      },
+      {
+        "after_count": 342,
+        "before_count": 350,
+        "file": "14-heonmun.json",
+        "id": "ly-14-27",
+        "mode": "줄바꿈 제외"
+      },
+      {
+        "after_count": 304,
+        "before_count": 313,
+        "file": "15-wiryeonggong.json",
+        "id": "ly-15-40",
+        "mode": "줄바꿈 제외"
+      },
+      {
+        "after_count": 370,
+        "before_count": 368,
+        "file": "16-gyessi.json",
+        "id": "ly-16-11",
+        "mode": "줄바꿈 제외"
+      },
+      {
+        "after_count": 368,
+        "before_count": 361,
+        "file": "17-yanghwa.json",
+        "id": "ly-17-13",
+        "mode": "줄바꿈 제외"
+      },
+      {
+        "after_count": 392,
+        "before_count": 398,
+        "file": "19-jajang.json",
+        "id": "ly-19-16",
+        "mode": "줄바꿈 제외"
+      }
+    ],
+    "body_commits": [
+      {
+        "commit_sha": "2cec7b3ff1d79e45ac30e165f82de93974cc1dba",
+        "content_sha": "9c876a056d3a515dd9255258f617007efe09eb55",
+        "file": "02-wijeong.json"
+      },
+      {
+        "commit_sha": "92ee899d0b272bc30713a90a2e5e27d053fc3fba",
+        "content_sha": "8fb16ade9de76dc4bdef55a7f73263b9ad098430",
+        "file": "04-iin.json"
+      },
+      {
+        "commit_sha": "1c7c3ee513f8d2af2c6b2e61c38457da0e22cf9d",
+        "content_sha": "3630311f02abd6cc494f5642f787378ad894210b",
+        "file": "05-gongyajang.json"
+      },
+      {
+        "commit_sha": "fd1e58578c11e6ae7ad2e7333b9abe6e6c4c4be1",
+        "content_sha": "67817bceb052ec3b421dfcd057ebe2d5cf05d594",
+        "file": "06-yongya.json"
+      },
+      {
+        "commit_sha": "fd6e943ae9c2ce6a454b52853f6be9a60f159df0",
+        "content_sha": "deca361fe1f838b14b090561a7583f79d14b6b24",
+        "file": "07-suli.json"
+      },
+      {
+        "commit_sha": "e1fcc886b022730c3702c8cbc66d3729c3d11de2",
+        "content_sha": "36cc133c9235dccf43fd576875440b02d52faab6",
+        "file": "09-jahan.json"
+      },
+      {
+        "commit_sha": "41ed173a5b923c1f6986ccfbe693a2e2a535b0f8",
+        "content_sha": "dacbe4f855cc2672133056bf08d69df0da41a0d9",
+        "file": "10-hyangdang.json"
+      },
+      {
+        "commit_sha": "0a2c81fd3dccc59fead0bbc11ff973b205fa1287",
+        "content_sha": "e4366c0e10338f2c474ecac1e3eceafd9471f32e",
+        "file": "11-seonjin.json"
+      },
+      {
+        "commit_sha": "214057dd122213f6d102b7beea9c7edf38ac4a82",
+        "content_sha": "eb65134d69b47f659ae782b1e2c85068d6161116",
+        "file": "13-jaro.json"
+      },
+      {
+        "commit_sha": "97d44ad50a6ac6dffeb895f7ba2aa6063a1bb80e",
+        "content_sha": "7b852993e84ee3ef810ef2beab66888a77e21960",
+        "file": "14-heonmun.json"
+      },
+      {
+        "commit_sha": "23efa02ae1fb349d7071d175c77900382c9b57cf",
+        "content_sha": "8096281e7f29fd61201c19dcc1479d4b3deccbbd",
+        "file": "15-wiryeonggong.json"
+      },
+      {
+        "commit_sha": "d58c313ea4946411feb569123efae93340a75930",
+        "content_sha": "323cae9355147ca6a25c9ab7466aca0cc18387ab",
+        "file": "16-gyessi.json"
+      },
+      {
+        "commit_sha": "c6bee5e44c8ffffcf60a9b4beb23161f752eb289",
+        "content_sha": "a517a820119a30506711243513dd3cbc326336e9",
+        "file": "17-yanghwa.json"
+      },
+      {
+        "commit_sha": "358e672ecf41bd6f7757491a116b71322ba981af",
+        "content_sha": "91e4ce6d5af9cc0c116fc35110ec3e6cc5c1acd2",
+        "file": "19-jajang.json"
+      }
+    ],
+    "remote_files": [
+      {
+        "exact": true,
+        "file": "01-hakyi.json",
+        "sha": "96c5ffdfbf4ee3c6116ad1f3cbe7fc000fb37f97"
+      },
+      {
+        "exact": true,
+        "file": "02-wijeong.json",
+        "sha": "9c876a056d3a515dd9255258f617007efe09eb55"
+      },
+      {
+        "exact": true,
+        "file": "03-palil.json",
+        "sha": "27597088af76a82376d8b29f8239e9df7b5fefeb"
+      },
+      {
+        "exact": true,
+        "file": "04-iin.json",
+        "sha": "8fb16ade9de76dc4bdef55a7f73263b9ad098430"
+      },
+      {
+        "exact": true,
+        "file": "05-gongyajang.json",
+        "sha": "3630311f02abd6cc494f5642f787378ad894210b"
+      },
+      {
+        "exact": true,
+        "file": "06-yongya.json",
+        "sha": "67817bceb052ec3b421dfcd057ebe2d5cf05d594"
+      },
+      {
+        "exact": true,
+        "file": "07-suli.json",
+        "sha": "deca361fe1f838b14b090561a7583f79d14b6b24"
+      },
+      {
+        "exact": true,
+        "file": "08-taebaek.json",
+        "sha": "8d411e0040aa5c71d4ba72914a676fc61ef12cf2"
+      },
+      {
+        "exact": true,
+        "file": "09-jahan.json",
+        "sha": "36cc133c9235dccf43fd576875440b02d52faab6"
+      },
+      {
+        "exact": true,
+        "file": "10-hyangdang.json",
+        "sha": "dacbe4f855cc2672133056bf08d69df0da41a0d9"
+      },
+      {
+        "exact": true,
+        "file": "11-seonjin.json",
+        "sha": "e4366c0e10338f2c474ecac1e3eceafd9471f32e"
+      },
+      {
+        "exact": true,
+        "file": "12-anyeon.json",
+        "sha": "d82c22b063eba5dd3f6c463b0ede2bd8805ffc0d"
+      },
+      {
+        "exact": true,
+        "file": "13-jaro.json",
+        "sha": "eb65134d69b47f659ae782b1e2c85068d6161116"
+      },
+      {
+        "exact": true,
+        "file": "14-heonmun.json",
+        "sha": "7b852993e84ee3ef810ef2beab66888a77e21960"
+      },
+      {
+        "exact": true,
+        "file": "15-wiryeonggong.json",
+        "sha": "8096281e7f29fd61201c19dcc1479d4b3deccbbd"
+      },
+      {
+        "exact": true,
+        "file": "16-gyessi.json",
+        "sha": "323cae9355147ca6a25c9ab7466aca0cc18387ab"
+      },
+      {
+        "exact": true,
+        "file": "17-yanghwa.json",
+        "sha": "a517a820119a30506711243513dd3cbc326336e9"
+      },
+      {
+        "exact": true,
+        "file": "18-mija.json",
+        "sha": "36aa367146677874a8a3170b9c735416816e212f"
+      },
+      {
+        "exact": true,
+        "file": "19-jajang.json",
+        "sha": "91e4ce6d5af9cc0c116fc35110ec3e6cc5c1acd2"
+      },
+      {
+        "exact": true,
+        "file": "20-yowal.json",
+        "sha": "adf1b1f363740361dbc52878b0a802d4e5d4dbcc"
+      }
+    ],
+    "new_proposals_in_this_application": 0
   }
 }
